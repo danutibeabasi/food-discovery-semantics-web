@@ -1,0 +1,245 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lcr.coopcycle.org/api/restaurants/40> ns1:hasMenu <https://lcr.coopcycle.org/en/restaurant/40-presto-par-mono#menu> .
+
+<https://lcr.coopcycle.org/en/restaurant/40-presto-par-mono#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "San Pellegrino, eau pétillante 50cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425ca999ac5c.jpeg> ;
+                    ns1:name "San Pellegrino 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Coca-Cola Original 33cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425b0aca65f6.jpeg> ;
+                    ns1:name "Coca-Cola 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Coca-Cola Sans sucre 33cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425b0f570907.jpeg> ;
+                    ns1:name "Coca-Cola Sans sucre 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Limonade fruits de la passion Bio 33cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425c2911bc74.jpeg> ;
+                    ns1:name "Lemonaid Passion" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thé noir au citron Bio 33cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425afdf8ce87.jpeg> ;
+                    ns1:name "Charitea Black 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Rooibos bio glace aux fruits de la passion 33cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425b01443ec1.jpeg> ;
+                    ns1:name "Charitea Red 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Eau minérale naturelle de Bretagne 50cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/8f/638f7e6471d27.jpeg> ;
+                    ns1:name "Plancoët 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Limonade citron vert Bio 33cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425c22020f70.jpeg> ;
+                    ns1:name "Lemonaid Citron vert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ] ;
+            ns1:name "Softs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "DOC Lambrusco doux Donna Lorenza Rose 75cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425c17e7939b.jpeg> ;
+                    ns1:name "Lambrusco Rosé 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière Italienne Poretti 33cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425ae7de3eb1.jpeg> ;
+                    ns1:name "Bière Poretti 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Terra Sicilia Catarrato Chardonnay - Blanc IGT BIO 75cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425cb5ae360d.jpeg> ;
+                    ns1:name "Terra Sicilia Blanc 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sicilia Nero d'Avola - Rouge IGT BIO 75cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425c6aebf9a5.jpeg> ;
+                    ns1:name "Nero d’Avola Rouge 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "DOC Lambrusco doux Donna Lorenza Rouge 75cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425c1ca7f860.jpeg> ;
+                    ns1:name "Lambrusco Rouge 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sicilia Nero d'Avola - Rosé IGT BIO 75cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425c65ee339e.jpeg> ;
+                    ns1:name "Nero d’Avola Rosé 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ] ;
+            ns1:name "Alcools" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Base pesto de basilic maison, mozzarella fior di latte, saumon fumé, éclats d'amandes, burrata des pouilles, filet d'huile d'olive et amore" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425ca5ac5d54.jpeg> ;
+                    ns1:name "Salmo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomates San Marzano, mozzarella fior di latte, champignons, tomates cerise, artichauts, olives, burrata des pouilles, filet d'huile d'olive et amore" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425adc280d34.jpeg> ;
+                    ns1:name "4 Saisons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomates San Marzano, mozzarella fior di latte, provola, gorgonzola, copeaux de parmesan, filet d'huile d'olive et amore" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425b048cbb4a.jpeg> ;
+                    ns1:name "Cheese lover" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomates San Marzano, fior di latte, champignons, jambon aux herbes, basilic frais, filet d'huile d'olive et amore" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425c9b10a98d.jpeg> ;
+                    ns1:name "Queen" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomates San Marzano, mozzarella fior di latte, aubergines, ricotta salata, filet d'huile d'olive et amore" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425c89544679.jpeg> ;
+                    ns1:name "Parmigiana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base pesto de basilic maison, mozzarella fior di latte, tomates confites, burrata des pouilles, filet d'huile d'olive et amore" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425c96ba6cf5.jpeg> ;
+                    ns1:name "Puglia mia vita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème de truffe noire d’été, mozzarella fior di latte, basilic frais, filet d'huile d'olive et amore" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425ae4b13d1c.jpeg> ;
+                    ns1:name "Black love" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomates San Marzano, mozzarella fior di latte, roquette, jambon cru Italien, filet d'huile d'olive et amore" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425c10492f04.jpeg> ;
+                    ns1:name "La crudo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella Fior di latte, gorgonzola, poires rôties, speck dell' Alto Adige, miel, filet d'huile d'olive et amore" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425c0a9de55e.jpeg> ;
+                    ns1:name "La caramella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomates San Marzano, mozzarella fior di latte, tomates confites, pesto maison, filet d'huile d'olive et amore" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425c56858e12.jpeg> ;
+                    ns1:name "Margherita 2.0" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomates San Marzano, mozzarella fior di latte, basilic frais, filet d'huile d'olive et amore" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425c33dd9fd1.jpeg> ;
+                    ns1:name "Margherita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème de courgette maison, mozzarella fior di latte, courgettes, lard de Colonnata, filet d'huile d'olive et amore" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425c61d22d6b.jpeg> ;
+                    ns1:name "Nerano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomates San Marzano, mozzarella fior di latte, spianata, piments vert frais, filet d'huile d'olive et amore" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425c842505ca.jpeg> ;
+                    ns1:name "On fire" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella fior di latte, provola, speck dell' Alto Adige, poivre vert du moulin, filet d'huile d'olive et amore" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425b15cdbfd8.jpeg> ;
+                    ns1:name "Fuma fuma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ricotta, mozzarella fior di latte, saucisse piquante Napolitaine, filet d'huile d'olive et amore" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425aed7dd10e.jpeg> ;
+                    ns1:name "Calzone piccante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ] ;
+            ns1:name "Pizza Napolitaines" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Vanille et coulis de fruits rouges" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/8f/638f7e0c764be.jpeg> ;
+                    ns1:name "Panna cotta maison" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain au nocciolata, noisettes concassées et sucre glace" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425c7fa9e3f8.jpeg> ;
+                    ns1:name "Nocciolata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Le classique, au café. Crème mascarpone, biscuit imbibé au café, chocolat noir et cacao" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/8f/638f7fbd0e479.jpeg> ;
+                    ns1:name "Tiramisu maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/8f/638f799766840.jpeg> ;
+                    ns1:name "Brownie maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomate San Marzano, anchois, ail, origan, basilic frais et huile d'olive." ;
+                    ns1:name "Marinara 2.0" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/25/6425a8fac00f0.jpeg> ;
+                    ns1:name "Pizza di Morgana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ] ;
+            ns1:name "Nuovo" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Burrata 125g, huile d'olive extra vierge bio" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/8f/638f79cd86423.jpeg> ;
+                    ns1:name "Burrata à partager" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Huile d'olive extra vierge bio, origan et parmesan" ;
+                    ns1:name "Focaccia classique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Burrata 125g, huile d'olive extra vierge bio et crème de truffe" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/8f/638f79f0a6677.jpeg> ;
+                    ns1:name "Burrata truffe à partager" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ] ;
+            ns1:name "Delizioso" ] .
+

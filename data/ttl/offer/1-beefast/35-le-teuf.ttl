@@ -1,0 +1,306 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://beefast.coopcycle.org/api/restaurants/35> ns1:hasMenu <https://beefast.coopcycle.org/en/restaurant/35-le-teuf#menu> .
+
+<https://beefast.coopcycle.org/en/restaurant/35-le-teuf#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Pâtes Noix de Saint-Jacques" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce au choix" ;
+                    ns1:name "Raviolis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jambon cru, sauce béchamel" ;
+                    ns1:name "Gratin de pâtes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gratinée, sauce béchamel" ;
+                    ns1:name "Lasagnes de fruits de mer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jambon cru, chèvre" ;
+                    ns1:name "Millefeuille de lasagnes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gratinés au four" ;
+                    ns1:name "Spaghettis à la bolognaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gratinée, sauce bolognaise" ;
+                    ns1:name "Lasagnes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lardons, oeuf cru, crème" ;
+                    ns1:name "Spaghettis carborana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.80" ] ] ;
+            ns1:name "Pâtes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Bière" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75cl" ;
+                    ns1:name "Vin du mois" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Coca Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75cl Rouge" ;
+                    ns1:name "Chianti" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75cl Rosé" ;
+                    ns1:name "Bardolino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.60" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Tarte aux pommes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crème caramel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Gâteau au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Chèvre, miel, fromage, salade de saison, huile d'olive" ;
+                    ns1:name "Blanche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gorgonzola, ail, huile d'olive" ;
+                    ns1:name "Gorgonzola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.80" ] ] ;
+            ns1:name "Pizzas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Sauce bolognaise, oignons, fromage, origano" ;
+                    ns1:name "Bolo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jambon, Fromage, champignons, origano" ;
+                    ns1:name "Elizabetha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Champignons, tomates, olives, artichaud, poivrons, fromage" ;
+                    ns1:name "Végétarienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jambon fromage, ail, oignons, oeuf cru, origano" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/64/90/649069c3e6fe6.jpeg> ;
+                    ns1:name "Calzone" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jambon, Artichaud, anchois, champignons, fromage, olives, origano" ;
+                    ns1:name "Teuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Merguez, fromage, chorizo, origano" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/64/90/64906a6253e66.jpeg> ;
+                    ns1:name "Vésuvio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Merguez, poivrons, oignons, origano" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/64/90/64906938527ce.jpeg> ;
+                    ns1:name "Odile" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Merguez, artichaud, oeuf cru, oignons, origano" ;
+                    ns1:name "Bianca" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thon, câpres, poivrons, oeuf dur, anchois, olives, origano" ;
+                    ns1:name "Tunisienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fromage à pizza, gruyère, parmesan, origano" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/64/90/64906a89b5ae9.jpeg> ;
+                    ns1:name "3 Fromages" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chorizo, champignons, fromage, origano" ;
+                    ns1:name "Roma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon, noix de St-Jacques, fromage, beurre aillé" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/64/90/64906955d7c04.jpeg> ;
+                    ns1:name "Océane" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Champignons, fromage, ail, jambon, origano" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/64/90/649069f0b6320.jpeg> ;
+                    ns1:name "Capri" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boeuf haché, champignons, fromage, oeuf dur, origano" ;
+                    ns1:name "Campione" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.80" ] ] ;
+            ns1:name "Pizzas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Ficelle Picarde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Garni Frites ou pâtes, sauce au choix" ;
+                    ns1:name "Entrecôte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Garni frites, pain, steack haché, cheddar, cornichon, tomate, salade, sauce BBQ" ;
+                    ns1:name "Burger barbecue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Garnie pâtes, sauce vin blanc" ;
+                    ns1:name "Marmite Saint-Jacques" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Garni frites, pain, steack haché, tomates séchées, gorognzola, poitrine fumée, roquette, sauce pesto" ;
+                    ns1:name "Burger Italien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Garni frites, pain, steack haché, oignons, cheddar, cornichon, tomate, salade, sauce burger" ;
+                    ns1:name "Teuf Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pommes de terre, lardons, gorgonzola, crème fraîche" ;
+                    ns1:name "Tartiflette piémontaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.20" ] ] ;
+            ns1:name "Plats & Viandes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Poivrons, poulet, oignons, tomate, fromage" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/64/90/649069837fb56.jpeg> ;
+                    ns1:name "Mexicaine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cheddar, bacon, oignons, emmental, oeuf cru, ciboulette" ;
+                    ns1:name "Cheddar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poivrons, champignons, fromage, origano" ;
+                    ns1:name "Pizzaïol" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boeuf haché, sauce barbecue, oeuf cru, champignons, oignons, fromage" ;
+                    ns1:name "Texane" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fruits de mer, fromage, beurre aillé" ;
+                    ns1:name "Diva" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Magret de Canard fumé, confiture de figues, champignons, fromage" ;
+                    ns1:name "Landaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lardons, poivrons, champignons, artichaut, origano" ;
+                    ns1:name "Crèma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jambon cru, champignons, fromage, origano" ;
+                    ns1:name "Savoyarde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fromage de chèvre, Miel" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/64/90/6490690c2aa32.jpeg> ;
+                    ns1:name "Chèvre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "creme, pomme de terre, jambon cru, fromage a pizza, oignons rouges, raclette, origan" ;
+                    ns1:name "pizza raclette" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon fumé, tomates fraîches, champignons, origano" ;
+                    ns1:name "Nordique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jambon cru, tomates séchées, champignons, oignons, fromage, basilic" ;
+                    ns1:name "Adriatico" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bacon, Champignons, emmental, oeuf, ciboulette" ;
+                    ns1:name "Campagnarde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.20" ] ] ;
+            ns1:name "Pizzas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella, tomates, jambon cru, basilic" ;
+                    ns1:name "Mozza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jambon cru, comté, tomates, champignons, olives, roquette" ;
+                    ns1:name "Paolo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thon, Tomates, maïs, oeuf dur, salade verte" ;
+                    ns1:name "Teuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jambon, tomates, gruyère, champignons frais, salade verte" ;
+                    ns1:name "Printanière" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "Salades" ] .
+

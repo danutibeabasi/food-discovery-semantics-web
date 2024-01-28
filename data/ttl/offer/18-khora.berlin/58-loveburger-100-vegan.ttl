@@ -1,0 +1,307 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://khora.berlin/en/restaurant/58-loveburger-100-vegan> ns1:hasMenu <https://khora.berlin/en/restaurant/58-loveburger-100-vegan#menu> .
+
+<https://khora.berlin/en/restaurant/58-loveburger-100-vegan#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """*Curry - Vollkornreis *Bio Tempeh mit Teriyaki Marinade *gebackene Aubergine mit Fünf-Gewürze *Koreanischer Coleslaw *Salat *Paprika *Gurken\r
+*Kohlrabi *Cherry Tomaten *Minze *Thai Basilikum *Frühlingszwiebeln *Koriander \r
+*Sesamsamen *Erdnussbutter-Miso Soße
+\r
+*curried wholegrain rice *bio  tempeh with teriyaki marinade *baked aubergine with 5-spice mix *Korean coleslaw *lettuce *red peppers *cucumbers *kohlrabi *cherry tomatoes *mint *thai basil *spring onions *coriander *sesame seeds\r
+*peanut butter – miso sauce""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/60/79/6079f62cf057d.jpeg> ;
+                    ns1:name "Tempeh Bowl" ;
+                    ns1:nutrition "Mustard",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.60" ] ] ;
+            ns1:name "BOWLS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """BBQ Soja Steak * karamellisierte rote Zwiebeln mit Sauerkirschen * Rucola * Salat * Gewürzgurken * Senfsoße\r
+BBQ soy steak * caramelized red onion with cherries * rocket salad * lettuce pickles * mustard sauce""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a5/5ea5957f02edc.jpg> ;
+                    ns1:name "Deutsch/ German" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Mustard",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bio Tofu Scheiben marinierte in grünem Curry * Salat * Möhren * Gurken * Radieschen * Paprika * Zwiebeln * Erdnüsse * frische Thai Kräuter * Thai Basilikum Mayo\r
+Bio tofu slices marinated in green curry * lettuce * carrots * cucumbers * daikon radish * red peppers * onions * peanuts\r
+* Thai fresh herbs * Thai basil mayo""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a5/5ea599630aac1.jpg> ;
+                    ns1:name "Thai" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Mustard",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Linsen-Gemüse Italienisches Patty * Salat * Rucola * Gurken * Möhren * Paprika * Zwiebeln * Getrocknete Tomaten * Oliven * Cherry Tomate * Tomaten-Oregano Soße * Basilikum Mayo\r
+lentil–veggies Italian patty * lettuce * rocket salad * cucumbers * carrots * red peppers * onions * sundried tomatoes * olives\r
+* cherry tomato * tomato-oregano sauce * basil mayo""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a5/5ea599510a6e7.jpg> ;
+                    ns1:name "Italienisch/ Italian" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Mustard",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """♥ hausgemachte Falafel Patty (enthält Gluten) ♥ Salad ♥ Möhren ♥ Gurken ♥ Rote Beete ♥ Kohlrabi ♥ Zwiebeln mit Sumach ♥ Minze ♥ Petersilie♥ Grüne Tahini Soße
+\r
+♥ homemade falafel patty (contains gluten)\r
+♥ lettuce ♥ carrots ♥ cucumbers ♥ beetroots♥ kohlrabi ♥ sumac onions ♥ mint ♥ parsley\r
+♥ green tahini dressing""" ;
+                    ns1:name "Special Burger Libanesisch" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "BURGERS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "5,8%" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a8/5ea86d6eaaa36.jpg> ;
+                    ns1:name "Ayinger Bier Urweisse 0,5" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Craft beer from Berlin 4,9%" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a8/5ea87405e3e94.jpg> ;
+                    ns1:name "Heidenpeters Bier Pilz 0,33" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4,9%" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a8/5ea86ca8acb2e.jpg> ;
+                    ns1:name "Ayinger Bier Kellerbier 0,5" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4,9%" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a8/5ea86ccd08888.jpg> ;
+                    ns1:name "Ayinger Bier Lager Hell 0,5" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/ea/5eea2a365c7f9.png> ;
+                    ns1:name "OSTMOST OUTCIDER" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Craft beer from Berlin 6,5%" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a8/5ea8737685af7.jpg> ;
+                    ns1:name "Heidenpeters Bier IPA 0,33" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Craft beer from Berlin 5,3%" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a8/5ea873bed07d9.jpg> ;
+                    ns1:name "Heidenpeters Bier Pale Ale 0,33" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2,6 %" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/c8/5ec802125328f.jpg> ;
+                    ns1:name "Ayinger Bier Radler 0,5" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ] ;
+            ns1:name "Alkoholische Getränke/ Alcoholic beverages" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a8/5ea87689320a7.jpg> ;
+                    ns1:name "Pommes/ French Fries" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a5/5ea5ba766f6e7.jpg> ;
+                    ns1:name "Wedges (Kartoffelecken)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a8/5ea8791f59061.jpg> ;
+                    ns1:name "Süßkartoffel Pommes/ Sweet Potato Fries" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Weißkohl, Rotkohl, Lauch, Möhren, Chilipaste, Ingwer, Sesam-Mayo \r
+Cabbage, red cabbage, leeks, carrots, Gochujang paste, ginger, sesame mayo""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5f/9c/5f9c36f664f20.jpeg> ;
+                    ns1:name "Koreanischer Coleslaw" ;
+                    ns1:nutrition "Mustard",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Gemischter Salat mit Kernen und Himbeer Vinaigrette\r
+Salat Mix with Seeds and Raspberry Vinaigrette""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a8/5ea877fd85152.jpg> ;
+                    ns1:name "Side Salat" ;
+                    ns1:nutrition "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Weißkohl * Rotkohl * Rote Beete * Möhren * Vegane Mayo \r
+red and white cabbage * carrots * beetroots * vegan mayo""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a8/5ea876f9c77a0.jpg> ;
+                    ns1:name "Coleslaw" ;
+                    ns1:nutrition "Mustard",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "SIDES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a9/5ea9c2e2f2a74.jpg> ;
+                    ns1:name "Vegane Mayo/ Vegan Mayo" ;
+                    ns1:nutrition "Mustard",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a9/5ea9c2673b750.jpg> ;
+                    ns1:name "Ketchup" ;
+                    ns1:nutrition "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a8/5ea876130df95.jpg> ;
+                    ns1:name "Frische Chili/ Fresh Chillies" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a9/5ea9cb7612998.jpg> ;
+                    ns1:name "Senf Soße/ Mustard Sauce" ;
+                    ns1:nutrition "Mustard",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a8/5ea8751bdd31e.jpg> ;
+                    ns1:name "Jalapeños" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a9/5ea9c1f907e7a.jpg> ;
+                    ns1:name "Veganer Käse/  Vegan Cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a9/5ea9cc1f90fda.jpg> ;
+                    ns1:name "Tomato-oregano sauce" ;
+                    ns1:nutrition "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a9/5ea9c33845acd.jpg> ;
+                    ns1:name "Basil Mayo" ;
+                    ns1:nutrition "Mustard",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a9/5ea9c83fd1846.jpg> ;
+                    ns1:name "Thai Basil Mayo" ;
+                    ns1:nutrition "Mustard",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ] ;
+            ns1:name "EXTRAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a8/5ea86f4e2f427.jpg> ;
+                    ns1:name "FOUNTAIN OF YOUTH Kokosnusswasser/ Coconut water" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a8/5ea871d780a45.png> ;
+                    ns1:name "Fritz-limo Zitrone 0,33" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a8/5ea878cdd5818.jpg> ;
+                    ns1:name "Spree Quell Wasser/ Water Still 0,33" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "330ml, BIO" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/ea/5eea294c6b1d6.jpg> ;
+                    ns1:name "OSTMOST Apfel-Rote-Bete Schorle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a8/5ea872233de6d.jpg> ;
+                    ns1:name "Fritz-spritz Apfelshorle 0,33" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/5e/615ea76252e02.jpeg> ;
+                    ns1:name "Kellerbier alkoholfrei/ non-alcoholic 0,5" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a8/5ea871a48d94e.png> ;
+                    ns1:name "Fritz-limo Orange 0,33" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a8/5ea8712d344aa.jpg> ;
+                    ns1:name "Fritz-kola 0,33" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "330ml, BIO" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/ea/5eea29c136c81.jpg> ;
+                    ns1:name "OSTMOST PARADIES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "330ml; BIO" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/ea/5eea28b9dc3b6.jpg> ;
+                    ns1:name "OSTMOST Apfel Saft" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a8/5ea86e6c4ed95.jpg> ;
+                    ns1:name "CLUB MATE 0,5" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a8/5ea872d889afa.png> ;
+                    ns1:name "Fritz-spritz Rhabarberschorle 0,33" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a8/5ea878b3c1436.jpg> ;
+                    ns1:name "Spree Quell Wasser/ Water Sparkling 0,33" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/a8/5ea870a602578.jpg> ;
+                    ns1:name "Fritz-kola (Zuckerfrei/ Sugarfree) 0,33" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ] ;
+            ns1:name "Alkoholfrei/ Soft drinks" ] .
+

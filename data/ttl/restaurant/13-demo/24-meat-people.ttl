@@ -1,0 +1,51 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://demo.coopcycle.org/api/restaurants/24> a ns1:Restaurant ;
+    ns1:address <https://demo.coopcycle.org/api/addresses/74> ;
+    ns1:bannerImage "https://demo.coopcycle.org/placeholder/restaurant_banner/placeholders/g6DkdGmZWwMP.jpg" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.88549e+01 ;
+            ns1:longitude 2.35514e+00 ] ;
+    ns1:image <https://demo.coopcycle.org/media/cache/restaurant_thumbnail/5f/d5/5fd5d0f5bd787.jpg> ;
+    ns1:name "Meat people" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:45" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "20:15" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:15" ;
+            ns1:dayOfWeek "Saturday",
+                "Sunday" ;
+            ns1:opens "09:15" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "00:30" ;
+            ns1:dayOfWeek "Saturday",
+                "Sunday" ;
+            ns1:opens "19:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:15" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "10:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://demo.coopcycle.org/en/restaurant/24-meat-people" ] ] ;
+    ns1:sameAs <https://demo.coopcycle.org/en/restaurant/24-meat-people> ;
+    ns1:url <https://demo.coopcycle.org/en/restaurant/24-meat-people> .
+
+<https://demo.coopcycle.org/api/addresses/74> a ns1:PostalAddress ;
+    ns1:name "Meat people" ;
+    ns1:streetAddress "4 Rue des Barres, 75004 Paris 4e Arrondissement, France" ;
+    ns1:telephone "+33585612937" .
+

@@ -1,0 +1,107 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://sicklo.coopcycle.org/api/restaurants/58> ns1:hasMenu <https://sicklo.coopcycle.org/en/restaurant/58-cafe-foch#menu> .
+
+<https://sicklo.coopcycle.org/en/restaurant/58-cafe-foch#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Le plat du jour (du jour) et sa petite salade avec l'entrée de la semaine OU un dessert!
+\r
+- Lundi 1 : \r
+- Mardi 2 : Carbonnade flamande, purée\r
+- Mercredi 3 : Risotto aux poireaux et légumes rôtis au curcuma [VEGGIE]\r
+- Jeudi 4 : Rôti de porc au miel et à la moutarde, patates au four\r
+- Vendredi 22 : Crevettes et légumes au lait de coco, riz""" ;
+                    ns1:name "La mi formule" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Le plat du jour (du jour) et sa petite salade avec l'entrée de la semaine OU un dessert!
+\r
+- Lundi 1 : \r
+- Mardi 2 : Carbonnade flamande, purée\r
+- Mercredi 3 : Risotto aux poireaux et légumes rôtis au curcuma [VEGGIE]\r
+- Jeudi 4 : Rôti de porc au miel et à la moutarde, patates au four\r
+- Vendredi 22 : Crevettes et légumes au lait de coco, riz""" ;
+                    ns1:name "Plat du Jour seul" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Le plat du jour (du jour) et sa petite salade avec l'entrée de la semaine OU un dessert!
+\r
+- Lundi 1 : \r
+- Mardi 2 : Carbonnade flamande, purée\r
+- Mercredi 3 : Risotto aux poireaux et légumes rôtis au curcuma [VEGGIE]\r
+- Jeudi 4 : Rôti de porc au miel et à la moutarde, patates au four\r
+- Vendredi 22 : Crevettes et légumes au lait de coco, riz""" ;
+                    ns1:name "La Totale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ] ;
+            ns1:name "Les formules avec le plat du Jour 🍴" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Soupe à l'oignon, toast" ;
+                    ns1:name "Entrée de la semaine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "L'entrée de la semaine 🥗" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Irvoy, Brasserie Grenobloise, bonne et BIO (33cl)" ;
+                    ns1:name "Bière ambrée \"Arem Aourek\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Irvoy, Brasserie Grenobloise, bonne et BIO (33cl)" ;
+                    ns1:name "Bière blanche \"Hefeweizen\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bouteille d'eau 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-cola 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Perrier 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Irvoy, Brasserie Grenobloise, bonne et BIO (33cl)" ;
+                    ns1:name "Bière \"Séance IPA\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ] ;
+            ns1:name "Boissons 🥤🍻" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Faux filet grillé, sauce aux cèpes, frites maison et salade 
+\r
+(cuisson saignante, à manger rapidement !)""" ;
+                    ns1:name "La viande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Au saumon frais, salade" ;
+                    ns1:name "Le Gratin de Ravioles" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain au levain naturel, épinard et chèvre servi avec nos frites maison et salade" ;
+                    ns1:name "Le Croq' Végé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ] ;
+            ns1:name "Les Suggestions du Foch ⭐️🍔🍽️" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Verrine myrtille, fromage blanc et biscuit" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crumble poires, noisettes et chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Les desserts de la Semaine 🍰" ] .
+

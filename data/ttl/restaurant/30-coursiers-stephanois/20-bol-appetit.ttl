@@ -1,0 +1,47 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://coursiers-stephanois.coopcycle.org/api/restaurants/20> a ns1:Restaurant ;
+    ns1:address <https://coursiers-stephanois.coopcycle.org/api/addresses/2778> ;
+    ns1:bannerImage "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_banner/65/98/65983b71d7f91.jpeg" ;
+    ns1:description """Bol'appétit est un concept de restauration Asiatique Vietnamien à Saint Étienne, basé sur un bol de nouilles sautées cuit sur un grill géant face au public et vous proposant une cuisine spectacle "Grill & Wok" de Saïgon .\r
+\r
+Offrez-vous un repas exotique au restaurant Bol'appétit dans une ambiance contemporaine, dont la Cheffe Émilie Béal vous concocte des plats "faits maison" avec des produits frais et raffinés.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.54481e+01 ;
+            ns1:longitude 4.38349e+00 ] ;
+    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560c892b0fb8.jpg> ;
+    ns1:name "Bol'appétit" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "09:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:30" ;
+            ns1:dayOfWeek "Friday" ;
+            ns1:opens "18:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "13.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.50" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://coursiers-stephanois.coopcycle.org/en/restaurant/20-bol-appetit" ] ] ;
+    ns1:sameAs <https://coursiers-stephanois.coopcycle.org/en/restaurant/20-bol-appetit> ;
+    ns1:url <https://coursiers-stephanois.coopcycle.org/en/restaurant/20-bol-appetit> .
+
+<https://coursiers-stephanois.coopcycle.org/api/addresses/2778> a ns1:PostalAddress ;
+    ns1:name "Bol'appétit" ;
+    ns1:streetAddress "9 Rue Clovis Hugues, 42000 Saint-Étienne, France" ;
+    ns1:telephone "+33477749315" .
+

@@ -1,0 +1,84 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://samo.coopcycle.org/api/restaurants/2> ns1:hasMenu <https://samo.coopcycle.org/en/restaurant/2-alter-restaurant#menu> .
+
+<https://samo.coopcycle.org/en/restaurant/2-alter-restaurant#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Salade de lentilles aux échalotes marinées, crudités et croutons fumés\r
+100% bio""" ;
+                    ns1:name "La salade" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Quiche lorraine\r
+100% bio""" ;
+                    ns1:name "La tarte salée" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Velouté de céleri rave au lait de coco\r
+100% bio""" ;
+                    ns1:name "La soupe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Entrées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Poule au pot, légumes de printemps et riz de Camargue\r
+100% bio""" ;
+                    ns1:name "Le plat de viande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Le plat de riz ou pâtes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Sauté de seiche à la provençale, riz noir vénéré\r
+Poisson sauvage""" ;
+                    ns1:name "Le plat de poisson" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Feuilleté Wellington aux légumes\r
+100% bio""" ;
+                    ns1:name "Le plat végétarien" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Entremets feuilletine, caramel, choco et noisettes\r
+100% bio""" ;
+                    ns1:name "L'entremets / le gâteau" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Tarte sarrasin et crème d'orange\r
+100% bio""" ;
+                    ns1:name "La tarte sucrée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Chou citron\r
+100% bio""" ;
+                    ns1:name "Le chou" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Desserts" ] .
+

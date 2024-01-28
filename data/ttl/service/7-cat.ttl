@@ -1,0 +1,20 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cat.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "de" ;
+                    ns1:addressLocality "Halle" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 5.147099e+01 ;
+                    ns1:longitude 1.196318e+01 ] ] ;
+    ns1:description "Your ecological and fair delivery service in Halle."@en ;
+    ns1:name "Cat-Kurierkollektiv" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:sameAs <https://www.facebook.com/Catkurier/>,
+        <https://www.instagram.com/cat_kurierkollektiv/> ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://cat.coopcycle.org> .
+

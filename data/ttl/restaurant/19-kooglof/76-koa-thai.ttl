@@ -1,0 +1,52 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://kooglof.coopcycle.org/api/restaurants/76> a ns1:Restaurant ;
+    ns1:address <https://kooglof.coopcycle.org/api/addresses/37763> ;
+    ns1:bannerImage "https://kooglof.coopcycle.org/media/cache/restaurant_banner/65/6e/656e0fcb3f6a8.jpg" ;
+    ns1:description """Découvrez une cuisine thaïlandaise riche et authentique, exécutés par la cheffe Sukanya Maneewong.\r
+\r
+Au menu, des plats au wok tels que le Pad Thaï aux crevettes, le sauté de porc au basilic sacré, le riz sauté aux légumes, \r
+des plats au grill comme des brochettes de poulet sauce satay, des currys, des salades authentiques thaï comme la Som\r
+Tam, et bien plus encore !\r
+\r
+Livraison de repas à Strasbourg et alentours !\r
+\r
+Tous ces plats sont fait maison à base de produits frais et originaux venant de Thaïlande.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.858465e+01 ;
+            ns1:longitude 7.737781e+00 ] ;
+    ns1:image <https://kooglof.coopcycle.org/media/cache/restaurant_thumbnail/65/6e/656e16c2bf856.png> ;
+    ns1:name "Koa Thaï 🥢" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "12:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:30" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "19:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://kooglof.coopcycle.org/en/restaurant/76-koa-thai" ] ] ;
+    ns1:sameAs <https://kooglof.coopcycle.org/en/restaurant/76-koa-thai> ;
+    ns1:url <https://kooglof.coopcycle.org/en/restaurant/76-koa-thai> .
+
+<https://kooglof.coopcycle.org/api/addresses/37763> a ns1:PostalAddress ;
+    ns1:name "Koa Thaï 🥢" ;
+    ns1:streetAddress "4 Rue Thiergarten, 67000 Strasbourg, France" ;
+    ns1:telephone "+33973889550" .
+

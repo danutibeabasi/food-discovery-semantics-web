@@ -1,0 +1,330 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/30> ns1:hasMenu <https://eramangasteiz.coopcycle.org/en/restaurant/30-ark-grill#menu> .
+
+<https://eramangasteiz.coopcycle.org/en/restaurant/30-ark-grill#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c1296d5e18.jpeg> ;
+                    ns1:name "Aquarius Lata 330ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c137aa90b8.jpeg> ;
+                    ns1:name "Coca Cola Zero Lata 330ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c1353da8ea.jpeg> ;
+                    ns1:name "Coca Cola Original Lata 330ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c146057148.jpeg> ;
+                    ns1:name "Kas Naranja Lata 330ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2a/652af278c834f.jpeg> ;
+                    ns1:name "Agua Botella 330ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c12b9c282c.jpeg> ;
+                    ns1:name "Aquarius Naranja Lata 330ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c14d2154ff.jpeg> ;
+                    ns1:name "Nestea Limón Lata 330ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ] ;
+            ns1:name "Refrescos" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c15cba4303.jpeg> ;
+                    ns1:name "Voll Damm Lata 330ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c148506e40.jpeg> ;
+                    ns1:name "Mahou 5 Estrellas Lata 330ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c13e0e6e68.jpeg> ;
+                    ns1:name "Estrella Galicia Lata 330ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2a/652af23c2089b.jpeg> ;
+                    ns1:name "1906 Lata 330ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ] ;
+            ns1:name "Cervezas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pan de hamburguesa, carne, bacon, tomate, lechuga, queso, piña caramelizada, salsa miel & mostaza y salsa rosa." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/63/65/6365912f6f6ce.jpeg> ;
+                    ns1:name "Hamburguesa Hawai" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan de hamburguesa, carne, queso cheddar, bacon, pepinillos, cebolla rosa, lechuga, tomate, salsa alioli verde y salsa rosa." ;
+                    ns1:name "Hamburguesa 27 a. C." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan de hamburguesa, carne, bacon, tomate, lechuga, queso, plátano maduro, salsa miel & mostaza y salsa rosa." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/63/66/636669046e5e5.jpeg> ;
+                    ns1:name "Hamburguesa Layen" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan de hamburguesa, carne, tomate, lechuga, bacon, queso, delicia de pollo, laminas de aguacate, salsa cesar y  salsa rosa." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/63/66/63666ff8b64fa.jpeg> ;
+                    ns1:name "Hamburguesa Zielo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan de hamburguesa, carne, carne deshilachada de ternera y cerdo, bacon, queso, cebolla frita, salsa barbacoa y salsa rosa." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/63/65/63658e0268471.jpeg> ;
+                    ns1:name "Hamburguesa Ark" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan de hamburguesa, carne, queso, bacon, chucrut, pepinillos, cebolla a la plancha, salsa ketchup y salsa mostaza." ;
+                    ns1:name "Hamburguesa Laklaus" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan de hamburguesa, carne, bacon, tomate, lechuga, queso, queso de cabra, cebolla caramelizada, salsa césar y salsa rosa." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/63/65/636592f017fe5.jpeg> ;
+                    ns1:name "Hamburguesa Kabrales" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan de hamburguesa, carne, bacon, tomate, lechuga, queso cheddar, cebolla frita, salsa miel & mostaza y salsa rosa." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/63/65/6365920e8acb3.jpeg> ;
+                    ns1:name "Hamburguesa Hoben" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan de hamburguesa, triple carne, bacon, queso cheddar, salsa cheddar, salsa barbacoa y salsa rosa." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/63/66/63666967d4fc4.jpeg> ;
+                    ns1:name "Hamburguesa Pekado" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan de hamburguesa, doble carne, bacon, bacon en dados, queso, queso cheddar, tomate, lechuga y salsa ranchera." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/63/66/63667055ef21e.jpeg> ;
+                    ns1:name "Hamburguesa Lavincho" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan de hamburguesa, carne, tomate, lechuga, queso, delicia de pollo, guacamole, salsa césar y salsa rosa." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/63/66/636669b057a04.jpeg> ;
+                    ns1:name "Hamburguesa PioPio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan de hamburguesa, carne, bacon, queso, huevo campero frito, tomate, lechuga, cebolla frita, salsa barbacoa y salsa rosa." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/63/65/6365926f00793.jpeg> ;
+                    ns1:name "Hamburguesa Lanormal" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan de hamburguesa, carne, queso y bacon." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/04/65044d3113763.jpeg> ;
+                    ns1:name "Hamburguesa Lasimple" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.95" ] ] ;
+            ns1:name "Hamburguesas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pan de hamburguesa, carne, queso, bacon crunchy, cebolla a la parrilla, brotes de lechuga, tomate y salsa mil islas." ;
+                    ns1:name "Hamburguesa Isa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan de hamburguesa, carne, queso azul, mozzarella, cheddar, bacon crunchy y chutney de mango." ;
+                    ns1:name "Hamburguesa Tibu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan de hamburguesa, carne, queso, bacon crunchy, aros de cebolla, alegrías riojanas, brotes de lechuga, tomate y tomate caramelizado." ;
+                    ns1:name "Hamburguesa Cumbarco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan de hamburguesa, carne, queso, queso cheddar, bacon crunchy, cochinita pibil, cebolla fresca y salsa a elegir." ;
+                    ns1:name "Hamburguesa Xamu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "PPan de hamburguesa, carne, queso cheddar, bacon crunchy, pulled pork bbq, cebolla rosa encurtida y salsa burger." ;
+                    ns1:name "Hamburguesa Panto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan de hamburguesa, carne, queso, bacon, nachos cheese bites, pepinillos, brotes de lechuga, tomate y salsa a elegir." ;
+                    ns1:name "Hamburguesa Ishi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.95" ] ] ;
+            ns1:name "Ark Supreme" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Con su esponjosa textura y su gran sabor. Nos traslada a los bizcochitos de nuestra niñez." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c1c78a3e22.jpeg> ;
+                    ns1:name "Furia Rosa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Desata todo el sabor de la Black Cookie, siente el placer de conocer la última cucharada." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c1b8c82e6a.jpeg> ;
+                    ns1:name "Black Cookie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cremoso y esponjoso" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c1d2d85168.jpeg> ;
+                    ns1:name "Coulant de Caramelo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pequeños bocados de chocolate, relleno de exquisitos sabores, brownie, avellana la mejor combinación." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c1ae3ef49e.jpeg> ;
+                    ns1:name "Bombón" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un delicado equilibrio entre suavidad y cremosidad, con una cobertura de limón. Se ha convertido en uno de los favoritos." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c1c215ad6b.jpeg> ;
+                    ns1:name "Cremoso de Limón" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un delicado equilibrio entre suavidad y cremosidad con una cobertura de mermelada de frutos rojos. Fresquita e irresistiblemente deliciosa." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c1bd5db917.jpeg> ;
+                    ns1:name "Cremoso de Frutos Rojos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "Postres" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Deliciosos aperitivos hechos de masa y queso especial. Acompañados con salsa a elegir." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c15b326a9f.jpeg> ;
+                    ns1:name "Tequeños de Queso (6 uds)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crujientes palitos rellenos de queso mozzarella." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c159a952ed.jpeg> ;
+                    ns1:name "Sticks de Mozzarella (6 uds)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Los crujientes de pollo son ideales para cualquier paladar y cualquier ocasión: aperitivo, comida o cena, son un acierto. 100% pechuga" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c139f53378.jpeg> ;
+                    ns1:name "Crujientes de Pollo (8 uds)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Picantes y crujientes, una apuesta segura." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c1244e0e6c.jpeg> ;
+                    ns1:name "Alitas Picantes (6 uds)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "ideales para compartir. ¡Acompáñalos con una de nuestras salsas!." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c13123254a.jpeg> ;
+                    ns1:name "Aros de Cebolla (8 uds)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Una mezcla de queso fundido y pimientos con un rebozado crujiente. Un bocado suave y cremoso con un toque picante." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c132e127bf.jpeg> ;
+                    ns1:name "Chili & Cheese (6 uds)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Alitas de pollo marinadas con sabor barbacoa." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2a/652aff3971d93.jpeg> ;
+                    ns1:name "Alitas Barbacoa (6 uds)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Deliciosas patatas doradas y crujientes. La salsa se sirve aparte." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c151f08c52.jpeg> ;
+                    ns1:name "Patatas Bravas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Con un marinado repleto de sabor, un empanado crujiente que dejará a todo el mundo con la boca abierta y una pizca de pimienta que los hará aun mas ricos." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c13be73697.jpeg> ;
+                    ns1:name "Crunchy Tenders (5 uds)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bocaditos de pollo rebozados, crujientes y dorados." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c14ec66767.jpeg> ;
+                    ns1:name "Nuggets (6 uds)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crujientes y doradas, se sirven con ketchup, mayonesa o barbacoa." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c1541a8df7.jpeg> ;
+                    ns1:name "Ración Patatas Clásicas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Los Rings Bacon & Cheese son la fusión perfecta de crujiente y cremosidad, con aros rellenos de queso fundido y generosas porciones de bacon que te llevarán a un mundo de sabor irresistible." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c16b9376c7.jpeg> ;
+                    ns1:name "Rings Bacon & Cheese (6 uds)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Trozos de filete de pollo crujiente con un rebozado de copos de maíz tipo\r
+cornflakes al estilo tex mex. ¡Irresistibles!""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c14060591a.jpeg> ;
+                    ns1:name "Gringos (5 uds)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Las bolitas de jalapeños y queso son mitades de pimiento jalapeño verde, rellenas de queso cheddar." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c142e97d08.jpeg> ;
+                    ns1:name "Jalapeños Cheddar (5 uds)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nuestros Rings Chili & Cheese te invitan a una experiencia de sabor audaz, con aros crujientes rellenos de queso derretido y una deliciosa mezcla de chili, creando un festín de picante y queso que te hará volver por más." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c1731d10f5.jpeg> ;
+                    ns1:name "Rings Chili & Cheese (6 uds)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c155f1cec1.jpeg> ;
+                    ns1:name "Ración Patatas Gajo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un delicioso bocado crujiente por fuera y cremoso por dentro. ¡Prueba nuestros diferentes sabores!" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/63/66/636670bf014c0.jpeg> ;
+                    ns1:name "Cremosas (8 uds)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Dulces, crujientes y sabrosas. Se sirven con ketchup, mayonesa o barbacoa." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c157f22229.jpeg> ;
+                    ns1:name "Ración Sweet Potatoes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mezcla de quesos y pimientos con un empanado con nachos, el sabor reconocible de un plato TEX MEX." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/65/2c/652c14a600062.jpeg> ;
+                    ns1:name "Natxos Cheese Bites (6 uds)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "Para Picar" ] .
+

@@ -1,0 +1,43 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://krokoop.coopcycle.org/api/restaurants/22> a ns1:Restaurant ;
+    ns1:address <https://krokoop.coopcycle.org/api/addresses/1233> ;
+    ns1:description """Tenu par Virasak (plus communément surnommé « Vira » dans le milieu Nîmois), le restaurant ne désemplit jamais et séduit autant les simples voyageurs que les plus fidèles habitants de la Ville pour sa modernité et sa fraicheur déjà légendaire.\r
+\r
+Issu d’une famille de restaurateurs, c’est tout naturellement que l’entrepreneur a décidé de créer son propre établissement en 2018 autour d’une cuisine saine, personnelle et ancestrale, après s’être fait connaître dans le milieu du coaching sportif.\r
+\r
+Accompagné en cuisine par sa Mère et sa Soeur, ils revisitent les plats typiques de la street food Vietnamienne et Thaïlandaise. Nems, Bobuns, Pad Thaï, Salades traditionnelles savamment assaisonnées et le Banh Mi (incontournable sandwich qui donne son nom).""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.383888e+01 ;
+            ns1:longitude 4.357134e+00 ] ;
+    ns1:image <https://krokoop.coopcycle.org/media/cache/restaurant_thumbnail/65/49/65498ea5a5c7e.png> ;
+    ns1:name "O BANH MI" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday" ;
+            ns1:opens "18:50" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:45" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://krokoop.coopcycle.org/en/restaurant/22-o-banh-mi" ] ] ;
+    ns1:sameAs <https://krokoop.coopcycle.org/en/restaurant/22-o-banh-mi> ;
+    ns1:url <https://krokoop.coopcycle.org/en/restaurant/22-o-banh-mi> .
+
+<https://krokoop.coopcycle.org/api/addresses/1233> a ns1:PostalAddress ;
+    ns1:name "O BANH MI" ;
+    ns1:streetAddress "12 Rue du Grand Couvent, Nîmes, France" ;
+    ns1:telephone "+33770547809" .
+

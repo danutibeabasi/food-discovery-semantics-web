@@ -1,0 +1,242 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://kooglof.coopcycle.org/api/restaurants/76> ns1:hasMenu <https://kooglof.coopcycle.org/en/restaurant/76-koa-thai#menu> .
+
+<https://kooglof.coopcycle.org/en/restaurant/76-koa-thai#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Domaine Charles Muller BIO" ;
+                    ns1:name "Alsace Pinot Gris 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€27.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Domaine Michel Fonné" ;
+                    ns1:name "L'Inédit 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€38.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Domaine Michel Fonné" ;
+                    ns1:name "Alsace Pinot Noir 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€31.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "domaine Michel Fonné" ;
+                    ns1:name "Alsace Riesling 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "domaine Michel Fonné" ;
+                    ns1:name "Alsace Gewurztraminer 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€29.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Domaine Charles Muller BIO" ;
+                    ns1:name "Crémant d'Alsace 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€32.00" ] ] ;
+            ns1:name "VINS 🍇" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Riz Gluant" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brocolis chinois sautés à la sauce soja et aux graines de soja." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/b1/64b11d923cbe9.jpeg> ;
+                    ns1:name "Kai Lan Sautés" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Molluscs",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 Brochettes de poulet mariné, servies avec notre sauce Satay (à base de cacahuètes) maison." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/b1/64b11b37043c0.jpeg> ;
+                    ns1:name "2 Brochettes + Sauce Satay" ;
+                    ns1:nutrition "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Riz Jasmin" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ] ;
+            ns1:name "SIDE 🍚" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Bière Singha 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bière Perle IPA 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "BIERES 🍺" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Brochettes de poulet mariné, servies avec notre sauce Satay maison, des pickles de concombre et du riz\r
+jasmin.""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/7a/647a67fdc2bdb.jpeg> ;
+                    ns1:name "Kai Satay" ;
+                    ns1:nutrition "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/b1/64b11cd770932.jpeg> ;
+                    ns1:name "Ribs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Jarret de porc confit pendant plusieurs heures dans un mélange d’épices à\r
+base de cannelle, de poivre du Sichuan et d!anis étoilé. Servi avec du riz\r
+jasmin, un 1⁄2 œuf dur et notre sauce vinaigrée et pimenté.\r
+(la sauce est pimenté mais pas le plat – sauce servie à part)""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/b1/64b11be3b36a4.jpeg> ;
+                    ns1:name "Khao kha Moo" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry au lait de coco, à la pâte de curry rouge, courgettes, pousse de bambou, feuilles de combawa, krachai, basilic thaï et piment. Servi avec du riz jasmin thaï." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/b1/64b11b9b4a050.jpeg> ;
+                    ns1:name "Curry rouge au poulet" ;
+                    ns1:nutrition "Molluscs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ] ;
+            ns1:name "GRILL / SIGNATURE👨‍🍳" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/78/64789f7f20cc3.jpeg> ;
+                    ns1:name "Pad Kaphrao" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Choix poulet/crevettes/tofu
+\r
+Nouilles de riz fines sautées au tamarin et au nuoc mam, tofu, pousse de soja,\r
+radis salé, cacahuète toasté, œuf, citron vert et ciboule.""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/b1/64b11c76b9b78.jpeg> ;
+                    ns1:name "Pad Thaï" ;
+                    ns1:nutrition "Crustaceans",
+                        "Eggs",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """⭐Meilleure vente⭐
+\r
+Morceaux de poulet frit sautés avec des noix de cajou, des oignons et des\r
+poivrons rouges à la sauce Sriracha. Servi avec du riz jasmin thaï.\r
+1 piment""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/1e/641ec5b7eb39d.jpeg> ;
+                    ns1:name "Kai Pad Cajou" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Molluscs",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ] ;
+            ns1:name "WOK 🥘" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/b1/64b11c97eb3d0.jpeg> ;
+                    ns1:name "Yam Naem Khao Thot" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Tendre de bœuf snacké sur le grill, émincé, mélangé avec des échalotes, de la\r
+ciboule, de la menthe et de la poudre de riz grillé.""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/7a/647a676786787.jpeg> ;
+                    ns1:name "Bœuf thaï" ;
+                    ns1:nutrition "Crustaceans",
+                        "Fish",
+                        "Molluscs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Papaye verte râpée, tomates, mini crevettes roses séchées, cacahuètes\r
+toastés, tamarin, sauce nuoc mam, piment rouge et relevé au citron vert.\r
+2 piments""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/b1/64b11cfb9c245.jpeg> ;
+                    ns1:name "Som Tam" ;
+                    ns1:nutrition "Crustaceans",
+                        "Fish",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ] ;
+            ns1:name "SALADES 🥗" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """VALABLE UNIQUEMENT LES MIDIS 
+\r
+Choisissez votre wok, et votre boisson !""" ;
+                    ns1:name "Formule Déjeuner Wok" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """VALABLE UNIQUEMENT LES MIDIS 
+\r
+Choisissez votre plat accompagné d'un riz et votre boisson !""" ;
+                    ns1:name "Formule Déjeuner Signature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """VALABLE UNIQUEMENT LES MIDIS 
+\r
+Choisissez votre salade, votre riz et votre boisson !""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/7e/647e2c42cb575.jpeg> ;
+                    ns1:name "Formule Déjeuner Salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ] ;
+            ns1:name "FORMULE MIDI ⭐" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/77/6377afc18c6ac.jpeg> ;
+                    ns1:name "Mango Coco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "DESSERTS 🥭" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Alo Vera 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lisbeth rouge 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Nectar Litchi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Eau de coco 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lisbeth bleu 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Nectar de mangue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca Cola sans sucre 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca Cola 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fuze tea pêche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ] ;
+            ns1:name "BOISSONS 🥤" ] .
+

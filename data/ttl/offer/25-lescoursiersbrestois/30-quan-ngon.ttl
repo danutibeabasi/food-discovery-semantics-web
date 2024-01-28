@@ -1,0 +1,369 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/restaurants/30> ns1:hasMenu <https://lescoursiersbrestois.coopcycle.org/en/restaurant/30-quan-ngon#menu> .
+
+<https://lescoursiersbrestois.coopcycle.org/en/restaurant/30-quan-ngon#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "2 pièces" ;
+                    ns1:name "E2. Rouleaux de printemps au bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "E5. Salade de liane de lotus au porc et crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces" ;
+                    ns1:name "E1. Rouleaux de printemps aux crevettes et aux porc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces" ;
+                    ns1:name "E7. Nem maison au porc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "E9. Crèpes de riz farcies au porc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "E4. Salade de poulet grillé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces" ;
+                    ns1:name "E3. Rouleaux de printemps aux juliennes de porc grillé parfumé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces" ;
+                    ns1:name "E8. Nem maison au poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "E6. Salade de Carpaccios de bœuf au citron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.10" ] ] ;
+            ns1:name "Entrée" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/70/6370c52e58ed4.jpeg> ;
+                    ns1:name "S1. Émincés de porc grillés la vietnamienne avec des vermicelles de riz et salades fraîches" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "S2. Crêpe croustillante vietnamienne aux crevettes et porc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "S6. Crêpes de riz farcies au porc, porc grillé spécial Quan Ngon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/70/6370c57c7941e.jpeg> ;
+                    ns1:name "S3. Soupe de pâtes de riz \"Spéciale du chef\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tranche de Mortadelle de porc à la vietnamienne" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/70/6370c5c925401.jpeg> ;
+                    ns1:name "S5. Crêpes de riz farcies au porc et \"Cha lua\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "S4. Soupe épicée de \"Huê\" avec vermicelles de riz, morceaux de porc et de bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ] ;
+            ns1:name "Spécialités du chef" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "D5. Perles de coco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "D3. Dessert crème de coco et graines de soja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "D2. Dessert tapioca et mangue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "D4. Dessert agar vietnamien aux fruits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ] ;
+            ns1:name "Dessert" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "B1. Vermicelles de riz, salades et viande de porc grillé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "B7. Soupe de vermicelles de riz, gambas, morceaux de porc et de champignons noirs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "B6. Soupe de vermicelles de riz avec émincés de poulet, omelette et émincés de \"Cha lua\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "B5. Vermicelles de riz, salades, porc grillé et nems au porc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "B3. Vermicelles de riz, salades et nems au porc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "B4. Vermicelles de riz, salades, poêlé de bœuf et nems au porc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "B2. Vermicelles de riz, salades et poêlé de viande de bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Vermicelles de riz" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "P1. Soupe de pâtes de riz avec du bœuf cuit et boulettes de viande de bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/70/6370c4b2c3837.jpeg> ;
+                    ns1:name "P3. Sauté de pâtes de riz au bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "P4. Sauté de pâtes de riz au poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "P2. Soupe de pâtes de riz avec émincés de poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "P5. Sauté de pâtes de riz au porc et crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "P6. Sauté de pâtes de riz aux fruits de mer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ] ;
+            ns1:name "Pâtes de riz" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Coca 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Jus de goyave 25cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Jus d'orange 25cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Perrier 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Evian 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Boisson au goût de lychee 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Orangina 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Jus de canne à sucre 35cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "M8. Sauté de pâtes jaunes aux fruits de mer et viande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "M4. Sauté de pâtes jaunes au poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "M6. Sauté de pâtes jaunes aux fruits de mer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "M3. Soupe de pâtes jaunes au poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "M2. Sauté de pâtes jaunes au bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "M5. Soupe de pâtes jaunes aux fruits de mer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "M7. Soupe de pâtes jaunes aux fruits de mer et viande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "M1. Soupes de pâtes jaunes au bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "M9. Soupe de pâtes jaunes épicée aux fruits de mer et porc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.80" ] ] ;
+            ns1:name "Nouilles" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "C3. Poulet grillé spécial du chef accompagné de son riz nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "C11. Riz naturel parfumé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "C1. Sauté de bœuf à la \"Luc Lac\" accompagné de son riz rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "C7. Sauté de seiche sauce épicée avec son riz nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/70/6370c42f2a7f0.jpeg> ;
+                    ns1:name "C5. Gambas sauce épicée et riz nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "C8. Sauté de seiche aigre-douce avec son riz nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "C10. Sauté de riz aux crevettes, poulet, \"lap-xuong\" vietnamien et legumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "C4. Riz nature et sauté de poulet au gimgembre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "C9. Riz avec porc grillé façon vietnamienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "C6. Sauté de gambas au tamarin et riz nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "C2. Sauté de bœuf aux oignons, riz nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ] ;
+            ns1:name "Riz" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "V7. Sauté de pâtes jaunes végétariennes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "V4. Sauté de tofu sauce tomate vietnamienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "V5. Soupe de pâtes de riz végétarienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "V1. Sauté de légumes frais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "V3. Sauté de tofu frit à la citronelle et piment frais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "V6. Sauté de pâtes de riz végétarienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "V8. Soupe de pâtes jaunes végétariennes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "V2. Sauté de riz végétarien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Plats végétariens" ] .
+

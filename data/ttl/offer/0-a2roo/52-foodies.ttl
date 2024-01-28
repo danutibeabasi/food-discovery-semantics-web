@@ -1,0 +1,152 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://a2roo.coopcycle.org/api/restaurants/52> ns1:hasMenu <https://a2roo.coopcycle.org/en/restaurant/52-foodies#menu> .
+
+<https://a2roo.coopcycle.org/en/restaurant/52-foodies#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/e8/62e843da90699.jpeg> ;
+                    ns1:name "NUGGETS X8" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/e8/62e843a224f1f.jpeg> ;
+                    ns1:name "NUGGETS X4" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "SALADE VERTE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Époisses, cancoillotte ou du moment" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/e8/62e842c6751d0.jpeg> ;
+                    ns1:name "CROMESQUIS X8" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Époisses" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/e8/62e842a47a1fd.jpeg> ;
+                    ns1:name "CROMESQUIS X4" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/e8/62e842f2934f4.jpeg> ;
+                    ns1:name "FRITES FRAICHES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/e8/62e8436f5465f.jpeg> ;
+                    ns1:name "FRITES PATATES DOUCES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "SAUCE MAISON" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.60" ] ] ;
+            ns1:name "Amuse bouches & accompagnements" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/e8/62e845532423c.jpeg> ;
+                    ns1:name "VERRINE CHOCOLAT CARAMEL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 base vanille + 1 coulis + 1 topping" ;
+                    ns1:name "LA GLACE MAISON" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Les desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Frites fraîches, effiloché de boeuf, sauce bourguignonne, pickles de carotte et Epoisses gratiné" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/e8/62e8443a7b998.jpeg> ;
+                    ns1:name "POUTINE BOURGUIGNONNE" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/e8/62e844a34609d.jpeg> ;
+                    ns1:name "POUTINE GASTON GERARD" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/e8/62e843fdbff1b.jpeg> ;
+                    ns1:name "POUTINE BFC" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Les poutines" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/e8/62e8451aba526.jpeg> ;
+                    ns1:name "SALADE CAESAR" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, pickles de légumes, saucisse régionale fumé, galette de pommes de terre, Cancoillote en cromesquis, croûtons, vinaigrette et crème de balsamique" ;
+                    ns1:name "SALADE BFC" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, pickles de légumes, Cromesquis d’Epoisses, lard fumé, compotée d’oignon, croûtons, vinaigrette et crème balsamique" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/e8/62e844efe489a.jpeg> ;
+                    ns1:name "SALADE BOURGUIGNONNE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Les salades" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Choisis ta recette de burger et nous remplaçons la viande par notre galette maison inspiré d’un falafel ( recette avec du cheddar)" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/e8/62e8427a7e9c6.jpeg> ;
+                    ns1:name "BURGER VEGETARIEN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Porc braisé fumé 6h, saucisse fumée, cheddar affiné, pickles d’oignon rouge, laitue, sauce barbecue et mayonnaise." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/e8/62e8425bc67ae.jpeg> ;
+                    ns1:name "BURGER PULLED PORK" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/e8/62e8418922d27.jpeg> ;
+                    ns1:name "BURGER FISH" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boeuf régional haché maison, cheddar affiné, lard fumé, beignet d’oignon, pickles d’oignon rouge, laitue, sauce barbecue au Jack Daniel’s et mayonnaise" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/e8/62e8432ed3e09.jpeg> ;
+                    ns1:name "BURGER FOODIES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Double steak smashé, double cheddar affiné, pickles de concombre, laitue et sauce gros mac" ;
+                    ns1:name "LE BURGER BIG SMASH" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Le BAO BURGER" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/64/8c/648c944178fe3.jpeg> ;
+                    ns1:name "BURGER DU MOIS - LE CARAIBURGER" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Les burgers" ] .
+

@@ -1,0 +1,91 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://dinan.coopcycle.org/api/restaurants/6> ns1:hasMenu <https://dinan.coopcycle.org/en/restaurant/6-bistronomades#menu> .
+
+<https://dinan.coopcycle.org/en/restaurant/6-bistronomades#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Légumes de saison" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/58/635803096212f.jpeg> ;
+                    ns1:name "Crumble de légumes du moment de La Cuisine De Mon Père" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Choux au riesling, saumon, merlu, haddock,sauce crème et vin blanc" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/58/635801dac5675.jpeg> ;
+                    ns1:name "Choucroute De La Mer Par Régis Boutin" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pesto, épinard et poivrons grillés\r
+Ail, huile d'olive, tomate, basilic et graines de tournesol torréfiées \r
+Une recette de lasagnes par Margot Hamonic, traiteur a Dinan, spécialisée en cuisine végétarienne""" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/56/6356632aaf50f.jpeg> ;
+                    ns1:name "Lasagnes végétarienne Par Margot Hamonic" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cuisse de canard et parmentier de pomme de terre" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/58/635803712985a.jpeg> ;
+                    ns1:name "Cuisse De Canard Confite en parmentier De La Cuisine De Mon Père" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Curry de porc à la patate douce, lait de coco \r
+Oignons, ail, échalotes, piments rouges séchés, cacahuètes grillés non-salées, curry jaune""" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/58/635802145c774.jpeg> ;
+                    ns1:name "Curry De Porc Massaman Par La Table De La Tour" ;
+                    ns1:nutrition "Milk",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saucisse de Dinan, riz blanc, ail, tomates, oignons, piment" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/58/635803ed0ee48.jpeg> ;
+                    ns1:name "Rougail Saucisse De La Cuisine De Mon Père" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Saucisses de porc, lentilles, carottes, oignons, thym, poivrons, lardons fumés\r
+et graisses de canard""" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/58/63580249d015d.jpeg> ;
+                    ns1:name "Saucisse Bretonne Aux Lentilles Par Olivier Hendaye" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Velouté de Butternut Par La Cuisine De Mon Père" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon, légumes de saison, crème vin blanc, échalote" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/58/63580116dd651.jpeg> ;
+                    ns1:name "Cassolette de saumon aux petits légumes de La Cuisine De Mon Père" ;
+                    ns1:nutrition "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Riz cuit dans du lait puis sucré.Aromatisé à la cannelle et à la vanille, nappé de caramel" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/58/635803c4b2c11.jpeg> ;
+                    ns1:name "Riz Au Lait De La Cuisine De Mon Père" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème dessert nappée d’une couche de caramel" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/58/6358028ebbba4.jpeg> ;
+                    ns1:name "Cème Caramel A L'ancienne De La Cuisine De Mon Père" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Desserts" ] .
+

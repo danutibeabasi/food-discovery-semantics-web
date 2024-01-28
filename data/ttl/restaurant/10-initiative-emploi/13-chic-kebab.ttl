@@ -1,0 +1,49 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://initiative-emploi.coopcycle.org/api/restaurants/13> a ns1:Restaurant ;
+    ns1:address <https://initiative-emploi.coopcycle.org/api/addresses/203> ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.880666e+01 ;
+            ns1:longitude 2.293355e+00 ] ;
+    ns1:image <https://initiative-emploi.coopcycle.org/media/cache/restaurant_thumbnail/62/20/6220ea6a9ae29.png> ;
+    ns1:name "Chic Kebab" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday" ;
+            ns1:opens "18:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "20:45" ;
+            ns1:dayOfWeek "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:45" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:45" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "15.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "4.00" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://initiative-emploi.coopcycle.org/en/restaurant/13-chic-kebab" ] ] ;
+    ns1:sameAs <https://initiative-emploi.coopcycle.org/en/restaurant/13-chic-kebab> ;
+    ns1:url <https://initiative-emploi.coopcycle.org/en/restaurant/13-chic-kebab> .
+
+<https://initiative-emploi.coopcycle.org/api/addresses/203> a ns1:PostalAddress ;
+    ns1:name "Chic Kebab" ;
+    ns1:streetAddress "80 Avenue de Paris, 92320 Châtillon, France" ;
+    ns1:telephone "+33986594941" .
+

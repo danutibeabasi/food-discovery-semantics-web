@@ -1,0 +1,138 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://naofood.coopcycle.org/api/restaurants/31> ns1:hasMenu <https://naofood.coopcycle.org/en/restaurant/31-la-mangouste#menu> .
+
+<https://naofood.coopcycle.org/en/restaurant/31-la-mangouste#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Une bière sans alcool aux notes de pin et de fruits, assez marqué en amertume (0,4°)\r
+33cl""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e70dc534a.jpeg> ;
+                    ns1:name "Brooklyn special effect Sans alcool" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl / 5°" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e651f02b0.jpeg> ;
+                    ns1:name "Bière Ambrée Nao" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl / 9°" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e6fa9c44a.jpeg> ;
+                    ns1:name "Bière Nao Origin Ale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Bière bouteille" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Domaine des Trois Toits\r
+Région : Loire / Vertou\r
+Cépage : Melon de Bourgogne \r
+Blanc sec, une rondeur pleine de fraîcheur!""" ;
+                    ns1:name "AOC Muscadet \"Rooftop\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "Vin blanc" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Domaine : Roger Zannier\r
+Région : Méditerranée\r
+Cépages : 45% grenache + 5 autres !\r
+Rosé sec, nez intense de fruits rouges, le rosé parfait de votre été !""" ;
+                    ns1:name "IGP vin du pays du Var Rosé \"You are Maur magic\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "Vin rosé" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Sauce tomate BIO, mozzarella, jambon serrano, roquette.\r
+(Notre pâte bénéficie d'une fermentation lente à la romaine afin de vous garantir une qualité optimale !)""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e7e7c600b.jpeg> ;
+                    ns1:name "La Primavera" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base crème, mozzarella fior di latte, morbier, poulet mariné tandoori/curry/coriandre, champignons shiitaké, échalotes caramélisées, ciboulette" ;
+                    ns1:name "Sweet chicken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Sauce tomate BIO, mozzarella, champignons, jambon à l'os, origan.\r
+(Notre pâte bénéficie d'une fermentation lente à la romaine afin de vous garantir une qualité optimale !)""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e79235ac1.jpeg> ;
+                    ns1:name "La Castafiore" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "The spicy pumpkin" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Sauce tomate BIO, basilic frais, burrata.\r
+(Notre pâte bénéficie d'une fermentation lente à la romaine afin de vous garantir une qualité optimale !)""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e7c259b05.jpeg> ;
+                    ns1:name "La Margherita" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Base pesto d'artichaut/tomates confites/champignons, brocolis, tomates séchées, pousses d'épinards, mozzarella di bufala, pickles de chou, noisettes.\r
+(Notre pâte bénéficie d'une fermentation lente à la romaine afin de vous garantir une qualité optimale !)""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/65/6565fef99ae4e.jpeg> ;
+                    ns1:name "La Veggie d'automne" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sulphur dioxide and sulphites",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Base crème, mozzarella, gorgonzola, morbier, parmesan.\r
+(Notre pâte bénéficie d'une fermentation lente à la romaine afin de vous garantir une qualité optimale !)""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e7fc7eff2.jpeg> ;
+                    ns1:name "La Quatre Fromages" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Base crème, mozzarella fior di latte, brisures de truffes, champignons, jambon blanc italien cuit aux herbes, burrata, noix et huile de truffes.\r
+(Notre pâte bénéficie d'une fermentation lente à la romaine afin de vous garantir une qualité optimale !)""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e824ae68f.jpeg> ;
+                    ns1:name "La Tartuffo" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.50" ] ] ;
+            ns1:name "Pizza" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """L'extra brut 100% pur jus sans sulfite\r
+Domaine cidricole "5 Autels"\r
+Région : Calvados""" ;
+                    ns1:name "Cidre brut 75cl Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Nos bulles" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Base crème, pommes caramélisées parfumées à la fève de tonka, amandes effilées, caramel au beurre salé" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e622d4559.jpeg> ;
+                    ns1:name "Apple pizz" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Pizza dessert" ] .
+

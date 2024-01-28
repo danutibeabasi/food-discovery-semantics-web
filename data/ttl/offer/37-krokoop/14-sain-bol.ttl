@@ -1,0 +1,122 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://krokoop.coopcycle.org/api/restaurants/14> ns1:hasMenu <https://krokoop.coopcycle.org/en/restaurant/14-sain-bol#menu> .
+
+<https://krokoop.coopcycle.org/en/restaurant/14-sain-bol#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Vin blanc 75cl \"Les copines adorent\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Vin rouge 75cl \"Les copains débordent\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Vin rouge 75cl \"Marche arrière\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Vin rosé 75cl \"Lâcher de rosé\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Vin blanc 75cl \"Marche avant\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ] ;
+            ns1:name "Vins" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Choisissez votre base (1) + protéine (1) + fruits et légumes (4) + herbes et croquants (2) + sauce au choix (1) + dessert (1)." ;
+                    ns1:name "Poke bowl à composer + dessert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Choisissez votre base (1) + protéine (1) + fruits et légumes (4) + herbes et croquants (2) et sauce au choix (1)." ;
+                    ns1:name "Poke bowl à composer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ] ;
+            ns1:name "Composez votre Poke Bowl" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Au choix" ;
+                    ns1:name "Poke bowl + dessert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ] ;
+            ns1:name "Formules" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Riz, saumon mariné, mangue, carotte, avocat, edamame, oignons frits & sauce au choix." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/08/6308b83dcd2a8.jpeg> ;
+                    ns1:name "Poke Saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Quinoa, Poisson selon arrivage, Épinard, Patate douce, Avocat, Haricot rouge, Maïs grillé & sauce au choix." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/08/6308b896a5a8d.jpeg> ;
+                    ns1:name "Poke Ceviche (selon arrivage)" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nouille, Poulet en basse température, Poireau, Patate douce, Navet, Champignon de Paris, Sésame et sauce au choix." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/08/6308b8f01dd1d.jpeg> ;
+                    ns1:name "Poke Poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ] ;
+            ns1:name "Poke Bowls" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Perrier 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Thé glacé du jour" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola Zero 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Eau minérale 50 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Fromage blanc et crème de marron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/08/6308b9b47cef7.jpeg> ;
+                    ns1:name "Cheesecake du moment" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Fromage blanc et confiture de pomme" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fondant au caramel et poire" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/08/6308b96cf1b34.jpeg> ;
+                    ns1:name "Perle de tapioca au lait de coco et mangue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pomme noisette" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/08/6308b92e76630.jpeg> ;
+                    ns1:name "Crumble du moment" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Desserts" ] .
+

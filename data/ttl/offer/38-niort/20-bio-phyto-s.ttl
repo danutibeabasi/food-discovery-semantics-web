@@ -1,0 +1,184 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://niort.coopcycle.org/api/restaurants/20> ns1:hasMenu <https://niort.coopcycle.org/en/restaurant/20-bio-phyto-s#menu> .
+
+<https://niort.coopcycle.org/en/restaurant/20-bio-phyto-s#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Composez votre formule du midi avec un délicieux sandwich chaud + une boisson + un dessert !" ;
+                    ns1:name "Formule Panini" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Composez votre formule du midi avec le burger de votre choix + une boisson + un dessert !" ;
+                    ns1:name "Formule Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ] ;
+            ns1:name "Formules" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Le kombucha est un amalgame de millions de bonnes bactéries, connu depuis des millénaires pour être l'allié de la flore intestinale et participer activement au bon fonctionnement du processus de digestion grâce à sa fermentation naturelle qui crée de fines bulles.\r
+La saveur Mangue & Vanille est douce et très agréable en bouche. Goût intense, légèrement sucrée.\r
+Bouteille de verre avec bouchon à vis.""" ;
+                    ns1:name "Kombucha Mangue & Vanille - 37,5cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Le kombucha est un amalgame de millions de bonnes bactéries, connu depuis des millénaires pour être l'allié de la flore intestinale et participer activement au bon fonctionnement du processus de digestion grâce à sa fermentation naturelle qui crée de fines bulles.\r
+La saveur Hibiscus Chaï est légèrement acidulée et légèrement épicée. Goût intense, peu sucré.\r
+Bouteille de verre avec bouchon à vis.""" ;
+                    ns1:name "Kombucha - Hibiscus Chaï - 37 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "Epicerie" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Boulettes végétariennes moelleuses (poivrons, riz, mozza, tomates), cheddar fondu, oignons rouges caramélisés, salade, sauce maison" ;
+                    ns1:name "Burger Bio - Le Végé" ;
+                    ns1:nutrition "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Délicieux Burger Terre & Mer qui a tout pour plaire ! 
+\r
+Filet de limande croustillant, cornichons aigre-doux, légumes de saison, salade de saison, filet de citron, aneth, sauce tartare.""" ;
+                    ns1:name "Burger Bio - Le Fish Burger" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Steak haché, fromage à raclette, bacon grillé, oignons caramélisés, poivrons rouges, salade verte et délicieuse sauce burger faite maison" ;
+                    ns1:name "Burger Bio - Le Montagnard" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Un Burger de caractère !
+\r
+Steak haché, 2 tranches de bacon frits, Bleu d’Auvergne, légumes cuisinés, oignons caramélisés, fromage frais, salade, sauce burger légère.
+\r
+La force du Bleu et la douceur des oignons caramélisés se marient parfaitement dans un délicieux bun légèrement grillé.""" ;
+                    ns1:name "Burger Bio - Le Blue Star" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Burger gourmand et plein de saveurs...
+\r
+Cordon bleu de poulet,  légumes cuisinés, salade, cheddar fondu, oignons rouges caramélisés, sauce burger maison.""" ;
+                    ns1:name "Burger Bio - Le Frenchy" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ] ;
+            ns1:name "Burgers" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain Ciabatta, Bouchées moelleuses dorées à la poêle (riz complet, poivrons, oignons, mozza, tomates, fromage blanc, chapelure), Légumes cuisinés, fromage à raclette fondu, sauce crémeuse à l'oignon." ;
+                    ns1:name "Panini Bio - Le Végétarien" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pain Ciabatta, Saumon fumé, généreuses tranches de Mozzarella, Légumes cuisinées, Fromage frais à l'aneth.
+\r
+Délicieux sandwich chaud aux saveurs délicates. La Mozzarella est un fromage tout doux qui se marient agréablement avec la chair fine et goûteuse du saumon. \r
+Quelques légumes cuisinées et une sauce blanche à l'aneth et vous voilà parti(e) en mer  !
+\r
+Nos Supers Paninis sont généreux et nourrissants, \r
+Pour un apéritif original et savoureux, coupez le en bâtonnets (si précisé lors de votre commande, nous le préparerons pour vous).""" ;
+                    ns1:name "Panini Bio - Le Nordique - Saumon & Mozzarella" ;
+                    ns1:nutrition "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain Ciabatta, Steak haché 125g, Bleu d'Auvergne, oignons caramélisés, sauce au bleu & fromage frais." ;
+                    ns1:name "Panini Bio - L'Auvergnat - Steak haché & Bleu d'Auvergne" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain ciabatta, 3 belles tranches de bacon fumé, bûche de chèvre, crème de chèvre frais, oignons légèrement caramélisés au miel pour une touche de douceur." ;
+                    ns1:name "Panini  Bio - Bacon & Chèvre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain ciabatta, filet de poulet & oignons dorés à l'huile de coco, légumes cuisinés, crème de coco au curry, emmental fondu." ;
+                    ns1:name "Panini Bio - L'Indien - poulet au curry" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Panini" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Faîtes le plein de vitamine C pour cet hiver.\r
+Savoureux nectar d'orange, sans sucres ajoutés et à forte teneur en fruit (85%).\r
+Bouteille en verre de 25 cl.""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/54/6154c064a4bdb.jpeg> ;
+                    ns1:name "Granini Bio - Orange" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Boisson tonique au gingembre, fermentée et non pasteurisée. 
+\r
+Elle participe au renforcement des défenses immunitaires et possède des propriétés diététiques et purifiantes. Naturellement pétillante, riche en goût et pauvre en sucres. 
+\r
+Bouteille en verre de 25cl""" ;
+                    ns1:name "Kéfir de fruits - Gingembre - 25cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/11/6111b7f70312b.jpeg> ;
+                    ns1:name "Soda Bio - Myrtille - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Cola artisanal de Haute-Savoie, riche en goût et moins sucré que la moyenne des colas.\r
+Bouteille en verre et bouchon à vis.""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/11/6111b6b47cb9c.jpeg> ;
+                    ns1:name "Soda Bio - Yaute Cola - 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Un nectar multifruit aux saveurs d'exotisme, sans sucres ajoutés et à teneur en fruits (82%). \r
+Bouteille en verre de 25 cl.""" ;
+                    ns1:name "Granini Bio - Multifruit" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Thé glacé de Haute-Savoie. A base de thé noir et de thé Darjeeling bio. \r
+Fabrication artisanale française. \r
+Bouteille en verre.""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/11/6111b73d880ba.jpeg> ;
+                    ns1:name "Thé Glacé Bio - Pêche - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Granini Bio - Pomme" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50 cl" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/19/61197386f3096.jpeg> ;
+                    ns1:name "Eau Minérale Vittel ou Évian" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Nectar d'ananas frais, riche en fruits (80%), sans sucres ajoutés, et à la saveur douce.\r
+Bouteille en verre de 25cl.""" ;
+                    ns1:name "Granini Bio - Ananas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Boissons" ] .
+

@@ -1,0 +1,72 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://demo.coopcycle.org/api/restaurants/30> ns1:hasMenu <https://demo.coopcycle.org/en/restaurant/30-la-table-a-pois-qui-fume#menu> .
+
+<https://demo.coopcycle.org/en/restaurant/30-la-table-a-pois-qui-fume#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Moelleux aux pépites de chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.27" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Charlotte au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.98" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Clafoutis aux pépites de chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.56" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tarte à la rhubarbe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.56" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Clafoutis aux pommes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.55" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Grenouilles mi-cuit·e·s au beurre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.77" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Escargots farci·e·s au gros sel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.79" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Poulet poêlé·e·s aux pommes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Courgettes au gros sel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.24" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Courgettes rôti·e·s aux oignons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.54" ] ] ;
+            ns1:name "Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Crudités au naturel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.06" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jambon cru au naturel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.17" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jambon cru en salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.63" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crudités en salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.62" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pickles à l'huile d'olive" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.16" ] ] ;
+            ns1:name "Entrées" ] .
+

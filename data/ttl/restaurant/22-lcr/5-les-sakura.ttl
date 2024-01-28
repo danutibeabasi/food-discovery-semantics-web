@@ -1,0 +1,47 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lcr.coopcycle.org/api/restaurants/5> a ns1:Restaurant ;
+    ns1:address <https://lcr.coopcycle.org/api/addresses/21> ;
+    ns1:bannerImage "https://lcr.coopcycle.org/media/cache/restaurant_banner/65/6e/656e5bd2bd406.png" ;
+    ns1:description """Restaurant de Bento & Épicerie Japonaise.\r
+\r
+Nous mettons tout notre cœur dans la préparation de repas fait maison !""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.81148e+01 ;
+            ns1:longitude -1.67613e+00 ] ;
+    ns1:image <https://lcr.coopcycle.org/media/cache/restaurant_thumbnail/63/9b/639b4ee04e6cb.jpg> ;
+    ns1:name "Les Sakura" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:15" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday" ;
+            ns1:opens "18:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:50" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:00" ;
+            ns1:dayOfWeek "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:45" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://lcr.coopcycle.org/en/restaurant/5-les-sakura" ] ] ;
+    ns1:sameAs <https://lcr.coopcycle.org/en/restaurant/5-les-sakura> ;
+    ns1:url <https://lcr.coopcycle.org/en/restaurant/5-les-sakura> .
+
+<https://lcr.coopcycle.org/api/addresses/21> a ns1:PostalAddress ;
+    ns1:name "Les Sakura" ;
+    ns1:streetAddress "34 Rue Saint-Melaine, 35000 Rennes, France" ;
+    ns1:telephone "+33221078260" .
+

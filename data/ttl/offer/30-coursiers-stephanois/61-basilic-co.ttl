@@ -1,0 +1,361 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiers-stephanois.coopcycle.org/api/restaurants/61> ns1:hasMenu <https://coursiers-stephanois.coopcycle.org/en/restaurant/61-basilic-co#menu> .
+
+<https://coursiers-stephanois.coopcycle.org/en/restaurant/61-basilic-co#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella française et chorizo français." ;
+                    ns1:name "Focaccia chorizo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella française, Abondance AOP et confitures de myrtilles." ;
+                    ns1:name "Focaccia abondance et confiture de myrtilles" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella française, Ossau-Iraty AOP affin et piment d'Espelette AOP." ;
+                    ns1:name "Focaccia Ossau-Iraty et piment d'Espelette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella française et ciboulette fraîche." ;
+                    ns1:name "Focaccia ciboulette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ] ;
+            ns1:name "Les focacce" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Crème, mozzarella française, champignons bruns de Paris, poitrine paysanne fumée au bois de hêtre, Bournette et ciboulette fraîche." ;
+                    ns1:name "Bournette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, mozzarella française, ravioles Saint-Jean®, bleu du Vercors-Sassenage AOP et origan." ;
+                    ns1:name "Drômoise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, mozzarella française, poitrine paysanne fumée au bois de hêtre, reblochon de Savoie AOP et fondue d’oignons." ;
+                    ns1:name "Savoyarde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella française, chiff onnade de jambon sec d’Ardèche IGP, bleu du VercorsSassenage AOP - Après cuisson : roquette." ;
+                    ns1:name "Montagnarde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, mozzarella française, ravioles Saint-Jean® et ciboulette fraîche." ;
+                    ns1:name "Saint-Jean" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, Vercorais, bleu du Vercors - Sassenage AOP, bournette et ciboulette fraîche." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/37/6537ddf091196.jpeg> ;
+                    ns1:name "3 fromages du Vercors" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella française, poulet rôti, poivrons frais et thym." ;
+                    ns1:name "Provençale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ] ;
+            ns1:name "Les Pizzas de terroirs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Crème, mozzarella française, cabillaud rôti, ciboulette fraîche - Après cuisson : oignons frits et sauce tartare." ;
+                    ns1:name "Fish and crisp" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, mozzarella française, saumon fumé, huile d’olive au basilic du chef - Après cuisson : roquette." ;
+                    ns1:name "Barboteuse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, mozzarella française, saumon fumé et ciboulette fraîche." ;
+                    ns1:name "Nordique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, mozzarella française, cabillaud rôti, champignons bruns de Paris et ciboulette fraîche." ;
+                    ns1:name "Cabillaud" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ] ;
+            ns1:name "Les Pizzas de la criée" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate bio, mozzarella française, chiffonade de jambon blanc ardéchois, champignons bruns de Paris et origan." ;
+                    ns1:name "Pizzette Reinette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, mozzarella française, poitrine paysanne fumée au bois de hêtre, reblochon de Savoie AOP et fondue d'oignons." ;
+                    ns1:name "Pizzette Savoyarde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella française, filet de sauce tomate, dès de tomates et huile d'olive au basilic du chef." ;
+                    ns1:name "Pizzette Marguerite" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ] ;
+            ns1:name "Les pizzettes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tarte au citron déstructurée, avec un zeste de citron vert et vanille de Madagascar." ;
+                    ns1:name "Le Pressé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâte à tartiner bio à la Choko noisette. Individuelle ou à partager." ;
+                    ns1:name "Focacce dessert individuel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Dessert typique du Vercors revisité avec crème à la vanille de Madagascar, caramel et noix." ;
+                    ns1:name "Le Vercors" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Ptit’Ramisu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mousse au chocolat Valrhona aux éclats de biscuit." ;
+                    ns1:name "Le Mouss’tache" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crémeux meringué, chocolat blanc Valrhona, myrtille, Get 27, jus de citron vert, noix de coco râpée." ;
+                    ns1:name "La Piste verte (dessert de saison)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ] ;
+            ns1:name "Nos desserts artisanaux" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, cumin, mozzarella française, poulet rôti, fondue d’oignons et miel." ;
+                    ns1:name "Orientale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella française, filet de sauce tomate, dés de tomates, bœuf haché charolais- Après cuisson : oignons frits et sauce tartare." ;
+                    ns1:name "Tartare" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella française, cabillaud rôti, chorizo français, poivrons frais et ciboulette fraîche." ;
+                    ns1:name "Terre & Mer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, curry de Madras, mozzarella française, poulet rôti, poivrons frais et ciboulette fraîche." ;
+                    ns1:name "Madras" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ] ;
+            ns1:name "Les Pizzas insolites" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Crème, mozzarella française, champignons bruns de Paris, poulet rôti et ciboulette fraîche." ;
+                    ns1:name "Campagnarde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella française, chiff onnade de jambon blanc ardéchois et huile d’olive au basilic du chef." ;
+                    ns1:name "Romaine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella française, fi let de sauce tomate, dés de tomates et huile d’olive au basilic du chef." ;
+                    ns1:name "Marguerite" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella française, chiff onnade de jambon blanc ardéchois, champignons bruns de Paris et huile d’olive au basilic du chef." ;
+                    ns1:name "Reine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella française, chiff onnade de jambon sec d’Ardèche IGP, huile d’olive au basilic du chef - Après cuisson : roquette et Parmigiano Reggiano DOP." ;
+                    ns1:name "Méridionale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ] ;
+            ns1:name "Les Pizzas essentielles" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Royale di Bufala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Cocorizo di Bufala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Margherita di Bufala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une pizzette au choix + une Vittel'Up fraise bio 33 cl + glace fraise Terre Adelice" ;
+                    ns1:name "Menu enfant" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Végétarienne di Bufala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ] ;
+            ns1:name "Les Pizzas di Bufala" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Produite en région Rhône-Alpes. 25 ml." ;
+                    ns1:name "Huile artisanale au piment d’Espelette AOP" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella française, champignons bruns de Paris, Brézain, poitrine paysanne fumée au bois de hêtre et ciboulette fraîche." ;
+                    ns1:name "Raclette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, mozzarella française, Abondance AOP, Brézain, Cailladou et ciboulette fraîche." ;
+                    ns1:name "Alpage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, mozzarella française, Abondance AOP, mélange forestier, ciboulette fraîche. Après cuisson : oignons frits et vin de Savoie Apremont AOP." ;
+                    ns1:name "Abondance" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, mozzarella française, poitrine paysanne fumée au bois de hêtre, Cailladou, confiture de myrtilles et ciboulette fraîche." ;
+                    ns1:name "Cailladouce" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ] ;
+            ns1:name "Les Pizzas du Pays de Savoie" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Elixia. 33 cl." ;
+                    ns1:name "Cola artisanal à la vanille de Tahiti" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Maison Meneau. 25 cl." ;
+                    ns1:name "Pur jus de Pomme de Lot-et-Garonne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 L." ;
+                    ns1:name "San Pellegrino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50 cl." ;
+                    ns1:name "San Pellegrino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brasserie des cuves. 33 cl." ;
+                    ns1:name "Rousse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Elixia. 33 cl." ;
+                    ns1:name "Limonade fraises des bois" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Elixia. 33 cl." ;
+                    ns1:name "Limonade nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:name "Coca-Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brasserie familiale de Moselle papyllon. 33 cl." ;
+                    ns1:name "Blonde papyllon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Maison Meneau. 33 cl." ;
+                    ns1:name "Fizz Cerise Hibiscus" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Maison Meneau. 25 cl." ;
+                    ns1:name "Thé glacé Citron-thym" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Symples. 33 cl." ;
+                    ns1:name "Potion Détoxifiante ou Energisante ou Relaxante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Maison Meneau. 25 cl." ;
+                    ns1:name "Thé glacé Pêche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brasserie des cuves." ;
+                    ns1:name "Frise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Maison Meneau. 25 cl." ;
+                    ns1:name "Nectar Framboise-fraise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Maison Meneau. 33 cl." ;
+                    ns1:name "Fizz Mojito (sans alcool)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.30" ] ] ;
+            ns1:name "Les boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Crème, mozzarella française, champignons bruns de Paris, mélange forestier et ciboulette fraîche." ;
+                    ns1:name "Forestière" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, champignons bruns de Paris, poivrons frais, fondue d’oignons, huile d’olive au basilic du chef - Après cuisson : roquette." ;
+                    ns1:name "Végétale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella française, filet de sauce tomate,  dés de tomates, huile d’olive au basilic du chef - Après cuisson : roquette et Parmigiano Reggiano AOP." ;
+                    ns1:name "Italienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella française, poivrons frais, fondue d’oignons, piment d’Espelette AOP, thym - Après cuisson : roquette." ;
+                    ns1:name "Méditerranéenne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ] ;
+            ns1:name "Les Pizzas maraîchères" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Salade Parmesane" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Salade Fermière" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Roquette ou multifeuille, huile d'olive au basilic du chef et crème blasamique." ;
+                    ns1:name "Salade d'accompagnement" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Salades repas" ] .
+

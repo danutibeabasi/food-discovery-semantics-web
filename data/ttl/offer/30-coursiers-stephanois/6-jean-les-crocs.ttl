@@ -1,0 +1,151 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiers-stephanois.coopcycle.org/api/restaurants/6> ns1:hasMenu <https://coursiers-stephanois.coopcycle.org/en/restaurant/6-jean-les-crocs#menu> .
+
+<https://coursiers-stephanois.coopcycle.org/en/restaurant/6-jean-les-crocs#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Eau plate 50 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Pepsi 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Badoit verte 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Oasis Tropical 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Lipton Iced Tea 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ] ;
+            ns1:name "Les Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "2 choix possibles" ;
+                    ns1:name "Entrée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.70" ] ] ;
+            ns1:name "Les Entrées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "2 choix possibles" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/d9/61d9a1fe751ef.jpeg> ;
+                    ns1:name "Plat du jour" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.80" ] ] ;
+            ns1:name "Les plats chauds (servis froids)" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "1 salade + 1 boisson OU dessert" ;
+                    ns1:name "Formule Jean Savoure" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 sandwich + 1 boisson + 1 dessert" ;
+                    ns1:name "Formule Jean Grignote Complète" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 Plat + 1 boisson OU dessert" ;
+                    ns1:name "Formule Jean Dévore" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 sandwich + 1 boisson OU dessert" ;
+                    ns1:name "Formule Jean Grignote" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 plat + 1 boisson + 1 dessert" ;
+                    ns1:name "Formule Jean Dévore complète" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 salade + 1 boisson + 1 dessert" ;
+                    ns1:name "Formule Jean Savoure Complète" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.30" ] ] ;
+            ns1:name "Formules (Plats servis froids)" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/63/39/633986ae0922f.jpeg> ;
+                    ns1:name "Salade ou Soupe du jour" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.30" ] ] ;
+            ns1:name "Les salades" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Thon, fromage frais, ciboulette, radis, salade verte" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/4e/604e679e222ad.jpeg> ;
+                    ns1:name "SANJI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jambon cru, chèvre frais, tomates confites, salade verte" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/4e/604e632bd652d.jpeg> ;
+                    ns1:name "SON GOKU" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Terrine de champignons, brie, carottes râpées, noix, salade verte" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/4e/604e68424efc8.jpeg> ;
+                    ns1:name "VEGETA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Filet de poulet pané, mayonnaise au curry, tomates confites, parmesan, salade verte" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/54/60548e5bbc5d4.jpeg> ;
+                    ns1:name "MORPEKO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jambon blanc, Beurre fermier, Cornichons, Salade verte" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/4e/604e68007b125.jpeg> ;
+                    ns1:name "FRANCO JEANNOT" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Les sandwichs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/f2/60f2d7e3c7425.jpeg> ;
+                    ns1:name "Crème catalane à la fleur d'oranger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/08/600834cab0d6f.jpeg> ;
+                    ns1:name "Yaourt nature maison et granola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/08/6008345579c74.jpeg> ;
+                    ns1:name "Mousse au chocolat au lait" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/24/62248b24dba4d.jpeg> ;
+                    ns1:name "Sablé citron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/08/600834a812e54.jpeg> ;
+                    ns1:name "Salade de fruits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/08/600833fc3813d.jpeg> ;
+                    ns1:name "Crumble compote" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.70" ] ] ;
+            ns1:name "Les Desserts" ] .
+

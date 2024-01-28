@@ -1,0 +1,47 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/30> a ns1:Restaurant ;
+    ns1:address <https://eramangasteiz.coopcycle.org/api/addresses/3481> ;
+    ns1:bannerImage "https://eramangasteiz.coopcycle.org/media/cache/restaurant_banner/65/6d/656dbfa042d7d109185077.jpg" ;
+    ns1:description "Sabores y carne de la mejor calidad, con el restaurante Ark Grill, las mejores hamburguesas y raciones directas a dónde tú elijas." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.285961e+01 ;
+            ns1:longitude -2.678162e+00 ] ;
+    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/restaurant_thumbnail/65/04/65044a28e3f67.jpg> ;
+    ns1:name "Ark Grill" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "16:15" ;
+            ns1:dayOfWeek "Saturday",
+                "Sunday" ;
+            ns1:opens "13:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "16:00" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "12:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "23:35" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "19:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "es" ;
+                    ns1:urlTemplate "https://eramangasteiz.coopcycle.org/en/restaurant/30-ark-grill" ] ] ;
+    ns1:sameAs <https://eramangasteiz.coopcycle.org/en/restaurant/30-ark-grill> ;
+    ns1:url <https://eramangasteiz.coopcycle.org/en/restaurant/30-ark-grill> .
+
+<https://eramangasteiz.coopcycle.org/api/addresses/3481> a ns1:PostalAddress ;
+    ns1:name "Ark Grill" ;
+    ns1:streetAddress "Calle de Paraguay, 21, Vitoria-Gasteiz, España" ;
+    ns1:telephone "+34688674100" .
+

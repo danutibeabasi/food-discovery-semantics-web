@@ -1,0 +1,39 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/restaurants/42> a ns1:Restaurant ;
+    ns1:address <https://lescoursiersbrestois.coopcycle.org/api/addresses/9294> ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.839661e+01 ;
+            ns1:longitude -4.476539e+00 ] ;
+    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/restaurant_thumbnail/65/68/656843d56b099.png> ;
+    ns1:name "L'Istanbul" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:30" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://lescoursiersbrestois.coopcycle.org/en/restaurant/42-l-istanbul" ] ] ;
+    ns1:sameAs <https://lescoursiersbrestois.coopcycle.org/en/restaurant/42-l-istanbul> ;
+    ns1:url <https://lescoursiersbrestois.coopcycle.org/en/restaurant/42-l-istanbul> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/addresses/9294> a ns1:PostalAddress ;
+    ns1:name "L'Istanbul" ;
+    ns1:streetAddress "144 Rue Jean Jaurès, Brest, France" ;
+    ns1:telephone "+33953200357" .
+

@@ -1,0 +1,35 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://krokoop.coopcycle.org/api/restaurants/16> a ns1:Restaurant ;
+    ns1:address <https://krokoop.coopcycle.org/api/addresses/774> ;
+    ns1:description """Cet espace hybride alliant épicerie fine & restauration a plus d'un tour dans son sac pour vous surprendre en changeant chaque semaine son menu, toujours avec des produits de qualité, frais, faits maison et le plus possible locaux. \r
+\r
+Un modèle éthique et convivial qui rejoint les convictions des deux maîtres à l'oeuvre : Camille & Adrien, un jeune couple ambitieux & engagé dans la recherche de consommations alternatives, toujours plus proche du vivant, et rien que pour ça, on les en remercie !""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.383739e+01 ;
+            ns1:longitude 4.345841e+00 ] ;
+    ns1:image <https://krokoop.coopcycle.org/media/cache/restaurant_thumbnail/65/49/65498f7321840.png> ;
+    ns1:name "LA TERRASSE DU CADEREAU" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:50" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://krokoop.coopcycle.org/en/restaurant/16-la-terrasse-du-cadereau" ] ] ;
+    ns1:sameAs <https://krokoop.coopcycle.org/en/restaurant/16-la-terrasse-du-cadereau> ;
+    ns1:url <https://krokoop.coopcycle.org/en/restaurant/16-la-terrasse-du-cadereau> .
+
+<https://krokoop.coopcycle.org/api/addresses/774> a ns1:PostalAddress ;
+    ns1:name "LA TERRASSE DU CADEREAU" ;
+    ns1:streetAddress "22B Rue de Sauve, Nîmes, France" ;
+    ns1:telephone "+33611686069" .
+

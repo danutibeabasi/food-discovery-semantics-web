@@ -1,0 +1,118 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lcr.coopcycle.org/api/restaurants/55> ns1:hasMenu <https://lcr.coopcycle.org/en/restaurant/55-le-lapin-noir#menu> .
+
+<https://lcr.coopcycle.org/en/restaurant/55-le-lapin-noir#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Dessert fait maison" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/13/6513064196237.jpeg> ;
+                    ns1:name "Tarte au chocolat" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/13/6513060b69c52.jpeg> ;
+                    ns1:name "Le Parasol" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger - oignons - maïs - piments jalapeños - cornichons - Falafel - Sauce yaourt ciboulette - coriandre" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/13/651304a61d916.jpeg> ;
+                    ns1:name "Le sombrero (épicé)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger, ketchup, oignons, betteraves, cornichons, tofu pané aux algues, sauce yaourt (végétale) ciboulette, aneth" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/13/6513050ea0566.jpeg> ;
+                    ns1:name "El Marina" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger - Falafel maison - Tomates séchés - oignons - cornichons - batavia - oignons frits - sauce yaourt ciboulettes - sauce BBQ" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/13/651304df949d5.jpeg> ;
+                    ns1:name "Le Lapin Noir" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ] ;
+            ns1:name "Burgers" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Batavia - carottes - tomates fraiches - sauce yaourt ciboueltte" ;
+                    ns1:name "Petite salade" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/13/65130534252aa.jpeg> ;
+                    ns1:name "Frites maisons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ] ;
+            ns1:name "Accompagnement" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Jus 100% bio - Le Coq Toqué!" ;
+                    ns1:name "jus de pomme (25cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jus 100% bio - Le Coq Toqué!" ;
+                    ns1:name "jus d'abricot" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "bière artisanale bio de Saint-Malo" ;
+                    ns1:name "Bière bosco houblonnée (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "bière artisanale bio de Saint-Malo" ;
+                    ns1:name "Bière Bosco Blonde (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Breizh-Cola (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "bière artisanale bio de Saint-Malo" ;
+                    ns1:name "bière bosco ambrée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jus 100% bio - Le Coq Toqué!" ;
+                    ns1:name "Jus d'orange sanguine (25cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thé glacé pêche" ;
+                    ns1:name "Lipton Ice Tea (25cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Limonade artisanale du Finistère" ;
+                    ns1:name "Limonade du bout du monde (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "bière artisanale bio de Saint-Malo" ;
+                    ns1:name "Bière bosco blanche (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Eau pétillante badoit (50cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Boissons" ] .
+

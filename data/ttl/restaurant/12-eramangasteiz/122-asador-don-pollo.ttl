@@ -1,0 +1,43 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/122> a ns1:Restaurant ;
+    ns1:address <https://eramangasteiz.coopcycle.org/api/addresses/212510> ;
+    ns1:bannerImage "https://eramangasteiz.coopcycle.org/media/cache/restaurant_banner/65/6d/656db8c9a81c9247355377.jpg" ;
+    ns1:description "Si te apetece comer la comida que comerías a diario en casa, pero de una manera rápida y cómoda, Asador Don Pollo, de Gasteiz, te lo pone fácil, los mejores pollos asados de la zona y la mayor variedad de platos para complacer los gustos más exigentes. Te lo llevamos a domicilio ¡Olé!" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.285269e+01 ;
+            ns1:longitude -2.671935e+00 ] ;
+    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/restaurant_thumbnail/64/66/6466187506e63.png> ;
+    ns1:name "Asador Don Pollo" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "16:30" ;
+            ns1:dayOfWeek "Saturday",
+                "Sunday" ;
+            ns1:opens "13:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "23:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday" ;
+            ns1:opens "20:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:30" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "12:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "es" ;
+                    ns1:urlTemplate "https://eramangasteiz.coopcycle.org/en/restaurant/122-asador-don-pollo" ] ] ;
+    ns1:sameAs <https://eramangasteiz.coopcycle.org/en/restaurant/122-asador-don-pollo> ;
+    ns1:url <https://eramangasteiz.coopcycle.org/en/restaurant/122-asador-don-pollo> .
+
+<https://eramangasteiz.coopcycle.org/api/addresses/212510> a ns1:PostalAddress ;
+    ns1:name "Asador Don Pollo" ;
+    ns1:streetAddress "San Ignacio de Loyola Kalea, 15, Vitoria-Gasteiz, España" ;
+    ns1:telephone "+34945311400" .
+

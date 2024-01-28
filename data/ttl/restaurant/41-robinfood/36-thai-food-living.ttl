@@ -1,0 +1,37 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://robinfood.coopcycle.org/api/restaurants/36> a ns1:Restaurant ;
+    ns1:address <https://robinfood.coopcycle.org/api/addresses/3175> ;
+    ns1:description """**_Si mangia anche con gli occhi.\r
+Parte del piacere di assaggiare un piatto Thai si ritrova nell'aspetto estetico.\r
+Tentati con i piatti tipici di Thai Food Living._**""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.376934e+01 ;
+            ns1:longitude 1.128457e+01 ] ;
+    ns1:image <https://robinfood.coopcycle.org/media/cache/restaurant_thumbnail/63/5e/635e7cc12cae8.jpg> ;
+    ns1:name "Thai Food Living" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "19:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "it" ;
+                    ns1:urlTemplate "https://robinfood.coopcycle.org/en/restaurant/36-thai-food-living" ] ] ;
+    ns1:sameAs <https://robinfood.coopcycle.org/en/restaurant/36-thai-food-living> ;
+    ns1:url <https://robinfood.coopcycle.org/en/restaurant/36-thai-food-living> .
+
+<https://robinfood.coopcycle.org/api/addresses/3175> a ns1:PostalAddress ;
+    ns1:name "Thai Food Living" ;
+    ns1:streetAddress "Via Aretina, 57, Firenze, FI, Italia" ;
+    ns1:telephone "+390550249299" .
+

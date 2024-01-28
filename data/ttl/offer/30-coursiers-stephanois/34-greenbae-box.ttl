@@ -1,0 +1,241 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiers-stephanois.coopcycle.org/api/restaurants/34> ns1:hasMenu <https://coursiers-stephanois.coopcycle.org/en/restaurant/34-greenbae-box#menu> .
+
+<https://coursiers-stephanois.coopcycle.org/en/restaurant/34-greenbae-box#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Fruits de saison frais, graines de chia, lait, miel, amandes grillées, framboises" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/6185647180900.jpeg> ;
+                    ns1:name "Salade aux graines de chia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fruits de saison frais, jus d'orange frais, Nutella, lait concentré, pistaches grillées, topping surprise" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/618564bf0fd3b.jpeg> ;
+                    ns1:name "Salade GreenBae Box" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fruits de saisons, flocons d'avoine, yaourt nature, miel, amandes grillées, framboises" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/61856451ca171.jpeg> ;
+                    ns1:name "Salade aux flocons d'avoine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fruits de saisons frais, jus d'orange frais, miel, amandes grillées." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/6185649c4942d.jpeg> ;
+                    ns1:name "Salade diète" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.60" ] ] ;
+            ns1:name "Salades de fruits" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "35 cl." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/618563815dcb0.jpeg> ;
+                    ns1:name "Jus d'orange" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50 cl." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/618563671cfb9.jpeg> ;
+                    ns1:name "Jus d'orange" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Jus pressés frais" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:name "Canettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:name "Eau minérale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50 cl." ;
+                    ns1:name "Eau gazeuse Badoit" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ] ;
+            ns1:name "Boissons fraîches" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Polo (citron et menthe) - Fruits rouges - Fraises - Orange - Ananas - Mangue - Carottes et orange." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/f9/60f98706b5444.jpeg> ;
+                    ns1:name "Smoothie classique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 smoothies de fruits superposés multicolores, amandes grillées." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/f9/60f9867b4d85c.jpeg> ;
+                    ns1:name "Smoothie GreenBae Bok" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "100 % carottes" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/6185629a0513c.jpeg> ;
+                    ns1:name "Bronzage \"carottes\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mélange de fruits de saisons, riche en vitamine." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/f9/60f987233550b.jpeg> ;
+                    ns1:name "Pfizer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 smoothies superposés, avocat, amande et miel, amandes grillées." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/f9/60f986a90320d.jpeg> ;
+                    ns1:name "Énergie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ] ;
+            ns1:name "Smoothies" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "À composer" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/f9/60f985fff3ff5.jpeg> ;
+                    ns1:name "Crêpes ou bubble waffle fait maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Crêpes & Bubble waffle" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Galette, emmental, mozzarella, chèvre, gorgonzola." ;
+                    ns1:name "Panini 4 fromages" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette complète, avocat, saumon, tomate, salade." ;
+                    ns1:name "Sandwich saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette, fromage hallouimi, menthe sèche, filet d'huile d'olive." ;
+                    ns1:name "Panini halloumi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette, feta, shilal, kaskawan, graines de nigelle, filet d'huile d'olive." ;
+                    ns1:name "Panini GreenBae Box" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette complète, olives, salade, concombre, menthe sèche, filet d'huile d'olive." ;
+                    ns1:name "Sandwich labné" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ] ;
+            ns1:name "Sandwichs & Paninis" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "À composer." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/618563e5a93fa.jpeg> ;
+                    ns1:name "Milkshakes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ] ;
+            ns1:name "MilkShakes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Cookies aux pépites de chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Semoule, vanille, yaourt, miel, amande." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/6185642ccbe76.jpeg> ;
+                    ns1:name "Nammoura" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/618564083d3d0.jpeg> ;
+                    ns1:name "Nabkieé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Kenafeh" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Cupcake vanille et pépites de chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Cupcake chocolat noisette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Cookies 3 chocolats" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/618563466ca34.jpeg> ;
+                    ns1:name "Halawet el jibn" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Almaza (bière libanaise)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:name "Desperados" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50 cl." ;
+                    ns1:name "Heineken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:name "Heineken sans alcool" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:name "Heineken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ] ;
+            ns1:name "Bières" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "37 cl." ;
+                    ns1:name "Rouge, rosé, blanc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75 cl." ;
+                    ns1:name "Rouge, rosé, blanc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.50" ] ] ;
+            ns1:name "Vin libanais" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pâte, feta,persil, sésame." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/618562f45bebe.jpeg> ;
+                    ns1:name "Fatayer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâte, thym, tomate, oignon, sésame." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/618563bf2b2b3.jpeg> ;
+                    ns1:name "Man'ouché" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâte, épinards, noix, sauce grenade." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/618563171ca7a.jpeg> ;
+                    ns1:name "Épinard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Pains spéciaux" ] .
+

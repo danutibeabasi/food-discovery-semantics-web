@@ -1,0 +1,48 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://coursiers-stephanois.coopcycle.org/api/restaurants/32> a ns1:Restaurant ;
+    ns1:address <https://coursiers-stephanois.coopcycle.org/api/addresses/4812> ;
+    ns1:bannerImage "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_banner/65/96/6596899862142.png" ;
+    ns1:description "Amoureux de la nature, le chef Alexis Bessette privilégie les circuits courts, avec une sélection de produits bruts saisis sur les marchés locaux, au gré de l'humeur et des saisons. S'en suit une cuisine instinctive, épurée et contemporaine qui revisite les classiques et sait surprendre le palais des fins gourmets." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.544818e+01 ;
+            ns1:longitude 4.3884e+00 ] ;
+    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560ca48674df.jpg> ;
+    ns1:name "Restaurant Le Régency" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:00" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "19:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "14.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.50" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://coursiers-stephanois.coopcycle.org/en/restaurant/32-restaurant-le-regency" ] ] ;
+    ns1:sameAs <https://coursiers-stephanois.coopcycle.org/en/restaurant/32-restaurant-le-regency> ;
+    ns1:url <https://coursiers-stephanois.coopcycle.org/en/restaurant/32-restaurant-le-regency> .
+
+<https://coursiers-stephanois.coopcycle.org/api/addresses/4812> a ns1:PostalAddress ;
+    ns1:name "Restaurant Le Régency" ;
+    ns1:streetAddress "17 Boulevard Jules Janin, 42000 Saint-Étienne, France" ;
+    ns1:telephone "+33477742706" .
+

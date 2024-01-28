@@ -1,0 +1,95 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://demo.coopcycle.org/api/restaurants/38> ns1:hasMenu <https://demo.coopcycle.org/en/restaurant/38-l-assiette-qui-chante#menu> .
+
+<https://demo.coopcycle.org/en/restaurant/38-l-assiette-qui-chante#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Jambon cru au naturel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pickles en salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.48" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Help digests" ;
+                    ns1:name "Chartreuse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Du Cola de chez nous, pas des américains" ;
+                    ns1:name "Cola des Alpes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crudités à l'huile d'olive" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.27" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cheese and bread" ;
+                    ns1:name "Fondue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Helps digest" ;
+                    ns1:name "Génépi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crudités au naturel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.29" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jambon cru à l'huile d'olive" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.14" ] ] ;
+            ns1:name "Entrées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Tarte à la rhubarbe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.47" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Charlotte aux pépites de chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.96" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Flan au sucre glace" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.67" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Moelleux aux figues" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.77" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Charlotte au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.37" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Escargots farci·e·s aux oignons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.64" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Grenouilles à la crème" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.26" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Aubergines farci·e·s au gros sel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.29" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tomates rôti·e·s au beurre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.31" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Grenouilles aux oignons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.24" ] ] ;
+            ns1:name "Plats" ] .
+

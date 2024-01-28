@@ -1,0 +1,484 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://a2roo.coopcycle.org/api/restaurants/35> ns1:hasMenu <https://a2roo.coopcycle.org/en/restaurant/35-bagel-zee#menu> .
+
+<https://a2roo.coopcycle.org/en/restaurant/35-bagel-zee#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Cream cheese, tomates, saumon fumé, salade et fromage de chèvre chaud." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/d7/60d700f9524b7.jpeg> ;
+                    ns1:name "Bagel Vancouver" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, guacamole, tomates, emmental, steak haché, relish oignons, pastrami, oignons frits et bacon croustillant." ;
+                    ns1:name "Bagel Zée Burger" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cream Cheese, Salade, Tomates, Pickles, Jambon Blanc, Bacon croustillant, Fromages à Raclette." ;
+                    ns1:name "Bagel Lake Placid" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cream cheese, tomates, pastrami, moutarde, bacon croustillant et relish oignons." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/d6/60d6f38ec4ff6.jpeg> ;
+                    ns1:name "Bagel Brooklyn" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Creamcheese, Salade, tomates, pickles, effiloché de porc mariné tex-mex, oignons blancs, gorgonzola." ;
+                    ns1:name "Bagel Chinatown" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bagel au choix, Creamcheese, Tomates, Mozzarella, Emmental, cheddar, oignons blancs." ;
+                    ns1:name "Bagel Four Cheese" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cream Cheese, Relish Jalapeno, Tomates, Chorizo, Bacon croustillant, Red Hot, Cheddar" ;
+                    ns1:name "Bagel Tex Mex" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Creamcheese / guacamole, tomates, saucisson Bellota, bacon croustillant, Mont d'or AOC lait cru fondant." ;
+                    ns1:name "Bagel City Island" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cream cheese, salade, tomates, foie gras poelé sur steak haché, poivre noir, mozzarella." ;
+                    ns1:name "Bagel Hudson Valley" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Confit figues et/ou confit oignons, foie gras et salade." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/d6/60d6efe15ef1b.jpeg> ;
+                    ns1:name "Bagel french quarter" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Guacamole ou cream cheese, concombre, tomates, saumon fumé, citron pressé et salade." ;
+                    ns1:name "Bagel Madison" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cream cheese, tomates, pickles, poulet aux épices, oignons frits et salade." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/d6/60d6ffdf07667.jpeg> ;
+                    ns1:name "Bagel Broadway" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mayonnaise, tomate, pickles, jambon blanc, emmental et salade." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/d6/60d6f0bc2c9e1.jpeg> ;
+                    ns1:name "Bagel Harlem" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cream cheese, tomates, mozzarella, basilic, poivre moulin, jambon serrano cru et salades." ;
+                    ns1:name "Bagel Little Italy" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cream cheese, tomates, pickles, pastrami, cheddar fondu, oignons frits et moutarde au miel." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/d6/60d6ff8f90dd9.jpeg> ;
+                    ns1:name "Bagel Manhattan" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, tomates, pickles, cheddar, burger, relish jalapeno tomato , oignons blancs." ;
+                    ns1:name "Bagel burger" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cream cheese, tomates, aiguillettes de poulet, cantal, moutarde épicée et salade." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/d7/60d7001bc5568.jpeg> ;
+                    ns1:name "Bagel Staten Island" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cream cheese, tomates, confit de figue, fromage de chèvre, champignons et salades." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/d6/60d6eed9ea3ab.jpeg> ;
+                    ns1:name "Bagel Central Park" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ] ;
+            ns1:name "Bagels" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/d9/60d98a0f209ae.jpeg> ;
+                    ns1:name "Coca-Cola sans sucres (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cL" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/d9/60d98b2a53424.jpeg> ;
+                    ns1:name "Ice Tea Agrumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jus d'orange pulpe 20 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/d9/60d98ba787531.jpeg> ;
+                    ns1:name "May Tea menthe 33 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/d9/60d98cb4ddc10.jpeg> ;
+                    ns1:name "Seven Up 33 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/d9/60d98a5dbc8fd.jpeg> ;
+                    ns1:name "Coca Cola 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cL" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/d9/60d98a8796530.jpeg> ;
+                    ns1:name "Dr Pepper" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50cL" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/d9/60d9889007cde.jpeg> ;
+                    ns1:name "Cristaline" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/d9/60d98bb45ef84.jpeg> ;
+                    ns1:name "May Tea Pêche 33cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cL" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/d9/60d98c649a57b.jpeg> ;
+                    ns1:name "San Pellegrino Citron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bouteille" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/d9/60d9896daef03.jpeg> ;
+                    ns1:name "Bud" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cL" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/d9/60d98b5b9d7d1.jpeg> ;
+                    ns1:name "Ice Tea citron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cL" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/d9/60d98928573d7.jpeg> ;
+                    ns1:name "Canada Dry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cL" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/d9/60d98b9b0cb21.jpeg> ;
+                    ns1:name "Ice Tea pêche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cL" ;
+                    ns1:name "San Pellegrino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/d9/60d98c3de970c.jpeg> ;
+                    ns1:name "Pulco citron 33cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cL" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/d9/60d98c7beb804.jpeg> ;
+                    ns1:name "San Pellegrino Orange" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cL" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/d9/60d988b5a2003.jpeg> ;
+                    ns1:name "Badoit" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/d9/60d98bf89c02b.jpeg> ;
+                    ns1:name "Oasis Tropical 33 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Caramel Apple crumble" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/dc/60dc7d4ae533a.jpeg> ;
+                    ns1:name "Barbe à Papa avec cristaux de sucre rose" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fromage Blanc pomme tatin crumble spéculoos" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Donut Nutella fourré Nutella" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Donut Homer Chocolat" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Gâteau Oréo & Cream Cheesecake" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Muffin Nutella" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/dc/60dc7dc6ae0c4.jpeg> ;
+                    ns1:name "Fraise Senga Sengana avec morceaux" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fromage Blanc fruits cuisinés framboise muesli" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gâteau américain aux noix de pécan - Textures crémeuse et croquante" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/d7/60d7654c91e61.jpeg> ;
+                    ns1:name "Pecan Pie" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Donut Lisa sucre glace" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cookie Chocolat" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Extra Brownie" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fromage Blanc brisures de pécan, sirop d’agave" ;
+                    ns1:nutrition "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/dc/60dc7d7977c2e.jpeg> ;
+                    ns1:name "Chocolat Noir de Tanzanie avec morceaux et sauce chocolat" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/dc/60dc7df306d62.jpeg> ;
+                    ns1:name "Vanille Bourbon de Madagascar, noix de macadamia et sauce caramel" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Donut Selma fourré crème patissière" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/d7/60d7658e6f810.jpeg> ;
+                    ns1:name "Cheesecake NY" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/dc/60dc7e730b9a7.jpeg> ;
+                    ns1:name "Vanille Bourbon de Madagascar, noix de Pécan et sauce caramel" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bagel au choix." ;
+                    ns1:name "Bagel sucré" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Donut Moe fourré caramel" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fromage Blanc purée Banane chunks chocolat noir" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/dc/60dc7d96a8065.jpeg> ;
+                    ns1:name "Choco-noisettes, éclats de noisettes et sauce chocolat" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/dc/60dc7d612ad12.jpeg> ;
+                    ns1:name "Caramel au beurre et sel de Guérande et sauce caramel" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/dc/60dc7daae3dc4.jpeg> ;
+                    ns1:name "Citron Vert des Amériques et citron avec zestes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Sweet break" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "1 bagel, 1 accompagnement salé ou sucré et 1 boisson fraîche 33 cl au choix." ;
+                    ns1:name "Silver Menu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 bagels et 1 jus d'orange" ;
+                    ns1:name "Formule Goûter" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 bagel, 1 accompagnement salé, 1 accompagnement sucré et 1 boisson fraîche 33 cl sans alcool." ;
+                    ns1:name "Golden Menu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ] ;
+            ns1:name "Formules" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Cream heese, tomates, concombre, saumon fumé, citron pressé et salade." ;
+                    ns1:name "Soho wrap" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cream cheese, oignons frits, tomates, aiguillettes de poulet et salade." ;
+                    ns1:name "Queen wrap" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ] ;
+            ns1:name "Wraps maison" ] .
+

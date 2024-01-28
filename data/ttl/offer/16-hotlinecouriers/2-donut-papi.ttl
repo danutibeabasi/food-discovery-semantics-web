@@ -1,0 +1,67 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://hotlinecouriers.coopcycle.org/api/restaurants/2> ns1:hasMenu <https://hotlinecouriers.coopcycle.org/en/restaurant/2-donut-papi#menu> .
+
+<https://hotlinecouriers.coopcycle.org/en/restaurant/2-donut-papi#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Donut Papi's Favourite Glazed Flavours
+\r
+6 Pack:\r
+- OG\r
+- CINNAMON\r
+- STRAWBERRY\r
+- PANDAN COCONUT \r
+- CHOCOLATE \r
+- UBE OREO""" ;
+                    ns1:image <https://hotlinecouriers.coopcycle.org/media/cache/product_thumbnail/61/15/6115d459ebb9f.jpeg> ;
+                    ns1:name "DONUT PAPI FAVOURITES BOX (6 Pack)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "A$40.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "VEGAN MALASADAS  (6 Pack)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "A$42.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Malasadas are portuguese donuts but this particular one is a hawaiian inspired variant. We added our own Donut Papi twists and filled with Hawaiian, Australian and Filipino twists.
+\r
+6 Pack:\r
+- Ube\r
+- Pandan\r
+- Jelly\r
+- Milk Dobash (chocolate)\r
+- Cinnamon sugar (not filled)\r
+- Keylime""" ;
+                    ns1:name "MALASADAS STARTER PACK (6 Pack)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Peanuts",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "A$42.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MALASADAS FAMILY PACK (12 Pack)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "A$75.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://hotlinecouriers.coopcycle.org/media/cache/product_thumbnail/61/15/6115d4a4c0860.jpeg> ;
+                    ns1:name "MALASADAS STARTER PACK (8 Pack)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "A$50.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MALASADAS FAMILY PACK (10 Pack)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "A$65.00" ] ] ;
+            ns1:name "Box Sets" ] .
+

@@ -1,0 +1,216 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://kooglof.coopcycle.org/api/restaurants/89> ns1:hasMenu <https://kooglof.coopcycle.org/en/restaurant/89-yolo-smash-burger#menu> .
+
+<https://kooglof.coopcycle.org/en/restaurant/89-yolo-smash-burger#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Steak de bœuf, double cheddar, salade, oignons caramélisés, tomates, guacamole maison" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/16/6516a13b72cff.jpeg> ;
+                    ns1:name "Le Mexican 🥑" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Steak de bœuf, double cheddar, roquettes, oignons caramélisés, tomate, pesto rouge" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/16/65169e7df36f3.jpeg> ;
+                    ns1:name "Le Cheesy Pesto 🍅" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette de pommes de terre, cheddars fondu, roquettes, oignons caramélisés, tomate, sauce tartare maison" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/16/65169c0d2595b.jpeg> ;
+                    ns1:name "Le Cheesy VG 💚" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Filet de poulet pané, double cheddar, roquettes, oignons caramélisés, piment vert grillé, sauce épicée" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/16/6516a1f71cfb4.jpeg> ;
+                    ns1:name "Le Spicy Chicken 🌶️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "🍔+🍟+🥤" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/16/6516a4cf78b20.jpeg> ;
+                    ns1:name "Menu Yolo Cheese Burger 💖" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Steak de boeuf, double cheddar, salade, oignons rouges, cornichons, sauce «Yolo»" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/16/651698f0926e4.jpeg> ;
+                    ns1:name "Le Cheesy 🧀" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Steak de bœuf, double cheddar, salade, oignons rouge, cornichons, guacamole (fait maison)" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/16/65169caf3a613.jpeg> ;
+                    ns1:name "Le Cheesy Guacamole 🥑" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Steak de bœuf, double cheddar, salade, oignons rouges, cornichons et sauce «BBQ»." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/16/65169be0e607c.jpeg> ;
+                    ns1:name "Le Cheesy BBQ 🧀" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ] ;
+            ns1:name "Formule Cheeseburger 🍔 +🍟 = 🧡" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/16/65169ee26f5fb.jpeg> ;
+                    ns1:name "Le Chicken Massala 🍗" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/16/6516a1aa57784.jpeg> ;
+                    ns1:name "Le Phily Cheese Steak 🧀" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Rumsteck finement tranché et mariné aux épices masala, oignons caramélisés, cheddar fondu" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/16/651698591be03.jpeg> ;
+                    ns1:name "Le Beef Masala 🌶️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/16/65169f1fd14a5.jpeg> ;
+                    ns1:name "Le Chicken qui rit 🧀" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ] ;
+            ns1:name "Yolodwichs 🥖" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Sauce épicée maison" ;
+                    ns1:name "Sauce épicée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce barbecue" ;
+                    ns1:name "Sauce barbecue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce ketchup" ;
+                    ns1:name "Ketchup" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Secret de Yolo" ;
+                    ns1:name "Sauce Yolo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce mayo" ;
+                    ns1:name "Mayonnaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.30" ] ] ;
+            ns1:name "Sauces 🍵" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Tiramisu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Mega cookie chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.90" ] ] ;
+            ns1:name "Desserts 🍪" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Croustillantes et maison !" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/16/651697e1a5234.jpeg> ;
+                    ns1:name "Frites fraîches maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Röstis 2 pièces" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/16/6516a4fd97c40.jpeg> ;
+                    ns1:name "Röstis maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "X4 beignets de poulet🍗" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/16/6516976579ff3.jpeg> ;
+                    ns1:name "Beignets de poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.40" ] ] ;
+            ns1:name "Sides 🍟" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Beignets de poulet, frites, oignons caramélisés, guacamole maison" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/16/651697c33e480.jpeg> ;
+                    ns1:name "Bowl Chicken & Guacamole" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ] ;
+            ns1:name "Yolo Bowls 🌱" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Potato bun, 3 steak de bœuf smashé, triple cheddar, oignons rouges, cornichons et sauce \"Yolo\" maison." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/16/6516a2c44f002.jpeg> ;
+                    ns1:name "Le Triple Smash 🍔🍔🍔" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/16/6516a10a01446.jpeg> ;
+                    ns1:name "Le Guaca Smash 🥑" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Potato bun, 2 steak de bœuf smashé, double cheddar, pesto rouge maison" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/16/6516a1683df1f.jpeg> ;
+                    ns1:name "Le Pesto Smash 🍅" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/16/6516a24479ee1.jpeg> ;
+                    ns1:name "Le Spicy Smash 🌶️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Potato bun, 2 steaks de bœuf smashé, double cheddar, oignons rouges, cornichons et sauce \"BBQ\" maison." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/16/6516980688ff1.jpeg> ;
+                    ns1:name "Le BBQ Smash 🧀" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/16/6516a0c10ff98.jpeg> ;
+                    ns1:name "Le Double Smash 🍔🍔" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ] ;
+            ns1:name "Formule Smash Burger 🍔 +🍟 = 🧡" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Eau pétillante 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Eau plate 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca Cola Zéro 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "7up Mojito" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca Cola 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Orangina 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ice Tea 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "Softs 🥤" ] .
+

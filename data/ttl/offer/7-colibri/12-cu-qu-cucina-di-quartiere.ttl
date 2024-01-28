@@ -1,0 +1,103 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://colibri.coopcycle.org/api/restaurants/12> ns1:hasMenu <https://colibri.coopcycle.org/en/restaurant/12-cu-qu-cucina-di-quartiere#menu> .
+
+<https://colibri.coopcycle.org/en/restaurant/12-cu-qu-cucina-di-quartiere#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Frittata di ortaggi al forno, cous cous Cu.Qu. , zucca arrostita." ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/be/63beb3f9bcc60.jpeg> ;
+                    ns1:name "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/be/63beb3c16e0a6.jpeg> ;
+                    ns1:name "Lenticchie e Spinaci" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Verdure in foglia e legumi misti." ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/be/63beb49cbe43f.jpeg> ;
+                    ns1:name "Zuppa Cu. Qu." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Polpette di batata e merluzzo, riso integrale Cu. Qu. , scarole" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/c0/63c0072fcad36.jpeg> ;
+                    ns1:name "Fish Balls" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Insalata mista, crocchette di cavolfiore, carote al forno, pere e dressing alla senape." ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/be/63beb3940f502.jpeg> ;
+                    ns1:name "E che cavolo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Insalata mista, pollo arrostito a listarelle, carote al forno, pere, dressing alla senape e crostini." ;
+                    ns1:name "Insalata di pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Polpette ceci e verza, insalata di finocchi, radicchio e arance e pane arabo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Piatto Unico" ;
+                    ns1:name "Riso Basmati con pollo e verdure" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Piatto Unico" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/c0/63c0070334737.jpeg> ;
+                    ns1:name "Salame cioccolato" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/c0/63c006dc33e17.jpeg> ;
+                    ns1:name "Macedonia semplice" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ciocco Cheseecake al caramello salato" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Dolci e frutta" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/be/63beb437bac4a.jpeg> ;
+                    ns1:name "Cous Cous con broccoli uvetta pinoli e cacioricotta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Risotto con bisque di gamberi, stracciata, limone e gamberi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/bf/63bf016fb6235.jpeg> ;
+                    ns1:name "Crema di zucca e carote con chips di cavolo nero, semi di zucca e crostini." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crema di sedano, rapa con nido di cicoria e crostini" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/be/63beb47581e79.jpeg> ;
+                    ns1:name "Riso integrale con porro noci e zeste di limone" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Gnocchi radicchio, fontina e noci" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "Primi" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Capresine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Antipasti" ] .
+

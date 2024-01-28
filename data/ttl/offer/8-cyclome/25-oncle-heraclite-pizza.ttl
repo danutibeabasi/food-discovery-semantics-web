@@ -1,0 +1,159 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://cyclome.coopcycle.org/api/restaurants/25> ns1:hasMenu <https://cyclome.coopcycle.org/en/restaurant/25-oncle-heraclite-pizza#menu> .
+
+<https://cyclome.coopcycle.org/en/restaurant/25-oncle-heraclite-pizza#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/62/bd/62bd6445e9313.jpeg> ;
+                    ns1:name "Auvergnat Limonade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1,5L" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/61/6e/616eb824c5782.jpeg> ;
+                    ns1:name "Auvergnat Cola 1,5L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une blonde aromatisée au Thym par le voisin Potinga. 4,7°" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/62/59/62592e1ff2e50.jpeg> ;
+                    ns1:name "Bière Potinga - Thym Pale Blonde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1L" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/62/b7/62b729c6cfe48.jpeg> ;
+                    ns1:name "Eau plate : Volvic" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/62/f5/62f52173b65cf.jpeg> ;
+                    ns1:name "Auvergnat Cola Zero" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1L" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/61/6e/616eb7ad28cb5.jpeg> ;
+                    ns1:name "Eau gazeuse : Rozana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/62/f5/62f51e8b15cc1.jpeg> ;
+                    ns1:name "Auvergnat Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/62/59/62592e5b0abfa.jpeg> ;
+                    ns1:name "Bière Potinga - Peel Poivre Ambrée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/62/bd/62bd5f687dd94.jpeg> ;
+                    ns1:name "Auvergnat Ice Tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/91/64917460d4e45.jpeg> ;
+                    ns1:name "Glace" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Un tour d'Auvergne en 4 fromages : Base Tomate, Tomme aux Artisons, St-Nectaire, Bleu de Laqueuille, Cantal." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/62/bd/62bd5f37f34a5.jpeg> ;
+                    ns1:name "4 Fromages d'Auvergne" ;
+                    ns1:nutrition "Celery",
+                        "Lupin",
+                        "Milk",
+                        "Mustard",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pâte noire au charbon actif, base crème, Saint-Nectaire, pomme de terre et jambon de pays. \r
+Inspiré par la géologie locale, le tonton te propose une pâte noire comme la cathédrale et la puissance du Saint-Nectaire associés a du jambon de pays pour résumer Clermont en une pizza.""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/62/bd/62bd65c0588ca.jpeg> ;
+                    ns1:name "La Clermont" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Lupin",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "PB & L : (Poireaux, butternut et Laqueuille)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base crème, des poivrons, du chorizo piquant, de l'emmental et quelques olives. Une pizza belle comme un coucher de soleil." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/62/bd/62bd65745bbdf.jpeg> ;
+                    ns1:name "Chorizo" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Lupin",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La reine de la simplicité : une base tomate, du jambon blanc, de l'emmental, quelques olives et des champignons que l'on pardonne d'êtres parisiens." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/62/bd/62bd66779811b.jpeg> ;
+                    ns1:name "Tante Marianne" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Lupin",
+                        "Milk",
+                        "Mustard",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base tomate, mozza & basilic. Simple. Efficace." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/62/bd/62bd660432f4a.jpeg> ;
+                    ns1:name "Margherita" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Lupin",
+                        "Milk",
+                        "Mustard",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La version vegane de la pizza d'hiver par excellence. En définitive et en dernière analyse c'est une pizza base crème végétale, fromage végétal avec des patates aux lordons (végétaux) pour renouveler les affects autour de ce classique." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/33/6533886221db6.jpeg> ;
+                    ns1:name "Savoyarde" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Base crème, emmental, truite, et après cuisson citron aneth\r
+fraîche & mozza de bufflonne.""" ;
+                    ns1:name "Truite" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Lupin",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La pizza la plus douce du tonton. Une base crème, du fromage de chèvre, des morceaux de figues, de l'emmental, un trait de miel & de la roquette pour donner une pointe d'amertume à toute cette douceur." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/62/bd/62bd65052ff9d.jpeg> ;
+                    ns1:name "Cabrette" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Lupin",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ] ;
+            ns1:name "Pizzas" ] .
+

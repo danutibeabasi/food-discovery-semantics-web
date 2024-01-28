@@ -1,0 +1,55 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://dinan.coopcycle.org/api/restaurants/8> ns1:hasMenu <https://dinan.coopcycle.org/en/restaurant/8-le-bistrot-du-marche#menu> .
+
+<https://dinan.coopcycle.org/en/restaurant/8-le-bistrot-du-marche#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Oasis tropical" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Steak haché vbf, lard grillé, pain de l'artisan boulanger, pickles by Rooz Sauces, oignons rouges, tomates, salade et Cheddar. Servi avec frites maison." ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/d9/63d918f3df29d.jpeg> ;
+                    ns1:name "Steak burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Steak de légumes maison, pain de l'artisan boulanger, oignons, tomates, salade et Cheddar. Servi avec frites maison." ;
+                    ns1:name "Veggie burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cabillaud pané, pain de l'artisan boulanger, sauce tartare, oignons rouges, tomates, salade et Cheddar. Servi avec frites maison." ;
+                    ns1:name "Fish burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pulled pork 6h de cuisson basse temp. dans une sauce BBQ maison, pain de l'artisan boulanger, oignons rouges, tomates, salade et Cheddar. Servi avec frites maison." ;
+                    ns1:name "Pork burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet pané maison, mayonnaise maison, pain de l'artisan boulanger, oignons rouges, tomates, salade et Cheddar. Servi avec frites maison" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/d9/63d91a998ae5a.jpeg> ;
+                    ns1:name "Chicken burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Steak haché vbf, pain de l'artisan boulanger, Reblochon, pommes de terre rissolées, tomate, oignons et salade. Servi avec frites maison. *Légumes du marché" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/d9/63d919f087068.jpeg> ;
+                    ns1:name "Burger savoyard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ] ;
+            ns1:name "Plats" ] .
+

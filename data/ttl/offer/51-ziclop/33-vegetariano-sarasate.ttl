@@ -1,0 +1,232 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://ziclop.coopcycle.org/api/restaurants/33> ns1:hasMenu <https://ziclop.coopcycle.org/en/restaurant/33-vegetariano-sarasate#menu> .
+
+<https://ziclop.coopcycle.org/en/restaurant/33-vegetariano-sarasate#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/65/636530921beb3.jpeg> ;
+                    ns1:name "PASTEL DE BERENJENA CON SALSA DE QUESO AZUL" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Calabacín, cebolla, zanahoria, pimiento verde y rojo, huevos leche y salsa de tomate" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/59/63594a1ed34c1.jpeg> ;
+                    ns1:name "Lasaña de verduras" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Arroz integral, soja y setas" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/59/635944cd5be96.jpeg> ;
+                    ns1:name "ARROZ SALTEADO CON VERDURAS" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/51/6351703bd7386.jpeg> ;
+                    ns1:name "Canelones de espinacas con bechamel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Spaguetti integral, calabacín, tomate, cebolla, hierbas aromáticas" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/64/0b/640b432f1b6a1.jpeg> ;
+                    ns1:name "Espaguetis integrales con setas y soja" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Alubia roja, cebolla, zanahoria, remolacha, arroz,  salsa de tomate, ensalada y patatas fritas" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/59/6359476e09681.jpeg> ;
+                    ns1:name "Hamburguesas de alubias rojas y remolacha, ensalada y patatas caseras" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Zanahoria, cebolla, coliflor, soja y mermelada" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/59/6359486e256f0.jpeg> ;
+                    ns1:name "Rollitos de primavera con salsa agridulce" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate casero, mozzarella, pimiento rojo y verde, zanahoria, calabacín y cebolla" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/64/f9/64f9e14716f44.jpeg> ;
+                    ns1:name "Pizza Sarasate vegetariana" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ] ;
+            ns1:name "Segundos" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Menade verdejo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Vino Joven Valdelares Tinto" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Vino Joven Valdelares Blanco" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Vino Joven Valdelares Rosado" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ] ;
+            ns1:name "Vinos Ecológicos y Veganos" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Croqueta de Borraja" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ración de Croquetas 6 uds." ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Croqueta de Setas" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Croqueta de Berenjena" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "Croquetas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/55/6355b3abe90d7.jpeg> ;
+                    ns1:name "Agua Alzola 50 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/58/635806b152d24.jpeg> ;
+                    ns1:name "Cerveza Estrella Galicia Reserva 1906" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/58/635805c4db7ee.jpeg> ;
+                    ns1:name "Cerveza artesasana Gastro IPA" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Bebidas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bebida de soja, harina de maiz, cacao, azucar y naranja" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/9f/639f9c3c09a94.jpeg> ;
+                    ns1:name "Natillas veganas de chocolate y naranja" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/59/635949620f9e0.jpeg> ;
+                    ns1:name "Tarta de queso" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Aceite de oliva, harina, bebida de soja, azucar, cacao y pera" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/51/63516f9d53048.jpeg> ;
+                    ns1:name "Bizcocho vegano de pera y cacao" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Huevo, leche, harina, plátano y chocolate" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/59/6359463cc3c31.jpeg> ;
+                    ns1:name "Crêpe de plátano y chocolate" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "BROWNIE CON MANZANA Y ALMENDRAS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Arroz, leche, canela y azucar" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/65/63652c1b285fb.jpeg> ;
+                    ns1:name "Arroz con leche y canela" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Yogur natural y mermelada" ;
+                    ns1:name "Yogur con mermelada casera de melón y plátano" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Postres" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Lentejas estofadas con berenjenas, veg" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/65/62/656256ef6b08b.jpeg> ;
+                    ns1:name "Lentejas estofadas con berenjenas" ;
+                    ns1:nutrition "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/59/63594819b0fac.jpeg> ;
+                    ns1:name "Pochas de Navarra" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/59/635945e9eaf7f.jpeg> ;
+                    ns1:name "Crema dos colores con cous cous" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lechuga, zanahoria, cebolla, maíz, pasas y mayonesa veganos" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/59/6359472149cb9.jpeg> ;
+                    ns1:name "Ensalada de Casa" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lechuga, zanahoria, cebolla, maíz, picatostes, pipas girasol, quinoa y coulis de membrillo" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/59/635946c9ee909.jpeg> ;
+                    ns1:name "Ensalada con pimientos asados y queso con membrillo" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/9f/639f9d42346bb.jpeg> ;
+                    ns1:name "CREMA DE CALABAZA Y NARANJA AL AZAFRÁN" ;
+                    ns1:nutrition "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Setas, castañas, puerro, zanahoria, verduras, harina y salvia" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/65/62/656259133a9c4.jpeg> ;
+                    ns1:name "Sopa de castañas y setas con salvia" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "Primeros" ] .
+

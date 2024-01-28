@@ -1,0 +1,247 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://naofood.coopcycle.org/api/restaurants/93> ns1:hasMenu <https://naofood.coopcycle.org/en/restaurant/93-dakoo#menu> .
+
+<https://naofood.coopcycle.org/en/restaurant/93-dakoo#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1f0fc7f64.jpeg> ;
+                    ns1:name "BIBIMBAP BOEUF 비빔밥" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Une institution de la streetfood coréenne
+\r
+Morceaux de poulet frits tendres et caramélisés enrobés de sauce honey garlic (sauce coréenne maison à base de soja, d'ail et de miel) servis avec du riz blanc et une salade sauce sésame""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d972dcb6de.jpeg> ;
+                    ns1:name "LE « DAK » HONEY GARLIC - DAKGANGJONG JONGSIK 닭강정 정식" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Le plat emblématique de la Corée, n’oubliez pas de bien le mélanger avant de le déguster !
+\r
+Base de riz, tofu frit, légumes cuits et shiitakes, assaisonnés à l’huile de sésame et à la sauce gochujang""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1f247dcdd.jpeg> ;
+                    ns1:name "BIBIMBAP TOFU 비빔밥" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/61/d1/61d1a216a93fb.jpeg> ;
+                    ns1:name "JAPCHAÉ 잡채" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Une institution de la streetfood coréenne
+\r
+Morceaux de poulet frits tendres et caramélisés enrobés de red sauce (sauce coréenne maison légèrement pimentée) servis avec du riz blanc et une salade sauce sésame""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d974c8cd83.jpeg> ;
+                    ns1:name "LE « DAK » RED SAUCE - DAKGANGJONG JONGSIK 닭강정 정식" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/78/6578b96903722.jpeg> ;
+                    ns1:name "JJIMDAK" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.60" ] ] ;
+            ns1:name "Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "EAU GAZEUSE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d984599c82.jpeg> ;
+                    ns1:name "COCA ZERO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "EAU PLATE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jus de raisin non gazeux contenant des morceaux de raisins (238ml)" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d97dea76ed.jpeg> ;
+                    ns1:name "SODA COREEN AUX RAISINS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1fa118f87.jpeg> ;
+                    ns1:name "COCA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jus de poire non gazeux contenant des morceaux de poire (238ml)" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d97c87e8ee.jpeg> ;
+                    ns1:name "SODA COREEN A LA POIRE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "ICE TEA PECHE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d9817db93d.jpeg> ;
+                    ns1:name "SPRITE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "\"Sprite\" à la banane coréen" ;
+                    ns1:name "SODA COREEN MILKISS BANANE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Riz nature avec quelques graines de sésame sur le dessus" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d97a806336.jpeg> ;
+                    ns1:name "RIZ" ;
+                    ns1:nutrition "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Il est aux coréens ce qu'est le pain aux français !
+\r
+Le kimchi est le socle de la gastronomie coréenne. Fait maison et servit dans un petit pot, c'est un met fermenté à base de chou chinois, d'épices et de pâte de riz utilisé comme condiment. Il accompagne le bibimbap, les mandoo et tous nos autres plats et finger food.""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d203727770.jpeg> ;
+                    ns1:name "KIMCHI 김치" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade de choux blanc à la sauce sésame servit dans un gobelet" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d97b6ab355.jpeg> ;
+                    ns1:name "SALADE A LA SAUCE SESAME" ;
+                    ns1:nutrition "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Accompagnements" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1f7b7110f.jpeg> ;
+                    ns1:name "CHEESE TTEOBBOKKI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Le plat favoris d’Oh Dae-Soo dans Old Boy
+\r
+5 raviolis frits caramélisés au tofu et légumes sauce honey garlic (sauce maison à base de soja, d'ail et de miel)""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d9789c4108.jpeg> ;
+                    ns1:name "MANDOO TOFU HONEY GARLIC 만두" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """À partager ... ou non !
+\r
+Morceaux de poulet frits tendres et caramélisés enrobés de red sauce (sauce coréenne maison légèrement pimentée)""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1ff58632a.jpeg> ;
+                    ns1:name "DAKGANGJONG RED SAUCE 닭강정" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Le plat favoris d’Oh Dae-Soo dans Old Boy
+\r
+5 raviolis frits caramélisés au poulet sauce honey garlic (sauce maison à base de soja, d'ail et de miel)""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d976aef67b.jpeg> ;
+                    ns1:name "MANDOO POULET HONEY GARLIC 만두" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Le plat favoris d’Oh Dae-Soo dans Old Boy
+\r
+5 raviolis frits caramélisés au poulet enrobés de red sauce (sauce coréenne maison légèrement pimentée)""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d977cb3a2d.jpeg> ;
+                    ns1:name "MANDOO POULET RED SAUCE 만두" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Le plat favoris d’Oh Dae-Soo dans Old Boy
+\r
+5 raviolis frits caramélisés au tofu et légumes enrobés de red sauce (sauce coréenne maison légèrement pimentée)""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d979752a10.jpeg> ;
+                    ns1:name "MANDOO TOFU RED SAUCE 만두" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """À partager ... ou non !
+\r
+Morceaux de poulet frits tendres et caramélisés enrobés de sauce honey garlic (sauce coréenne maison à base de soja, ail et miel)""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1fbe72c63.jpeg> ;
+                    ns1:name "DAKGANGJONG HONEY GARLIC 닭강정" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Vendu dans tout pojangmacha qui se respecte !
+\r
+Bâtonnets courts et épais de pâte de riz mariné dans un bouillon de boeuf, du poireaux et dans une sauce à base de piment rouge coréen""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d982c08378.jpeg> ;
+                    ns1:name "TTEOKBOKKI 떡볶이" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "Finger Food" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "1 finger Food + 1 boisson" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d201023eb0.jpeg> ;
+                    ns1:name "FORMULE 1" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 plat + 1 boisson" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/61/d1/61d1a27d8a78a.jpeg> ;
+                    ns1:name "FORMULE 2" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 plat + 1 finger food + 1 boisson" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d2025b2797.jpeg> ;
+                    ns1:name "FORMULE 3" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.90" ] ] ;
+            ns1:name "Formules" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "(ou bière Asahi selon disponibilité de notre fournisseur ...)" ;
+                    ns1:name "BIERE COREENNE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Visible dans tous les dramas coréens Netflix !\r
+Originaire de Corée, le soju est un alcool incontournable à base de pommes de terre, le plus célèbre. Mieux, il est le spiritueux le plus vendu au monde (grâce à la Chine, très consommatrice).""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d9806f0083.jpeg> ;
+                    ns1:name "SOJU NATURE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Visible dans tous les dramas coréens Netflix !\r
+Originaire de Corée, le soju est un alcool incontournable à base de pommes de terre, le plus célèbre. Mieux, il est le spiritueux le plus vendu au monde (grâce à la Chine, très consommatrice).""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d97f3624a3.jpeg> ;
+                    ns1:name "SOJU AROMATISE CITRON" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ] ;
+            ns1:name "Alcools" ] .
+

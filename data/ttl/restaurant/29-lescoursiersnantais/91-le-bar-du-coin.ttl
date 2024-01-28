@@ -1,0 +1,42 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lescoursiersnantais.coopcycle.org/api/restaurants/91> a ns1:Winery ;
+    ns1:address <https://lescoursiersnantais.coopcycle.org/api/addresses/5459> ;
+    ns1:bannerImage "https://lescoursiersnantais.coopcycle.org/placeholder/restaurant_banner/placeholders/lgPWK6x9G19D.jpg" ;
+    ns1:description "Le Bar du Coin se métamorphose vous offre un large choix de produits de la région nantaise (vins, bières et spiritueux) dans le souci d'une économie locale et solidaire, avec une carte aux prix producteurs." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.72154e+01 ;
+            ns1:longitude -1.55349e+00 ] ;
+    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/restaurant_thumbnail/5f/cb/5fcb96887a841.jpg> ;
+    ns1:name "Le Bar du Coin" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "17:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "15.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "6.00" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://lescoursiersnantais.coopcycle.org/en/restaurant/91-le-bar-du-coin" ] ] ;
+    ns1:sameAs <https://lescoursiersnantais.coopcycle.org/en/restaurant/91-le-bar-du-coin> ;
+    ns1:url <https://lescoursiersnantais.coopcycle.org/en/restaurant/91-le-bar-du-coin> .
+
+<https://lescoursiersnantais.coopcycle.org/api/addresses/5459> a ns1:PostalAddress ;
+    ns1:name "Le Bar du Coin" ;
+    ns1:streetAddress "21 Rue de la Juiverie, Nantes, France" ;
+    ns1:telephone "+33240475505" .
+

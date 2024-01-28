@@ -1,0 +1,47 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://krokoop.coopcycle.org/api/restaurants/23> a ns1:Restaurant ;
+    ns1:address <https://krokoop.coopcycle.org/api/addresses/1365> ;
+    ns1:description """Surnommé en hommage à l’abondante floraison jaune porte-bonheur d’une plante située en Thaïlande et au Laos, ThaunKroun séduit autant par son authenticité que sa simplicité familière.\r
+\r
+La maitre des lieux, Khanthavong Thanadson, vous accueille depuis 2019 dans cet espace généreux et typiquement décoré pour vous faire (re)découvrir les mets savoureux du Sud Est de l’Asie.\r
+\r
+Des incontournables Pad Thaï à la soupe aux crevettes Laotienne (Tom Yum Kung), on y trouvera facilement de quoi s’évader un peu le temps d’un repas.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.383668e+01 ;
+            ns1:longitude 4.364927e+00 ] ;
+    ns1:image <https://krokoop.coopcycle.org/media/cache/restaurant_thumbnail/65/49/6549845ee19f8.png> ;
+    ns1:name "THAUN KROUN" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "17:50" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday" ;
+            ns1:opens "11:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://krokoop.coopcycle.org/en/restaurant/23-thaun-kroun" ] ] ;
+    ns1:sameAs <https://krokoop.coopcycle.org/en/restaurant/23-thaun-kroun> ;
+    ns1:url <https://krokoop.coopcycle.org/en/restaurant/23-thaun-kroun> .
+
+<https://krokoop.coopcycle.org/api/addresses/1365> a ns1:PostalAddress ;
+    ns1:name "THAUN KROUN" ;
+    ns1:streetAddress "14 Rue Notre Dame, Nîmes, France" ;
+    ns1:telephone "+33950639193" .
+

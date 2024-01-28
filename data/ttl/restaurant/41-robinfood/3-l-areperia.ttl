@@ -1,0 +1,39 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://robinfood.coopcycle.org/api/restaurants/3> a ns1:Restaurant ;
+    ns1:address <https://robinfood.coopcycle.org/api/addresses/4> ;
+    ns1:description "_**Ristorante etnico senza glutine.**_" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.37678e+01 ;
+            ns1:longitude 1.12578e+01 ] ;
+    ns1:image <https://robinfood.coopcycle.org/media/cache/restaurant_thumbnail/61/85/618588c29c741.jpeg> ;
+    ns1:name "L'Areperia" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Wednesday" ;
+            ns1:opens "12:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Wednesday" ;
+            ns1:opens "19:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "it" ;
+                    ns1:urlTemplate "https://robinfood.coopcycle.org/en/restaurant/3-l-areperia" ] ] ;
+    ns1:sameAs <https://robinfood.coopcycle.org/en/restaurant/3-l-areperia> ;
+    ns1:url <https://robinfood.coopcycle.org/en/restaurant/3-l-areperia> .
+
+<https://robinfood.coopcycle.org/api/addresses/4> a ns1:PostalAddress ;
+    ns1:name "L'Areperia" ;
+    ns1:streetAddress "Via della Mosca 1R, 50122 Firenze, Italia" ;
+    ns1:telephone "+39055217358" .
+

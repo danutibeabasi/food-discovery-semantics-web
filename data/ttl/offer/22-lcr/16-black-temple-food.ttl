@@ -1,0 +1,545 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lcr.coopcycle.org/api/restaurants/16> ns1:hasMenu <https://lcr.coopcycle.org/en/restaurant/16-black-temple-food#menu> .
+
+<https://lcr.coopcycle.org/en/restaurant/16-black-temple-food#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Crevettes décortiquées sautées au wok avec huile d'olive, ail, oignon rouge, poivron, courgette, cacahuète écrasée, sauce soja et poivre noir de Kampot" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/95/6195008971672.jpeg> ;
+                    ns1:name "Crevettes sautées au Poivre de Kampot 🍤" ;
+                    ns1:nutrition "Crustaceans",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Les fameux beignets colombiens à la farine de maïs garnis au boeuf, pomme de terre et légumes servis avec une sauce \"aji\" (oignons, coriandre, tomate, citron vert), (3 pièces)" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/52/605203d6df281.jpeg> ;
+                    ns1:name "Empanadas au Boeuf 🥟" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignets frits en forme de triangle, feuille de brique, légumes et épices (3 pièces)" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/4f/604f6f3a8da86.jpeg> ;
+                    ns1:name "Samossa Légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petits beignets épicés et gourmands à la morue, frits, à déguster avec du piment (10 pièces)" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/51/6051f7816c71f.jpeg> ;
+                    ns1:name "Accras de Morue 🐟" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignets de calamars frits servis avec une sauce aïoli (6 pièces)" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/51/6051f80522917.jpeg> ;
+                    ns1:name "Beignets de Calamars 🐙" ;
+                    ns1:nutrition "Crustaceans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Banane plantain verte frit accompagné de Guacamole (6 pièces)" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/51/6051faf427c1d.jpeg> ;
+                    ns1:name "Patacones + Guacamole 🍌 🥑" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignets de filet de poulet frits servis avec une sauce aïoli (3 pièces)" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/51/6051f7ba38cf5.jpeg> ;
+                    ns1:name "Aiguillette de Poulet Frits 🍗" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bâtonnets  soja, graines, blé, tournesol, moutarde, pavot bleu + épices (curcuma, paprika), Servis avec une sauce aïoli (4 pièces)" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/52/6052002f3e39a.jpeg> ;
+                    ns1:name "Veggie Sticks" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Les fameux beignets colombiens à la farine de maïs garnis aux légumes. Servis avec une sauce \"aji\" (oignons, coriandre, tomate et citron vert), (3 pièces)" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/52/605203bab3a5e.jpeg> ;
+                    ns1:name "Empanadas aux Légumes 🥟" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pommes de terres émincées, frits + sauce aïoli" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/51/6051fb2c2df5d.jpeg> ;
+                    ns1:name "Patatas Bravas 🥔" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 Empanadas : 1 Boeuf, 1 Poulet, 1 Légumes + sauce aji" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/b3/61b3b714d7ee3.jpeg> ;
+                    ns1:name "Empanadas Mix" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Les fameux beignets colombiens à la farine de maïs garnis au poulet et légumes. Servis avec une sauce \"aji\" (oignons, coriandre, tomate et citron vert), (3 pièces)" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/51/6051f98a48d20.jpeg> ;
+                    ns1:name "Empanadas au Poulet 🥟" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "Entrées et Tapas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Crevettes décortiquées, ail, oignons et gingembre mixés finement, poivrons, tomates et lait de coco servies avec le rice & peas (riz à la jamaïcaine)
+\r
+💚 Disponible en contenant consigné""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/51/6051f8d74d6c1.jpeg> ;
+                    ns1:name "Crevettes à la Créole 🍤 🍚" ;
+                    ns1:nutrition "Crustaceans",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/3a/613a199b48b41.jpeg> ;
+                    ns1:name "DORADA FRITA + ARROZ CON COCO + PATACONES + ENSALADA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Fish (cabillaud) + Chips (Frites de Patates Douces) + Riz à la jamaïcaine + sauce créole + aïoli
+\r
+💚 Disponible en contenant consigné""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/51/6051f9d95224e.jpeg> ;
+                    ns1:name "Fish & Chips façon Black Temple 🐟 🍟 🍚" ;
+                    ns1:nutrition "Eggs",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Crevettes décortiquées, ail, oignons, sauce soja, curry, lait de coco. servie avec rice & peas (riz à la jamaïcaine)
+\r
+💚 Disponible en contenant consigné""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/51/6051f900dcb83.jpeg> ;
+                    ns1:name "Crevettes Coco-Curry 🍤 🍚" ;
+                    ns1:nutrition "Crustaceans",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Plat traditionnel jamaïcain (ail, oignon, cives, poivrons vert, tomate morue, ackee, piment de Jamaïque) servie avec Rice & Peas\r
+> légèrement pimenté.""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/8e/608ecf74ac93c.jpeg> ;
+                    ns1:name "Ackee & Saltfish 🐟  🍅 🌶" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ] ;
+            ns1:name "Plats de Crustacés et Poissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/97/6097caad9d912.jpeg> ;
+                    ns1:name "Jus de Goyave" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boisson Naturelle pétillante à l'Hibiscus" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/b3/61b3c756e6027.jpeg> ;
+                    ns1:name "Ibahis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/97/6097cae42c37f.jpeg> ;
+                    ns1:name "Jus Tropical 🍍🥭 🍌" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "« Old Jamaica » 33cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/52/605280edd33b0.jpeg> ;
+                    ns1:name "Ginger Beer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boisson Naturelle pétillante à base de Yerba Maté, gout grenade, cerise et groseille" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/b3/61b3c6ab334e9.jpeg> ;
+                    ns1:name "Club Mate Granat 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/8b/608be07d7d31b.jpeg> ;
+                    ns1:name "Eau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boisson Naturelle pétillante à base de Yerba Maté, gout cola" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/b3/61b3c6538b9ce.jpeg> ;
+                    ns1:name "Club Mate Cola 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "« caraïbos » 33cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/52/605281aaaa19e.jpeg> ;
+                    ns1:name "Jus de mangue 🥭" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boisson Naturelle pétillante à base de Yerba Maté" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/b3/61b3c4f3ca96f.jpeg> ;
+                    ns1:name "Club Mate Original 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/97/6097ca7edcec9.jpeg> ;
+                    ns1:name "Jus de Banane 🍌" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/b3/61b3c59d0815e.jpeg> ;
+                    ns1:name "Club Mate Original 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/52/60528316b450f.jpeg> ;
+                    ns1:name "Perrier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ] ;
+            ns1:name "Soft" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Cocktail sans alcool. Kiwi, banane, pomme verte et orange" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/8b/608be356e1cea.jpeg> ;
+                    ns1:name "Jungle Green 🥝🍌🍏🍊" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cocktail sans alcool. Ananas, fruits rouges, orange et grenadine" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/8b/608be3965a51a.jpeg> ;
+                    ns1:name "Paradise Dream 🍹🍍🍊🍓" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/3a/613a1ac4135ca.jpeg> ;
+                    ns1:name "JUGO NATURAL \"LULO EN AGUA\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jus d’ananas, mangue, goyave, passion, gingembre, fruits rouges - 33cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/52/60527e8fb7f76.jpeg> ;
+                    ns1:name "Cocktail Black Temple (Sans Alcool) 🍹" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ] ;
+            ns1:name "Cocktails Sans Alcool" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Mangue, Ananas, Fruits de la Passion, Pomme" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/a7/60a7c75187463.jpeg> ;
+                    ns1:name "Salade de Fruits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mousse de mascarpone, speculos, pomme cuite au beurre et miel, caramel au beurre-salé." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/51/6051ffb024cfa.jpeg> ;
+                    ns1:name "Tiramisu Pomme Caramel beurre-salé 🍏" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Le classique des gâteaux au chocolat, cœur coulant accompagné de son coulis de fruits rouge" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/8b/608be17a0e5c1.jpeg> ;
+                    ns1:name "Moelleux au chocolat 🍫" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Glace vanille, banane, sucre de canne, lait de coco" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/51/6051fa7fa29ba.jpeg> ;
+                    ns1:name "Milkshake jamaïcain 🥛" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mousse de mascarpone, sablé breton écrasé, émincé de mangue, fruits de la passion et coulis exotique" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/51/6051ffcdf1b30.jpeg> ;
+                    ns1:name "Tiramisu des Iles à la Bretonne 🥭" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Plat incontournable de la réunion composé de saucisses, saucisses fumées, oignons rouge, tomates, combava.\r
+servie avec le rice & peas (riz à la jamaïcaine)
+\r
+💚 Disponible en contenant consigné""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/52/605201968ffcc.jpeg> ;
+                    ns1:name "Rougail Saucisses 🍛🌶" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/30/6130f5180f7e8.jpeg> ;
+                    ns1:name "BANDEJA PAISA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Filet de poulet émincé et mariné aux épices colombo et mijoté au lait de coco, servie avec le rice & peas (riz à la jamaïcaine)
+\r
+💚 Disponible en contenant consigné""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/51/6051fc9a15e3c.jpeg> ;
+                    ns1:name "Poulet à la Créole - Colombo 🍗🍚" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/55/6155dc1d0646e.jpeg> ;
+                    ns1:name "HAMBURGUESA DE PATACONES + PAPAS FRITAS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/2a/622a524525a1f.jpeg> ;
+                    ns1:name "ARROZ CON POLLO + PATATAS FRITAS CASERAS (FRITES MAISON)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/48/634835c07a72d.jpeg> ;
+                    ns1:name "Sancocho de Pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/51/655101c4aa7ff.jpeg> ;
+                    ns1:name "Jerk Chicken  + Rice & Peas + Banane Plantain" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ] ;
+            ns1:name "Plats de Viande" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/52/6052864dd826f.jpeg> ;
+                    ns1:name "Tri Martolod Blanche 🍺" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/52/60527f633a277.jpeg> ;
+                    ns1:name "Duvel 🍺" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/52/6052823abc89a.jpeg> ;
+                    ns1:name "Kwak 🍺" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/52/605281ec1078e.jpeg> ;
+                    ns1:name "Tripel Karmeliet 🍺" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/52/605286c964e47.jpeg> ;
+                    ns1:name "Tri Martolod Rousse 🍺" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/52/6052868ddecaa.jpeg> ;
+                    ns1:name "Tri Martolod Blonde 🍺" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "« Foreign Extra Stout » 33cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/52/60528140cf14d.jpeg> ;
+                    ns1:name "Guinness 🍺" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "Bières" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Citron vert, Coca-Cola, Rhum Longueteau 40°, Glaçon" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/97/6097c4cce8022.jpeg> ;
+                    ns1:name "Cuba Libre 🍹" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vodka, jus d’ananas, jus d’orange, fruits de la passion, papaye, pêche et melon - 30 cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/89/60896c5e0f3f3.jpeg> ;
+                    ns1:name "Sex On The Beach 🍹" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4cl - « Malorhum » : Ananas, banane, avocat, épice colombo" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/51/6051fce32db99.jpeg> ;
+                    ns1:name "Rhum Arrangé Gwada 🥃" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Le nez de ce rhum dévoile une intensité aromatique remarquable avec des notes d'épices et de fruits secs. La bouche de ce rhum vieux présente une attaque franche qui révèle des notes intenses de boisés et d'épices de type cannelle ou vanille. Ce rhum clément offre une très belle longueur en bouche parsemée de fines notes d'amandes accompagnant un inimitable boisé." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/51/6051fd5c020e3.jpeg> ;
+                    ns1:name "Rhum vieux « Clément » 3 ans (Martinique) 🥃" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Citron Vert, cassonade, Rhum « Bologne » 4 cL" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/52/605284e595760.jpeg> ;
+                    ns1:name "Ti Punch Bologne 🍸" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jus d’ananas, mangue, goyave, banane, fruits rouges, rhum blanc - 33cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/52/60525a0f96651.jpeg> ;
+                    ns1:name "Cocktail Black Temple 🍹" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Citron Vert, cassonade, Rhum « Neisson » 4 cL" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/51/6051ff39d2b46.jpeg> ;
+                    ns1:name "Ti Punch Neisson 🍸" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Citron Vert, cassonade, Rhum « 3 Rivières » 4 cL" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/52/605287cd6d5ef.jpeg> ;
+                    ns1:name "Ti Punch 3 Rivières 🍸" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Rhum, jus d’ananas, lait de coco - 30 cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/52/60525c39dd016.jpeg> ;
+                    ns1:name "Pina Colada 🍹" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Citron vert, sucre blanc, cachaça Ypioca, glace pilée." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/52/60525b0960a80.jpeg> ;
+                    ns1:name "Caïpirinha  🍸" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4cl - « Malorhum » : Mangue, passion, citronelle" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/51/6051fcc391c48.jpeg> ;
+                    ns1:name "Rhum Arrangé Erotik 🥃" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Citron Vert, Menthe, Cassonade, Glace Pilée, Rhum Blanc Longueteau 40°, Angostura, eau gazeuse.\r
+Le meilleur Mojito de Rennes enfin disponible en livraison !""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/4f/604f7350b8e06.jpeg> ;
+                    ns1:name "Mojito 🍸" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "« Malorhum » - 4CL : Kiwi et fève de tonka" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/51/6051fd36686ba.jpeg> ;
+                    ns1:name "Rhum Arrangé Tonki 🥃" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Apéritif : Boissons alcoolisées et cocktails" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Riz à la jamaïcaine (riz cuisiné au lait de coco, haricot rouge, thym frais, sel, poivre)" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/51/6051fd803f5af.jpeg> ;
+                    ns1:name "Rice & peas 🍚" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/8b/608be11e5c373.jpeg> ;
+                    ns1:name "Bananes Plantain Mure (frits) 🍌" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "accompagné de sauce aïoli" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/51/6051f9fb7c52e.jpeg> ;
+                    ns1:name "Frites de Patates Douces frites 🍟" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Choux émincé et mariné à l'huile d'olive, citron vert, assaisonnement." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/51/6051fe2896d72.jpeg> ;
+                    ns1:name "Salade de Choux Blanc Mariné 🥬" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Accompagnements" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Corbières, agriculture biologique" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/52/60520065efdc5.jpeg> ;
+                    ns1:name "Cochon Volant 🍷" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cépage Tempranillo et Garnacha (bio), puissant avec une belle fraicheur" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/51/6051fdb60d4de.jpeg> ;
+                    ns1:name "Fiesta \"Azul y Garanza\"🍷" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ] ;
+            ns1:name "Vins Rouges" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Pomme de terre, carotte, courgette, protéine de soja, lait de coco, assaisonnement, accompagné de Rice & Peas "riz à la jamaïcaine, cuisiné au lait de coco, haricot rouge, thym frais, sel et poivre".
+\r
+💚 Disponible en contenant consigné""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/51/6051fbdedba8b.jpeg> ;
+                    ns1:name "Plat Ital 🍛🥔🥕🥥🍅" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """5 samossas aux légumes et sauce créole + riz à la jamaïcaine
+\r
+💚 Disponible en contenant consigné""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/51/6051fc0e5804b.jpeg> ;
+                    ns1:name "Plat Samossas Légumes 🍛" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Lentilles corail, légumes, curry, lait de coco. servie avec le rice & peas (riz à la jamaïcaine)
+\r
+💚 Disponible en contenant consigné""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/51/6051fb57c96e0.jpeg> ;
+                    ns1:name "Plat Dal Indien 🍛" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "Plats Végétariens" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Pour deux personnes.\r
+ 2 entrées, 2 plats, 2 desserts et 2 softs au choix
+\r
+💚 Disponible en contenant consigné""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/52/60520350cbddb.jpeg> ;
+                    ns1:name "Menu duo 🍽 🍽" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€50.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pour une personne.\r
+1 entrée, 1 plat, 1 dessert et 1 soft au choix
+\r
+💚 Disponible en contenant consigné""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/97/6097cd6f1b447.jpeg> ;
+                    ns1:name "Menu Solo 🍽" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 Tapas au choix" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/52/6052031dd642c.jpeg> ;
+                    ns1:name "Mix Tapas 🥟" ;
+                    ns1:nutrition "Crustaceans",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/43/614328bb6a8c9.jpeg> ;
+                    ns1:name "AREPA RELLENA + PATATAS FRITAS + JUGO NATURAL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 Tapas et 3 Cocktails faits maison au choix" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/52/60526202541c8.jpeg> ;
+                    ns1:name "Apéro Créole 🍹🍸" ;
+                    ns1:nutrition "Crustaceans",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€39.00" ] ] ;
+            ns1:name "Menus / À Partager" ] .
+

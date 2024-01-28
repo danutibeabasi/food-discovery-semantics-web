@@ -1,0 +1,20 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://le-rayon-vert.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "fr" ;
+                    ns1:addressLocality "Orléans" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 4.790006e+01 ;
+                    ns1:longitude 1.906112e+00 ] ] ;
+    ns1:description "À l'heure où les véhicules motorisés sont bannis des centres-villes, où le développement durable et le respect de l'environnement sont de réels enjeux pour chacun, nous proposons grâce à nos services, une véritable alternative efficace, moderne et dynamique en matière de transport léger et rapide. Nos services et nos valeurs souhaitent participer à l'essor d'Orléans et son agglomération d'une manière durable, coopérative et qualitative."@fr ;
+    ns1:name "COCO Collectif de Coursiers Orléanais " ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:sameAs <https://www.facebook.com/COLLECTIFCOURSIERSORLEANAIS>,
+        <https://www.instagram.com/_coco_coop_/> ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://le-rayon-vert.coopcycle.org> .
+

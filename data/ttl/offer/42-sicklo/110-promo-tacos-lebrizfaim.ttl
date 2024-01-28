@@ -1,0 +1,227 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://sicklo.coopcycle.org/api/restaurants/110> ns1:hasMenu <https://sicklo.coopcycle.org/en/restaurant/110-promo-tacos-lebrizfaim#menu> .
+
+<https://sicklo.coopcycle.org/en/restaurant/110-promo-tacos-lebrizfaim#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "OASIS CASSIS FRAMBOISE - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "7 UP MOKHITO - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "COCACOLA - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "FANTA CITRON - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "SCHWEPPS AGRUME - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "COCACOLA ZERO - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "ORANGINA - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "OASIS TROPICAL - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "FANTA ORANGE - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Boissons 🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Fromage Mozzarella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fromage Cheddar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fromage  gruyère râpé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fromage Raclette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fromage Chevre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ] ;
+            ns1:name "Les Supplements" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Frites environs 350cc" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/22/62223beb96a87.jpeg> ;
+                    ns1:name "Portion de frites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tendre de poulet épicé! a partager" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/22/62223742e5aa5.jpeg> ;
+                    ns1:name "Tenders (5 pièces)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Moitiés de piments Jalapeño verts, fourrées avec une préparation fromagère à base de cheddar, enrobées d’une panure croustillante. Une association savoureuse et surprenante entre le croquant du piment jalapeño et la douceur du cheddar. A partager !" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/22/622237bbb7bf0.jpeg> ;
+                    ns1:name "Jalapeños (5 pièces)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Préparation à base d’oignons et de farine, en forme d’anneaux, enrobée avec de la chapelure frit. Une association savoureuse entre la douceur de l’oignon et la croustillance de la panure. Un incontournable des planches à partager, idéal également comme entrée. A partager !" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/22/622236316879d.jpeg> ;
+                    ns1:name "Onion Rings (5 pièces)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Ah, la mozzarella ! Ce fromage italien doux et délicieux servi dans sa version  pané, frit  \r
+ces stick mozza risquent de devenir un tick !!!! \r
+a partager avec plaisir""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/22/622236c0b70a7.jpeg> ;
+                    ns1:name "Stick Mozzarella (5 pièces)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """De superbes  gourmandises salées  .des disques de camembert enrobés  de chapelure (œuf ) frits Parfait en entrée ou apéritif !\r
+un vrai plaisir \r
+vendu par 5""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/22/62223c2d22001.jpeg> ;
+                    ns1:name "Bouchées camembert (5 pièces)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/22/622239e9f037b.jpeg> ;
+                    ns1:name "Nuggets De Poulet (5 pièces)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ] ;
+            ns1:name "Les Appétissants 🧆" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Viande kebab succulente ajoutée de trois poivrons frits (le rouge, vert et jaune) et d'oignon frits allongée sur son coulis de tapenade d’aubergine et de poivron rouge. Le tout accompagné d'une onctueuse sauce fromage maison." ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/05/62052154ce622.jpeg> ;
+                    ns1:name "Menu Tacos Mexicain (tacos + frites + boissons 33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "L’infatigable, l'indétrônable viande kebab qui traverse les cultures et le temps. Toujours bon et délicieux. Nos broches kebab sont choisies avec soin et sont grillée au giros. Découpées en lamelles pour un goût de grillade finement assaisonnée par des épices de la route de la soie. Sauce fromagère et frites." ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/22/622232fe20228.jpeg> ;
+                    ns1:name "Menu Tacos kebab Populaire (tacos + frites + boissons 33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Qui ne connait pas les fameux et délicieux KENTUCKY FRIED CHICKEN, et bien nous l'avons  francisé. Nos tenders cuit juste ce qu'il faut ! dans une sauce fromage onctueuse (crème et gruyère de nos belle régions), toujours mélangés avec des frites et le tout dans une tortillas pour un résultat SO GOOD. Sans oublier le cheddar pour plus de saveur !" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/22/622233beaca52.jpeg> ;
+                    ns1:name "Menu Tacos le Kentucky (tacos + frites + boissons 33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un mélange osé pour un goût de fromage qui donne un caractère à ce tacos. Il est composé de nuggets de poulet croustillants avec du fromage de chèvre, le tout dans une tortilla mélangé avec des frites et une onctueuse sauce fromage crème faite maison." ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/0d/620d480873f30.jpeg> ;
+                    ns1:name "Menu Tacos le Fermier (tacos + frites + boissons 33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Voilà un régal pour les végétariens avec des saveurs venues d'ailleurs !" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/0d/620d5a969f536.jpeg> ;
+                    ns1:name "NOUVEAU Menu Tacos Falafel (tacos +frites +boisson33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Alternative aux végétariens. Ce tacos est composé d'une tortillas toastée au four sur dans laquelle on étale une tapenade d’aubergine et de poivron, on ajoute des pommes de terre (frites), des poivrons aux trois couleurs frits, des oignons caramélisés au miel, de la salade, des tomates, des olives et de l'oignon rouge. Le tout mélangé avec une onctueuse sauce fromagère faite maison pour un plaisir verdoyant !" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/22/62223c37ba022.jpeg> ;
+                    ns1:name "Menu Tacos Végétariens (tacos + frites + boissons 33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une idée de Tacos très boisés et très crémeux avec du kebab et des champignons revenus sur la plaque a snacker avec crème fraiche mélangée avec des frites et une sauce généreusement onctueuse et une bonne de poignée de fromage râpé pour accentuer la sensation de la saveur fromagère. Une véritable forêt de plaisir !" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/0d/620d47cd2cfb1.jpeg> ;
+                    ns1:name "Menu Tacos le Boisé (tacos + frites + boissons 33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Viande de bœuf avec raclette, une explosion de saveurs fromagères avec ce mélange de raclette et gruyère, le tout marmité avec une crème fraiche à feux très doux pour un rendu subtil. Le tout roulé dans une tortillas avec des frites et cuit au four." ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/0d/620d59e056c7e.jpeg> ;
+                    ns1:name "Menu Tacos le Savoyard (tacos + frites + boissons 33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "Les Menus ⭐" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "L’infatigable, l'indétrônable viande kebab qui traverse les cultures et le temps. Toujours bon et délicieux. Nos broches kebab sont choisies avec soin et sont grillée au giros. Découpées en lamelles pour un goût de grillade finement assaisonnée par des épices de la route de la soie. Sauce fromagère et frites." ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/4c/654ca340bc42b.jpeg> ;
+                    ns1:name "Prix réduit pour 2 TACOS KEBAB" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "OFFRE PROMO DU MOMENT ! 🔥" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Un mélange de fruits secs amandes et cacahouètes finement moulus et concassés est déposé entre les feuilles, lesquelles sont ensuite cuites puis trempées dans de l'eau sucrée avec , du miel et l'eau de fleur d'oranger  \r
+très  délicieux""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/20/6220dfdfd883a.jpeg> ;
+                    ns1:name "Baklawa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Avec ses 3 ingrédients de choix, le Tiramisu Chocolat Noisette Speculoos est incontestablement le plus gourmand de nos tiramisus. A la fois fondant et croustillant, croquant et doux, succombez à ses mille plaisirs." ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/22/62223b22a1f25.jpeg> ;
+                    ns1:name "Tiramisu chocolat (Desserts)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/22/62223ac25c2c0.jpeg> ;
+                    ns1:name "Makrout" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sa texture onctueuse et fondante, sa recette légère et généreuse et son goût doux et épicé saura apporter la touche sucrée nécessaire à la fin de votre repas." ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/22/62223b53165f0.jpeg> ;
+                    ns1:name "Tiramisu  Caramel Spéculoos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/22/62223ba1764a5.jpeg> ;
+                    ns1:name "Tarte au Daim" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/22/622239a28e423.jpeg> ;
+                    ns1:name "Ben & Jerry’s 500 mL (Format Familial) : Cookie Dough" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/22/62223972f0088.jpeg> ;
+                    ns1:name "Ben & Jerry’s 500 mL (Format Familial) : Chocolat Fudge Brownie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ben & Jerry’s 500 mL (Format Familial) : vanilla pecan blondie" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/22/6222390d14a29.jpeg> ;
+                    ns1:name "Ben & Jerry’s 500 mL (Format Familial) : vanilla pecan blondie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "lles sont préparées à base de pâte d'amande enrobée de fine pâte sablée parfumée à l'eau de fleur d'oranger le tout saupoudré au sucre glace" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/22/62223a6691a4e.jpeg> ;
+                    ns1:name "Corne De Gazelle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ] ;
+            ns1:name "Dessert et Glace 🧁" ] .
+

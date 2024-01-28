@@ -1,0 +1,260 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://zampate.coopcycle.org/api/restaurants/34> ns1:hasMenu <https://zampate.coopcycle.org/en/restaurant/34-syriana-calle-mayor#menu> .
+
+<https://zampate.coopcycle.org/en/restaurant/34-syriana-calle-mayor#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "VINO COTO DE HAYAS / GARNACHA ROSADO 75 CL." ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "COCA COLA ZERO LATA 33 CL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CERVEZA AMBAR 0.0 LATA 33 CL." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "VINO COTO DE HAYAS / GARNACHA SYRAH (TINTO) 75 CL." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "COCA COLA LATA 33 CL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "VINO COTO DE HAYAS / CHARDONNAY (BLANCO) 75 CL." ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CERVEZA AMBAR SIN GLUTEN LATA 33 CL." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CERVEZA AMBAR LATA  33 CL." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "AGUA PEQUEÑA 33 CL." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.20" ] ] ;
+            ns1:name "BEBIDAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Berenjenas asadas y remolacha con salsa tahine sazonado al estilo Sirio, acompañado de pan pita." ;
+                    ns1:name "MUTABAL ROSADO." ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.25" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "crema de pimientos asados, pan rallado, limón y nueces, sazonada al estilo Sirio, acompañada de pan pita. ( se puede sacar nueces)" ;
+                    ns1:name "MUHAMARA." ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crema de queso típica de Siria y sésamo negro, sazonado al estilo Sirio, acompañada de pan pita." ;
+                    ns1:name "LABNA." ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Hojas de parra rellenas de arroz y verduras." ;
+                    ns1:name "WARAK ENAB." ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Berenjenas asadas con salsa tahine sazonado al estilo Sirio, acompañado de pan pita." ;
+                    ns1:name "MUTABAL." ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crema de garbanzos con salsa tahine sazonada al estilo Sirio, acompañado de pan pita." ;
+                    ns1:name "HUMMUS" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 croquetas de garbanzos sazonados al estilo Sirio, acompañado con hummus, ensalada y pan pita." ;
+                    ns1:name "FALAFEL." ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Berenjenas asadas, pimientos, tomate, pepino y otras verduras sazonadas al estilo Sirio, acompañado de pan pita." ;
+                    ns1:name "BABA GANNOUJ." ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crema de garbanzos y aguacate con salsa tahine sazonado al estilo Sirio, acompañado de pan pita." ;
+                    ns1:name "HUMMUS VERDE." ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.20" ] ] ;
+            ns1:name "PLATOS VEGETALES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "2 pinchos de pechuga de pollo con nuestras especias al estilo Sirio, acompañados de hummus, ensalada y pan pita." ;
+                    ns1:name "SHISH TAWOK." ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pinchos de carne de ternera sazonados al estilo Sirio, acompañados con hummus, ensalada y pan pita." ;
+                    ns1:name "PINCHOS MORUNOS." ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 filetes de churrasco de ternera sazonados al estilo Sirio, acompañado con hummus, ensalada y pan pita." ;
+                    ns1:name "CHURRASCO." ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 alitas de pollo sazonadas al estilo Sirio, acompañadas con hummus, ensalada y pan pita." ;
+                    ns1:name "ALITAS DE POLLO." ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pinchos de carne picada de ternera sazonados al estilo Sirio, acompañado con hummus, ensalada y pan pita." ;
+                    ns1:name "SHISH KEFTA." ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "PLATOS DE CARNE" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomate, cebolla, perejil, sémola de trigo y limón." ;
+                    ns1:name "TABBOULEH." ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lechuga, tomate, cebolla, aceitunas negras, pepino y hierbabuena." ;
+                    ns1:name "FATTOUCHE." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pepino, yogurt natural, ajo y hierbabuena." ;
+                    ns1:name "XIXIQUI." ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ] ;
+            ns1:name "ENSALADAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Pincho moruno, shish, kofeta, shish tawok, churrasco y alitas de pollo con nuestra especias al estilo Sirio con hummus, ensalada y pan pita.\r
+(el pan pita se puede  poner aparte).""" ;
+                    ns1:name "PLATO COMBINADO DE CARNE." ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 tortas de pan pita rellenas de carne y queso feta, sazonadas al estilo Sirio, acompañado de hummus y ensalada." ;
+                    ns1:name "PLATO COMBINADO DE ARAYES." ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 croquetas de falafel, hummus, mutabel, muhammara y baba ghanuwj y warak enab con nuestras especias al estilo Sirio con ensalada y pan pita." ;
+                    ns1:name "PLATO COMBINADO VEGANO." ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 croquetas de falabel, hummus, mutabel, muhammara, Labna y hojas de warak enab, con nuestras especias al estilo Sirio con ensalada y pan pita." ;
+                    ns1:name "PLATO COMBINADO VEGETAL." ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ] ;
+            ns1:name "PLATOS COMBINADOS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Receta típica de la abuela que no te arrepentirás de probar." ;
+                    ns1:name "SOGQK - EL SECRETO DE LA ABUELA." ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 croquetas fritas de trigo, rellenas de carne picada de ternera con hummus, ensalada y pan pita." ;
+                    ns1:name "KEBBA ALEPO - ESPECIAL DE LA CIUDAD" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 pinchos de carne picada, sazonados de forma independiente: con burgul, nueces, perejil y nuestras especias al estilo Sirio acompañado de ensalada y pan pita." ;
+                    ns1:name "ESPECIAL DEL CHEF." ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Carne picada sazonada con especias al estilo Sirio con hummus y ensalada." ;
+                    ns1:name "ARAYES DE CARNE -  ESPECIALIDAD DE LA CASA." ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Carne picada con especias naturales, berenjena oriental, calabacin y pan sirio." ;
+                    ns1:name "SIRIA ANTIGUA." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "ESPECIALIDADES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bolsa de 6 tortas." ;
+                    ns1:name "PAN PITA EXTRA." ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ] ;
+            ns1:name "EXTRAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Clásico postre Sirio." ;
+                    ns1:name "BAKLAVA." ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ] ;
+            ns1:name "POSTRE" ] .
+

@@ -1,0 +1,54 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://sicklo.coopcycle.org/api/restaurants/120> ns1:hasMenu <https://sicklo.coopcycle.org/en/restaurant/120-kombuch-alpes-boutique#menu> .
+
+<https://sicklo.coopcycle.org/en/restaurant/120-kombuch-alpes-boutique#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/7b/627bbb2d1111e.jpeg> ;
+                    ns1:name "Kombucha Thé Fumé Bergamote 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/7b/627bb9f4cdb55.jpeg> ;
+                    ns1:name "Kombucha Thé Fumé Bergamote 1L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Thé Fumé Bergamote" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/7b/627bb92cec28d.jpeg> ;
+                    ns1:name "Kombucha Nature 1L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/7b/627bba835fd24.jpeg> ;
+                    ns1:name "Kombucha Nature 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Nature" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/7b/627bbb095daf0.jpeg> ;
+                    ns1:name "Kombucha pomme coing verveine 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/7b/627bbacea53ec.jpeg> ;
+                    ns1:name "Kombucha pomme coing verveine 1L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Pomme Coing Verveine" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/83/62835106cb4e8.jpeg> ;
+                    ns1:name "Kombucha Badiane Romarin 1L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/83/6283523b3e410.jpeg> ;
+                    ns1:name "Kombucha Badiane Romarin 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Badiane Romarin" ] .
+

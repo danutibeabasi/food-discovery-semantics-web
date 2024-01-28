@@ -1,0 +1,199 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://ziclop.coopcycle.org/api/restaurants/31> ns1:hasMenu <https://ziclop.coopcycle.org/en/restaurant/31-bang-bang-ramen#menu> .
+
+<https://ziclop.coopcycle.org/en/restaurant/31-bang-bang-ramen#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/4e/634eb0947f17e.jpeg> ;
+                    ns1:name "BANG BANG BIKINI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "BOCATA DE CALAMARES FRITOS EN PAN BRIOCHE Y NUESTRA MAYONESA DE KIMCHI Y OTRAS COSAS." ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/4e/634ea1eea0ee3.jpeg> ;
+                    ns1:name "BOCATA CALAMARES" ;
+                    ns1:nutrition "Molluscs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "NUESTRA TERNERA PICANTE IDEAL PARA MEZCLAR CON NUESTRO ARROZ GLUTONOSO." ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/4e/634ec61493a36.jpeg> ;
+                    ns1:name "TERNERA PICANTE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "ARROZ GLUTINOSO. PERFECTO PARA ACOMPAÑAR. PRUÉBALO JUNTO A LAS COSTILLAS O LA TERNERA PICANTE." ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/4e/634ead5dbd9b6.jpeg> ;
+                    ns1:name "BOL DE ARROZ" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "GYOZAS DE CERDO Y VERDURAS" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/4e/634ea0d077da0.jpeg> ;
+                    ns1:name "GYOZAS DE CERDO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "COSTILLA DE CERDO GLASEADA. SI PIDES EL ARROZ PODRÁS REBAÑAR TODA LA SALSA." ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/4e/634eb15455992.jpeg> ;
+                    ns1:name "COSTILLA DE CERDO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/4e/634eb29041c94.jpeg> ;
+                    ns1:name "GYOZAS DE LANGOSTINO Y JENGIBRE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "ARROZ FRITO DE PATO, HUEVO Y VERDURAS" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/4e/634eb03b1e4f2.jpeg> ;
+                    ns1:name "ARROZ FRITO DE PATO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "NUESTRA HAMBURGUESA DE PANCETA JAPO, QUESO KAMIKU, RÚCULA Y MOSTAZA." ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/4e/634eb1061720f.jpeg> ;
+                    ns1:name "CHASU BOCATA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "POLLO FRITO CON ESPECIAS JAPONESAS. SE ACOMPAÑA CON NUESTRA SALSA CASERA TONKATSU." ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/4e/634ec403cdb5d.jpeg> ;
+                    ns1:name "KARAAGE!" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "VAINAS DE SOJA SALTEADAS CON NUESTRA SALSA PICANTE. CÓMETELAS COMO PIPAS." ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/4e/634ea04cdbffb.jpeg> ;
+                    ns1:name "EDAMAME" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "FILETE DE CERDO EMPANADO CON NUESTRA SALSA CURRY Y VeRDURAS ACOMPAÑADO DE NUESTRO ArROZ." ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/4e/634ea1450d76e.jpeg> ;
+                    ns1:name "KATSU CURRY" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ] ;
+            ns1:name "Tapas Calientes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "NUESTRO SORBETE DE LIMON Y SAKE." ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/4e/634ec5b23e76a.jpeg> ;
+                    ns1:name "SORBETE DE LIMÓN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "MOCHIS DE CHEESCAKE (DOS UNIDADES)." ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/4e/634ec4a974dc6.jpeg> ;
+                    ns1:name "MOCHIS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Postres" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "AQUARIUS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "REFRESCO JAPONES MELON" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "REFRESCO JAPONES FRESA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "COCA COLA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "NESTEA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "COCA COLA ZERO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Cerveza Asahi (35 cl.)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Cerveza japonesa Sapporo (65 cl.)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Bebidas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/4e/634ec555a5cc9.jpeg> ;
+                    ns1:name "RAMEN VEGETARIANO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "MINI RAMEN VEGETARIANO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "VERSIÓN MINI DE NUESTRO RAMEN. CALDO CASERO DE POLLO Y CERDO, BASE DE SOJA Y SESAMO, TOPPINGS DE PANCETA , HUEVO MARINADO, BAMBU, NABO ENCURTIDO, ALGA NORI Y CEBOLLETA." ;
+                    ns1:name "MINI RAMEN" ;
+                    ns1:nutrition "Eggs",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "CALDO CASERO DE POLLO Y CERDO, BASE DE SOJA Y SESAMO, TOPPINGS DE PANCETA , HUEVO MARINADO, BAMBU, NABO ENCURTIDO, ALGA NORI Y CEBOLLETA." ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/4e/634ea35c2f19a.jpeg> ;
+                    ns1:name "RAMEN" ;
+                    ns1:nutrition "Eggs",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "MINI RAMEN MARISCO Y POLLO" ;
+                    ns1:nutrition "Molluscs",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/4e/634ec5075a8e8.jpeg> ;
+                    ns1:name "RAMEN MARISCO Y POLLO" ;
+                    ns1:nutrition "Molluscs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ] ;
+            ns1:name "Ramen" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "KUMCHI CASERO DE COL Y NABO DAIKON. SE ACOMPAÑA CON TOFU FRITO." ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/4e/634ec46183ff2.jpeg> ;
+                    ns1:name "KIMCHI TOFU" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "DADOS DE ATUN ROJO ALIÑADOS Y SALSA DE AJOBLANCO CASERO." ;
+                    ns1:name "TARTAR DE ATUN (4 BOLAS)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "FIDEOS DE ARROZ, ALGA WAKAME Y NUESTRO DRESSING DE CACAHUETE Y PONZU." ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/4e/634eb1c42bc5b.jpeg> ;
+                    ns1:name "ENSALADA DE NOODLES, ALGAS Y VERDURAS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "1/2 TARTAR DE ATUN (2 BOLAS)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Tapas Frías" ] .
+

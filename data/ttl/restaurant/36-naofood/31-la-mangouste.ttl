@@ -1,0 +1,52 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://naofood.coopcycle.org/api/restaurants/31> a ns1:Restaurant ;
+    ns1:address <https://naofood.coopcycle.org/api/addresses/1577> ;
+    ns1:bannerImage "https://naofood.coopcycle.org/media/cache/restaurant_banner/60/16/6016fc4b85c10.jpg" ;
+    ns1:description """Certainement l'une des meilleures Pizza de Nantes. Une pâte qui repose 4 jours minimum, des produits bio, et surtout une équipe passionnée ! Aucun doute vous allez vous régaler !\r
+\r
+Conseil de la maison pour que vos pizzas soient aussi bonnes à la maison qu'au restaurant: 1) Préchauffez votre four à 250/300°  2) Quand le coursier est là, coupez votre four et enfournez vos pizzas pendant 3-4 minutes 3) Régalez-vous !""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.72122e+01 ;
+            ns1:longitude -1.546944e+00 ] ;
+    ns1:image <https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/60/16/6016fc4b85c10.jpg> ;
+    ns1:name "La Mangouste" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday" ;
+            ns1:opens "19:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:45" ;
+            ns1:dayOfWeek "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "12:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:45" ;
+            ns1:dayOfWeek "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "19:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:55" ;
+            ns1:dayOfWeek "Friday" ;
+            ns1:opens "12:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://naofood.coopcycle.org/en/restaurant/31-la-mangouste" ] ] ;
+    ns1:sameAs <https://naofood.coopcycle.org/en/restaurant/31-la-mangouste> ;
+    ns1:url <https://naofood.coopcycle.org/en/restaurant/31-la-mangouste> .
+
+<https://naofood.coopcycle.org/api/addresses/1577> a ns1:PostalAddress ;
+    ns1:name "La Mangouste" ;
+    ns1:streetAddress "30 Rue Fouré, Nantes, France" ;
+    ns1:telephone "+33251723181" .
+

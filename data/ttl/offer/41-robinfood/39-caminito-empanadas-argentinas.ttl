@@ -1,0 +1,215 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://robinfood.coopcycle.org/api/restaurants/39> ns1:hasMenu <https://robinfood.coopcycle.org/en/restaurant/39-caminito-empanadas-argentinas#menu> .
+
+<https://robinfood.coopcycle.org/en/restaurant/39-caminito-empanadas-argentinas#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Petto di pollo impanato e speziato con due uova fritte" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/c5/63c5a34f7d2c5.jpeg> ;
+                    ns1:name "Milanesa a caballo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petto di pollo impanato e speziato, con salsa, prosciutto e formaggio" ;
+                    ns1:name "Milanesa Baires" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petto di pollo impanato e speziato" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/c5/63c5a3010399c.jpeg> ;
+                    ns1:name "Milanesa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ] ;
+            ns1:name "Milanesas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pane, carne macinata, aglio, prezzemolo, sale, pepe, origano, lattuga, pomodoro" ;
+                    ns1:name "Hamburger lattuga e pomodoro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pane, carne macinata, aglio, prezzemolo, sale, pepe, origano, uova" ;
+                    ns1:name "Hamburger uova fritte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pane, carne macinata, aglio, prezzemolo, sale, pepe, origano, bacon, formaggio, cipolla" ;
+                    ns1:name "Hamburger bacon, formaggio e cipolla" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pane, carne macinata, aglio, prezzemolo, sale, pepe, origano" ;
+                    ns1:name "Hamburger classico" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "Hamburger" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Prugne, bacon, formaggio fresco" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/c5/63c5a4e724244.jpeg> ;
+                    ns1:name "Empanadas con prugne e bacon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Prosciutto cotto, fontina e formaggio fresco" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/c5/63c5a437f1dd3.jpeg> ;
+                    ns1:name "Empanadas con cotto e fontina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pollo, aglio, cipolla, peperoni, uova, sale, origano, rosmarino, paprika, cipollina" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/c5/63c5a4b6f09ae.jpeg> ;
+                    ns1:name "Empanadas con pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Suino, pancetta, aglio, cipolla, peperoni, sale, origano, cumino, rosmarino, salvia, paprika" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/c5/63c5a40e9d8cb.jpeg> ;
+                    ns1:name "Empanadas con chorizo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tonno, aglio, cipolla, peperoni, formaggio fresco, peperoncino macinato" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/c5/63c5a5c08ae31.jpeg> ;
+                    ns1:name "Empanadas con tonno" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Roquefort, formaggio fresco, gorgonzola, prosciutto, noce, cipolla, cipollina" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/c5/63c5a503853d9.jpeg> ;
+                    ns1:name "Empanadas con Roquefort" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Manzo, aglio, cipolla, peperoni, uova, sale, origano, cumino, rosmarino, salvia, paprika" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/c5/63c5a3ee305ea.jpeg> ;
+                    ns1:name "Empanadas con carne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ] ;
+            ns1:name "Empanadas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Lenticchie, cipolla, peperone, carote, olive, purè di pomodoro, aglio, mostarda, sale, pepe, peperoncino macinato" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/c5/63c5a4948fef4.jpeg> ;
+                    ns1:name "Empanadas con lenticchie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Soia, peperoni, carote, cipollina, aglio, olive, paprika, origano, sale, olio" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/c5/63c5a5531a7f0.jpeg> ;
+                    ns1:name "Empanadas con soia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mais, peperoni, cipolla, margarina, maizena, sale, pepe" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/c5/63c5a47a39222.jpeg> ;
+                    ns1:name "Empanadas con humita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ] ;
+            ns1:name "Empanadas vegane" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Edamer, grana padano, pecorino, gorgonzola, cipollina" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/c5/63c5a3960e0f2.jpeg> ;
+                    ns1:name "Empanadas 4 formaggi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Aglio, cipolla, peperoni, spinaci, maizena, latte, formaggio fresco, sale, pepe, peperoncino macinato" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/c5/63c5a587d005c.jpeg> ;
+                    ns1:name "Empanadas con spinaci" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Edamer, cipolla, gorgonzola" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/c5/63c5a459b86d5.jpeg> ;
+                    ns1:name "Empanadas con formaggio e cipolla" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ] ;
+            ns1:name "Empanadas vegetariane" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Biscottini di maizena, farciti con dolce di latte e cocco" ;
+                    ns1:name "Alfajores" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Dolce dalla forma cilindrica ed allungata, coperto di zucchero" ;
+                    ns1:name "Churros" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Dolce dalla forma cilindrica ed allungata, coperto di zucchero. Farcito con dolce di latte" ;
+                    ns1:name "Churros con Dulce de Leche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Biscottini di maizena e farina, farciti con dolce di latte e sommersi in cioccolato" ;
+                    ns1:name "Alfajores Chocolate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Dolci" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Patatine fritte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Frittata di patate, cipolla e peperoni unite dall'uovo." ;
+                    ns1:name "Tortilla" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Insalata di lattuga, pomodoro e cipolla, condita con olio, aceto, agrodolce e sale" ;
+                    ns1:name "Insalata 4 ingredienti" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Patatine fritte formaggio e bacon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Patatine fritte formaggio e cipolla" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Frittata di patate, cipolla e peperoni con aggiunta di prosciutto e formaggio fresco unite dall'uovo." ;
+                    ns1:name "Tortilla con prosciutto e formaggio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ] ;
+            ns1:name "Sides" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salsa tipica argentina con aglio e prezzemolo" ;
+                    ns1:name "Chimichurri" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ketchup" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Maionese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ] ;
+            ns1:name "Salse" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Arrotolato di carne di bovino, farcito. Servito freddo, con maionese. Accompagnato da contorno" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/c5/63c5a330597f5.jpeg> ;
+                    ns1:name "Matambre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Polpettine di pollo fritte. Accompagnate da contorno" ;
+                    ns1:name "Redonditos de Pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pasticcio realizzato con carne macinata, insaporita con aromi, con l'aggiunta di formaggio e purè" ;
+                    ns1:name "Pastel de Papa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ] ;
+            ns1:name "Secondi" ] .
+

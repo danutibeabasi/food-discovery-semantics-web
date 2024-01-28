@@ -1,0 +1,210 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://naofood.coopcycle.org/api/restaurants/147> ns1:hasMenu <https://naofood.coopcycle.org/en/restaurant/147-ichizen#menu> .
+
+<https://naofood.coopcycle.org/en/restaurant/147-ichizen#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Nos petites fèves de soja Edamame sont parfaites pour ouvrir l'appétit, à consommer en apéro." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/da/63da90909f51a.jpeg> ;
+                    ns1:name "Edamame" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Les gyozas sont de délicieux raviolis dorés puis cuits à l'étouffée pour créer ce mélange de croustillant/moelleux et garder la délicatesse de la texture. Nos gyozas sont à base de porc et chou, servis avec un vinaigre de soja." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/da/63da904b46e5d.jpeg> ;
+                    ns1:name "Gyoza (6 pièces)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La soupe Miso, emblématique de la cuisine japonaise, est parfaite pour se réhydrater tout en accompagnant votre Donburi. Soupe à base de miso et dashi, accompagnée d'algues wakame, tofu et oignons cébettes." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/d8/63d8430776b9f.jpeg> ;
+                    ns1:name "Soupe Miso" ;
+                    ns1:nutrition "Crustaceans",
+                        "Fish",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Les gyozas sont de délicieux raviolis dorés puis cuits à l'étouffée pour créer ce mélange de croustillant/moelleux et garder la délicatesse de la texture. Nos gyozas sont à base de porc et chou, servis avec un vinaigre de soja." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/da/63da8fe971c3f.jpeg> ;
+                    ns1:name "Gyoza (3 pièces)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "À côtés" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Cola Breton en bouteille" ;
+                    ns1:name "Breizh Cola (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thé vert Chinois non sucré" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534b5bb85a8.jpeg> ;
+                    ns1:name "Thé Oolong Cha (50cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière Japonaise en bouteille" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534abc1e772.jpeg> ;
+                    ns1:name "Kirin (50cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mélange subtil de fruits et d'eau pétillante, 100% bio" ;
+                    ns1:name "Schorle Citron-Gingembre (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La boisson \"Ramune\" (se prononce \"Ramuné\") est LA limonade japonaise. Connue pour son ouverture spéciale : une bille de verre. Pour ouvrir la bouteille, il faut l'enfoncer en utilisant le bouchon. Attention, ça mousse !" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534b1ca8c2d.jpeg> ;
+                    ns1:name "Ramune Ume (20cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La boisson \"Ramune\" (se prononce \"Ramuné\") est LA limonade japonaise. Connue pour son ouverture spéciale : une bille de verre. Pour ouvrir la bouteille, il faut l'enfoncer en utilisant le bouchon. Attention, ça mousse !" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534b0394104.jpeg> ;
+                    ns1:name "Ramune Original (20cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thé vert Japonais non sucré" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534b6e1705e.jpeg> ;
+                    ns1:name "Thé vert Sencha (50cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Perrier (1L)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Perrier (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un mélange subtil de fruits et d'eau pétillante, 100% bio" ;
+                    ns1:name "Schorle Pomme (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière Japonaise en bouteille" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534a98c95f2.jpeg> ;
+                    ns1:name "Kirin (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cola Zéro Breton en bouteille" ;
+                    ns1:name "Breizh Cola Zero (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """SASHIMI DE SAUMON\r
+SAUCE SÉSAME\r
+RIZ VINAIGRÉ
+\r
+Carottes râpées, Graines de sésame, Avocat, Concombre tranché, Tenkasu (Billes de tempura).""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534ae8294e1.jpeg> ;
+                    ns1:name "Poke Bowl" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """SASHIMI DE SAUMON\r
+RIZ VINAIGRÉ
+\r
+Kisami Nori, Graines de sésame, Shiso, Wasabi.""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534b391f070.jpeg> ;
+                    ns1:name "Salmon Don" ;
+                    ns1:nutrition "Fish",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """CREVETTE TEMPURA\r
+TEN DON SAUCE\r
+RIZ NATURE
+\r
+Carottes Tempura, Aubergines Tempura, Oignons Tempura, Nori Tempura.""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534b4eb3a02.jpeg> ;
+                    ns1:name "Tempura Don" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Crustaceans",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534a75dfc17.jpeg> ;
+                    ns1:name "Kara Age Don" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """BOEUF GYUDON (Lamelles de boeuf et d'oignon)\r
+ONSEN TAMAGO (Oeuf parfait)\r
+RIZ NATURE
+\r
+Beni Shoga (Gingembre mariné), Oignons cébettes.""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534a65da165.jpeg> ;
+                    ns1:name "Gyudon" ;
+                    ns1:nutrition "Eggs",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """MABO NASU (Aubergine et Tofu cuit dans une sauce épaisse)\r
+ONSEN TAMAGO (Oeuf parfait)\r
+RIZ NATURE
+\r
+Oignons cébettes.""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534acb145b3.jpeg> ;
+                    ns1:name "Mabo Nasu Don" ;
+                    ns1:nutrition "Eggs",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534a4ea3a92.jpeg> ;
+                    ns1:name "Chicken Nanban Don" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """KATSU (Escalope de porc panée)\r
+TONKATSU SAUCE/SAUCE MISO SUCRÉE\r
+RIZ NATURE
+\r
+Chou Blanc, Graines de sésame, Concombre, Tomates Cerises.""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534a8795b2b.jpeg> ;
+                    ns1:name "Katsu Don" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.60" ] ] ;
+            ns1:name "Donburi" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Coulis de Kuromitsu, voile de Mochi" ;
+                    ns1:name "Pana cotta Kinako" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Biscuit sablé, Crème de Yuzu, Meringue en cigare" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/da/63da93165e042.jpeg> ;
+                    ns1:name "Tartelette au yuzu meringuée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.10" ] ] ;
+            ns1:name "Desserts" ] .
+

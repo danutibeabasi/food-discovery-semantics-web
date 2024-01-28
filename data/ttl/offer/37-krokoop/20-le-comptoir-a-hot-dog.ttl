@@ -1,0 +1,149 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://krokoop.coopcycle.org/api/restaurants/20> ns1:hasMenu <https://krokoop.coopcycle.org/en/restaurant/20-le-comptoir-a-hot-dog#menu> .
+
+<https://krokoop.coopcycle.org/en/restaurant/20-le-comptoir-a-hot-dog#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Nachos et sauce cheddar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Frite maison, bacon, oignons frits" ;
+                    ns1:name "Frite du comptoir" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Frites maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Salade composée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "ACCOMPAGNEMENTS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/b4/63b4fed2048b6.jpeg> ;
+                    ns1:name "Orangina 33 CL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/b4/63b4ff56c13fd.jpeg> ;
+                    ns1:name "S.Pellegrino 33 CL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/b4/63b4fe2844a59.jpeg> ;
+                    ns1:name "Oasis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/b4/63b4fda5ba746.jpeg> ;
+                    ns1:name "Bouteille d'eau 50 CL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/b4/63b4fe7a5c022.jpeg> ;
+                    ns1:name "Ice Tea 33 CL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/b7/63b75cadab15a.jpeg> ;
+                    ns1:name "Coca-Cola 33 CL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "BOISSONS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/b4/63b4fd72cdaa6.jpeg> ;
+                    ns1:name "Bière Bud 33 CL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "BOISSONS ALCOOLISEES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain artisanal, saucisse de boeuf, tranches de cheddar, oignons frits." ;
+                    ns1:name "Hot-Moment" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain artisanal, saucisse de boeuf, bacon, cornichons, ketchup, moutard, cheddar." ;
+                    ns1:name "Hot-Bacon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain artisanal, lieu noir pané, sauce tartare, salade, pickles de légumes." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/b7/63b758f756508.jpeg> ;
+                    ns1:name "Hot-Fish" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Hot-Veggie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Hot-Mard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain artisanal, saucisse de bœuf origine EU, cheddar, ketchup, moutarde, oignons frits." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/b7/63b757e66adbd.jpeg> ;
+                    ns1:name "Hot-Comptoir" ;
+                    ns1:nutrition "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain artisanal, effiloché de porc cuit 7h dans sa sauce barbecue, cheddar, oignons frits." ;
+                    ns1:name "Hot-Pork" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain artisanal, poulet pané d'origine France, sauce césar, salade, filet d'anchois, copeaux de parmesan." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/b7/63b75b85c4a8c.jpeg> ;
+                    ns1:name "Hot-César" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ] ;
+            ns1:name "HOT-DOGS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salade, poulet pané, œuf mollé, croûtons au pesto, copeaux de parmesan, sauce césar, tomates séchées." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/b7/63b75bcf6991d.jpeg> ;
+                    ns1:name "Salade César" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lieu noir pané, frites, sauce tartare" ;
+                    ns1:name "Fish and chips" ;
+                    ns1:nutrition "Fish",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ] ;
+            ns1:name "SALADES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain hot dog brioché toasté minute, crème de chocolat maison, banane, croustillant praliné." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/b5/63b5015537938.jpeg> ;
+                    ns1:name "Hot-Sweet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brownie aux noisettes." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/b5/63b500ac6e0ab.jpeg> ;
+                    ns1:name "Brownie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cake à la noix de coco." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/b5/63b501d948f5c.jpeg> ;
+                    ns1:name "Cake du moment" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "DESSERTS" ] .
+

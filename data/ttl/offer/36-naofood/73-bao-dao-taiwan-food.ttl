@@ -1,0 +1,265 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://naofood.coopcycle.org/api/restaurants/73> ns1:hasMenu <https://naofood.coopcycle.org/en/restaurant/73-bao-dao-taiwan-food#menu> .
+
+<https://naofood.coopcycle.org/en/restaurant/73-bao-dao-taiwan-food#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "IGP PAYS D’OC | BIO - Robe pâle et brillante, d’une teinte abricot. Un nez fin d’arômes florales et de fruits à chair blanches. Bouche fraiche avec des arômes complexes de fleurs, de fruits blancs et fruits rouges." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cde545ebb5.jpeg> ;
+                    ns1:name "Vin rosé CINSAULT BIO 25cl (Alc. 12,5%) (葡萄酒)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "IGP PAYS D’OC | BIO - Nous voulons retrouver dans cette canette de vin blanc tout ce que nous aimons dans le chardonnay.   En commençant par une jolie couleur or paille.   Rond et rafraîchissant, il nous rappelle des arômes floraux, citronnés et de pamplemousse.  Complexe et persistant ; c’est une vraie gourmandise qui dure en bouche." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cde35a8ccd.jpeg> ;
+                    ns1:name "Vin blanc CHARDONNAY BIO 25cl (Alc. 13,5%) (葡萄酒)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "FLEURIE – BEAUJOLAIS - Un savant mélange d’arômes fruités et épicés : mûre, cerise et poivre. Croquante, la bouche se dévoile sur une attaque fraîche et franche, les tanins sont fondus et se marient parfaitement à la finale subtilement épicée." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cde63ca973.jpeg> ;
+                    ns1:name "Vin rouge GAMAY 25cl (Alc. 13%) (葡萄酒)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ] ;
+            ns1:name "Vins BIO (hors Gamay)" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cdddc63e02.jpeg> ;
+                    ns1:name "Tensaï Tea Thé vert citron fleur de sureau (天山冰茶) / 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cdda58a9c6.jpeg> ;
+                    ns1:name "Tensaï Tea Thé blanc myrtille (天山冰茶) / 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cddc90508b.jpeg> ;
+                    ns1:name "Tensaï Tea Thé noir gingembre (天山冰茶) / 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cddba81a8f.jpeg> ;
+                    ns1:name "Tensaï Tea Thé matcha menthe poivrée (天山冰茶) / 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ] ;
+            ns1:name "Thés glacés BIO" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cdce357298.jpeg> ;
+                    ns1:name "Pur jus de pomme du Lot-et-Garonne BIO (有機蘋果汁) / 25cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cdd00d5186.jpeg> ;
+                    ns1:name "Pur jus multifruits BIO (有機綜合果汁) /25cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cdcefd9f31.jpeg> ;
+                    ns1:name "Pur jus d'orange BIO (有機柳橙汁) / 25cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ] ;
+            ns1:name "Jus de fruits BIO" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Noodles faites maison veggie aux trois saveurs" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cdd35cabfd.jpeg> ;
+                    ns1:name "Sòo-sann-pue mī (素三杯拌麵)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Noodles faites maison poulet aux trois saveurs" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cdd13b1179.jpeg> ;
+                    ns1:name "Sann-pue-ke mī (三杯雞麵)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Noodles faites maison poulet cuisson longue à la sauce sésame" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cdccf203b1.jpeg> ;
+                    ns1:name "Muâ-tsiùnn mī (舒肥雞肉麻醬麵)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Noodles porc mariné et braisé faites maison" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cdca270059.jpeg> ;
+                    ns1:name "Lóo-bah mī (台式控肉滷肉拌麵)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Noodles faites maison veggie à la sauce sésame" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cdd46650c4.jpeg> ;
+                    ns1:name "Sòo-si̍t muâ-tsiùnn mī (素食版麻醬麵)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "Noodles" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cdc2b5e4ea.jpeg> ;
+                    ns1:name "Fizz Citron BIO (有機氣泡飲) /33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cdc9359717.jpeg> ;
+                    ns1:name "Leamo Ginger Ale BIO (薑汁汽水) /33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cdc48c9ca7.jpeg> ;
+                    ns1:name "Fizz Tropical BIO (有機氣泡飲) /33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Soda" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cdc3a2290c.jpeg> ;
+                    ns1:name "Fizz Cola BIO (有機氣泡飲) / 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ] ;
+            ns1:name "Sodas BIO" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Concombre mariné à la Taïwanaise" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/61/5c/615c29a63ea99.jpeg> ;
+                    ns1:name "Hue-Kue (醃黃瓜)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet frit Taïwanais" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cdc81849ad.jpeg> ;
+                    ns1:name "Kiâm-soo-ke (鹽酥雞)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tofu frit et kimchi Taïwanais" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cdd7eaf3ef.jpeg> ;
+                    ns1:name "Tāu-kuann-tsìnn (炸豆腐和台式泡菜)" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Oeuf mariné au thé" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cdd9233870.jpeg> ;
+                    ns1:name "Tê-lóo-nn̄g (茶葉蛋)" ;
+                    ns1:nutrition "Eggs",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Truffe chocolat blanc, Yuzu et Matcha" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cde07dbace.jpeg> ;
+                    ns1:name "Truffe chocolat blanc, Yuzu et Matcha (柚子抹茶白巧克力)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ] ;
+            ns1:name "Snacks" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Guabao Canard" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/69/656902e8782c0.jpeg> ;
+                    ns1:name "Sio-ah Pau (烤鴨刈包)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Guabao porc braisé" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cdcb97559c.jpeg> ;
+                    ns1:name "Loo-bah pau (控肉刈包)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Guabao veggie avec tofu" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/61/5c/615c3443d4e6e.jpeg> ;
+                    ns1:name "Tāu-hū pau (素食刈包)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Guabao porc Shogayaki" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cdd21534aa.jpeg> ;
+                    ns1:name "Shogayaki pau (薑汁燒肉刈包)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Guabao porc floss épicé" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/69/65690204addd6.jpeg> ;
+                    ns1:name "Tiger Pau (虎包)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.30" ] ] ;
+            ns1:name "Gua Baos" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cdbe29ebef.jpeg> ;
+                    ns1:name "Bubble tea au Chocolat BIO au lait végétal (有機​巧克力珍奶)" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cdbce1ad63.jpeg> ;
+                    ns1:name "Bubble tea au Café BIO au lait végétal (有機​咖啡珍奶)" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Rooibos & Mangue" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cdc0c99aed.jpeg> ;
+                    ns1:name "Bubble Tea Signature (寶島特調珍奶)" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Au thé Cylon Latte" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cdc1b43ce2.jpeg> ;
+                    ns1:name "Bubble tea traditionnel (傳統珍珠奶茶)" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cdbf17c464.jpeg> ;
+                    ns1:name "Bubble tea au Matcha BIO au lait végétal (有機​抹茶珍奶)" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "Bubble Teas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Avec du Maqaw Pepper directement pris sur les marchés aborigènes de Taïwan" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cdba19c780.jpeg> ;
+                    ns1:name "Bière Mountain Pepper wheat (台灣馬告胡椒啤酒) / 33cl (Alc. 5%)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ] ;
+            ns1:name "Bière" ] .
+

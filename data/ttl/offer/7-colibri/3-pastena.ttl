@@ -1,0 +1,222 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://colibri.coopcycle.org/api/restaurants/3> ns1:hasMenu <https://colibri.coopcycle.org/en/restaurant/3-pastena#menu> .
+
+<https://colibri.coopcycle.org/en/restaurant/3-pastena#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "500 gr semola di grano duro Molini Ambrosio, uova di Nettuno, acqua" ;
+                    ns1:name "Spaghetti" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "500 gr semola di grano duro Molini Ambrosio, uova di Nettuno, acqua" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/4e/634e84d99adde.jpeg> ;
+                    ns1:name "Tagliatelle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "500 gr tonnarelli freschi semola grano duro Molini Ambrosio, uova di Nettuno, acqua" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/4e/634e84f91710f.jpeg> ;
+                    ns1:name "Tonnarelli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Pasta Fresca" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Macinato di scottona, pane cafone, mix di pepe e prezzemolo, ristretto di pomodoro" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/4e/634e842f9cfa9.jpeg> ;
+                    ns1:name "Polpette al Sugo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Polpette" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Ravioli alla Lasagna 2.0" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sfoglia di pasta alla carota, stufato di manzo e cipolle, chips di carote, salsa di pecorino" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/4e/634e846533505.jpeg> ;
+                    ns1:name "Ravioli alla Genovese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sfoglia di pasta bianca, crema di patate, misticanza di funghi, sentore di gorgonzola" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/4e/634e847e1baab.jpeg> ;
+                    ns1:name "Ravioli d'Autunno" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Ravioli al Vapore" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tonnarelli, pecorino DOP, cozza nostrana, lattuga di mare, polvere di cozze" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/4e/634e824824021.jpeg> ;
+                    ns1:name "Cacio e Cozze" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tagliatella fatta in casa, porcini e funghi di bosco, gamberi con la loro bisque" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/4e/634e83735cf0d.jpeg> ;
+                    ns1:name "Gamberi & Sottobosco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "GNOCCHI MANTECATI AL PARMIGIANO REGGIANO IN EMULSIONE DI WASABI,SALSA ORIENTALE E KATSUOBUSHI (TONNO ESSICCATO)." ;
+                    ns1:name "WAANM" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "Primi di mare" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tonnarelli fatti in casa, tuorlo di gallina bianca, pecorino romano DOP, guanciale artigianale" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/4e/634e82657cd05.jpeg> ;
+                    ns1:name "Carbonara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gnocchi fatti in casa, ripassata di San Marzano, polpette fritte, parmigiano, basilico" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/4e/634e88e34650b.jpeg> ;
+                    ns1:name "Gnocchi di nonna Nunziatina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tagliatelle fatte in casa, ragù alla bolognese, salsa al grana" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/4e/634e821a10d9b.jpeg> ;
+                    ns1:name "Bolognese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Primi di carne" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/4e/634e83ea0e9bd.jpeg> ;
+                    ns1:name "Coca-Cola Zero Vetro 330ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "45 cl" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/4e/634e865582b8b.jpeg> ;
+                    ns1:name "FuzTea Pesca" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/4e/634e82f0c85b1.jpeg> ;
+                    ns1:name "Acqua Lilia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/4e/634e87995d521.jpeg> ;
+                    ns1:name "Lurisia Limonata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/4e/634e8579ea633.jpeg> ;
+                    ns1:name "Sprite Vetro 330ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/4e/634e84bd4c6ef.jpeg> ;
+                    ns1:name "Coca-Cola Zero Lattina 330ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/4e/634e8359bc049.jpeg> ;
+                    ns1:name "Coca-Cola Vetro 330 ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "45 cl" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/4e/634e8635d3fae.jpeg> ;
+                    ns1:name "FuzTea Limone" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Acqua Sveva" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/4e/634e86be1ce06.jpeg> ;
+                    ns1:name "Lurisia Chinotto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/4e/634e8904445c5.jpeg> ;
+                    ns1:name "Fanta Lattina 330ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/4e/634e844a8a7e1.jpeg> ;
+                    ns1:name "Coca-Cola Lattina 330ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "Bibite" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "TAGLIATELLE FATTE IN CASA CON MISTICANZA DI FUNGHI DEL SOTTOBOSCO, BURRO NOISETTE AROMATIZZATO ALL'AGLIO." ;
+                    ns1:name "Tagliatelle ai Funghi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Spaghetti fatti in casa, crema di zucchine basilico e menta, formaggi del Casaro, chips di zucchine" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/4e/634e8407cd450.jpeg> ;
+                    ns1:name "Nerano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tonnarelli fatti in casa, pecorino romano DOP, misto di pepi, lime" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/4e/634e8231cfe65.jpeg> ;
+                    ns1:name "Cacio & Lime" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Spaghetti fatti in casa, passata di pomodoro San Marzano, basilico BIO" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/4e/634e84a5edd2b.jpeg> ;
+                    ns1:name "Spaghetto all'Italiana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Primi Vegetariani" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "50 cl" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/4e/634e88659456c.jpeg> ;
+                    ns1:name "Peroni Gran Riserva Rossa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/4e/634e87c5d3a6a.jpeg> ;
+                    ns1:name "Peroni Classica" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Birre" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tonnarelli fatti in casa, crema di zucchine pecorino e basilico, panatura croccante ai cereali" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/4e/634e82dee1312.jpeg> ;
+                    ns1:name "FrittaCrock Nerano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tonnarelli fatti in casa, ragù alla bolognese, piselli di stagione, besciamella al parmigiano, panatura croccante ai cereali" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/4e/634e830dac094.jpeg> ;
+                    ns1:name "FrittaCrock Pastena" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tonnarelli fatti in casa con crema di pecorino DOP, mix di pepi & lime, panatura croccante ai cereali" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/4e/634e82b9026f5.jpeg> ;
+                    ns1:name "FrittaCrock Cacio, 4 Pepi e Lime" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "FrittaCrock" ] .
+

@@ -1,0 +1,45 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://krokoop.coopcycle.org/api/restaurants/17> a ns1:Restaurant ;
+    ns1:address <https://krokoop.coopcycle.org/api/addresses/832> ;
+    ns1:description """Le sandwich gagne peu à peu ses lettres de noblesse à Nîmes et L'atelier du Sandwich s y est assurément pour quelque chose.\r
+\r
+Pour cause : les produits sont frais, si possible locaux, faits maison (jusqu’à la brandade !) et subtilement combinés pour offrir à chaque création un goût fin et équilibré.\r
+\r
+C’est le parti prit de Steve Clamart qui après avoir travaillé pour plusieurs restaurants gastronomiques s’est lancé dans l’aventure en 2019.\r
+\r
+Originaire de Belgique, le chef y propose également sa spécialité :\r
+la Gaufre de Liège, entièrement confectionnée sur place.\r
+\r
+Bref, de quoi se faire plaisir en savourant les innombrables autres pépites que nous réserve l’établissement.\r
+\r
+Bonne dégustation !""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.383853e+01 ;
+            ns1:longitude 4.361411e+00 ] ;
+    ns1:image <https://krokoop.coopcycle.org/media/cache/restaurant_thumbnail/65/49/65496bbe0cf95.png> ;
+    ns1:name "L'ATELIER DU SANDWICH" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "10:55" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://krokoop.coopcycle.org/en/restaurant/17-l-atelier-du-sandwich" ] ] ;
+    ns1:sameAs <https://krokoop.coopcycle.org/en/restaurant/17-l-atelier-du-sandwich> ;
+    ns1:url <https://krokoop.coopcycle.org/en/restaurant/17-l-atelier-du-sandwich> .
+
+<https://krokoop.coopcycle.org/api/addresses/832> a ns1:PostalAddress ;
+    ns1:name "L'ATELIER DU SANDWICH" ;
+    ns1:streetAddress "2 Place Bellecroix, Nîmes, France" ;
+    ns1:telephone "+33973166443" .
+

@@ -1,0 +1,104 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://khora.berlin/en/restaurant/109-il-moro> ns1:hasMenu <https://khora.berlin/en/restaurant/109-il-moro#menu> .
+
+<https://khora.berlin/en/restaurant/109-il-moro#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Mafalde (lange Pastasorte, die an beiden Enden gekrauselt ist), Tomatensoße mit frittierten Auberginen und geriebenern Ricotta salata" ;
+                    ns1:name "Alla Norma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gnocchi" ;
+                    ns1:name "Salbei & Butter" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Spaghetti, Tomatensoße, Knoblauch, Chili" ;
+                    ns1:name "Arrabbiata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Trottole (kurze spiralförmige Pastasorte) mit gemischtem Ragout (Rind und Schwein)" ;
+                    ns1:name "Ragú" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "LA PASTA" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Spreequell" ;
+                    ns1:name "Wasser 0,75L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pilsner Urquell" ;
+                    ns1:name "Bier 0,33L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Kola, Kola ohne Zucker, Zitrone, Orange, Mate, Apfel-Kirsch, Holunder, Mischmasch" ;
+                    ns1:name "Fritz Limo 0,33L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pilsner Urquell" ;
+                    ns1:name "Bier 0,5L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bayreuther" ;
+                    ns1:name "Helles Bier 0,5L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "GETRÄNKE" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Kirschtomaten, Büffelmozzarella, Rucola, Parmaschinken" ;
+                    ns1:name "Lipari" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "gegrillte Gemüse in Minzpesto, getrockene Tomatenpesto, Rucola (auch vegan ohne Parmesankruste)" ;
+                    ns1:name "Alicudi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Artischockencreme, Caciocavallo (Kuhmiclhkäse), Oliven, in Whisky geraucherte Zwiebeln" ;
+                    ns1:name "Vulcano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "LA PAGNOTTA (Gefüllte Pizzaspezilität mit einer kruste aus Thymian, Sesam und Parmesan)" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomatensoße, schwarze Oliven, Champignons, Artischocken, Kochschinken, Oregano" ;
+                    ns1:name "Capricciosa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomatensoße, Mozzarella, Basilikum" ;
+                    ns1:name "Margherita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomatensoße, Basilikum, Buffelmozzarella (außer dem Hofen)" ;
+                    ns1:name "Bufala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomatensoße, gegrillte Paprika in Minzpesto, Nduja (würzige, pikante, weiche, italienische Rohwurst), Mozzarella, Oregano" ;
+                    ns1:name "Diavola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomatensoße, Sardellen, schwarze Oliven, Mozzarella, Oregano" ;
+                    ns1:name "Napoli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomatensoße, Knoblauch, Oregano, Petersilienpesto" ;
+                    ns1:name "Marinara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "LA PIZZA" ] .
+

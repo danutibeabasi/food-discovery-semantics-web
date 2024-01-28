@@ -1,0 +1,943 @@
+[
+  {
+    "city": "Dijon",
+    "coopcycle_url": "https://a2roo.coopcycle.org",
+    "country": "fr",
+    "facebook_url": "https://www.facebook.com/a2roo.dijon/",
+    "latitude": 47.322047,
+    "longitude": 5.04148,
+    "mail": "contact@a2roo-dijon.fr",
+    "name": "A2ROO",
+    "text": {
+      "en": "Your ecological and ethical delivery service in Dijon.",
+      "fr": "Votre service de livraison \u00e9thique et \u00e9cologique \u00e0 Dijon."
+    },
+    "url": "https://www.a2roo-dijon.fr/"
+  },
+  {
+    "city": "Amiens",
+    "coopcycle_url": "https://beefast.coopcycle.org",
+    "country": "fr",
+    "facebook_url": "https://www.facebook.com/beefast.fr/",
+    "latitude": 49.894066,
+    "longitude": 2.295753,
+    "mail": "contact@beefast.fr",
+    "name": "Beefast",
+    "text": {
+      "en": "An express and eco-responsible delivery solution for envelopes and parcels in Amiens.",
+      "fr": "Une solution de livraison express et \u00e9co-responsable de plis et colis sur Amiens M\u00e9tropole."
+    },
+    "url": "https://www.beefast.fr/"
+  },
+  {
+    "city": "Concarneau",
+    "coopcycle_url": "https://belo.coopcycle.org",
+    "country": "fr",
+    "latitude": 47.866669,
+    "longitude": -3.91667,
+    "mail": "contact@belolivraison.fr",
+    "name": "Belo Livraison",
+    "text": {
+      "en": "\"Belo\" means the bicycle in Breton! Belo delivery is the first cooperative of bicycle delivery drivers in Concarneau. Our ethics: commit to promoting local producers and making delivery accessible for restaurateurs who give life to the city. It also means helping local charities and highlighting local initiatives in favor of a world where solidarity and respect for the environment are in tune. The Belo touch is to deliver the best dishes and products from Konk kern to your home, to work... or to the beach! Kenavo with your Belo delivery drivers.",
+      "fr": "\"Belo\" c\u02bcest la bicyclette en breton ! Belo livraison, c\u02bcest la premi\u00e8re coop\u00e9rative de livreurs \u00e0 v\u00e9lo sur Concarneau. Notre \u00e9thique : s\u02bcengager \u00e0 promouvoir les producteurs locaux et rendre accessible la livraison pour les restaurateurs qui donnent vie \u00e0 la cit\u00e9. C\u02bcest aussi apporter notre aide aux associations caritatives locales et mettre en avant les initiatives locales en faveur dun monde o\u00f9 solidarit\u00e9 et respect de l\u02bcenvironnement sont en accord. La touche Belo, c\u02bcest vous livrer les meilleurs plats et les meilleurs produits de Konk kern chez vous, au boulot... ou sur la plage ! Kenavo avec vos livreurs Belo."
+    },
+    "url": "https://belolivraison.fr"
+  },
+  {
+    "city": "Ciudad de M\u00e9xico - BiciEntrega",
+    "country": "mx",
+    "delivery_form_url": "https://bicientrega.coopcycle.org/es/forms/LWvagY4BKrzb",
+    "facebook_url": "https://www.facebook.com/La-organizaci%C3%B3n-bici-entrega-CDMX-299415760864018/",
+    "instagram_url": "https://www.instagram.com/bicientrega.cdmx/",
+    "latitude": 19.434997,
+    "logo_src": "/images/coop-logos/logo-bicientrega.png",
+    "longitude": -99.150816,
+    "name": "Bicientrega",
+    "twitter_url": "https://twitter.com/bicientregamx"
+  },
+  {
+    "city": "Rodez",
+    "coopcycle_url": "https://biclooo.coopcycle.org",
+    "country": "fr",
+    "latitude": 44.352833,
+    "longitude": 2.562013,
+    "mail": "bonjour@biclooo.fr",
+    "name": "Biclooo",
+    "text": {
+      "fr": "Biclooo, c\u2019est le fruit une r\u00e9flexion sur la mobilit\u00e9 et les services de proximit\u00e9, acc\u00e9l\u00e9r\u00e9e par la crise sanitaire. Notre but est de montrer qu\u2019il y a une alternative \u00e0 la voiture au sein de notre ville, et de cr\u00e9er des emplois p\u00e9rennes tout en proposant des solutions aux commer\u00e7ants et restaurateurs du centre ville. Alors, tout en v\u00e9lo \u00e0 Rodez, on tente ?"
+    },
+    "url": "http://www.biclooo.fr/"
+  },
+  {
+    "city": "Getafe",
+    "country": "es",
+    "facebook_url": "https://www.facebook.com/bikexpress.bullit",
+    "instagram_url": "https://www.instagram.com/bikexpress_ecomensajeria/",
+    "latitude": 40.306812,
+    "longitude": -3.732985,
+    "mail": "bikexpressur@gmail.com",
+    "name": "Bikexpress"
+  },
+  {
+    "city": "Bilbao",
+    "coopcycle_url": "https://botxoriders.coopcycle.org",
+    "country": "es",
+    "latitude": 43.2627,
+    "longitude": -2.9253,
+    "name": "Botxoriders",
+    "text": {
+      "es": "<p>Botxo Riders es un colectivo de propiedad de los trabajadores que ofrece el servicio de mensajer\u00eda en bicicleta. Nos esforzamos por ofrecer la opci\u00f3n m\u00e1s ecol\u00f3gica, r\u00e1pida y econ\u00f3mica para la entrega inmediata en Bilbao. Creemos que somos una herramienta importante para hacer frente a los nuevos desaf\u00edos del comercio local y la transformaci\u00f3n de la ciudad. Nos gusta lo que hacemos! </p>"
+    },
+    "url": "https://botxoriders.com/"
+  },
+  {
+    "city": "Halle",
+    "coopcycle_url": "https://cat.coopcycle.org",
+    "country": "de",
+    "facebook_url": "https://www.facebook.com/Catkurier/",
+    "instagram_url": "https://www.instagram.com/cat_kurierkollektiv/",
+    "latitude": 51.47098707450851,
+    "longitude": 11.963177613669085,
+    "name": "Cat-Kurierkollektiv",
+    "text": {
+      "en": "Your ecological and fair delivery service in Halle."
+    },
+    "url": "https://cat-kurierkollektiv.de/"
+  },
+  {
+    "city": "Manchester",
+    "coopcycle_url": "https://chorlton-bike-deliveries.coopcycle.org",
+    "country": "gb",
+    "faceboook_url": "https://www.facebook.com/chorltonbikedeliveries/",
+    "latitude": 53.4447788,
+    "longitude": -2.2790018,
+    "mail": "chorltonbikedeliveries@gmail.com",
+    "name": "Chorlton Bike Deliveries"
+  },
+  {
+    "city": "Saint-Denis",
+    "country": "fr",
+    "facebook_url": "https://www.facebook.com/co1cide/",
+    "latitude": 48.9267902,
+    "longitude": 2.330664,
+    "mail": "contact@riders-socialclub.com",
+    "name": "CoinCide",
+    "twitter_url": "https://twitter.com/co1cide",
+    "url": "https://about.me/co1cide"
+  },
+  {
+    "city": "Napoli",
+    "coopcycle_url": "https://colibri.coopcycle.org",
+    "country": "it",
+    "latitude": 40.839981,
+    "longitude": 14.25254,
+    "mail": "colibri@cleanap.org",
+    "name": "Colibri"
+  },
+  {
+    "city": "Carpentras",
+    "country": "fr",
+    "facebook_url": "https://fr-fr.facebook.com/coliscyclette/",
+    "latitude": 44.0628406,
+    "longitude": 4.9884039,
+    "mail": "serge.carpentras@gmail.com",
+    "name": "ColisCyclette",
+    "text": {
+      "en": "<p>We are two, plus one part-time courier. In January 2019, after a job loss, we decided to launch a bike delivery service in Carpentras, a middle-sized city. This activity gather our two core values : ecology and sport. Today, just five months after starting, we begin to be well-known and appreciated, and are winning more and more new clients.</p><p>Our main activity is delivering groveries to elderly people. Doing this we feel also useful, as it brings autonomy to older people, who otherway would have to go to retirment homes. We are also cycling for florists, cellar masters, brewers and administrations. We are working with people sharing our values. We definitely think that biking generates strong sympathy !</p>",
+      "fr": "<p>Nous sommes 3, r\u00e9guli\u00e8rement 2, le 3\u00e8me larron venant en renfort un ou deux jours par semaine pour l\u2019instant. Notre histoire  est r\u00e9cente, en janvier 2019, apr\u00e8s une perte d\u2019emploi, nous avons d\u00e9cid\u00e9 de lancer \u00e0 Carpentras, une ville de taille moyenne, un service de livraison \u00e0 v\u00e9lo, regroupant deux de nos principales valeurs : l\u2019\u00e9cologie et le sport. Et aujourd\u2019hui, apr\u00e8s 5 petits mois d\u2019existence, nous pouvons dire que nous commen\u00e7ons \u00e0 \u00eatre connus et reconnus, et nous gagnons r\u00e9guli\u00e8rement de nouveaux.elles client.e.s.</p><p>Notre activit\u00e9 principale est la livraison de courses aux personnes \u00e2g\u00e9es, et c\u2019est aussi celle qui nous fait nous sentir utiles, car pour beaucoup de personnes \u00e2g\u00e9es, se faire livrer, c\u2019est conserver un peu d\u2019autonomie et retarder l\u2019entr\u00e9e en maison de retraite. Nous livrons aussi r\u00e9guli\u00e8rement pour des fleuristes, des caves vinicoles, des brasseurs et des administrations. Nous travaillons avec des commer\u00e7ant.e.s dont nous partageons l\u2019\u00e9thique et nous appr\u00e9cions les contacts humains que nous cr\u00e9ons gr\u00e2ce au capital sympathie g\u00e9n\u00e9r\u00e9 par le v\u00e9lo.</p>"
+    },
+    "url": "http://coliscyclette.fr"
+  },
+  {
+    "city": "Lyon",
+    "country": "fr",
+    "latitude": 45.7619177,
+    "longitude": 4.8362647,
+    "mail": "contact@coop-veliv.fr",
+    "name": "CoopVeliv",
+    "text": {
+      "fr": "<p>V\u00e9liv est une coop\u00e9rative ayant pour objectif de proposer un service de livraison \u00e9thique et \u00e9co-responsable aux entreprises. Par le biais de notre flotte \u00e0 v\u00e9lo, nous livrons les clients de nos partenaires dans les meilleurs d\u00e9lais.<br>Nous sommes actuellement actifs sur Lyon et Villeurbanne, mais bien d\u00e9cid\u00e9s \u00e0 s\u2019\u00e9tendre sur l\u2019ensemble de l\u2019agglom\u00e9ration lyonnaise.</p>"
+    },
+    "url": "http://coop-veliv.fr/"
+  },
+  {
+    "city": "Berlin",
+    "country": "de",
+    "facebook_url": "https://www.facebook.com/crowcyclecouriercollective",
+    "instagram_url": "https://www.instagram.com/crowberlin",
+    "latitude": 52.500314,
+    "longitude": 13.398481,
+    "mail": "info@crowberlin.de",
+    "name": "CROW Collective",
+    "text": {
+      "en": "<p>CROW (Cycle Courier Collective) is a group of independent (cargo)bike couriers and bike geeks. Displeased with the current conditions for couriers in Berlin, namely the (self)exploitation of couriers' labour, we decided to forge our own path instead of joining another company. CROW is based on a few very simple principles:<ul><li>We want fair pay for the hard and important work that we provide - making fair and sustainable services financially accessible, without exploiting ourselves and dumping our prices.</li><li>We want to work with people who take sustainable business practices and fair working conditions into their own work and act responsibly - solidarity is key!.</li><li>To work as emission-free and sustainable as possible; this is why we are completely car-free and pedal-powered.</li><li>Organize, share a collective mindset, go as DIY as possible, be friends and support each other with different projects</li><li>Create a community; we hope to foster a loving and supportive community around the bicycle, not only for couriers but for all those who are passionate about bikes</li><li>Get politically and socially involved, propelling a bike supported revolution</li><li>All Couriers Are Beautiful and All Crows Are Birds</li><li>No Gods, No Masters, No Border, No Nation</ul>Today, CROW is entirely comprised of cargo bikes, and we are always eager to take on any logistics challenge, regardless of weight or size. We are capable of transporting goods up to 150kg in weight, providing stocking solutions and decentralised distribution, all powered by CoopCycle.</p>",
+      "fr": "Collectif de Coursier.e.s Cargo CROW s'est fond\u00e9 d'un groupe de coursier.e.s independant.e.s et des malades du v\u00e9lo. Voyant la situation d'(auto-)exploitation des coursier.e.s \u00e0 Berlin, nous avons decid\u00e9.e.s \u00e0 suivre notre propre chemin \u00e0 la place de joindre une autre entreprise. En collectif on se bat contre les prix bas, visant un paiement ad\u00e9quat aux risques et importance de notre travail. On transporte l'esprit DIY et un approche anti-autoritaire avec notre travail en collectif. Nous sommes forc\u00e9ment politis\u00e9.e.s et nous poursuivons la r\u00e9volution par le v\u00e9lo. "
+    },
+    "url": "https://www.crowberlin.de"
+  },
+  {
+    "city": "Clermont-Ferrand",
+    "coopcycle_url": "https://cyclome.coopcycle.org",
+    "country": "fr",
+    "facebook_url": "https://www.facebook.com/cyclome.coop",
+    "latitude": 45.77721,
+    "longitude": 3.08252,
+    "mail": "contact@cyclome.fr",
+    "name": "CYCLOME",
+    "text": {
+      "en": "Your ecological and ethical delivery service in Clermont-Ferrand.",
+      "fr": "Votre service de livraison \u00e9thique et \u00e9cologique \u00e0 Clermont-Ferrand."
+    },
+    "url": "https://cyclome.fr/"
+  },
+  {
+    "city": "Dinan",
+    "coopcycle_url": "https://dinan.coopcycle.org",
+    "country": "fr",
+    "facebook_url": "https://www.facebook.com/LesCoursiersDinannais/",
+    "latitude": 48.454021,
+    "longitude": -2.04615,
+    "mail": "lescoursiersdinannais@gmail.com",
+    "name": "Les Coursiers Dinannais",
+    "text": {
+      "en": "Ecological and sustainable delivery solution in Dinan.",
+      "fr": "Solution de livraison \u00e9cologique et durable sur Dinan."
+    }
+  },
+  {
+    "city": "Ch\u00e2tillon",
+    "coopcycle_url": "https://initiative-emploi.coopcycle.org",
+    "country": "fr",
+    "latitude": 48.799858,
+    "longitude": 2.28574,
+    "mail": "dring@initiative-emploi-92.fr",
+    "name": "Dring",
+    "text": {
+      "en": "Your delivery in solidarity.",
+      "fr": "Votre livraison solidaire."
+    }
+  },
+  {
+    "city": "Puebla",
+    "coopcycle_url": "https://envici.coopcycle.org",
+    "country": "mx",
+    "delivery_form_url": "https://envici.coopcycle.org/es/forms/3jo0R247KvEr",
+    "facebook_url": "https://www.facebook.com/envicientregasymensajeria",
+    "latitude": 19.04368,
+    "longitude": -98.199043,
+    "mail": "enviciparallevar@gmail.com",
+    "name": "Envici"
+  },
+  {
+    "city": "Vitoria-Gasteiz",
+    "coopcycle_url": "https://eramangasteiz.coopcycle.org",
+    "country": "es",
+    "latitude": 42.846859,
+    "longitude": -2.67159,
+    "mail": "repartos@eraman.coop",
+    "name": "Eraman Repartos Gasteiz",
+    "text": {
+      "en": "<p>Es el momento! Nos gusta nuestra ciudad, nos gusta la gente, nos gusta el cooperativismo y nos gustan las bicicletas. ERAMAN nace para juntar todo esto de manera sostenible y \u00e9tica, con car\u00e1cter y pi\u00f1ones.</p>",
+      "eu": "<p>Iritsi da garaia! Gure hiria maite dugu, gure bizilagunak, kooperatibismoa eta bizikletak ere bai. Hori guztia era jasangarri eta etikoan bateratzeko, nortasun eta pi\u00f1oiekin, ERAMAN jaio da!</p>"
+    },
+    "url": "http://www.eraman.coop/"
+  },
+  {
+    "city": "Buenos Aires",
+    "coopcycle_url": "https://demo.coopcycle.org",
+    "country": "ar",
+    "facebook_url": "https://www.facebook.com/facttic/",
+    "instagram_url": "https://www.instagram.com/facttic.ar/",
+    "latitude": -34.603683,
+    "longitude": -58.381557,
+    "mail": "plataformascooperativas@facttic.org.ar",
+    "name": "FACTTIC",
+    "text": {
+      "es": "<p>La Federaci\u00f3n Argentina de Cooperativas de Trabajo de Tecnolog\u00eda, Innovaci\u00f3n y Conocimiento es un espacio para que las cooperativas de trabajo del sector intercambien y construyan en conjunto. El objetivo principal de la Federaci\u00f3n es fortalecer a sus miembros y difundir esta forma de entender el trabajo y las tecnolog\u00edas.</p>"
+    },
+    "twitter_url": "https://twitter.com/facttic",
+    "url": "https://facttic.org.ar/"
+  },
+  {
+    "city": "Le Havre",
+    "coopcycle_url": "https://fast-and-curious.coopcycle.org",
+    "country": "fr",
+    "facebook_url": "https://www.facebook.com/Fast-and-curious-103028378475922",
+    "latitude": 49.492592,
+    "longitude": 0.1065,
+    "mail": "contact@fast-and-curious.fr",
+    "name": "Fast and Curious",
+    "text": {
+      "en": "Curiosity leads to gluttony!",
+      "fr": "La curiosit\u00e9 m\u00e8ne \u00e0 la gourmandise !"
+    },
+    "url": "https://fast-and-curious.fr"
+  },
+  {
+    "city": "Lorient",
+    "coopcycle_url": "https://feelavelo.coopcycle.org",
+    "country": "fr",
+    "latitude": 47.748252,
+    "longitude": -3.370245,
+    "mail": "contact@feelavelo.fr",
+    "name": "Feel \u00e0 V\u00e9lo",
+    "text": {
+      "fr": "Une entreprise solidaire du Pays de Lorient qui emploie des coursiers a\u0300 ve\u0301lo, une branche de l\u2019entreprise solidaire Optim-ism, les paniers de l\u00e9gumes bio. Avec vous elle souhaite participer \u00e0 la transition \u00e9cologique en utilisant un moyen de transport pratique et non-polluant pour vos livraisons en agglom\u00e9ration. Les v\u00e9los, biporteurs, triporteurs s\u2019adaptent \u00e0 vos besoins pour vous livrer chez vous ou chez vos clients, des repas, des fleurs, des courriers, des courses, avec souplesse, fiabilit\u00e9 et r\u00e9activit\u00e9."
+    },
+    "url": "http://www.feelavelo.fr/"
+  },
+  {
+    "city": "Sydney",
+    "coopcycle_url": "https://hotlinecouriers.coopcycle.org",
+    "country": "au",
+    "instagram_url": "https://www.instagram.com/hotlinecouriers/",
+    "latitude": -33.8735865,
+    "longitude": 151.2066947,
+    "mail": "sam@hotlinecouriers.com.au",
+    "name": "Hotline Couriers",
+    "url": "https://hotlinecouriers.com.au/"
+  },
+  {
+    "city": "Huelva",
+    "country": "es",
+    "latitude": 37.2621449,
+    "longitude": -6.9453985,
+    "mail": "huelvavence@gmail.com",
+    "name": "Huelva Vence"
+  },
+  {
+    "city": "Hull",
+    "coopcycle_url": "https://hull.coopcycle.org",
+    "country": "gb",
+    "latitude": 53.7675181,
+    "longitude": -0.3319922,
+    "mail": "hulldeliverycoop@gmail.com",
+    "name": "Hull Delivery Coop"
+  },
+  {
+    "city": "Berlin",
+    "coopcycle_url": "https://khora.berlin",
+    "country": "de",
+    "latitude": 52.520007,
+    "longitude": 13.404954,
+    "mail": "service@khora.berlin",
+    "name": "Khora",
+    "text": {
+      "en": "Khora aims to be the future food delivery platform: purpose-driven and quality-oriented; fair, participative, steward-owned and transparent; both economically and ecologically sustainable. Successful, controversial, cool. This is the plan. And the dream.",
+      "fr": "Khora veut \u00eatre le futur des plateformes de livraison de repas : ax\u00e9e sur le sens et la qualit\u00e9, \u00e9quitable, participative, responsable et transparente, \u00e9conomiquement et \u00e9cologiquement durable. R\u00e9ussie, controvers\u00e9e, cool. C'est le plan. Et le r\u00eave."
+    },
+    "url": "https://khora.berlin/de/"
+  },
+  {
+    "city": "Strasbourg",
+    "coopcycle_url": "https://kooglof.coopcycle.org",
+    "country": "fr",
+    "facebook_url": "https://www.facebook.com/kooglof/",
+    "instagram_url": "https://www.instagram.com/kooglof_livraison/",
+    "latitude": 48.5833,
+    "longitude": 7.75,
+    "name": "Kooglof",
+    "text": {
+      "fr": "Livraison \u00e9co-locale, 100% strasbourgeoise !"
+    },
+    "url": "https://kooglof.fr/"
+  },
+  {
+    "city": "Madrid",
+    "coopcycle_url": "https://lapajara.coopcycle.org",
+    "country": "es",
+    "facebook_url": "https://www.facebook.com/lapajaraenbici/",
+    "latitude": 40.4381311,
+    "longitude": -3.8196226,
+    "mail": "info@lapajaraenbici.com",
+    "name": "La Pajara",
+    "text": {
+      "en": "<p>At the beginning of 2018, after the movement and protests against Deliveroo, we started planning our project with Coopcycle. Finally, in October 2018 we started working with our first collaboration projects and customers. Now, two people are working full time and two other people part time. We believe in a small scale economy. We work hand by hand with other social and solidarity companies and cooperatives and we share our knowledge with different initiatives at a local, national and international level.</p><p>We operate exclusively by bicycle and cargo bikes. We have four main different working fields:<ul><li>Food delivery thanks to Coopcycle platform.</li><li>Last mile delivery with the Koiki project, a logistic partner that works with people with disabilities.</li><li>Messenger service with all type of product could be imagined to transport by bike: documents, food catering, eco-market purchase, small removals...</li><li>Technical advise on cycle-logistic through courses and events.</li></ul>Moreover we follow fight against the mainstreaming platform model inside national and international networks and associations. We are proud to be the Madrid Delivery Birds (La P\u00e1jara): the Heron, the Eagle, the Flamingo and the Owl, giving everything to this beautiful job and to urban cycling.</p>"
+    },
+    "twitter_url": "https://twitter.com/ridersxdmad",
+    "url": "https://lapajaraenbici.com/"
+  },
+  {
+    "city": "Montr\u00e9al",
+    "country": "ca",
+    "facebook_url": "https://www.facebook.com/La-roue-libre-198894610933757/",
+    "instagram_url": "https://www.instagram.com/larouelibremtl/",
+    "latitude": 45.50906,
+    "longitude": -73.55336,
+    "mail": "info@larouelibre.org",
+    "name": "La roue libre",
+    "text": {
+      "fr": "La roue libre propose un service de logistique urbaine des derniers kilom\u00e8tres \u00e0 Montr\u00e9al, \u00e0 v\u00e9lo et quatre saisons. Gr\u00e2ce \u00e0 ses v\u00e9los \u00e0 assistance \u00e9lectrique et ses remorques \u00e9quip\u00e9es de caissons \u00e9tanches et s\u00e9curis\u00e9s, La roue libre assure le transport des plus petits envois jusqu\u2019au lot de colis de plus de 350 livres."
+    },
+    "twitter_url": "https://twitter.com/larouelibremtl",
+    "url": "https://www.larouelibre.org"
+  },
+  {
+    "city": "Toulon",
+    "coopcycle_url": "https://la-cocotte.coopcycle.org",
+    "country": "fr",
+    "latitude": 43.125191,
+    "longitude": 5.93104,
+    "mail": "la.cocotte.toulon@gmail.com",
+    "name": "La Cocotte",
+    "text": {
+      "en": "La Cocotte, an ethical and fast delivery for restaurants and shopkeepers in Toulon and its surroundings.",
+      "fr": "La Cocotte, une livraison \u00e9thique et rapide pour les restaurants et commer\u00e7ants de Toulon et ses environs."
+    },
+    "url": "http://www.cocottelivraison.fr/"
+  },
+  {
+    "city": "Rennes",
+    "coopcycle_url": "https://lcr.coopcycle.org",
+    "country": "fr",
+    "facebook_url": "https://www.facebook.com/lescoursiersrennais/",
+    "instagram_url": "https://www.instagram.com/lescoursiersrennais/",
+    "latitude": 48.111778,
+    "longitude": -1.68026,
+    "mail": "lescoursiersrennais.marketplace@gmail.com",
+    "name": "Les Coursiers Rennais",
+    "text": {
+      "en": "\u00ab Les Coursiers Rennais \u00bb is a non-profit organization founded in June 2020, whose purpose is the recognition and defense of the profession of bike messenger.",
+      "fr": "L\u02bcassociation \u00ab Les Coursiers Rennais \u00bb est un collectif loi 1901 fond\u00e9 en juin 2020, qui a pour objet la reconnaissance et la d\u00e9fense du m\u00e9tier de livreur \u00e0 v\u00e9lo."
+    }
+  },
+  {
+    "city": "Orl\u00e9ans",
+    "coopcycle_url": "https://le-rayon-vert.coopcycle.org",
+    "country": "fr",
+    "facebook_url": "https://www.facebook.com/COLLECTIFCOURSIERSORLEANAIS",
+    "instagram_url": "https://www.instagram.com/_coco_coop_/",
+    "latitude": 47.9000569,
+    "longitude": 1.9061124,
+    "mail": "contact@coco-coop.org",
+    "name": "COCO Collectif de Coursiers Orl\u00e9anais ",
+    "text": {
+      "fr": "\u00c0 l'heure o\u00f9 les v\u00e9hicules motoris\u00e9s sont bannis des centres-villes, o\u00f9 le d\u00e9veloppement durable et le respect de l'environnement sont de r\u00e9els enjeux pour chacun, nous proposons gr\u00e2ce \u00e0 nos services, une v\u00e9ritable alternative efficace, moderne et dynamique en mati\u00e8re de transport l\u00e9ger et rapide. Nos services et nos valeurs souhaitent participer \u00e0 l'essor d'Orl\u00e9ans et son agglom\u00e9ration d'une mani\u00e8re durable, coop\u00e9rative et qualitative."
+    },
+    "url": "http://www.coco-coop.org/"
+  },
+  {
+    "city": "Bordeaux",
+    "coopcycle_url": "https://coursiersbordelais.coopcycle.org",
+    "country": "fr",
+    "facebook_url": "https://www.facebook.com/coursiersbordelais/",
+    "latitude": 44.8638282,
+    "longitude": -0.6561812,
+    "mail": "coursiersbordelais@gmail.com",
+    "name": "Les Coursiers Bordelais",
+    "text": {
+      "en": "<p>Coursiers Bordelais is a worker owned-coop, founded in November 2017 by three couriers that wanted to create an ethical alternative to the platforms for which they were working. After one year of activity we were able to gain the employee status. Today we are five !</p><p>We are mostly delivering all kind of goods by cargo and cargo-bikes. We are also cultural mediators for the Bordeaux municipality, by meeting people in the streets with our cargo-bike stamped \"kiosque culture\". We are always proud to replace trucks by carrying heavy loads on our cargo bikes. Our customers are often impressed we can transport that much !</p>",
+      "fr": "<p>Coursiers Bordelais est une coop\u00e9rative cr\u00e9\u00e9e en novembre 2017 par trois coursiers qui voulaient cr\u00e9er une alternative \u00e9thique aux plateformes de livraison pour lesquelles ils ont travaill\u00e9s. Nous avons pu nous salarier au bout d\u2019un an et aujourd\u2019hui nous sommes cinq coursiers aux commandes d\u2019une flotte de cinq v\u00e9los cargos.</p><p>Notre activit\u00e9 principale est la livraison \u00e0 v\u00e9lo et v\u00e9lo cargo de tout type d\u2019objets. Nous sommes aussi m\u00e9diateurs culturels pour la mairie de Bordeaux, en nous pla\u00e7ant \u00e0 la rencontre des gens avec notre v\u00e9lo cargo floqu\u00e9 kiosque culture. Nous sommes toujours fiers de pouvoir remplacer un camion en prenant de lourdes/larges charges sur nos v\u00e9los, ce qui \u00e9tonne souvent nos client.e.s qui n\u2019imaginent pas la capacit\u00e9 de chargement d\u2019un cargo.</p>"
+    },
+    "url": "http://coursiersbordelais.fr"
+  },
+  {
+    "city": "Brest",
+    "coopcycle_url": "https://lescoursiersbrestois.coopcycle.org",
+    "country": "fr",
+    "facebook_url": "https://www.facebook.com/lescoursiersbrestois/",
+    "latitude": 48.390392,
+    "longitude": -4.486076,
+    "mail": "lescoursiersbrestois@gmail.com",
+    "name": "Les Coursiers Brestois",
+    "text": {
+      "en": "Les Coursiers Brestois aims to develop a collective and cooperative delivery service in the Brest metropolis, using only bicycles as a means of delivery and as a working tool. Our project aims to create a cooperative of bike delivery drivers, founded and co-managed by the drivers themselves.",
+      "fr": "Les Coursiers Brestois visent \u00e0 d\u00e9velopper un service de livraisons collectif et coop\u00e9ratif de proximit\u00e9 sur la m\u00e9tropole de Brest, utilisant exclusivement le v\u00e9lo comme moyen de livraison et comme outil de travail. Notre projet a vocation \u00e0 cr\u00e9er une coop\u00e9rative de livreurs \u00e0 v\u00e9lo, fond\u00e9e et co-g\u00e9r\u00e9e par les livreurs eux-m\u00eames."
+    },
+    "url": "http://lescoursiersbrestois.bzh/"
+  },
+  {
+    "city": "Metz",
+    "coopcycle_url": "https://coursiers-metz.coopcycle.org",
+    "country": "fr",
+    "facebook_url": "https://www.facebook.com/lescoursiersdemetz/",
+    "latitude": 49.1172743,
+    "longitude": 6.1749915,
+    "mail": "contact@lescoursiersdemetz.fr",
+    "name": "Les coursiers Metz"
+  },
+  {
+    "city": "Montpellier",
+    "coopcycle_url": "https://coursiersmontpellier.coopcycle.org",
+    "country": "fr",
+    "facebook_url": "https://www.facebook.com/Coursiersmtp/",
+    "latitude": 43.6100006,
+    "longitude": 3.8041213,
+    "mail": "contact@coursiers-montpellier.fr",
+    "name": "Les Coursiers Montpelli\u00e9rains",
+    "text": {
+      "fr": "<p>Les Coursiers Montpelli\u00e9rains est une association de livraison de repas \u00e0 v\u00e9lo form\u00e9e en mai 2019.  Actuellement, les g\u00e9ants de la foodtech monopolisent le march\u00e9 et les tarifications des courses. Il \u00e9tait donc pr\u00e9vu de proposer une alternative locale, \u00e9thique et plus r\u00e9mun\u00e9ratrice pour les livreurs. Le projet porte d\u00e9j\u00e0 ses fruits avec plusieurs commandes par jour sur la plateforme Coopcycle et est promis un bel avenir avec des partenaires de plus en plus nombreux.euses et vari\u00e9.e.s.</p><p>Nous livrons pour l\u2019instant des repas en partenariat avec des restaurants montpelli\u00e9rains. Nous privil\u00e9gions des restaurants qui proposent des produits de qualit\u00e9, qui nous soutiennent nous et notre d\u00e9marche et avec qui nous avons un contact facile. \u00c0 l\u2019avenir nous souhaitons diversifier nos livraisons en acqu\u00e9rant des v\u00e9los cargos et un local pour livrer des colis et des produits avec des charges plus importantes.</p>"
+    },
+    "url": "http://coursiers-montpellier.fr"
+  },
+  {
+    "city": "Nancy - Les Coursiers Nanc\u00e9iens",
+    "coopcycle_url": "https://lescoursiersnanceiens.coopcycle.org",
+    "country": "fr",
+    "facebook_url": "https://www.facebook.com/105806728007985/",
+    "latitude": 48.6885,
+    "longitude": 6.1727,
+    "mail": "contact@lescoursiersnanceiens.fr",
+    "name": "Les Coursiers Nanc\u00e9iens",
+    "url": "https://lescoursiersnanceiens.fr/"
+  },
+  {
+    "city": "Nantes - Les Coursiers Nantais",
+    "coopcycle_url": "https://lescoursiersnantais.coopcycle.org",
+    "country": "fr",
+    "facebook_url": "https://www.facebook.com/lescoursiersnantais/",
+    "latitude": 47.204185,
+    "longitude": -1.5484234,
+    "mail": "contact@lescoursiersnantais.fr",
+    "name": "Les Coursiers Nantais",
+    "twitter_url": "https://twitter.com/coursiersnantes",
+    "url": "http://lescoursiersnantais.fr/"
+  },
+  {
+    "city": "Saint-\u00c9tienne",
+    "coopcycle_url": "https://coursiers-stephanois.coopcycle.org",
+    "country": "fr",
+    "facebook_url": "https://www.facebook.com/coursiersstephanois",
+    "latitude": 45.4368055,
+    "longitude": 4.3866217,
+    "mail": "contact@coursiers-stephanois.fr",
+    "name": "Les Coursiers St\u00e9phanois",
+    "text": {
+      "fr": "<p>Fond\u00e9 par un trio de coursiers exp\u00e9riment\u00e9s, nous avons pour vocation de cr\u00e9er et d\u00e9velopper une structure permettant d'assurer des contrats et des conditions de travail socialement et \u00e9thiquement acceptable pour les coursier.\u00e8re.s uberis\u00e9.es de Saint-\u00c9tienne. Tous nos efforts sont vou\u00e9s \u00e0 fournir une solution logistique rapide, \u00e9cologique, \u00e9conomique et locale aux acteur.ices \u00e9conomiques et administratifs st\u00e9phanois.es.</p>"
+    },
+    "url": "https://www.coursiers-stephanois.fr/"
+  },
+  {
+    "city": "Quimper",
+    "coopcycle_url": "https://lescoursiersbzh.coopcycle.org",
+    "country": "fr",
+    "facebook_url": "https://www.facebook.com/breizhvelo.fr",
+    "latitude": 47.995949,
+    "longitude": -4.09992,
+    "mail": "coursierbzhquimper@breizhvelo.fr",
+    "name": "Breizh V\u00e9lo - Quimper",
+    "text": {
+      "en": "Les Coursiers BZH is a local, cooperative and ecological delivery service. Join us!",
+      "fr": "Les Coursiers BZH sont un service de livraison local, coop\u00e9ratif et \u00e9cologique. Rejoignez nous !"
+    },
+    "url": "https://breizh-velo.fr/"
+  },
+  {
+    "city": "Puerto de Veracruz",
+    "coopcycle_url": "https://libelubike.coopcycle.org",
+    "country": "mx",
+    "delivery_form_url": "https://libelubike.coopcycle.org/es/forms/rQJjO7yBWVdg",
+    "facebook_url": "https://www.facebook.com/Libelubikemx/",
+    "instagram_url": "https://www.instagram.com/libelubikemx",
+    "latitude": 19.1960638,
+    "logo_src": "/images/coop-logos/logo-libelubike.png",
+    "longitude": -96.144868,
+    "mail": "contacto@libelubike.com.mx",
+    "name": "Libelubike",
+    "text": {
+      "es": "<p>Libelubike es la primer bicimensajer\u00eda en todo el Estado de Veracruz y somos una empresa vers\u00e1til que atiende e incentiva la econom\u00eda local, incidimos en la concientizaci\u00f3n y generaci\u00f3n de pol\u00edticas p\u00fablicas que incentiven el uso de alternativas sustentables para el traslado, transporte y distribuci\u00f3n de productos y servicios. Lo anterior se da de forma natural por las caracter\u00edsticas propias de nuestro oficio que implican estar en la calle y conocer las condiciones reales de la infraestructura vial, lo cual nos permite reportar sus necesidades (coladeras abiertas, baches, sem\u00e1foros sin funcionar, falta de se\u00f1alizaci\u00f3n).</p>"
+    },
+    "twitter_url": "https://twitter.com/libelubikemx",
+    "url": "https://libelubike.com.mx"
+  },
+  {
+    "city": "Lille / Roubaix",
+    "coopcycle_url": "https://lille.coopcycle.org",
+    "country": "fr",
+    "facebook_url": "https://www.facebook.com/lillepointbike/",
+    "latitude": 50.6311554,
+    "longitude": 2.9771204,
+    "mail": "contact@lille.bike",
+    "name": "Lille.bike",
+    "url": "http://lille.bike"
+  },
+  {
+    "city": "London",
+    "coopcycle_url": "https://london.coopcycle.org",
+    "country": "gb",
+    "latitude": 51.564643,
+    "longitude": -0.105872,
+    "mail": "rich@doorstepcollective.org",
+    "name": "Wings: ethical food delivery",
+    "twitter_url": "https://twitter.com/wings_coop",
+    "url": "https://www.wings.coop/"
+  },
+  {
+    "city": "Barcelona",
+    "coopcycle_url": "https://mensakas.coopcycle.org",
+    "country": "es",
+    "facebook_url": "https://www.facebook.com/Mensakas/",
+    "latitude": 41.385063,
+    "longitude": 2.173404,
+    "mail": "info@mensakas.com",
+    "name": "Mensakas",
+    "text": {
+      "en": "Mensakas was born out of the RidersxDerechos union struggle of the FAA-IAC, led by former couriers from other platforms. The co-operative is addressing the antipodes of its competitors by considering the workforce as people rather than numbers in an algorithm, thus prioritizing their interests and rights over capital.",
+      "es": "Mensakas nace de la lucha sindical de RidersxDerechos de la FAA-IAC, liderada por ex couriers de otras plataformas. La cooperativa se dirige a las ant\u00edpodas de sus competidores considerando a la plantilla personas y no n\u00fameros de un algoritmo, priorizando as\u00ed sus intereses y derechos por encima del capital."
+    },
+    "twitter_url": "https://twitter.com/MensakasApp",
+    "url": "https://www.mensakas.com/"
+  },
+  {
+    "city": "Molenbeek, Brussels",
+    "country": "be",
+    "facebook_url": "https://www.facebook.com/Molenbike.be/",
+    "latitude": 50.8576808,
+    "longitude": 4.2982454,
+    "mail": "info@molenbike.be",
+    "name": "Molenbike",
+    "text": {
+      "en": "<p> Molenbike is a Brussels bicycle courier cooperative founded on 11 May 2017. We specialize in bicycle transport of local and environmentally friendly products for professionals and private individuals in Brussels. We make it a point of honor to develop quality logistics with a low environmental impact while promoting the short chain and the reuse of raw materials. As a fair company, Molenbike offers its couriers a sustainable and well-paid job. The couriers are central to the project and are invited to participate in the development of the cooperative.</p>",
+      "fr": "<p>Molenbike est une coop\u00e9rative de coursiers bruxellois, cr\u00e9\u00e9e en 2017, sp\u00e9cialis\u00e9e dans le transport de marchandises en v\u00e9lo-cargo. Nous mettons un point d\u2019honneur \u00e0 d\u00e9velopper une logistique de qualit\u00e9, de faible impact environnemental, tout en favorisant le circuit court. Dans une logique \u00e9quitable, Molenbike offre \u00e0 ses coursiers un emploi durable et justement r\u00e9mun\u00e9r\u00e9. Ils sont au centre du projet et sont incit\u00e9s \u00e0 participer au d\u00e9veloppement de la coop\u00e9rative. Molenbike, en \u00e9troite collaboration avec CoopCycle, est pionni\u00e8re sur Bruxelles dans l\u2019utilisation d\u2019outils connect\u00e9s pour assurer une logistique efficace.</p><p> La coop\u00e9rative est aussi impliqu\u00e9e dans CoopCycle comme f\u00e9d\u00e9ration europ\u00e9enne d\u2019une alternative \u00e9thique dans le secteur et co-fondatrice de la BCLF (f\u00e9d\u00e9ration belge des soci\u00e9t\u00e9s de transport \u00e0 v\u00e9lo). Molenbike a depuis peu ouvert son capital social et compte d\u2019ores et d\u00e9j\u00e0 une quarantaine de coop\u00e9rateur.rice.s.</p>"
+    },
+    "twitter_url": "https://twitter.com/molenbike_be",
+    "url": "https://molenbike.be"
+  },
+  {
+    "city": "Nantes - Naofood",
+    "coopcycle_url": "https://naofood.coopcycle.org",
+    "country": "fr",
+    "facebook_url": "https://www.facebook.com/nao.food",
+    "instagram_url": "https://www.instagram.com/nao.food/",
+    "latitude": 47.206472,
+    "longitude": -1.564297,
+    "name": "Naofood",
+    "twitter_url": "https://twitter.com/nao_food",
+    "url": "https://naofood.fr/"
+  },
+  {
+    "city": "Montreuil",
+    "country": "fr",
+    "facebook_url": "https://facebook.com/lesnarvelos",
+    "instagram_url": "https://instagram.com/lesnarvelos",
+    "latitude": 48.858311,
+    "longitude": 2.4369,
+    "name": "Narv\u00e9los",
+    "text": {
+      "en": "A committed team that transports by cargo bike the goods produced, distributed and consumed by the actors of southern 93 and eastern Paris.",
+      "fr": "Une \u00e9quipe engag\u00e9e qui transporte en v\u00e9lo cargo les marchandises produites, distribu\u00e9es et consomm\u00e9es par les acteurs du sud 93 et de l\u2019est parisien."
+    },
+    "twitter_url": "https://twitter.com/lesnarvelos",
+    "url": "https://www.narvelos.fr/"
+  },
+  {
+    "city": "N\u00eemes",
+    "coopcycle_url": "https://krokoop.coopcycle.org",
+    "country": "fr",
+    "latitude": 43.836699,
+    "longitude": 4.360054,
+    "mail": "krokoop.livraison@gmail.com",
+    "name": "KroKoop",
+    "text": {
+      "fr": "Votre service de livraison \u00e9thique et \u00e9cologique \u00e0 N\u00eemes."
+    }
+  },
+  {
+    "city": "Niort",
+    "coopcycle_url": "https://niort.coopcycle.org",
+    "country": "fr",
+    "latitude": 46.32386,
+    "longitude": -0.45758,
+    "mail": "lescoursiersniortais@gmail.com",
+    "name": "Les Coursiers Niortais",
+    "text": {
+      "en": "Les Coursiers Niortais is a meal delivery cooperative, relying exclusively on bicycles or green energy vehicles. Our objective includes several goals: to promote local job creation, while delivering meals in an ethical and ecological way. The restaurant partners have the chance to benefit from a delivery channel in the era of time, virtuous for the environment; and our customers to enjoy good hot dishes carried by deliverymen paid at the right price.",
+      "fr": "Les Coursiers Niortais est une coop\u00e9rative de livraison de repas, s\u2019appuyant exclusivement sur des v\u00e9los ou v\u00e9hicules \u00e0 \u00e9nergie verte. Notre objectif inclut plusieurs finalit\u00e9s: favoriser la cr\u00e9ation d\u2019emplois locaux, tout en distribuant aux habitants leurs repas de fa\u00e7on \u00e9thique et \u00e9cologique. Les restaurateurs partenaires ont ainsi la chance de b\u00e9n\u00e9ficier d\u2019un canal de livraison dans l\u2019\u00e8re du temps, vertueux pour l\u2019environnement; et nos clients de d\u00e9guster de bon plats chauds port\u00e9s par des livreurs r\u00e9mun\u00e9r\u00e9s au prix juste."
+    }
+  },
+  {
+    "city": "Aarhus",
+    "country": "dk",
+    "instagram_url": "https://www.instagram.com/nbdcykelbud/",
+    "latitude": 56.145375,
+    "longitude": 10.204885,
+    "mail": "hej@nbdcykelbud.nu",
+    "name": "No bad days",
+    "url": "https://www.nbdcykelbud.nu/"
+  },
+  {
+    "city": "Orl\u00e9ans",
+    "country": "fr",
+    "facebook_url": "https://www.facebook.com/lescycloposteurs/",
+    "latitude": 47.9040718,
+    "longitude": 1.8858347,
+    "mail": "lescycloposteurs@mailo.com",
+    "name": "Orl\u00e9ans Cycloposteurs"
+  },
+  {
+    "city": "Concepci\u00f3n",
+    "coopcycle_url": "https://porlachita.coopcycle.org",
+    "country": "cl",
+    "latitude": -36.8234934,
+    "longitude": -73.046342,
+    "mail": "contacto@porlachita.cl",
+    "name": "Por La Chita",
+    "text": {
+      "es": "<p>Somos un grupo de trabajadores y trabajadoras organizados/as de plataformas digitales del rubro de la mensajer\u00eda y el delivery, que nace de la lucha contra la preacrieidad qie imponen las transnacionales de App. Buscamos a trav\u00e9s de la autogesti\u00f3n cooperativa crear puestos de trabajo digno, no precarizado y sustentable.</p>"
+    },
+    "url": "https://porlachita.cl/"
+  },
+  {
+    "city": "Li\u00e8ge",
+    "coopcycle_url": "https://rayon9.coopcycle.org",
+    "country": "be",
+    "facebook_url": "https://www.facebook.com/rayon9coop",
+    "latitude": 50.624728,
+    "longitude": 5.5290501,
+    "mail": "info@rayon9.be",
+    "name": "RAYON9",
+    "text": {
+      "fr": "<p>RAYON9 a \u00e9t\u00e9 fond\u00e9e en 2016 \u00e0 Li\u00e8ge (Belgique) par un petit groupe de citoyennes et de citoyens concern\u00e9.e.s par les probl\u00e8mes de mobilit\u00e9 et d\u2019emploi dans leur ville. Constitu\u00e9e sous la forme d\u2019une soci\u00e9t\u00e9 coop\u00e9rative \u00e0 finalit\u00e9 sociale, elle est aujourd\u2019hui propuls\u00e9e par plus de 100 coop\u00e9rateurs et coop\u00e9ratrices. Leur objectif : rendre la ville plus verte et promouvoir l\u2019emploi des jeunes !</p><p>RAYON9 transporte essentiellement des produits alimentaires (fruits, l\u00e9gumes, pain, ...) pour des magasins ou des restaurants mais aussi du courrier, de la presse, de l'\u00e9lectrom\u00e9nager ou m\u00eame des sapins ! Les client.e.s principaux.ales sont celles et ceux qui nous confient le dernier kilom\u00e8tre pour des livraisons en entreprise (corbeilles de fruits) ou \u00e0 domicile (produits de la ferme).</p>"
+    },
+    "url": "https://rayon9.be"
+  },
+  {
+    "city": "Epinay",
+    "country": "fr",
+    "facebook_url": "https://www.facebook.com/LesCyclopes93",
+    "latitude": 48.950001,
+    "longitude": 2.30833,
+    "mail": "contact@lescyclopes.fr",
+    "name": "Les Cyclopes",
+    "text": {
+      "fr": "<p>Nous sommes une structure d\u2019insertion au nord de la Seine-Saint-Denis, intervenant actuellement dans plusieurs domaines (nettoyage, voirie-espaces verts, b\u00e2timents, v\u00e9lo). Parall\u00e8lement \u00e0 ces activit\u00e9s marchandes, la r\u00e9gie de quartier renforce le lien social, la participation des habitant.e.s et la dynamique associative au travers d\u2019activit\u00e9s sociales et innovantes, tout en r\u00e9pondant aux probl\u00e9matiques environnementales.</p><p>Notre principale activit\u00e9 de livraison est le transport de marchandises d\u2019une coop\u00e9rative d\u2019importation \u00e0 une coop\u00e9rative de vente au d\u00e9tail.</p>"
+    },
+    "url": "https://www.lescyclopes.fr/"
+  },
+  {
+    "city": "Firenze",
+    "coopcycle_url": "https://robinfood.coopcycle.org",
+    "country": "it",
+    "facebook_url": "https://www.facebook.com/robinfooddelivery-108509294750638/",
+    "instagram_url": "https://www.instagram.com/robinfood.delivery/?hl=fr",
+    "latitude": 43.7752,
+    "longitude": 11.254612,
+    "mail": "info@robinfoodfirenze.it",
+    "name": "Robin Food",
+    "url": "https://www.robinfoodfirenze.it/"
+  },
+  {
+    "city": "Grenoble",
+    "coopcycle_url": "https://sicklo.coopcycle.org",
+    "country": "fr",
+    "latitude": 45.196241,
+    "longitude": 5.730347,
+    "mail": "contact@sicklo.fr",
+    "name": "S!cklo",
+    "text": {
+      "fr": "<p>La plupart des protagonistes du projet S!cklo sont des livreur.se.s \u00e0 v\u00e9lo confirm\u00e9.e.s et/ou des m\u00e9canicien.ne.s v\u00e9lo. Fran\u00e7ais.es ou \u00e9tranger.\u00e8re.s, travailleur.se.s des plateformes ou non, nous nous sommes retrouv\u00e9.e.s autour de la volont\u00e9 de nous r\u00e9approprier notre travail. Depuis, nous exp\u00e9rimentons la cr\u00e9ation d\u2019entreprise \u00e0 neuf, pas une mince histoire mais d\u00e9j\u00e0 riche en apprentissages. Nous d\u00e9posons dans les jours \u00e0 venir les statuts de notre association qui a vocation \u00e0 se transformer en SCOP sous peu.</p><p>De multiples options s\u2019offrent \u00e0 nous, mais nous souhaitons commencer par deux activit\u00e9s principales : <ul><li>Un atelier de r\u00e9paration de v\u00e9los, qui aura aussi pour fonction d\u2019\u00eatre notre bureau.</li><li>La livraison de repas de restaurant \u00e0 domicile et en entreprise.</li></ul>Nous souhaitons autant que faire se peut collaborer avec des restaurateur.rice.s partageant nos valeurs sur la m\u00e9tropole grenobloise.</p>"
+    },
+    "url": "https://sicklo.fr/"
+  },
+  {
+    "city": "Sabadell",
+    "country": "es",
+    "instagram_url": "https://instagram.com/lasarriacoop/",
+    "latitude": 41.5477076,
+    "longitude": 2.1079001,
+    "mail": "davidestop@gmail.com",
+    "name": "La S\u00e0rria",
+    "twitter_url": "https://twitter.com/la_sarria",
+    "url": "http://lasarria.cat/"
+  },
+  {
+    "city": "Saint Nazaire",
+    "coopcycle_url": "https://lescoliporteursnz.coopcycle.org",
+    "country": "fr",
+    "facebook_url": "https://www.facebook.com/lescoliporteursnz/",
+    "instagram_url": "https://www.instagram.com/lescoliporteursnz/?hl=fr",
+    "latitude": 47.2734979,
+    "longitude": -2.213848,
+    "mail": "contact@lescoliporteursnz.fr",
+    "name": "Les Coliporteurs Nazairiens",
+    "url": "https://www.lescoliporteursnz.fr/"
+  },
+  {
+    "city": "Saint-Maur-des-Foss\u00e9s",
+    "coopcycle_url": "https://samo.coopcycle.org",
+    "country": "fr",
+    "latitude": 48.803678,
+    "longitude": 2.4853294,
+    "mail": "samo.contact.sm@gmail.com",
+    "name": "Samo",
+    "text": {
+      "en": "Your ethical and ecological delivery service in Saint-Maur.",
+      "fr": "Votre service de livraison \u00e9thique et \u00e9cologique \u00e0 Saint-Maur."
+    }
+  },
+  {
+    "city": "Vancouver",
+    "coopcycle_url": "https://shift.coopcycle.org",
+    "country": "ca",
+    "facebook_url": "https://www.facebook.com/ShiftDelivery/",
+    "latitude": 49.28273,
+    "longitude": -123.120735,
+    "mail": "info@shiftdelivery.ca",
+    "name": "Shift Delivery Co-op",
+    "text": {
+      "en": "Shift Delivery is a worker owned co-op located in East Vancouver that specializes in last mile delivery. Do you need help with logistics? Want to reduce your carbon footprint? Write or give us a call."
+    },
+    "url": "https://shift.coop/"
+  },
+  {
+    "city": "Ciudad de M\u00e9xico - SIRApps",
+    "coopcycle_url": "https://sirapps-cdmx.coopcycle.org",
+    "country": "mx",
+    "delivery_form_url": "https://sirapps-cdmx.coopcycle.org/es/forms/beNzw6a5pmo4",
+    "facebook_url": " https://www.facebook.com/sirapps.unionrepartidores/",
+    "latitude": 19.43268,
+    "logo_src": "/images/coop-logos/logo-sira.png",
+    "longitude": -99.13421,
+    "mail": "sirapps.unionrepartidores@gmail.com",
+    "name": "SIRApps Uni\u00f3n Mexicana de Bicimensajeros por Aplicaci\u00f3n",
+    "text": {
+      "en": "<p> SIRApps Mexican Union of Bike Couriers by App. Delivery Food. Ride from $30 mexican pesos. Reliability and excellent service. Order now! </p>",
+      "es": "<p>SIRApps Uni\u00f3n Mexicana de Bicimensajeros por Aplicaci\u00f3n. Delivery Food. Viaje desde $30 pesos. Confianza y excelente servicio. \u00a1Haz tu pedido!</p>"
+    }
+  },
+  {
+    "city": "Ciudad de M\u00e9xico - TIG",
+    "coopcycle_url": "https://tig.coopcycle.org",
+    "country": "mx",
+    "delivery_form_url": "https://tig.coopcycle.org/es/forms/YXwQlJ7EA6VL",
+    "facebook_url": "https://www.facebook.com/tig.mx",
+    "latitude": 19.432608,
+    "logo_src": "/images/coop-logos/logo-tig.png",
+    "longitude": -99.133209,
+    "mail": "info@tig.mx",
+    "name": "TIG Bicimensajer\u00eda",
+    "text": {
+      "en": "<p>TIG Bicimensajeria we are professionals in bicycle delivery since 2013 in Mexico City. #TIG deliver whatever you need quickly, efficiently and sustainably. </p>",
+      "es": "<p>TIG Bicimensajer\u00eda somos profesionales de la entrega en bicicleta desde el 2013 en la Ciudad de M\u00e9xico. #TIGentrega lo que sea que necesites de forma r\u00e1pida, eficiente y sustentable.</p>"
+    },
+    "url": "https://www.tigcdmx.com/"
+  },
+  {
+    "city": "Ciudad de M\u00e9xico - Tlok",
+    "country": "mx",
+    "delivery_form_url": "https://tlok.coopcycle.org/es/forms/Wwk9BaABjy6x",
+    "facebook_url": "https://www.facebook.com/TlokMess/",
+    "instagram_url": "https://www.instagram.com/tlok.mess/?hl=fr",
+    "latitude": 19.419791,
+    "logo_src": "/images/coop-logos/logo-tlok.png",
+    "longitude": -99.111668,
+    "mail": "cotizaciones@tlok.info",
+    "name": "TLOK",
+    "url": "https://sites.google.com/tlok.info/tlok?fbclid=IwAR2jecBJtExvmO3y9V57NyYj2BeDSOObgZ0gjV3l4bbspdAtthspQdxwZ5I"
+  },
+  {
+    "city": "Tours",
+    "country": "fr",
+    "facebook_url": "https://www.facebook.com/toursnmessengers",
+    "latitude": 47.383333,
+    "longitude": 0.683333,
+    "name": "Tours N Messengers",
+    "url": "https://www.toursnmessengers.fr/"
+  },
+  {
+    "city": "Grenoble",
+    "country": "fr",
+    "latitude": 45.1951843,
+    "longitude": 5.711916,
+    "mail": "grenoble@toutenvelo.fr",
+    "name": "Toutenv\u00e9lo Grenoble",
+    "url": "http://www.toutenvelo.fr/toutenvelo-grenoble"
+  },
+  {
+    "city": "Marseille",
+    "country": "fr",
+    "facebook_url": "https://www.facebook.com/Toutenv%C3%A9lo-Marseille-336736433711774/",
+    "latitude": 43.296482,
+    "longitude": 5.36978,
+    "mail": "marseille@toutenvelo.fr",
+    "name": "Toutenv\u00e9lo Marseille",
+    "text": {
+      "fr": "Toutenv\u00e9lo Marseille est une soci\u00e9t\u00e9 coop\u00e9rative (SCOP) d\u00e9tenue par ses salari\u00e9s et sp\u00e9cialis\u00e9e dans la logistique du dernier kilom\u00e8tre \u00e0 v\u00e9lo. Arm\u00e9s de v\u00e9los \u00e0 assistance \u00e9lectrique, de caissons et de plateaux de transport, la coop\u00e9rative assure le transport de colis, de marchandises et propose un service de d\u00e9m\u00e9nagement dans le centre et le nord de Marseille. Notre mat\u00e9riel nous permet de transporter jusqu'\u00e0 300kg de charge et est adapt\u00e9 aux contraintes de circulation et de stationnement de la ville. Courses \u00e0 la demande, tourn\u00e9es planifi\u00e9es, transport de grosses charges, n'h\u00e9sitez pas \u00e0 nous contacter pour un service sans contrainte de circulation et d'\u00e9missions de particules fines !"
+    },
+    "url": "http://www.toutenvelo.fr/toutenvelo-marseille"
+  },
+  {
+    "city": "Hambourg",
+    "country": "de",
+    "instagram_url": "https://www.instagram.com/hh_tricargo.de/",
+    "latitude": 53.5586526,
+    "longitude": 9.6476381,
+    "mail": "info@tricargo.de",
+    "name": "Tricargo",
+    "text": {
+      "en": "<p>Tricargo is a cooperative which develops, produces and runs cargo bikes. We are specializing in last mile delivery in the city centre of Hamburg. Our vision is to improve urban life by modern e-mobility and social working conditions. tricargo proves the enormous potential of bicycle based deliveries since 2016. The founding team and many employees know each other from bicycle events like the critical mass.</p><p>Tours with many stops are our specialty. We started with subscription boxes from local, organic farmers and keep on diversifying: catering for daycare-centres, mail service for local companies, reusable packaging for zero-waste shops and dollie shots.<br>In 2018 we unloaded the cargo sail ship Avontuur which sailed from Nicaragua to Hamburg with coffee, cocoa and rum: this pro bono event made our team really proud.</p>"
+    },
+    "twitter_url": "https://twitter.com/tricargo_de",
+    "url": "https://tricargo.de/"
+  },
+  {
+    "city": "Ciudad de M\u00e9xico - TWC",
+    "coopcycle_url": "https://twc.coopcycle.org",
+    "country": "mx",
+    "delivery_form_url": "https://twc.coopcycle.org/es/forms/MQjb6n5OVRPG",
+    "facebook_url": " https://m.facebook.com/TWCouriers/",
+    "latitude": 19.43268,
+    "logo_src": "/images/coop-logos/log-twc.png",
+    "longitude": -99.13421,
+    "mail": "twcbicimensajeria@gmail.com",
+    "name": "Two Wheel Collective",
+    "text": {
+      "en": "<p>Collective of cycle couriers who live and work in the one of the biggest cities in the world, Mexico City. Our focus is on generating a connection between consumers and local businesses in an ecological, fast and efficient way.</p>",
+      "es": "<p>Colectivo de bicimensajerxs que viven y trabajan en la ciudad de M\u00e9xico. Nuestro enfoque est\u00e1 en generar la conexi\u00f3n entre negocios locales y consumidor de forma ecologica, rapida y eficiente.</p>"
+    }
+  },
+  {
+    "city": "Sevilla",
+    "country": "es",
+    "latitude": 37.3900992,
+    "longitude": -5.9862637,
+    "mail": "antoniolf05@hotmail.com",
+    "name": "Velo"
+  },
+  {
+    "city": "York",
+    "coopcycle_url": "https://york.coopcycle.org",
+    "country": "gb",
+    "facebook_url": "https://www.facebook.com/yorkcollective",
+    "instagram_url": "https://www.instagram.com/yorkcollective/",
+    "latitude": 53.9553945,
+    "longitude": -1.0903567,
+    "mail": "info@yorkcollective.co.uk",
+    "name": "York Collective",
+    "text": {
+      "en": "<p>York Collective was formed as a response to the gig-economy, and unaccountable multinational corporations. We do not see you as just another number, we want to develop valuable and long-term relationships with York businesses and customers.<br><br>Choose whether you use our app or website to book, manage, and track your orders. Our platform enables shops and restaurants to take orders with minimal fuss and expense. We offer a timely, cost effective and professional service, dedicated to your satisfaction.<br><br>As a member of a worldwide federation of cooperatives, social responsibility is at our core. We won\u2019t compromise on delivering you an ethical, environmentally friendly and convenient service.</p>"
+    },
+    "url": "https://www.facebook.com/yorkcollective"
+  },
+  {
+    "city": "Zaragoza",
+    "coopcycle_url": "https://zampate.coopcycle.org",
+    "country": "es",
+    "facebook_url": "https://www.facebook.com/100595218441670/",
+    "instagram_url": "https://www.instagram.com/zampate.zgz/",
+    "latitude": 41.650998,
+    "longitude": -0.888742,
+    "mail": "zampate.zaragoza@gmail.com",
+    "name": "Zampate",
+    "text": {
+      "en": "Z\u00e1mpate Zaragoza is a new initiative for food delivery in our city. A sustainable and ethical initiative of urban delivery by bicycle. We will start collaborating with several hotel establishments and food stores that we will present to you.",
+      "es": "Z\u00e1mpate Zaragoza es una nueva iniciativa de reparto de comida a domicilio en nuestra ciudad. Una iniciativa sostenible y \u00e9tica de reparto urbano en bicicleta. Empezaremos colaborando con varios establecimientos hosteleros y tiendas de alimentaci\u00f3n que os iremos presentado. "
+    },
+    "url": "https://zampatezaragoza.com"
+  },
+  {
+    "city": "Pamplona/Iru\u00f1a",
+    "coopcycle_url": "https://ziclop.coopcycle.org",
+    "country": "es",
+    "facebook_url": "https://www.facebook.com/Ziclo-P-109987504633550",
+    "latitude": 42.82708,
+    "longitude": -1.64647,
+    "mail": "contacto@ziclo-p.com",
+    "name": "Ziclo-P",
+    "text": {
+      "en": "Ethical and local delivery",
+      "es": "Reparto \u00e9tico y local"
+    },
+    "url": "https://www.ziclo-p.com/"
+  }
+]

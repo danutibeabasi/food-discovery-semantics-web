@@ -1,0 +1,352 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://niort.coopcycle.org/api/restaurants/36> ns1:hasMenu <https://niort.coopcycle.org/en/restaurant/36-shalimar#menu> .
+
+<https://niort.coopcycle.org/en/restaurant/36-shalimar#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Heineken 25cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "1664 25cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Indienne 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Bières" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Riz au lait maison à la cardamome et la noix de coco" ;
+                    ns1:name "Kheer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Semoule à la noix de coco rapée" ;
+                    ns1:name "Semoule Halwa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Glace maison avec pistache, noix de coco et cardamome" ;
+                    ns1:name "Kulfi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Nos desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Riz Basmati aux petits pois, noix de cajou, raisins sec" ;
+                    ns1:name "Peas Pullalo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Aubergines au curry" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/b9/64b9368085721.jpeg> ;
+                    ns1:name "Aubergines Bahrtra" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Légumes variés" ;
+                    ns1:name "Légumes maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry d'épinards au fromage" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/b9/64b936403b4b8.jpeg> ;
+                    ns1:name "Palak Paneer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lentilles aux épices" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/b9/64b935f7da3a3.jpeg> ;
+                    ns1:name "Dall" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Riz Basmati" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de petits pois avec fromage" ;
+                    ns1:name "Matar Paneer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Epinards cuits avec pomme de terre" ;
+                    ns1:name "Aloo Palak" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "Nos plats végétariens" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Galette de farine blanche nature" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/b9/64b92fa26cc8b.jpeg> ;
+                    ns1:name "Nan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette à l'ail" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/b9/64b92ff11978b.jpeg> ;
+                    ns1:name "Lassni Nan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette de farine de blé" ;
+                    ns1:name "Chappati" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette au beurre, farine de blé et sarrazin" ;
+                    ns1:name "Paratha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette de farine blanche aux légumes" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/b9/64b9307a09836.jpeg> ;
+                    ns1:name "Masala Kulcha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain farci de viande hachée" ;
+                    ns1:name "Keema Nan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette au piment rouge" ;
+                    ns1:name "Chili Nan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette de farine blanche au fromage" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/b9/64b93019d8220.jpeg> ;
+                    ns1:name "Nan fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette de farine blanche à l'ail et au fromage" ;
+                    ns1:name "Nan ail et fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Nos galettes (pain)" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Concombres, tomates, mélangés à un yaourt" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/b9/64b9332c999fc.jpeg> ;
+                    ns1:name "Raita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Feuilletés aux légumes et ses épices" ;
+                    ns1:name "Samosa légumes - 2 pièces" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cocktail de beignets de légumes" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/b9/64b932b721f5c.jpeg> ;
+                    ns1:name "Mixed pakora" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignets \"farine de pois chiche\" aux oignons" ;
+                    ns1:name "Oignon bahji" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignets \"farine de pois chiche\" aux aubergines" ;
+                    ns1:name "Pakora aubergine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Feuilletés à l'agneau haché, légumes et épices" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/b9/64b932efe6ba2.jpeg> ;
+                    ns1:name "Samosa viande - 2 pièces" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Nos légumes et salades" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Riz cuit avec la viande d'agneau" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/b9/64b9373461bd0.jpeg> ;
+                    ns1:name "Agneau Byriani" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz cuit avec la viande de poulet désossée" ;
+                    ns1:name "Poulet Byriani" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz cuit avec légumes" ;
+                    ns1:name "Légumes Biryani" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz cuit avec des crevettes décortiquées" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/b9/64b9375a2c117.jpeg> ;
+                    ns1:name "Crevettes Biryani" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.50" ] ] ;
+            ns1:name "Biryani" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Poulet aux épinards" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/b9/64b93439837f3.jpeg> ;
+                    ns1:name "Poulet Palak" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de poulet relevé aux quatre épices" ;
+                    ns1:name "Poulet Vindaloo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de poulet à base d'oignons, tomates et poivrons" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/b9/64b931201fb47.jpeg> ;
+                    ns1:name "Poulet Tikka Masala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet désossé, mariné, grillé et recuit avec une sauce au beurre" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/b9/64b934a584d22.jpeg> ;
+                    ns1:name "Poulet au beurre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de poulet, sauce crème de noix de cajou et beurre" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/b9/64b9346c7bad6.jpeg> ;
+                    ns1:name "Poulet Shahi Korma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ] ;
+            ns1:name "Nos plats au poulet" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Curry d'agneau aux aubergines" ;
+                    ns1:name "Agneau Bangon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry d'agneau aux épinards" ;
+                    ns1:name "Agneau Sagwala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry d'agneau relevé aux quatre épices" ;
+                    ns1:name "Agneau Vindaloo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry d'agneau avec poivrons, tomates et oignon" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/b9/64b933ed80875.jpeg> ;
+                    ns1:name "Agneau Karahi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cuury d'agneau sauce crème de noix de cajou et beurre" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/b9/64b930d55bce5.jpeg> ;
+                    ns1:name "Agneau Shahi Korma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry d'agneau aux tomates, oignons, gingembre" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/b9/64b933bf819a1.jpeg> ;
+                    ns1:name "Agneau Roganjosh" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ] ;
+            ns1:name "Nos plats à l'agneau" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Viande d'agneau aux épices hachées et grillés au tandoor" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/b9/64b93227934cb.jpeg> ;
+                    ns1:name "Seek Kebab" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet mariné dans une sauce et cuit au tandoor" ;
+                    ns1:name "Poulet Tandoori" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Agneau mariné aux épices et grillés au tandoor" ;
+                    ns1:name "Agneau Tikka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux de poulet marinés aux épices et au yaourt, grillés au tandoor" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/b9/64b931b64e563.jpeg> ;
+                    ns1:name "Poulet Tikka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ] ;
+            ns1:name "Nos entrées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Curry de crevettes décortiquées, tomates, oignons, piments verts et citron" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/b9/64b935776a716.jpeg> ;
+                    ns1:name "Crevettes Masala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crevettes aux raisins et noix de cajou" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/b9/64b935beba321.jpeg> ;
+                    ns1:name "Crevettes Shahi Korma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ] ;
+            ns1:name "Nos plats aux fruits de mer" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Curry de bœuf aux épinards" ;
+                    ns1:name "Bœuf Sagwala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de bœuf, sauce crème de noix de cajou et beurre" ;
+                    ns1:name "Boeuf Shahi Korma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de bœuf aux tomates, oignons, gingembre" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/b9/64b9351bb21cf.jpeg> ;
+                    ns1:name "Bœuf Roganjosh" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de bœuf relevé aux quatre épices" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/b9/64b930fd2ee82.jpeg> ;
+                    ns1:name "Boeuf Vindaloo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ] ;
+            ns1:name "Nos plats au bœuf" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Perrier 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50cl ou 1L" ;
+                    ns1:name "Badoit" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50cl ou 1L" ;
+                    ns1:name "Evian" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Orange, ananas ou abricot" ;
+                    ns1:name "Jus de fruits 25cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Orangina 25cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Schweppes 25cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Boissons" ] .
+

@@ -1,0 +1,48 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://krokoop.coopcycle.org/api/restaurants/15> a ns1:Restaurant ;
+    ns1:address <https://krokoop.coopcycle.org/api/addresses/772> ;
+    ns1:description """Namaste India est une invitation dans les saveurs culinaires du nord de l'Inde. \r
+\r
+Gurdeep Singh, ancien cuisinier du restaurant Ganesh et propriétaire de l'établissement, vient nous livrer toute son histoire et son savoir-faire dans ce nouvel espace typiquement décoré rue Notre-Dame.\r
+\r
+Des Samossas au Poulet Tikka Massala, toujours accompagné de riz, vous retrouverez tous les plats traditionnels de cette région du monde, riche par sa culture (et ses nombreuses épices).""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.383642e+01 ;
+            ns1:longitude 4.364214e+00 ] ;
+    ns1:image <https://krokoop.coopcycle.org/media/cache/restaurant_thumbnail/65/49/654958a4cbf29.png> ;
+    ns1:name "NAMASTE INDIA" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday" ;
+            ns1:opens "11:20" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:50" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://krokoop.coopcycle.org/en/restaurant/15-namaste-india" ] ] ;
+    ns1:sameAs <https://krokoop.coopcycle.org/en/restaurant/15-namaste-india> ;
+    ns1:url <https://krokoop.coopcycle.org/en/restaurant/15-namaste-india> .
+
+<https://krokoop.coopcycle.org/api/addresses/772> a ns1:PostalAddress ;
+    ns1:name "NAMASTE INDIA" ;
+    ns1:streetAddress "6 Rue Notre Dame, Nîmes, France" ;
+    ns1:telephone "+33782861517" .
+

@@ -1,0 +1,171 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://kooglof.coopcycle.org/api/restaurants/59> ns1:hasMenu <https://kooglof.coopcycle.org/en/restaurant/59-verrine-vapeur#menu> .
+
+<https://kooglof.coopcycle.org/en/restaurant/59-verrine-vapeur#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/62/16/6216695ced0cd.jpeg> ;
+                    ns1:name "LA MER" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Falafel de pois cassé et son coulis de tomates maison, trio de quinoa, dés de courges muscades confîts\r
+- Pour la remise à température : 3min au micro-onde ou au four 30min à 200 °C
+\r
+Photo non contractuelle*""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/62/16/62166ad0e7520.jpeg> ;
+                    ns1:name "LE VEGAN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Sauté de poulet d’Alsace « label rouge »  sauce à échalote, spaetzle "maison" sautée à l'échalote et persil\r
+- Pour la remise à température : 3min au micro-onde ou au four 30min à 200 °C
+\r
+Photo non contractuelle*""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/62/16/6216692369a1f.jpeg> ;
+                    ns1:name "CHEZ MAMIE" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "Plats 🍲" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Brasserie Grillen la grillée \"ambrée\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Brasserie Grillen Mosaïc IPA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Brasserie Grillen Cirrhus \"blanche\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Brasserie Grillen Liberté pils" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Côté brasserie 🍻" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Mélange de fruit : Melon, ananas, pomme et myrtille, jus de citron vert" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/62/16/62166a60ee2b2.jpeg> ;
+                    ns1:name "LE FRUIT" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pot de crème au chocolat noir" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/62/16/621669f45cc4e.jpeg> ;
+                    ns1:name "LE CHOCOLAT" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/62/16/621669ad58efa.jpeg> ;
+                    ns1:name "LE CHEESECAKE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Desserts 🍰" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "LE POTAGE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mousse a l'aneth, saumon fumé, roquette en julienne, oignon rouge et câpre" ;
+                    ns1:name "LE POISSON" ;
+                    ns1:nutrition "Eggs",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Salade mixte, cervelas,\r
+cornichons et tomme des\r
+Vosges""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/62/16/62166b1f426ac.jpeg> ;
+                    ns1:name "LE D'ICI" ;
+                    ns1:nutrition "Eggs",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/62/16/62166a7f61a74.jpeg> ;
+                    ns1:name "LE MARAICHER" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Entrées 🥗" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33cl (brut ou doux)" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/62/05/6205031dc28eb.jpeg> ;
+                    ns1:name "Cidre \"amour\" Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Eau plate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/62/05/6205039ac9a63.jpeg> ;
+                    ns1:name "Limonade La Pastel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50cl" ;
+                    ns1:name "Eau gazeuse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """25cl\r
+- Pomme vanille "Bourbon"\r
+- Tomate\r
+- orange sanguine de Sicile\r
+- Pomme pulpée\r
+- Abricot du Roussillon\r
+- Ananas "pain de sucre"\r
+- Poire "williams\"""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/62/05/620502d611199.jpeg> ;
+                    ns1:name "Jus de fruit (LE COQ'TOQUE) BIO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """- DETOXIFIANTE légèrement gazeuse (Sauge, sureau et pomme)\r
+- ENERGISANTE  légèrement gazeuse (Thym, menthe poivrée, citron)\r
+- RELAXANTE  plate (Verveine, lavande et cerise)""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/62/05/620504307a82b.jpeg> ;
+                    ns1:name "Infusion Symple  \"bio\" 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Boissons 🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """➡️ Chez vous ou au bureau ! Livraison à partir de 2,90 euros 🎉
+\r
+*Produit informatif""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/62/17/62175349a0d80.jpeg> ;
+                    ns1:name "Offres 🏷️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pour toute commande passée avant 10h30, livraison avant 12h ! Vous avez votre pause dej plus tard ? D'autres créneaux sont également disponibles 🚴
+\r
+Produit informatif*""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/da/63da9924ac681.jpeg> ;
+                    ns1:name "Précommandes ⏳" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Avec Kooglof au Bureau, les produits sont livrés froids et/ou conditionnés pour une remise en température ⚠️" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/df/63dfafce0cd09.jpeg> ;
+                    ns1:name "Livraison 🚴‍♂️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ] ;
+            ns1:name "Fonctionnement 🚴" ] .
+

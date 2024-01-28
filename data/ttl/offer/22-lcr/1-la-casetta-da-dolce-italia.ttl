@@ -1,0 +1,166 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lcr.coopcycle.org/api/restaurants/1> ns1:hasMenu <https://lcr.coopcycle.org/en/restaurant/1-la-casetta-da-dolce-italia#menu> .
+
+<https://lcr.coopcycle.org/en/restaurant/1-la-casetta-da-dolce-italia#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Dégustez un délicieux plat de lasagnes préparé maison, tout frais, tout plein d'amore.\r
+2 Parts d'environ 320g , variant +/-5%. \r
+20-25min d'attente insoutenable au four à 180°...\r
+Buon appetito ragazzi !""" ;
+                    ns1:name "Lasagne maison ( 2 personnes )" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Dégustez un délicieux plat de lasagnes préparé maison, tout frais, tout plein d'amore.\r
+Part d'environ 320g , variant +/-5%. \r
+20-25min d'attente insoutenable au four à 180°...\r
+Buon appetito ragazzi !""" ;
+                    ns1:name "Lasagne maison ( 1 personne )" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.95" ] ] ;
+            ns1:name "LASAGNES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Dégustez nos spaghetti fraîche réalisées chaque jour en boutique!\r
+Temps de cuisson : 3-4min, eau bouillante salée, à compter à partir de l'ébullition de l'eau .\r
+Buon appetito!""" ;
+                    ns1:name "Spaghetti fraiche / 1 personne" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Dégustez nos tagliatelle fraîche réalisées chaque jour en boutique!\r
+Temps de cuisson : 3-4min, eau bouillante salée, à compter à partir de l'ébullition de l'eau .\r
+Buon appetito!""" ;
+                    ns1:name "Tagliatelle fraîche / 1personne" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ] ;
+            ns1:name "PASTA FRESCA" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Un dessert italiano pour terminer en beauté… Les fameux babas au rhum : pot de 6 ." ;
+                    ns1:name "Babas au Rhum" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Le plus grand des classiques italiani pour terminer en beauté… Café, cacao, fait maison" ;
+                    ns1:name "Tiramisù café" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ] ;
+            ns1:name "DOLCE" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "huile d'olive parfumée aux herbes, ricotta, tartare de tomates, copeaux de parmesan, aubergines et courgettes grillées, basilic frais et... beaucoup d'amore!" ;
+                    ns1:name "Panuozzo Légumes grillés" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "huile d'olive parfumée aux herbes, ricotta, pancetta, mozzarella, tomates séchées et... beaucoup d'amore!" ;
+                    ns1:name "Panuozzo Pancetta" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.60" ] ] ;
+            ns1:name "PANUOZZO" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pizza 26-27cm sauce tomate italienne, fromage de vache cantal, thon, crevettes, moules et sa dose d'amore!" ;
+                    ns1:name "Pizza Frutti di mare" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Crustaceans",
+                        "Fish",
+                        "Milk",
+                        "Molluscs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pizza 26-27cm sauce tomate italienne, fromage de vache cantal, jambon blanc supérieur, champignons de paris, câpres et sa dose d'amore !" ;
+                    ns1:name "Pizza Capricciosa" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pizza 26-27cm sauce tomate italienne, fromage de vache cantal, saumon fumé et sa dose d'amore!" ;
+                    ns1:name "Pizza Salmone" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pizza 26-27cm sauce tomate italienne, fromage de vache cantal, anchois, chorizo, olives noires et sa dose d'amore!" ;
+                    ns1:name "Pizza Vesuvio" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pizza 26-27cm sauce tomate italienne, fromage de vache cantal, jambon blanc supérieur, chorizo et sa dose d'amore!" ;
+                    ns1:name "Pizza Etna" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pizza sauce tomate italienne, fromage de vache cantal et beaucoup d'amore !" ;
+                    ns1:name "Pizza Margherita" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pizza 26-27cm sauce tomate italienne, champignons de Paris fraichement coupés, fromage de vache cantal, jambon blanc supérieur et sa grande dose d'amore!" ;
+                    ns1:name "Pizza Reine" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pizza sauce tomate italienne, fromage de vache cantal, jambon blanc supérieur et sa grande dose d'amore!" ;
+                    ns1:name "Pizza Regina" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pizza sauce tomate italienne, fromage de vache cantal, gorgonzola DOP, chèvre et sa dose d'amore!" ;
+                    ns1:name "Pizza 3 formaggi" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pizza 26-27cm sauce tomate italienne, fromage de vache cantal, jambon blanc supérieur, champignons de Paris, coeurs d'artichauts, olives vertes et sa grande dose d'amore! \r
+De taille moyenne (1 à 2 personnes).""" ;
+                    ns1:name "Pizza 4 stagioni" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pizza 26-27cm sauce tomate italienne, fromage de vache cantal, champignons de paris, Pancetta (poitrine roulée), tartare de tomates, poivrons, crème fraiche et sa dose d'amore!" ;
+                    ns1:name "Pizza Lombardia" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ] ;
+            ns1:name "PIZZA" ] .
+

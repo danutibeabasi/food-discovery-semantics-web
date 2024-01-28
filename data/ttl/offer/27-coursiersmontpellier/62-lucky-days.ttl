@@ -1,0 +1,763 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiersmontpellier.coopcycle.org/api/restaurants/62> ns1:hasMenu <https://coursiersmontpellier.coopcycle.org/en/restaurant/62-lucky-days#menu> .
+
+<https://coursiersmontpellier.coopcycle.org/en/restaurant/62-lucky-days#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Aiguillettes de poulet de Louisiane panées" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/cc/60cc6b474bec4.jpeg> ;
+                    ns1:name "Tenders x3" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Aiguillettes de poulet de Louisiane panées" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/cc/60cc6b06ae17b.jpeg> ;
+                    ns1:name "Tenders x12" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Aiguillettes de poulet de Louisiane panées" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e5/60e5d2598bd56.jpeg> ;
+                    ns1:name "Tenders x9" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e3/60e32a78d3ce2.jpeg> ;
+                    ns1:name "Frites de pommes de terre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Aiguillettes de poulet de Louisiane panées" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/cc/60cc6b6bed770.jpeg> ;
+                    ns1:name "Tenders x6" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ] ;
+            ns1:name "🍟Accompagnements🍟" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger aux céréales, filets de poulet rôti, emmental gratiné au four, salade fraîche, tomates du jardin, oignons rouges, sauce Texas." ;
+                    ns1:name "Sandwich Ranch" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger aux céréales, steack de bœuf français, tranches de cheddar gratiné au four, salade fraîche, tomates du jardin, oignons frits croustillants, cornichons, sauce Américaine légèrement tomatée." ;
+                    ns1:name "Sandwich New York" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger aux céréales, steack de bœuf français, tranches de cheddar gratiné au four, salade du jardin, oignons frits croustillants, concombre, poivrons frais, sauce mayonnaise et ketchup." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5e/f8/5ef8e36fca56d.jpg> ;
+                    ns1:name "Sandwich Brooklyn" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger aux céréales, filets de poulet rôti marinés dans les épices, cheddar gratiné au four, salade fraîche, tomates du jardin, poivrons frais, jalapeños, sauce piquante." ;
+                    ns1:name "Sandwich Mexicain" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger aux céréales, steack de bœuf français, tranches de bacon fumé, cheddar gratiné au four, salade fraîche, tomates du jardin, oignons rouges, poivrons frais, sauce au poivre noir." ;
+                    ns1:name "Sandwich Manhattan" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger aux céréales, filets de poulet rôti marinés dans les épices curry, mozzarella gratinée au four, salade fraîche, tomates du jardin, oignons rouges, poivrons frais, sauce au curry légèrement épicée." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5f/c1/5fc14680d82f0.jpeg> ;
+                    ns1:name "Sandwich Bollywood" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger aux céréales, steack de bœuf français, tranches de bacon fumé, raclette gratinée au four, salade fraîche, tomates du jardin, oignons frits croustillants, cornichons, sauce barbecue légèrement sucrée" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5f/c1/5fc146d25479f.jpeg> ;
+                    ns1:name "Sandwich Connecticut" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger aux céréales, steak de soja, emmental gratiné au four, salade fraîche, tomates du jardin, concombres, sauce Caesar" ;
+                    ns1:name "Sandwich Végétarien" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger aux céréales, steack de bœuf français, jambon cru de pays, mozzarella gratinée, salade fraîche, tomates du jardin, olives noires, sauce moutarde au miel." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5f/c1/5fc147968721d.jpeg> ;
+                    ns1:name "Sandwich Little Italy" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5f/c1/5fc14a4839e30.jpeg> ;
+                    ns1:name "Sandwich Islandais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ] ;
+            ns1:name "🥪Sandwichs toastés🥪" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Je ne souhaite pas de serviette jetable" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Je ne souhaite pas de couvert jetable" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ] ;
+            ns1:name "🍴Couvert et serviette🍴" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e5/60e5cab78c184.jpeg> ;
+                    ns1:name "Ice tea pêche 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e5/60e5cadfda224.jpeg> ;
+                    ns1:name "Ice tea Green tea 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e4/60e44d82b611a.jpeg> ;
+                    ns1:name "Minute maid tropical" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e4/60e44de78316a.jpeg> ;
+                    ns1:name "San Pellegrino 50 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e5/60e5893ea97fe.jpeg> ;
+                    ns1:name "Ice tea pêche 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e5/60e5879b9e7a6.jpeg> ;
+                    ns1:name "Jarritos Cola mexicain" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e5/60e582acdf5cc.jpeg> ;
+                    ns1:name "Arizona mangue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e5/60e58436d7af9.jpeg> ;
+                    ns1:name "Arizona thé blanc, poire, myrtilles" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e4/60e44c8a58c66.jpeg> ;
+                    ns1:name "Coca-Cola zero" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e4/60e44d9f2a654.jpeg> ;
+                    ns1:name "Oasis tropical" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e4/60e44e1e8a646.jpeg> ;
+                    ns1:name "Sprite" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e4/60e44c67099ac.jpeg> ;
+                    ns1:name "Coca-Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e5/60e589a04ec13.jpeg> ;
+                    ns1:name "Fanta orange" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e5/60e586d1ecdb1.jpeg> ;
+                    ns1:name "Jarritos Mandarine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e4/60e44cc588a1b.jpeg> ;
+                    ns1:name "Eau plate 50 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e5/60e583c1d3f37.jpeg> ;
+                    ns1:name "Arizona pastèque" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e5/60e584b70a407.jpeg> ;
+                    ns1:name "Arizona thé vert, miel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e5/60e587f56f47e.jpeg> ;
+                    ns1:name "Jarritos Mangue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e4/60e44e0549e6e.jpeg> ;
+                    ns1:name "Schweppes agrum'" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e5/60e58722012a0.jpeg> ;
+                    ns1:name "Jarritos citron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e5/60e5875f97e34.jpeg> ;
+                    ns1:name "Jarritos Ananas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e5/60e5837cc9b84.jpeg> ;
+                    ns1:name "Arizona multifruits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e4/60e44dcf21e2b.jpeg> ;
+                    ns1:name "Pulco citronnade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e5/60e5c43db38cc.jpeg> ;
+                    ns1:name "Coca cola 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e5/60e588f30a8a1.jpeg> ;
+                    ns1:name "Jarritos Goyave" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e4/60e468d8d42f2.jpeg> ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e5/60e58865189d9.jpeg> ;
+                    ns1:name "Jarritos Pamplemousse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Au choix blonde ,blanche,IPA" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e4/60e44c1446bf5.jpeg> ;
+                    ns1:name "Bière artisanale d'importation mexicaine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e5/60e583f4bbb7e.jpeg> ;
+                    ns1:name "Arizona pêche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e4/60e44ca513c36.jpeg> ;
+                    ns1:name "Dr Pepper" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e4/60e469e7c79a0.jpeg> ;
+                    ns1:name "Minute maid orange" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e5/60e58351688dc.jpeg> ;
+                    ns1:name "Arizona fraise, citron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e4/60e46a095a461.jpeg> ;
+                    ns1:name "Minute maid pomme" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e5/60e5ca5b50430.jpeg> ;
+                    ns1:name "Ice tea Framboise 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e5/60e5853d6c47d.jpeg> ;
+                    ns1:name "Arizona thé vert, pomme, grenade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e5/60e5c792d74aa.jpeg> ;
+                    ns1:name "Oasis 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "🥤Boissons🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bun boulanger aux céréales, steack de bœuf français, tranches de cheddar gratiné au four, salade du jardin, oignons frits croustillants, concombre, poivrons frais, sauce mayonnaise et ketchup." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e3/60e3283939df7.jpeg> ;
+                    ns1:name "Burger Brooklyn" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bun boulanger aux céréales, steack de bœuf français, tranches de cheddar gratiné au four, salade fraîche, tomates du jardin, oignons frits croustillants, cornichons, sauce Américaine légèrement tomatée." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e3/60e32974c29ae.jpeg> ;
+                    ns1:name "Burger New-York" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e3/60e32a4fa3b5c.jpeg> ;
+                    ns1:name "Burger Islandais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bun boulanger aux céréales, trois steacks de bœuf français, triple ration de cheddar gratiné, salade fraîche, tomates du jardin, oignons rouges, cornichons, sauce barbecue légèrement sucrée" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e3/60e329e8f3453.jpeg> ;
+                    ns1:name "Burger Triple XL" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bun boulanger aux céréales, filets de poulet rôti marinés dans les épices curry, mozzarella gratinée au four, salade fraîche, tomates du jardin, oignons rouges, poivrons frais, sauce au curry légèrement épicée." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e3/60e327e357459.jpeg> ;
+                    ns1:name "Burger Bollywood" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bun boulanger aux céréales, steak de soja, emmental gratiné au four, salade fraîche, tomates du jardin, concombres, sauce Caesar." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e3/60e32a1b0ebca.jpeg> ;
+                    ns1:name "Burger Végétarien" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bun boulanger aux céréales, steack de bœuf français, tranches de bacon fumé, cheddar gratiné au four, salade fraîche, tomates du jardin, oignons rouges, poivrons frais, sauce au poivre noir." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e3/60e3290880a53.jpeg> ;
+                    ns1:name "Burger Manhattan" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bun boulanger aux céréales, steack de bœuf français, jambon cru de pays, mozzarella gratinée, salade fraîche, tomates du jardin, olives noires, sauce moutarde au miel." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e3/60e328cd1ffb5.jpeg> ;
+                    ns1:name "Burger Little Italy" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bun boulanger aux céréales, filets de poulet rôti marinés dans les épices, cheddar gratiné au four, salade fraîche, tomates du jardin, poivrons frais, jalapeños, sauce piquante." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e3/60e3292c9e74f.jpeg> ;
+                    ns1:name "Burger Mexicain" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bun boulanger aux céréales, filets de poulet rôti, emmental gratiné au four, salade fraîche, tomates du jardin, oignons rouges, sauce Texas." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e3/60e3299b3727c.jpeg> ;
+                    ns1:name "Burger Ranch" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bun boulanger aux céréales, steack de bœuf français, tranches de bacon fumé, raclette gratinée au four, salade fraîche, tomates du jardin, oignons frits croustillants, cornichons, sauce barbecue légèrement sucrée" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e3/60e32878b5eb7.jpeg> ;
+                    ns1:name "Burger Connecticut" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ] ;
+            ns1:name "🍔Burgers gourmets🍔" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5f/c1/5fc14a257843d.jpeg> ;
+                    ns1:name "Salade Islandaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Filets de poulet rôti, emmental râpé, salade fraîche de saison, tomates du jardin, oignons rouges, sauce Texas." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e3/60e32442b4995.jpeg> ;
+                    ns1:name "Salade Ranch" ;
+                    ns1:nutrition "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Filets de poulet rôti marinés dans les épices, tranches de cheddar, salade fraîche de saison, tomates du jardin, poivrons frais, jalapeños, vinaigrette aux agrumes." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e3/60e32417a859e.jpeg> ;
+                    ns1:name "Salade Mexicaine" ;
+                    ns1:nutrition "Milk",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Steak de soja, emmental râpé, salade fraîche, tomates du jardin, concombres, sauce Caesar." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e3/60e327aa4ca12.jpeg> ;
+                    ns1:name "Salade Végétarienne" ;
+                    ns1:nutrition "Milk",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Filets de poulet rôti, petits dés de mozzarella, salade fraîche de saison, tomates du jardin, concombres, poivrons frais, sauce Caesar." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e3/60e323ce8efa5.jpeg> ;
+                    ns1:name "Salade Caesar" ;
+                    ns1:nutrition "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jambon cru de pays, petits dés de mozzarella, salade fraîche de saison, tomates du jardin, olives noires, sauce moutarde au miel." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e3/60e323f0bd0a7.jpeg> ;
+                    ns1:name "Salade Little Italy" ;
+                    ns1:nutrition "Milk",
+                        "Mustard",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Filets de poulet rôti marinés dans les épices curry, petits dés de mozzarella, salade fraîche de saison, tomates du jardin, oignons rouges, poivrons frais, sauce au curry légèrement épicée." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e3/60e323a628933.jpeg> ;
+                    ns1:name "Salade Bollywood" ;
+                    ns1:nutrition "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ] ;
+            ns1:name "🥗Salades fraîcheurs🥗" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Une salade fraîcheur, une boisson ou eau, frites ou dessert au choix" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e3/60e3235338722.jpeg> ;
+                    ns1:name "Formule salade fraîcheur" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un Hot-dog gourmet, une boisson 33cl ou eau, frites ou dessert au choix" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e3/60e323033e528.jpeg> ;
+                    ns1:name "Formule Hot-Dog Gourmet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un sandwich toasté, une boisson 33cl ou eau, frites ou dessert au choix" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5e/f8/5ef8e567a821a.jpg> ;
+                    ns1:name "Formule sandwich toasté" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un burger gourmet, une boisson 33cl ou eau, frites ou dessert au choix" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e3/60e322af2f651.jpeg> ;
+                    ns1:name "Formule burger gourmet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.40" ] ] ;
+            ns1:name "⚡Formules⚡" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger aux céréales, saucisse fumée, emmental gratiné au four, oignons rouges et sauce Texas." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/cb/60cb608c0a238.jpeg> ;
+                    ns1:name "Hot-dog Ranch" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger aux céréales, galette de haricots rouges, cheddar gratiné au four, oignons rouges, oignons frits croustillants, sauce ketchup et moutarde de Dijon." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/cb/60cb5f4fac6a7.jpeg> ;
+                    ns1:name "Hot-dog Végétarien" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger aux céréales, saucisse fumée, jambon cru de pays, mozzarella gratinée au four, olives noires, sauce moutarde au miel." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/cb/60cb5fd869df9.jpeg> ;
+                    ns1:name "Hot-dog Little Italy" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger aux céréales, saucisse fumée, bacon fumé, tranches de cheddar gratiné au four, oignons rouges, poivrons frais, sauce au poivre noir." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/cb/60cb602943553.jpeg> ;
+                    ns1:name "Hot-dog Manhattan" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger aux céréales, saucisse fumée, tranches de cheddar gratiné au four, poivrons frais, piments jalapeños et sauce piquante." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/cb/60cb604b2fb17.jpeg> ;
+                    ns1:name "Hot-Dog Mexicain" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger aux céréales, saucisse fumée, tranches de cheddar gratiné au four, oignons frits croustillants, sauce ketchup et moutarde de Dijon." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/cb/60cb5f7b3c6f1.jpeg> ;
+                    ns1:name "Hot-Dog Classique" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger aux céréales, saucisse fumée, tranches de cheddar gratiné au four, poivrons frais, oignons frits croustillants, sauce ketchup et mayonnaise." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/cb/60cb5e3aa0cd1.jpeg> ;
+                    ns1:name "Hot-dog Brooklyn" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger aux céréales, trois saucisses fumées, tranches de cheddar gratiné au four, oignons frits croustillants, sauce ketchup et moutarde de Dijon." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/cb/60cb60c6100d1.jpeg> ;
+                    ns1:name "Hot-dog Triple XL" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger aux céréales, deux saucisses fumées, tranches de cheddar gratiné au four, oignons frits croustillants, sauce ketchup et moutarde de Dijon." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/cb/60cb5fbcec36e.jpeg> ;
+                    ns1:name "Hot-dog double XL" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger aux céréales, saucisse fumée, mozzarella gratinée au four, oignons rouges, poivrons frais, sauce curry légèrement épicée." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/cb/60cb61bbba75d.jpeg> ;
+                    ns1:name "Hot-dog Bollywood" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger aux céréales, saucisse fumée, tranches de cheddar gratiné au four, oignons frits croustillants, cornichons, sauce Américaine" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/cb/60cb6066c5b96.jpeg> ;
+                    ns1:name "Hot-dog New York" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger aux céréales, saucisse fumée, bacon fumé, raclette gratinée au four, oignons frits croustillants, cornichons, sauce barbecue légèrement sucrée." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/cb/60cb5f9b6d55c.jpeg> ;
+                    ns1:name "Hot-dog Connecticut" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ] ;
+            ns1:name "🌭Hot-Dogs Gourmets🌭" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e3/60e321c07f3dd.jpeg> ;
+                    ns1:name "Cookie au chocolat blanc framboise" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brownie gourmand au chocolat et noix de pécan, garni de Nutella et d'Oreo 😋" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e3/60e3209fd2732.jpeg> ;
+                    ns1:name "Brownie Nutella Oreo" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e3/60e3218c9db4e.jpeg> ;
+                    ns1:name "Cookie au chocolat au lait" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sandwich au Nutella doré au four" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâtisserie USA au chocolat belge, chamallows et pop-corn." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e3/60e3215c074f9.jpeg> ;
+                    ns1:name "Rocky road" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger garni de nutella et doré au four." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e6/60e6fd6e974f5.jpeg> ;
+                    ns1:name "Hot-dog Nutella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cookie aux trois chocolats : blanc, lait, et noir" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e3/60e321fe4a3e7.jpeg> ;
+                    ns1:name "Cookie triple chocolat" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e3/60e32ab4a5028.jpeg> ;
+                    ns1:name "Sablé au chocolat au lait et caramel beurre salé" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bun boulanger garni de nutella et doré au four." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e3/60e320fb464d2.jpeg> ;
+                    ns1:name "Burger au Nutella doré au four" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "🍯Desserts gourmands🍯" ] .
+

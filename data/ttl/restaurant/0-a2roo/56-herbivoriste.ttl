@@ -1,0 +1,33 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://a2roo.coopcycle.org/api/restaurants/56> a ns1:Restaurant ;
+    ns1:address <https://a2roo.coopcycle.org/api/addresses/9455> ;
+    ns1:description """Herbivoriste c'est un food bike 100% végétalien qui vous propose une cuisine de saison majoritairement locale et biologique. \r
+\r
+Une cuisine riche, colorée et pleine de saveurs !""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.7352e+01 ;
+            ns1:longitude 5.042912e+00 ] ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/62/e8/62e8492806785.jpeg> ;
+    ns1:name "Herbivoriste" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:30" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Wednesday" ;
+            ns1:opens "11:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://a2roo.coopcycle.org/en/restaurant/56-herbivoriste" ] ] ;
+    ns1:sameAs <https://a2roo.coopcycle.org/en/restaurant/56-herbivoriste> ;
+    ns1:url <https://a2roo.coopcycle.org/en/restaurant/56-herbivoriste> .
+
+<https://a2roo.coopcycle.org/api/addresses/9455> a ns1:PostalAddress ;
+    ns1:name "Herbivoriste" ;
+    ns1:streetAddress "18 Avenue de la Concorde, Dijon, France" ;
+    ns1:telephone "+33648610898" .
+

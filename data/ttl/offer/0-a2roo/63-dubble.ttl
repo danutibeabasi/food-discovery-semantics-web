@@ -1,0 +1,293 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://a2roo.coopcycle.org/api/restaurants/63> ns1:hasMenu <https://a2roo.coopcycle.org/en/restaurant/63-dubble#menu> .
+
+<https://a2roo.coopcycle.org/en/restaurant/63-dubble#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Riz, saumon, avocat, concombre, oignon rouge, sésame noir" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/4a/634a5b120fe67.jpeg> ;
+                    ns1:name "Poke Bowl classique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "riz , saumon , avocat , concombre , oignon rouge , sésame noir" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/64/13/64134635acb42.jpeg> ;
+                    ns1:name "Petite salade mini poke bowl classique" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.70" ] ] ;
+            ns1:name "Les poke bowls" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/04/65042fcf7ce78.jpeg> ;
+                    ns1:name "Petit toasté champignons, oignons grillés, cheddar fumé, persil" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/04/65042fec732d5.jpeg> ;
+                    ns1:name "Petit toasté poulet, condiment au citron confit-pois chiches, carottes, coriandre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/04/65042faa40b88.jpeg> ;
+                    ns1:name "Petite salade tartare de saumon à la japonaise, chou chinois, cébette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "carottes râpées au citron vert et à la coriandre" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/4a/634a57d650dbf.jpeg> ;
+                    ns1:name "Petite salade Carottes rapées" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/04/6504224a0b1a7.jpeg> ;
+                    ns1:name "Petite salade poulet à l'estragon, sucrine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/04/65042233534c9.jpeg> ;
+                    ns1:name "Petite salade lentilles aux herbes fraîches, grenade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Les Dubble +" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/04/6504221bb5d57.jpeg> ;
+                    ns1:name "Ochazuke : un bowl chaud inspiré d’un plat traditionnel japonais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Hot Bowl vegan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/64/13/641345f8bce26.jpeg> ;
+                    ns1:name "Menu Hot Bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Hot Bowl du jour au poisson" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Hot Bowl du jour au poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Hot Bowl végétarien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.30" ] ] ;
+            ns1:name "Les hots bowls" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/4a/634a5740d785f.jpeg> ;
+                    ns1:name "Soupe du jour" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.85" ] ] ;
+            ns1:name "Les soupes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "1 toasté ou wrap au choix + 1 dessert au choix + 1 boisson au choix" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/58/6358d278e4bc1.jpeg> ;
+                    ns1:name "Menu Toasté ou Wrap" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/04/6504313b785bd.jpeg> ;
+                    ns1:name "Toasté Lovavocado" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Toasté SIGNATURE - wrap toasté du jour" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jambon, emmental, beurre" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/64/14/641495088704f.jpeg> ;
+                    ns1:name "Toasté SIGNATURE - Ham et Cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ] ;
+            ns1:name "Les toastés" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/04/65043096064a7.jpeg> ;
+                    ns1:name "Salad bowl lentille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "quinoa & kale, betterave rôtie, courge rôtie, grenade et graines de courge, persil" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/04/650430bf9c43e.jpeg> ;
+                    ns1:name "Salad bowl quinoa & kale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 bowl au choix + 1 dessert au choix + 1 boisson au choix" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/64/8e/648ed11a4c136.jpeg> ;
+                    ns1:name "Menu Salad Bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "nouilles soba, crevettes, carottes, coriandre, cébette, sésame, sauce soja-huile de sésame-gingembre" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/04/6504303997574.jpeg> ;
+                    ns1:name "Salad bowl crevettes" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Crustaceans",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "salade de saumon à l’aneth & cream cheese, sarrasin & quinoa, chou rouge mariné, radis noir râpé, aneth" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/04/65041d173534d.jpeg> ;
+                    ns1:name "Salad bowl saumon" ;
+                    ns1:nutrition "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Fusili ,  gremolata (estragon, persil, noisette, citron), \r
+poulet, champignons rôtis, parmesan""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/0f/650fc6995c0e8.jpeg> ;
+                    ns1:name "Salad bowl XL - Poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ] ;
+            ns1:name "Les Salads bowls" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "pressé sur place, sans sucre ajouté" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/4a/634a572fa245c.jpeg> ;
+                    ns1:name "Jus mix du jour 25cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/64/8f/648f054c96541.jpeg> ;
+                    ns1:name "Vittel 50cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pressé sur place, sans sucre ajouté" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/4a/634a571d6363b.jpeg> ;
+                    ns1:name "Jus d’orange 25cl," ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/4a/634a569dc88a6.jpeg> ;
+                    ns1:name "Dubble drink infusion" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/64/8f/648f052c14e4f.jpeg> ;
+                    ns1:name "San Pellegrino 50cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Eau pétillante, gimber, citron vert, menthe" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/4a/634a565401495.jpeg> ;
+                    ns1:name "Dubble drink gimber 25 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/04/650421c77fad3.jpeg> ;
+                    ns1:name "Dubble drink detox 25cl : OSCO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/4a/634a56420389a.jpeg> ;
+                    ns1:name "Dubble drink citronnade maison 25 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/04/650421ed5e515.jpeg> ;
+                    ns1:name "Dubble drink sobacha 25cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.40" ] ] ;
+            ns1:name "Les boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/4a/634a55e09508f.jpeg> ;
+                    ns1:name "Cookie maison" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/4a/634a56327f916.jpeg> ;
+                    ns1:name "Crumble maison" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/64/8f/648f0580547ac.jpeg> ;
+                    ns1:name "Gâteau maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/04/6504210b11511.jpeg> ;
+                    ns1:name "Cookie signature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/04/650420db969ba.jpeg> ;
+                    ns1:name "Beauty bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/04/6504316bc59aa.jpeg> ;
+                    ns1:name "Yaourt grec, pâte de sésame noir, kiwi, sésame noir" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/04/6504311ca49dc.jpeg> ;
+                    ns1:name "Skyr compote pomme-miel-curcuma, graines de chia" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/64/f1/64f1ff42cbf4b.jpeg> ;
+                    ns1:name "Dessert du mois" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/64/13/641348d25b8c2.jpeg> ;
+                    ns1:name "Salade de fruits frais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/04/6504211bdb56f.jpeg> ;
+                    ns1:name "Crème coco, citron vert, noix de coco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/64/13/64134965a6d11.jpeg> ;
+                    ns1:name "Yaourt grec, granola maison" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/04/6504300ab4ddc.jpeg> ;
+                    ns1:name "Porridge à l’orange, coque chocolat noir" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ] ;
+            ns1:name "Les desserts" ] .
+

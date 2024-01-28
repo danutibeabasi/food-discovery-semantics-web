@@ -1,0 +1,291 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://naofood.coopcycle.org/api/restaurants/26> ns1:hasMenu <https://naofood.coopcycle.org/en/restaurant/26-yafel#menu> .
+
+<https://naofood.coopcycle.org/en/restaurant/26-yafel#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Sauce blanche Maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sauce mayonnaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.25" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sauce ketchup" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.25" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sauce burger Maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sauce Carot'coco - Vegan et Maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ] ;
+            ns1:name "Sauces supplémentaires" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Choisis ton houmous parmi nos recettes maison, accompagné d'une demi pita toastée" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/ff/63ffb8dfacff8.jpeg> ;
+                    ns1:name "Bar à Houmous" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 Falafels de pois chiches bio faits maison, ou plus !" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/ff/63ffba47074b9.jpeg> ;
+                    ns1:name "Box de Falafels" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "Avec les doigts 🤌" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Choisis ta recette, ta boisson & tes accompagnements à prix menu !" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e3a8567cd.jpeg> ;
+                    ns1:name "Menu Pita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Choisis ta recette, ta boisson et tes accompagnements à prix menu !" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/ff/63ffbb7c25a9b.jpeg> ;
+                    ns1:name "Menu Quinoa Bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Choisis ta boisson et tes accompagnements à prix menu !" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/ff/63ffbb2e5a7e2.jpeg> ;
+                    ns1:name "Menu Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Choisis ta recette, ta boisson et tes accompagnements à prix menu !" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/ff/63ffbbbc332b8.jpeg> ;
+                    ns1:name "Menu Salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ] ;
+            ns1:name "Menus 🥙🥗" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Frites classiques" ;
+                    ns1:name "Frites classiques" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Frites de patates douces saupoudrées au sel de paprika" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e38e46b98.jpeg> ;
+                    ns1:name "Frites de patate douce" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coleslaw" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Gaspacho de tomates BIO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Accompagnements 🍟" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tu t’appelles Giuseppe et tu roules en vespa? La ciao tutti est faite pour toi : pesto, poivron, champignon, tomate confite, aubergine, parmesan, falafels et sauce caesar." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/ff/63ffbd6d8327c.jpeg> ;
+                    ns1:name "Salade Ciao Tutti" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Salade Automnale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tu aimes les jeux de mots fins et la fêta? Voici la fetarde : Tomatade, mâche, Tomate, concombre, oignon rouge, olive verte, aubergine, fêta, falafels et sauce blanche maison." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/ff/63ffbda7050a6.jpeg> ;
+                    ns1:name "Salade Fetarde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Le classique, celui qu’on ne présente plus, le yafel : mâche, houmous, tomate, concombre, chou rouge, carotte, pickles de poivron, Falafels et sauce nature." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/ff/63ffbe5d3e5a4.jpeg> ;
+                    ns1:name "Salade Yafel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La VEGAN : Mâche, Houmous, Tomate, Poivron, Oignon rouge, Chou rouge, Carotte, Grenade, Falafels, Sauce Carot'coco." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/ff/63ffbe2e8a00a.jpeg> ;
+                    ns1:name "Salade Vegan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ] ;
+            ns1:name "Salade" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "L'original : Pain au sésame BIO, galette de falafel, salade, tomate, oignon rouge, emmental, sauce burger" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/ff/63ffb02a56747.jpeg> ;
+                    ns1:name "Le burger du moment" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ] ;
+            ns1:name "Burger" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Automnale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Tu aimes les jeux de mots fins et la fêta? Voici la FETARDE : \r
+Tomatade, Tomate, Concombre, Oignon rouge, Olive verte, Aubergine, Fêta, Falafels, Sauce blanche maison""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/ff/63ffbaa7dca37.jpeg> ;
+                    ns1:name "Fetarde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tu t’appelles Giuseppe et tu roules en vespa? La CIAO TUTTI est faite pour toi : Pesto, Poivron, Champignon, Tomate confite, Aubergine, Parmesan, Falafels, Sauce caesar" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/ff/63ffba71ee823.jpeg> ;
+                    ns1:name "Ciao Tutti" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Le classique, celui que l'on ne présente plus, le YAFEL : Houmous, Tomate, Concombre, Chou rouge, Carotte, Pickles de poivron, Falafels, Sauce nature" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/ff/63ffbf079ba23.jpeg> ;
+                    ns1:name "Yafel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La VEGAN : Houmous, Tomate, Poivron, Oignon rouge, Chou rouge, Carotte, Grenade, Falafels, Sauce Carot'coco." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/ff/63ffbec5a4548.jpeg> ;
+                    ns1:name "Vegan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ] ;
+            ns1:name "Pita" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Brasserie Nautile - Micro brasserie artisanale indépendante installée à Rezé.\r
+5%\r
+33 cl""" ;
+                    ns1:name "IPA- Not war, make beer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Brasserie Nautile - Micro brasserie artisanale indépendante installée à Rezé.\r
+4,8%\r
+33 cl\r
+BIO""" ;
+                    ns1:name "Pale Ale BIO - Blonde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Brasserie Nautile - Micro brasserie artisanale indépendante installée à Rezé.\r
+5,2%\r
+33 cl\r
+BIO""" ;
+                    ns1:name "White IPA BIO - White the fuck" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Bières" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "San Pellegrino - Citron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tropicana Orange" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Breizh Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50 Cl." ;
+                    ns1:name "Christaline pétillante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Breizh Cola Zero" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:name "San Pellegrino - Orange & Grenade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50 Cl" ;
+                    ns1:name "Volvic" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fuse tea - Pêche intense" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:name "Fuze Tea - Mangue Camomille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tropicana pomme" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Softs🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tu aimes les jeux de mots fins et la fêta? Voici la FETARDE : Trio de quinoa, Tomatade, Tomate, Concombre, Oignon rouge, Olive verte, Aubergine, Fêta, Falafels, Sauce blanche maison" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/ff/63ffbc4ad4a1e.jpeg> ;
+                    ns1:name "Quinoa bowl Fetarde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La VEGAN : Trio de quinoa, Houmous, Tomate, Poivron, Oignon rouge, Chou rouge, Carotte, Grenade, Falafels, Sauce Carot'coco." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/ff/63ffbcc6d28ad.jpeg> ;
+                    ns1:name "Quinoa bowl Vegan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/ff/63ffbbe4e9cdc.jpeg> ;
+                    ns1:name "Quinoa Bowl Automnale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Le classique, celui qu’on ne présente plus, le YAFEL : Trio de quinoa, Houmous, Tomate, Concombre, Chou rouge, Carotte, Pickles de poivron, Falafels, Sauce nature" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/ff/63ffbd2b8bfa6.jpeg> ;
+                    ns1:name "Quinoa bowl Yafel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tu t’appelles Giuseppe et tu roules en vespa? La CIAO TUTTI est faite pour toi : Trio de quinoa, Pesto, Poivron, Champignon, Tomate confite, Aubergine, Parmesan, Falafels, Sauce caesar" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/ff/63ffbc1928ebf.jpeg> ;
+                    ns1:name "Quinoa bowl Ciao Tutti" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "Quinoa Bowl" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Cookie : Pépites de chocolat blanc et Framboises" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cookie : Pépites de chocolat au lait" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tiramisu Speculos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pudding chia - Vegan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Mousse au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fromage Blanc : Caramel au beurre salé et granola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Desserts 🍰" ] .
+

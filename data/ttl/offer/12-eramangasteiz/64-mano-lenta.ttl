@@ -1,0 +1,103 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/64> ns1:hasMenu <https://eramangasteiz.coopcycle.org/en/restaurant/64-mano-lenta#menu> .
+
+<https://eramangasteiz.coopcycle.org/en/restaurant/64-mano-lenta#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Nuestro limón verde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Tarta de queso" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "POSTRES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Pulpo a la brasa , patata revolcona, papada y ajo negro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Pluma, puré robuchon, shitakes y su jugo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Hamburguesa de buey, salsa tatemada, queso , encurtidos y cilantro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "BRASA" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Ensalada tibia de verduras de temporada" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Mejillones en nuestra salsa picante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 unid" ;
+                    ns1:name "Tacos de carrillera ibérica al curry rojo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Burrata, tomate confitado, fresas, albahaca y ajo negro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "10 unid" ;
+                    ns1:name "Croquetas de jamón ibérico" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Patata hojaldrada con nuestra salsa caseras" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 unid" ;
+                    ns1:name "Torreznos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Tigre de bogavante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Ensalada de rulo de cabra, cecina , salsa miel y mostaza y tomate seco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "platos" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Albóndigas de rabo, parmentier trufado y tirabeques" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Carrillera de ternera, apionabo, Bimi, achiote y naranja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Callos, pata y morro a la riojana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Lasagna de ibericos y bechamel de parmesano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ] ;
+            ns1:name "Guisos a fuego lento" ] .
+

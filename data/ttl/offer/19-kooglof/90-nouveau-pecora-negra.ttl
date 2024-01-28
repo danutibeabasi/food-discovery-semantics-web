@@ -1,0 +1,75 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://kooglof.coopcycle.org/api/restaurants/90> ns1:hasMenu <https://kooglof.coopcycle.org/en/restaurant/90-nouveau-pecora-negra#menu> .
+
+<https://kooglof.coopcycle.org/en/restaurant/90-nouveau-pecora-negra#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Panozzo - Parma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Panozzo - Français" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Panozzo - Piemont" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ] ;
+            ns1:name "Panozzos 🥪" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """PESTO DE ROBERTO PANIZZA*, MOZZARELLA DE LA “PECORA”, GRANA PADANO,  HUILE D'OLIVE ET BASILIC\r
+* Propriétaire du Restaurant « Il Genovese » à Genova, Italie""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/17/651708a41f090.jpeg> ;
+                    ns1:name "GENOVESE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "SAUCE TOMATE BIO, MOZZARELLA DE LA “PECORA”, JAMBON BLANC, CHAMPIGNONS DE PARIS, OLIVES TAGGIASCHE ET BASILIC" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/17/6517090c583c0.jpeg> ;
+                    ns1:name "REINE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "SAUCE TOMATE BIO, ORIGAN, HUILE À L’AIL ET FEUILLE DE BASILIC" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/17/651707d386ea4.jpeg> ;
+                    ns1:name "MARINARA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "SAUCE TOMATE BIO,  MOZZARELLA DE LA “PECORA”, HUILE D’OLIVE ET BASILIC" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/17/651708fa384b7.jpeg> ;
+                    ns1:name "MARGHERITA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "SAUCE TOMATE BIO, MOZZARELLA DE LA “PECORA”, SALAMI PIMENTE" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/17/65170896b528a.jpeg> ;
+                    ns1:name "DIAVOLA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "MOZZARELLA DE LA « PECORA », LÉGUMES DE SAISONS D’ALSACE ET FEUILLE DE BASILIC" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/17/651708e5a2c08.jpeg> ;
+                    ns1:name "JARDIN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "MOZZARELLA DE LA “PECORA”, COMTÉ BIO ET FROMAGE DE CHÈVRE FRAIS" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/17/65170acf55029.jpeg> ;
+                    ns1:name "TROIS FROMAGES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "SAUCE TOMATE BIO, MOZZARELLA DE LA “PECORA”, ANCHOIS, OLIVES TAGGIASCHE, TOMATES CERISES" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/17/651707f1ccfdf.jpeg> ;
+                    ns1:name "CETARA" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ] ;
+            ns1:name "Pizze 🍕" ] .
+

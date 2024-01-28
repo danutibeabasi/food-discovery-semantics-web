@@ -1,0 +1,48 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://kooglof.coopcycle.org/api/restaurants/89> a ns1:Restaurant ;
+    ns1:address <https://kooglof.coopcycle.org/api/addresses/47896> ;
+    ns1:bannerImage "https://kooglof.coopcycle.org/media/cache/restaurant_banner/65/6d/656dd08a39884.jpg" ;
+    ns1:description """Produits frais, des burgers maison préparés à la commandes & des frites maison !\r
+Livraison de repas et burgers à Strasbourg et alentours !""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.858345e+01 ;
+            ns1:longitude 7.771057e+00 ] ;
+    ns1:image <https://kooglof.coopcycle.org/media/cache/restaurant_thumbnail/65/6e/656e157d941ca.png> ;
+    ns1:name "Yolo Smash Burger 🍔" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:30" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:45" ;
+            ns1:dayOfWeek "Sunday" ;
+            ns1:opens "18:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://kooglof.coopcycle.org/en/restaurant/89-yolo-smash-burger" ] ] ;
+    ns1:sameAs <https://kooglof.coopcycle.org/en/restaurant/89-yolo-smash-burger> ;
+    ns1:url <https://kooglof.coopcycle.org/en/restaurant/89-yolo-smash-burger> .
+
+<https://kooglof.coopcycle.org/api/addresses/47896> a ns1:PostalAddress ;
+    ns1:name "Yolo Smash Burger 🍔" ;
+    ns1:streetAddress "58 Av. de la Forêt-Noire, 67000 Strasbourg, France" ;
+    ns1:telephone "+33388400400" .
+

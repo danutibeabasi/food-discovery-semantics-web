@@ -1,0 +1,262 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://naofood.coopcycle.org/api/restaurants/56> ns1:hasMenu <https://naofood.coopcycle.org/en/restaurant/56-39#menu> .
+
+<https://naofood.coopcycle.org/en/restaurant/56-39#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Bière Nabio bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Symbiote (By Atomic's Café Nantes)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière red ale locale,bio" ;
+                    ns1:name "Bière Nantaise bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Bières" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Burrata enfermé dans une pâte à pizza frite, sauce tomate, basilic, recouverte de jambon de Parme à la sortie." ;
+                    ns1:name "La bomba avec jambon de Parme" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base tomate, mozzarella fior di latte, jambon blanc et champignons" ;
+                    ns1:name "Calzone" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base tomate, mozzarella fior di latte, thon et oignons rouges" ;
+                    ns1:name "Tonno e cipolle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base mozzarella fior di latte,gorgonzola,taleggio et parmesan" ;
+                    ns1:name "Quattro formaggi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base tomate, anchois, câpres et origan" ;
+                    ns1:name "Marinara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Burrata enfermé dans une pâte à pizza, frite ou au four, sauce tomate et basilic" ;
+                    ns1:name "La bomba" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base tomate, mozzarella fior di latte,jambon blanc et champignons" ;
+                    ns1:name "Prosciutto e funghi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base tomate, mozzarella fior di latte,jambon de Parme, roquette et boule de mozzarella de bufala" ;
+                    ns1:name "Classica" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base tomate, mozzarella fior di latte,spianata piquant,poivrons, oignons rouges" ;
+                    ns1:name "Diavola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Burrata enfermé dans une pâte à pizza frite, sauce tomate basilic et spianata piquante" ;
+                    ns1:name "La bomba avec spianata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base tomates, mozzarella fior di latte, basilic" ;
+                    ns1:name "Margherita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base tomate, mozzarella fior di latte et jambon blanc" ;
+                    ns1:name "Bambino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base crème de truffe, mozzarella fior di latte, champignons et cœur de burrata." ;
+                    ns1:name "Tartufo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Burrata enfermé dans une pâte à pizza frite, sauce tomate, basilic, recouverte de spek fumé à la sortie." ;
+                    ns1:name "La bomba avec spek" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base tomate, mozzarella fior di latte, gorgonzola et spek" ;
+                    ns1:name "Spektacolare" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base tomate, mozzarella fior di latte, legumes du moment" ;
+                    ns1:name "Vegetariana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Burrata enfermé dans une pâte à pizza frite, sauce tomate,\r
+ basilic et jambon blanc""" ;
+                    ns1:name "La bomba avec jambon blanc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ] ;
+            ns1:name "Pizze" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Tiramisù" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella de vache, cœur crémeux" ;
+                    ns1:name "Burrata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jambon de Parme" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella de buffle" ;
+                    ns1:name "Bufala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jambon blanc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chorizo Italien piquant" ;
+                    ns1:name "Spianata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jambon fumé" ;
+                    ns1:name "Spek" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Suppléments" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Barolo La Morra DOCG" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€78.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Toscana, BIO" ;
+                    ns1:name "Chianti DOCG" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Puglia,BIO" ;
+                    ns1:name "Primitivo Salento IGT" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sicilia" ;
+                    ns1:name "Monte Pietroso" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Toscana, fattorie Melini" ;
+                    ns1:name "Lilium Governo Toscana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€29.50" ] ] ;
+            ns1:name "Vins rouges" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Sicilia, BIO" ;
+                    ns1:name "Grillo DOC" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Falanghina Pompeiano IGT" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€30.00" ] ] ;
+            ns1:name "Vins blancs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Coca cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Thé à la pêche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Orange, abricot et tomate" ;
+                    ns1:name "Jus de fruit bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca cola zero" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Veneto" ;
+                    ns1:name "Martini Spumante Prosecco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€31.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lombardia" ;
+                    ns1:name "Bellavista Franciacorta DOCG" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€70.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Veneto, BIO" ;
+                    ns1:name "Prosecco DOC" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.50" ] ] ;
+            ns1:name "Prosecco" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Sicilia" ;
+                    ns1:name "Rosé dell'estate IGT" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sicilia, BIO" ;
+                    ns1:name "Bardolino Chiaretto DOC" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ] ;
+            ns1:name "Vins rosés" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Charcuterie et gnocco fritto" ;
+                    ns1:name "Antipasto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tranches de pâte à pizza frite (idéal à déguster avec de la charcuterie ou du fromage !)" ;
+                    ns1:name "Gnoccho fritto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Charcuterie, fromages et gnocco fritto" ;
+                    ns1:name "Antipasto mixte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Burrata, jambon de Parme et tomate cerise" ;
+                    ns1:name "Burrata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ] ;
+            ns1:name "Antipasti" ] .
+

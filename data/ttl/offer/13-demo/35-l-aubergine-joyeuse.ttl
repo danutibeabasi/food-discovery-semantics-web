@@ -1,0 +1,72 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://demo.coopcycle.org/api/restaurants/35> ns1:hasMenu <https://demo.coopcycle.org/en/restaurant/35-l-aubergine-joyeuse#menu> .
+
+<https://demo.coopcycle.org/en/restaurant/35-l-aubergine-joyeuse#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Clafoutis aux fruits confits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.19" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Charlotte au sucre glace" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.11" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Clafoutis aux raisons secs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.77" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Charlotte aux fruits confits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.29" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Charlotte aux fruits confits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.31" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Crudités à l'huile d'olive" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tomates fraîches au naturel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.37" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pickles au naturel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.73" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jambon cru à l'huile d'olive" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.36" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jambon cru à l'huile d'olive" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.53" ] ] ;
+            ns1:name "Entrées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Lapin aux poivrons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.41" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Poulet en sauce" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.19" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pommes de terre rôti·e·s aux carottes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.66" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Courgettes poêlé·e·s aux carottes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.28" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lapin rôti·e·s aux carottes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.27" ] ] ;
+            ns1:name "Plats" ] .
+

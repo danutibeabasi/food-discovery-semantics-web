@@ -1,0 +1,38 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://a2roo.coopcycle.org/api/restaurants/38> a ns1:Restaurant ;
+    ns1:address <https://a2roo.coopcycle.org/api/addresses/3765> ;
+    ns1:description """1er restaurant de moules frites à s'installer à Dijon en 1991, on peut dire que les recettes font toujours succès.\r
+\r
+30 ans plus tard, Jérémy et Virginie perpétuent la cuisine familiale. \r
+Régalez vous avec des recettes originales préparées à partir de moules fraîches AOC Mont Saint Michel (de juin à fin février) et de véritables frites belges.\r
+\r
+A déguster à emporter ou en livraison !""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.73241e+01 ;
+            ns1:longitude 5.04398e+00 ] ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/64/ab/64abcd3b001c0.png> ;
+    ns1:name "L'bout d'la rue" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "12:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://a2roo.coopcycle.org/en/restaurant/38-l-bout-d-la-rue" ] ] ;
+    ns1:sameAs <https://a2roo.coopcycle.org/en/restaurant/38-l-bout-d-la-rue> ;
+    ns1:url <https://a2roo.coopcycle.org/en/restaurant/38-l-bout-d-la-rue> .
+
+<https://a2roo.coopcycle.org/api/addresses/3765> a ns1:PostalAddress ;
+    ns1:name "L'bout d'la rue" ;
+    ns1:streetAddress "52 Rue Verrerie, 21000 Dijon, France" ;
+    ns1:telephone "+33380713792" .
+

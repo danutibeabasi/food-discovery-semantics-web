@@ -1,0 +1,36 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://biclooo.coopcycle.org/api/restaurants/18> a ns1:Restaurant ;
+    ns1:address <https://biclooo.coopcycle.org/api/addresses/1369> ;
+    ns1:description "Piadinerie au cœur du centre-ville. Produits exclusivement frais, locaux et/ou artisanaux." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.434845e+01 ;
+            ns1:longitude 2.576083e+00 ] ;
+    ns1:image <https://biclooo.coopcycle.org/media/cache/restaurant_thumbnail/61/69/6169be2dc8d9e.jpg> ;
+    ns1:name "Au Passage" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:00" ;
+            ns1:dayOfWeek "Friday" ;
+            ns1:opens "19:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "15.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.90" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://biclooo.coopcycle.org/en/restaurant/18-au-passage" ] ] ;
+    ns1:sameAs <https://biclooo.coopcycle.org/en/restaurant/18-au-passage> ;
+    ns1:url <https://biclooo.coopcycle.org/en/restaurant/18-au-passage> .
+
+<https://biclooo.coopcycle.org/api/addresses/1369> a ns1:PostalAddress ;
+    ns1:name "Au Passage" ;
+    ns1:streetAddress "21 Place Du Bourg, 12000 Rodez, France" ;
+    ns1:telephone "+33532412711" .
+

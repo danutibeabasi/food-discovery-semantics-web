@@ -1,0 +1,44 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mensakas.coopcycle.org/api/restaurants/24> a ns1:Restaurant ;
+    ns1:address <https://mensakas.coopcycle.org/api/addresses/331> ;
+    ns1:description """El nostre menú del dia de dilluns a dissabte. Consulta la imatge i selecciona els plats segons el seu codi. Agafem comandes fins a les 12, 15h i les servirem de 14h a 16h. \r
+També a <a href="https://www.instagram.com/tdkcat/" target="_blank">Instagram</a>, <a href="https://twitter.com/tdescudella" target="_blank">Twitter</a> i <a href="https://www.facebook.com/terra.descudella/" target="_blank">Facebook</a>.\r
+\r
+<img src="https://mensakas.coopcycle.org/media/cache/restaurant_thumbnail/61/d2/61d2098013947.jpg""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.137628e+01 ;
+            ns1:longitude 2.139136e+00 ] ;
+    ns1:image <https://mensakas.coopcycle.org/media/cache/restaurant_thumbnail/65/97/659713f30f58a.webp> ;
+    ns1:name "Terra d'Escudella | Menú de migdia" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:45" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "13:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "18.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.50" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "es" ;
+                    ns1:urlTemplate "https://mensakas.coopcycle.org/en/restaurant/24-terra-d-escudella-menu-de-migdia" ] ] ;
+    ns1:sameAs <https://mensakas.coopcycle.org/en/restaurant/24-terra-d-escudella-menu-de-migdia> ;
+    ns1:url <https://mensakas.coopcycle.org/en/restaurant/24-terra-d-escudella-menu-de-migdia> .
+
+<https://mensakas.coopcycle.org/api/addresses/331> a ns1:PostalAddress ;
+    ns1:name "Terra d'Escudella | Menú de migdia" ;
+    ns1:streetAddress "Carrer de Premià, 20, 08014 Barcelona, España" ;
+    ns1:telephone "+34934221613" .
+

@@ -1,0 +1,18 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lille.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "fr" ;
+                    ns1:addressLocality "Lille / Roubaix" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 5.063116e+01 ;
+                    ns1:longitude 2.97712e+00 ] ] ;
+    ns1:name "Lille.bike" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:sameAs <https://www.facebook.com/lillepointbike/> ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://lille.coopcycle.org> .
+

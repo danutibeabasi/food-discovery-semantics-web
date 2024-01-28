@@ -1,0 +1,566 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://zampate.coopcycle.org/api/restaurants/28> ns1:hasMenu <https://zampate.coopcycle.org/en/restaurant/28-sushi-wasabi#menu> .
+
+<https://zampate.coopcycle.org/en/restaurant/28-sushi-wasabi#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salmón, aguacate, oblea de arroz y lechuga" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/da/62dae9a036b32.jpeg> ;
+                    ns1:name "Spin salmón y aguacate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mango, queso, oblea de arroz y lechuga" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/da/62dae890b6675.jpeg> ;
+                    ns1:name "Spin mango queso" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Atún, aguacate, oblea arroz y lechuga" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/da/62dae7d76d31c.jpeg> ;
+                    ns1:name "Spin atún aguacate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Langostino, pepino, envuelto en oblea de arroz y lechuga" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/2b/622b10be37e7e.jpeg> ;
+                    ns1:name "Spin Dragon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pepino, queso, oblea de arroz y lechuga" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/da/62dae949631ba.jpeg> ;
+                    ns1:name "Spin pepino queso" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gambas, surimi, aguacate, pepino, oblea de arroz y lechuga" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/da/62dae907eb079.jpeg> ;
+                    ns1:name "Spin marisco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.40" ] ] ;
+            ns1:name "SPIN ROLL" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Langostinos en tempura envuelto de fino de algas" ;
+                    ns1:name "Maki Dragón (8uds)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salmón, aguacate, cubierto de cebolla crujiente y salsa japón" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d7/62d70aa535924.jpeg> ;
+                    ns1:name "Crazy salmón roll" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.54" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Daditos de atun Bluefin macerado al estilo hawaii con aguacate y cebolla servidos sobre una base de arroz sushi con topping de cacahuete, cebollino, sesamo negro y tiras de alga nori salsa picante" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/2b/622b0f4e4029c.jpeg> ;
+                    ns1:name "Poke Atun Bluefin" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 maki atún, 4 salmón uramaki, 4 sésamo roll" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d7/62d7164867ea5.jpeg> ;
+                    ns1:name "Maki 12 Piezas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Daditos de salmón macerado al estilo hawaii con aguacate y cebolla .servidos sobre una base de arroz sushi con topping de cacahuete, cebollino, pepino,sésamo negro y tiras de alga nori. 14,50" ;
+                    ns1:name "Salmón Poké Bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Carne picada, cebolla crujiente pepino,sopa tonkosu miso ramen" ;
+                    ns1:name "Miso Tonkotsu Ramen" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Udon,Carne Pato,maiz,alga, pimiento rojo,cebollino, sopa tonkotsu.\r
+OPCIÓN SIN GLUTEN.""" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/2b/622b0f0eae174.jpeg> ;
+                    ns1:name "Udon pato" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Carne char siu ,bambu, huevo,alga,cebollino,sopa ,sopa" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/2b/622b0ec3388f9.jpeg> ;
+                    ns1:name "Tonkotsu  Ramen." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ] ;
+            ns1:name "ESPECIALIDADES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d7/62d70ba82b7e1.jpeg> ;
+                    ns1:name "Daifuku choco grande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d7/62d70d0340174.jpeg> ;
+                    ns1:name "Dorayaki de chocolate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d7/62d712d75f447.jpeg> ;
+                    ns1:name "Green tea mochi (2 uds)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/da/62dae38203687.jpeg> ;
+                    ns1:name "Sésamo mochi (2 uds)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d7/62d70d4e0fcbf.jpeg> ;
+                    ns1:name "Dorayaki de té verde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d7/62d70b0f0f4a1.jpeg> ;
+                    ns1:name "Daifucu té verde grande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d7/62d70bd247222.jpeg> ;
+                    ns1:name "Daifuku choco pequeño" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Taro mochi (2 uds)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d7/62d70b5847c86.jpeg> ;
+                    ns1:name "Daifucu té verde pequeño" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ] ;
+            ns1:name "POSTRES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/da/62dae713a3d45.jpeg> ;
+                    ns1:name "Sopa de Pollo con Maíz" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/da/62dae65815d37.jpeg> ;
+                    ns1:name "Sopa de Marisco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.74" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/da/62dae4b82d3df.jpeg> ;
+                    ns1:name "Sopa Agria y Picante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sopa de Pollo con Champiñón" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.04" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/da/62dae7988c1a4.jpeg> ;
+                    ns1:name "Sopa Miso" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ] ;
+            ns1:name "SOPAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "carne de ternera, goma wagame, cebolla, zanahoria,bambu,sesamo, salsa de curri y arroz blanco" ;
+                    ns1:name "POKE ternera" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "carne de pollo, goma wagame, cebolla, zanahoria,bambu,sesamo, salsa de curri y arroz blanco" ;
+                    ns1:name "POKE pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "carne de char cerdo, soja,goma wagame, salsa de char y arroz blanco" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/2b/622b144a5f3b6.jpeg> ;
+                    ns1:name "POKE CHAR" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "carne de ternera, goma wagame,verduras,sesamo, salsa de ostras ,y arroz blanco" ;
+                    ns1:name "POKE ternera" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ] ;
+            ns1:name "POKE" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Sushi Crispy Salmón (8uds)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Tartar Salmón con Trufa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Sushi Crispy Pato (8uds)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.26" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/2b/622b0fb3d2522.jpeg> ;
+                    ns1:name "Yu-Sen Maguro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Sésamo Roll en Crispy (8uds)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Tartar salmón con aguacate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Tartar Atún con Aguacate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.60" ] ] ;
+            ns1:name "EXCLUSIVOS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pollo frito, tomate, goma wakame, sésamo, salsa japonesa dentro de pan chino" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d7/62d714099a9e1.jpeg> ;
+                    ns1:name "Happy pollito" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salmón frito, tomate, goma wakame, sésamo, salsa japonesa dentro de pan chino" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d7/62d7143f5fc62.jpeg> ;
+                    ns1:name "Happy salmón" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.80" ] ] ;
+            ns1:name "TENTACIONES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "4 sashimi salmón, 4 sushi salmón, 8 pasion roll" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d6/62d6ff5a4b5d1.jpeg> ;
+                    ns1:name "Bandeja 2" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 sushi salmón, 4 sushi atún, 2 sushi gambas, 2 sushi pez mantequilla, 4 maki atún, 4 maki salmón, 4 sésamo roll, 4 salmón uramaki, 4 aguacate rol, 4 california roll" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d6/62d6ffcf8cba3.jpeg> ;
+                    ns1:name "Bandeja 4" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€48.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 sashimi atún, 2 sashimi salmón, 2 sushi atún, 2 sushi salmón, 8 deluxe roll" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d7/62d70c27bef20.jpeg> ;
+                    ns1:name "Deluxe Bandeja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 sashimi atún, 4 sushi atún, 8 positiva roll" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d6/62d6ff2b51012.jpeg> ;
+                    ns1:name "Bandeja 1" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 sushi atún 4 sushi salmón" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/da/62daea52ce88c.jpeg> ;
+                    ns1:name "Sushi 8 Piezas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 sushi salmón, 1 sushi atún, 3 sushi pescado blanco variado, 4 california roll, 4 maki atún, 4 aguacate roll" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d6/62d6ff85ca71a.jpeg> ;
+                    ns1:name "Bandeja 3" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 sushi atún, 2 sushi salmón, 4 salmón roll, 2 nigiri sushi salmón, 2 brochetas de pollo, 4 california roll, 4 spicy salmón crunch, 2 sashimi atún, 4 spicy tuna crunch; salsa de soja wasaby y jengibre" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d7/62d701afab7cc.jpeg> ;
+                    ns1:name "Bandeja Love" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€30.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 sushi atún, 3 sushi salmón, 2 sushi gambas, 2 sushi lubina, 2 sushi pez mantequilla" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/da/62daea0f8e76f.jpeg> ;
+                    ns1:name "Sushi 12 Piezas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 maki salmón, 8 maki aguacate, 8 salmón roll" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d8/62d856933f990.jpeg> ;
+                    ns1:name "Omega 3 Pack" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 postivia rol, 8 sésamo roll, 8 city roll" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d7/62d7169f404d2.jpeg> ;
+                    ns1:name "Maki 24 Piezas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Sushi Crispy Pato (8 piezas)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.26" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 maki atún, 4 salmón uramaki, 4 sésamo roll" ;
+                    ns1:name "Maki 12 Piezas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 sahimi salmón, 4 sahimi atún, 2 sushi atún, 2 sushi salmón, 2 sushi pez mantequilla, 4 maki atún, 4 maki salmón, 4 sésamo roll, 4 salmón uramaki, 4 aguacate roll, 4 california roll" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d7/62d700037505b.jpeg> ;
+                    ns1:name "Bandeja 5" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€48.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 sashimi atún, 4 sashimi salmón, 4 maki atún, 4 maki salmón, 4 sésamo roll, 4 salmón uramaki, 4 aguacate roll, 4 california roll" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d7/62d701593cdab.jpeg> ;
+                    ns1:name "Bandeja 6" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€36.00" ] ] ;
+            ns1:name "COMBINADOS Y BANDEJAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Pato Frito con Bambú y Setas Chinas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.96" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Pato Frito con Salsa de Ostras" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.96" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Pato Frito con Naranja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.96" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Pato Frito con Piña" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.96" ] ] ;
+            ns1:name "PATO" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d7/62d7122d333e9.jpeg> ;
+                    ns1:name "Fideos Chinos de Arroz Frito" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Tallarines Fritos Especial Plancha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Tallarines Fritos con Tres Delicias" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "TALLARINES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d7/62d70927acb10.jpeg> ;
+                    ns1:name "Costilla de Cerdo Frita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.22" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Carne Japón con arroz" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.25" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d7/62d709551041f.jpeg> ;
+                    ns1:name "Costillas Agridulces" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.22" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d7/62d708a5cb7ac.jpeg> ;
+                    ns1:name "Cerdo Agridulce" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.10" ] ] ;
+            ns1:name "CERDO" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Ternera con Pimientos Verdes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ternera con Salsa Picante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ternera con Champiñón" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ternera con Salsa de Ostras" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ternera con Verdura" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ternera con Salsa de Curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ternera con Cebollas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ternera con Bambú y Setas Chinas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ] ;
+            ns1:name "TERNERA" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Yakisoba Pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.26" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Yakimeshi Ternera y Curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.14" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Yakisoba Ternera" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.26" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Arroz Frito Tres Delicias" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d6/62d6fd49d04f9.jpeg> ;
+                    ns1:name "Arroz Chualafan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.92" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d6/62d6fdc4d1d2a.jpeg> ;
+                    ns1:name "Arroz Frito Tres Delicias" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.72" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Yakisoba Gambas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Yakimeshi pato" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Yakisoba pato" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Arroz frito con mariscos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.30" ] ] ;
+            ns1:name "ARROZ Y NOODLES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Selección de lechugas, aguacate, goma wakame, edamame, tartar de salmón, tobiko, sésamo negro, salsa de sésamo. \r
+Opción sin gluten.""" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d7/62d70dc450acd.jpeg> ;
+                    ns1:name "Ensalada deluxe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Selección de lechugas, aguacate, goma wakame, edamame, sésamo negro, salsa de sésamo.\r
+Opción sin gluten.""" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d7/62d7126321a5d.jpeg> ;
+                    ns1:name "Ensalada verde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ] ;
+            ns1:name "ENSALADAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d8/62d85a037bdf0.jpeg> ;
+                    ns1:name "Pollo con Champiñón" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d8/62d863331a00a.jpeg> ;
+                    ns1:name "Pollo Rebozado" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.46" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d8/62d8627fc8e55.jpeg> ;
+                    ns1:name "Pollo con Salsa de Curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d8/62d85ea988a60.jpeg> ;
+                    ns1:name "Pollo con Salsa de Guindillas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Alitas de Pollo Fritas (6uds)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d8/62d8590f67f77.jpeg> ;
+                    ns1:name "Pollo Agridulce" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d8/62d85be611d23.jpeg> ;
+                    ns1:name "Pollo con Pimientos Verdes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d8/62d85988e926d.jpeg> ;
+                    ns1:name "Pollo con Almendras" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.22" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d8/62d862d4d02b0.jpeg> ;
+                    ns1:name "Pollo con Verduras" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d8/62d85aae4916a.jpeg> ;
+                    ns1:name "Pollo con Limón" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.82" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d8/62d859ce0dbed.jpeg> ;
+                    ns1:name "Pollo con Bambú y Setas Chinas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.82" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d7/62d7080f31b07.jpeg> ;
+                    ns1:name "Bolita de Pollo Frito" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/d8/62d85e233e5b9.jpeg> ;
+                    ns1:name "Pollo con Piña" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.58" ] ] ;
+            ns1:name "POLLO" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Para poder pedirlo a cualquier hora del día.\r
+Opciones sin gluten.""" ;
+                    ns1:name "MENÚ SUSHI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Sólo se puede pedir al mediodía. \r
+Lunes a viernes no festivos.\r
+Opcion sin gluten.""" ;
+                    ns1:name "MENÚ AL MEDIODÍA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.60" ] ] ;
+            ns1:name "MENÚS" ] .
+

@@ -1,0 +1,171 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/restaurants/2> ns1:hasMenu <https://lescoursiersbrestois.coopcycle.org/en/restaurant/2-au-p-ty-lyonnais#menu> .
+
+<https://lescoursiersbrestois.coopcycle.org/en/restaurant/2-au-p-ty-lyonnais#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Panna cotta à l’agar-agar et coulis de fruits rouges" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/7e/617e8d2bbf288.jpeg> ;
+                    ns1:name "Riz au lait à la vanille et au rhum" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/7e/617e8e36479f8.jpeg> ;
+                    ns1:name "Tarte tatin et sa chantilly, maison bien sûr !" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/7e/617e8d8e100be.jpeg> ;
+                    ns1:name "Riz au lait orange et cannelle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Panettone & crème fouettée, coulis de fruits rouges" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/7e/617e8d6cebaa8.jpeg> ;
+                    ns1:name "Riz au lait au citron liquoreux et zestes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Blonde bio de la brasserie Tri Martolod, à Concarneau" ;
+                    ns1:name "Starpils 33 cl Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière forte ambrée pur malt sans sucre ajouté. Brassée à Concarneau" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/7e/617e8c60acc5c.jpeg> ;
+                    ns1:name "Pira'Tri 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Cidre brut Kerné 4,5% 75 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière blonde de fermentation haute. Brassée au village de Jenlain" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/7d/617d87d52bd78.jpeg> ;
+                    ns1:name "Bière Jenlain 75 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/7d/617d888ef00a5.jpeg> ;
+                    ns1:name "Côtes du Rhône Chapoutier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Ginger Pale Ale 33cl Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Boissons alcoolisées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/7e/617e8db6edded.jpeg> ;
+                    ns1:name "Salade de poulpe aux aromates" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Entrées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/7d/617d884c077f9.jpeg> ;
+                    ns1:name "Canette Perrier nature 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/7e/617e8ca0a561d.jpeg> ;
+                    ns1:name "Pur jus de pomme Bio Gilbert 25 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/7e/617e8a87cad6e.jpeg> ;
+                    ns1:name "Jus d'orange Gilbert 25 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boisson gazeuse finement pétillante à l'arôme naturel de citron" ;
+                    ns1:name "Limonade Lorina 42 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boisson gazeuse au cola bio" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/7d/617d8822eaf77.jpeg> ;
+                    ns1:name "Black bulles" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ] ;
+            ns1:name "Boissons non alcoolisées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Légumes du pays, poitrine, saucisse, boeuf, lipig (sauce beurre et échalotes), far au sarrasin d'Argué-Gaberic" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/7e/617e8aca20be5.jpeg> ;
+                    ns1:name "Kig ha farz" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cabillaud frais du pays, criée de Concarneau et frites maison taillées à la main. Sauce tartare" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/7d/617d89108f95e.jpeg> ;
+                    ns1:name "Fish & chips" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/7d/617d88cf04f8f.jpeg> ;
+                    ns1:name "Couscous kefta et merguez" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/82/6182a9bbd9fef.jpeg> ;
+                    ns1:name "Assiette de charcuterie fine italienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/7e/617e8e7cf0f8d.jpeg> ;
+                    ns1:name "Tian d'aubergine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Poulet entier rôti & patates au four" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/7d/617d88ecb529c.jpeg> ;
+                    ns1:name "Couscous poulet kefta merguez" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Tarte tatin au butternut" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Lard rôti & frites maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Couscous végétarien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "Plats" ] .
+

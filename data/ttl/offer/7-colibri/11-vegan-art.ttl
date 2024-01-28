@@ -1,0 +1,84 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://colibri.coopcycle.org/api/restaurants/11> ns1:hasMenu <https://colibri.coopcycle.org/en/restaurant/11-vegan-art#menu> .
+
+<https://colibri.coopcycle.org/en/restaurant/11-vegan-art#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Panino con burger, contorno, insalata, salsa." ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/bc/63bc721d43126.jpeg> ;
+                    ns1:name "Mac Vegan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Panino con doppio burger, cipolla, patate, sformaggio, insalata, pomodoro, salsa." ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/bc/63bc72a9047e5.jpeg> ;
+                    ns1:name "Sbuccia Bomb" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Misto di tre contorni, salsa, burger, insalata." ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/bc/63bc727861398.jpeg> ;
+                    ns1:name "Piatto Unico" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Scelta un solo affettato tra ( Mortadella Vegan, Prosciutto cotto Vegan, Fesa di Tacchino Vegan), formaggio Vegan, insalata, Pomodoro." ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/bc/63bc731127d58.jpeg> ;
+                    ns1:name "Focaccia Farcita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Prosciutto Crudo Vegan, salsa, rucola, formaggio vegan 2pz." ;
+                    ns1:name "Tramezzino Prosciutto Crudo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Non Tonno Meravoglia, salsa, formaggio piccante Vegan 2pz." ;
+                    ns1:name "Tramezzino Tonno" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Straccetti di seitan, patate, insalata, maionese Vegan, barbecue" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/bc/63bc725434d25.jpeg> ;
+                    ns1:name "Vegan Bab" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Panino con burger, contorno, sformaggio, seitan, patate, insalata, pomodoro, salsa." ;
+                    ns1:name "Panino bomb" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ] ;
+            ns1:name "Food" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "500ml." ;
+                    ns1:name "Acqua Naturale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "500ml" ;
+                    ns1:name "Acqua Frizzante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ] ;
+            ns1:name "Bevande" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Frolla alle nocciole,crema alla vaniglia e gelèe di pere caramellate." ;
+                    ns1:name "Tartelletta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Caramello salato, vaniglia del Madagascar e ganache	al cioccolato fondente" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/bc/63bc72f07f268.jpeg> ;
+                    ns1:name "Tart Caramello Salato" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa ai frutti di bosco, frangipane alle mandorle, crema alla vaniglia e frutti di bosco." ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/bc/63bc72d120dae.jpeg> ;
+                    ns1:name "Tart Frutti di Bosco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Dolci" ] .
+

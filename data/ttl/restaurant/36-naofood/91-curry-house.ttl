@@ -1,0 +1,44 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://naofood.coopcycle.org/api/restaurants/91> a ns1:Restaurant ;
+    ns1:address <https://naofood.coopcycle.org/api/addresses/60978> ;
+    ns1:bannerImage "https://naofood.coopcycle.org/media/cache/restaurant_banner/61/b7/61b78aba9cb5b.jpg" ;
+    ns1:description "Des produits issus de la région nantaise mariés à des épices en provenance d’Inde, Curry House vous offre une expérience unique, celle d’un voyage culinaire aux fins fonds de l’Inde." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.72156e+01 ;
+            ns1:longitude -1.55301e+00 ] ;
+    ns1:image <https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/61/b7/61b78aba9cb5b.jpg> ;
+    ns1:name "Curry House" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:45" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday" ;
+            ns1:opens "11:55" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday" ;
+            ns1:opens "18:50" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:45" ;
+            ns1:dayOfWeek "Monday",
+                "Sunday",
+                "Thursday",
+                "Wednesday" ;
+            ns1:opens "18:50" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://naofood.coopcycle.org/en/restaurant/91-curry-house" ] ] ;
+    ns1:sameAs <https://naofood.coopcycle.org/en/restaurant/91-curry-house> ;
+    ns1:url <https://naofood.coopcycle.org/en/restaurant/91-curry-house> .
+
+<https://naofood.coopcycle.org/api/addresses/60978> a ns1:PostalAddress ;
+    ns1:name "Curry House" ;
+    ns1:streetAddress "11 Rue de la Juiverie, 44000 Nantes, France" ;
+    ns1:telephone "+33240758420" .
+

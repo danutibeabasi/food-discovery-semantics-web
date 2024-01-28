@@ -1,0 +1,175 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://krokoop.coopcycle.org/api/restaurants/7> ns1:hasMenu <https://krokoop.coopcycle.org/en/restaurant/7-big-brothers#menu> .
+
+<https://krokoop.coopcycle.org/en/restaurant/7-big-brothers#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Buns boulanger, Salade, Tomate, Galette Pomme de terre \"Roasty\", Steak 150g Aubrac, Fromage à Raclette fondue, Pastrami (boeuf fumé-poivré), Oignons doux cuits, Sauce Burger maison + Frites maison + Boisson au choix." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/6f/656f51ca1a21e.jpeg> ;
+                    ns1:name "Menu Burger Raclette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Buns boulanger, Salade, Tomate, Galette Pomme de terre \"Roasty\", Steak 150g Aubrac, Fromage à Raclette fondue, Pastrami (boeuf fumé-poivré), Oignons doux cuits, Sauce Burger maison." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/6f/656f5183689ec.jpeg> ;
+                    ns1:name "Burger Raclette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/80/65808cdc62b1c.jpeg> ;
+                    ns1:name "Burger Rossini" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/80/65808dcc82783.jpeg> ;
+                    ns1:name "Menu Burger Rossini" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.00" ] ] ;
+            ns1:name "Burger du moment" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Buns, tomates, salade, oignons rouges, sauce andalouse, steak 150gr, chèvre, chorizo et piments d'Espelette." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/0a/650a1e1782662.jpeg> ;
+                    ns1:name "Burger Pyrénéen #66" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Buns, tomates, salade, oignons rouges, sauce burger, steack 150gr, chèvre, miel, noix." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/0a/650a1fa32f758.jpeg> ;
+                    ns1:name "Burger Ardéchois #07" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Buns, oignons rouges, sauce burger, steack 150g, double cheddar." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/0a/650a2029c7129.jpeg> ;
+                    ns1:name "Big Cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Buns, tomates, salade, oignons rouges, sauce burger, steak 150gr, poitrine fumée, reblochon & galette de pommes de terre." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/0a/650a1cf23d0d0.jpeg> ;
+                    ns1:name "Burger Savoyard #73" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Buns, tomates, salade, oignons rouges, sauce burger, steak 150gr & roquefort." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/0a/650a1d5908f2d.jpeg> ;
+                    ns1:name "Burger Aveyronnais #12" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Buns boulanger, Saint Moret, tomate, pousses d ’épinards, Steack 150 gr, oignons, sauce hot dog, cheddar, oeuf, bacon, oignons frits." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/80/65808898c0cbe.jpeg> ;
+                    ns1:name "Burger Morning Glory" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Buns, tomates, salade, oignons rouges, sauce burger, steak 150gr, poitrine fumée et tomme de Lozère." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/0a/650a1eedc0287.jpeg> ;
+                    ns1:name "Burger Lozerien #48" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Burgers" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Pepsi Max" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bière Blonde Artisanale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Perrier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Eau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lipton Ice tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Buns boulanger, Saint Moret, tomate, pousses d ’épinards, Steack 150 gr, oignons, sauce hot dog, cheddar, oeuf, bacon, oignons frits + Frites maison + Boisson au choix." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/80/65808951bb98c.jpeg> ;
+                    ns1:name "Menu Burger Morning Glory" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Buns, tomates, salade, oignons rouges, sauce andalouse, steak 150gr, fromage de chèvre, chorizo et piments d'Espelette + frites & boisson au choix." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/0a/650a1e4f6df95.jpeg> ;
+                    ns1:name "Menu Burger Pyrénéen #66" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Buns, oignons rouges, sauce burger, steack 150g, double cheddar + frites + boisson." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/0a/650a2050770a2.jpeg> ;
+                    ns1:name "Menu Big Cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Buns, tomates, salade, oignons rouges, sauce burger, steak 150g, miel, noix, chèvre + frites & boisson au choix." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/0a/650a1fcaa3d94.jpeg> ;
+                    ns1:name "Menu Burger Ardéchois #07" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Buns , tomates , salade , oignons rouges , sauce burger , steak 150gr , poitrine fumée , Reblochon et galette de pommes de terre + frites & boisson au choix." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/0a/650a1e949e649.jpeg> ;
+                    ns1:name "Menu Burger Savoyard #73" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Buns , tomates , salade , oignons rouges , sauce burger , steak 150 gr et roquefort + frites & boisson au choix." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/0a/650a1d80316a5.jpeg> ;
+                    ns1:name "Menu Burger Aveyronnais #12" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Buns , tomates , salade , oignons rouges , sauce burger , steak 150gr , poitrine fumée et Tomme de Lozère + frites & boisson au choix." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/0a/650a1f258cc2b.jpeg> ;
+                    ns1:name "Menu Burger Lozerien #48" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ] ;
+            ns1:name "Menus Burgers" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/0d/650d5dc2463d3.jpeg> ;
+                    ns1:name "5 Tenders" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sachet de bonbons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "2 Cookies" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Sunday Vanille/Caramel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Mousse au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/0d/650d60fcda475.jpeg> ;
+                    ns1:name "Portion de frites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Accompagnements" ] .
+

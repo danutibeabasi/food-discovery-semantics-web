@@ -1,0 +1,167 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://zampate.coopcycle.org/api/restaurants/27> ns1:hasMenu <https://zampate.coopcycle.org/en/restaurant/27-beer-corner#menu> .
+
+<https://zampate.coopcycle.org/en/restaurant/27-beer-corner#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "FRITZ NARANJA." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cerveza Sin Gluten Bot 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cerveza Sin Alcohol Bot 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "GROWLER 50 CL IPA." ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "GROWLER 50 CL PILS." ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "FRITZ LIMON." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "FRITZ MANZANA." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "GROWLER 50 CL TRIGO." ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "AGUA MINERAL 50 CL." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "FRITZ KOLA." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "BEBIDAS." ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/41/6241d6e950258.jpeg> ;
+                    ns1:name "POLLO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/41/6241d6150e35c.jpeg> ;
+                    ns1:name "MEXICAN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Doble Smash Burger de 180gr de Vaca Rubia Gallega madurada 45 días, queso cheddar, bacon ahumado, pepino encurtido y salsa BC." ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/41/6241d5de535ec.jpeg> ;
+                    ns1:name "BEER CORNER" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Doble Smash Burger de 180gr de Vaca Rubia Gallega madurada 45 días, queso cheddar, bacon ahumado, cebolla caramelizada y salsa BBQ" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/41/6241d596c3ea3.jpeg> ;
+                    ns1:name "BBQ" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Burger Beyond Meat con queso cheddar, rúcula, cebolla encurtida y mayonesa de la casa." ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/41/6241d7e3d48ae.jpeg> ;
+                    ns1:name "VEGETARIANA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Doble Smash Burger de 180gr de Vaca Rubia Gallega madurada 45 días, queso cheddar, bacon ahumado, jalapeños y mayonesa chipotle" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/41/6241d6cab965c.jpeg> ;
+                    ns1:name "PICANTE" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ] ;
+            ns1:name "BURGERS." ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/41/6241d89a72d31.jpeg> ;
+                    ns1:name "BIRRAMISÚ." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "POSTRES." ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salchicha alemana en rodajas con patatas y mayonesa de la casa." ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/41/6241d75f737aa.jpeg> ;
+                    ns1:name "SALCHIPAPAS." ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Patatas fritas naturales acompañadas de 3 salsas caseras." ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/41/6241d69c2a075.jpeg> ;
+                    ns1:name "PATATAS 3 SALSAS." ;
+                    ns1:nutrition "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/41/6241d7b5e4dbf.jpeg> ;
+                    ns1:name "TIRAS DE POLLO." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "RACIONES." ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "SALSA BBQ." ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "MAYONESA  DE LA CASA." ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "SALSA BC." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "MAYONESA CHIPOTLE." ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ] ;
+            ns1:name "EXTRAS." ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "De Martes a Jueves 2 Burgers x 25€" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/63/c0/63c02ef60e6af.jpeg> ;
+                    ns1:name "2X25€" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ] ;
+            ns1:name "PROMOCION" ] .
+

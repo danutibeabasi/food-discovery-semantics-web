@@ -1,0 +1,43 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://khora.berlin/api/restaurants/190> a ns1:Restaurant ;
+    ns1:address <https://khora.berlin/api/addresses/78387> ;
+    ns1:description "Berlin's original Portuguese inspired Piri-Piri chicken burger restaurant." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 5.248071e+01 ;
+            ns1:longitude 1.343323e+01 ] ;
+    ns1:image <https://khora.berlin/media/cache/restaurant_thumbnail/61/5f/615f482374e7c.jpg> ;
+    ns1:name "Piri's" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:40" ;
+            ns1:dayOfWeek "Monday",
+                "Thursday",
+                "Tuesday" ;
+            ns1:opens "12:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "20:40" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday",
+                "Thursday" ;
+            ns1:opens "17:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:40" ;
+            ns1:dayOfWeek "Monday",
+                "Tuesday" ;
+            ns1:opens "17:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "de" ;
+                    ns1:urlTemplate "https://khora.berlin/en/restaurant/190-piri-s" ] ] ;
+    ns1:sameAs <https://khora.berlin/en/restaurant/190-piri-s> ;
+    ns1:url <https://khora.berlin/en/restaurant/190-piri-s> .
+
+<https://khora.berlin/api/addresses/78387> a ns1:PostalAddress ;
+    ns1:name "Piri's" ;
+    ns1:streetAddress "Boddinstraße 61, 12053 Berlin, Deutschland" ;
+    ns1:telephone "+493050949885" .
+

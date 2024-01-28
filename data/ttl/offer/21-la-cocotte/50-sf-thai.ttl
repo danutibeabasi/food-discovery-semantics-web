@@ -1,0 +1,220 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://la-cocotte.coopcycle.org/api/restaurants/50> ns1:hasMenu <https://la-cocotte.coopcycle.org/en/restaurant/50-sf-thai#menu> .
+
+<https://la-cocotte.coopcycle.org/en/restaurant/50-sf-thai#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/53/61536a6921d6f.jpeg> ;
+                    ns1:name "tarte coco choco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/53/615375a230db6.jpeg> ;
+                    ns1:name "muffin fruits rouges" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/53/615369b6ae889.jpeg> ;
+                    ns1:name "muffin nutella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/53/61536a16a0bd4.jpeg> ;
+                    ns1:name "tarte citron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Singha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/53/61537afaf2bb5.jpeg> ;
+                    ns1:name "Chang" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Tsingtao" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Bières" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Boeuf ou poulet ou crevettes ou tofu, curry vert au lait de coco, poivrons, pousses de bambou, carottes, coriandre, ciboulette thaï et riz blanc\r
+Très épicé""" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/53/615371ce9a7aa.jpeg> ;
+                    ns1:name "Green curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Dès de tofu caramélisés au wok, salade de crudités croquantes, vinaigrette thaï, coriandre, cacahuètes, oignons frits." ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/53/61537563250b4.jpeg> ;
+                    ns1:name "Veggie salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Boeuf ou poulet ou crevettes ou tofu, carottes, oignons rouges, ail, cacahuètes, ciboulette thaï, pâtes de riz.\r
+Le tout sauté au wok > après cuisson : pousses de soja, cacahuètes, oignons frits.""" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/53/61536ad775afa.jpeg> ;
+                    ns1:name "Pad thaï" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Boeuf ou poulet ou crevettes ou tofu, carottes, oignons rouges, ail, cacahuètes, ciboulette thaï, riz.\r
+Le tout sauté au wok > après cuisson : pousses de soja, cacahuètes, oignons frits.""" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/53/6153711339215.jpeg> ;
+                    ns1:name "Khao pad" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Poulet émincé, ananas, chou rouge, oignons rouges, carottes, pousses de bambou.\r
+Le tout sauté au wok > aprés cuisson : ciboulette thaî, pousses de soja, riz blanc.""" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/53/6153746ec0487.jpeg> ;
+                    ns1:name "Sweet pineapple chicken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Tofu et mélange de légumes, dans une marinade maison.\r
+Le tout sauté au wok > après cuisson : pousses de soja, ciboulette thaï, ail frit, cacahuètes, riz ou pâtes de riz plates.""" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/53/6153740a31cc5.jpeg> ;
+                    ns1:name "Veggie wok" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crevettes et ananas sautés au wok, salade de crudités croquantes, vinaigrette thaï, coriandre, cacahuètes, oignons frits." ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/53/615375234ad45.jpeg> ;
+                    ns1:name "Pineapple salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Sauté de poulet, saucre aigre douce, basilic thaï, oignons rouges.\r
+Le tout sauté au wok > après cuisson : pousses de soja et riz blanc.""" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/53/61537395b9c15.jpeg> ;
+                    ns1:name "Chicken thaï" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Boeuf et crevettes, marinés à la citronnelle, oignons rouges, tomates, ail, cachuètes.\r
+Le tout sauté au wok > après cuisson : pousses de soja, chou rouge, oignons frits, riz ou pâtes de riz plates.""" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/53/6153726f25078.jpeg> ;
+                    ns1:name "SF wok" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Boeuf ou poulet ou crevettes ou tofu, curry rouge au lait de coco, poivrons, pousses de bambou, carottes, coriandre, ciboulette thaï et riz blanc\r
+Plat peu épicé""" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/53/6153709ad0398.jpeg> ;
+                    ns1:name "Red curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boeuf à la citronnelle sauté au wok, salade de crudités croquantes, vinaigrette thaï, coriandre, cacahuètes, oignons frits." ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/53/615374cfd0e95.jpeg> ;
+                    ns1:name "Beef thaï salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Boeuf ou poulet ou crevettes ou tofu, curry jaune au lait de coco, poivrons, pousses de bambou, carottes, coriandre, ciboulette thaï et riz blanc.\r
+Plat épicé.""" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/53/61536f32636a3.jpeg> ;
+                    ns1:name "Yellow curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Sauté de boeuf, saucre aigre douce, basilic thaï, oignons rouges.\r
+Le tout sauté au wok > après cuisson : pousses de soja et riz blanc.""" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/53/6153733fe8450.jpeg> ;
+                    ns1:name "Beef thaï" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Poulet émincé, sauce cacahuète maison, oignons rouges.\r
+Le tout sauté au wok > après cuisson : pousses de soja, concombres, chou rouge, cacahuètes, riz blanc.""" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/53/61536f8ce8f80.jpeg> ;
+                    ns1:name "Peanut chicken satay" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ] ;
+            ns1:name "Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/53/615377a4af2d7.jpeg> ;
+                    ns1:name "coca zéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/53/6153760bb0514.jpeg> ;
+                    ns1:name "coca" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Mogu fraise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "fanta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/53/615378f90bb95.jpeg> ;
+                    ns1:name "7up" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "eau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/53/615377ea74910.jpeg> ;
+                    ns1:name "perrier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/53/615379664df47.jpeg> ;
+                    ns1:name "Schweppes agrum" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "oasis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/53/615379faf026f.jpeg> ;
+                    ns1:name "Arizona thé vert grenade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/53/61537a3e3ea5d.jpeg> ;
+                    ns1:name "Mogu mangue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Mogu litchi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/53/6153782bb28f4.jpeg> ;
+                    ns1:name "ice tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/53/615379bda9b0f.jpeg> ;
+                    ns1:name "Arizona thé vert miel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Boissons" ] .
+

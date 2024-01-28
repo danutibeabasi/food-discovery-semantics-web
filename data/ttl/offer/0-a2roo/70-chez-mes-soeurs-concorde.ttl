@@ -1,0 +1,173 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://a2roo.coopcycle.org/api/restaurants/70> ns1:hasMenu <https://a2roo.coopcycle.org/en/restaurant/70-chez-mes-soeurs-concorde#menu> .
+
+<https://a2roo.coopcycle.org/en/restaurant/70-chez-mes-soeurs-concorde#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """1 soupe\r
++ 1 brioché au choix : Fêta ou Veggie\r
++ 1 boisson fraiche au choix : Thé glacé ou Eau détox ou Eau plate ou Eau gazeuse\r
++ 1 cookie ou autre dessert de la carte avec supplément""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/e3/63e357c77bc45.jpeg> ;
+                    ns1:name "Menu Soupe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """1 bowl au choix : Santa Barbara, Modica, Tamky ou Alexandrie\r
++ 1 boisson fraiche au choix : Thé glacé ou Eau détox ou Eau plate ou Eau gazeuse\r
++ 1 dessert du menu ou autre dessert de la carte avec supplément""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/e3/63e357b039066.jpeg> ;
+                    ns1:name "Menu Bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """1 burger au choix : Banon, Sulina, Rimini, Nice\r
++ 1 boisson fraiche au choix : Thé glacé ou Eau détox ou Eau plate ou Eau gazeuse\r
++ 1 dessert du menu ou autre dessert de la carte avec supplément""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/e3/63e357ba9737b.jpeg> ;
+                    ns1:name "Menu Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.20" ] ] ;
+            ns1:name "Menus" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Spaghetti, crème d’ail, herbes fraîches, huile d’olive, citron, parmesan, tomate confite" ;
+                    ns1:name "Salade Ravenne" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sarrasin, figue, jambon cru, noix et mesclun, vinaigrette à la framboise" ;
+                    ns1:name "Salade Amman" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Patate douce rôtie au miel et coco, noix de Pécan, grenade, salade, vinaigrette miel et citron" ;
+                    ns1:name "Salade Mahina" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "SALADES 🥗" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/e3/63e356fa1b5a3.jpeg> ;
+                    ns1:name "Fruits frais/Compote maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/e3/63e356c02f7d9.jpeg> ;
+                    ns1:name "Carrot Cake, notre spécialité !" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gâteau sucré au miel" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/e3/63e35776a456f.jpeg> ;
+                    ns1:name "Lekah" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/e3/63e356ea98b16.jpeg> ;
+                    ns1:name "Fromage blanc, coulis de fruit, graines au miel" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/64/37/6437d2bb13fdd.jpeg> ;
+                    ns1:name "Flan à la fleur d'oranger et à la pistache" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/e3/63e356d20c2f7.jpeg> ;
+                    ns1:name "Fromage blanc, confiture de lait au chocolat maison, copeaux de chocolat" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "DESSERTS 🍰" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain à la farine de maïs et de blé, pastrami au poivre, oignon rouge, tomate, cornichon aigre-doux, sauce cheddar." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/64/a4/64a489e9aaf53.jpeg> ;
+                    ns1:name "Burger Sulina" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain Ciabatta, dinde fumé, parmesan, romaine, pickles de carotte, sauce Ranch maison" ;
+                    ns1:name "Burger Newcastle" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bun brioché, confit d’oignon au vinaigre de vin et sirop d’érable, pomme de terre rôtie à la moutarde à l’ancienne, salade 20 g, poulet, sauce moutarde" ;
+                    ns1:name "Burger Dijon" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain focaccia, potimarron rôti citron poivre, ricotta, noisette, mimolette et jeunes pousses" ;
+                    ns1:name "Burger Calais" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "BURGERS 🍔" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain au sésame, houmous et légumes marinés" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/e3/63e3574dbe301.jpeg> ;
+                    ns1:name "Le Brioché Veggie" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain brioché, effiloché de poulet, mayonnaise au paprika, crudités" ;
+                    ns1:name "Brioché Poulet" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "LES P'TITS PLUS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Butternut, carotte, navet,  chou blanc, céleri branche, semoule épicée, pois chiches grillés au paprika" ;
+                    ns1:name "Bowl Annaba" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vermicelle de patate douce, pois gourmand, chou chinois, brocolis, sauce tahin, poulet et cacahuète" ;
+                    ns1:name "Bowl Phayao" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mojo cubain : cabillaud, citron, ail, coriandre, persil, piment, huile d’olive, haricot rouge, riz" ;
+                    ns1:name "Bowl Santa Clara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nouilles ramen, bouillon de bœuf, chou pak choï, bœuf, omelette, cébette, betterave chioggia, champignon enoki, graines de sésame" ;
+                    ns1:name "Bowl Yokohama" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "BOWLS 🥗" ] .
+

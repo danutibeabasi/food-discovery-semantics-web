@@ -1,0 +1,53 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://hull.coopcycle.org/api/restaurants/1> ns1:hasMenu <https://hull.coopcycle.org/en/restaurant/1-conquest-of-bread#menu> .
+
+<https://hull.coopcycle.org/en/restaurant/1-conquest-of-bread#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "A yeasted loaf made with good strong, organic white wheat flour, made in an oval boule. (950g)" ;
+                    ns1:name "Large White Yeasted" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "£4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "A lovely simple sourdough, made with a white wheat starter and good strong, organic white wheat flour, with a long ferment for a lovely tangy flavour. Made in a round boule. (950g)" ;
+                    ns1:name "White Sourdough Boule" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "£4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "A lovely simple sourdough, made with a white wheat starter and good strong, organic white wheat flour, with a long ferment for a lovely tangy flavour. Huge 1.5kg banneton loaf" ;
+                    ns1:name "Family Size Sourdough Loaf" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "£6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """A yeasted focaccia made with white flour and plenty of extra virgin olive oil and a sprinkle of sea salt. Topped how you like it....
+\r
+Approx 500g uncooked weight
+\r
+Ingredients: Organic white wheat flour, extra virgin olive oil, yeast, black olives, sea salt, filtered water.""" ;
+                    ns1:image <https://hull.coopcycle.org/media/cache/product_thumbnail/60/99/60993d286df74.jpeg> ;
+                    ns1:name "Focaccia  (various toppings)" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "£3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pay it Forward\r
+Sponsor a loaf going to a great cause - Hull Unity Shop distributes my bread to people in need, or individuals can collect direct from me.\r
+For every loaf paid for, we'll bake at least two to donate for those who need it.""" ;
+                    ns1:image <https://hull.coopcycle.org/media/cache/product_thumbnail/60/99/60993eaea0ac9.jpeg> ;
+                    ns1:name "Solidarity Loaf" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "£3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Simple but tasty traditional sourdough made with a white wheat starter and organic white flour with small amounts of organic wholegrain and dark rye flours as well for a great depth of flavour and a hearty loaf. A rectangular banneton. (950g)" ;
+                    ns1:image <https://hull.coopcycle.org/media/cache/product_thumbnail/60/99/609938661b388.jpeg> ;
+                    ns1:name "Country Sourdough" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "£4.50" ] ] ;
+            ns1:name "Breads" ] .
+

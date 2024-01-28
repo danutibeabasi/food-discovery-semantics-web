@@ -1,0 +1,237 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lcr.coopcycle.org/api/restaurants/26> ns1:hasMenu <https://lcr.coopcycle.org/en/restaurant/26-cibeles#menu> .
+
+<https://lcr.coopcycle.org/en/restaurant/26-cibeles#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Ostara IGP Pyrénées-Atlantiques Domaine Damiens" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bardolino Chiaretto DOC (Italie) Domaine Sartori" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ] ;
+            ns1:name "Vins Rosés" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Coca Cola 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ] ;
+            ns1:name "Les Softs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tagliatelles fraiches, champignons, crème, mascarpone, truffe noire, pécorino rapé a la truffe" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/bb/61bbc242247c3.jpeg> ;
+                    ns1:name "Tagliatelles fraiches a la truffe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tagliatelles fraiches façon carbonara (Guanciale, émulsion de jaune d'oeufs et parmesan)" ;
+                    ns1:name "Tagliatelles carbonara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ] ;
+            ns1:name "Pasta du moment" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Tote Bag Cibeles" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Textiles" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Louis Constant AOP brut" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€65.00" ] ] ;
+            ns1:name "Le Champagne" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Base huile d'olive, parmesan rapé, tomates confites, chèvre, jambon serrano, miel, noisettes, roquette et copeaux de parmesan" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/38/6138c9971cde9.jpeg> ;
+                    ns1:name "Verde miel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base huile d'olive, parmesan rapé, oignons, émincé de poulet, chorizo, sauce sriracha, roquette, copeaux de parmesan" ;
+                    ns1:name "Verde Poulet 🌶️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base huile d'olive, parmesan rapé, champignons, artichauts, oignons, tomates confites, roquette, copeaux de parmesan" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/38/6138c9b562235.jpeg> ;
+                    ns1:name "Verde vege" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ] ;
+            ns1:name "Les Pizzas base huile d'olive" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Quincy La Clef du récit Domaine Girard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€35.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Colombard Ugny IGP Cote de Gascogne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Les Gaillards IGP Pays d´OC Domaine Pujol" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€27.00" ] ] ;
+            ns1:name "Vins Blancs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Base crème, mozzarella, lardons, oignons, pommes de terre, reblochon, origan" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/38/6138c953acf83.jpeg> ;
+                    ns1:name "Tartiflette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base crème, mozzarella, oignons, tomates confites, émincé de poulet, roquette, copeaux de manchego AOP, origan" ;
+                    ns1:name "Manchego" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base crème de truffe, mozzarella, champignons, roquette, copeaux de pecorino a la truffe" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/38/6138c832c476f.jpeg> ;
+                    ns1:name "La Truffe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "La pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base crème, mozzarella, champignons, saumon fumé, oignons, basilic, origan" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/38/6138c936a1d54.jpeg> ;
+                    ns1:name "Salmon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base crème, mozzarella, chèvre, tomates confites, noisettes, miel, basilic, origan" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/36/61365415a56c5.jpeg> ;
+                    ns1:name "Chèvre miel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base crème, mozzarella, jambon, champignons, gorgonzola, persillade, origan" ;
+                    ns1:name "Gorgonzola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ] ;
+            ns1:name "Les Pizzas base crème" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Heineken sans alcool 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/66/64665aa48d527.jpeg> ;
+                    ns1:name "Bière Cibeles 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ] ;
+            ns1:name "Bières" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Base tomate, mozzarella, jambon blanc, origan" ;
+                    ns1:name "Regina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base tomate, mozzarella, chèvre, gorgonzola, copeaux de parmesan, origan" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/38/6138c77d99456.jpeg> ;
+                    ns1:name "4 Fromages" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base tomate, mozzarella, champignons, poivrons, artichauts, courgettes marinées, copeaux de parmesan, pesto, origan" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/38/6138c97595fb8.jpeg> ;
+                    ns1:name "Végetarienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base tomate, mozzarella, olives, origan" ;
+                    ns1:name "Marguerite olives" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base tomate, mozzarella, coppa di parma, tomates confites, pickles d'oignons, roquette, copeaux de parmesan, pesto, origan" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/38/6138c8c0298b9.jpeg> ;
+                    ns1:name "Pesto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base tomate, mozzarella, champignons, jambon blanc, oeuf" ;
+                    ns1:name "Calzone" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base tomate, mozzarella, jambon blanc, champignons, origan" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/38/6138c918d74bb.jpeg> ;
+                    ns1:name "Rennes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/38/6138c7addd060.jpeg> ;
+                    ns1:name "Boeuf raclette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base tomate, mozzarella, tomates confites, pickles d'oignons, jambon serrano, roquette, copeaux de parmesan, creme de balsamique, origan" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/38/6138c7e7759c2.jpeg> ;
+                    ns1:name "Cibeles" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base tomate, mozzarella, basilic, origan" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/38/6138c86db4289.jpeg> ;
+                    ns1:name "Marguerite basilic" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base tomate, mozzarella, oignons, poivrons, chorizo ibérique, merguez, olives, origan" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/38/6138c89f0f655.jpeg> ;
+                    ns1:name "Orientale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ] ;
+            ns1:name "Les Pizzas base tomate" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Malbec AOP Cahors" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "La Mancha (Espagne) Tradicion de Aresan bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Nero d'Avola DOC (Italie) Cantine Ermes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€27.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Saint Chinian (Languedoc) Chateau Fontanche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Rioja DOC (Espagne) Finca de Las 100 Vacas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Montepulciano d'Abruzzo bio (Italie) Cantina Tollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€29.00" ] ] ;
+            ns1:name "Vins Rouges" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Planche Tapas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Assortiment de charcuteries (Jambon Serrano, Coppa et Chorizo) et de fromages (Pécorino à la truffe et fromage du moment)" ;
+                    ns1:name "Planche charcuteries fromages" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ] ;
+            ns1:name "Tapas" ] .
+

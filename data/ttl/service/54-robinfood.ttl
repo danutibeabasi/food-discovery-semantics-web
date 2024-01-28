@@ -1,0 +1,19 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://robinfood.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "it" ;
+                    ns1:addressLocality "Firenze" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 4.37752e+01 ;
+                    ns1:longitude 1.125461e+01 ] ] ;
+    ns1:name "Robin Food" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:sameAs <https://www.facebook.com/robinfooddelivery-108509294750638/>,
+        <https://www.instagram.com/robinfood.delivery/?hl=fr> ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://robinfood.coopcycle.org> .
+

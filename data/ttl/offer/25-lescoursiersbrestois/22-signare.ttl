@@ -1,0 +1,270 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/restaurants/22> ns1:hasMenu <https://lescoursiersbrestois.coopcycle.org/en/restaurant/22-signare#menu> .
+
+<https://lescoursiersbrestois.coopcycle.org/en/restaurant/22-signare#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "jus mangue passion" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/a2/62a28299acb9c.jpeg> ;
+                    ns1:name "Eau plate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/a2/62a2831949ea3.jpeg> ;
+                    ns1:name "Eau gazeuse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "jus passion" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jus à la fleur d.Hibiscuss" ;
+                    ns1:name "Jus de Bissap" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "jus ananas gingembre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "jus goyave mangue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/a2/62a28375c270c.jpeg> ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/a2/62a28131d6b6b.jpeg> ;
+                    ns1:name "Coca cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "jus ananas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Boisson" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Pastel de thon x4" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Pastel de poisson x4" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chausson farcis à la viande de bœuf" ;
+                    ns1:name "Fataya boeuf x4" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.20" ] ] ;
+            ns1:name "Fataya et pastel" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/a5/62a5dbf67a581.jpeg> ;
+                    ns1:name "Mafé bowl (végétarien)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/a7/62a7b2ce344c2.jpeg> ;
+                    ns1:name "Afro bowl poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/a5/62a5dca48232a.jpeg> ;
+                    ns1:name "Mafé bowl (poulet)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/a7/62a7b34a368a3.jpeg> ;
+                    ns1:name "Afro bowl végétarien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/a7/62a7b26b65f04.jpeg> ;
+                    ns1:name "Yassa bowl (végétarien )" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/b8/62b8350b0e951.jpeg> ;
+                    ns1:name "Afro bowl crevette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/b8/62b83940b61dc.jpeg> ;
+                    ns1:name "Yassa bowl ( poulet )" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ] ;
+            ns1:name "Bowl" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Sauce oignon fondant citron; filet ou cuisse de poulet mariné et braisé ,riz parfumé" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/a2/62a262d2ef6ea.jpeg> ;
+                    ns1:name "Poulet Yassa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/7f/627fde4eb384d.jpeg> ;
+                    ns1:name "Rougail gambas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/a2/62a26e077db7b.jpeg> ;
+                    ns1:name "Gambas curry crème coco aux légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mijoté de bœuf sauce cacahuète avec riz" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/a5/62a5daba65eb9.jpeg> ;
+                    ns1:name "Mafé bœuf" ;
+                    ns1:nutrition "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/a7/62a7b5e814e1d.jpeg> ;
+                    ns1:name "Yassa poisson" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/a2/62a2662f37490.jpeg> ;
+                    ns1:name "Rougaille poisson" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Colombo de poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "sauce cacahuète , légumes ,patate douce" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/a7/62a7b7c6d9009.jpeg> ;
+                    ns1:name "Mafé végétarien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Mafé poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/a2/62a264bc28aee.jpeg> ;
+                    ns1:name "Poulet cajun" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/a2/62a265204cb35.jpeg> ;
+                    ns1:name "Poulet curry crčme coco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/a2/62a26bbc0a7f7.jpeg> ;
+                    ns1:name "Jambalaya poulet crevette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.60" ] ] ;
+            ns1:name "Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Riz jaune" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Frite de patate douce" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Banane plantain frit" ;
+                    ns1:name "Allocos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz parfumé" ;
+                    ns1:name "Riz blanc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Attiéké" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Supplément" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Samoussa bœuf x4" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Samoussa légumes x4" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Samoussa poulet x4" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Samoussas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Tiacry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Panna cotta mangue passion" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Crémeux aux fruits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Dessert" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/a2/62a268bc619a8.jpeg> ;
+                    ns1:name "Accras légumes x6" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/a2/62a269714cc05.jpeg> ;
+                    ns1:name "Accras morue x6" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/a2/62a26adc64862.jpeg> ;
+                    ns1:name "Accras crevette x6" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.95" ] ] ;
+            ns1:name "Accras" ] .
+

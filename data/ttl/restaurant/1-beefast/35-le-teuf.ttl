@@ -1,0 +1,53 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://beefast.coopcycle.org/api/restaurants/35> a ns1:Restaurant ;
+    ns1:address <https://beefast.coopcycle.org/api/addresses/10908> ;
+    ns1:description """Pizza de tradition depuis 1971 !  🇮🇹  Depuis 50 ans, la pizzeria Le Teuf à Amiens vous accueille pour partager son savoir faire. Des savoureuses pizzas préparées et cuites devant vous dans la pure tradition italienne et dans une ambiance conviviale ! \r
+\r
+© Franck Burges""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.99063e+01 ;
+            ns1:longitude 2.308827e+00 ] ;
+    ns1:image <https://beefast.coopcycle.org/media/cache/restaurant_thumbnail/64/90/6490679b3b650.jpg> ;
+    ns1:name "Le Teuf" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday" ;
+            ns1:opens "19:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:30" ;
+            ns1:dayOfWeek "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "19:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:35" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "12:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "15.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.50" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://beefast.coopcycle.org/en/restaurant/35-le-teuf" ] ] ;
+    ns1:sameAs <https://beefast.coopcycle.org/en/restaurant/35-le-teuf> ;
+    ns1:url <https://beefast.coopcycle.org/en/restaurant/35-le-teuf> .
+
+<https://beefast.coopcycle.org/api/addresses/10908> a ns1:PostalAddress ;
+    ns1:name "Le Teuf" ;
+    ns1:streetAddress "105 Rue Lucien Lecointe, Amiens, France" ;
+    ns1:telephone "+33322434391" .
+

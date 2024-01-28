@@ -1,0 +1,65 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://rayon9.coopcycle.org/api/restaurants/12> ns1:hasMenu <https://rayon9.coopcycle.org/en/restaurant/12-pastabel#menu> .
+
+<https://rayon9.coopcycle.org/en/restaurant/12-pastabel#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Composez votre cornet" ;
+                    ns1:name "Petit cornet de pâtes fraîches artisanales" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Composez votre cornet" ;
+                    ns1:image <https://rayon9.coopcycle.org/media/cache/product_thumbnail/61/3b/613b353a887b7.jpeg> ;
+                    ns1:name "Grand Cornet de pâtes fraîches artisanales" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Cornet de pâtes fraîches" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Eau pétillante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Thé glacé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Eau plate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ritchie orange" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ritchie coca zéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Froui" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Curtius 37,5cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Smash 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ritchie coca" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Field" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Boissons" ] .
+

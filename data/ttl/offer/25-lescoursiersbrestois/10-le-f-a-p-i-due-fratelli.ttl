@@ -1,0 +1,268 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/restaurants/10> ns1:hasMenu <https://lescoursiersbrestois.coopcycle.org/en/restaurant/10-le-f-a-p-i-due-fratelli#menu> .
+
+<https://lescoursiersbrestois.coopcycle.org/en/restaurant/10-le-f-a-p-i-due-fratelli#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "200g" ;
+                    ns1:name "Gréssins Dalmasso" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "180g" ;
+                    ns1:name "Crème de truffe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "150grs de chez dalmasso" ;
+                    ns1:name "mini artichauds marinés" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "300grs de chez dalmasso" ;
+                    ns1:name "jardinieres de legumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "190grs de chez dalmasso" ;
+                    ns1:name "aubergines grillées" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ] ;
+            ns1:name "Épicerie" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:name "minute maid tropical" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "quincy blanc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€35.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:name "Sprite" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "70cl" ;
+                    ns1:name "marsala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€30.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca 1,25 L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:name "Schweppes agrum" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "petillant" ;
+                    ns1:name "prosseco sartori" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€30.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "70 cl rouge 2014 cru bourgeois" ;
+                    ns1:name "rouge haut medoc chateau lieujean" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€35.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vin rouge 70cl" ;
+                    ns1:name "Mario Primo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:name "Heineken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Vin rosé\r
+70cl""" ;
+                    ns1:name "Costa Serena" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Coca Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "amaretto 70" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€35.00" ] ] ;
+            ns1:name "Boissons 🥤🍻🍷" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Crème fraîche, mozzarella, jambon de Parme, chèvre, olives noires, origan, mâche et miel." ;
+                    ns1:name "Pizza mielée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella, haché de bœuf, oignons, tomates cerises, crème fraîche, parmigiano reggiano, olives noires et origan." ;
+                    ns1:name "Pizza bolognaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella, jambon supérieur, champignons, olives noires et origan." ;
+                    ns1:name "Pizza Regina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella, champignons, poivrons, artichaut, olives noires et origan." ;
+                    ns1:name "Pizza végé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Pizza méxicaine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella di Buffala, basilic, tomates cerises, olives noires et origan." ;
+                    ns1:name "Pizza Napoli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella, merguez, spianata, oignons rouges, poivrons, olives noires et origan." ;
+                    ns1:name "Pizza piquante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella, jambon de Parme, oignons rouges, asiago, crème, olives noires et origan." ;
+                    ns1:name "Pizza Alpe italienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella, champignons,thon ou saumon, persillade, olives noires et origan. ' precisez en comment svp)" ;
+                    ns1:name "Pizza Mare" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella, crème fraîche, jambon supérieur, poitrine fumée braisée, jaune d'œuf, origan, champignons de paris" ;
+                    ns1:name "Pizza calzone" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella, asiago, raclette, chèvre, olives noires et origan." ;
+                    ns1:name "Pizza 4 fromaggi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ] ;
+            ns1:name "Pizzas 🍕" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salade, tomates, œufs, croûtons, poitrine fumée braisée, toast chèvre et persil, servi avec du pain italien fait maison, taille au choix." ;
+                    ns1:name "Salade la chèvre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, basilic, mozzarella di Buffala véritable, tomates cerises et huile d'olives, servi avec du pain italien fait maison, taille au choix." ;
+                    ns1:name "Salade la Napoli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "Salades 🥗" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella du buffala Romana, Tallegio d.o.p, Gorgonzola d.o.p Et son pain italien persillé" ;
+                    ns1:name "Plateau de formages italiens" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Petit plateau de charcuterie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Petit plateau de fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Chorizo tranche Cular" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Grand plateau charcuterie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Grand plateau de fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.00" ] ] ;
+            ns1:name "Bouchées 🧆" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Bruschetta andalouse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Bruschetta carbo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Bruschetta végétarienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Bruschetta mielée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ] ;
+            ns1:name "Bruschettas 🍴" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "muffin aux pépites de chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "terrine chocolat et cookies" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "panna cotta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "rumsteak 200grs race a viande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "escalope firenze" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "entrecote gorgonzola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "escalope milanaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Entrecote race à viande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ] ;
+            ns1:name "Viandes 🍴" ] .
+

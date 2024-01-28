@@ -1,0 +1,44 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://sicklo.coopcycle.org/api/restaurants/57> a ns1:Restaurant ;
+    ns1:address <https://sicklo.coopcycle.org/api/addresses/13439> ;
+    ns1:bannerImage "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/6d/656db2c35e10c.png" ;
+    ns1:description "Pokawa vous invite à déguster de délicieux pokés bowls sains et gourmands. Plat traditionnel hawaïen, il se compose de poisson cru mariné, de poulet ou encore de falafels, accompagné de fruits et légumes hyper frais sur une base de riz vinaigré. Voyage direction Hawaï garanti !" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.51902e+01 ;
+            ns1:longitude 5.72515e+00 ] ;
+    ns1:image <https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/61/8a/618a8b5507015.jpg> ;
+    ns1:name "POKAWA 🌈" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:40" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:15" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:45" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:45" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://sicklo.coopcycle.org/en/restaurant/57-pokawa" ] ] ;
+    ns1:sameAs <https://sicklo.coopcycle.org/en/restaurant/57-pokawa> ;
+    ns1:url <https://sicklo.coopcycle.org/en/restaurant/57-pokawa> .
+
+<https://sicklo.coopcycle.org/api/addresses/13439> a ns1:PostalAddress ;
+    ns1:name "POKAWA 🌈" ;
+    ns1:streetAddress "1 Rue Docteur Bally, 38000 Grenoble, France" ;
+    ns1:telephone "+33438869011" .
+

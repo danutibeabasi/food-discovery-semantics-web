@@ -1,0 +1,48 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://coursiers-metz.coopcycle.org/api/restaurants/7> a ns1:Restaurant ;
+    ns1:address <https://coursiers-metz.coopcycle.org/api/addresses/267> ;
+    ns1:description """Nous vous proposons chaque jour des plats variés et équilibrés principalement faits maison par nos équipes ! \r
+\r
+\r
+\r
+Le respect de l'environnement est une de nos valeurs fondamentales : \r
+\r
+- nos contenants sont éco-responsables, \r
+\r
+- grâce à notre déshydrateur, nous transformons tous nos déchets organiques en poudre fertilisante, \r
+\r
+- notre livraison est locale et respectueuse de l'environnement grâce à notre partenaire : Les Coursiers de Metz. \r
+\r
+/!\\ ATTENTION /!\\ : merci de préciser dans la partie "Instructions" l'horaire de livraison souhaitée.\r
+\r
+\r
+Consommer chez nous, c'est faire vivre l'Economie Sociale et Solidaire.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.91101e+01 ;
+            ns1:longitude 6.18688e+00 ] ;
+    ns1:image <https://coursiers-metz.coopcycle.org/media/cache/restaurant_thumbnail/60/2b/602b846bddba6.jpg> ;
+    ns1:name "Restaurant \"Le Cuculotin\"" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:30" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://coursiers-metz.coopcycle.org/en/restaurant/7-restaurant-le-cuculotin" ] ] ;
+    ns1:sameAs <https://coursiers-metz.coopcycle.org/en/restaurant/7-restaurant-le-cuculotin> ;
+    ns1:url <https://coursiers-metz.coopcycle.org/en/restaurant/7-restaurant-le-cuculotin> .
+
+<https://coursiers-metz.coopcycle.org/api/addresses/267> a ns1:PostalAddress ;
+    ns1:name "Restaurant \"Le Cuculotin\"" ;
+    ns1:streetAddress "2 Rue Georges Ducrocq, 57070 Metz, France" ;
+    ns1:telephone "+33387742220" .
+

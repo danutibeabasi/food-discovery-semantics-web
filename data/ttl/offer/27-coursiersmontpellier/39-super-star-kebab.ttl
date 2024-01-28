@@ -1,0 +1,328 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiersmontpellier.coopcycle.org/api/restaurants/39> ns1:hasMenu <https://coursiersmontpellier.coopcycle.org/en/restaurant/39-super-star-kebab#menu> .
+
+<https://coursiersmontpellier.coopcycle.org/en/restaurant/39-super-star-kebab#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Je ne souhaite pas de couvert jetable" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Je ne souhaite pas de serviette jetable" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ] ;
+            ns1:name "Couvert et serviette" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Sanswich panini 3 fromages" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sandwich Adana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Viandes au choix. Sauce fromagère." ;
+                    ns1:name "Tacos 2 viandes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.85" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sandwich poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Viandes aux choix. Sauce fromagère" ;
+                    ns1:name "Tacos 3 viandes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Viande au choix. Sauce fromagère." ;
+                    ns1:name "Tacos 1 viande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sandwich falafel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sandwich kebab" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sandwich américain" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sandwich hamburger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.85" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sandwich merguez" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.30" ] ] ;
+            ns1:name "Les sandwich" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Cigare noix" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cigare amandes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tarte au citron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cigare pistache" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tarte aux daim" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cigare noix de coco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Riz au lait" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.75" ] ] ;
+            ns1:name "Les déserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Avec frites, blé et salade" ;
+                    ns1:name "Assiette Iskender" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Avec frites, blé et salade" ;
+                    ns1:name "Assiette brochette d'agneau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Viande au choix + frites" ;
+                    ns1:name "Assiette enfant" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Avec frites, blé et salade" ;
+                    ns1:name "Assiette ailes de poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Assiette brochette de veau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Kefta,caviar d'aubergine,frites, blé, salade" ;
+                    ns1:name "Assiette alinazik" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Avec frites, blé et salade" ;
+                    ns1:name "Assiette brochette poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Avec frites, blé et salade" ;
+                    ns1:name "Assiette Imam Bayildi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Aubergine farcie, frites, blé et salade" ;
+                    ns1:name "Assiette karniyarik" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Avec frites, blé et salade" ;
+                    ns1:name "Assiette merguez" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Frites et salade" ;
+                    ns1:name "Assiette steak fait maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Côtelette d'agneau, brochette de veau, Adana et kebab." ;
+                    ns1:name "Assiette mixte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mixte du chef, servi avec frites et salade." ;
+                    ns1:name "Assiette Star mixte duo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€60.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Avec frites, blé et salade" ;
+                    ns1:name "Assiette falafel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Avec frites, blé et salade" ;
+                    ns1:name "Assiette moussaka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Avec frites, blé et salade" ;
+                    ns1:name "Assiette kebab" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Avec frites, blé et salade" ;
+                    ns1:name "Assiette Adana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Avec frites, blé et salade" ;
+                    ns1:name "Assiette côtelette d'agneau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.90" ] ] ;
+            ns1:name "Les assiettes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Viandes au choix. Sauce fromagère, frites et boisson au choix." ;
+                    ns1:name "Formule tacos 3 viandes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Hamburger, frites et boisson au choix." ;
+                    ns1:name "Formule hamburger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Viande au choix. Sauce fromagère, frites et boisson au choix." ;
+                    ns1:name "Formule tacos 1 viande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sandwich, frites et boisson au choix." ;
+                    ns1:name "Formule sandwich" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Frites et boisson au choix" ;
+                    ns1:name "Formule américain" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Avec frites et boisson au choix." ;
+                    ns1:name "Formule panini 3 fromages" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Viandes au choix. Sauce fromagère, frites et boisson au choix." ;
+                    ns1:name "Formule tacos 2 viande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.20" ] ] ;
+            ns1:name "Les formules" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Salade d'aubergine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Humus" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ezme" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Kanarya" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Caviar d'aubergine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Assortiment d'entrées" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ] ;
+            ns1:name "Les entrées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Perrier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cristaline 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca zéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Fanta citron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ayran" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lipton Ice Tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sprite" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Oasis tropical" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Coca Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Hawaii" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca cherry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Schweppes pomme" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "schweppes agrumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ] ;
+            ns1:name "Les boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Salade tenders" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Salade de poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Salade kebab" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Salade feta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ] ;
+            ns1:name "Les salades" ] .
+

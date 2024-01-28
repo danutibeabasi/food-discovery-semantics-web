@@ -1,0 +1,409 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/restaurants/15> ns1:hasMenu <https://lescoursiersbrestois.coopcycle.org/en/restaurant/15-van-der-versch-friterie#menu> .
+
+<https://lescoursiersbrestois.coopcycle.org/en/restaurant/15-van-der-versch-friterie#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Andalouse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Mammouth" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Barbecue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Mayonnaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Poivre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Moutarde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Algérienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Samourai" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Coktail" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Ketchup" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Tartare" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.70" ] ] ;
+            ns1:name "Sauces" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Une brochette de haché pané et épicé, composée de poulet, de porc, de bœuf et d'oignons frais." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5e0c69daff.jpeg> ;
+                    ns1:name "Stick tzigane" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un hot-dog made in Belgique avec une fricandelle à l'intérieur. Sauce ketchup moutarde." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5de8f33662.jpeg> ;
+                    ns1:name "Hot-Fric'" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "THE spécialité belge par excellence! Saucisse de porc et volaille, épices." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5dd42282c1.jpeg> ;
+                    ns1:name "Fricandelle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Grand stick de poulet enrobé d'une panure croquante." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5e04c70937.jpeg> ;
+                    ns1:name "Poulycroc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boîte de 5 nuggets." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5dfa5cbc90.jpeg> ;
+                    ns1:name "Nuggets de poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Snack de bœuf et de poulet légèrement épicé." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5df5a5e81a.jpeg> ;
+                    ns1:name "Mexicano XL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pour ceux qui ont une faim de mammouth! Une fricandelle plus longue." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5dd663d1d3.jpeg> ;
+                    ns1:name "Fricandelle mammouth" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une brochette de viande de porc panée avec du lard fumé." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5dbb9a04a2.jpeg> ;
+                    ns1:name "Brochette ardennaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5df7900ea8.jpeg> ;
+                    ns1:name "Mitrailleuse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5dbef9cdba.jpeg> ;
+                    ns1:name "Brochette de bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Demie baguette, steak de boeuf, bacon, tartare tomates, cheddar fondu, salade iceberg, frites, sauce au choix." ;
+                    ns1:name "La bombardeuse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "Nos snacks belges" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5e02baffd7.jpeg> ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5dca268a51.jpeg> ;
+                    ns1:name "Coca-Cola zéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5e07b8f4c9.jpeg> ;
+                    ns1:name "Pulco Citronnade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5e14e7b2b8.jpeg> ;
+                    ns1:name "Vittel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5df39f33d2.jpeg> ;
+                    ns1:name "May Tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5e00308b2f.jpeg> ;
+                    ns1:name "Oasis tropical" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5e0a102bdb.jpeg> ;
+                    ns1:name "Sprite" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5e0983c2c2.jpeg> ;
+                    ns1:name "San Pellegrino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5dea4d8612.jpeg> ;
+                    ns1:name "Ice Tea pêche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5dc9070053.jpeg> ;
+                    ns1:name "Coca-Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5dfde473c4.jpeg> ;
+                    ns1:name "Oasis Pomme cassis framboise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ] ;
+            ns1:name "Les softs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Orval" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Wunder Lager" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5db113ecdd.jpeg> ;
+                    ns1:name "Bon Secours ambrée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8.5% 33cl. Bière blonde belge aux 3 levures, ronde aux saveurs épicées et herbacées." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5dd20eaa16.jpeg> ;
+                    ns1:name "Delirium Tremens" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5.5 %, 33 cl. Bière ambrée de style IPA avec des arômes fruités de fruits exotiques et d'agrumes qui se combinent harmonieusement à des arômes floraux." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5e1412282c.jpeg> ;
+                    ns1:name "Vedett IPA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Grosse Bertha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Delta IPA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4.7% 33cl. Bière blanche premium avec des arômes frais, subtils, épicés et aux notes d'agrumes." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5e1204e3e9.jpeg> ;
+                    ns1:name "Vedett Extra White" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8% 33cl. Bière blonde et légèrement trouble, avec un caractère fruité, épicé à la coriandre et une légère saveur houblonnée." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5dc2d3b467.jpeg> ;
+                    ns1:name "Chouffe blonde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 %, 33 cl. Bière rouge aux arômes de cerise, d'amande et de fruits des bois." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5dc3ca531e.jpeg> ;
+                    ns1:name "Chouffe Cherry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5dd09f08bc.jpeg> ;
+                    ns1:name "Corsendonk Christmas Ale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "10% 33cl. Longue et fine amertume, soutenue par une pointe de houblon." ;
+                    ns1:name "Paix Dieu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8.5 %, 33 cl. Bière belge au goût houblonné, fruité et riche en arômes." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5dd2fb7e05.jpeg> ;
+                    ns1:name "Duvel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ] ;
+            ns1:name "Les bières, belges évidemment!" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Crème glacée vanille avec des morceaux de pâte de cookie aux pépites de chocolat et des inclusions cacaotées." ;
+                    ns1:name "Ben & Jerry's Cookie Dough 100ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème glacée vanille avec une sauce au caramel salé, des morceaux de pécan caramélisés et des morceaux de gâteau fondant." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5da875b618.jpeg> ;
+                    ns1:name "Ben & Jerry's Vanilla Pecan Blondie 465ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Ben & Jerry's Vanilla Pecan 100ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème glacée chocolat avec des morceaux de gâteau fondant au cacao maigre." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/03/6203c74a2cba6.jpeg> ;
+                    ns1:name "Ben & Jerry's Chocolate Fudge Brownie 465ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème glacée vanille avec des morceaux de pâte de cookie aux pépites de chocolat et des inclusions cacaotées." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5d98ee4a42.jpeg> ;
+                    ns1:name "Ben & Jerry's Cookie Dough 465ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème glacée chocolat avec des morceaux de gâteau fondant au cacao maigre." ;
+                    ns1:name "Ben & Jerry's Chocolate Fudge Brownie 100ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Crèmes glacées Ben & Jerry's" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5de0fccf17.jpeg> ;
+                    ns1:name "Gaufre de Liège au Nutella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/03/6203c5fab3669.jpeg> ;
+                    ns1:name "Gaufre de Liège sucrée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une gaufre rectangulaire avec une pâte légère et croustillante!" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5ddc8ded5b.jpeg> ;
+                    ns1:name "Gaufre de Bruxelles nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5e1f073948.jpeg> ;
+                    ns1:name "Gaufre de Liège au sirop de Liège" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Parce que le Nutella c'est la vie!" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/03/6203c58c09051.jpeg> ;
+                    ns1:name "Gaufre de Bruxelles au Nutella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5dda278e1d.jpeg> ;
+                    ns1:name "Gaufre de Bruxelles au sirop de Liège" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5ddf870318.jpeg> ;
+                    ns1:name "Gaufre de Bruxelles sucrée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5de7fcaff5.jpeg> ;
+                    ns1:name "Gaufre de Liège nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Nos gaufres de Liège ou de Bruxelles" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Cuites en double cuisson à partir de pommes de terre \"brutes\" épluchées et coupées par nos soins." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5dd835452f.jpeg> ;
+                    ns1:name "Frites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Nos frites fraîches et faites maison" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/03/6203c0f5e0263.jpeg> ;
+                    ns1:name "Le Ch'ti Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain artisanal, steak haché pur bœuf VBF, bacon, cheddar, salade Iceberg, tomates, oignons rouges et sauce ketchup." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5e0dcdb06a.jpeg> ;
+                    ns1:name "Van Der Bacon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain artisanal, Mexicano, bacon, salade Iceberg, oignons au sirop de Liège, sauce tartare." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5dbfb14469.jpeg> ;
+                    ns1:name "Burger du Moment" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain artisanal, steak haché pur bœuf VBF, cheddar, salade iceberg, tomates, oignons rouges, sauce ketchup." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5e0ee914bb.jpeg> ;
+                    ns1:name "Van Der burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain artisanal, steak haché pur bœuf VBF, oignons confits au sirop de Liège maison, fromage de chèvre, salade Iceberg, tartare de tomates maison." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5df1e107ff.jpeg> ;
+                    ns1:name "Le burger d'Angel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain artisanal, filet de poulet pané, tomates, salade Iceberg, oignons rouges, sauce cocktail, cornichons." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/e5/61e5e1010dea1.jpeg> ;
+                    ns1:name "Van Der Chicken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "Nos Burgers" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Un snack belge ou un burger servi avec un grand cornet de frites, une sauce et une boisson. Pour ceux qui ont faim et qui font pas semblant!" ;
+                    ns1:name "Menu XL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un snack belge ou un burger servi avec un cornet moyen de frites, une sauce et une boisson" ;
+                    ns1:name "Menu L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.40" ] ] ;
+            ns1:name "Nos menus" ] .
+

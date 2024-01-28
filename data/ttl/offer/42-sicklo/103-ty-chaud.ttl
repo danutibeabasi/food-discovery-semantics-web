@@ -1,0 +1,200 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://sicklo.coopcycle.org/api/restaurants/103> ns1:hasMenu <https://sicklo.coopcycle.org/en/restaurant/103-ty-chaud#menu> .
+
+<https://sicklo.coopcycle.org/en/restaurant/103-ty-chaud#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Buddha bowl du moment maison ①🌱" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Plat du jour maison ②" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauté de porc au champignon garniture du moment" ;
+                    ns1:name "Plat du jour maison ①" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Mustard",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Buddha bowl du moment maison ②🌱" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon cru mariné, Riz japonais vinaigré, Garniture du moment" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/77/6277c071a4288.jpeg> ;
+                    ns1:name "Poké bowl du moment 🌈" ;
+                    ns1:nutrition "Fish",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ] ;
+            ns1:name "🍴Plats🥢" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "salade, filet de poulet français cuisiné maison, fromage frais, tomate,  quinoa" ;
+                    ns1:name "Salade poulet curry" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "salade, terrine de campagne et sa confiture d'oignon, quinoa" ;
+                    ns1:name "Salade terrine de campagne et sa confiture d'oignon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "salade, saumon (ou truite) fumé, fromage frais, tomate, quinoa" ;
+                    ns1:name "Salade saumon (ou truite) fumé" ;
+                    ns1:nutrition "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "salade, filet de poulet cuisiné maison, œuf dur, quinoa" ;
+                    ns1:name "Salade poulet oeuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "salade, tomate, mozzarella, tomate séchée ,quinoa" ;
+                    ns1:name "Salade tomate mozzarella et tomate séchée" ;
+                    ns1:nutrition "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "🥗Salade" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/f6/61f69ea5031b1.jpeg> ;
+                    ns1:name "Cristaline 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/73/64732eedc7f10.jpeg> ;
+                    ns1:name "Mangajo Yuzu et Citron🍋" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ice tea" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/f6/61f69c295df99.jpeg> ;
+                    ns1:name "Lipton Pêche 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière japonaise" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/fe/61febb516d7d9.jpeg> ;
+                    ns1:name "Kirin ou Asahi 33cl🍺" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/fe/61febc13b261d.jpeg> ;
+                    ns1:name "Thé vert 500ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Limonade japonaise" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/73/64732d7b0d840.jpeg> ;
+                    ns1:name "Ramuné melon 200ml🍈" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Limonade japonaise" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/f6/61f69c6a60310.jpeg> ;
+                    ns1:name "Ramuné 200ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/f6/61f69e22a7994.jpeg> ;
+                    ns1:name "San Pellegrino 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/f6/61f69e577ba71.jpeg> ;
+                    ns1:name "Coca 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Marque japonais POKKA" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/73/64732d9ec30bf.jpeg> ;
+                    ns1:name "Thé vert au JASMIN 500ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "🥤Boisson" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """"Saumon"\r
+"Saumon fumé"\r
+"Wakamé"\r
+"Konbu"\r
+"Umeboshi maison"\r
+"YAKI-ONIGIRI" grillé avec dashi, sauce soja et l'huile de sésame   etc""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/0e/620eae079cef1.jpeg> ;
+                    ns1:name "Onigiri du moment🍙" ;
+                    ns1:nutrition "Fish",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "🍙Onigiri" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Flocons d'avoine et beurre de cacahouète ,cramberie,raisin sec, courge,et tournesol" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/f6/61f69db947cb2.jpeg> ;
+                    ns1:name "Choco barre maison (Végan, Sans Lactose)" ;
+                    ns1:nutrition "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sablé breton au pépite de chocolat" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/f6/61f69f386ac86.jpeg> ;
+                    ns1:name "Cookie breton maison" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain perdu du moment" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/f6/61f69cd94990c.jpeg> ;
+                    ns1:name "Pain perdu maison" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Noisette, Poire, Figue et Lait vegetal" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/4a/654a9e485812e.jpeg> ;
+                    ns1:name "Chia pudding d'automne vegan maison" ;
+                    ns1:nutrition "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/f6/61f681c62d668.jpeg> ;
+                    ns1:name "Tiramisu maison" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/f6/61f69c947a5b8.jpeg> ;
+                    ns1:name "Muffin choco noisette" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "🍰Dessert" ] .
+

@@ -1,0 +1,151 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lcr.coopcycle.org/api/restaurants/6> ns1:hasMenu <https://lcr.coopcycle.org/en/restaurant/6-dolce-italia-traiteur-italien#menu> .
+
+<https://lcr.coopcycle.org/en/restaurant/6-dolce-italia-traiteur-italien#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "pâte artisanale de trés haut de gamme, fabrique bâtie en pierre de lave méthode de séchage garantissant le gout originaire. Sachet de 1kg." ;
+                    ns1:name "Setaro" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pasta depuis 1820 certifié Di gragnano igp, filage au bronze, qualité et authenticité.\r
+Sachets de 500g.""" ;
+                    ns1:name "Liguori" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.10" ] ] ;
+            ns1:name "PÂTES SÈCHES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Dégustez un délicieux plat de ravioli préparé maison, tout frais, sur place, avec tout plein d'amore.\r
+Retrouvez nos variantes :\r
+-Ravioli truffe ricotta parmesan\r
+-Ravioli pesto de basilic maison parmesan\r
+-Ravioli gorgonzola speck parmesan\r
+-Cappelletti forestière (champignons jambon cru italien parmesan)
+\r
+Tous nos plats ici présents contiennent du parmesan, de l'ail.""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/13/60131b3b8c44e.jpeg> ;
+                    ns1:name "Ravioli" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Dégustez un délicieux plat de pasta conchiglie aux roulades de dindes panées, pancetta , sauce au marsala (vin cuit) , champignons, tout frais, préparé sur place, avec tout plein d'amore.
+\r
+Contient du parmesan, de l'ail.""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/13/6013214c0a426.jpeg> ;
+                    ns1:name "Conchiglie roulade de dinde pancetta Marsala champignons" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Dégustez un délicieux plat de lasagne préparé maison, tout frais, sur place, avec tout plein d'amore.\r
+Retrouvez nos variantes :\r
+-Lasagne bolognese maison (porc et boeuf)\r
+-Lasagne aux légumes et mozzarella (courgette tomates aubergines poivrons oignons)
+
+
+\r
+Buon appetito ragazzi !""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/13/60131c5886206.jpeg> ;
+                    ns1:name "Lasagne maison" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Dégustez un risotto truffe parmesan préparé maison, tout frais, sur place, avec tout plein d'amore.\r
+Contient du vin blanc, de l'ail.""" ;
+                    ns1:name "Risotto truffe" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Dégustez un risotto speck champignons  parmesan préparé maison, tout frais, sur place, avec tout plein d'amore.\r
+Speck : jambon fumé italien.\r
+Contient du vin blanc, de l'ail.""" ;
+                    ns1:name "Risotto Speck champignons" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Dégustez un délicieux plat de gnocchi préparé maison, tout frais, sur place, avec tout plein d'amore.\r
+Tous nos plats ici présents contiennent du parmesan, de l'ail.""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/13/60131b96988d9.jpeg> ;
+                    ns1:name "Gnocchi" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Dégustez un délicieux plat de spaghetti carbonara authentique, tout frais, préparé sur place, avec tout plein d'amore.\r
+Pancetta Guanciale parmesan pecorino.
+\r
+Contient du parmesan de l'ail.""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/13/60131a98635ed.jpeg> ;
+                    ns1:name "Spaghetti Carbonara" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Dégustez une délicieuse salade de pâtes préparé maison, tout frais, sur place, avec tout plein d'amore.\r
+Jambon de Parme, mozzarella, pesto de basilic maison, tomates séchées, parmesan, pignons de pins grillés, parmesan... E tanto amore!""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/13/60131c9583075.jpeg> ;
+                    ns1:name "Salade Pasta jambon de Parme pesto mozza" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.95" ] ] ;
+            ns1:name "PLATS CUISINÉS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Un dessert maison italiano pour terminer en beauté…  
+\r
+ Panna cotta : crème cuite""" ;
+                    ns1:name "Panna cotta" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un dessert italiano pour terminer en beauté…" ;
+                    ns1:name "Baba x 6 Rhum/Limoncello" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un dessert maison italiano pour terminer en beauté…" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/13/60131c151e6c0.jpeg> ;
+                    ns1:name "Tiramisù" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ] ;
+            ns1:name "DOLCE" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Partagez le meilleur des moments avec les meilleurs des antipasti ! Tomates séchées, artichauts, involtini speck, pesto maison, poivrons farçis, olives, poulpes/suppions, câpres... Il y en a pour tous les goûts !\r
+barquette de 200g""" ;
+                    ns1:name "Antipasti" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Dégustez un pesto maison d'exception, réalisé tous les jours en boutique !\r
+Pesto de basilic (ail et parmesan, pignons de pins) ou tomates séchées (ail et pignons de pins, capres). barquette/200G.""" ;
+                    ns1:name "Pesto maison" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.60" ] ] ;
+            ns1:name "ANTIPASTI" ] .
+

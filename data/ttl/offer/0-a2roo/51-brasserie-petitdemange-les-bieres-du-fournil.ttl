@@ -1,0 +1,470 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://a2roo.coopcycle.org/api/restaurants/51> ns1:hasMenu <https://a2roo.coopcycle.org/en/restaurant/51-brasserie-petitdemange-les-bieres-du-fournil#menu> .
+
+<https://a2roo.coopcycle.org/en/restaurant/51-brasserie-petitdemange-les-bieres-du-fournil#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """La campagnarde est une bière brune BIO au bon goût de malt torréfié avec une douce amertume.\r
+Alc. 7.5% vol
+\r
+Elle est née de l’assemblage :\r
+    • De 10 malts d’orge* français.\r
+    • De 2 variétés de houblon cultivés en France, le « Nugget » en amérisant et le « Strissespalt » en aromatique.\r
+    • D’une levure néo-zélandaise de fermentation haute.\r
+    • De sucre* français pour la refermentation en bouteille.\r
+* issus de l’agriculture biologique.
+\r
+Bouteille à bouchon mécanique consignée si rendue propre à la brasserie à Talant ou aux halles de Dijon.""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/e4/63e4ce6665f78.jpeg> ;
+                    ns1:name "Bière brune Bio - Campagnarde 33cl" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """La paysanne est une bière ambrune BIO, entre ambrée et brune, au goût de malt grillé et torréfié, amertume légère.\r
+Alc. 7.5% vol
+\r
+Elle est née de l’assemblage :\r
+    • De 7 malts d’orge* français.\r
+    • De 2 variétés de houblon cultivés en France, avec le « Perle* » en amérisant et le « Tradition » en aromatique.\r
+    • D’une levure néo-zélandaise de fermentation haute.\r
+    • De sucre* français pour la refermentation en bouteille. \r
+* issus de l’agriculture biologique.""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/e4/63e4cd2ab6dec.jpeg> ;
+                    ns1:name "Bière ambrune Bio - Paysanne 75cl" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """La paysanne est une bière ambrune BIO, entre ambrée et brune, au goût de malt grillé et torréfié, amertume légère.\r
+Alc. 7.5% vol
+\r
+Elle est née de l’assemblage :\r
+    • De 7 malts d’orge* français.\r
+    • De 2 variétés de houblon cultivés en France, avec le « Perle* » en amérisant et le « Tradition » en aromatique.\r
+    • D’une levure néo-zélandaise de fermentation haute.\r
+    • De sucre* français pour la refermentation en bouteille. \r
+* issus de l’agriculture biologique.""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/e4/63e4cd0a32880.jpeg> ;
+                    ns1:name "Bière ambrune Bio - Paysanne 33cl" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """La campagnarde est une bière brune BIO au bon goût de malt torréfié avec une douce amertume.\r
+Alc. 7.5% vol
+\r
+Elle est née de l’assemblage :\r
+    • De 10 malts d’orge* français.\r
+    • De 2 variétés de houblon cultivés en France, le « Nugget » en amérisant et le « Strissespalt » en aromatique.\r
+    • D’une levure néo-zélandaise de fermentation haute.\r
+    • De sucre* français pour la refermentation en bouteille.\r
+* issus de l’agriculture biologique.
+\r
+Bouteille à bouchon mécanique consignée si rendue propre à la brasserie à Talant ou aux halles de Dijon.""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/6a/626a7c353f647.jpeg> ;
+                    ns1:name "Bière brune Bio - Campagnarde 75cl" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Bières brunes Bio" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """La « Pure Ginger Beer » est une boisson rafraîchissante et épicée, produite sur la base de pur jus de gingembre biologique et de sucre de canne.\r
+Naturelle, biologique et peu sucrée, elle se consomme pure ou en cocktail.
+\r
+Ingrédients : Eau gazéifiée, sucre de canne*, jus de gingembre du Pérou*, arômes naturels, acide citrique.\r
+*Issus de l’agriculture biologique""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/73/6273e8a594aba.jpeg> ;
+                    ns1:name "Ginger beer – Socrate Bio 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """La Royale Ginger Beer est une boisson produite sur la base de pur jus de gingembre et cassis biologique. L’attaque acidulée du cassis et la fin de bouche épicée du gingembre lui confère un goût unique à apprécier pure ou en cocktails.
+\r
+Ingrédients  Eau gazéifiée, sucre de canne*, jus de cassis*, jus de gingembre du Pérou*, arômes naturels, acide citrique.\r
+*Issus de l’agriculture biologique""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/73/6273e773e30c1.jpeg> ;
+                    ns1:name "Royal Ginger beer – Socrate Bio 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """La « Pure Ginger Beer » est une boisson rafraîchissante et épicée, produite sur la base de pur jus de gingembre biologique et de sucre de canne.\r
+Naturelle, biologique et peu sucrée, elle se consomme pure ou en cocktail.
+\r
+Ingrédients : Eau gazéifiée, sucre de canne*, jus de gingembre du Pérou*, arômes naturels, acide citrique.\r
+*Issus de l’agriculture biologique""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/73/6273e862c58cb.jpeg> ;
+                    ns1:name "Ginger beer – Socrate Bio 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """La Royale Ginger Beer est une boisson produite sur la base de pur jus de gingembre et cassis biologique. L’attaque acidulée du cassis et la fin de bouche épicée du gingembre lui confère un goût unique à apprécier pure ou en cocktails.
+\r
+Ingrédients  Eau gazéifiée, sucre de canne*, jus de cassis*, jus de gingembre du Pérou*, arômes naturels, acide citrique.\r
+*Issus de l’agriculture biologique""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/73/6273e79ac4826.jpeg> ;
+                    ns1:name "Royal Ginger beer – Socrate Bio 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Ginger beer Bio Socrate" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Une pétillance régressive au goût d’enfance. Une limonade naturelle, élaborée par les limonadiers passionnés de bulles que sont les Brasseurs Savoyards. De l’eau de grande qualité, celle des Alpes, du sucre de canne BIO en juste quantité et cette myriade de bulles légères qui fait frétiller les papilles à chaque gorgée. Idéale à consommer nature mais parfaite pour des panachés avec nos bières BIO." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/73/6273e0f59d953.jpeg> ;
+                    ns1:name "Limonade Bio 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fabriqué au cœur des Alpes, le Yaute Cola est le Cola BIO des Brasseurs Savoyards. Elaboré avec des arômes naturels BIO, ses fines bulles légèrement sucrées et citronnées aux notes de caramel font pétiller les yeux des petits et des grands, des goûters aux cocktails. Un cola alternatif et légèrement transgressif qui fait fusionner le meilleur de la Yaute et de l’Amérique." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/73/6273e25409480.jpeg> ;
+                    ns1:name "Yaute Cola Bio 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une amertume subtile amenée par les arômes de quinine et des saveurs d’agrumes et citron qui donnent une belle longueur en bouche : le Yaute Tonic, notre nouveau soft qui ne l’est pas." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/73/6273e2cba1662.jpeg> ;
+                    ns1:name "Yaute Tonic Bio 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sur la base de la lim’O de Savoie, voici une déclinaison gourmande et fruitée totalement addictive. La myrtille instille à cette limonade, en mode pastel, sa belle couleur de fruits noirs et sauvages. Joliment effervescente, c’est la boisson des goûters gourmands mais associée à une BS Myrtille des Brasseurs Savoyards, elle se transcende pour devenir le plus délicat des panachés." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/73/6273e2011f540.jpeg> ;
+                    ns1:name "Lim'o Myrtille Bio 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Acidulée et légèrement astringente, la Lim’O citron vert est la plus désaltérante des limonades. Le citron vert lui apporte une touche d’exotisme et lui confère une personnalité piquante qui apporte une fraîcheur inédite à la recette initiale de la limonade des Brasseurs Savoyards. Une recette inédite qui fait de chaque bulle une explosion de saveurs et fait twister les panachés à la bière blanche." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/73/6273e15626b3d.jpeg> ;
+                    ns1:name "Lim'o Citron Vert Bio 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Né de l’infusion de feuilles entières de thé noir et de thé noir Darjeeling, à laquelle s’ajoute une juste et légère dose de sucre de canne BIO. Parfumé au citron et relevé d’une pointe de menthe qui lui apporte ses notes rafraîchissantes, Yaute & Tea est une boisson aux arômes désaltérants et dépaysants qui fait voyager vos papilles. Quant à l’eau des Alpes, elle lui offre toute sa pureté." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/73/6273e29061125.jpeg> ;
+                    ns1:name "Yaute & Tea Bio 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Soda Bio de Savoie" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """La graine est une bière blonde BIO dorée avec une pointe d’amertume.\r
+Alc. 7% vol
+\r
+Elle est née de l’assemblage :\r
+    • De 4 malts d’orge* français.\r
+    • De 2 variétés de houblon cultivés en France, le « Bouclier » en amérisant et le « Brewers Gold » en aromatique.\r
+    • D’une levure française de fermentation haute.\r
+    • De sucre* français pour la refermentation en bouteille.\r
+* issus de l’agriculture biologique.
+\r
+Bouteille à bouchon mécanique consignée si rendue propre à la brasserie à Talant ou aux halles de Dijon.""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/6a/626a781e60c2c.jpeg> ;
+                    ns1:name "Bière blonde Bio - Graine 33cl" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """La graine est une bière blonde BIO dorée avec une pointe d’amertume.\r
+Alc. 7% vol
+\r
+Elle est née de l’assemblage :\r
+    • De 4 malts d’orge* français.\r
+    • De 2 variétés de houblon cultivés en France, le « Bouclier » en amérisant et le « Brewers Gold » en aromatique.\r
+    • D’une levure française de fermentation haute.\r
+    • De sucre* français pour la refermentation en bouteille.\r
+* issus de l’agriculture biologique.
+\r
+Bouteille à bouchon mécanique consignée si rendue propre à la brasserie à Talant ou aux halles de Dijon.""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/6a/626a7946ecf29.jpeg> ;
+                    ns1:name "Bière blonde Bio - Graine 75cl" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Bières blondes Bio" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """La demi est une bière blanche BIO à 50% de malt de blé et 50% de malt d’orge, sèche avec une amertume moyenne.\r
+Alc. 7% vol
+\r
+Elle est née de l’assemblage :\r
+    • De 2 malts d’orge* et d’un malt de blé* français.\r
+    • D’une variété de houblon cultivé en Alsace, l’« Aramis » en amérisant et en aromatique.\r
+    • D’une levure belge de fermentation haute.\r
+    • De sucre* français pour la refermentation en bouteille.\r
+* issus de l’agriculture biologique""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/e4/63e4cc1d44ef4.jpeg> ;
+                    ns1:name "Bière blanche Bio - Demi 33cl" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """La demi est une bière blanche BIO à 50% de malt de blé et 50% de malt d’orge, sèche avec une amertume moyenne.\r
+Alc. 7% vol
+\r
+Elle est née de l’assemblage :\r
+    • De 2 malts d’orge* et d’un malt de blé* français.\r
+    • D’une variété de houblon cultivé en Alsace, l’« Aramis » en amérisant et en aromatique.\r
+    • D’une levure belge de fermentation haute.\r
+    • De sucre* français pour la refermentation en bouteille.\r
+* issus de l’agriculture biologique""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/e4/63e4cd6d7ad33.jpeg> ;
+                    ns1:name "Bière blanche Bio - Demi 75cl" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Bières blanches Bio" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Ingrédients : Pomme de terre, Huile de tournesol, sel de l'ile de Ré, Oignon rose AOP de Roscoff" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/72/6272aeec953b6.jpeg> ;
+                    ns1:name "Chips artisanales Belsia à base d'oignon de Roscoff AOP 150gr" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ingrédients : Pomme de terre, Huile de tournesol, sel de l'ile de Ré, Herbes de Provence, Tomates" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/72/6272aacc1110f.jpeg> ;
+                    ns1:name "Chips artisanales Belsia aux herbes de Provence & Tomates 150gr" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ingrédients : pomme de terre, huile de tournesol, sel de l’ile de Ré, curry de la réunion (coriandre, curcuma, piment, clous de girofle, feuille de curry, moutarde, feuille de laurier, cumin, sel, ail, fenugrec, poivre noir, Canelle, cardamome verte)" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/72/6272ab4621306.jpeg> ;
+                    ns1:name "Chips artisanales Belsia au curry de l’Ile de la Réunion 150gr" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ingrédients : Pomme de terre, Huile de tournesol, sel de l'ile de Ré" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/72/6272aa77b246f.jpeg> ;
+                    ns1:name "Chips artisanales Belsia au sel de l’île de Ré 150gr" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ingrédients : pomme de terre, huile de tournesol, sel de l'ile de Ré, ail , basilic" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/72/6272b0e250985.jpeg> ;
+                    ns1:name "Chips artisanales Belsia à l'ail et au basilic 150gr" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ingrédients : Pomme de terre, Huile de tournesol, sel de l'ile de Ré, Vinaigre de Champagne-Ardenne déshydraté, Maltodextrine" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/72/6272b00923a1c.jpeg> ;
+                    ns1:name "Chips artisanales Belsia au vinaigre de Champagne-Ardenne 150gr" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ingrédients: Pomme de terre, Huile de tournesol, sel de l'ile de Ré, piment d'Espelette AOP" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/72/6272a93ad9664.jpeg> ;
+                    ns1:name "Chips artisanales Belsia au piment d'Espelette AOP 150gr" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Chips artisanales Belsia" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Cuisinée à partir de produits locaux et fermier, sans conservateurs ni additifs.\r
+Ingrédients: Chevreuil, Porc, Foie de volaille, Trompettes de la mort, Œufs, Oignons, Persil, Whisky, Sel, Poivre, Laurier.""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/72/6272a757cb538.jpeg> ;
+                    ns1:name "Terrine de Chef Clovis - Chevreuil aux trompettes de la mort195gr" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Cuisinée à partir de produits locaux et fermier, sans conservateurs ni additifs.\r
+Ingrédients: Veau, Porc, Foie de volaille, Œufs, Noisettes Bio, Oignons, Persil, Porto, Sel, Poivre, Thym.""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/72/6272a5ff97a12.jpeg> ;
+                    ns1:name "Terrine de Chef Clovis - Veau noisettes 195gr" ;
+                    ns1:nutrition "Eggs",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Cuisinée à partir de produits locaux et fermier, sans conservateurs ni additifs.\r
+Ingrédients: Sanglier, Porc, Foie de porc, Œufs, Oignons, Persil, Bière Brune Bio (Brasserie Petitdemange), Sel, Poivre, Laurier.""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/71/6271249e50785.jpeg> ;
+                    ns1:name "Terrine de Chef Clovis - Sanglier bière brune 195gr" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Cuisinée à partir de produits locaux et fermier, sans conservateurs ni additifs.\r
+Ingrédients: Poulet fermier, Porc, Foie de volaille, Œufs, Citron confit, Bière blanche Bio (Brasserie Petitdemange), Coriandre, Sel, Poivre.""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/71/627124c31bf1d.jpeg> ;
+                    ns1:name "Terrine de Chef Clovis - Poulet citron bière blanche 195gr" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Cuisinée à partir de produits locaux et fermier, sans conservateurs ni additifs.\r
+Ingrédients: Porc, Foie de porc, Moutarde grain, Œufs, Oignons, Persil, Marc de Bourgogne, Sel, Poivre, Laurier.""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/71/627140d2e96ad.jpeg> ;
+                    ns1:name "Terrine de Chef Clovis - Campagne moutarde à l'ancienne 195gr" ;
+                    ns1:nutrition "Eggs",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Cuisinée à partir de produits locaux et fermier, sans conservateurs ni additifs.\r
+Ingrédients: Porc, Foie de porc, Piment d'Espelette, Œufs, Oignons, Persil, Armagnac, Sel, Poivre.""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/71/627124e2565a0.jpeg> ;
+                    ns1:name "Terrine de Chef Clovis - Porc piment d'Espelette 195gr" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Cuisinée à partir de produits locaux et fermier, sans conservateurs ni additifs.\r
+Ingrédients: Porc, Foie de porc, Moutard cassis, Œufs, Oignons, Persil, Marc de bourgogne, Crème de cassis, Sel, Poivre de cassis, Laurier.""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/71/627141517e944.jpeg> ;
+                    ns1:name "Terrine de Chef Clovis - Porc au cassis 195gr" ;
+                    ns1:nutrition "Eggs",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Cuisinée à partir de produits locaux et fermier, sans conservateurs ni additifs.\r
+Ingrédients: Cerf, Porc, Foie de volaille, Trompettes de la mort, Œufs, Oignons, Persil, Whisky, Sel, Poivre, Laurier.""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/72/6272a70f002f4.jpeg> ;
+                    ns1:name "Terrine de Chef Clovis - Cerf aux trompettes de la mort 195gr" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ] ;
+            ns1:name "Les terrines de Chef Clovis" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """A tartiner à l'heure de l'apéritif.\r
+Ingrédients: Patidou* de Côte d'Or, Huile d'olive*, Oignons*, Jus de citron*, Vinaigre balsamique*, Ail*, Sel, Poivre*, Piment*.\r
+*Issus de l'agriculture biologique\r
+LA NOTE DU COLIBRI - Talant""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/71/62711e5e6210d.jpeg> ;
+                    ns1:name "Caviar de patidou Bio 210gr" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """A tartiner à l'heure de l'apéritif.\r
+Ingrédients: Pois chiches* de Côte d'Or, Huile d'olive*, Jus de citron*, Sésame grillé*, Vinaigre de vin rouge*, Ail*, Sel marin, Poivre*.\r
+*Issus de l'agriculture biologique\r
+LA NOTE DU COLIBRI - Talant""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/71/62712004ec7a8.jpeg> ;
+                    ns1:name "Pois chiches façon \"houmous\" Bio 200gr" ;
+                    ns1:nutrition "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """A tartiner à l'heure de l'apéritif.\r
+Ingrédients: Poivrons* de Côte d'Or, Huile d'olive*, Oignons*,  Jus de citron*, Ail*, Levure maltée*, Sel, Farine de graine de caroube*, Poivre*, Piment*.\r
+*Issus de l'agriculture biologique\r
+LA NOTE DU COLIBRI - Talant""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/71/62711ef86403c.jpeg> ;
+                    ns1:name "Caviar de poivron Bio 200gr" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """A tartiner à l'heure de l'apéritif. \r
+Ingrédients: Aubergines* de Côte d'Or, Huile d'olive*, Jus de citron*, Ail*, Sel, Poivre*.\r
+*issus de l'agriculture biologique\r
+LA NOTE DU COLIBRI ― Talant, Côte-d'Or""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/71/62711ceebb40c.jpeg> ;
+                    ns1:name "Caviar d'aubergine Bio 200gr" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """A tartiner à l'heure de l'apéritif.\r
+Ingrédients: Betteraves* de Côte d'Or, Crème de soja*, Vinaigre de vin rouge*, Jus de citron*, Ail*, Sel marin, Gingembre*.\r
+*issus de l'agriculture biologique\r
+LA NOTE DU COLIBRI - Talant""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/71/62711f81a43eb.jpeg> ;
+                    ns1:name "Mousse de betteraves Bio 200gr" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Les tartinades de La note du colibri" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Sac toile de jute composé de 6 bières 75cl différentes du moment.
+\r
+Bouteille à bouchon mécanique consignée si rendue propre à la brasserie à Talant ou aux halles de Dijon.""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/71/62711af6b5407.jpeg> ;
+                    ns1:name "Sac toile de jute 6 bières 75cl" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€42.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Sac toile de jute composé de 6 bières 33cl différentes du moment.
+\r
+Bouteille à bouchon mécanique consignée si rendue propre à la brasserie à Talant ou aux halles de Dijon.""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/73/6273dc0c3a879.jpeg> ;
+                    ns1:name "Sac toile de jute 6 bières 33cl" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.90" ] ] ;
+            ns1:name "Sac en toile de jute" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """La couronne est une bière Cara cuivrée BIO, ronde au goût de malt caramélisé avec une amertume légère.
+\r
+Elle est née de l’assemblage :\r
+    • De 4 malts d’orge* caramélisés français.\r
+    • De 2 variétés de houblon cultivés en France, le « Perle*» en amérisant et le « Savinjski Golding » en aromatique.\r
+    * D’une levure australienne de fermentation haute.\r
+    • De sucre* français pour la refermentation en bouteille. \r
+* issus de l’agriculture biologique.
+\r
+Bouteille à bouchon mécanique consignée si rendue propre à la brasserie à Talant ou aux halles de Dijon.""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/8d/628df96876f80.jpeg> ;
+                    ns1:name "Bière cara Bio - Couronne 33cl" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """L’épis est une bière rousse BIO au goût subtil de malt grillé avec une amertume moyenne et un caractère épicé.\r
+Alc. 7% vol
+\r
+Elle est née de l’assemblage :\r
+    • De 5 malts d’orge* et d’un malt de seigle* français.\r
+    • De 2 variétés de houblon cultivés en France, avec le « Colombus » en amérisant et le « Savinjski Golding » en aromatique.\r
+    • D’une levure autrichienne de fermentation haute.\r
+    • De sucre* français pour la refermentation en bouteille.\r
+* issus de l’agriculture biologique.
+\r
+Bouteille à bouchon mécanique consignée si rendue propre à la brasserie à Talant ou aux halles de Dijon.""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/7e/627e76ef57b16.jpeg> ;
+                    ns1:name "Bière rousse Bio - Épis 33cl" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """L’épis est une bière rousse BIO au goût subtil de malt grillé avec une amertume moyenne et un caractère épicé.\r
+Alc. 7% vol
+\r
+Elle est née de l’assemblage :\r
+    • De 5 malts d’orge* et d’un malt de seigle* français.\r
+    • De 2 variétés de houblon cultivés en France, avec le « Colombus » en amérisant et le « Savinjski Golding » en aromatique.\r
+    • D’une levure autrichienne de fermentation haute.\r
+    • De sucre* français pour la refermentation en bouteille.\r
+* issus de l’agriculture biologique.
+\r
+Bouteille à bouchon mécanique consignée si rendue propre à la brasserie à Talant ou aux halles de Dijon.""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/7e/627e77117994c.jpeg> ;
+                    ns1:name "Bière rousse Bio - Épis 75cl" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """La couronne est une bière Cara cuivrée BIO, ronde au goût de malt caramélisé avec une amertume légère.
+\r
+Elle est née de l’assemblage :\r
+    • De 4 malts d’orge* caramélisés français.\r
+    • De 2 variétés de houblon cultivés en France, le « Perle*» en amérisant et le « Savinjski Golding » en aromatique.\r
+    * D’une levure australienne de fermentation haute.\r
+    • De sucre* français pour la refermentation en bouteille. \r
+* issus de l’agriculture biologique.
+\r
+Bouteille à bouchon mécanique consignée si rendue propre à la brasserie à Talant ou aux halles de Dijon.""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/8d/628df9e7274b9.jpeg> ;
+                    ns1:name "Bière cara Bio - Couronne 75cl" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Bières rousses Bio" ] .
+

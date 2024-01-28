@@ -1,0 +1,6 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lescoursiersnantais.coopcycle.org/api/restaurants/91> ns1:hasMenu <https://lescoursiersnantais.coopcycle.org/en/restaurant/91-le-bar-du-coin#menu> .
+
+<https://lescoursiersnantais.coopcycle.org/en/restaurant/91-le-bar-du-coin#menu> a ns1:Menu .
+

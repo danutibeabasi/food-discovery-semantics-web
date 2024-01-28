@@ -1,0 +1,473 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/71> ns1:hasMenu <https://eramangasteiz.coopcycle.org/en/restaurant/71-hong-kong#menu> .
+
+<https://eramangasteiz.coopcycle.org/en/restaurant/71-hong-kong#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Ensalada china, Rollos de primavera 3 unidades, arroz frito tres delicias, ternera con salsa de ostras, gambas con bambú y setas y pollo con almendras" ;
+                    ns1:name "Menú Especial para 3 Personas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€36.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ensalada china 2 unidades, rollos de primavera 4 unidades, arroz frito tres delicias o kubak 2 unidades, ternera con bambú y setas chinas, gambas con champiñones, cerdo agridulce y familia feliz" ;
+                    ns1:name "Menú Especial Para 4 Personas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€47.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ensalada china 2 unidades, rollos de primavera 5 unidades, arroz frito tres delicias o kubak 2 unidades, ternera con salsa de ostras, gambas con champiñones, pollo con almendras, cerdo agridulce y familia feliz" ;
+                    ns1:name "Menú Especial Para 5 Personas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€58.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ensalada china, rollos de primavera 2 unidades, arroz frito tres delicias, ternera con salsa de champiñones y pollo con almendras" ;
+                    ns1:name "Menú Especial A para 2 Personas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Ensalada china, rollos de primavera 2 unidades, arroz frito tres delicias, ternera con bambú y setas chinas y Gambas con guindillas
+\r
+Picante!""" ;
+                    ns1:name "Menú Especial B para 2 Personas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ] ;
+            ns1:name "Menus para compartir" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Gambas a la Plancha China" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pollo al Ajillo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Marisco a la Plancha China" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Codillo Asado Estilo Pekín" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pato a la plancha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Familia FeliZ a la Plancha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cangrejo Chino con Salsa de Soj" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tallarines Wu Dong" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cerdo Agridulce en Piña Natural" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Plancha, picante o fritas" ;
+                    ns1:name "Ancas de Rana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ternera a la Plancha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Espagueti Chino Plancha con Gambas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Muslitos de Cangrejos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ternera, pollo y gambas" ;
+                    ns1:name "San Xia Haa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Arroz tostado" ;
+                    ns1:name "Ku Bak con Gambas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Langostinos a la Plancha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pollo a la Plancha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ku Bak Pekinés Especial" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ternera, cerdo y pollo" ;
+                    ns1:name "San Xia You" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sepia a la Plancha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 unidades" ;
+                    ns1:name "Pincho de Carne de Cerdo San Di" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.85" ] ] ;
+            ns1:name "Platos Especiales" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Sopa de Verduras" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sopa de Maiz con Carne de Cangrejo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sopa de Want Tun" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sopa de Cangrejo con Espárragos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Picante!" ;
+                    ns1:name "Sopa Agripicante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sopa Especial de la Casa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sopa Fideos Chinos con Sa Chai" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sopa de Pollo con Champiñones" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sopa de Aleta de Tiburón" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ] ;
+            ns1:name "Sopa" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Picante!" ;
+                    ns1:name "Salsa Picante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Arroz Blanco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Salsa de Soja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.50" ] ] ;
+            ns1:name "Extras" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Verduras con Gambas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Gambas con Hongos Negros" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Picante!" ;
+                    ns1:name "Pescado con Agripicante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Calamares Fritos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Gambas con Champiñones" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pescado Estilo Hong Kong" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pescado con Bambú y Setas Chinas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Gambas Agridulces" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Picante!" ;
+                    ns1:name "Calamares con Picante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Gambas Rebozadas con Almendras" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Mariscos Variados Salteados" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Calamares con Pimientos Verdes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Gambas Crujientes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Langostinos Fritos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Gambas con Bambú y Setas Chinas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Picante!" ;
+                    ns1:name "Gambas con Guindillas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "Pescados y Mariscos" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "6 unidades - Empanadilas rellenas de verduras, setas y bambú" ;
+                    ns1:name "Shui Jing" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 unidades - Empanadillas con lomo y col china" ;
+                    ns1:name "Siau Long Bao" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 unidades - Dim sun variado al vapor" ;
+                    ns1:name "Combinados al Vapor" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "7 unidades - Caprichos rellenos de lomo y gambas" ;
+                    ns1:name "Sau Mai" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Gyoza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.85" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 unidades - Empanadilas rellenas de gambas y bambú al vapor" ;
+                    ns1:name "Shia Chiao" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ] ;
+            ns1:name "Dim Sun" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33 ml" ;
+                    ns1:name "Nestea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cerveza Volldam" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cervesa San Miguel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 ml" ;
+                    ns1:name "Kas Limón" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 ml" ;
+                    ns1:name "Agua" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 ml" ;
+                    ns1:name "Fanta Limón" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 ml" ;
+                    ns1:name "Coca Cola Zero" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "CerveZa Heineken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cerveza Keler" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 ml" ;
+                    ns1:name "Aquarius Naranja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 litros" ;
+                    ns1:name "Coca Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 ml" ;
+                    ns1:name "Aquarius Limón" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 ml" ;
+                    ns1:name "Fanta Naranja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 ml" ;
+                    ns1:name "Kas Naranja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ] ;
+            ns1:name "Bebidas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Verduras Variada Saslteada" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tortilla de Huevos con Jamón" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Hongos, champiñones y setas chinas" ;
+                    ns1:name "Setas Variadas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tortilla de Huevos con Gambas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Queso de soja" ;
+                    ns1:name "Tofu con Verduras" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ] ;
+            ns1:name "Huevos y Verduras" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Ensalada China con Rollo Primavera" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ensalada de Marisco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.85" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Wan Tun Frito" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ensalada de Brotes de Soja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Rollo de Primavera" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ensalada Agridulce" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 unidades" ;
+                    ns1:name "Rollo de Vietnam" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ensalada China" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ensalada de Algas Negras con Gambas y Brotes de Soja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ensalada de Gambas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.85" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pan de Gambas Frito" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pan Chino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "Entrantes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Elije tu variedad" ;
+                    ns1:name "Tallarines Fritos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Elije tu variedad" ;
+                    ns1:name "Pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Elije tu variedad" ;
+                    ns1:name "Fideos Chinos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Elije tu variedad" ;
+                    ns1:name "Ternera" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bolitas de Pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Elije tu variedad" ;
+                    ns1:name "Arroz Frito" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Elije tu variedad" ;
+                    ns1:name "Cerdo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Elije tu variedad" ;
+                    ns1:name "Costilla" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pasta Frita con Gambas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Entremeses Variados" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ] ;
+            ns1:name "Platos Principales" ] .
+

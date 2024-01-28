@@ -1,0 +1,422 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://la-cocotte.coopcycle.org/api/restaurants/29> ns1:hasMenu <https://la-cocotte.coopcycle.org/en/restaurant/29-gaudina-burgers#menu> .
+
+<https://la-cocotte.coopcycle.org/en/restaurant/29-gaudina-burgers#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Fais toi plaisir" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/48/6048e8dcb4138.jpeg> ;
+                    ns1:name "Crée ton burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ] ;
+            ns1:name "❤️🦄 BURGER DE TES REVES ❤️🦄" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/8a/608ac168390c9.jpeg> ;
+                    ns1:name "Nuggets de fromage X5" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/48/6048e98e5c2ec.jpeg> ;
+                    ns1:name "BEIGNETS DE CREVETTES AIL ET PERSIL X3" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Fish",
+                        "Milk",
+                        "Molluscs",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Stick Mozza X3" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jalapenos cheddar cheese X3" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Mini Churros à l'oignon X10" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/48/6048e94892f55.jpeg> ;
+                    ns1:name "Samossa au boeuf X1" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "🦑 Anneaux de poisson et de calmar géant 🦑" ;
+                    ns1:name "Calamar à la romaine X5" ;
+                    ns1:nutrition "Eggs",
+                        "Fish",
+                        "Molluscs",
+                        "Mustard",
+                        "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Nems impériaux au poulet X3" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/47/6047bae93bcc5.jpeg> ;
+                    ns1:name "Jalapenos cream cheese X3" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bouchées au fromage fondu et piment" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/47/6047bb0d3136e.jpeg> ;
+                    ns1:name "Chili cheese nuggets X5" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/48/6048e970e4221.jpeg> ;
+                    ns1:name "Onion rings x5" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "TAPAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "🌶 Mayonnaise maison au piment d'Espelette 🌶" ;
+                    ns1:nutrition "Eggs",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Moutarde au miel" ;
+                    ns1:nutrition "Eggs",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/44/6044d66e4a1ab.jpeg> ;
+                    ns1:name "🧄 Mayonnaise maison à l'ail 🧄" ;
+                    ns1:nutrition "Eggs",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Mayonnaise maison à la béarnaise" ;
+                    ns1:nutrition "Eggs",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "SAUCE BURGERS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "SAUCE ALGERIENNE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ] ;
+            ns1:name "NOS SAUCES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Gâteau aux amandes, fourré au cœur coulant nutella, parsemé de noisettes." ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/8a/608ac18baa7bf.jpeg> ;
+                    ns1:name "Fondant Nutella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fondant au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tiramisu maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cheese Cake New Yorkais" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/8a/608ac09da6b36.jpeg> ;
+                    ns1:name "Churros fourré au chocolat X3" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "NOS DESSERTS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Schweppes Agrumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Limonade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fuze tea pèche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Coca-Cola 0" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jus d'orange" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Coca-Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Seven Up" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ice tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Perrier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Schweppes , la fraicheur de la menthe et l'intensité du citron vert pour une boisson gazeuse désaltérante." ;
+                    ns1:name "Schweppes Mojito" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tropico" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "LES SOFTS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Pain boulanger - Steak haché Charolais - Mayonnaise montée à l'os à moelle - Poêlée de blettes et topinambours sauce marchand de vin - Salade \r
+Abondance AOP / Accompagné de ses frites maison""" ;
+                    ns1:name "LE BURGER DU TERROIR" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """- Pain du boulanger\r
+- Steak haché Charolais\r
+- Rösti de pomme de terre\r
+- Lard grillé\r
+- Oignons confits\r
+- Salade\r
+- Raclette""" ;
+                    ns1:name "LE GROBIDOU" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """- Pain du boulanger \r
+- Steak haché Charolais\r
+- Salade\r
+- Cheddar \r
+- Oignons crus\r
+- Cornichons\r
+- Sauce burger""" ;
+                    ns1:name "LE ROUTINIER" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """-Pain du boulanger\r
+- Steak haché Charolais\r
+- Coppa\r
+- Ricotta au basilic\r
+- Tapenade de tomates confites\r
+- Courgettes sautées \r
+- Salade""" ;
+                    ns1:name "LE CAPSOU" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Mustard",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """- Pain du boulanger\r
+- Steak haché de magret de canard\r
+- Sauce maison au foie gras\r
+- Oignons confits\r
+- Salade""" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/8a/608ac13c1a752.jpeg> ;
+                    ns1:name "LE PERIGOURDIN" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """- Pain du boulanger \r
+- Steak haché Charolais\r
+- Figatelli\r
+- Salade\r
+- Chèvre\r
+- Miel""" ;
+                    ns1:name "LE CORSE" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """- Pain du boulanger\r
+- Steak haché Charolais\r
+- Oeuf au plat\r
+- Salade\r
+- Cheddar \r
+- Fromage frais à la ciboulette""" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/48/6048ea0f8c793.jpeg> ;
+                    ns1:name "LE FRICOCOTTE" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/8a/608ac0c754325.jpeg> ;
+                    ns1:name "LE SACRE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """- Pain du boulanger \r
+- Steak haché Charolais\r
+- Reblochon AOP \r
+- Sauce carbonara maison \r
+- Salade""" ;
+                    ns1:name "LE TARTIFF" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """-Pain du boulanger\r
+-Salade\r
+-Piperade maison\r
+-Steak haché de boeuf Charolais\r
+-Tomme de brebis\r
+-Chorizo grillé\r
+-Mayonnaise maison au piment d’Espelette.""" ;
+                    ns1:name "LE BASQUE" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """- Pain du boulanger\r
+- Piperade maison \r
+- Salade\r
+- Rösti de pomme de terre\r
+- Champignons persillés\r
+- Oignons Confits""" ;
+                    ns1:name "LE VEGETARIEN" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ] ;
+            ns1:name "NOS BURGERS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Viande Charolaise, 180g" ;
+                    ns1:name "Tartare de boeuf du Gaudina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une tartiflette... Mais, avec des frites maison à la place des pommes de terre !" ;
+                    ns1:name "Fritiflette" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "NOS PLATS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Côte de Provence, 75cl \r
+Rosé""" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/48/6048e911924b7.jpeg> ;
+                    ns1:name "Château du Rouet cuvée \"Out of the Blue\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chateau Saint Roman" ;
+                    ns1:name "Côtes du Rhone 75cl Rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ] ;
+            ns1:name "NOS VINS" ] .
+

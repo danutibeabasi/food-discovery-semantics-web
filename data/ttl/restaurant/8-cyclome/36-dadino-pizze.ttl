@@ -1,0 +1,40 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cyclome.coopcycle.org/api/restaurants/36> a ns1:Restaurant ;
+    ns1:address <https://cyclome.coopcycle.org/api/addresses/12590> ;
+    ns1:description """Pizze napolitaines, uniquement des produits frais et de qualité, cuisinés et faits maison.\r
+\r
+Toutes les pizze sont servies avec de l'huile d'olive extra vierge et de l'origan.\r
+\r
+Base crème ou tomate sur demande.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.577918e+01 ;
+            ns1:longitude 3.079864e+00 ] ;
+    ns1:image <https://cyclome.coopcycle.org/media/cache/restaurant_thumbnail/62/82/6282a608441da.jpg> ;
+    ns1:name "Dadino Pizze" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:30" ;
+            ns1:dayOfWeek "Sunday",
+                "Thursday",
+                "Wednesday" ;
+            ns1:opens "18:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:45" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday" ;
+            ns1:opens "18:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://cyclome.coopcycle.org/en/restaurant/36-dadino-pizze" ] ] ;
+    ns1:sameAs <https://cyclome.coopcycle.org/en/restaurant/36-dadino-pizze> ;
+    ns1:url <https://cyclome.coopcycle.org/en/restaurant/36-dadino-pizze> .
+
+<https://cyclome.coopcycle.org/api/addresses/12590> a ns1:PostalAddress ;
+    ns1:name "Dadino Pizze" ;
+    ns1:streetAddress "13 Rue des Vieillards, Clermont-Ferrand, France" ;
+    ns1:telephone "+33463010101" .
+

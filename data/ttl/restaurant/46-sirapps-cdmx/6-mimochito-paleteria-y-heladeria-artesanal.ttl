@@ -1,0 +1,35 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://sirapps-cdmx.coopcycle.org/api/restaurants/6> a ns1:IceCreamShop ;
+    ns1:address <https://sirapps-cdmx.coopcycle.org/api/addresses/59> ;
+    ns1:description "Helados y Paletas artesanales de fruta natural sin colorantes, saborizantes o grasas vegetales añadidas" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 1.933876e+01 ;
+            ns1:longitude -9.899484e+01 ] ;
+    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/restaurant_thumbnail/62/06/6206c30298caa.jpg> ;
+    ns1:name "Mimochito Paleteria y Heladeria Artesanal" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "19:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "12:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "es" ;
+                    ns1:urlTemplate "https://sirapps-cdmx.coopcycle.org/en/restaurant/6-mimochito-paleteria-y-heladeria-artesanal" ] ] ;
+    ns1:sameAs <https://sirapps-cdmx.coopcycle.org/en/restaurant/6-mimochito-paleteria-y-heladeria-artesanal> ;
+    ns1:url <https://sirapps-cdmx.coopcycle.org/en/restaurant/6-mimochito-paleteria-y-heladeria-artesanal> .
+
+<https://sirapps-cdmx.coopcycle.org/api/addresses/59> a ns1:PostalAddress ;
+    ns1:name "Mimochito Paleteria y Heladeria Artesanal" ;
+    ns1:streetAddress "Cda. Revolución MZ491A LT7, San Miguel Teotongo, Ciudad de México, CDMX, México" ;
+    ns1:telephone "+525578356690" .
+

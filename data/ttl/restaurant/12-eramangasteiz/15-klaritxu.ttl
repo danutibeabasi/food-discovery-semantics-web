@@ -1,0 +1,40 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/15> a ns1:Restaurant ;
+    ns1:address <https://eramangasteiz.coopcycle.org/api/addresses/267> ;
+    ns1:bannerImage "https://eramangasteiz.coopcycle.org/media/cache/restaurant_banner/65/6d/656dbff2570f1102065739.jpg" ;
+    ns1:description "En Klaritxu nos conocen por la calidad y el sabor de nuestros alimentos. En la carta encontrarás una gran diversidad de productos que se adaptan a todos los paladares; disponemos de opciones para vegetarianos, veganos y celíacos." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.286608e+01 ;
+            ns1:longitude -2.697514e+00 ] ;
+    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/restaurant_thumbnail/60/f0/60f0190b06b2b.jpg> ;
+    ns1:name "Klaritxu" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:30" ;
+            ns1:dayOfWeek "Friday" ;
+            ns1:opens "09:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "09:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:30" ;
+            ns1:dayOfWeek "Saturday" ;
+            ns1:opens "12:40" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "es" ;
+                    ns1:urlTemplate "https://eramangasteiz.coopcycle.org/en/restaurant/15-klaritxu" ] ] ;
+    ns1:sameAs <https://eramangasteiz.coopcycle.org/en/restaurant/15-klaritxu> ;
+    ns1:url <https://eramangasteiz.coopcycle.org/en/restaurant/15-klaritxu> .
+
+<https://eramangasteiz.coopcycle.org/api/addresses/267> a ns1:PostalAddress ;
+    ns1:name "Klaritxu" ;
+    ns1:streetAddress "Calle Sierra de Aralar, 47, Vitoria-Gasteiz, Spain" ;
+    ns1:telephone "+34625731554" .
+

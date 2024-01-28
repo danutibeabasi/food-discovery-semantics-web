@@ -1,0 +1,13 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://demo.coopcycle.org/api/restaurants/124> ns1:hasMenu <https://demo.coopcycle.org/en/restaurant/124-la-pizza-de-don-cangrejo#menu> .
+
+<https://demo.coopcycle.org/en/restaurant/124-la-pizza-de-don-cangrejo#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "picsa picsa" ;
+                    ns1:name "picsa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€100.00" ] ] ;
+            ns1:name "test" ] .
+

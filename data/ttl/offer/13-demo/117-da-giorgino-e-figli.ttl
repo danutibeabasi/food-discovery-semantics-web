@@ -1,0 +1,134 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://demo.coopcycle.org/api/restaurants/117> ns1:hasMenu <https://demo.coopcycle.org/en/restaurant/117-da-giorgino-e-figli#menu> .
+
+<https://demo.coopcycle.org/en/restaurant/117-da-giorgino-e-figli#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Ingredienti: pomodoro, mozzarella, prosciutto cotto, funghi, olive verdi e nere, e carciofini." ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/632096d54e69f.jpeg> ;
+                    ns1:name "Pizza Capricciosa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ingredienti: mozzarella, gorgonzola, fontina, parmigiano, basilico" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/63209b185159f.jpeg> ;
+                    ns1:name "Pizza Quattro Formaggi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ingredienti: olio d'oliva, sale, peperoncino, salsiccia, mozzarella e friarielli." ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/632097f04eef1.jpeg> ;
+                    ns1:name "Pizza Salsiccia e Friarielli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ingredienti: mozzarella, panna, prosciutto cotto, mais." ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/63209a6f0d9a2.jpeg> ;
+                    ns1:name "Pizza Mimosa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ingredienti: pomodoro, mozzarella, basilico fresco, sale e olio." ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/632094153b494.jpeg> ;
+                    ns1:name "Pizza Margherita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ingredienti: olio, sale, pomodoro, mozzarella, basilico, wurstel e patatine." ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/632099670d4db.jpeg> ;
+                    ns1:name "Pizza Wurstel e Patatine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ingredienti: pomodoro, aglio, origano, olio." ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/63205f14d0e71.jpeg> ;
+                    ns1:name "Pizza Marinara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Pizze" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Ingredienti: sale, olio, peperoni, provola, pancetta." ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/6320a204596d6.jpeg> ;
+                    ns1:name "Panuozzo Colibrì" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ingredienti: sale, olio, pomodori, prosciutto, rucola, provola." ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/6320a396d710a.jpeg> ;
+                    ns1:name "Panuozzo Giorgino e Figli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ingredienti: sale, olio, salsiccia, friarielli, provola di Agerola." ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/6320a2df81256.jpeg> ;
+                    ns1:name "Panuozzo di Gragnano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Panuozzo" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "1Litro" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/6320b743c7ec2.jpeg> ;
+                    ns1:name "Acqua Naturale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1Litro" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/6320b80f89ea6.jpeg> ;
+                    ns1:name "Acqua Frizzante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75cl" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/6320bc6243b57.jpeg> ;
+                    ns1:name "Vino Falanghina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/6320babc7b7cb.jpeg> ;
+                    ns1:name "Fanta Orange" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "66cl" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/6320bb51978b5.jpeg> ;
+                    ns1:name "Birra Heineken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/6320ba96b6b53.jpeg> ;
+                    ns1:name "Coca Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/6320bc3244dae.jpeg> ;
+                    ns1:name "Coca Cola Zero" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "Bibite" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Ingredienti: patate, parmigiano, mozzarella." ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/6320c32b911f4.jpeg> ;
+                    ns1:name "Crocchè di Patate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 pezzi" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/6320c3abc4b97.jpeg> ;
+                    ns1:name "Pasta Cresciuta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Frittura composta da: crocchè, pasta cresciuta, baccalà, montanare, supplì." ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/6320c498d2d89.jpeg> ;
+                    ns1:name "Frittura all'Italiana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Antipasti" ] .
+

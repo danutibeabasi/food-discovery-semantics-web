@@ -1,0 +1,164 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://naofood.coopcycle.org/api/restaurants/146> ns1:hasMenu <https://naofood.coopcycle.org/en/restaurant/146-ezope-focaccia-carte-midi#menu> .
+
+<https://naofood.coopcycle.org/en/restaurant/146-ezope-focaccia-carte-midi#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Cookie aux pépites de chocolat noir et pâte à tartiner noisettes" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/b3/63b34e2c2298c.jpeg> ;
+                    ns1:name "🍪 Cookie au chocolat 🍫" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Peanuts",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pommes locales" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/a0/63a0228c19e6b.jpeg> ;
+                    ns1:name "🍏 Crumble de pommes 🍎" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/b4/63b46cba977ce.jpeg> ;
+                    ns1:name "🥧 Dessert du jour 🍰" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Patate Douce / Céleri / Crème + Croûtons de focaccia" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/12/65127f2ccb3e3.jpeg> ;
+                    ns1:name "Soupe du jour" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Granola aux amandes, noisettes, flocons d'avoine,..." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/a0/63a022f8ee5cc.jpeg> ;
+                    ns1:name "🍚 Fromage blanc & granola maison 🌰" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Desserts & Soupe" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/b2/63b2b739e3d93.jpeg> ;
+                    ns1:name "⭐ Formule plat + boisson + dessert ⭐" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/b2/63b2b78e8b4b4.jpeg> ;
+                    ns1:name "🌟 Formule plat + dessert 🌟" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ] ;
+            ns1:name "MENU" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Jambon speck / Brie / Tomates séchées / Oignons confits / Batavia / Pickles / Herbes fraîches" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/f2/63f269955bdd2.jpeg> ;
+                    ns1:name "🐽 Speck & Brie 🧀 - Servie toastée" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Patates douces rôties / Comté AOP / Tomates séchées / Graines torréfiées / Pickles / Batavia / Herbes fraîches / Huile verte" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/72/6572490b30e65.jpeg> ;
+                    ns1:name "🌱 Patates douces rôties & Comté 🧀 - Servie toastée" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/72/6572487853efe.jpeg> ;
+                    ns1:name "🐟 Rillettes de maquereaux & Choux Rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet rôti fermier / Grana Padano / Choux rouge / Pickles / Batavia / Sauce au fromage blanc" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/b3/63b34b6a507af.jpeg> ;
+                    ns1:name "🐓 Poulet rôti & Grana Padano 🧀 - Servie toastée" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ] ;
+            ns1:name "Focaccias OU Salades" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Lasagnes Végétariennes Maison (Céleri, Carottes, Tomates, Oignons, Mozzarella et Grana Padano)" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/12/65127e32ac239.jpeg> ;
+                    ns1:name "Plat du jour" ;
+                    ns1:nutrition "Celery",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ] ;
+            ns1:name "Plat du jour" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Ferme Saint-Charles (44) - 33cl" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/b2/63b2ebb103434.jpeg> ;
+                    ns1:name "Cidre artisanale demi-sec" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/ae/63aef26083d50.jpeg> ;
+                    ns1:name "Bière artisanale IPA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Little Joy, fabriqué à Vannes (56)" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/64/e8/64e878be936f7.jpeg> ;
+                    ns1:name "Kombucha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Micro brasserie La Beluette, La Chapelle sur Erdre - 33cl" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/ae/63aef2433dd8d.jpeg> ;
+                    ns1:name "Bière artisanale Blanche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Le coq toqué - 25cl" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/b3/63b34d56c3cf1.jpeg> ;
+                    ns1:name "Jus de fruits BIO Pomme" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Le coq toqué - 27,5cl" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/b3/63b34d0b3966c.jpeg> ;
+                    ns1:name "Jus de fruits BIO Pétillant Pomme Framboise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Le coq toqué - 27,5cl" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/b3/63b34d387f8da.jpeg> ;
+                    ns1:name "Jus de fruits BIO Pétillant Pomme Gingembre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Micro brasserie La Beluette, La Chapelle sur Erdre - 33cl" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/ae/63aef21810056.jpeg> ;
+                    ns1:name "Bière artisanale Ambrée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cristaline - 50cl" ;
+                    ns1:name "Eau plate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cristaline - 50cl" ;
+                    ns1:name "Eau pétillante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Boissons" ] .
+

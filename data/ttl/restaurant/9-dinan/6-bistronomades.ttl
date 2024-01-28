@@ -1,0 +1,41 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://dinan.coopcycle.org/api/restaurants/6> a ns1:Restaurant ;
+    ns1:address <https://dinan.coopcycle.org/api/addresses/252> ;
+    ns1:description "\"Vous cherchez un repas équilibré, original, de qualité et facile à consommer à votre bureau, chez vous, en déplacement, seul, entre collègues ou entres amis, la gamme Bistronomades® est faite pour vous. Nous livrons sur commande dans les entreprises partenaires (selon le planning affiché dans votre entreprise) ou nous déposons vos commandes dans nos point relais. Vous pouvez, de chez vous, programmer vos déjeuners pour la semaine en variant les plaisirs, entre viandes, poissons ou repas végétariens. Nos propositions, sont variées et renouvelées régulièrement en fonction de l’inspiration des chefs.\"" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.846815e+01 ;
+            ns1:longitude -2.048039e+00 ] ;
+    ns1:image <https://dinan.coopcycle.org/media/cache/restaurant_thumbnail/63/52/635258f9dcbba.png> ;
+    ns1:name "Bistronomades" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "18:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "09:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "0.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "0.00" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://dinan.coopcycle.org/en/restaurant/6-bistronomades" ] ] ;
+    ns1:sameAs <https://dinan.coopcycle.org/en/restaurant/6-bistronomades> ;
+    ns1:url <https://dinan.coopcycle.org/en/restaurant/6-bistronomades> .
+
+<https://dinan.coopcycle.org/api/addresses/252> a ns1:PostalAddress ;
+    ns1:name "Bistronomades" ;
+    ns1:streetAddress "33 Le Domaine, Taden, France" ;
+    ns1:telephone "+33749510852" .
+

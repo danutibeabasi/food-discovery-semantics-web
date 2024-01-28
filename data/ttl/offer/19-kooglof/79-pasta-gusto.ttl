@@ -1,0 +1,96 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://kooglof.coopcycle.org/api/restaurants/79> ns1:hasMenu <https://kooglof.coopcycle.org/en/restaurant/79-pasta-gusto#menu> .
+
+<https://kooglof.coopcycle.org/en/restaurant/79-pasta-gusto#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Choisissez vos pâtes, votre sauce et si vous êtes gourmands, vos suppléments 😋" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/19/6419d129d6283.jpeg> ;
+                    ns1:name "La Barquette Maxi 🍝🍝" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Choisissez vos pâtes, votre sauce et si vous êtes gourmands, vos suppléments 😋" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/19/6419d1103393b.jpeg> ;
+                    ns1:name "La Barquette Classique 🍝" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "Les Pâtes 🍝" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Orangina (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola sans sucres (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Schweppes agrumes (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fanta Citron Frappé (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola goût original (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Carola verte (50cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Carola bleu (50cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ice tea (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sprite goût original (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola Cherry (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Oasis tropical (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Fuze tea mangue (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Les Boissons 🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/19/6419d1be96b8b.jpeg> ;
+                    ns1:name "Panna cotta fruits rouges" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/19/6419d192420c6.jpeg> ;
+                    ns1:name "Tiramisu Spéculoos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/1a/641ab4eb03799.jpeg> ;
+                    ns1:name "Tiramisu Kinder" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/19/6419d1ac61da9.jpeg> ;
+                    ns1:name "Tiramisu Café" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ] ;
+            ns1:name "Les Desserts 🍮" ] .
+

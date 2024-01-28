@@ -1,0 +1,41 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://beefast.coopcycle.org/api/restaurants/21> a ns1:Restaurant ;
+    ns1:address <https://beefast.coopcycle.org/api/addresses/784> ;
+    ns1:description """Le Robin Room c’est une cuisine maison à base de produits frais confectionnée avec amour chaque matin par notre équipe. Vous y trouverez des plats simples, généreux et originaux évoluant  au fil des inspirations métissées de la cheffe et dans le respect de la saisonnalité des produits. \r
+Le Robin Room c’est aussi et avant tout une aventure humaine aux côtés de collaborateurs qui partagent les mêmes valeurs et une passion commune pour les bons produits.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.98953e+01 ;
+            ns1:longitude 2.29935e+00 ] ;
+    ns1:image <https://beefast.coopcycle.org/media/cache/restaurant_thumbnail/64/92/6492eea205bc2.png> ;
+    ns1:name "Robin Room" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "12:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "10.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.50" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://beefast.coopcycle.org/en/restaurant/21-robin-room" ] ] ;
+    ns1:sameAs <https://beefast.coopcycle.org/en/restaurant/21-robin-room> ;
+    ns1:url <https://beefast.coopcycle.org/en/restaurant/21-robin-room> .
+
+<https://beefast.coopcycle.org/api/addresses/784> a ns1:PostalAddress ;
+    ns1:name "Robin Room" ;
+    ns1:streetAddress "9 Rue Flatters, 80000 Amiens, France" ;
+    ns1:telephone "+33322439035" .
+

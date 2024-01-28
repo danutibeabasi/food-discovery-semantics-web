@@ -1,0 +1,941 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/15> ns1:hasMenu <https://eramangasteiz.coopcycle.org/en/restaurant/15-klaritxu#menu> .
+
+<https://eramangasteiz.coopcycle.org/en/restaurant/15-klaritxu#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """6-8 personas
+\r
+De La Rioja a tu mesa, con alegrías y guindillas en aceite por encima. Bien picantona, como a ti te gusta.
+\r
+Ingredientes: Alegrías, guindillas verdes en aceite, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/60/e8/60e8a5916563e.jpeg> ;
+                    ns1:name "Tortilla Riojana" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """2-4 personas
+\r
+Una mayonesa hecha con nuestros huevos de primera calidad, las gulas al ajillo y pimentón y unos ajetes frescos salteados puestos por encima.
+\r
+Ingredientes: Gulas, ajo, pimentón picante, mayonesa, ajos frescos, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/c4/61c4c2034414a.jpeg> ;
+                    ns1:name "Tortilla la del Norte Gaztea" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """2-4 personas
+\r
+De La Rioja a tu mesa, con alegrías y guindillas en aceite por encima. Bien picantona, como a ti te gusta.
+\r
+Ingredientes: Alegrías, guindillas verdes en aceite, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/60/e8/60e8a54d65d14.jpeg> ;
+                    ns1:name "Tortilla Riojana Gaztea" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.45" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """2-4 personas
+\r
+Tiene salsa barbacoa, salchichas, bacon y pimientos verdes ¡Toda una explosión de sabores! Una tortilla al estilo estadounidense en toda regla.
+\r
+Ingredientes: Salsa barbacoa, salchichas, pimiento verde, bacon, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/d9/61d96820b7763.jpeg> ;
+                    ns1:name "Tortilla Mississippi Gaztea" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """2-4 personas
+\r
+La Orio trae una salsa de mayonesa con atún acompañada de unas lochas de jamón york. 
+\r
+Ingredientes: Atún, mayonesa, jamón york, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b1/5fb15138150c5.jpg> ;
+                    ns1:name "Tortilla Orio Gaztea" ;
+                    ns1:nutrition "Eggs",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6-8 personas
+\r
+Tiene salsa barbacoa, salchichas, bacon y pimientos verdes ¡Toda una explosión de sabores! Una tortilla al estilo estadounidense en toda regla.
+\r
+Ingredientes: Salsa barbacoa, salchichas, pimiento verde, bacon, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/d9/61d967d0441a4.jpeg> ;
+                    ns1:name "Tortilla Mississippi Grande" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """2-4 personas
+\r
+Una clásica hecha con harina de garbanzo  y con alegrías bien picantitas. 
+\r
+Ingredientes: Alegrías, patatas, cebolla, harina de garbanzos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/d9/61d9607bcf1c9.jpeg> ;
+                    ns1:name "Tortilla Lekarie Picante Gaztea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """2-4 personas
+\r
+Una salsa hecha con todo tipo de verduras, calabacín, pimientos, cebolla, tomate,... de lo más suculenta. 
+\r
+Ingredientes: Salsa de pisto (pimientos, cebolla, tomate, calabacín), patatas, cebolla, harina de garbanzos .""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/d9/61d9595d58da0.jpeg> ;
+                    ns1:name "Tortilla Lekarie Pistoa Gaztea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """2-4 personas
+\r
+La turca con su pollo picadito frito, la salsa alioli, la lechuga, y la salsa turca kebab. Es una tortilla estupenda para comer o cenar, súper completa.
+\r
+Ingredientes: Salsa alioli, pollo frito, lechuga, salsa kebab, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/c5/61c599f01d556.jpeg> ;
+                    ns1:name "Tortilla Turca Gaztea" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.05" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """2-4 personas
+\r
+Hecha con una deliciosa crema verde de espinacas, jugosa y suave  ¡Vas a querer repetir seguro!
+\r
+Salsa de espinacas (espinacas, nata, queso de untar), patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b1/5fb14fb60c3c1.jpg> ;
+                    ns1:name "Tortilla Green Gaztea" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """2-4 personas
+\r
+¿Te gustan los pintxos de txaka? ¿ y los de tortilla? Pues aquí tienes todo en uno, esta tortilla está hecha para ti.
+\r
+Ingredientes: txaka, mayonesa, jamón york, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b1/5fb1517ff15b8.jpg> ;
+                    ns1:name "Tortilla Surimi Gaztea" ;
+                    ns1:nutrition "Eggs",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """2-4 personas
+\r
+La mayonesa mezclada con el atún, el tomate con la lechuga y el jamón york hacen que además de jugosa, esté crujiente. 
+\r
+Ingredientes: Mayonesa, tomate, atún, lechuga, jamón york, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/60/e8/60e89dce03b4a.jpeg> ;
+                    ns1:name "Tortilla Vegetal Gaztea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6-8 personas
+\r
+¿No sabes qué comer todavía? No te lo pienses más, qué mejor que una tortilla clásica de toda la vida.
+\r
+Ingredientes: Patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b1/5fb14f3e03a58.jpg> ;
+                    ns1:name "Tortilla Clásica Grande" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6-8 personas
+\r
+Una salsa hecha con todo tipo de verduras, calabacín, pimientos, cebolla, tomate,... de lo más suculenta. 
+\r
+Ingredientes: Salsa de pisto (pimientos, cebolla, tomate, calabacín), patatas, cebolla, harina de garbanzos .""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/d9/61d95888087b9.jpeg> ;
+                    ns1:name "Tortilla Lekarie Pistoa Grande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6-8 personas
+\r
+Con queso y chorizo picante por encima, nos trae el recuerdo de las patatas con chorizo que comíamos en la casa de la amona.
+\r
+Ingredientes: patatas, cebolla, huevos, queso y chorizo.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b1/5fb14ed8202a8.jpg> ;
+                    ns1:name "Tortilla Casera Grande" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """2-4 personas
+\r
+Con queso y chorizo picante por encima, nos trae el recuerdo de las patatas con chorizo que comíamos en la casa de la amona.
+\r
+Ingredientes: patatas, cebolla, huevos, queso y chorizo.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b1/5fb14f16c9e13.jpg> ;
+                    ns1:name "Tortilla Casera Gaztea" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """2-4 personas
+\r
+Con su punto crujiente de nuestras piparras y su toque a mar de las gambas. 
+\r
+Ingredientes: Atún, mayonesa, piparras, vinagre de módena, gambas, perejil, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/be/61be2994bd29f.jpeg> ;
+                    ns1:name "Tortilla Anouska Gaztea" ;
+                    ns1:nutrition "Crustaceans",
+                        "Eggs",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.65" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """2-4 personas
+\r
+¿Te gusta la tortilla clásica de toda la vida, pero la prefieres sin huevos?
+\r
+Ingredientes: Patatas, cebolla, harina de garbanzos""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/60/e8/60e8a46bebf40.jpeg> ;
+                    ns1:name "Tortilla Lekarie Klasikoa Gaztea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b1/5fb151ca9b326.jpg> ;
+                    ns1:name "Tortilla Txapelduna Gaztea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.65" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6-8 personas
+\r
+Con su punto crujiente de nuestras piparras y su toque a mar de las gambas. 
+\r
+Ingredientes: Atún, mayonesa, piparras, vinagre de módena, gambas, perejil, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/be/61be28b9011e2.jpeg> ;
+                    ns1:name "Tortilla Anouska Grande" ;
+                    ns1:nutrition "Crustaceans",
+                        "Eggs",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6-8 personas
+\r
+Hecha con una deliciosa crema verde de espinacas, jugosa y suave  ¡Vas a querer repetir seguro!
+\r
+Salsa de espinacas (espinacas, nata, queso de untar), patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b1/5fb14f8425139.jpg> ;
+                    ns1:name "Tortilla Green Grande" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6-8 personas
+\r
+¿Te gustan los pintxos de txaka? ¿ y los de tortilla? Pues aquí tienes todo en uno, esta tortilla está hecha para ti.
+\r
+Ingredientes: txaka, mayonesa, jamón york, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b1/5fb1515a3217c.jpg> ;
+                    ns1:name "Tortilla Surimi Grande" ;
+                    ns1:nutrition "Eggs",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """2-4 personas
+\r
+Tenemos una tortilla hecha con harina de garbanzo y con unos pimientos de primera. Los verdes están mezclados con las patatas y los rojos van por encima. 
+\r
+Ingredientes: Pimientos rojos asados, pimientos verdes, patatas, cebolla, harina de garbanzos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/d9/61d963c581251.jpeg> ;
+                    ns1:name "Tortilla Lekarie Piperrak Gaztea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6-8 personas
+\r
+Una mezcla de salado y dulce que te dejará con ganas de más: pimientos verdes, cebolla caramelizada y el mejor jamón serrano cortado en trocitos.
+\r
+Ingredientes: pimiento verde, cebolla caramelizada, jamón serrano, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b1/5fb150b8384cd.jpg> ;
+                    ns1:name "Tortilla Mediterránea Grande" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6-8 personas
+\r
+La mayonesa mezclada con el atún, el tomate con la lechuga y el jamón york hacen que además de jugosa, esté crujiente. 
+\r
+Ingredientes: Mayonesa, tomate, atún, lechuga, jamón york, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/60/e8/60e89cd8027a6.jpeg> ;
+                    ns1:name "Tortilla Vegetal" ;
+                    ns1:nutrition "Eggs",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6-8 personas
+\r
+La Orio trae una salsa de mayonesa con atún acompañada de unas lochas de jamón york. 
+\r
+Ingredientes: Atún, mayonesa, jamón york, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b1/5fb150f758c76.jpg> ;
+                    ns1:name "Tortilla Orio Grande" ;
+                    ns1:nutrition "Eggs",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """2-4 personas
+\r
+Tiene taquitos de jamón york y jamón serrano y el toque cremoso del queso.
+\r
+Ingredientes: Jamón serrano, jamón york, queso, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/d9/61d94a58138ea.jpeg> ;
+                    ns1:name "Tortilla Jamona Gaztea" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b1/5fb150465082b.jpg> ;
+                    ns1:name "Tortilla Lodosa Grande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6-8 personas
+\r
+Una clásica hecha con harina de garbanzo  y con alegrías bien picantitas. 
+\r
+Ingredientes: Alegrías, patatas, cebolla, harina de garbanzos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/d9/61d9602cc61e2.jpeg> ;
+                    ns1:name "Tortilla Lekarie Picante Grande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.35" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6-8 personas
+\r
+Con una salsa hecha con las mejores setas, queso de cabra y jamón serrano. Ideal para llevar al monte.
+\r
+Ingredientes: Salsa mendizalea (setas, rulo de cabra, nata, miel), jamón serrano, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/be/61be2735e5b10.jpeg> ;
+                    ns1:name "Tortilla Mendizalea Gaztea" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6-8 personas
+\r
+Y para completar la tortilla de Burgos, qué mejor que añadirle unas alegrías para darle ese toque picantón que tanto nos gusta.  
+\r
+Ingredientes: morcilla, tomate frito, alegrías, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/d8/61d87ca44d532.jpeg> ;
+                    ns1:name "Tortilla Burgos Picante Grande" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.85" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b1/5fb151a056bad.jpg> ;
+                    ns1:name "Tortilla Txapelduna Grande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.25" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6-8 personas
+\r
+Con una salsa hecha con las mejores setas, queso de cabra y jamón serrano. Ideal para llevar al monte.
+\r
+Ingredientes: Salsa mendizalea (setas, rulo de cabra, nata, miel), jamón serrano, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/be/61be27d6de78d.jpeg> ;
+                    ns1:name "Tortilla Mendizalea Grande" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6-8 personas
+\r
+Una clásica con alegrías bien picantitas. Como su propio nombre lo dice, hay que darle “alegría a la vida”.
+\r
+Ingredientes: Alegrías, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/60/e8/60e8a1294f10c.jpeg> ;
+                    ns1:name "Tortilla Clasica Picante Grande" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """2-4 personas
+\r
+La morcilla la preparamos con un chorrito de tomate frito para darle un toque más jugoso.
+\r
+Ingredientes: morcilla, tomate frito, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b1/5fb14eac4009e.jpg> ;
+                    ns1:name "Tortilla Burgos Gaztea" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6-8 personas
+\r
+No hay nada como un sabor de nuestra tierra. La tortilla vasca con sus txitxikis enamora a cualquiera que la pruebe.
+\r
+Ingredientes: Patatas, cebolla, huevos y txitxikis.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/d8/61d88fbaeabcc.jpeg> ;
+                    ns1:name "Tortilla Vasca Grande" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6-8 personas
+\r
+Es la opción perfecta para acompañar con una sidra o unas chuletillas, lleva queso y  nueces por encima. Te vas a sentir como en una verdadera sidrería.
+\r
+Ingredientes: Queso, nueces, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/d9/61d966c86e266.jpeg> ;
+                    ns1:name "Tortilla Sagardotegia Grande" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6-8 personas
+\r
+La turca con su pollo picadito frito, la salsa alioli, la lechuga, y la salsa turca kebab. Es una tortilla estupenda para comer o cenar, súper completa.
+\r
+Ingredientes: Salsa alioli, pollo frito, lechuga, salsa kebab, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/c5/61c5999d0935d.jpeg> ;
+                    ns1:name "Tortilla Turca Grande" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6-8 personas
+\r
+Si optas por una opción más “vegetal” tienes nuestra pisto, de lo más suculenta. 
+\r
+Ingredientes: Salsa pisto (pimientos, cebolla, tomate, calabacín), patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/d9/61d9778baeb3d.jpeg> ;
+                    ns1:name "Tortilla Pisto Grande" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """2-4 personas
+\r
+Y para completar la tortilla de Burgos, qué mejor que añadirle unas alegrías para darle ese toque picantón que tanto nos gusta.  
+\r
+Ingredientes: morcilla, tomate frito, alegrías, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/d8/61d87e4e3dab3.jpeg> ;
+                    ns1:name "Tortilla Burgos Picante Gaztea" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """2-4 personas
+\r
+No hay nada como un sabor de nuestra tierra. La tortilla vasca con sus txitxikis enamora a cualquiera que la pruebe.
+\r
+Ingredientes: Patatas, cebolla, huevos y txitxikis.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/d8/61d8901214266.jpeg> ;
+                    ns1:name "Tortilla Vasca Gaztea" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6-8 personas
+\r
+Una mayonesa hecha con nuestros huevos de primera calidad, las gulas al ajillo y pimentón y unos ajetes frescos salteados puestos por encima.
+\r
+Ingredientes: Gulas, ajo, pimentón picante, mayonesa, ajos frescos, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/c4/61c4c0b78783a.jpeg> ;
+                    ns1:name "Tortilla la del Norte Grande" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.45" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b1/5fb150707f0bb.jpg> ;
+                    ns1:name "Tortilla Lodosa Gaztea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """2-4 personas
+\r
+Si optas por una opción más “vegetal” tienes nuestra pisto, de lo más suculenta. 
+\r
+Ingredientes: Salsa pisto (pimientos, cebolla, tomate, calabacín), patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/d9/61d977e6c8c6a.jpeg> ;
+                    ns1:name "Tortilla Pisto Gaztea" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6-8 personas
+\r
+Tiene taquitos de jamón york y jamón serrano y el toque cremoso del queso.
+\r
+Ingredientes: Jamón serrano, jamón york, queso, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/d9/61d9486e8e234.jpeg> ;
+                    ns1:name "Tortilla Jamona Grande" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """2-4 personas
+\r
+Hecha, como dice su propio nombre, con oreja de cerdo, todo bien cocido y cortado en cachitos con pimentón. Y la salsa picante, que no podía faltar.
+\r
+Ingredientes: Oreja de cerdo, salsa picante (alegrías, tomate, guindillas, cebolla), pimentón picante, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/d9/61d979a60b62d.jpeg> ;
+                    ns1:name "Tortilla Belarria Gaztea" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """2-4 personas
+\r
+Tiene bacon en cachitos, tostaditos,  y lo acompaña el  queso que se funde con la tortilla.
+\r
+Ingredientes: Patatas, cebolla, huevos, queso y bacon.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b1/5fb150160b002.jpg> ;
+                    ns1:name "Tortilla Inglesa Gaztea" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6-8 personas
+\r
+Tenemos una tortilla hecha con harina de garbanzo y con unos pimientos de primera. Los verdes están mezclados con las patatas y los rojos van por encima. 
+\r
+Ingredientes: Pimientos rojos asados, pimientos verdes, patatas, cebolla, harina de garbanzos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/d9/61d9640c1a816.jpeg> ;
+                    ns1:name "Tortilla Lekarie Piperrak Grande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """2-4 personas
+\r
+Una mezcla de salado y dulce que te dejará con ganas de más: pimientos verdes, cebolla caramelizada y el mejor jamón serrano cortado en trocitos.
+\r
+Ingredientes: pimiento verde, cebolla caramelizada, jamón serrano, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b1/5fb150dcdeccc.jpg> ;
+                    ns1:name "Tortilla Mediterránea Gaztea" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.25" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6-8 personas
+\r
+La morcilla la preparamos con un chorrito de tomate frito para darle un toque más jugoso.
+\r
+Ingredientes: morcilla, tomate frito, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b1/5fb14e84e1e34.jpg> ;
+                    ns1:name "Tortilla Burgos Grande" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """2-4 personas
+\r
+¿No sabes qué comer todavía? No te lo pienses más, qué mejor que una tortilla clásica de toda la vida. 
+\r
+Ingredientes: Patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b1/5fb14f602a2b4.jpg> ;
+                    ns1:name "Tortilla Clásica Gaztea" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6-8 personas
+\r
+Hecha, como dice su propio nombre, con oreja de cerdo, todo bien cocido y cortado en cachitos con pimentón. Y la salsa picante, que no podía faltar.
+\r
+Ingredientes: Oreja de cerdo, salsa picante (alegrías, tomate, guindillas, cebolla), pimentón picante, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/d9/61d9790ed1fac.jpeg> ;
+                    ns1:name "Tortilla Belarria Grande" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6-8 personas
+\r
+Tiene bacon en cachitos, tostaditos,  y lo acompaña el  queso que se funde con la tortilla.
+\r
+Ingredientes: Patatas, cebolla, huevos, queso y bacon.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b1/5fb14ff0647e3.jpg> ;
+                    ns1:name "Tortilla Inglesa" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """2-4 personas
+\r
+Una clásica con alegrías bien picantitas. Como su propio nombre lo dice, hay que darle “alegría a la vida”.
+\r
+Ingredientes: Alegrías, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/d8/61d891b016fb2.jpeg> ;
+                    ns1:name "Tortilla Clásica Picante Gaztea" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6-8 personas
+\r
+¿Te gusta la tortilla clásica de toda la vida, pero la prefieres sin huevos?
+\r
+Ingredientes: Patatas, cebolla, harina de garbanzos""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/60/e8/60e8a38fbfbce.jpeg> ;
+                    ns1:name "Tortilla Lekarie Klasikoa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """2-4 personas
+\r
+Es la opción perfecta para acompañar con una sidra o unas chuletillas, lleva queso y  nueces por encima. Te vas a sentir como en una verdadera sidrería.
+\r
+Ingredientes: Queso, nueces, patatas, cebolla y huevos.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/d9/61d9671704169.jpeg> ;
+                    ns1:name "Tortilla Sagardotegia Gaztea" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.95" ] ] ;
+            ns1:name "Tortillas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/51/5f51e82c493ca.jpg> ;
+                    ns1:name "Tinto joven Rioja Alavesa Betikoa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/e0/61e02462b52b9.jpeg> ;
+                    ns1:name "Cerveza sin alcohol 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/51/5f51e6e90934e.jpg> ;
+                    ns1:name "Coca cola 33 cl." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/64/5f6464d12c323.jpg> ;
+                    ns1:name "Kas naranja 33 cl." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/51/5f51e07f9d825.jpg> ;
+                    ns1:name "Botellín agua" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/51/5f51edcbed213.jpg> ;
+                    ns1:name "Tinto crianza Rioja Alavesa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/e0/61e0241af3975.jpeg> ;
+                    ns1:name "Cerveza Keler 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Para acompañar" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/e1/61e1ce390efba.jpeg> ;
+                    ns1:name "Loretxus Mixtas y Verduritas (6 unidades)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b1/5fb14d792406d.jpg> ;
+                    ns1:name "Loretxus Mixtas (6 unidades)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/e1/61e1cdea82648.jpeg> ;
+                    ns1:name "Loretxus Mixtas y Verduritas (12 unidades)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b1/5fb14df4b9ca8.jpg> ;
+                    ns1:name "Loretxus Vegetarianas (6 unidades)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/e1/61e1ccfb7ca54.jpeg> ;
+                    ns1:name "Loretxus Mixtas (12 unidades)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/e1/61e1cef903792.jpeg> ;
+                    ns1:name "Loretxus Vegetarianas (12 unidades)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/e1/61e1cd8b720cf.jpeg> ;
+                    ns1:name "Loretxus Mixtas Picantes (12 unidades)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b1/5fb14d9c5733a.jpg> ;
+                    ns1:name "Loretxus Mixtas Picantes (6 unidades)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ] ;
+            ns1:name "Loretxus" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """28x28cm (2-4 personas)
+\r
+Una mezcla de sabores inmejorable, el salado de la morcilla con el dulce de las manzanas.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/e0/61e0029aa1977.jpeg> ;
+                    ns1:name "Empanada de Morcilla con Manzana Txikia" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """40x35cm (6-8 personas)
+\r
+Una mezcla de sabores inmejorable, el salado de la morcilla con el dulce de las manzanas.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/e0/61e0024334fc3.jpeg> ;
+                    ns1:name "Empanada de Morcilla con Manzana Grande" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/df/61dff1e236cb8.jpeg> ;
+                    ns1:name "Empanada Veggie Txikia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """28x28cm (2-4 personas)
+\r
+La empanada clásica que siempre nos acompaña, desde la infancia hasta madurez. Abundantes trozos de atún con pimiento verde y cebolla.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/df/61dffd1c3bc8f.jpeg> ;
+                    ns1:name "Empanada de Atún con Pimientos y Tomate Txikia" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """40x35cm (6-8 personas)
+\r
+Fina y delicada por su hojaldre, jugosa por sus espinacas con queso y sabrosa por sus gambas.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/df/61dffe3d38be1.jpeg> ;
+                    ns1:name "Empanada de Espinacas, Queso y Gambas Grande" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Crustaceans",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """40x35cm (6-8 personas)
+\r
+Una de las empanadas más demandadas, por su sabor a carne con el picante que tanto gusta, y el cremoso aguacate.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/d9/61d9cf4967af3.jpeg> ;
+                    ns1:name "Empanada Mexicana con Aguacate Grande" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """40x35cm (6-8 personas)
+\r
+¿A quién no le gusta una buena empanada con trocitos de verduras y queso fundido?""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/e0/61e0037c9896e.jpeg> ;
+                    ns1:name "Empanada de Verduritas con Queso Grande" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """28x28cm (2-4 personas)
+\r
+Una de las empanadas más demandadas, por su sabor a carne con el picante que tanto gusta, y el cremoso aguacate.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/d9/61d9cfbabf6f5.jpeg> ;
+                    ns1:name "Empanada Mexicana con Aguacate Txikia" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """28x28cm (2-4 personas)
+\r
+Fina y delicada por su hojaldre, jugosa por sus espinacas con queso y sabrosa por sus gambas.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/df/61dffea08f8f9.jpeg> ;
+                    ns1:name "Empanada de Espinacas, Queso y Gambas Txikia" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Crustaceans",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/df/61dff15394a97.jpeg> ;
+                    ns1:name "Empanada Veggie Grande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """40x35cm (6-8 personas)
+\r
+La empanada clásica que siempre nos acompaña, desde la infancia hasta madurez. Abundantes trozos de atún con pimiento verde y cebolla.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/df/61dff556cb77c.jpeg> ;
+                    ns1:name "Empanada de Atún con Pimientos y Tomate Grande" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """40x35cm (6-8 personas)
+\r
+Una empanada con lo mejor de la carne, las verduras y su toque de trufa.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/df/61dfffc8e9792.jpeg> ;
+                    ns1:name "Empanada de Carne Boloñesa con Trufa Grande" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """28x28cm (2-4 personas)
+\r
+¿A quién no le gusta una buena empanada con trocitos de verduras y queso fundido?""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/e0/61e003e4604a7.jpeg> ;
+                    ns1:name "Empanada de Verduritas con Queso Txikia" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """28x28cm (2-4 personas)
+\r
+Una empanada con lo mejor de la carne, las verduras y su toque de trufa.""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/e0/61e0004266a31.jpeg> ;
+                    ns1:name "Empanada de Carne Boloñesa con Trufa Txikia" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ] ;
+            ns1:name "Empanadas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "18 uds." ;
+                    ns1:name "Croquetas Boletus" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "18 uds" ;
+                    ns1:name "Croquetas Bacalao" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "18 uds." ;
+                    ns1:name "Croquetas Queso Azul" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b1/5fb14d57e24bd.jpg> ;
+                    ns1:name "Croquetas variadas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Croquetas Boletus" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Croquetas Jamón Ibérico" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Croquetas Bacalao" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Croquetas Zanahoria con Puerro Confitado y Dátiles" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Croquetas Queso Azul" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "18 uds." ;
+                    ns1:name "Croquetas Zanahoria con Puerro Confitado y Dátiles" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "18 uds." ;
+                    ns1:name "Croquetas Jamón Ibérico" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ración 18 unidades variadas de Jamón ibérico, Bacalao, Boletus, Zanahoria con puerro confitado y dátiles, y queso azul" ;
+                    ns1:name "Croquetas variadas 18 unidades" ;
+                    ns1:nutrition "Eggs",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ] ;
+            ns1:name "Croquetas" ] .
+

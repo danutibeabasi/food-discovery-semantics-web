@@ -1,0 +1,165 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiers-metz.coopcycle.org/api/restaurants/6> ns1:hasMenu <https://coursiers-metz.coopcycle.org/en/restaurant/6-mauricette-traiteur#menu> .
+
+<https://coursiers-metz.coopcycle.org/en/restaurant/6-mauricette-traiteur#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Bouteille de vin blanc Chardonnay parfaite pour accompagner nos fondues et raclettes
+\r
+"Terre Sauvage" de Gilbert & Gaillard
+\r
+Vin Biologique, Pays d'Oc 2019 75cL""" ;
+                    ns1:image <https://coursiers-metz.coopcycle.org/media/cache/product_thumbnail/60/0d/600d5c58ef898.jpeg> ;
+                    ns1:name "Bouteille de vin blanc biologique Chardonnay \"Terre Sauvage\" 75cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.98" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Tarif par personne / marchandise emballée\r
+Présentation sur plateau en option!
+\r
+5 sortes de charcuterie corse\r
+- Coppa\r
+- Lonzo\r
+- Rosette\r
+- Jambon cru\r
+- Pancetta
+\r
+200g de fromage en tranche, sélection Mauricette, pasteurisé ou lait cru\r
+raclette francaise, variée, italienne, fromages, charcuterie""" ;
+                    ns1:image <https://coursiers-metz.coopcycle.org/media/cache/product_thumbnail/60/0d/600d5a34acda1.jpeg> ;
+                    ns1:name "Raclette Corse" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Tarif par personne / marchandise emballée\r
+Présentation sur plateau en option!
+\r
+5 sortes de charcuterie\r
+- Coppa\r
+- Rosette\r
+- Mortadelle\r
+- Jambon blanc torchon\r
+- Jambon cru...
+\r
+200g de fromage en tranche, sélection Mauricette, pasteurisé ou lait cru
+\r
+Mélange de 4 variétés de raclette\r
+- Fumée\r
+- Vin blanc\r
+- Moutarde\r
+- Piment\r
+- Poivre\r
+- Lait cru\r
+- Morbier""" ;
+                    ns1:image <https://coursiers-metz.coopcycle.org/media/cache/product_thumbnail/60/0d/600d5ade553a9.jpeg> ;
+                    ns1:name "Raclette Variée" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Tarif par personne / marchandise emballée\r
+Présentation sur plateau en option!
+\r
+5 sortes de charcuterie\r
+- Coppa\r
+- Rosette\r
+- Mortadelle\r
+- Jambon blanc torchon\r
+- Jambon cru
+\r
+200g de fromage en tranche, sélection Mauricette, pasteurisé ou lait cru""" ;
+                    ns1:image <https://coursiers-metz.coopcycle.org/media/cache/product_thumbnail/60/0d/600d56ad63fbb.jpeg> ;
+                    ns1:name "Raclette classique" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Tarif par personne / marchandise emballée\r
+Présentation sur plateau en option!
+\r
+5 sortes de charcuterie\r
+- Jambon cru de Parme\r
+- Jambon blanc aux herbes\r
+- Mortadelle pistache\r
+- Boeuf séché\r
+- Saucisson au fenouil ou coppa de Parme
+\r
+200g de fromage italien (fontina) en tranche, pasteurisé ou lait cru""" ;
+                    ns1:image <https://coursiers-metz.coopcycle.org/media/cache/product_thumbnail/60/0d/600d596958fc0.jpeg> ;
+                    ns1:name "Raclette Italienne variée" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Tarif par personne / marchandise emballée\r
+Présentation sur plateau en option!
+\r
+5 sortes de charcuterie\r
+- Jambon cru Roma\r
+- Jambon cuit italien\r
+- Mortadelle pistache\r
+- Saucisson italien\r
+- Coppa
+\r
+200g de fromage italien (fontal) en tranche,pasteurisé ou lait cru.""" ;
+                    ns1:image <https://coursiers-metz.coopcycle.org/media/cache/product_thumbnail/60/0d/600d5481de87b.jpeg> ;
+                    ns1:name "Raclette Italienne" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "Formule Raclette" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Par personne\r
+Piques charcuterie x2\r
+Piques fromage x2\r
+Piques tapas x2\r
+(à partir de 4 personnes)""" ;
+                    ns1:image <https://coursiers-metz.coopcycle.org/media/cache/product_thumbnail/60/37/6037c6658b414.jpeg> ;
+                    ns1:name "Plateau apéritif" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Plateaux apéritif" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Mélange de fromages pour préparation d'une Fondue Suisse traditionnelle par personne
+\r
+Appenzeller 100grs
+\r
+Fribourg d'alpage 100grs
+\r
+Emmental Suisse 100grs
+\r
+Possibilité d'accompagnement d'un plateau de charcuterie en sus\r
+- Boeuf séché\r
+- Jambon cru fumé\r
+- Mini morteau""" ;
+                    ns1:image <https://coursiers-metz.coopcycle.org/media/cache/product_thumbnail/60/0d/600d5d2acccf4.jpeg> ;
+                    ns1:name "Fondue Suisse" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Mélange de fromages pour préparation d'une Fondue recette Française par personne
+\r
+Emmental 100grs
+\r
+Beaufort ou Abondance 100grs
+\r
+Comté fruité 100grs
+\r
+Possibilité d'accompagnement d'un plateau de charcuterie en sus\r
+- Boeuf séché\r
+- Jambon cru fumé\r
+- Mini morteau""" ;
+                    ns1:image <https://coursiers-metz.coopcycle.org/media/cache/product_thumbnail/60/0d/600d725830e8b.jpeg> ;
+                    ns1:name "Fondue Française" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Formule Fondue" ] .
+

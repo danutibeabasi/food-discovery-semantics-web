@@ -1,0 +1,72 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://niort.coopcycle.org/api/restaurants/1> ns1:hasMenu <https://niort.coopcycle.org/en/restaurant/1-la-belle-etoile#menu> .
+
+<https://niort.coopcycle.org/en/restaurant/1-la-belle-etoile#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """/// du 20 décembre au 22 décembre ///
+
+\r
+CREVETTE EN PERSILLADE\r
+risotto de fregola sarda\r
+bisque de tête de crevette\r
+_
+\r
+FILET DE DAURADE ROYALE\r
+butternut rôti, crumble de chorizo & parmesan, sauce hollandaise au combawa
+\r
+ou
+\r
+SUPREME DE PINTADE RÔTIE\r
+purée de pomme de terre truffé\r
+champignons & jus de volaille crémé""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/dd/61dda0f479f52.jpeg> ;
+                    ns1:name "MENU : ENTRÉE / PLAT" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """/// du 27 décembre au 29 décembre ///
+\r
+TARTE FEUILLETÉE DE BOUDIN NOIR\r
+aux pommes et oignons confits, jus au porto & roquette\r
+_
+\r
+FILET DE CABILLAUD\r
+à la façon d’un fish & chips, sauce tartare mesclun de salade
+\r
+ou
+\r
+TAJINE D’AGNEAU\r
+aux légumes & épices douces semoule aux fruits secs\r
+_
+\r
+MANDARINE RÔTIE\r
+au miel de châtaigne, crémeux praliné tuile sésame""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/dd/61dda0aaa3ee6.jpeg> ;
+                    ns1:name "MENU : ENTRÉE / PLAT / DESSERT" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€29.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """/// du 20 décembre au 22 décembre ///
+
+\r
+FILET DE DAURADE ROYALE\r
+butternut rôti, crumble de chorizo & parmesan, sauce hollandaise au combawa
+\r
+ou
+\r
+SUPREME DE PINTADE RÔTIE\r
+purée de pomme de terre truffé\r
+champignons & jus de volaille crémé\r
+_
+\r
+PROFITEROLES\r
+glace & chantilly vanille\r
+sauce chocolat Valhrona""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/dd/61dda131623c9.jpeg> ;
+                    ns1:name "MENU : PLAT / DESSERT" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ] ;
+            ns1:name "MENUS" ] .
+

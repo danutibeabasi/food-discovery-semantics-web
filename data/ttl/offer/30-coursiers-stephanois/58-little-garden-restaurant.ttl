@@ -1,0 +1,112 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiers-stephanois.coopcycle.org/api/restaurants/58> ns1:hasMenu <https://coursiers-stephanois.coopcycle.org/en/restaurant/58-little-garden-restaurant#menu> .
+
+<https://coursiers-stephanois.coopcycle.org/en/restaurant/58-little-garden-restaurant#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/a9/62a9b53aecec5.jpeg> ;
+                    ns1:name "Panacotta lait coco mangue" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Little sweet" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "rouleaux selon produits de saison (par 3)" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/a9/62a9b4e77ab0a.jpeg> ;
+                    ns1:name "Rouleaux de saison" ;
+                    ns1:nutrition "Crustaceans",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nems de maman ou nems vegans (par 4)" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/a9/62a9b41f42c81.jpeg> ;
+                    ns1:name "Nems" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mini crêpes de riz aux crevettes ou champignons" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/9f/629f0ba8dc8f5.jpeg> ;
+                    ns1:name "banh khot" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "Petite faim" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "sandwich vietnamien au choix" ;
+                    ns1:name "Bánh mì" ;
+                    ns1:nutrition "Crustaceans",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bò Bún aux choix version" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/9f/629f0b89d0c32.jpeg> ;
+                    ns1:name "bo bun" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bò kho -boeuf aux 5 épices/ thịt kho tàu/ gà kho gừng" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/a9/62a9b159a5b3d.jpeg> ;
+                    ns1:name "Mijotee du jour" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "crêpe du sud du Vietnam, lait coco, porc et crevette ou version vegan" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/9f/629f0bda0f4c2.jpeg> ;
+                    ns1:name "banh xeo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "ailes de poulet sauce poisson caramélisées" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/9f/629f0b5e3f4fb.jpeg> ;
+                    ns1:name "Cánh gà chiên nước mắm" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz au Poulet comme à Hoi an." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/a9/62a9aca8b0d24.jpeg> ;
+                    ns1:name "Cơm gà Hoi An" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Riz" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade vegan avec legumes, pickle..." ;
+                    ns1:name "Gỏi chay" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade de poulet, carotte,concombre, choux, cacahuètes" ;
+                    ns1:name "Goi ga" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Légumes de saison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade de boeuf, oignons, et herbes aromatiques" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/a9/62a9b0a4461de.jpeg> ;
+                    ns1:name "Goi bo tai chanh" ;
+                    ns1:nutrition "Celery" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Phở au boeuf ou poulet / vegan" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/a9/62a9b39331b1d.jpeg> ;
+                    ns1:name "Soupe du moment" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "Soupe et salade" ] .
+

@@ -1,0 +1,109 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://dinan.coopcycle.org/api/restaurants/11> ns1:hasMenu <https://dinan.coopcycle.org/en/restaurant/11-brasserie-alchimistes-ivres#menu> .
+
+<https://dinan.coopcycle.org/en/restaurant/11-brasserie-alchimistes-ivres#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """« La Corne qui fume » - Bouteille à l'unité de 75cl
+\r
+Des malts torréfiés aux effluves chocolatées et de pain rôti, se laissant facilement apprivoiser grâce à une consistance relativement légère. Tout cela soutenu par un malt fumé, accompagné d’un gout boisé amené par du copeau de chêne.\r
+Couleur noire à la mousse généreuse, bulle moyenne
+\r
+Type : Porter\r
+Alcool : 5,5 % \r
+Ingrédients : Malt, Houblon, Levure\r
+Houblon : Chinook\r
+IBU : 30\r
+EBC : 111""" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/64/b7/64b79877ad03c.jpeg> ;
+                    ns1:name "Corne qui fume - Porter fumé - 75cl" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """« La Corne qui fume » - Bouteille à l'unité de 33cl
+\r
+Des malts torréfiés aux effluves chocolatées et de pain rôti, se laissant facilement apprivoiser grâce à une consistance relativement légère. Tout cela soutenu par un malt fumé, accompagné d’un gout boisé amené par du copeau de chêne.\r
+Couleur noire à la mousse généreuse, bulle moyenne
+\r
+Type : Porter\r
+Alcool : 5,5 % \r
+Ingrédients : Malt, Houblon, Levure\r
+Houblon : Chinook\r
+IBU : 30\r
+EBC : 111""" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/64/b7/64b797d2a8e65.jpeg> ;
+                    ns1:name "Corne qui fume - Porter fumé - 33cl" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """« La Sève d’Ébène » - Bouteille à l'unité de 33cl
+\r
+Des malts rôtis aux nuances de chocolat, de pain grillé et de café dans une texture relativement ronde sans pour autant être lourde ni très forte. Couleur noire à la mousse généreuse, bulle moyenne.
+\r
+Type : Oatmeal Stout\r
+Alcool : 6,6 % \r
+Ingrédients : Malt, Houblon, Levure\r
+Houblon : Chinook\r
+IBU : 30\r
+EBC : 85""" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/64/b7/64b795b9b7583.jpeg> ;
+                    ns1:name "Sève d'Ebène - Oatmeal Stout - 33cl" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """« Le Perce Cendre » - Bouteille à l'unité de 33cl
+\r
+Des houblons parfumés, aux flaveurs d’agrumes et de résines, s’exclament au-dessus et en dessous d’un malt torréfié relativement discret, traçant le chemin vers une amertume longue et résineuse.\r
+Couleur noire à la mousse discrète, bulle moyenne.
+\r
+Type : Black IPA\r
+Alcool : 5,5 % \r
+Ingrédients : Malt, Houblon, Levure\r
+Houblon : Sabro\r
+IBU : 41\r
+EBC : 89""" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/64/b7/64b7a3bb9e568.jpeg> ;
+                    ns1:name "Perce Cendre - Black IPA - 33cl" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """« La Sève d’Ébène » - Bouteille à l'unité de 75cl
+\r
+Des malts rôtis aux nuances de chocolat, de pain grillé et de café dans une texture relativement ronde sans pour autant être lourde ni très forte.\r
+Couleur noire à la mousse généreuse, bulle moyenne.
+\r
+Type : Oatmeal Stout\r
+Alcool : 6,6 % \r
+Ingrédients : Malt, Houblon, Levure\r
+Houblon : Chinook\r
+IBU : 30\r
+EBC : 85""" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/64/b7/64b79722755e7.jpeg> ;
+                    ns1:name "Sève d'Ebène - Oatmeal Stout - 75cl" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """« Le Perce Cendre » - Bouteille à l'unité de 75cl
+\r
+Des houblons parfumés, aux flaveurs d’agrumes et de résines, s’exclament au-dessus et en dessous d’un malt torréfié relativement discret, traçant le chemin vers une amertume longue et résineuse.\r
+Couleur noire à la mousse discrète, bulle moyenne.
+\r
+Type : Black IPA\r
+Alcool : 5,5 % \r
+Ingrédients : Malt, Houblon, Levure\r
+Houblon : Sabro\r
+IBU : 41\r
+EBC : 89""" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/64/b7/64b7ab66580ec.jpeg> ;
+                    ns1:name "Perce Cendre - Black IPA - 75cl" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.60" ] ] ;
+            ns1:name "Boisson" ] .
+

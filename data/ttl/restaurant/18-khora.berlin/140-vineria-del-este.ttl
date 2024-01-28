@@ -1,0 +1,38 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://khora.berlin/api/restaurants/140> a ns1:Restaurant ;
+    ns1:address <https://khora.berlin/api/addresses/33158> ;
+    ns1:description """Uruguayisches - Spanisches Restaurant. Warme und Kalte Tapas. Weine direkt vom Winzer. Cocina casera. Alles Hausgemacht.\r
+Meeresfrüchte-, Fleisch- oder vegetarische Paella auf Vorbestellung. Ruf uns direkt an: 030- 42 02 49 43""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 5.251883e+01 ;
+            ns1:longitude 1.346445e+01 ] ;
+    ns1:image <https://khora.berlin/media/cache/restaurant_thumbnail/61/dd/61dd6ad2f2093.JPG> ;
+    ns1:name "Vineria del Este" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:40" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday" ;
+            ns1:opens "17:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:40" ;
+            ns1:dayOfWeek "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "17:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "de" ;
+                    ns1:urlTemplate "https://khora.berlin/en/restaurant/140-vineria-del-este" ] ] ;
+    ns1:sameAs <https://khora.berlin/en/restaurant/140-vineria-del-este> ;
+    ns1:url <https://khora.berlin/en/restaurant/140-vineria-del-este> .
+
+<https://khora.berlin/api/addresses/33158> a ns1:PostalAddress ;
+    ns1:name "Vineria del Este" ;
+    ns1:streetAddress "Bänschstraße 41, 10247 Berlin, Deutschland" ;
+    ns1:telephone "+493042024943" .
+

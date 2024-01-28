@@ -1,0 +1,39 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://kooglof.coopcycle.org/api/restaurants/59> a ns1:Restaurant ;
+    ns1:address <https://kooglof.coopcycle.org/api/addresses/30761> ;
+    ns1:bannerImage "https://kooglof.coopcycle.org/media/cache/restaurant_banner/65/6f/656f50ebeac04.png" ;
+    ns1:description """➡️ Chez vous ou au bureau ! Livraison à partir de 2,90 euros\r
+\r
+Livraison de repas à Strasbourg et alentours !\r
+Créé il y a 11 ans par deux copains d'enfance, Bruno & Lolo, Verrine & Vapeur est un concept de restauration rapide innovant ! \r
+\r
+Nous élaborons nos plats et nos verrines sur place avec des produits locaux, bio (ou les deux !!!) en respectant les saisons, pour retrouver les vraies saveurs de nos aliments.  Notre carte sera établie en fonction des nos idées et des saisons. Aussi bien des poissons, viandes, coquillages agrémentés de légumes ou féculents""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.85776e+01 ;
+            ns1:longitude 7.75838e+00 ] ;
+    ns1:image <https://kooglof.coopcycle.org/media/cache/restaurant_thumbnail/65/6f/656f505be9238.png> ;
+    ns1:name "Verrine & Vapeur 🍲🏷️" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:30" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "10:01" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://kooglof.coopcycle.org/en/restaurant/59-verrine-vapeur" ] ] ;
+    ns1:sameAs <https://kooglof.coopcycle.org/en/restaurant/59-verrine-vapeur> ;
+    ns1:url <https://kooglof.coopcycle.org/en/restaurant/59-verrine-vapeur> .
+
+<https://kooglof.coopcycle.org/api/addresses/30761> a ns1:PostalAddress ;
+    ns1:name "Verrine & Vapeur 🍲🏷️" ;
+    ns1:streetAddress "25 Rue de Lucerne, 67000 Strasbourg, France" ;
+    ns1:telephone "+33982608010" .
+

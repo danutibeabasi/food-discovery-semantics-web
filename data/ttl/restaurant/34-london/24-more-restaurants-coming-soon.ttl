@@ -1,0 +1,42 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://london.coopcycle.org/api/restaurants/24> a ns1:Restaurant ;
+    ns1:address <https://london.coopcycle.org/api/addresses/2288> ;
+    ns1:description "We have dozens more restaurants to join and are working as hard as we can to onboard them all. Please check back soon for more of North London's best eats..." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 5.156477e+01 ;
+            ns1:longitude -1.0585e-01 ] ;
+    ns1:image <https://london.coopcycle.org/media/cache/restaurant_thumbnail/62/95/6295f2e10bd6b.png> ;
+    ns1:name "More restaurants coming soon!" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "23:59" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "00:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "0.00" ;
+                            ns1:priceCurrency "GBP" ] ;
+                    ns1:price "2,021.12" ;
+                    ns1:priceCurrency "GBP" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "en" ;
+                    ns1:urlTemplate "https://london.coopcycle.org/en/restaurant/24-more-restaurants-coming-soon" ] ] ;
+    ns1:sameAs <https://london.coopcycle.org/en/restaurant/24-more-restaurants-coming-soon> ;
+    ns1:url <https://london.coopcycle.org/en/restaurant/24-more-restaurants-coming-soon> .
+
+<https://london.coopcycle.org/api/addresses/2288> a ns1:PostalAddress ;
+    ns1:name "More restaurants coming soon!" ;
+    ns1:streetAddress "Finsbury Park, Islington, N4 2DH" ;
+    ns1:telephone "+447837101569" .
+

@@ -1,0 +1,122 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://kooglof.coopcycle.org/api/restaurants/80> ns1:hasMenu <https://kooglof.coopcycle.org/en/restaurant/80-pasta-gusto#menu> .
+
+<https://kooglof.coopcycle.org/en/restaurant/80-pasta-gusto#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Carola bleu (50cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sprite goût original (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ice tea (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola goût original (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola Cherry (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fanta Citron Frappé (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Fuze tea mangue (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Orangina (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Schweppes agrumes (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola sans sucres (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Oasis tropical (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Carola verte (50cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Les Boissons 🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/19/6419d3746b049.jpeg> ;
+                    ns1:name "Tiramisu Café" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/19/6419d33b1f434.jpeg> ;
+                    ns1:name "Tiramisu Kinder" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/19/6419d3499219d.jpeg> ;
+                    ns1:name "Panna cotta fruits rouges" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/19/6419d36c692ec.jpeg> ;
+                    ns1:name "Tiramisu Spéculoos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ] ;
+            ns1:name "Les Desserts 🍮" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Choisissez vos pâtes, votre sauce et si vous êtes gourmands, vos suppléments 😋
+\r
+Conditionné pour une remise à température ❄️""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/19/6419d2e31ba28.jpeg> ;
+                    ns1:name "La Barquette Classique 🍝" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Choisissez vos pâtes, votre sauce et si vous êtes gourmands, vos suppléments 😋
+\r
+Conditionné pour une remise à température ❄️""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/19/6419d2ffbe864.jpeg> ;
+                    ns1:name "La Barquette Maxi 🍝🍝" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ] ;
+            ns1:name "Les Pâtes 🍝" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "➡️ Chez vous ou au bureau ! Livraison à partir de 2,90 euros 🎉" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/19/64198f1ee43f5.jpeg> ;
+                    ns1:name "Offres 🏷️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Avec Kooglof au Bureau, les produits sont livrés froids et/ou conditionnés pour une remise en température ⚠️" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/19/64198f07a4fb8.jpeg> ;
+                    ns1:name "Livraison 🚴‍♂️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pour toute commande passée avant 10h30, livraison avant 12h ! Vous avez votre pause dej plus tard ? D'autres créneaux de livraison sont également disponibles 🚴
+\r
+Produit informatif*""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/19/64198f264c760.jpeg> ;
+                    ns1:name "Précommandes ⏳" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ] ;
+            ns1:name "Fonctionnement 🚴" ] .
+

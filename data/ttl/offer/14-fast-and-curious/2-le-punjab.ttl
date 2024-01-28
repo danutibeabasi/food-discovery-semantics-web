@@ -1,0 +1,363 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://fast-and-curious.coopcycle.org/api/restaurants/2> ns1:hasMenu <https://fast-and-curious.coopcycle.org/en/restaurant/2-le-punjab#menu> .
+
+<https://fast-and-curious.coopcycle.org/en/restaurant/2-le-punjab#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Quincy 37, 5cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.25" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Quincy 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Blanc Corse 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Muscadet AOC 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Muscadet AOC 37, 5cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Vins blanc" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Gâteau à la poudre de lait et sirop de safran" ;
+                    ns1:name "Gulab jamum" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Gujrela" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Cocktail de fruits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Keer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.20" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pour 2 personnes, agneau tikka, poulet tikka, agneau kebab, gambas, pakora" ;
+                    ns1:name "Mix grill Punjabi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gambas marinées et grillées dans le tandoor" ;
+                    ns1:name "Gambas tandoori" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignets de pommes de terre écrasées, avec des petits pois et différents épices" ;
+                    ns1:name "Samosa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Haché de poulet en brochette grillé dans le tandoor avec différentes épices" ;
+                    ns1:name "Rechmi kebab" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceau de poulet légèrement marinés aux épices et cuit au feu de charbon de bois" ;
+                    ns1:name "Poulet tikka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Filet de poisson (dos de cabillaud) mariné aux épices et cuit au feu de charbon de bois" ;
+                    ns1:name "Poisson tikka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignets d'aubergines à la farine de pois chiche" ;
+                    ns1:name "Pakora baingan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lamelles d'oignons marinées dans différentes épices et farine de pois chiche puis frits en beignets" ;
+                    ns1:name "Oignons bhajia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gigot d'agneau désossé legèrement marinés aux épices et cuit au feu de charbon de bois" ;
+                    ns1:name "Agneau tikka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "Entrées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Champignons et pommes de terre cuit avec différentes épices" ;
+                    ns1:name "Mashram bagi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chou-fleur, pomme de terre, petits pois, poivrons et différentes épices" ;
+                    ns1:name "Légumes punjabi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry d'aubergine et épices grillées dans le tandoor" ;
+                    ns1:name "Baingan baharta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Palak paneer ou aloo palak" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lentilles indiennes cuites au beurre" ;
+                    ns1:name "Dal Punjabi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Légumes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Riz avec des petits pois" ;
+                    ns1:name "Riz poalao" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fruits et oléagineux" ;
+                    ns1:name "Riz aux fruits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz avec petits pois, omelette hachée, coriandre et cumin" ;
+                    ns1:name "Riz Punjabi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Riz safran" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.10" ] ] ;
+            ns1:name "Riz basmati" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain de farine blanche en pâte levée et fourré à la viande" ;
+                    ns1:name "Keem nan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain beurré et fourré aux légumes, pâte lévée" ;
+                    ns1:name "Naan Punjabi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain à l'ail, farine blanche, pâte levée" ;
+                    ns1:name "Naan à l'ail" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Chappati" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain nature à la farine blanche, pâte levée" ;
+                    ns1:name "Naan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain au fromage, farine blanche, pâte levée" ;
+                    ns1:image <https://fast-and-curious.coopcycle.org/media/cache/product_thumbnail/60/41/604162f565f2c.jpeg> ;
+                    ns1:name "Naan fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Paratha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ] ;
+            ns1:name "Pains maison" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Poulet grillé au tandoor puis cuisiné avec oignons, poivrons et tomates fraîches" ;
+                    ns1:image <https://fast-and-curious.coopcycle.org/media/cache/product_thumbnail/60/41/604163402cb75.jpeg> ;
+                    ns1:name "Poulet tikka massala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de poulet avec crème fraîche, noix de cajou, pistaches et raisins secs et différentes épices (spécialité du chef)" ;
+                    ns1:image <https://fast-and-curious.coopcycle.org/media/cache/product_thumbnail/60/41/6041631caefa5.jpeg> ;
+                    ns1:name "Poulet shahi korma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de crevettes décortiquées et cuisinées avec des oignons, tomates et différentes épices, relevé" ;
+                    ns1:name "Crevettes Punjabi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry d'agneau aux épinards" ;
+                    ns1:name "Agneau sagwala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry d'agneau traditionnel et différentes épices" ;
+                    ns1:name "Agneau roghan josh" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry d'agneau avec crème fraîche, noix de cajou, pistaches et amandes" ;
+                    ns1:name "Agneau shahi korma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de poisson, non épicé avec crème fraîche, noix de cajou, raisins secs, pistaches et amandes" ;
+                    ns1:name "Poissons shahi korma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry d'agneau relevé" ;
+                    ns1:name "Agneau Punjabi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Poisson au curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de gambas, la sauce est relevée" ;
+                    ns1:name "Gambas Punjabi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de crevettes décortiquées avec crème fraîche (non épicé), noix de cajou, raisins secs, pistaches et amandes" ;
+                    ns1:name "Crevettes shahi korma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Agneau grillé au tandoor puis cuisiné avec des oignons, poivrons et tomates fraîches" ;
+                    ns1:name "Agneau tikka massala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poisson (dos de cabillaud) cuit au tandoor et servi avec une sauce aux oignons" ;
+                    ns1:name "Poissons Punjabi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de poulet relevé" ;
+                    ns1:name "Poulet Punjabi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry d'agneau aux pommes de terre, bien relevé" ;
+                    ns1:name "Agneau madras" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet grillé au tandoor puis cuisiné au curry, crème fraîche et œuf" ;
+                    ns1:image <https://fast-and-curious.coopcycle.org/media/cache/product_thumbnail/60/41/604162d4be2a8.jpeg> ;
+                    ns1:name "Butter chicken (non épicé)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de poulet aux pommes de terre, bien relevé" ;
+                    ns1:name "Poulet madras" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "Plats principaux" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Plat au choix, riz au choix, nan au choix" ;
+                    ns1:name "Menu spécial Fast and Curious" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ] ;
+            ns1:name "Menu spécial Fast & Curious" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Bordeaux Supérieur 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lussac Saint Emilion AOC 37,5cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Côtes de Rhône AOC 37,5cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Côtes de Rhône AOC 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Saumur Champigny AOC 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lussac Saint Emilion AOC 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Brouilly AOC 37,5cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Brouilly AOC 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€27.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Saumur Champigny AOC 37,5cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bordeaux Supérieur 37,5cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Vin Corse 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ] ;
+            ns1:name "Vins rouge" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Crevettes décortiquées, mijotées avec le riz et différentes épices" ;
+                    ns1:image <https://fast-and-curious.coopcycle.org/media/cache/product_thumbnail/60/41/604162b200e42.jpeg> ;
+                    ns1:name "Biryani crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Agneau désossé mijoté avec le riz et différentes épices" ;
+                    ns1:name "Biryani agneau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Agneau et poulet désossés, crevettes et gambas grillées, mijotés avec le riz et différentes épices (spécialité du chef)" ;
+                    ns1:name "Biryani Punjabi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poisson mijoté avec le riz et différentes épices" ;
+                    ns1:name "Biryani poisson" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet désossé mijoté avec le riz et différentes épices" ;
+                    ns1:name "Biryani poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Biryani légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ] ;
+            ns1:name "Biryani" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Bouteille 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€45.00" ] ] ;
+            ns1:name "Champagne" ] .
+

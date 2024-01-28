@@ -1,0 +1,241 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://sicklo.coopcycle.org/api/restaurants/160> ns1:hasMenu <https://sicklo.coopcycle.org/en/restaurant/160-nouveau-bagel-corner#menu> .
+
+<https://sicklo.coopcycle.org/en/restaurant/160-nouveau-bagel-corner#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Parfum au choix" ;
+                    ns1:name "Chips" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Choux et carottes râpés" ;
+                    ns1:name "Petite coleslaw" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bouchées de pommes de terre, oignons frits, ciboulette, sauce cheddar ou guacamole" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/73/65731021ad030.jpeg> ;
+                    ns1:name "Kroustipop's" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mix de cinq falafels aux trois saveurs : edamame herbes, gingembre betterave et harissa poivron" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/73/65730fdcb13fe.jpeg> ;
+                    ns1:name "Funky falafels" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "LES ACCOMPAGNEMENTS 🧆" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salade, saumon fumé, avocat, tomate, concombre, sauce citron aneth" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/73/657316de7361c.jpeg> ;
+                    ns1:name "Salade Nordique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, poulet pané, copeaux de fromage, oignons frits, tomate, sauce caesar" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/73/65731683a8dcc.jpeg> ;
+                    ns1:name "Salade Caesar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ] ;
+            ns1:name "NOS SALADES 🥗" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bagel Signature au choix + 1 accompagnement + 1 boisson" ;
+                    ns1:name "Menu Signature 2" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bagel au choix + 1 boisson" ;
+                    ns1:name "Menu Petite Faim" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bagel Signature au choix + 1 dessert + 1 boisson" ;
+                    ns1:name "Menu Signature 1" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bagel au choix + 1 accompagnement + 1 dessert + 1 boisson\r
+Le choix de la température du bagel, ne s'applique pas à toutes les recettes.""" ;
+                    ns1:name "Menu Grosse Faim" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bagel au choix + 1 accompagnement + 1 boisson.\r
+Le choix de la température du bagel, ne s'applique pas à toutes les recettes.""" ;
+                    ns1:name "Menu Bagel 2" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bagel au choix + 1 dessert + 1 boisson\r
+Le choix de la température du bagel, ne s'applique pas à toutes les recettes.""" ;
+                    ns1:name "Menu Bagel 1" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ] ;
+            ns1:name "NOS MENUS ⭐" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Cuit sur place tous les jours" ;
+                    ns1:name "Cookie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cuit sur place tous les jours" ;
+                    ns1:name "Muffin" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Topping au choix" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/73/65730494dea19.jpeg> ;
+                    ns1:name "Bagel sucré" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Notre incontournable donut en format mini" ;
+                    ns1:name "Mini donut" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Topping selon l'humeur du chef" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/79/6579c728d8650.jpeg> ;
+                    ns1:name "Donut" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "LES DESSERTS 🍩" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "VITTEL - 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "COCACOLA - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "SCHWEPPS AGRUME - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "OASIS CASSIS FRAMBOISE - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "MINUTE MAID POMME - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Smoothie du jour" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "OASIS TROPICAL - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "ORANGINA - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "LIPTON FRAMBOISE - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "LIPTON ICE TEA PECHE - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "LES BOISSONS 🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Cream cheese ciboulette, saumon fumé" ;
+                    ns1:name "Originel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cream cheese, poulet épicé, tomate, salade, sauce curry oignons frits" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/73/6573027e24817.jpeg> ;
+                    ns1:name "Bollywood" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cream cheese, effiloché de poulet, cheddar, oignons frits, pickles d’oignons rouges, salade, sauce steakhouse" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/73/6573056e5e078.jpeg> ;
+                    ns1:name "Chicken BBQ - RECETTE SIGNATURE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cream cheese, pastrami, dinde fumée, cheddar, avocat, tomate, salade, sauce moutarde miel" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/73/65730ecc59941.jpeg> ;
+                    ns1:name "Extrême" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cream cheese ciboulette, cheddar, avocat, poivrons marinés, tomate, concombre, salade" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/73/65731517ba7bc.jpeg> ;
+                    ns1:name "Veggie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cream cheese, bresaola, mozzarella, tomate, salade, sauce pesto" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/73/65731079377a3.jpeg> ;
+                    ns1:name "Milanais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain brioché, cream cheese, oeufs brouillés, double cheddar" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/73/65730447eb1e3.jpeg> ;
+                    ns1:name "Cheddar & Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cream cheese, pastrami, cheddar, oignons frits, avocat, pickles, salade, sauce moutarde miel" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/73/657313637da0e.jpeg> ;
+                    ns1:name "New-Yorkais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cream cheese, pastrami, oeufs brouillés, cheddar, sauce steakhouse" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/73/65731426e8309.jpeg> ;
+                    ns1:name "Pastraking - RECETTE SIGNATURE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cream cheese, chèvre, noix, salade, sauce moutarde miel" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/73/657304f9dbe6c.jpeg> ;
+                    ns1:name "Chèvre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cream cheese ciboulette, saumon fumé, avocat, tomate, salade, sauce citron aneth" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/73/6573138b3d3c3.jpeg> ;
+                    ns1:name "Nordique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cream cheese, poulet pané, copeaux de fromage, oignons frits, salade, sauce caesar" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/73/6573038ebcc7c.jpeg> ;
+                    ns1:name "Caesar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cream cheese, dinde fumée, oeufs brouillés, tomate, sala" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/73/6573059142493.jpeg> ;
+                    ns1:name "Club" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cream cheese, 15 tranches de Pastrami, cheddar, sauce moutarde miel" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/73/65730f3ab6c84.jpeg> ;
+                    ns1:name "Fastrami" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cream cheese, bresaola, fromage à raclette, kroustipop's, salade" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/73/657314614cef3.jpeg> ;
+                    ns1:name "Raclette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ] ;
+            ns1:name "NOS BAGELS 🥯" ] .
+

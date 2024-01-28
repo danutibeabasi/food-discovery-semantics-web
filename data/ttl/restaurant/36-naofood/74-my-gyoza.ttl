@@ -1,0 +1,42 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://naofood.coopcycle.org/api/restaurants/74> a ns1:Restaurant ;
+    ns1:address <https://naofood.coopcycle.org/api/addresses/51198> ;
+    ns1:bannerImage "https://naofood.coopcycle.org/media/cache/restaurant_banner/62/5e/625e983859df8.jpg" ;
+    ns1:description "Découvrez nos raviolis farcis au bœuf, au porc, au poulet ou végé (végan)." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.72141e+01 ;
+            ns1:longitude -1.55864e+00 ] ;
+    ns1:image <https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/62/5e/625e983859df8.jpg> ;
+    ns1:name "My Gyoza" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:45" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Wednesday" ;
+            ns1:opens "19:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:45" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Wednesday" ;
+            ns1:opens "11:45" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://naofood.coopcycle.org/en/restaurant/74-my-gyoza" ] ] ;
+    ns1:sameAs <https://naofood.coopcycle.org/en/restaurant/74-my-gyoza> ;
+    ns1:url <https://naofood.coopcycle.org/en/restaurant/74-my-gyoza> .
+
+<https://naofood.coopcycle.org/api/addresses/51198> a ns1:PostalAddress ;
+    ns1:name "My Gyoza" ;
+    ns1:streetAddress "1 Rue de la Fosse, 44000 Nantes, France" ;
+    ns1:telephone "+33251172829" .
+

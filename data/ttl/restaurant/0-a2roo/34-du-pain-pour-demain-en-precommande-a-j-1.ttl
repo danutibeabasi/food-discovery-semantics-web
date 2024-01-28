@@ -1,0 +1,37 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://a2roo.coopcycle.org/api/restaurants/34> a ns1:Restaurant ;
+    ns1:address <https://a2roo.coopcycle.org/api/addresses/3379> ;
+    ns1:description """Boulangerie-pâtisserie aux confins des quartiers Toison d'Or et Charmette, Du Pain pour Demain vous propose une offre exclusive pour vos petits déjeuners au bureau ou à la maison. \r
+\r
+Des viennoiseries hautes en couleurs fabriquées avec passion et des matières premières exceptionnelles. \r
+\r
+Blés issus de la filière biologique et Label Rouge, dialogue direct avec les producteurs et originalité, c'est la recette de la Meilleure Boulangerie de France !""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.734703e+01 ;
+            ns1:longitude 5.041055e+00 ] ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/60/c7/60c71551bdba3.jpg> ;
+    ns1:name "Du Pain Pour Demain (en précommande à J+1)" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "10:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "06:45" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://a2roo.coopcycle.org/en/restaurant/34-du-pain-pour-demain-en-precommande-a-j-1" ] ] ;
+    ns1:sameAs <https://a2roo.coopcycle.org/en/restaurant/34-du-pain-pour-demain-en-precommande-a-j-1> ;
+    ns1:url <https://a2roo.coopcycle.org/en/restaurant/34-du-pain-pour-demain-en-precommande-a-j-1> .
+
+<https://a2roo.coopcycle.org/api/addresses/3379> a ns1:PostalAddress ;
+    ns1:name "Du Pain Pour Demain (en précommande à J+1)" ;
+    ns1:streetAddress "31 Rue de Bruges, 21000 Dijon, France" ;
+    ns1:telephone "+33380720306" .
+

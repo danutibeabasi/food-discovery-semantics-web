@@ -1,0 +1,137 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/restaurants/33> ns1:hasMenu <https://lescoursiersbrestois.coopcycle.org/en/restaurant/33-ty-pietro#menu> .
+
+<https://lescoursiersbrestois.coopcycle.org/en/restaurant/33-ty-pietro#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Charcuterie italienne de qualité supérieure, fourni avec gressins" ;
+                    ns1:name "Petite planche de charcuterie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Gressins aux graines" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fromage italien de qualité supérieure, fourni avec gressins" ;
+                    ns1:name "Petit plateau de fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fromage italien de qualité supérieure, fourni avec gressins" ;
+                    ns1:name "Grand plateau de fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Gressins nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Charcuterie italienne de qualité supérieure, fourni avec gressins" ;
+                    ns1:name "Grande planche de charcuterie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.40" ] ] ;
+            ns1:name "Bouchées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Olives farcies à l’ail" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Aubergines grillées" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Crème de truffes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€50.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Pâté de tomates" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pannetone" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Mini artichaut" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Boite chocolat italien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.60" ] ] ;
+            ns1:name "Épicerie fine" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Pannacotta fruit rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Pannacotta citron bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Délice chocolat et cookies" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Lolo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème de poivron fumée, poivrons, noix,jambon de parme des montagnes 30 mois" ;
+                    ns1:name "Lyly" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Crème fraîche, champignons de Paris flambées au\r
+Marsala, bresaola, pignons de pin""" ;
+                    ns1:name "Odetta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Crème fraîche, citron, basilic, saumon fumé, gressins,\r
+tomates pelées""" ;
+                    ns1:name "Clacla" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.30" ] ] ;
+            ns1:name "Les pâtes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Lasagne à la bolognaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Avec roquette" ;
+                    ns1:name "Tartiflette à l'italienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.20" ] ] ;
+            ns1:name "Plats italiens" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Coca Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Coca Cola zero" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ] ;
+            ns1:name "Boissons" ] .
+

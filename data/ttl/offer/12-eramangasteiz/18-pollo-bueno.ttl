@@ -1,0 +1,303 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/18> ns1:hasMenu <https://eramangasteiz.coopcycle.org/en/restaurant/18-pollo-bueno#menu> .
+
+<https://eramangasteiz.coopcycle.org/en/restaurant/18-pollo-bueno#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b6/5fb6788d41884.jpg> ;
+                    ns1:name "Salsa 200 ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ] ;
+            ns1:name "Extras" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b6/5fb664c9531b5.jpg> ;
+                    ns1:name "Helado Ben & Jerry´s Cone Together" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b6/5fb664f09abd4.jpg> ;
+                    ns1:name "Helado Ben & Jerry´s Cookie Dough" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chunky Monkey - helado de platano con chocolate y nueces" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b6/5fb667f846456.jpg> ;
+                    ns1:name "Helado Ben & Jerry´s Chunky Monkey" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b6/5fb6655fbc8b1.jpg> ;
+                    ns1:name "Helado Ben & Jerry´s Strawberry Cheesecake" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chocolate Fudge Brownie - chocolate con trozos de brownie" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b6/5fb66793c0a7f.jpg> ;
+                    ns1:name "Helado Ben & Jerry´s Chocolate Fudge Brownie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "Postres" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Kas limon lata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Agua de 0,75 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Moscato" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Aquarius" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Agua 1 litro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca cola 1 litro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Agua 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca cola lata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Kas naranja 2 litros" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Kas naranja 1 litro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Kas naranja lata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca cola 2 litros" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bolsa de hielo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Bebidas no-alcoholicas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b2/5fb2b9ddcc10c.jpg> ;
+                    ns1:name "Codillo asado grande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Medio Pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b6/5fb66f72ab8dc.jpg> ;
+                    ns1:name "Perrito caliente" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 racion" ;
+                    ns1:name "Arroz blanco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pollo con patatas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b2/5fb2bc094a4a7.jpg> ;
+                    ns1:name "Pollo asado" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 piezas" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b6/5fb66e9d4204b.jpg> ;
+                    ns1:name "Alitas fritas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/60/d7/60d708ade29e5.jpeg> ;
+                    ns1:name "Solomillo de pollo de Corral" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/c8/5fc8e5ed26654.jpg> ;
+                    ns1:name "Codillo asado mediano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Las paellas se deben pedir con 2 horas de antelación. Se recomienda llamar al restaurante 945 26 82 06\r
+Paella a elegir de 6 raciones (fianza de 8€) o 2 raciones (fianza de 5€) \r
+Ingredientes a elegir: Marisco o Mixta con pollo""" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/60/d7/60d70d8451a68.jpeg> ;
+                    ns1:name "Paellas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 Unidades" ;
+                    ns1:name "Albondigas con tomate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Platos calientes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b6/5fb6749bdb11b.jpg> ;
+                    ns1:name "Aros de cebolla" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Croquetas de Hongos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Rabas laminadas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b6/5fb678cc3acb3.jpg> ;
+                    ns1:name "Patatas bravas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Patatas gajo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b6/5fb67f6189eb2.jpg> ;
+                    ns1:name "Croquetas de chipirones" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b6/5fb6754c2d1c0.jpg> ;
+                    ns1:name "Nugets" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 unidad" ;
+                    ns1:name "Empanada Gallega" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tiras de pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b2/5fb2bad14b17f.jpg> ;
+                    ns1:name "Croquetas de jamón serrano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Patatas fritas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Patatas bravioli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b6/5fb675c06995f.jpg> ;
+                    ns1:name "Rabas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lechuga Lombarda aceitunas tomate zanahoria rallada" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b6/5fb66f156683d.jpg> ;
+                    ns1:name "Ensaladas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.25" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ensaladilla rusa de 475 gr" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b6/5fb67ed28c190.jpg> ;
+                    ns1:name "Croquetas de cecina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b6/5fb67aec6a881.jpg> ;
+                    ns1:name "Empanadas de atún" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Patatas petalo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b6/5fb6764ac1583.jpg> ;
+                    ns1:name "Pimientos verdes fritos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Patatas ali-oli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/5f/b6/5fb67f820066d.jpg> ;
+                    ns1:name "Ensaladilla rusa 250g" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Entrantes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Lata Cerveza Estrella Galicia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Cerveza 1 litro Amstel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cresta rosa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.25" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Clarete" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Vino tinto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lata cerveza 33 cl keler" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lambrusco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lata cerveza Volldamm" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "Bebidas alcoholicas" ] .
+

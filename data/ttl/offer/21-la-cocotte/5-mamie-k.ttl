@@ -1,0 +1,180 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://la-cocotte.coopcycle.org/api/restaurants/5> ns1:hasMenu <https://la-cocotte.coopcycle.org/en/restaurant/5-mamie-k#menu> .
+
+<https://la-cocotte.coopcycle.org/en/restaurant/5-mamie-k#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Bavette marinée Huile d'Olive & Herbes de Provence / Oignon confit / Comté\r
+- Pain Céréales Snacké -""" ;
+                    ns1:name "Bavette marinée - Vivi" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "SANDWICHS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Patate Douce / Avocat / Tomate cerise / Mâche / Chèvre frais / Croûton complet & Amandes" ;
+                    ns1:name "Salade Patate Douce & Chèvre frais" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Poulet mariné / Curcuma / Cumin / Curry\r
+& Riz""" ;
+                    ns1:name "Poulet TIKKA MASALA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Magret fumé / Mâche / Tomate cerise / Roquefort / Œuf / Noix / Croûton complet" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/a2/60a22e9b9e641.jpeg> ;
+                    ns1:name "Salade de Magret fumé - Pascaline" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "PLATS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Nous téléphoner pour connaître les goûts du jour 📞\r
+Sinon... SURPRISE 😘\r
+(PRIX UNITAIRE)""" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/62/39/623976d71a033.jpeg> ;
+                    ns1:name "COOKIE DU JOUR" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "COOKIES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Boisson Pétillante au jus d’Orange / 33cl" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/59/6059c43a4495e.jpeg> ;
+                    ns1:name "San Pellegrino - ORANGE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate de Marmande Pur Jus / Boissonnerie de Paris - 25cl" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/5d/615d5b7cb0962.jpeg> ;
+                    ns1:name "JUS TOMATE Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """IGP Bormes les Mimosas / 25cl\r
+- À consommer avec modération -""" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/87/6087b40be158f.jpeg> ;
+                    ns1:name "Vin Rosé / CLOS MISTINGUETT" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière des Îles Porquerolles / 33cl\r
+- À consommer avec Modération -""" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/ac/60acbbbd7e8b4.jpeg> ;
+                    ns1:name "Bière Blonde & Bio / CUL NU" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boisson Pétillante Jus de Citron / 33cl" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/59/6059c3d14cd1d.jpeg> ;
+                    ns1:name "San Pellegrino - CITRON" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Eau, Purée de Cranberry (34%), sucre / Boissonnerie de Paris - 25cl" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/62/38/6238fcec5f93f.jpeg> ;
+                    ns1:name "NECTAR DE CRANBERRY" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pomme du Tarn Pur Jus / Boissonnerie de Paris - 25cl" ;
+                    ns1:name "JUS DE POMME" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Carotte (96%) & Citron (4%)  Bio / Boissonnerie de Paris - 25cl" ;
+                    ns1:name "JUS DE CAROTTE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Eau minérale Gazeuse / 33cl" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/46/60462dfe75e06.jpeg> ;
+                    ns1:name "San Pellegrino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Eau Minérale Naturelle / plate / 33cl" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/50/605078554d2f6.jpeg> ;
+                    ns1:name "Evian" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pamplemousse Bio d’Espagne Pur Jus / Boissonnerie de Paris - 25cl" ;
+                    ns1:name "JUS DE PAMPLEMOUSSE Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fraise Bio Pur Jus / Boissonnerie de Paris - 25cl" ;
+                    ns1:name "JUS DE FRAISE Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ] ;
+            ns1:name "BOISSONS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Confiture de lait / Banane / Crème fouettée /  Crumble" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/2b/602b782bcf0bb.jpeg> ;
+                    ns1:name "Banoffee" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâte à tartiner Choco Noisette Homemade" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/05/6005587c7d132.jpeg> ;
+                    ns1:name "Tiramisu Choco / Noisette & Cookie" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/45/6045ed54870c7.jpeg> ;
+                    ns1:name "Choco Viennois" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Granola : Avoine / Noisette / Amande & Miel du Rucher du Bois Noir (Carqueiranne)" ;
+                    ns1:name "Fromage Blanc / Granola maison & Fruits frais" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crumble maison / Lemon Curd & Crème Fouettée Mascarpone" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/9a/609a529d016eb.jpeg> ;
+                    ns1:name "Comme une tarte Citron 🍋" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "DESSERTS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Ce thé vert, gourmand et fruité, évoque la datte verte, la fleur d’oranger, la rose et les fruits rouges\r
+( 30 cl d'eau Chaude et un sachet individuel à infuser )\r
+- PRÉCISER SI SACHET SEUL merciiii 😘 -""" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/62/39/6239000cb402d.jpeg> ;
+                    ns1:name "THÉ DU HAMMAM / PALAIS DES THÉS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Les parfums frais et poivrés de la menthe sont associés aux notes végétales d'un thé vert de Chine. Pour les amateurs de thé parfumé les plus exigeants !\r
+( 30 cl d'eau Chaude et un sachet individuel à infuser )\r
+- PRÉCISER SI SACHET SEUL merciiii 😘 -""" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/62/39/6239009e44e65.jpeg> ;
+                    ns1:name "THÉ VERT MENTHE / PALAIS DES THÉS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "CAFÉS / THÉS" ] .
+

@@ -1,0 +1,182 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiersmontpellier.coopcycle.org/api/restaurants/89> ns1:hasMenu <https://coursiersmontpellier.coopcycle.org/en/restaurant/89-krispy-s-burger-poulet-frit#menu> .
+
+<https://coursiersmontpellier.coopcycle.org/en/restaurant/89-krispy-s-burger-poulet-frit#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Wings Sweet & Spicy" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "20 Ailes de poulet frais nappées de nos différentes sauces maisons. Jusqu’à 4 sauces au choix." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/36/603699d972144.jpeg> ;
+                    ns1:name "20 Wings" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "15 Ailes de poulet frais nappées de nos différentes sauces maisons. Jusqu’à 3 sauces au choix." ;
+                    ns1:name "15 Wings" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "10 Ailes de poulet frais nappées de nos différentes sauces maisons. Jusqu’à 2 sauces au choix." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/36/60369a4151b4a.jpeg> ;
+                    ns1:name "10 Wings" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ] ;
+            ns1:name "🍗Wings🍗" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Choix Extra" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ] ;
+            ns1:name "Extra" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Je ne souhaite pas de couvert jetable" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Je ne souhaite pas de serviette jetable" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ] ;
+            ns1:name "🍴Couvert et serviette🍴" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain brioché, filet de poulet frais mariné et pané (150gr), double fromage à Raclette, confit d’oignons, sauce au poivre." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5f/c5/5fc5242e16ff4.jpeg> ;
+                    ns1:name "Burger Raclette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain brioché, filet de poulet frais mariné et pané (150 gr), salade, double Cheddar et sauce maison." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5f/c5/5fc5299ebdd4f.jpeg> ;
+                    ns1:name "Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain brioché, filet de poulet frais mariné et pané (150gr), cheddar spicy, chorizo, sauce pimentée maison." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/30/6530ec907200d.jpeg> ;
+                    ns1:name "Burger Spicy" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Burger au choix, poulet remplacé par galette de pomme de terre." ;
+                    ns1:name "Burger Végétarien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain brioché, filet de Poulet frais mariné et pané (150gr), Cheddar Fumé, Bacon (dinde), sauce Barbecue." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/63/94/639470726a497.jpeg> ;
+                    ns1:name "Burger Fumé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ] ;
+            ns1:name "🍔Burgers🍔" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5f/c5/5fc52a0f85c37.jpeg> ;
+                    ns1:name "Menu Wings Sweet & Spicy" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "15 Ailes de poulet frais nappées de nos différentes sauces maisons. Jusqu’à 3 sauces au choix. Servi avec frites." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5f/c5/5fc52551d9eec.jpeg> ;
+                    ns1:name "Formule 15 Wings" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "20 Ailes de poulet frais nappées de nos différentes sauces maisons. Jusqu’à 4 sauces au choix. Servi avec frites." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/36/603698f589a29.jpeg> ;
+                    ns1:name "Formule 20 Wings" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "10 Ailes de poulet frais nappées de nos différentes sauces maisons. Jusqu’à 2 sauces au choix. Servi avec frites." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5f/c5/5fc52a47424f6.jpeg> ;
+                    ns1:name "Formule 10 Wings" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ] ;
+            ns1:name "🍗Menu Wings🍗" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain brioché, filet de Poulet frais mariné et pané (150gr), Cheddar Fumé, Bacon (dinde), sauce Barbecue. Servi avec frites." ;
+                    ns1:name "Formule Burger Fumé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain brioché, filet de poulet frais mariné et pané (150gr), Cheddar Spicy, Chorizo (dinde), sauce maison pimentée.. Servi avec frites." ;
+                    ns1:name "Formule Burger Spicy" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain brioché, filet de poulet frais mariné et pané (150 gr), double fromage à Raclette, confits d’oignons, sauce au Poivre. Servi avec frites." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5f/c5/5fc5252c1b43d.jpeg> ;
+                    ns1:name "Formule Burger Raclette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain brioché, filet de poulet frais mariné et pané (150 gr), salade, double Cheddar, et sauce maison. Servi avec frites." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5f/c5/5fc529b307da2.jpeg> ;
+                    ns1:name "Formule Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Burger au choix, poulet remplacé par une galette de pomme de terre . Servi avec frites." ;
+                    ns1:name "Formule Burger Végétarien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ] ;
+            ns1:name "🍔Menus Burgers🍔" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Formule Moyenne Croquette de Poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Croquette de Poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ] ;
+            ns1:name "🍗Croquettes de Poulet🍗" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Soft" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Alcools" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ] ;
+            ns1:name "🥤Boissons🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Sauces en supplément" ;
+                    ns1:name "Choix Sauces Supplémentaires" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ] ;
+            ns1:name "🌶️Sauces Supplémentaires🌶️" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Filets de poulet frais, marinés et panés. Marinade et panure faites maison quotidiennement. Servi avec frites." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5f/c5/5fc529f4c235d.jpeg> ;
+                    ns1:name "Formule Tenders x6" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5f/c5/5fc52a9fac577.jpeg> ;
+                    ns1:name "Formule Grande Croquette de Poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5f/c5/5fc529da38bfe.jpeg> ;
+                    ns1:name "Formule Très Grande Croquette de Poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ] ;
+            ns1:name "🍗Menus Tenders🍗" ] .
+

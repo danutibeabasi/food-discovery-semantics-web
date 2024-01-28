@@ -1,0 +1,37 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://khora.berlin/api/restaurants/125> a ns1:Restaurant ;
+    ns1:address <https://khora.berlin/api/addresses/30859> ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 5.248667e+01 ;
+            ns1:longitude 1.343934e+01 ] ;
+    ns1:image <https://khora.berlin/media/cache/restaurant_thumbnail/5f/91/5f9183568a5a6.png> ;
+    ns1:name "Knödelwirtschaft" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:40" ;
+            ns1:dayOfWeek "Saturday",
+                "Sunday" ;
+            ns1:opens "17:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:40" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "17:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "de" ;
+                    ns1:urlTemplate "https://khora.berlin/en/restaurant/125-knoedelwirtschaft" ] ] ;
+    ns1:sameAs <https://khora.berlin/en/restaurant/125-knoedelwirtschaft> ;
+    ns1:url <https://khora.berlin/en/restaurant/125-knoedelwirtschaft> .
+
+<https://khora.berlin/api/addresses/30859> a ns1:PostalAddress ;
+    ns1:name "Knödelwirtschaft" ;
+    ns1:streetAddress "Fuldastraße 33, 12045 Berlin, Deutschland" ;
+    ns1:telephone "+493096600459" .
+

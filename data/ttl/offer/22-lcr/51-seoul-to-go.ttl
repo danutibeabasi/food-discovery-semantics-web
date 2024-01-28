@@ -1,0 +1,230 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lcr.coopcycle.org/api/restaurants/51> ns1:hasMenu <https://lcr.coopcycle.org/en/restaurant/51-seoul-to-go#menu> .
+
+<https://lcr.coopcycle.org/en/restaurant/51-seoul-to-go#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Yangnyeom Chicken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 pièces de poulet frit à la sauce soja et 5 pièces de poulet frit à la sauce pimentée coréenne" ;
+                    ns1:name "Ban Ban Chicken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/ac/64ac25cda7ea9.jpeg> ;
+                    ns1:name "Poulet frit à la coréenne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Poulet frit à la coréenne" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Mochis glacé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Mochi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Bière 1664" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Alcool coréen, 12 - 16°" ;
+                    ns1:name "Soju pure" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boisson à la nata de Coco" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/ad/64ad5c3d976f9.jpeg> ;
+                    ns1:name "Mogu mogu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cristaline" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/a6/64a6d3af61be2.jpeg> ;
+                    ns1:name "Bière Cass" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tensai Tea (thé matcha, menthe poivrée)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/a6/64a6c7ac6fd77.jpeg> ;
+                    ns1:name "Tensai Tea thé blanc myrtille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Craft Beer coréenne" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/be/64be8bce9d052.jpeg> ;
+                    ns1:name "Seoul Soul Ale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ice Tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola sans sucre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/ac/64ac299b2c976.jpeg> ;
+                    ns1:name "Kloud" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Limonade" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/a6/64a6ca56ee48e.jpeg> ;
+                    ns1:name "Leamo Limonade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Tensai Tea (thé noir gingembre)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Alcool coréen, 12 - 16°" ;
+                    ns1:name "Soju aromatisé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/a6/64a6d2f3a1c86.jpeg> ;
+                    ns1:name "Bière GangNam" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/a6/64a6c73b04dc0.jpeg> ;
+                    ns1:name "Tensai Tea thé vert citron, fleur de sureau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/ad/64ad5bbf395a1.jpeg> ;
+                    ns1:name "Aloe Vera" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/ac/64ac270047c05.jpeg> ;
+                    ns1:name "Leamo (maté)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/be/64be8c2d0f9fb.jpeg> ;
+                    ns1:name "Hangang Ale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/ad/64ad5b709a8f1.jpeg> ;
+                    ns1:name "Cidre Val de Rance" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fanta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/ac/64ac276657342.jpeg> ;
+                    ns1:name "Leamo (thé noir à la pêche)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.40" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Kimchi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâtes de riz à la sauce pimentée, Légumes" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/be/64beb0543f2f8.jpeg> ;
+                    ns1:name "Tteok-Bokki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Raviolis coréens frits" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/ac/64ac545adaa5a.jpeg> ;
+                    ns1:name "Mandoo du moment" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz rond Blanc" ;
+                    ns1:name "Riz blanc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Choux rouge mariné" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Entrées et Accompagnements" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Poulet frit avec du riz et des légumes. \r
+Choix entre sauce soja ou pimenté""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/a4/64a4292b5bec6.jpeg> ;
+                    ns1:name "Dakangjeong Deopbap" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Aubergine Sautée à la sauce maison avec légumes, du riz, un œuf plat" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/a4/64a42a0283c29.jpeg> ;
+                    ns1:name "Gaji Deopbap 🌱" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon grillé sauce caramélisé avec du riz et des légumes" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/a4/64a41b9f42d3e.jpeg> ;
+                    ns1:name "Yeon-eo Deopbap" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Vermicelle de patate douce avec légumes et du riz. \r
+choix entre bœuf ou tofu""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/a4/64a423cd82f9d.jpeg> ;
+                    ns1:name "Japché Deopbap 🌱" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Calamar Deopbap" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bœuf ou Porc mariné à la sauce soja ou pimentée maison avec légumes, du riz, un œuf au plat" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/af/64afd560712af.jpeg> ;
+                    ns1:name "BBQ Deopbap" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tofu frit à la sauce maison avec légumes, du riz, un œuf au plat" ;
+                    ns1:name "Tofu deopbap 🌱" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "Deopbap" ] .
+

@@ -1,0 +1,41 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://feelavelo.coopcycle.org/api/restaurants/9> a ns1:Restaurant ;
+    ns1:address <https://feelavelo.coopcycle.org/api/addresses/144> ;
+    ns1:description """Réouverture de la vente à emporter le 6 janvier 2021 !\r
+Restaurant bio, local et de saison. Les repas sont livrés avec des couverts bois.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.776502e+01 ;
+            ns1:longitude -3.402737e+00 ] ;
+    ns1:image <https://feelavelo.coopcycle.org/media/cache/restaurant_thumbnail/5e/b3/5eb3cee344735.jpg> ;
+    ns1:name "Restaurant Croc Epi" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:45" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "15.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.50" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://feelavelo.coopcycle.org/en/restaurant/9-restaurant-croc-epi" ] ] ;
+    ns1:sameAs <https://feelavelo.coopcycle.org/en/restaurant/9-restaurant-croc-epi> ;
+    ns1:url <https://feelavelo.coopcycle.org/en/restaurant/9-restaurant-croc-epi> .
+
+<https://feelavelo.coopcycle.org/api/addresses/144> a ns1:PostalAddress ;
+    ns1:name "Restaurant Croc Epi" ;
+    ns1:streetAddress "2 Rue Antoine de Saint-Exupéry, 56100 Lorient, France" ;
+    ns1:telephone "+33297883138" .
+

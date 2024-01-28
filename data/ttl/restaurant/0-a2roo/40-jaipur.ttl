@@ -1,0 +1,37 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://a2roo.coopcycle.org/api/restaurants/40> a ns1:Restaurant ;
+    ns1:address <https://a2roo.coopcycle.org/api/addresses/4020> ;
+    ns1:description """Au Jaïpur, venez déguster la gastronomie indienne ! \r
+\r
+Une cuisine haute en couleur et en goût, cuisinée avec passion et soin par Anil et son équipe. \r
+\r
+Disponible sur place et en livraison, avec la même passion !""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.731555e+01 ;
+            ns1:longitude 5.045554e+00 ] ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/61/54/61547e850f5ee.png> ;
+    ns1:name "Jaïpur" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "12:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://a2roo.coopcycle.org/en/restaurant/40-jaipur" ] ] ;
+    ns1:sameAs <https://a2roo.coopcycle.org/en/restaurant/40-jaipur> ;
+    ns1:url <https://a2roo.coopcycle.org/en/restaurant/40-jaipur> .
+
+<https://a2roo.coopcycle.org/api/addresses/4020> a ns1:PostalAddress ;
+    ns1:name "Jaïpur" ;
+    ns1:streetAddress "19 Rue d'Auxonne, 21000 Dijon, France" ;
+    ns1:telephone "+33380661240" .
+

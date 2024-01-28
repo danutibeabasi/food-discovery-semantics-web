@@ -1,0 +1,283 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://naofood.coopcycle.org/api/restaurants/142> ns1:hasMenu <https://naofood.coopcycle.org/en/restaurant/142-bong#menu> .
+
+<https://naofood.coopcycle.org/en/restaurant/142-bong#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Box Samui composée de 8 x big makis : riz vinaigré, feuille d’algue Nori, crevettes sautées façon Thaï, pousses de soja, carotte, concombre, ananas, cacahuètes concassées, coriandre, sauce Thaï (épicé)" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/dc/63dced7eed13c.jpeg> ;
+                    ns1:name "Box Solo Samui" ;
+                    ns1:nutrition "Crustaceans",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Box Sendaï composée de 8 x big makis : riz vinaigré, feuille d’algue Nori, poulet sauce Yakitori, carotte, radis, choux blanc mariné, pomme Granny Smith, oignons crispy, graines de sésame torréfiées, coriandre" ;
+                    ns1:name "Box Solo Sendaï" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Box Kalua composée de 8 x big makis : riz vinaigré, feuille d’algue Nori, saumon mariné, sauce soja Ponzu (agrumes), carotte, choux rouge émincé, graines de sésame torréfiées, cream cheese, ciboulette" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/dc/63dcedca491a9.jpeg> ;
+                    ns1:name "Box Solo Kalua" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Box Lhassa composée de 8 x big makis : riz vinaigré, feuille d’algue Nori, Tofu Inari (sucré), sauce soja au Wasabi, ananas, avocat, carotte, choux rouge émincé, radis japonais Daïkon, graines de sésame torréfiées, ciboulette" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/dc/63dcee23960d6.jpeg> ;
+                    ns1:name "Box Solo Lhassa" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "BOX SOLO" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Chaussons Veggie (3 pièces)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bouillon à base de Miso (pâte de soja fermenté), champignons et poireaux émincés" ;
+                    ns1:name "Soupe Miso" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Accompagnements" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Avez vous besoin de couverts ?" ;
+                    ns1:name "Couverts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ] ;
+            ns1:name "Désirez vous autre chose ?" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Flan coco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/6553478257cea.jpeg> ;
+                    ns1:name "Flan Thaï" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fromage blanc, coulis de fruits rouges, amandes et noisettes caramélisées" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534796ee104.jpeg> ;
+                    ns1:name "Fromage blanc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Gâteau ananas et coco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Graines de Chia, lait de coco, coulis de mangue, spéculos concassés" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/6553482d3a64c.jpeg> ;
+                    ns1:name "Pudding de Chia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Composez votre menu en choisissant parmi nos bowls signature et nos boissons" ;
+                    ns1:name "Menu Bowl + boisson classique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Composez votre menu en choisissant parmi nos bowls signature et nos desserts" ;
+                    ns1:name "Menu Bowl + dessert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ] ;
+            ns1:name "MENUS BOWL" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534770aa6b6.jpeg> ;
+                    ns1:name "Du Matos bio 25cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boisson rafraîchissante composée de morceaux de nata de coco (cube de gelée)" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534816161e9.jpeg> ;
+                    ns1:name "Mogu Mogu passion 32 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boisson rafraîchissante composée de morceaux de nata de coco (cube de gelée)" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534802e2b29.jpeg> ;
+                    ns1:name "Mogu Mogu mangue 32 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/655347e3351f5.jpeg> ;
+                    ns1:name "Mogu Mogu fraise 32cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boisson rafraîchissante composée de morceaux de nata de coco (cube de gelée)" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/655347f4b2823.jpeg> ;
+                    ns1:name "Mogu Mogu lychee 32 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/655347d3e26d5.jpeg> ;
+                    ns1:name "Mogu Mogu ananas 32cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.40" ] ] ;
+            ns1:name "Boissons exotiques" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Composez votre menu en choisissant parmi nos 4 recettes de Box Solo et nos desserts" ;
+                    ns1:name "Menu Box Solo + dessert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Composez votre menu en choisissant parmi nos 4 recettes de Box Solo et nos boissons" ;
+                    ns1:name "Menu Box Solo + boisson classique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Composez votre menu en choisissant parmi nos 4 recettes de Roll et nos desserts" ;
+                    ns1:name "Menu Roll + dessert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Composez votre menu en choisissant parmi nos 4 recettes de Roll et nos boissons" ;
+                    ns1:name "Menu Roll + boisson classique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "MENU ROLL ET BOX SOLO" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/6553474e880b7.jpeg> ;
+                    ns1:name "Coca 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/655347adbfa0e.jpeg> ;
+                    ns1:name "Ice Tea 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/6553475f058ce.jpeg> ;
+                    ns1:name "Coca Zéro 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/655348ff14877.jpeg> ;
+                    ns1:name "Schweppes agrumes 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/655348c7db7b6.jpeg> ;
+                    ns1:name "San Pellegrino 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/6553491098191.jpeg> ;
+                    ns1:name "Sprite 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/6553491fd7b40.jpeg> ;
+                    ns1:name "Vittel 50 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Eau gazeuse aromatisée à l’orange sanguine" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/655348e06aa4f.jpeg> ;
+                    ns1:name "San Pellegrino Aranciata Rossa 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/6553483cc0c9a.jpeg> ;
+                    ns1:name "Pulco citronnade 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Eau gazeuse aromatisée au citron" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/655348ee96668.jpeg> ;
+                    ns1:name "San Pellegrino Limonata 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Boissons et Softs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Riz vinaigré, saumon mariné, sauce soja Ponzu (agrumes), carotte, choux rouge émincé, fèves de soja edamame, cream cheese, graines de sésame torréfiées, ciboulette" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/655346461c084.jpeg> ;
+                    ns1:name "Bowl Kalua" ;
+                    ns1:nutrition "Fish",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz vinaigré, Tofu Inari (sucré), sauce soja au Wasabi, ananas, avocat, fèves de soja edamame, carotte, choux rouge émincé, radis japonais Daïkon, graines de sésame torréfiées, ciboulette" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534654bd56d.jpeg> ;
+                    ns1:name "Bowl Lhassa" ;
+                    ns1:nutrition "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz vinaigré, poulet sauce Yakitori, carotte, radis, choux blanc mariné, fèves de soja edamame, pomme Granny Smith, oignons crispy, graines de sésame torréfiées, coriandre" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534689317be.jpeg> ;
+                    ns1:name "Bowl Sendaï" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz vinaigré, crevettes sautées façon Thaï, pousses de soja, carotte, concombre, ananas, cacahuètes concassées, coriandre, sauce Thaï (épicé)" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/6553466976629.jpeg> ;
+                    ns1:name "Bowl Samui" ;
+                    ns1:nutrition "Crustaceans",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ] ;
+            ns1:name "BOWL SIGNATURE" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Sushi Roll Kalua : riz vinaigré, feuille d’algue Nori, saumon mariné, sauce soja Ponzu (agrumes), carotte, choux rouge, graines de sésame torréfiées, cream cheese, ciboulette" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534862a3a2e.jpeg> ;
+                    ns1:name "Roll Kalua" ;
+                    ns1:nutrition "Fish",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sushi Roll Lhassa : riz vinaigré, feuille d’algue Nori, Tofu Inari (sucré), sauce soja au Wasabi, ananas, avocat, carotte, choux rouge émincé, radis japonais Daïkon, graines de sésame torréfiées, ciboulette" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/6553487737373.jpeg> ;
+                    ns1:name "Roll Lhassa" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sushi Roll Sendaï : riz vinaigré, feuille d’algue Nori, poulet sauce soja Yakitori, carotte, choux blanc mariné, pomme Granny Smith, oignons crispy, graines de sésame torréfiées, coriandre" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/655348b63bde0.jpeg> ;
+                    ns1:name "Roll Sendaï" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sushi Roll Samui : riz vinaigré, feuille d’algue Nori, crevettes sautées façon Thaï, pousses de soja, carotte, concombre, ananas, cacahuètes concassées, coriandre, sauce Thaï (épicé)" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/655348879c967.jpeg> ;
+                    ns1:name "Roll Samui" ;
+                    ns1:nutrition "Crustaceans",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ] ;
+            ns1:name "ROLL" ] .
+

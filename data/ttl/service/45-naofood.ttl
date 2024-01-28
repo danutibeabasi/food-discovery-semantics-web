@@ -1,0 +1,20 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://naofood.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "fr" ;
+                    ns1:addressLocality "Nantes - Naofood" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 4.720647e+01 ;
+                    ns1:longitude -1.564297e+00 ] ] ;
+    ns1:name "Naofood" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:sameAs <https://twitter.com/nao_food>,
+        <https://www.facebook.com/nao.food>,
+        <https://www.instagram.com/nao.food/> ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://naofood.coopcycle.org> .
+

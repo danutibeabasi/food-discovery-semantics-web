@@ -1,0 +1,98 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://initiative-emploi.coopcycle.org/api/restaurants/12> ns1:hasMenu <https://initiative-emploi.coopcycle.org/en/restaurant/12-c-est-mon-plaisir#menu> .
+
+<https://initiative-emploi.coopcycle.org/en/restaurant/12-c-est-mon-plaisir#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Banoffee New yorkais, sauce caramel de beurre salé et chantilly" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crème brulée à la vanille et segments d’oranges confites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tatin briochée pommes, poires, glace châtaigne et chantilly" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Quenelle chocolat noir et pétale craquant, crème anglaise au safran et physalis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Grenadin de veau poêlé au vin jaune, capellinis enrobés à la crème de truffe noire" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Aiguillette de canard sauce Kriek, patates douces, potimarron rôti et pleurotes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "à la crème de truffe et champignons de Paris, chiffonnade de Rostello" ;
+                    ns1:name "Capellinis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "saucisse grillée, pâté en croûte du Carladez, aligot, laguiole affiné, farçous, mesclun et noix du Moulin de Méjane" ;
+                    ns1:name "Planche de Buron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Empanada colombienne, ceviche de saumon et de crevettes marinés, tartare d'avocat, ailerons de poulet grillé, frites maison, mesclun" ;
+                    ns1:name "Assiette Latino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "steak haché, salade romaine, oignons rouges, avocat, pickles de concombre, cheddar, sauce cocktail, frites fraîches" ;
+                    ns1:name "Avocado burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Filet de daurade royale grillé, risotto au champignons et crème de poireaux" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bourguignon de joue de bœuf au vin des Corbières, lard paysan et aligot" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "poulet pané croustillant, salade romaine, parmesan, tomates cerises, lard grillé" ;
+                    ns1:name "Salade César" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Risotto aux champignons, houmous tarbais, oeuf au plat, velouté de saison, légumes rôtis" ;
+                    ns1:name "Assiette végétarienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cocotte « Baie de San Sebastian » moules, couteaux, chipirons, bouquets roses, riz épicé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.20" ] ] ;
+            ns1:name "Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Crémeux de potimarron et noix de St Jacques parfumé à la truffe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Camembert rôti au miel, fruits secs et raisin frais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Carpaccio de saumon gravlax et haddock fumé, blinis et crème acidulée aux herbes fraiches" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Grand os à moelle et fines tranches de noix de St Jacques, toast de bûcheron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Œuf Bio mollet et cromesquis de canard confit en meurette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.80" ] ] ;
+            ns1:name "Entrées" ] .
+

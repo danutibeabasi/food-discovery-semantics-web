@@ -1,0 +1,392 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://khora.berlin/en/restaurant/39-voudookitchen> ns1:hasMenu <https://khora.berlin/en/restaurant/39-voudookitchen#menu> .
+
+<https://khora.berlin/en/restaurant/39-voudookitchen#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "0,3l" ;
+                    ns1:name "Sommerby, Cider" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Dju Dju Mango Bier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,3l New York, Brooklyn" ;
+                    ns1:name "Brooklyn Lager" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "Carlsberg" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Holsten Alkoholfrei" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,5l" ;
+                    ns1:name "Staropramen" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "in der wiederverschließbaren Bügelflasche 0,5l" ;
+                    ns1:name "Gessner Radler" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Bier" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "180gr Thunfischsteak (Teriyaki Glasiert), Karottenstroh, Kapernbeeren, Sauce Maison, Salat, Brioche Bun" ;
+                    ns1:name "Thunfisch Burger" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Lupin",
+                        "Milk",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ] ;
+            ns1:name "Burger with Fish" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "125 gr bestes Rindfleisch, BBQ Sauce Maison, Bacon, Karamelisierte Rote Zwiebeln, Cheddar Käse, Tomate, Salat, Brioche Bun" ;
+                    ns1:name "BBQ Bacon Burger" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Lupin",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "125 gr bestes Rindfleisch, Habanero Sauce Maison, Jalapenos, Cheddar Käse, rote Zwiebel, Tomate, Salat, Brioche Bun" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/88/5e88a3ac8c71a.jpg> ;
+                    ns1:name "Habanero Cheeseburger (Scharf ! )" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Lupin",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "125 gr bestes Rindfleisch, Sour Cream Sauce Maison, Gegrillter Radicio, Balsamicoreduktion, Mozarella, Tomate, Gewürzblüten,  Brioche Bun" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/95/5e95baf10e24e.jpg> ;
+                    ns1:name "Sour Cream Burger" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Lupin",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "125 gr bestes Rindfleisch, Sauce Maison, Rote Zwiebel, Gurke, Tomate, Salat,  Brioche Bun" ;
+                    ns1:name "Hamburger" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Lupin",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Frischer fluffiger Ei Patty, Bacon,  Sauce Maison, Cheddar Käse, Tomate, Salat,  Brioche Bun" ;
+                    ns1:name "Breakfast Burger" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Lupin",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "125 gr bestes Rindfleisch, Sauce Maison, Cheddar Käse, Rote Zwiebel, Gurke, Salat, Brioche Bun" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/88/5e88a8ecc9df1.jpg> ;
+                    ns1:name "Cheesburger" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Lupin",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "Burger with Meat" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Gurkensalat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tomatensalat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Krautsalat mit Möhren und cremiger Sauce" ;
+                    ns1:name "Coleslaw Salat" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unser Tipp !" ;
+                    ns1:name "Mix Süsskartoffel + Pommes Frittes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Frisch und lecker - der Klassiker" ;
+                    ns1:name "Pommes Frittes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Knusprig mit einzigartigem Geschmack" ;
+                    ns1:name "Süsskartoffel Pommes Frittes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Side Dishes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Veggie Polenta Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/88/5e88a4c09889f.jpg> ;
+                    ns1:name "Veggi BBQ Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Frischer fluffiger Ei Patty, Sauce Maison, Cheddar Käse, Gurke, Tomate, Salat, Brioche Bun" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/88/5e88a4e8489d7.jpg> ;
+                    ns1:name "Veggie Egg Burger" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Lupin",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Veggi Burger" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/95/5e95c0f58a6cd.jpg> ;
+                    ns1:name "Paletas Mango-Kokos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/95/5e95c1e3e190a.jpg> ;
+                    ns1:name "Paletas Himbeere-Vanille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/95/5e95c37b83f6b.jpg> ;
+                    ns1:name "Paletas Gurke-Zitrone" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/95/5e95c230a836b.jpg> ;
+                    ns1:name "Paletas Erdbeere-Limette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ] ;
+            ns1:name "Eis am Stiel von Paletas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Camino Rosado Rose" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,25l Bio Spanien" ;
+                    ns1:name "Camino Tinto Rotwein" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Camino Blanco Weisswein" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Wein" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Immer Lecker ;)" ;
+                    ns1:name "Crepe Apfelmus" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Der Klassiker !" ;
+                    ns1:name "Crepe Zimt und Zucker" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Karamel-Milch-Creme" ;
+                    ns1:name "Crepe Dulce de Leche" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Lupin",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Der Beliebteste" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/88/5e88a4268e790.jpg> ;
+                    ns1:name "Crepe Nutella" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Lupin",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Flambiert nach Art Crepe-Suzette" ;
+                    ns1:name "Crepe Grand Marniert" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Lupin",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "On Top mit lecker Banane" ;
+                    ns1:name "Crepe Nutella Banane" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Lupin",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Crepes Süss" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Veggie-Wurst, Habanero Sauce Maison, Eingelegte Jalapenos und Gurken, Frische Rote Zwiebel, Koreander,  Lecker Hot Dog Bun" ;
+                    ns1:name "Veggie Habanero Dog (Scharf !)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Lupin",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Veggi-Wurst, Sauerkraut, Röstzwiebeln, Tomate, Senf,  Lecker Hot Dog Bun" ;
+                    ns1:name "Veggie New York Style Dog" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Lupin",
+                        "Milk",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Veggi Hot Dogs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "100 gr beste Rindswurst, Habanero Sauce Maison, Eingelegte Jalapenos und Gurken, Frische Rote Zwiebel, Koreander,  Lecker Hot Dog Bun" ;
+                    ns1:name "Habanero Dog (Scharf !)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Lupin",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "100 gr beste Rindswurst, Sauerkraut, Röstzwiebeln, Tomate, Senf,  Lecker Hot Dog Bun" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/88/5e88a312a5d0f.jpg> ;
+                    ns1:name "Hot Dog New York Style" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Lupin",
+                        "Milk",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Hot Dogs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Eine leckere Kombination" ;
+                    ns1:name "Crepe Camembert , Preiselbeeren" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nicht nur zum Frühstück ein Hit" ;
+                    ns1:name "Crepe Käse, Schinken, Ei" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Emmentaler und Schinken" ;
+                    ns1:name "Crepe Käse Schinken" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gefüllt mit Emmentaler" ;
+                    ns1:name "Crepe Käse" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Crepes Salzig" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "in der wiederverschließbaren Bügelflasche 0,5l" ;
+                    ns1:name "Gessner Limo Orange" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Orangensaft" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Apfelsaft" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Gessner Limo Zitronen" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Mate No.1" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mineralwasser 0,2l" ;
+                    ns1:name "Reihnsberger Preussen Quelle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Proviant Cola Orange" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,2l, koffeinhaltig" ;
+                    ns1:name "Afri Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "Softdrinks" ] .
+

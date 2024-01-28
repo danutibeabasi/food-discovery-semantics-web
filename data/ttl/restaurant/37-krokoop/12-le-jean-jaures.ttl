@@ -1,0 +1,48 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://krokoop.coopcycle.org/api/restaurants/12> a ns1:Restaurant ;
+    ns1:address <https://krokoop.coopcycle.org/api/addresses/230> ;
+    ns1:description """Institution nîmoise, cette brasserie a la réputation belle d'animer régulièrement les petits événements de la ville. \r
+\r
+De la fête, du bon vivre et des plats savoureux, généreux ! C'est l’un des endroits que les épicuriens choisissent pour se retrouver.\r
+\r
+Burgers, salades, tartare, spécialités méditerranéennes ... On a de quoi se faire plaisir, et surtout se rassasier !""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.383577e+01 ;
+            ns1:longitude 4.350191e+00 ] ;
+    ns1:image <https://krokoop.coopcycle.org/media/cache/restaurant_thumbnail/65/49/65498d23638d7.png> ;
+    ns1:name "LE JEAN JAURÈS" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:30" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:20" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday" ;
+            ns1:opens "18:50" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:30" ;
+            ns1:dayOfWeek "Sunday" ;
+            ns1:opens "11:50" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://krokoop.coopcycle.org/en/restaurant/12-le-jean-jaures" ] ] ;
+    ns1:sameAs <https://krokoop.coopcycle.org/en/restaurant/12-le-jean-jaures> ;
+    ns1:url <https://krokoop.coopcycle.org/en/restaurant/12-le-jean-jaures> .
+
+<https://krokoop.coopcycle.org/api/addresses/230> a ns1:PostalAddress ;
+    ns1:name "LE JEAN JAURÈS" ;
+    ns1:streetAddress "30 Avenue Jean Jaurès, Nîmes, France" ;
+    ns1:telephone "+33466231990" .
+

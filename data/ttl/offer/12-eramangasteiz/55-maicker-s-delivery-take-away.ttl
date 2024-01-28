@@ -1,0 +1,405 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/55> ns1:hasMenu <https://eramangasteiz.coopcycle.org/en/restaurant/55-maicker-s-delivery-take-away#menu> .
+
+<https://eramangasteiz.coopcycle.org/en/restaurant/55-maicker-s-delivery-take-away#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Cerveza Estrella Galicia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Radler Amstel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ] ;
+            ns1:name "Bebidas Alcoholicas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pan brioche, 180 gr de carne a nuestro estilo Maicker´s , mayonesa, tomate, bacon crujiente, queso de cabra y cebolla caramelizada al estilo Bourbon" ;
+                    ns1:name "Cabra House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gofre, contramuslo crujiente de pollo deshuesado, queso cheddar, bacon, huevo frito, lechuga, tomate y mayo-chipotle" ;
+                    ns1:name "Gofre-Chicken House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan brioche, 180 gr de carne a nuestro estilo Maicker,s, kepchup, mayonesa, lechuga, tomate, pepinillo, piña caramelizada, bacon crujiente, questo cheddar y huevo frito" ;
+                    ns1:name "Burger House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan brioche, 180 gr de carne a nuestro estilo Maicker´s, queso cheddar, bacon crujiente, tomate, guacamole, jalapeños y nachos" ;
+                    ns1:name "Guaka House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Maestro Miyagi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tortilla de trigo, pollo crujiente guacamole, salsa cheddar, tomate, bacon crujiente , chili casero, mayonesa de lima y pico de gallo" ;
+                    ns1:name "Wraps Mex House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Smashurrón" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Smash Maicker´s" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tortilla de trigo, pollo crujiente, lechuga, tomate bacon crujiente, queso cheddar y salsa de miel y pimienta negra" ;
+                    ns1:name "Wrap Chicken House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan brioche, contramuslo de pollo a la plancha, bacon crujiente, queso cheddar, lechuga, tomate y salsa cajún" ;
+                    ns1:name "Chicken House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan brioche, 180 gr de carne a nuestro estilo Maicker´s, mayo trufa, setas shitakes a la plancha, jamón ibérico, queso cheddar y huevo frito" ;
+                    ns1:name "Ibérica House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan brioche, 180 gr de carne a nuestro estilo Maicker´s, salsa bbq, pulled pork, queso cheddar, bacon crujiente y cebolla morada encurtida" ;
+                    ns1:name "Pulled Pork House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.35" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan brioche, 180 gr de carne a nuestro estilo Maicker´s, crema de queso Philadelphia, bacon crujiente, tomate seco, pepinillo agridulce y cebolla frita" ;
+                    ns1:name "Creamy House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.45" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan brioche, 180 gr de carne a nuestro estilo Maicker´s, salsa BBQ, doble queso cheddar, cebolla morada a la plancha y bacon crujiente" ;
+                    ns1:name "BBQ House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan brioche, 180 gr de carne a nuestro estilo Maicker´s, queso cheddar y salsa a elegir" ;
+                    ns1:name "House Kids" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Burgers y Wraps" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pan brioche, salchicha Viena, bacon crujiente y salsa a elegir" ;
+                    ns1:name "Kids Dog House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan brioche, salchicha Viena, bacon crujiente, salsa de queso cheddar, nuestro chili casero y pico de gallo" ;
+                    ns1:name "Chili-Cheddar House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan brioche, salchicha Viena, bacon crujiente, queso cheddar, piña carmelizada, ketchup, mayonesa, mostaza y chips de patatas fritas" ;
+                    ns1:name "Hot Dog House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan brioche, salchicha Viena, bacon crujiente, salsa BBQ, queso cheddar, maiz dulce y cebolla frito" ;
+                    ns1:name "BBQ Dog House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ] ;
+            ns1:name "Hot Dogs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Nestea Limón" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "500 Cl" ;
+                    ns1:name "Postobon de Colombiana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50 cl" ;
+                    ns1:name "Agua" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.65" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "500 Cl" ;
+                    ns1:name "Postobon de Manzana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33Cl" ;
+                    ns1:name "Postobon de Colombiana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Coca Cola Zero" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 Cl" ;
+                    ns1:name "Postobon de Manzana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Kas Naranja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Coca Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Aquarias Naranja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.35" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 Cl" ;
+                    ns1:name "Postobon de Uva" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Aquarius Limón" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.35" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Kas Limón" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "500 Cl" ;
+                    ns1:name "Postobon de Uva" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Bebidas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Brownie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Cheese cake" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Tarta de yogurt y mora" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Tarta de fruta de la pasión" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ] ;
+            ns1:name "Postres" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Ración de patatas fritas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Patatas fritas, salsa cheddar,  mayo bacon, pulled pork y pico de Gallo" ;
+                    ns1:name "Patatas House Cheddar - Pulled Pork" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Patatas fritas, salsa cheddar y nuestro chili casero" ;
+                    ns1:name "Patatas House Cheddar - Chili" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Patatas fritas, salsa cheddar, bacon crispy y nuestra salsa de cebolla y ajo asados" ;
+                    ns1:name "Patatas House Cheddar - Bacon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Costillas a baja temperatura asadas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.45" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fingers Chicken House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Patatas fritas, salsa cheddar, salchicha Viena, salsa Maicke´s, salsa de piña, ketchup y piña caramelizada" ;
+                    ns1:name "Salchicheddar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "BBQ, Cajún, Miel y Pimienta" ;
+                    ns1:name "Alitas House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ] ;
+            ns1:name "Entrantes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Menú con patatas fritas y bebida a elejir
+\r
+Pan brioche, 180 gr de carne a nuestro estilo Maicker´s, salsa bbq,  pulled pork, queso cheddar, bacon crujiente y cebolla morada encurtida""" ;
+                    ns1:name "Menú Pulled Pork House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.85" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Menú con patatas fritas y bebida a elejir
+\r
+Pan brioche, 180 gr de carne a nuestro estilo Maicker´s, crema de queso Philadelphia, bacon crujiente, tomate seco, pepinillo agridulce y cebolla frita""" ;
+                    ns1:name "Menú Creamy House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Menú Costillas a baja temperatura asadas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Menú con patatas fritas y bebida a elejir
+\r
+Pan brioche, contramuslo de pollo a la plancha, bacon crujiente, queso cheddar, lechuga, tomate y salsa cajún""" ;
+                    ns1:name "Menú Chicken House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Menú con patatas fritas y bebida a elejir
+\r
+Pan brioche, 180 gr de carne a nuestro estilo Maicker´s, queso cheddar, bacon crujiente, tomate, guacamole, jalapeños y nachos""" ;
+                    ns1:name "Menú Guaka House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Menú con patatas fritas y bebida a elejir
+\r
+Pan brioche, 100 gr de carne a nuestro estilo maicker´s, queso cheddar y salsa a elegir""" ;
+                    ns1:name "Menú House Kids" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Menú con patatas fritas y bebida a elejir" ;
+                    ns1:name "Menú Fingers Chicken House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Menú con patatas fritas y bebida a elejir
+\r
+Tortilla de trigo, pollo crujiente, lechuga, tomate bacon crujiente, queso cheddar y salsa de miel y pimienta negra""" ;
+                    ns1:name "Menú Wrap Chicken House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Menú con patatas fritas y bebida a elejir
+\r
+Pan brioche, salchicha Viena, bacon crujiente, salsa BBQ, queso cheddar, mayonesa, maíz dulce y cebolla""" ;
+                    ns1:name "Menú BBQ Dog House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Menú con patatas fritas y bebida a elejir
+\r
+Pan brioche, 180 gr de carne a nuestro estilo Maicker´s, mayonesa, tomate, bacon crujiente, queso de cabra y cebolla caramelizada al estilo Bourbon""" ;
+                    ns1:name "Menú Cabra House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Menú con patatas fritas y bebida a elejir
+\r
+Pan brioche, 180 gr de carne a nuestro estilo Maicker´s, salsa de hongos, shitakes a la plancha, jamón ibérico, queso cheddar y huevo frito""" ;
+                    ns1:name "Menú Ibérica House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Menú con patatas fritas y bebida a elejir
+\r
+Pan brioche, salchicha Viena, bacon crujiente, queso cheddar, piña carmelizada, ketchup, mayonesa, mostaza y chips de patatas fritas""" ;
+                    ns1:name "Menú Hot Dog House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Menú con patatas fritas y bebida a elejir
+\r
+Pan brioche, 180 gr de carne a nuestro estilo Maicker´s, kepchup, mayonesa, lechuga, tomate, pepinillo, piña caramelizada, bacon crujiente, queso cheddar y huevo frito, con patatas y bebida a elegir""" ;
+                    ns1:name "Menú Burger House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Menú con patatas fritas y bebida a elejir
+\r
+Pan brioche, 180 gr de carne a nuestro estilo Maicker´s, salsa BBQ, doble queso cheddar, cebolla morada a la plancha y bacon crujiente, con patatas y bebida a elegir""" ;
+                    ns1:name "Menú BBQ House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Menú de Maestro Miyagi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Menú con patatas fritas y bebida a elejir
+\r
+Pan brioche, salchicha Viena, bacon crujiente y salsa a elegir""" ;
+                    ns1:name "Menú Kids Dog House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Menú con patatas fritas y bebida a elejir
+\r
+Pan brioche, salchicha Viena, bacon crujiente, salsa de queso cheddar, nuestro chili casero y pico de gallo""" ;
+                    ns1:name "Menú Chili-Cheddar House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Menú de Smashurrón" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Menu Smash Maicker´s" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Menú con patatas fritas y bebida a elegir.
+\r
+Gofre, contramuslo crujiente de pollo deshuesado, queso cheddar, bacon, huevo frito, lechuga, tomate y salsa mayo-chipotle""" ;
+                    ns1:name "Menu Gofre-Chicken House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Menú con patatas fritas y bebida a elejir" ;
+                    ns1:name "Menú Alitas House" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.45" ] ] ;
+            ns1:name "Menús" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Ensalada Coleslaw" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.35" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Ensalada Hawaiana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Ensalada Chicken Crunchy" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "Ensaladas" ] .
+

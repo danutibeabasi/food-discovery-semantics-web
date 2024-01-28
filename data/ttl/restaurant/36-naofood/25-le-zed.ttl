@@ -1,0 +1,55 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://naofood.coopcycle.org/api/restaurants/25> a ns1:Restaurant ;
+    ns1:address <https://naofood.coopcycle.org/api/addresses/782> ;
+    ns1:bannerImage "https://naofood.coopcycle.org/media/cache/restaurant_banner/5f/bf/5fbfb5b80d1c8.jpg" ;
+    ns1:description """Restaurant 100% produit frais et fait maison. Plats du jour, grillades, burgers...\r
+Un boulanger réalise sur place les pains pour les burgers et le restaurant, ainsi que des sandwichs le midi.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.720481e+01 ;
+            ns1:longitude -1.558165e+00 ] ;
+    ns1:image <https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/5f/bf/5fbfb5b80d1c8.jpg> ;
+    ns1:name "Le Zed" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday" ;
+            ns1:opens "11:55" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday" ;
+            ns1:opens "19:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:45" ;
+            ns1:dayOfWeek "Thursday" ;
+            ns1:opens "19:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:45" ;
+            ns1:dayOfWeek "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:55" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:30" ;
+            ns1:dayOfWeek "Monday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "19:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://naofood.coopcycle.org/en/restaurant/25-le-zed" ] ] ;
+    ns1:sameAs <https://naofood.coopcycle.org/en/restaurant/25-le-zed> ;
+    ns1:url <https://naofood.coopcycle.org/en/restaurant/25-le-zed> .
+
+<https://naofood.coopcycle.org/api/addresses/782> a ns1:PostalAddress ;
+    ns1:name "Le Zed" ;
+    ns1:streetAddress "23 Boulevard de la Prairie au Duc, Nantes, France" ;
+    ns1:telephone "+33255544776" .
+

@@ -1,0 +1,263 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://zampate.coopcycle.org/api/restaurants/26> ns1:hasMenu <https://zampate.coopcycle.org/en/restaurant/26-pizza-negra#menu> .
+
+<https://zampate.coopcycle.org/en/restaurant/26-pizza-negra#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, alcachofas, champiñones frescos, rodajas de tomate, rúcula y cebolla. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza Vegana 2" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, alcachofas, pimientos rojos, hojas de rúcula y cebolla. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza Vegana 1" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "PIZZAS VEGANAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Cebolla, azúcar moreno, brie, tabasco (opcional) y parmesano. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza Maestro 2" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Pizza Maestro 4" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Pizza Maestro 3" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Pizza Maestro 1" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "MAESTRO PIZZERO" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, oveja, pimientos rojos y chorizo picante. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza la Roja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, chorizo y orégano. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza Ibérica 2 Chorizo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, tomate natural, jamón york, champiñones y albahaca. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza Margarita Completa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, bacon y orégano. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza Ibérica 3 Bacon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, bacon, ternera y salsa barbacoa. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza Barbacoa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, jamón serrano y champiñones. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza de Champiñones 2" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, alcachofas, jamón serrano y cebolla. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza de Alcachofas 2" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, jamón york, queso de oveja y cebolla. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza Oveja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, tomate natural en rodajas y jamón serrano. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza Ibérica 1 Jamón" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella y jamón york. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza Ibérica 5 Jamón York" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, longaniza curada y orégano. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza Lardera" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, emental, parmesano y de oveja. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza de 4 Quesos Española" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, champiñones y queso de oveja. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza de Champiñones 3" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, jamón york y champiñones. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza de Champiñones 1" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, bacon, champiñones, cebolla y nata. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza Carbonara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, atún, pimientos y cebolla. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza de Atún" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, longaniza, chorizo, morcilla ahumada, bacon y parmesano. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza Aragonesa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Pizza Vegetal" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, morcilla, pimientos y cebolla. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza Ibérica 4 Morcilla" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, alcachofas, roquefort y cebolla. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza de Alcachofas 1" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, jamón york y piña. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza Hawaiana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, champiñones, tomates, cebolla, rúcula y parmesano. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza Vegetal 2" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "PIZZAS ESPAÑOLAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Cerveza Ambar 33 ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ] ;
+            ns1:name "BEBIDAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, rodajas de tomate y albahaca natural. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza Margarita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Pizza de Pepperoni" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Pizza Napolitana con Mozzarella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Pizza Napolitana Italiana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, pera, gorgonzola, nueces y parmesano. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza de Pera y Gorgonzola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella, cebolla y gorgonzola. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza Focaccia 1" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, emental, parmesano y gorgonzola. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza 4 Formaggi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, rodajas de tomate, jamón serrano y rúcula. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza de Rúcula" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, brie, jamón serrano y rúcula. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza de Rúcula 1" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella, cebolla, jamón york y gorgonzola. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza Focaccia 2" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, champiñones, alcachofas y jamón york. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza 4 Staggioni" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ] ;
+            ns1:name "PIZZAS ITALIANAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, tomate natural, jamón york, champiñones y albahaca. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza Margarita Completa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, rodajas de tomate y ajo. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza Napolitana Argentina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cebolla y aceite de oliva. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza Fugazza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, emental, parmesano y roquefort. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/61/fa/61fa42af35298.jpeg> ;
+                    ns1:name "Pizza de 4 Quesos Argentina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cebolla, mozzarella y jamón york. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza Fugazza con Jamón y Queso" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, jamón york y pimientos. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza de Jamón y Pimientos Morrones" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, mozzarella, longaniza curada y pimientos. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza Calabresa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cebolla y queso mozzarella. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza Fugazza con Queso" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate y mozzarella. Tamaño mediano, ideal para 2 personas." ;
+                    ns1:name "Pizza de Mozzarella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "PIZZAS ARGENTINAS" ] .
+

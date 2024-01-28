@@ -1,0 +1,42 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://a2roo.coopcycle.org/api/restaurants/51> a ns1:Brewery ;
+    ns1:address <https://a2roo.coopcycle.org/api/addresses/8440> ;
+    ns1:description """Depuis 2016, Geoffrey, votre artisan brasseur de Talant, travaille seul dans son petit atelier certifié BIO. Les bières sont brassées de façon traditionnelle à la main avec un fourquet en bois, non filtrées, non pasteurisées et refermentées en bouteilles à bouchons mécaniques consignées.\r
+\r
+Les malts sont issus de céréales françaises, les houblons proviennent de Côte d'Or et d’Alsace, le sucre du Nord de la France, le miel du Morvan et les levures sont sans OGM. \r
+\r
+Votre artisan n’utilise pas de colorant, d’arôme, d’additif, d’enzymes, de clarifiant ou encore de sulfite.\r
+\r
+Cette fabrication saine et artisanale implique du temps, la bière sera affinée entre 2 et 3 mois à la brasserie avant de pouvoir être dégustée.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.733235e+01 ;
+            ns1:longitude 5.014639e+00 ] ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/62/6a/626a76828f61a.png> ;
+    ns1:name "Brasserie Petitdemange - Les bières du fournil" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "19:00" ;
+            ns1:dayOfWeek "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "10:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "19:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday" ;
+            ns1:opens "14:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://a2roo.coopcycle.org/en/restaurant/51-brasserie-petitdemange-les-bieres-du-fournil" ] ] ;
+    ns1:sameAs <https://a2roo.coopcycle.org/en/restaurant/51-brasserie-petitdemange-les-bieres-du-fournil> ;
+    ns1:url <https://a2roo.coopcycle.org/en/restaurant/51-brasserie-petitdemange-les-bieres-du-fournil> .
+
+<https://a2roo.coopcycle.org/api/addresses/8440> a ns1:PostalAddress ;
+    ns1:name "Brasserie Petitdemange - Les bières du fournil" ;
+    ns1:streetAddress "28 Boulevard des Clomiers, 21240 Talant, France" ;
+    ns1:telephone "+33954119604" .
+

@@ -1,0 +1,98 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://kooglof.coopcycle.org/api/restaurants/77> ns1:hasMenu <https://kooglof.coopcycle.org/en/restaurant/77-donatien-maitre-eclair#menu> .
+
+<https://kooglof.coopcycle.org/en/restaurant/77-donatien-maitre-eclair#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Saumon fumé, fromage battu au citron, concombre frais, roquette, graines de sésame" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/25/642589cd42f37.jpeg> ;
+                    ns1:name "Scandinave" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Fish",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème au raifort et ciboulette, morceaux d'olives noires et vertes, tomates séchées" ;
+                    ns1:name "Olives raifort" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Vitello Tonato" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "Gamme Salée 🤤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Biscuit à la cuillère, sirop de café, crème mascarpone, ganache émulsionnée au café, cacao en poudre" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/42/644282adf14d0.jpeg> ;
+                    ns1:name "Tiramisu" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Fraise citron vert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème au citron et au yuzu, glaçage citron et chocolat blanc, meringue caramélisée, zeste de citron vert" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/25/6425867b5b81e.jpeg> ;
+                    ns1:name "Citron-Yuzu" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crémeux chocolat noir 65% origine Ghana, glaçage cacao et chocolat maison, décor chocolat noir" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/05/6405ade75dfa6.jpeg> ;
+                    ns1:name "Chocolat Noir Grand Cru" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème pâtissière pistache, ganache montée pistache, glaçage chocolat blanc et brisures de pistaches d'Iran torréfiées" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/25/6425896dc9874.jpeg> ;
+                    ns1:name "Pure Pistache" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/42/64427d8f82444.jpeg> ;
+                    ns1:name "Passion Framboise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème au caramel et mascarpone, caramel beurre salé, cacahuètes torréfiées, chocolat au lait 40%" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/05/6405afd2ecd66.jpeg> ;
+                    ns1:name "Chouchou Caramel" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Agrume - Miel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "Gamme Sucrée 🍩" ] .
+

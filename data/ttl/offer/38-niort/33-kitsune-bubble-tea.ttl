@@ -1,0 +1,144 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://niort.coopcycle.org/api/restaurants/33> ns1:hasMenu <https://niort.coopcycle.org/en/restaurant/33-kitsune-bubble-tea#menu> .
+
+<https://niort.coopcycle.org/en/restaurant/33-kitsune-bubble-tea#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/52/655252415dda9.jpeg> ;
+                    ns1:name "Sticker Potion" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/52/65525180214fe.jpeg> ;
+                    ns1:name "Sticker Bubble fraise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/52/655252b5abd74.jpeg> ;
+                    ns1:name "Sticker Vampire" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Dimensions : longueur 20 cm, diamètre 14mm" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/52/655254384a504.jpeg> ;
+                    ns1:name "Paille en verre gravée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/52/6552529361e9e.jpeg> ;
+                    ns1:name "Sticker Sorcier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Goodies" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Lait sans lactose, perles de tapioca caramélisées, caramel maison de sucre brun BIO\r
+Se déguste chaud ou froid""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/6d/636d1ade750c3.jpeg> ;
+                    ns1:name "Brown Sugar" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Lait sans lactose, sirop de pop corn, perles de tapioca caramélisées, caramel maison de sucre brun BIO\r
+Se déguste chaud ou froid""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/52/65523ec50f90a.jpeg> ;
+                    ns1:name "Pop the corn" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Lait sans lactose, matcha, perles de tapioca caramélisées, caramel maison de sucre brun BIO\r
+Se déguste chaud ou froid""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/6d/636d38c7402b6.jpeg> ;
+                    ns1:name "Matcha Brown Sugar" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Lait sans lactose, café, perles de tapioca caramélisées, caramel maison de sucre brun BIO\r
+Se déguste chaud ou froid""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/6d/636d38888055d.jpeg> ;
+                    ns1:name "Coffee Brown Sugar" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Lait sans lactose, cacao BIO, perles de tapioca caramélisées, caramel maison de sucre brun BIO\r
+Se déguste chaud ou froid""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/6d/636d1cf8e2ae2.jpeg> ;
+                    ns1:name "Cocoa Brown Sugar" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Jus de pomme, thé vert au jasmin, épices à pain d'épice, perles de tapioca caramélisées, caramel maison de sucre brun BIO\r
+Se déguste chaud""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/72/6572dc89ab45c.jpeg> ;
+                    ns1:name "Apple Pie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Lait sans lactose, pâte de spéculoos, café (optionnel), perles de tapioca caramélisées, caramel maison de sucre brun BIO\r
+Se déguste chaud""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/6d/636d18bfaa0d2.jpeg> ;
+                    ns1:name "Biscuit Coffee" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "Bubble dessert" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Thé vert au jasmin, sirops kumquat et goyave\r
+3 perles au choix""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/6d/636d3a5082f20.jpeg> ;
+                    ns1:name "Sunrise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Thé vert au jasmin, purée de mangue, sirop de mangue\r
+2 perles au choix""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/52/65522a4625da7.jpeg> ;
+                    ns1:name "Mango Juice" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thé noir, lait sans lactose, vanille, perles de tapioca" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/6c/636cfdaf6306f.jpeg> ;
+                    ns1:name "Milky Tea" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Thé vert au jasmin, framboises, sirops de litchi et kumquat\r
+2 perles au choix""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/6d/636d394838975.jpeg> ;
+                    ns1:name "Pink Potion" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Thé vert au jasmin, sirop d'hibiscus\r
+2 perles au choix""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/52/65522c690217c.jpeg> ;
+                    ns1:name "Summer vibe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Thé vert au jasmin, jus de pomme, sirop de goyave\r
+2 perles au choix""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/52/65522bf83892d.jpeg> ;
+                    ns1:name "Lady Guava" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Thé vert au jasmin, pêches, sirop de pêche\r
+2 perles au choix""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/6d/636d3a1940f01.jpeg> ;
+                    ns1:name "Sweet Peach" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Bubble Tea traditionnels" ] .
+

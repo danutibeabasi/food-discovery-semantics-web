@@ -1,0 +1,37 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://coursiersmontpellier.coopcycle.org/api/restaurants/74> a ns1:Restaurant ;
+    ns1:address <https://coursiersmontpellier.coopcycle.org/api/addresses/7485> ;
+    ns1:bannerImage "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_banner/65/6d/656dbe5632cab.png" ;
+    ns1:description """# Pizza Sicilia : Voyage Culinaire en Italie 🍕🇮🇹\r
+\r
+**Pizza Sicilia** vous transporte au cœur de l'Italie avec ses pizzas authentiques cuites au feu de bois. Nos recettes traditionnelles, héritées des maîtres pizzaiolos siciliens, sont une célébration des saveurs italiennes authentiques. Rejoignez-nous pour une aventure culinaire inoubliable sous le soleil méditerranéen, ici, à Montpellier.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.361174e+01 ;
+            ns1:longitude 3.877038e+00 ] ;
+    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_thumbnail/65/46/6546b041dfdaf.png> ;
+    ns1:name "Restaurant les vignes 🍽️🇨🇵" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:40" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://coursiersmontpellier.coopcycle.org/en/restaurant/74-restaurant-les-vignes" ] ] ;
+    ns1:sameAs <https://coursiersmontpellier.coopcycle.org/en/restaurant/74-restaurant-les-vignes> ;
+    ns1:url <https://coursiersmontpellier.coopcycle.org/en/restaurant/74-restaurant-les-vignes> .
+
+<https://coursiersmontpellier.coopcycle.org/api/addresses/7485> a ns1:PostalAddress ;
+    ns1:name "Restaurant les vignes 🍽️🇨🇵" ;
+    ns1:streetAddress "2 Rue Bonnier d'Alco, Montpellier, France" ;
+    ns1:telephone "+33467604842" .
+

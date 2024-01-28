@@ -1,0 +1,32 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rayon9.coopcycle.org/api/restaurants/11> a ns1:Restaurant ;
+    ns1:address <https://rayon9.coopcycle.org/api/addresses/41660> ;
+    ns1:bannerImage "https://rayon9.coopcycle.org/media/cache/restaurant_banner/65/6e/656ef47e4ec0a097906648.jpg" ;
+    ns1:description "Spécialité Hawaïenne (Poke Bowl) - Petits mets au goût du voyage" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 5.063892e+01 ;
+            ns1:longitude 5.570297e+00 ] ;
+    ns1:image <https://rayon9.coopcycle.org/media/cache/restaurant_thumbnail/61/15/611506328538e.jpg> ;
+    ns1:name "G du Bol" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:30" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Wednesday" ;
+            ns1:opens "11:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://rayon9.coopcycle.org/en/restaurant/11-g-du-bol" ] ] ;
+    ns1:sameAs <https://rayon9.coopcycle.org/en/restaurant/11-g-du-bol> ;
+    ns1:url <https://rayon9.coopcycle.org/en/restaurant/11-g-du-bol> .
+
+<https://rayon9.coopcycle.org/api/addresses/41660> a ns1:PostalAddress ;
+    ns1:name "G du Bol" ;
+    ns1:streetAddress "Rue Saint-Rémy 9, Liège, Belgique" ;
+    ns1:telephone "+32499816403" .
+

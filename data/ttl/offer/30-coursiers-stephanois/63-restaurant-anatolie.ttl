@@ -1,0 +1,300 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiers-stephanois.coopcycle.org/api/restaurants/63> ns1:hasMenu <https://coursiers-stephanois.coopcycle.org/en/restaurant/63-restaurant-anatolie#menu> .
+
+<https://coursiers-stephanois.coopcycle.org/en/restaurant/63-restaurant-anatolie#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Au choix" ;
+                    ns1:name "CANETTE 33 CL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Au choix - 37,5 cl." ;
+                    ns1:name "VINS TURCS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Heineken 25 cl ou Efes (bière turque)" ;
+                    ns1:name "BIÈRES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Au choix - 75 cl." ;
+                    ns1:name "VINS TURCS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ] ;
+            ns1:name "LES BOISSONS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain artisanal au sésame, kebab de veau fait maison et cuit au feu de bois, légumes grillés (courgettes, aubergines, poivrons), carottes rapées, chou rouge, salade, tomates, oignons au sumak et au persil, feta, sauce blanche maison." ;
+                    ns1:name "SEBZELI KEBAP" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "SEBZELI KEBAP Assiette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "SEBZELI KEBAP Menu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "NOTRE SPECIALITÉ" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "BAKLAVA (ARTISANAL)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "TIRAMISU" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "LES DESSERTS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salade verte, tomates cerises, oeuf au plat, escalope, gruyère, croûtons" ;
+                    ns1:name "SALADE DECOUVERTE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade verte, tomates, concombre, citron, feta" ;
+                    ns1:name "SALADE DU BERGER" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Köfte, adana, tenders, kebab, salade, tomates, poivrons" ;
+                    ns1:name "SALADE ANATOLIE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Légumes grillés (courgettes, aubergines, poivrons, carottes) sauce blanche, feta" ;
+                    ns1:name "SEBZELI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ] ;
+            ns1:name "LES SALADES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Viande de kebab, pain grillé, sauce tomate et yaourt, beurre grillé" ;
+                    ns1:name "ASSIETTE ISKENDER" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Viande de kebab, köfte, escalope assaisonnée, crudités, frites, riz et blé" ;
+                    ns1:name "ASSIETTE MIXTE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Escalope assaisonnée au paprika, crudités, frites, riz et blé" ;
+                    ns1:name "ASSIETTE ESCALOPE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Viande hachée pimentée, crudités, frites, riz et blé" ;
+                    ns1:name "ASSIETTE ADANA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Viande kebab, crudités, frites, riz et blé" ;
+                    ns1:name "ASSIETTE KEBAB" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Steak haché, cheddar, crudités et frites" ;
+                    ns1:name "ASSIETTE BURGER" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tacos viande au choix, crudités, frites, riz et blé" ;
+                    ns1:name "ASSIETTE TACOS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Viande kebab, légumes grillés, feta, sauce blanche maison, pain artisanal grillé, persil, oignons au sumak" ;
+                    ns1:name "ASSIETTE SEBZELI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boulettes de viande hachée épicée, crudités, frites, riz et blé" ;
+                    ns1:name "ASSIETTE KÖFTE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Köfte roulé en galette, sauce yaourt, sauce tomate, gruyère rapé, riz" ;
+                    ns1:name "ASSIETTE BEYTI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ] ;
+            ns1:name "LES ASSIETTES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Hamburger ou petite assiette + Capri sun 20 cl." ;
+                    ns1:name "Menu enfant" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "MENU ENFANT" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "PANINI FROMAGE en menu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Double burger (boeuf)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Kebab Géant" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Barquette de riz ou de blé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Miche Kebab en menu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Kebab Géant en menu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Kebab Maxi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Galette simple en menu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "PANINI FROMAGE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tenders 6 pièces" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, tomates, oignons, gruyère, viande au choix, 3 fromages." ;
+                    ns1:name "TACOS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Kebab Normal" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, tomates, oignons, gruyère, viande au choix, 3 fromages." ;
+                    ns1:name "TACOS double en menu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, tomates, oignons, viande a choix, 3 fromages." ;
+                    ns1:name "GALETTE / WRAP" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petite ou grande" ;
+                    ns1:name "Barquette de viande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "PANINI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Classique (boeuf)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, tomates, oignons, viande a choix, 3 fromages." ;
+                    ns1:name "GALETTE / WRAP double en menu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Filet de poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Double burger (boeuf) en menu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, tomates, oignons, viande a choix, 3 fromages." ;
+                    ns1:name "GALETTE / WRAP double" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Galette simple" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Classique (boeuf) en menu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Miche Kebab" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Nuggets 6 pièces" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, tomates, oignons, gruyère, viande au choix, 3 fromages." ;
+                    ns1:name "TACOS double" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pain Frites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Filet de poulet en menu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "PANINI NUTELLA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Galette double en menu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, tomates, oignons, viande a choix, 3 fromages." ;
+                    ns1:name "GALETTE / WRAP en menu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Kebab Normal en menu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "PANINI en menu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, tomates, oignons, gruyère, viande au choix, 3 fromages." ;
+                    ns1:name "TACOS en menu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Kebab Maxi en menu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Galette double" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petite ou grande" ;
+                    ns1:name "Barquette  de frites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "LES SANSWICHES" ] .
+

@@ -1,0 +1,131 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/79> ns1:hasMenu <https://eramangasteiz.coopcycle.org/en/restaurant/79-el-mexicano-y-mucho-mas#menu> .
+
+<https://eramangasteiz.coopcycle.org/en/restaurant/79-el-mexicano-y-mucho-mas#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Con un toque picante!" ;
+                    ns1:name "Nuestro brownie casero" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bizcocho tierno de elote" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Pastel 3 leches" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "POSTRES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "La del Chavo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "La de pierna cubana de Cerdo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "La vegetariana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "La vaca acalorada" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "ensucia manteles de pollo mole" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Campeonato Euskadi pibil" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "La prima gorda del burrito de tinga" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ] ;
+            ns1:name "LAS TORTAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Botellín de 330 ml" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/65/62654afcabfed.jpeg> ;
+                    ns1:name "Cerveza Sol" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Botellín de 330 ml" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/65/62654ba278590.jpeg> ;
+                    ns1:name "Cerveza Modelo Negra" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Botellín de 335 ml" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/65/62654a4f6a94a.jpeg> ;
+                    ns1:name "Cerveza Corona" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Botellín de 330 ml" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/65/62654b1c6e117.jpeg> ;
+                    ns1:name "Cerveza XX large rubia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "BEBIDAS ALCOHOLICAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Especialidad de la casa! Tortillas de maiz rellenas de pollo, bañadas con las diferentes salsas, gratinadas y con frijoles" ;
+                    ns1:name "Enchiladas rojas, verde o mole" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.50" ] ] ;
+            ns1:name "ENCHILADAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/65/6265490bf4160.jpeg> ;
+                    ns1:name "Jarrito Mandarina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/65/626549565366e.jpeg> ;
+                    ns1:name "Jarrito Piña" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/65/6265493292cce.jpeg> ;
+                    ns1:name "Jarrito Mango" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/65/626549d672948.jpeg> ;
+                    ns1:name "Jarrito Toronja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "REFRESCOS MEXICANOS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Gratinados con sus acompañantes" ;
+                    ns1:name "Nachos autenticos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Gringa de carne de cerdo adobada al pastor" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Flautas de pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Burrito de tinga de res" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ] ;
+            ns1:name "ENTRANTES" ] .
+

@@ -1,0 +1,311 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiers-stephanois.coopcycle.org/api/restaurants/53> ns1:hasMenu <https://coursiers-stephanois.coopcycle.org/en/restaurant/53-oyisi#menu> .
+
+<https://coursiers-stephanois.coopcycle.org/en/restaurant/53-oyisi#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Salade wakamé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "12 pièces" ;
+                    ns1:name "Gyoza raviolis poulet legume" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/80/6480835330c67.jpeg> ;
+                    ns1:name "EDAMAME" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 pièces" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/1c/641c0d387580d.jpeg> ;
+                    ns1:name "Tempura crevettes panées" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces" ;
+                    ns1:name "Gyoza raviolis poulet legume" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "riz nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Yakitori brochette poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "petit pain vapeur farci au boeuf" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/1c/641c119385639.jpeg> ;
+                    ns1:name "Baozi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Kayaku riz assaissonné" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/1c/641c0d9b1eb62.jpeg> ;
+                    ns1:name "Torikasu poulet pané" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "ENTREE" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/66/62667983e38b5.jpeg> ;
+                    ns1:name "Ramen torikasu ( poulet pané)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/66/6266799c4c0b8.jpeg> ;
+                    ns1:name "Ramen veggie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/1c/641c0e5fe038b.jpeg> ;
+                    ns1:name "Ramen chashu (porc braisé)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/66/6266795f3eb5b.jpeg> ;
+                    ns1:name "Ramen tempura (crevettes panées)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ] ;
+            ns1:name "RAMEN" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Un sandwich de pancakes dorés, fourré à l’anko, crème de haricot rouge sucrée" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/66/62667633b9edb.jpeg> ;
+                    ns1:name "Dorayaki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Perle de coco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une boule toute douce, composée d’une enveloppe de riz gluant et d’un coeur de pâte de haricot rouge sucrée" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/66/62667b632a969.jpeg> ;
+                    ns1:name "Daifuku (mochi)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "DESSERT" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/66/62667d120a8a8.jpeg> ;
+                    ns1:name "A5 : 6 california saumon avocat, 5 sushi saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/66/62667acaddfbf.jpeg> ;
+                    ns1:name "A6 : 6 maki avocat, 6 maki radis mariné, 6 maki concombre, 2 sushi ometette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/66/6266784dd3474.jpeg> ;
+                    ns1:name "A3 : 8 sushi assortiment" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/1c/641c087916c60.jpeg> ;
+                    ns1:name "A8 : 6 california saumon avocat, 6 california thon ,2 sushi saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/1c/641c07dfd747b.jpeg> ;
+                    ns1:name "A1 : 6 maki saumon, 5 sushi saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/1c/641c08c67de47.jpeg> ;
+                    ns1:name "A4 : 6 california saumon avocat, 6 maki saumon, 6 sashimi saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/66/62667bd0bf39f.jpeg> ;
+                    ns1:name "A2 : 8 sushi saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/1c/641c07b013519.jpeg> ;
+                    ns1:name "A7 : 6 maki thon, 6 maki saumon, 6 sashimi concombre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/1c/641c0a44c6011.jpeg> ;
+                    ns1:name "A9 : 6 california saumon avocat, 6 maki saumon, 6 sushi saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ] ;
+            ns1:name "SUSHI BOX" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "maki neige avocat cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/1c/641c0961c7f17.jpeg> ;
+                    ns1:name "Maki neige saumon fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "maki printemps avocat concombre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "maki avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "maki fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "california tempura crevette avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "maki printemps avocat fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "maki printemps thon avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Tekkka maki thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/66/62667c70acac7.jpeg> ;
+                    ns1:name "california  saumon avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/66/62667c329971f.jpeg> ;
+                    ns1:name "Shake maki saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "california thon avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Ushinko maki radis mariné" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "California saumon avocat  oignon frit" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Kappa maki concombre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/1c/641c098ae93a7.jpeg> ;
+                    ns1:name "Maki printemps saumon avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "MAKI par 6" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/66/626678e3f2da1.jpeg> ;
+                    ns1:name "B1 bentos tempura (crevettes panées)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "B7 bentos oyisi (saumon)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/66/6266790c578fd.jpeg> ;
+                    ns1:name "B2 bentos chashu (porc braisé)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/66/62667a4abf6e4.jpeg> ;
+                    ns1:name "B6 bentos yakirori (brochette poulet)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/66/62667a1ad9fb7.jpeg> ;
+                    ns1:name "B5 bentos gyoza (raviolis poulet)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/71/62710395e54b5.jpeg> ;
+                    ns1:name "B4 bentos unagi (anguille grillé)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/66/6266792cadc7c.jpeg> ;
+                    ns1:name "B3 bentos torikasu (poulet pané)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ] ;
+            ns1:name "BENTOS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Tamago sushi omelette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Ebi sushi crevette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Maguro sushi thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/66/62667ca4b1a11.jpeg> ;
+                    ns1:name "Shake sushi saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "SUSHI par 2" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/66/626675c126e6b.jpeg> ;
+                    ns1:name "Ramune" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/66/626676141c164.jpeg> ;
+                    ns1:name "Birère blonde asahi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "COCA COLA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "BOISSON" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Sashimi saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Sashimi thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "SASHIMI par 10" ] .
+

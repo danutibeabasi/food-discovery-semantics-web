@@ -1,0 +1,193 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://beefast.coopcycle.org/api/restaurants/31> ns1:hasMenu <https://beefast.coopcycle.org/en/restaurant/31-via-pizza#menu> .
+
+<https://beefast.coopcycle.org/en/restaurant/31-via-pizza#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Crème fraîche, saumon frais, saumon fumé, citron" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/41/6241c27406a6b.jpeg> ;
+                    ns1:name "Tagliatelles Fraîches aux deux saumons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Noix de saint jaques , Noilly prat, Crème fraîche" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/41/6241c3a087585.jpeg> ;
+                    ns1:name "Tagliatelles Fraîches aux Noix de Saint Jaques" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâtes fraîches au Pesto" ;
+                    ns1:name "Fusillis au Pesto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petits lardons, jambon, crème fraîche, gruyère, jaune d’oeuf" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/41/6241c24361702.jpeg> ;
+                    ns1:name "Tagliatelles Fraîches à la Carbonara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Viande hachée, tomate, gruyère" ;
+                    ns1:name "Spaghettis Sauce Bolognaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Parmesan, gruyère, sauce gorgonzola, chèvre" ;
+                    ns1:name "Fusillas aux 4 Fromages" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ] ;
+            ns1:name "Les Pâtes fraîches 🍝" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, lardons, jambon, chorizo, champignons frais, oeuf, olives, origan" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/41/6241c80895e76.jpeg> ;
+                    ns1:name "Royale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.25" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème fraîche, chèvre, mozzarella, noix, origan" ;
+                    ns1:name "Cabrita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, lardons, jambon, champignons frais, crème fraîche, origan" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/41/6241c4b4e3c26.jpeg> ;
+                    ns1:name "Paysanne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, olives, origan" ;
+                    ns1:name "Marguerite" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème fraîche, saumon frais, mozzarella, saumon fumé, citron, pointe d’asperge, origan" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/41/6241c59100cae.jpeg> ;
+                    ns1:name "Pizza aux deux saumons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base thon à l'huile avec coulis de tomate et piment de cayenne, poivron, câpres, mozzarella, origan, citron" ;
+                    ns1:name "La Thonnelo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, champignons frais, jambon, oeuf, origan" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/41/6241c64e159eb.jpeg> ;
+                    ns1:name "Calzone (La soufflée)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème fraîche, citron, filet de poulet mariné au piment doux et tandoori, champignons, mozzarella, origan" ;
+                    ns1:name "La Créole" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, jambon, champignons frais, origan" ;
+                    ns1:name "Reine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.05" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème fraîche, pomme de terre, Reblochon, oignons, lardon, mozzarella, origan" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/41/6241c7a86d4c8.jpeg> ;
+                    ns1:name "La Montagnarde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème fraîche, chèvre, gorgonzola, parmesan, mozzarella, origan" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/41/6241c996ec505.jpeg> ;
+                    ns1:name "Pizza aux 4 Fromages" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème fraîche, pesto, poivrons, chèvre, tomate confite mozzarella, origan – servie avec de la salade verte" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/41/6241c732ea08e.jpeg> ;
+                    ns1:name "La Pesto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, merguez, poivron, olives, origan" ;
+                    ns1:name "Orientale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.05" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, anchois, câpres, olives, origan" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/41/6241c94001f04.jpeg> ;
+                    ns1:name "La Provençale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, chorizo, poivron, olives, origan" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/41/6241c53ca3e4f.jpeg> ;
+                    ns1:name "Calabraise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, viande de boeuf hachée, origan" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/41/6241c96ea198a.jpeg> ;
+                    ns1:name "Via Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, crème fraîche, noix de Saint Jacques, saumon frais, crevettes, beurre à l’ai, persil" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/41/6241c5c2d08c6.jpeg> ;
+                    ns1:name "Pizza Saint Jacques-Saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, champignons frais, poivron, oignons, tomate confite, coeur d’artichaut, origan" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/41/6241c761de45a.jpeg> ;
+                    ns1:name "Quatre Saisons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mélange salé sucré : tomate, ananas, jambon, mozzarella, origan" ;
+                    ns1:name "Pizza Hawaïenne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.15" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème fraîche, chorizo, olives, andouillette, pomme de terre, mozzarella, oeuf, origan" ;
+                    ns1:name "Stromboli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.40" ] ] ;
+            ns1:name "Les Pizzas 🍕" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Avocat Cocktail Crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Melon suivant la saison, carotte, pamplemousse, pomme, maïs, salade, avocat, crevettes, tomate, banane, oeuf, kiwi, ananas, orange" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/41/6241c1ad41f16.jpeg> ;
+                    ns1:name "Salade Exotique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 Personnes ou 4 Personnes" ;
+                    ns1:name "Asiette de Tapas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade verte, tomate, parmesan, blanc de poulet, oeuf, croûtons)" ;
+                    ns1:name "Salade césar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, Tomate, mozzarella, oignons, huile d'olive" ;
+                    ns1:name "Salade Mozzarella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, avocat, blanc de poulet, rondelles, d’orange, sauce cocktail, amandes effilées, tomate" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/41/6241c1f16e3ed.jpeg> ;
+                    ns1:name "Salade Malibu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Délicieux fromage fondant sur toast grillé, servi sur une chiffonnade de salade et lardons" ;
+                    ns1:name "Crottin de chèvre chaud" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.40" ] ] ;
+            ns1:name "Entrées & Salades" ] .
+

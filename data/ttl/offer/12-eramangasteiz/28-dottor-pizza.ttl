@@ -1,0 +1,394 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/28> ns1:hasMenu <https://eramangasteiz.coopcycle.org/en/restaurant/28-dottor-pizza#menu> .
+
+<https://eramangasteiz.coopcycle.org/en/restaurant/28-dottor-pizza#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "CHEESECAKE DOTTOR PIZZA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "TIRAMISÚ" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "CALZONE NUTELLA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "DOLCI" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "ACEITE PICCANTE CALABRESE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.30" ] ] ;
+            ns1:name "SALSA EXTRA" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Ragù bolognese, bechamel, fior di latte, grana padano DOP" ;
+                    ns1:name "BOLOGNESE Lasaña" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ] ;
+            ns1:name "LASAGNE" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Fior di latte, ricotta de vaca, crema de gorgonzola, chips de grana padano DOP, mermelada de higos y pimienta" ;
+                    ns1:name "RAFFAELLA 2.0 Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fior di latte, bresaola, rúcula, tomate cherry y lascas de grana padano DOP" ;
+                    ns1:name "DELICATA Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fior di latte, salchicha de cerdo, berenjenas y pecorino romano DOP y albahaca" ;
+                    ns1:name "LA POLAKA Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fior di latte, crema de ricotta, grana padano DOP y gorgonzola" ;
+                    ns1:name "4 FORMAGGI POMODORO Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fior di latte, salchicha de cerdo, patatas horneadas, salsa de trufa y orégano" ;
+                    ns1:name "PAESANA Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fior di latte, crema de huevo, provola ahumada, grana padano DOP, panceta italiana y pimienta negra" ;
+                    ns1:name "FIADONA Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fior di latte, guanciale, crema de huevo, queso pecorino romano DOP y pimienta negra" ;
+                    ns1:name "CARBONARA Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella de bufala DOP, jamón serrano italiano, tomates cherry, salsa de albahaca y albahaca" ;
+                    ns1:name "CAPRESE Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate,´nduja, burrata, tomate semi-seco amarillo y albahaca" ;
+                    ns1:name "CATANZARO Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fior di latte, tomate, ragù bolognese, bacon ahumado y jamón cocido" ;
+                    ns1:name "TXERRITXO Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fior di latte, ricotta de vaca, grana padano DOP y crema de gorgonzola" ;
+                    ns1:name "4 FORMAGGI Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fior di latte, jamón cocido, champiñones y albahaca" ;
+                    ns1:name "VENEZIANA Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fior di latte, calabacines, berenjenas, pimientos y cebolla roja" ;
+                    ns1:name "VEGETARIANA Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fior di latte, boletus, salsa de trufa, grana padano DOP y perejil" ;
+                    ns1:name "PORCINA Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pizza rellena con jamón cocido, stracchino (queso fresco italiano) y fior di latte" ;
+                    ns1:name "LA RELLENA Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fior di latte, tomate, bonito del cantábrico, olive taggiasche y cebolla morada" ;
+                    ns1:name "TONNO Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fior di latte, crema de calabaza, panceta italiana, champiñones, queso de cabra y menta" ;
+                    ns1:name "AGRÍCOLA Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fior di latte, jamón serrano italiano, queso de cabra, champiñones y albahaca" ;
+                    ns1:name "CAMPESINA Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fior di latte, ´nduja, scamorza ahumada, cebolla morada, albahaca y miel" ;
+                    ns1:name "CALABRESE 2.0 Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fior di latte, crema de calabacín, speck, crema de gorgonzola y tomate semi-seco amarillo" ;
+                    ns1:name "TIROLESE 2.0 Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fior di latte, salami picante y albahaca" ;
+                    ns1:name "DIAVOLA Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella de bufala DOP y albahaca" ;
+                    ns1:name "BUFALINA Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fior di latte, boletus, tomate semi-seco amarillo y rojo, provola ahumada y albahaca" ;
+                    ns1:name "LA SPALAZZI Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, pimientos, olive taggiasche, alcaparras y albahaca" ;
+                    ns1:name "VEGANA Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, jamón serrano italiano, tomates cherry, burrata, salsa de albahaca y albahaca" ;
+                    ns1:name "ITALIA Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fior di latte, picante en polvo calabrese, queso pecorino romano DOP  y guanciale" ;
+                    ns1:name "AMATRICIANA Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fior di latte, jamón cocido, olive taggiasche, alcachofas, champiñones y albahaca" ;
+                    ns1:name "CAPRICCIOSA Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fior di latte, berenjenas, scamorza ahumada, grana padano DOP y albahaca" ;
+                    ns1:name "PARMIGIANA Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fior di latte, crema de calabacines, provola ahumada, tomate semi-seco rojo, calabacines fritos y lascas de grana padano DOP" ;
+                    ns1:name "NERANO Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fior di latte, jamón cocido, provola ahumada, grana padano DOP, pimienta" ;
+                    ns1:name "DOTTORE DELIVERY Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella de búfala DOP, salami picante, salsa de albahaca y grana padano DOP" ;
+                    ns1:name "GENOVESE 2.0 Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fior di latte, salchicha de cerdo, pimientos, cebolla morada, queso pecorino romano DOP  y albahaca" ;
+                    ns1:name "CASALESE Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fior di latte, salsa de albahaca, albahaca" ;
+                    ns1:name "MARGHERITA Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fior di latte, jamón cocido y albahaca" ;
+                    ns1:name "CARDINALE Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, ajo en láminas, orégano y albahaca" ;
+                    ns1:name "MARINARA Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fior di latte, ragù bolognese, berenjenas, calabacines y grana padano DOP" ;
+                    ns1:name "CIABBOTTA Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fior di latte, anchoas, tomate cherry, olive taggiasche, alcaparras y orégano" ;
+                    ns1:name "NAPOLI Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fior di latte, crema de calabaza, gorgonzola, salchicha de cerdo, scamorza ahumada, tomates cherry y salsa de trufa" ;
+                    ns1:name "MUSKO Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fior di latte, berenjenas, ricotta salada de oveja y albahaca" ;
+                    ns1:name "NORMA Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fior di latte, tomate rojo y amarillo semi-seco y albahaca" ;
+                    ns1:name "MARGHERITA SBAGLIATA Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MORTAZZA DELIVERY Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fior di latte, rúcula, speck, queso de cabra, cebolla caramelizada, nueces y miel" ;
+                    ns1:name "MONTANARA Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fior di latte, provola ahumada, pimienta negra y albahaca" ;
+                    ns1:name "PROVOLA E PEPE Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fior di latte, salchicha italiana, champiñones, boletus, grana padano DOP, salsa de trufa y perejil" ;
+                    ns1:name "MISTOBOSCO Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ] ;
+            ns1:name "PIZZE" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "ARANCINO FUNGHI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "ARANCINO ROSSO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "ARANCINO BIANCO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "ARANCINO PICCANTE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "ARANCINI DI RISO" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomate, crema de ricotta de vaca y gorgonzola, fior di latte, chips de grana padano DOP y queso pecorino romano DOP" ;
+                    ns1:name "5 FORMAGGI Calzone" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fior di latte, jamón cocido, ragù bolognese, huevo cocido" ;
+                    ns1:name "POLPETTONE Calzone" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fior di latte, champiñones y jamón york italiano" ;
+                    ns1:name "CLASSICO Calzone" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ] ;
+            ns1:name "CALZONI" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Albóndigas de berenjena" ;
+                    ns1:name "POLPETTE DI MELANZANE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lasagna de berenjenas fritas, tomate, fior di latte, provola ahumada, albahaca y grana padano DOP" ;
+                    ns1:name "PARMIGIANA DI MELANZANE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Burrata 250gr, tomate cherry semi-seco, olive taggiasche, albahaca y AOVE" ;
+                    ns1:name "BURRATA Antipasti" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "ANTIPASTI" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "PERONI 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "BASQUELAND IMPARABLE IPA 0.33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "ESTRELLA GALICIA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cerveza de Cerdeña" ;
+                    ns1:name "ICHNUSA SIN FILTRAR 0,33L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "ESTRELLA GALICIA (sin alcohol) 0,25L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "MESSINA CRISTALLI DI SALE 0.33L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "BIRRE 0,30 LT" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "AGUA 0,5cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "COCA COLA 0,33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "NESTEA LIMÓN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "KAS NARANJA 0,33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "COCA COLA ZERO 0,33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "AQUARIUS LIMÓN 0,33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "KAS LIMON 0,33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "AQUARIUS NARANJA 0,33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ] ;
+            ns1:name "BIBITE" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "8UND" ;
+                    ns1:name "AROS DE CEBOLLA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "PATATAS FRITAS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 UDS" ;
+                    ns1:name "JALAPEÑOS DE QUESO CREMA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 UDS" ;
+                    ns1:name "ALITAS DE POLLO CRUJIENTES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "FRITTI - MCCAIN" ] .
+

@@ -1,0 +1,72 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://demo.coopcycle.org/api/restaurants/23> ns1:hasMenu <https://demo.coopcycle.org/en/restaurant/23-l-assiette-du-sud#menu> .
+
+<https://demo.coopcycle.org/en/restaurant/23-l-assiette-du-sud#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Pickles en salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.08" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crudités au naturel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.94" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pickles au naturel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.77" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crudités au naturel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.73" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crudités au naturel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.12" ] ] ;
+            ns1:name "Entrées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Pommes de terre en sauce" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.72" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Escargots mi-cuit·e·s aux oignons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.44" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Courgettes mi-cuit·e·s aux poivrons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.02" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lapin aux carottes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.22" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Courgettes mi-cuit·e·s aux herbes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.38" ] ] ;
+            ns1:name "Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Crêpe à la rhubarbe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.45" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Gâteau aux pommes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.71" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Charlotte au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.05" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crêpe aux figues" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.55" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Moelleux aux figues" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.70" ] ] ;
+            ns1:name "Desserts" ] .
+

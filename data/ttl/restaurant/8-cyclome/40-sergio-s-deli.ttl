@@ -1,0 +1,38 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cyclome.coopcycle.org/api/restaurants/40> a ns1:Restaurant ;
+    ns1:address <https://cyclome.coopcycle.org/api/addresses/16867> ;
+    ns1:description "Sandwicherie Clermontoise de tradition Italo-New-Yorkaise !" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.578527e+01 ;
+            ns1:longitude 3.085077e+00 ] ;
+    ns1:image <https://cyclome.coopcycle.org/media/cache/restaurant_thumbnail/64/e7/64e7a102d8c5a.png> ;
+    ns1:name "Sergio's Deli" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday" ;
+            ns1:opens "18:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://cyclome.coopcycle.org/en/restaurant/40-sergio-s-deli" ] ] ;
+    ns1:sameAs <https://cyclome.coopcycle.org/en/restaurant/40-sergio-s-deli> ;
+    ns1:url <https://cyclome.coopcycle.org/en/restaurant/40-sergio-s-deli> .
+
+<https://cyclome.coopcycle.org/api/addresses/16867> a ns1:PostalAddress ;
+    ns1:name "Sergio's Deli" ;
+    ns1:streetAddress "1 Place des Bughes, Clermont-Ferrand, France" ;
+    ns1:telephone "+33955358312" .
+

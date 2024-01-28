@@ -1,0 +1,43 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/45> a ns1:Restaurant ;
+    ns1:address <https://eramangasteiz.coopcycle.org/api/addresses/55151> ;
+    ns1:bannerImage "https://eramangasteiz.coopcycle.org/media/cache/restaurant_banner/65/6d/656dc14935663635028147.jpg" ;
+    ns1:description "Waska es un bar-restaurante especializado en tapas, pintxos, platillos y menús del día!" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.284864e+01 ;
+            ns1:longitude -2.675346e+00 ] ;
+    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/restaurant_thumbnail/61/54/615447780e88d.jpg> ;
+    ns1:name "Waska" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "12:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "23:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Wednesday" ;
+            ns1:opens "19:35" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "es" ;
+                    ns1:urlTemplate "https://eramangasteiz.coopcycle.org/en/restaurant/45-waska" ] ] ;
+    ns1:sameAs <https://eramangasteiz.coopcycle.org/en/restaurant/45-waska> ;
+    ns1:url <https://eramangasteiz.coopcycle.org/en/restaurant/45-waska> .
+
+<https://eramangasteiz.coopcycle.org/api/addresses/55151> a ns1:PostalAddress ;
+    ns1:name "Waska" ;
+    ns1:streetAddress "Fundadora de las Siervas de Jesus Kalea, 17, Vitoria-Gasteiz, Spain" ;
+    ns1:telephone "+34945564935" .
+

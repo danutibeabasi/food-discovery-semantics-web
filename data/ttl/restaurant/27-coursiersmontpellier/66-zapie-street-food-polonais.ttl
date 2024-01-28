@@ -1,0 +1,43 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://coursiersmontpellier.coopcycle.org/api/restaurants/66> a ns1:Restaurant ;
+    ns1:address <https://coursiersmontpellier.coopcycle.org/api/addresses/5566> ;
+    ns1:bannerImage "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_banner/65/6d/656dbec092781.png" ;
+    ns1:description "La ZAPIEKANKA, Spécialité Polonaise, est un long pain (40 cm et Bio) avec une farce (BASE) dessus, composée de champignons de Paris frais et d’oignons juste revenus, parsemée de fromage et le tout gratinée au four. Nos ZAPS sont à déguster sans modération !" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.361179e+01 ;
+            ns1:longitude 3.879113e+00 ] ;
+    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_thumbnail/65/46/6546c4a884b84.png> ;
+    ns1:name "ZAPIE Street Food Polonais 🥟" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:40" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday" ;
+            ns1:opens "19:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:40" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://coursiersmontpellier.coopcycle.org/en/restaurant/66-zapie-street-food-polonais" ] ] ;
+    ns1:sameAs <https://coursiersmontpellier.coopcycle.org/en/restaurant/66-zapie-street-food-polonais> ;
+    ns1:url <https://coursiersmontpellier.coopcycle.org/en/restaurant/66-zapie-street-food-polonais> .
+
+<https://coursiersmontpellier.coopcycle.org/api/addresses/5566> a ns1:PostalAddress ;
+    ns1:name "ZAPIE Street Food Polonais 🥟" ;
+    ns1:streetAddress "40 Rue de l'Aiguillerie, Montpellier, France" ;
+    ns1:telephone "+33663287994" .
+

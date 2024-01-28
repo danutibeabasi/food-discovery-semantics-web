@@ -1,0 +1,52 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lcr.coopcycle.org/api/restaurants/9> a ns1:Restaurant ;
+    ns1:address <https://lcr.coopcycle.org/api/addresses/508> ;
+    ns1:bannerImage "https://lcr.coopcycle.org/media/cache/restaurant_banner/65/6e/656e14cede474.png" ;
+    ns1:description """Restaurant local et bio, burgers maison, végétaliens et produits fermiers.\r
+\r
+Spécialités de poulet et de dinde en filière courte provenant directement des producteurs des environs, mais aussi spécialité de falafels, steak lentille corails, accompagné de frites maisons et pommes de terres sautées.\r
+ Les desserts (maison eux aussi) viennent compléter un menu 100% bio et local en cas de petite envie de sucré.\r
+\r
+Formules salades, sandwichs, poulet rôti, wraps, mezze, burgers, il y en a pour tous les goûts chez le Coucou.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.81153e+01 ;
+            ns1:longitude -1.67902e+00 ] ;
+    ns1:image <https://lcr.coopcycle.org/media/cache/restaurant_thumbnail/62/3d/623ddcfb862f5.png> ;
+    ns1:name "Le Coucou Rennais" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:50" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday" ;
+            ns1:opens "19:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:40" ;
+            ns1:dayOfWeek "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "19:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:45" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "12:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://lcr.coopcycle.org/en/restaurant/9-le-coucou-rennais" ] ] ;
+    ns1:sameAs <https://lcr.coopcycle.org/en/restaurant/9-le-coucou-rennais> ;
+    ns1:url <https://lcr.coopcycle.org/en/restaurant/9-le-coucou-rennais> .
+
+<https://lcr.coopcycle.org/api/addresses/508> a ns1:PostalAddress ;
+    ns1:name "Le Coucou Rennais" ;
+    ns1:streetAddress "20 Rue d'Antrain, 35700 Rennes, France" ;
+    ns1:telephone "+33973148872" .
+

@@ -1,0 +1,187 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://sicklo.coopcycle.org/api/restaurants/13> ns1:hasMenu <https://sicklo.coopcycle.org/en/restaurant/13-o-delices-du-liban#menu> .
+
+<https://sicklo.coopcycle.org/en/restaurant/13-o-delices-du-liban#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pois chiche et crème de sésames" ;
+                    ns1:name "Hommos tahina 350gr" ;
+                    ns1:nutrition "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "( 2 pièces )" ;
+                    ns1:name "Falafel 2 pièces" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Kebbeh" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Purée d'aubergines grillées à la crème de sésame idéale durant les apéritifs." ;
+                    ns1:name "Aubergine tahina (350gr)" ;
+                    ns1:nutrition "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Taboulé" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "ACCOMPAGNEMENTS 🧆" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "( Accompagné de caviar d'aubergine au tahina, salade verte, sauce à l'ail, purée de piments rouges, légumes marinés, olives, pain et dessert )" ;
+                    ns1:name "Poulet pimenté aux poivrons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "( Blanc de poulet aux champignons et aux tomates, accompagné de hommos tahina, salade verte, sauce à l'ail, légumes marinés, olives, pain et dessert )" ;
+                    ns1:name "Chiche taouk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "( 5 boulettes de falafel ( pois chiche et févettes décortiqués), accompagnées de salade verte ou persil, tomates, légumes marinés, crème de sésame, pain et dessert" ;
+                    ns1:name "Falafel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "( A la melasse de grenade, accompagné de hommos tahina, salade verte, crème de sésame, légumes marinés, olives, pain et dessert )" ;
+                    ns1:name "Foie de poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Poulet à la coriandre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Poulet à la sauce de Soja et citron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boulettes de viande hâchée mixées avec du persil et des oignons, à la sauce tomate, tranches de tomates et ailes d’oignons accompagnées de hommos tahina, salade, marinade, olives, pain et dessert." ;
+                    ns1:name "Kafta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Accompagné de hommos tahina ( salade verte, sauce à l'ail, légumes marinés, olives, pain et dessert" ;
+                    ns1:name "Poulet au citron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "( Composé de blanc de poulet avec un mélange d'épices à base de curry qui donne un goût exotique, accompagné de hommos tahina, salade verte, concombres et navets marinés, sauce à l'ail, pain libanais et dessert )" ;
+                    ns1:name "Poulet curry" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "( viande de boeuf pimentée et épicée, accompagnée de hommos tahina, salade verte, légumes marinés, olives, pain et dessert )" ;
+                    ns1:name "Boeuf soujouk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "( Composé de viandes de boeuf avec de la coriandre fraîche et des épices spéciales, de la sauce tomate, accompagné de hommos tahina, salade verte, pot de crème de sésame, concombres et navets marinés, pain libanais et dessert )" ;
+                    ns1:name "Bœuf à la coriandre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ] ;
+            ns1:name "ASSIETTE 🍲" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Une boisson lactée salée et rafraîchissante à base de yaourt très prisée au Liban." ;
+                    ns1:name "Ayran" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "( 33cl )" ;
+                    ns1:name "Coca-cola light" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "( 33cl )" ;
+                    ns1:name "Coca-cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "BOISSONS GAZEUSES 🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/5d/ee/5deecb1fa4a41.jpg> ;
+                    ns1:name "Bière Almaza (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "BIÈRES 🍺" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Chausson aux fromages" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Chausson à la mortadelle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Chausson aux épinards" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Chausson aux poivrons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "CHAUSSONS 🥟" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Sandwich bœuf Soujouk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sandwich poulet citron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sandwich poulet pimenté aux poivrons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Sandwich kafta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Sandwich poulet à la sauce de Soja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sandwich chiche taouk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sandwich poulet au curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sandwich falafel" ;
+                    ns1:nutrition "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sandwich bœuf à la coriandre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Sandwich poulet à la coriandre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sandwich foie de poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "SANDWICHS 🥪" ] .
+

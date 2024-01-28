@@ -1,0 +1,39 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://demo.coopcycle.org/api/restaurants/109> a ns1:Restaurant ;
+    ns1:address <https://demo.coopcycle.org/api/addresses/12787> ;
+    ns1:bannerImage "https://demo.coopcycle.org/placeholder/restaurant_banner/placeholders/DWg0lMpMZK3j.jpg" ;
+    ns1:description "Il tempio della Pizza" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.084978e+01 ;
+            ns1:longitude 1.426324e+01 ] ;
+    ns1:image <https://demo.coopcycle.org/media/cache/restaurant_thumbnail/63/1f/631f86d70b70f.png> ;
+    ns1:name "Pizzeria da Cristianotto" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "23:59" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "09:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "23:59" ;
+            ns1:dayOfWeek "Saturday",
+                "Sunday" ;
+            ns1:opens "00:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://demo.coopcycle.org/en/restaurant/109-pizzeria-da-cristianotto" ] ] ;
+    ns1:sameAs <https://demo.coopcycle.org/en/restaurant/109-pizzeria-da-cristianotto> ;
+    ns1:url <https://demo.coopcycle.org/en/restaurant/109-pizzeria-da-cristianotto> .
+
+<https://demo.coopcycle.org/api/addresses/12787> a ns1:PostalAddress ;
+    ns1:name "Pizzeria da Cristianotto" ;
+    ns1:streetAddress "Via Cesare Sersale, 1, 80139 Napoli, NA, Italia" ;
+    ns1:telephone "+39081123456" .
+

@@ -1,0 +1,43 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://krokoop.coopcycle.org/api/restaurants/27> a ns1:Restaurant ;
+    ns1:address <https://krokoop.coopcycle.org/api/addresses/2106> ;
+    ns1:description """Chez Le Caboulot de la Sérendipité , c’est d’abord le nom qui surprend et interroge : une énigme poétique, hors du temps, où l’audace et la curiosité viennent donner corps à ce lieu libre, champêtre et raffiné.\r
+\r
+Agitateur de bonnes idées, l’établissement tenu par Leen Willems est le premier restaurant 100% végétarien à rejoindre la plateforme avec la belle ambition de nous faire (re)découvrir une nouvelle manière de consommer. Et pour nous surprendre encore, la carte se réinvente chaque semaines par des recettes toujours plus inspirantes et savoureuses, avec en maître de cuisine Juliette Wall pour faire vibrer votre palais !\r
+\r
+Alors pour les amoureux de beaux partages et d’authenticité, de produits frais et minutieusement sélectionnés, il est temps de vous faire plaisir dans cette parenthèse inattendue située en plein Centre-Ville.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.3834e+01 ;
+            ns1:longitude 4.357871e+00 ] ;
+    ns1:image <https://krokoop.coopcycle.org/media/cache/restaurant_thumbnail/65/49/654968db487d8.png> ;
+    ns1:name "LE CABOULOT DE LA SÉRENDIPITÉ" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:50" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:30" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Wednesday" ;
+            ns1:opens "19:20" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://krokoop.coopcycle.org/en/restaurant/27-le-caboulot-de-la-serendipite" ] ] ;
+    ns1:sameAs <https://krokoop.coopcycle.org/en/restaurant/27-le-caboulot-de-la-serendipite> ;
+    ns1:url <https://krokoop.coopcycle.org/en/restaurant/27-le-caboulot-de-la-serendipite> .
+
+<https://krokoop.coopcycle.org/api/addresses/2106> a ns1:PostalAddress ;
+    ns1:name "LE CABOULOT DE LA SÉRENDIPITÉ" ;
+    ns1:streetAddress "26 Rue Jean Reboul, Nîmes, France" ;
+    ns1:telephone "+33466230212" .
+

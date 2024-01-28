@@ -1,0 +1,35 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://a2roo.coopcycle.org/api/restaurants/46> a ns1:Restaurant ;
+    ns1:address <https://a2roo.coopcycle.org/api/addresses/5375> ;
+    ns1:description """L’Audace des Saveurs s’engage maintenant à régaler vos papilles pendant vos pauses déjeuners ! Notre volonté de créer des sandwichs haut de gamme avec des ingrédients sélectionnés soigneusement, vous pourrez mieux apprécier votre déjeuner sur le pouce.\r
+\r
+Retrouvez ici les sandwichs et salades signés Damien Audax, préparés chaque jour à la boutique et livrés par vos coursiers préférés !""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.733329e+01 ;
+            ns1:longitude 5.048597e+00 ] ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/61/fc/61fcfda71d819.png> ;
+    ns1:name "L'Audace des Saveurs - Le midi" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://a2roo.coopcycle.org/en/restaurant/46-l-audace-des-saveurs-le-midi" ] ] ;
+    ns1:sameAs <https://a2roo.coopcycle.org/en/restaurant/46-l-audace-des-saveurs-le-midi> ;
+    ns1:url <https://a2roo.coopcycle.org/en/restaurant/46-l-audace-des-saveurs-le-midi> .
+
+<https://a2roo.coopcycle.org/api/addresses/5375> a ns1:PostalAddress ;
+    ns1:name "L'Audace des Saveurs - Le midi" ;
+    ns1:streetAddress "36 bis Rue du Vingt-Sixième Dragons, 21000 Dijon, France" ;
+    ns1:telephone "+33380341184" .
+

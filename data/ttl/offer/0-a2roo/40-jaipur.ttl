@@ -1,0 +1,291 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://a2roo.coopcycle.org/api/restaurants/40> ns1:hasMenu <https://a2roo.coopcycle.org/en/restaurant/40-jaipur#menu> .
+
+<https://a2roo.coopcycle.org/en/restaurant/40-jaipur#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain de farine blanche et pâte levée" ;
+                    ns1:name "Naan nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain de farine blanche et pâte levée au fromage" ;
+                    ns1:name "Naan au fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain de farine blanche et pâte levée au beurre et légumes" ;
+                    ns1:name "Naan légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain de farine blanche et pâte levée au beurre" ;
+                    ns1:name "Naan au beurre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain de farine blanche et pâte levée à l’ail" ;
+                    ns1:name "Naan garlic" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Pains" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Riz au safran, noix de cajou et raisins mijotés avec crevettes" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/53/615383caad915.jpeg> ;
+                    ns1:name "Biryani crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz au safran, noix de cajou et raisins mijotés avec légumes" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/53/615383852a5ab.jpeg> ;
+                    ns1:name "Biryani légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz au safran, noix de cajou et raisins mijotés avec poulet grillé" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/53/615383ec5f175.jpeg> ;
+                    ns1:name "Biryani poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz au safran, noix de cajou et raisins mijotés avec agneau grillé" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/53/615383a724195.jpeg> ;
+                    ns1:name "Biryani agneau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.20" ] ] ;
+            ns1:name "Biryanis" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Agneau et poulet tikka" ;
+                    ns1:name "Mixed grill" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignets d’oignons, pommes de terre et aubergines" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/53/615380f081437.jpeg> ;
+                    ns1:name "Mix pakora" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux d’agneau mariné aux épices et cuits au tandoori" ;
+                    ns1:name "Agneau tikka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Samossas fourrés aux légumes" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/53/61538331d3052.jpeg> ;
+                    ns1:name "Samossas légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Agneau haché, coriandre et épices cuits au tandoori" ;
+                    ns1:name "Agneau sheek kabab" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Samossas fourrés aux viandes" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/53/61538356ec0bf.jpeg> ;
+                    ns1:name "Samossas viandes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux de poulet blanc mariné aux épices" ;
+                    ns1:name "Poulet tikka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux de saumon marinés, sauce citron et cuits au tandoori" ;
+                    ns1:name "Saumon tikka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cuisse de poulet marinée aux épices et cuite au tandoori" ;
+                    ns1:name "Poulet tandoori" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ] ;
+            ns1:name "Entrées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Concombre, tomates, carottes, crevettes et yaourt avec peu d'épices" ;
+                    ns1:name "Salade crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade verte, maïs, concombres, tomates et saumon grillé" ;
+                    ns1:name "Salade saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade verte, tomates, maïs et concombre poulet grillé" ;
+                    ns1:name "Salade poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade verte, pommes de terre, concombre, maïs, pommes et olives" ;
+                    ns1:name "Salade végétarienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Concombre, tomates, carottes et yaourt avec peu d'épices" ;
+                    ns1:name "Salade raïta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Salades" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Bière indienne 33cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Heineken 33cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Crevettes préparées avec noix de cajou et crème" ;
+                    ns1:name "Crevettes à la crème" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux de saumon grillés au tandoori avec sauce curry" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/53/615382fe868f1.jpeg> ;
+                    ns1:name "Saumon tikka massala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux de crevettes marinés aux épices cuits dans une sauce au curry" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/53/615382ac55fc5.jpeg> ;
+                    ns1:name "Crevettes tikka masala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crevettes au curry avec sauce aux herbes" ;
+                    ns1:name "Crevettes au curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux de saumon grillés au tandoori, amandes, noix de coco et crème" ;
+                    ns1:name "Saumon malai" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon aux curry avec sauce aux herbes" ;
+                    ns1:name "Saumon au curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.20" ] ] ;
+            ns1:name "Plats aux poissons et fruits de mer" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Lentilles au beurre et à la crème" ;
+                    ns1:name "Dal akhani" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lentilles au curry avec épinards aux herbes" ;
+                    ns1:name "Dal palak" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pommes de terre grillées au cumin" ;
+                    ns1:name "Aloo jeera" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Légumes au curry et épices" ;
+                    ns1:name "Mixed légumes ou korma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Caviar d’uabergines au curry" ;
+                    ns1:name "Baigan Bharta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Epinards hachés aux épices et à la crème" ;
+                    ns1:name "Sag malai" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.20" ] ] ;
+            ns1:name "Plats végétariens" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Morceaux de poulet aux épices et épinards" ;
+                    ns1:name "Poulet aux épinards" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet au curry" ;
+                    ns1:name "Poulet curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux de poulet aux épices et lentilles" ;
+                    ns1:name "Poulet dal" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux de poulet marinés aux épices, cuits dans une sauce au curry" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/53/615382dcb7be9.jpeg> ;
+                    ns1:name "Poulet tikka massala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux de poulet marinés aux épices, amandes, noix de coco et crème" ;
+                    ns1:name "Poulet korma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ] ;
+            ns1:name "Plats au poulet" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pâtisserie au miel" ;
+                    ns1:name "Gulab jamun" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gâteau de semoule aux fruits secs" ;
+                    ns1:name "Halwa maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gâteau au pois chiche" ;
+                    ns1:name "Laddu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Curry d'agneau aux épices et lentilles" ;
+                    ns1:name "Agneau dal ghost" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux d'agneau aux épinards à la crème" ;
+                    ns1:name "Agneau aux épinards" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux d'agneau marinés aux épices, amandes, noix de coco et crème" ;
+                    ns1:name "Agneau korma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux d'agneau marinés aux épices, cuits dans une sauce au curry" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/53/6153827286659.jpeg> ;
+                    ns1:name "Agneau tikka massala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux d'agneau aux épices et aubergines au sauce curry" ;
+                    ns1:name "Agneau Baingan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry d’agneau aux épices" ;
+                    ns1:name "Agneau au curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.20" ] ] ;
+            ns1:name "Plats à l'agneau" ] .
+

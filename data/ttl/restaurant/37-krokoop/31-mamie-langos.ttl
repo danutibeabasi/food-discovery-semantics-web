@@ -1,0 +1,49 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://krokoop.coopcycle.org/api/restaurants/31> a ns1:Restaurant ;
+    ns1:address <https://krokoop.coopcycle.org/api/addresses/5162> ;
+    ns1:description """Non, ne vous méprenez pas, ceci n’est pas une Pizza mais bien un Langos, une spécialité venue de Hongrie 🇭🇺 dont Maxime & Diana, à la tête de Mamie Langos détiennent fièrement la recette, et pour cause ! 👁️✨\r
+\r
+Diana, d’origine Hongroise en connait tous le savoir-faire par sa grand-mère, la fameuse Mamie Langos que l’on retrouve sur le logo de l’établissement et que notre jeune couple de restaurateurs a l’honneur de nous faire découvrir, d’autant qu’il s’agit du premier restaurant s'y consacrant entièrement en France ! 🇫🇷\r
+\r
+Accompagné par l’expertise gastronomique de Maxime 👨‍🍳, Nîmois de naissance et ancien chef de partie à la brasserie de l’Imperator 🐊🏨, vous retrouverez le Langos dans sa forme originelle mais également déclinée en différentes saveurs pour une experience gustative toujours plus surprenante. Le tout à base de produits frais et fait-maison, bien sûr 💪. \r
+\r
+PS : Le Langos Nîmois existe avec une garniture de brandade 🐟 à laquelle on ne saurait resister, alors dépêchez-vous de dévorer cette adresse, 6 rue Racine ! 😋""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.383757e+01 ;
+            ns1:longitude 4.354838e+00 ] ;
+    ns1:image <https://krokoop.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560e6abd19cd.png> ;
+    ns1:name "MAMIE LANGOS" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:50" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:50" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://krokoop.coopcycle.org/en/restaurant/31-mamie-langos" ] ] ;
+    ns1:sameAs <https://krokoop.coopcycle.org/en/restaurant/31-mamie-langos> ;
+    ns1:url <https://krokoop.coopcycle.org/en/restaurant/31-mamie-langos> .
+
+<https://krokoop.coopcycle.org/api/addresses/5162> a ns1:PostalAddress ;
+    ns1:name "MAMIE LANGOS" ;
+    ns1:streetAddress "6 Rue Racine, Nîmes, France" ;
+    ns1:telephone "+33466212604" .
+

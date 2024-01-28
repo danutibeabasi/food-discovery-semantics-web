@@ -1,0 +1,74 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://cyclome.coopcycle.org/api/restaurants/5> ns1:hasMenu <https://cyclome.coopcycle.org/en/restaurant/5-homiz#menu> .
+
+<https://cyclome.coopcycle.org/en/restaurant/5-homiz#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Sirocco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "Hot Sauces (Maison Martin)" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "San pe Citron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Coca cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50 cl" ;
+                    ns1:name "San Pellegrino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Softs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "tomate, mozza fior di latte, huile d'olive extra vierge, basilic" ;
+                    ns1:name "OG Margherita" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ricotta crémeuse, mozzarella fior di latte, bleu de laqueuille, Taleggio, basilic. \"A lovely cheese pizza, just for you !\"" ;
+                    ns1:name "McCallister" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomates, mozzarella fior Di latte, saucisse au fenouil , pecorino romano ,oignons cebette" ;
+                    ns1:name "Satriale's" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base tomates, mozzarella fior di latte, saucisse napolitaine , pimenton de la vera" ;
+                    ns1:name "Smokey Pepperoni" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "tomate, mozza fior di latte, jambon blanc artisanal de la boucherie gautier, champignons frais, basilic" ;
+                    ns1:name "Queens" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base crème de truffe, mozzarela fior di latte, Champignons" ;
+                    ns1:name "Truffle Shuffle" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ] ;
+            ns1:name "Pizzas" ] .
+

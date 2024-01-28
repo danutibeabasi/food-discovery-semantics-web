@@ -1,0 +1,88 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lescoursiersnanceiens.coopcycle.org/api/restaurants/36> ns1:hasMenu <https://lescoursiersnanceiens.coopcycle.org/en/restaurant/36-le-strasbourg#menu> .
+
+<https://lescoursiersnanceiens.coopcycle.org/en/restaurant/36-le-strasbourg#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande." ;
+                    ns1:name "Terrine de campagne \"maison\" en verrine Le Parfait (200gr)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ] ;
+            ns1:name "Entrées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Vin Arménien, teinte au choix. Bouteille de 75 cl." ;
+                    ns1:name "Vin Arménien \"Voskevaz\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Champagne \"Veuve Pelletier \" brut" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€60.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vin géorgien blanc, semi doux. Bouteille de 75 cl." ;
+                    ns1:name "Alazani" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ] ;
+            ns1:name "Vins" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande." ;
+                    ns1:name "Kefta de veau aux morilles , Spatzles maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Poulet fermier rôti, frites fraiches" ;
+                    ns1:nutrition "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Kefta de chevreuil , sauce crémeuse au whisky et poivre vert , purée maison" ;
+                    ns1:nutrition "Celery",
+                        "Eggs",
+                        "Milk",
+                        "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ] ;
+            ns1:name "Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande." ;
+                    ns1:name "Moelleux aux chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "boîte de thé vert arménien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Biere pression Bofferding" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "25 cl" ;
+                    ns1:name "Jus de pomme" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "20 cl" ;
+                    ns1:name "Jus d'abricot" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50 cl" ;
+                    ns1:name "Eau plate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "25 cl" ;
+                    ns1:name "Jus d'orange 25cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Boissons" ] .
+

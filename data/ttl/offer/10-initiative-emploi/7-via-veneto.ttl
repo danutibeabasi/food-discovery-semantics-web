@@ -1,0 +1,362 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://initiative-emploi.coopcycle.org/api/restaurants/7> ns1:hasMenu <https://initiative-emploi.coopcycle.org/en/restaurant/7-via-veneto#menu> .
+
+<https://initiative-emploi.coopcycle.org/en/restaurant/7-via-veneto#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Vin rouge" ;
+                    ns1:name "Chianti DOCG" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vin rouge" ;
+                    ns1:name "Valpolicella DOC" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vin rouge" ;
+                    ns1:name "Lambrusco DOC" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Vin blanc\r
+Pinot grigio, Borgo Sanleo""" ;
+                    ns1:name "Venezia DOC" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Rosé" ;
+                    ns1:name "Bardolino Chiaretto DOC" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vin rouge" ;
+                    ns1:name "Bardolino Rosse DOC" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vin rouge" ;
+                    ns1:name "Montepulciano d'Abruzzo DOC" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.20" ] ] ;
+            ns1:name "Vins italiens" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "tomate, Mozzarella, oignons, poivrons, merguez, œuf, origan" ;
+                    ns1:name "La chef" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, Bufala, roquette, parmesan" ;
+                    ns1:name "Di Bufala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "tomate, Mozzarella, jambon de parme, copeaux de Parmesan, roquette" ;
+                    ns1:name "Parma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "tomate, Mozzarella, poivrons, champignons, artichauts, aubergine, roquette, origan" ;
+                    ns1:name "Végétarienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "tomate, Mozzarella, anchois, câpres, olives, basilic frais" ;
+                    ns1:name "Napolitaine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "tomate, Mozzarella, thon, olives, câpres, origan, oignons" ;
+                    ns1:name "Tonna" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "tomate, Mozzarella, oignons, lardons, Reblochon, pommes de terre, ail, crème fraîche" ;
+                    ns1:name "Savoyarde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "tomate, Mozzarella, cocktail de fruits de mer, ail, persil, origan" ;
+                    ns1:name "Pescatore" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "tomate, Mozzarella, Bresaola, roquette, Parmesan" ;
+                    ns1:name "Bresaola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "tomate, Mozzarella, artichauts, champignons, jambon, poivrons, olives, origan" ;
+                    ns1:name "4 saisons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "tomate, Mozzarella, jambon, œuf, origan" ;
+                    ns1:name "Calzone" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "tomate, Mozzarella, Gorgonzola, Chèvre, Parmesan, Camembert" ;
+                    ns1:name "Fromages" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "tomate, Mozzarella, chorizo, champignons, aubergine" ;
+                    ns1:name "Don Carlo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "tomate, Mozzarella, oignons, persil, ail, Noix de Saint-Jacques" ;
+                    ns1:name "Armoricaine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "tomate, Mozzarella, oignons, viande hachée, œuf, origan" ;
+                    ns1:name "Campione" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "tomate, mozzarella, origan" ;
+                    ns1:name "Margarita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "tomate, Mozzarella, champignons, noix, magret fumé" ;
+                    ns1:name "Gerçoise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "tomate, Mozzarella, crème fraîche, oignons, lardons, pommes de terre, œuf, origan" ;
+                    ns1:name "Paysanne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "tomate, Mozzarella, lardons, oignons, crème fraîche" ;
+                    ns1:name "Alsacienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "tomate, anchois, câpres, olives" ;
+                    ns1:name "Sicilienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "tomate, Mozzarella, champignons, jambon, origan" ;
+                    ns1:name "Regina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "tomate, Mozzarella, Chèvre, miel, noix, roquette" ;
+                    ns1:name "Veneto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "tomate, Mozzarella, crème fraîche, saumon fumé" ;
+                    ns1:name "Calzone au saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "tomate, Mozzarella, saumon fumé, crème fraîche, origan" ;
+                    ns1:name "Salmone" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "tomate, Mozzarella, viande hachée, Boursin, œuf, origan" ;
+                    ns1:name "Massimo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ] ;
+            ns1:name "Pizza base tomate" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Spaghetti aux fruits de mer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tagliatelles au foie gras" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "roquette, jambon de parme, parmesan" ;
+                    ns1:name "Penne à la parmigiana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "sauce tomate, câpres, olives, piment, ail, persil" ;
+                    ns1:name "Penne à l'arrabiata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Penne aux cinq fromages" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tagliatelles au pistou" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "jambon, crème, noix, champignons des bois" ;
+                    ns1:name "Tagliatelles à la romana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ravioli à la crème de truffe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "saumon frais, champignons, sauce tomate, crème" ;
+                    ns1:name "Tagliatelles delicia marina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "lardons, crème fraîche, jaune d'œuf" ;
+                    ns1:name "Tagliatelles à la carbonara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Spaghetti à la bolognaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lasagne au four maison, salade verte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ] ;
+            ns1:name "Nos pâtes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Réserve Particulière" ;
+                    ns1:name "Nicolas Feuillatte Brut" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€66.00" ] ] ;
+            ns1:name "Champagnes AOC" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Tarte tation" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Dessert citron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tiramisu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.20" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Escalope de veau Gorgonzola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Escalope de veau à la crème citronnée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "nappée d'aubergines et Mozzarella gratinée au four, jambon blanc" ;
+                    ns1:name "Escalope alla parmigiana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella, jambon blanc" ;
+                    ns1:name "Escalope de veau bolognaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "sauce tomate, jambon blanc, mozzarella gratinée" ;
+                    ns1:name "Aubergine parmigiana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Escalope de veau milanaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pommes Sarladaises" ;
+                    ns1:name "Confit de canard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "escalope de veau, jambon de Parme, sauge, vin banc, crème" ;
+                    ns1:name "Saltimbocca à la romana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.80" ] ] ;
+            ns1:name "Nos plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Domaine Saint Julien les Vignes\r
+Rosé frais et croquant, nez de pamplemousse""" ;
+                    ns1:name "Coteaux d'Aix en Provence AOC" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.40" ] ] ;
+            ns1:name "Vins rosés" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Les Chanteraines\r
+Vin rouge souple, frais et léger, nez de framboise et de bois de ronce""" ;
+                    ns1:name "Saumur Champigny AOC" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pinot noir millebuis\r
+Vin rouge soyeux et léger, joli nez de griotte""" ;
+                    ns1:name "Bourgogne Côte Chalonnaise AOC" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€30.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Minuty Prestige\r
+Vin rouge aux arômes de fruits rouges et de cèdre, tannins fondus en bouche""" ;
+                    ns1:name "Côtes de Provence AOC" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€40.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Victoria II, second vin de Château Victoria\r
+Vin rouge avec des tanins charnus, arrondis par les notes épicées du bois""" ;
+                    ns1:name "Haut-Médoc AOC" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€30.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Moulin de Labordes\r
+Vin rouge bien structuré, souple, au nez de fruit rouge""" ;
+                    ns1:name "Bordeaux AOC" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Les trois Garçons\r
+Vin rouge bio, souple, charnu et gourmand, au nez de fruits rouges compotés""" ;
+                    ns1:name "Côtes du Rhône AOC" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.20" ] ] ;
+            ns1:name "Vins rouges" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "crème fraîche, Mozzarella, Gorgonzola, roquette" ;
+                    ns1:name "Bianca" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "crème fraîche, Mozzarella, oignons, fois gras, magret fumé" ;
+                    ns1:name "Gascogne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "crème fraîche, Mozzarella, poulet, Gorgonzola, champignons, origan" ;
+                    ns1:name "Rimini" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "crème fraîche, crème de truffe, Mozzarella, Parmigiano, roquette" ;
+                    ns1:name "alatatufo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.60" ] ] ;
+            ns1:name "Pizza base crème" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Ecoterra\r
+Vin blanc plein et onctueux, au nez de beurre, de fruits jaunes et de fleur de tilleul""" ;
+                    ns1:name "IGP Pays d'Oc Chardonnay" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.80" ] ] ;
+            ns1:name "Vins blancs" ] .
+

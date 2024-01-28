@@ -1,0 +1,231 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://kooglof.coopcycle.org/api/restaurants/58> ns1:hasMenu <https://kooglof.coopcycle.org/en/restaurant/58-la-table-verte#menu> .
+
+<https://kooglof.coopcycle.org/en/restaurant/58-la-table-verte#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd15f074031.jpeg> ;
+                    ns1:name "Menu Salade / Dessert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd1e53a147f.jpeg> ;
+                    ns1:name "Menu Pic-Nic" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pour les grandes faims !\r
+Une entrée, un plat et un dessert""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/fa/61fa89626df31.jpeg> ;
+                    ns1:name "Menu Entrée / Plat / Dessert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un plat et un dessert" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd04b2e4caf.jpeg> ;
+                    ns1:name "Menu Plat / Dessert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ] ;
+            ns1:name "Nos Menus ⭐" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """salade verte, graines torréfiées, crudités, pomme,\r
+jambon serrano & chorizo pata negra, vinaigrette huile d'olive, colza & balsamique""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/fb/61fbec39a020e.jpeg> ;
+                    ns1:name "Salade Ibérique" ;
+                    ns1:nutrition "Celery",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "salade verte, graines torréfiées, crudités & fruits frais, oeuf dur, tapenade d'olive, vinaigrette huile d'olive, colza & balsamique" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/fb/61fbec10a2d3a.jpeg> ;
+                    ns1:name "Salade Maraichère 100% végétarienne" ;
+                    ns1:nutrition "Celery",
+                        "Eggs",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "salade verte, graines torréfiées, crudités, authentique feta Grecque bio AOP au lait de brebis pasteurisé, amandes au miel, figues moelleuses, olives noires Kalamata, vinaigrette huile d'olive, yaourt & citron" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/fb/61fbeba6eefae.jpeg> ;
+                    ns1:name "Salade Crétoise" ;
+                    ns1:nutrition "Celery",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ] ;
+            ns1:name "Les Salades gourmandes 🥗" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Assortiments de produits locaux (en fonction des stocks disponibles)\r
+Une confiture 230g "Paulen"\r
+Un miel 250g "Damien Bour"\r
+Une plaquette de chocolat env.78g "Bonobio"\r
+Une terrine 90g "Foies gras du Ried"\r
+Une bière 33cl "Blessing"\r
+dans un jolie coffret Table Verte""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd1d4265fd4.jpeg> ;
+                    ns1:name "Epicerie Coffret Gourmand Table Verte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€30.00" ] ] ;
+            ns1:name "Épicerie 🛍️" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "purée panais & brocolis" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/6b/636bb060a153f.jpeg> ;
+                    ns1:name "Plat : Filet de poulet au citron" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "grana padano" ;
+                    ns1:name "Späetzle lard - champignon" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "Les Plats 🍲" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """le chocolat noir c'est bon pour la santé !\r
+un brownie tout chocolat bio (74% de cacao)\r
+idéal pour terminer son déjeuner en beauté !""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/fa/61fa8117b52c8.jpeg> ;
+                    ns1:name "Dessert Brownie tout chocolat" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un onctueux fromage blanc parfumé à la fleur d'oranger, une compote de fruits bio et un croustillant \"granola\" maison" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd1785a95ec.jpeg> ;
+                    ns1:name "Dessert Douceur lactée" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Des fruits frais, rien que des fruits frais ... mais bio et sans sucre ajouté" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/fa/61fa87db97ccf.jpeg> ;
+                    ns1:name "Dessert Salade de fruits frais bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "la simplicité de la pomme bio en compote et la note craquante d'un Streussel à la cannelle" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd172a5f2cc.jpeg> ;
+                    ns1:name "Dessert Compote - Streussel" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ] ;
+            ns1:name "Les Dessert 🍪" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Avec Kooglof au Bureau, les produits sont livrés froids et/ou conditionnés pour une remise en température ⚠️" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/59/63590ad6d4f2a.jpeg> ;
+                    ns1:name "Livraison 🚴‍♂️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """- Commandez avant 11h15 pour une livraison avant 12h15 \r
+- Commandez avant 12h15 pour une livraison avant 13h15 \r
+- Vous pouvez aussi précommander pour un autre jour !
+\r
+*Produit informatif""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/39/6339b117b7168.jpeg> ;
+                    ns1:name "Précommandes ⏳" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Frais de livraison à 2.90€ 🎉\r
+Livraison gratuite à partir de 30€ 🎉
+\r
+*Produit informatif""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/62/16/62162a277cc0a.jpeg> ;
+                    ns1:name "Offres 🏷️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ] ;
+            ns1:name "Fonctionnement 🚴‍♂️" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Jus de fruits frais pressés, bio & vitaminé - pomme - carotte - orange" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd17b17260e.jpeg> ;
+                    ns1:name "Boisson Cocktail de jus de fruits frais \"maison\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "eau plate - 50cl" ;
+                    ns1:name "Eau Carola bleue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "eau finement pétillante - 50cl" ;
+                    ns1:name "Eau Carola verte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brasserie artisanale et éco-responsable LA PASTEL - Geiswiller - 33cl" ;
+                    ns1:name "Boisson Limonade Myrtilles Violette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "25cl" ;
+                    ns1:name "Boisson Jus de tomate bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brasserie artisanale et éco-responsable LA PASTEL - Geiswiller - 33cl" ;
+                    ns1:name "Boisson Limonade Nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ] ;
+            ns1:name "Boissons rafraîchissantes bio 🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Supplément Portion de pain" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Supplément Kit couverts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.50" ] ] ;
+            ns1:name "Suppléments" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Un bol de salade verte bio et son petit pot de vinaigrette" ;
+                    ns1:name "Salade verte, le bol" ;
+                    ns1:nutrition "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "chou rouge/ chou chinois, carotte, pomme, raisins secs, sauce citron, gingembre" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/fb/61fbebd28f604.jpeg> ;
+                    ns1:name "Entrée Salade de choux" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/fa/61fa88f33c23d.jpeg> ;
+                    ns1:name "Soupe de carotte - poireau & paprika" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Les Entrées   🥪" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Brasserie Mercière - Cooswiller - 33cl" ;
+                    ns1:name "Bière Blanche Mercière" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brasserie Blessing - Waldambach - 33cl" ;
+                    ns1:name "Bière Blonde, L'Enjoleuse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Bières artisanales locales et bio 🍺" ] .
+

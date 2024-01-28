@@ -1,0 +1,164 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://niort.coopcycle.org/api/restaurants/3> ns1:hasMenu <https://niort.coopcycle.org/en/restaurant/3-plaisir-des-sens#menu> .
+
+<https://niort.coopcycle.org/en/restaurant/3-plaisir-des-sens#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Boule de campagne - 40g" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Couteau / Fourchette / Cuillère / Serviette" ;
+                    ns1:name "Couverts en bois réutilisables" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Chariot de fromages sélectionnés régionnaux... Mais pas que." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "En supplément" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Grand Poke Bowl Saumon (sauf jours fériés)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Grand Poke Bowl Végan salé  (sauf jours fériés)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Grand Poke Bowl Poulet  (sauf jours fériés)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.95" ] ] ;
+            ns1:name "Poke Bowls" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Eau de source 0,5L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Canette 0,33L : Cliquez pour sélectionner" ;
+                    ns1:name "Softs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Eau minérale plate ou gazeuse 0,75L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cliquez pour sélectionner" ;
+                    ns1:name "Les Bières Artisanales" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cliquez pour sélectionner" ;
+                    ns1:name "Les Bières Bios" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Poke Bowl Fraise - Chocolat  (sauf jours fériés)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Poke Bowl Dessert Ananas Passion (sauf jours fériés)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Poke Bowl Dessert  Végan Choco - fruits rouges (sauf jours fériés)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "Poke Bowls Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Domaine du vieux Lavoir - Côtes du Rhône (Blanc)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "La Cuvée St Marc - Blanc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "La Cuvée St Marc - Rosé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Philippes de Veissière - Costières de Nîmes (Blanc)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Château Haut Canteloup - Côtes de Blaye Bordeaux (Blanc)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "La Cuvée St Marc - Rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Chateaumeillant - Val de Loire (Rouge)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bouteille de Champagne MERCIER 0,75L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ] ;
+            ns1:name "Notre sélection de vins" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Fais ce que tu veux" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€31.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Composez votre menu parmi les plats proposés : Entrée + Plat" ;
+                    ns1:name "Petite formule du Déjeuner - Entrée + Plat (sauf w.end et jours fériés)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Plats suivant la formule du jour / Fait Maison / Produits Frais ." ;
+                    ns1:name "Plat du jour seul (hors w.end et jours fériés)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Composez votre menu parmi les plats proposés : Plat + Dessert." ;
+                    ns1:name "Petite formule du Déjeuener - Plat + Dessert   (sauf w.end et jours fériés)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.20" ] ] ;
+            ns1:name "Menus (prêts à réchauffer)" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Composez votre menu parmi les plats proposés : Entrée + Plat + Dessert." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/d1/63d14d0421dbf.jpeg> ;
+                    ns1:name "Formule Déjeuner Entrée + Plat + Dessert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ] ;
+            ns1:name "Offre découverte tous les midis" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/48/6448090c3fdf0.jpeg> ;
+                    ns1:name "LOVNI Omelette et Champignons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/48/6448094be8282.jpeg> ;
+                    ns1:name "LOVNI Saumon et Marinade Aneth" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/48/6448092be5b70.jpeg> ;
+                    ns1:name "LOVNI Poulet & Tikka Massala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ] ;
+            ns1:name "Le sandwich by Le Plaisir 🥰" ] .
+

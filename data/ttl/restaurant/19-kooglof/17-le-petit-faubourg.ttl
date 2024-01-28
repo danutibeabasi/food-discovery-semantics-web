@@ -1,0 +1,44 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://kooglof.coopcycle.org/api/restaurants/17> a ns1:Restaurant ;
+    ns1:address <https://kooglof.coopcycle.org/api/addresses/3663> ;
+    ns1:bannerImage "https://kooglof.coopcycle.org/media/cache/restaurant_banner/65/6e/656e14279d129.jpg" ;
+    ns1:description """Le Petit Faubourg, vous propose une carte de saison, où le fait maison et le local sont privilégiés !\r
+\r
+Livraison de repas et de burgers à Strasbourg et alentours !""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.85848e+01 ;
+            ns1:longitude 7.741027e+00 ] ;
+    ns1:image <https://kooglof.coopcycle.org/media/cache/restaurant_thumbnail/65/6e/656e17f042c14.png> ;
+    ns1:name "Le Petit Faubourg 🍔" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://kooglof.coopcycle.org/en/restaurant/17-le-petit-faubourg" ] ] ;
+    ns1:sameAs <https://kooglof.coopcycle.org/en/restaurant/17-le-petit-faubourg> ;
+    ns1:url <https://kooglof.coopcycle.org/en/restaurant/17-le-petit-faubourg> .
+
+<https://kooglof.coopcycle.org/api/addresses/3663> a ns1:PostalAddress ;
+    ns1:name "Le Petit Faubourg 🍔" ;
+    ns1:streetAddress "2 Rue du Faubourg-de-Saverne, Strasbourg, France" ;
+    ns1:telephone "+33388136330" .
+

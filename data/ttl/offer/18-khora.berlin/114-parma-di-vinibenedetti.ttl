@@ -1,0 +1,481 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://khora.berlin/en/restaurant/114-parma-di-vinibenedetti> ns1:hasMenu <https://khora.berlin/en/restaurant/114-parma-di-vinibenedetti#menu> .
+
+<https://khora.berlin/en/restaurant/114-parma-di-vinibenedetti#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "gefüllt mit Tomatensoße, Ricotta, Mozzarella, Champignons, Schwarzerz Pfeffer, Basilikum und Schafsricotta" ;
+                    ns1:name "BIO CALZONE VEGETARIANO" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "gefüllt mit Tomatensoße, Ricotta, Mozzarella, Schinken vom Sattelschwein, Champignons, Basilikum, Pfeffer schwarz und Schafsricotta" ;
+                    ns1:name "CALZONE AL PROSCIUTTO" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gefüllt mit Tomatensoße, Mozzarella und Kapern" ;
+                    ns1:name "BIO CALZONE AI CAPPERI" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "CALZONI" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomatensoße, Mozzarella und Champignons" ;
+                    ns1:name "BIO CHAMPIGNONS" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Tomatensoße, Mozzarella, gebackenen Auberginen, Zucchini und Paprika, Knoblauch, Basilikum, Petersilie" ;
+                    ns1:name "BIO ORTOLANA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Tomatensoße, Mozzarella und gebackenen Paprika" ;
+                    ns1:name "BIO PEPERONI" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Tomatensoße , Mozzarella und Kapern" ;
+                    ns1:name "BIO CAPPERI" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Tomatensoße, Mozzarella, Basilikum" ;
+                    ns1:name "BIO MARGHERITA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Tomatensoße, Mozzarella, Basilikum und gebackenen Auberginen" ;
+                    ns1:name "BIO MELANZANE" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Tomatensoße, Mozzarella und gebackenen Zucchini" ;
+                    ns1:name "BIO ZUCCHINE" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit o. ohne Tomatensoße, Mozzarella, Steinpilze, Petersilie, Knoblauch und Parmesankäse" ;
+                    ns1:name "PORCINI (WHITE OR RED)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Tomatensoße, Mozzarella und Zwiebeln" ;
+                    ns1:name "BIO CIPOLLA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Tomatensoße, Mozzarella, Kirsch-Tomaten, Rucola" ;
+                    ns1:name "BIO RUCOLA E POMODORI" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Tomatensoße, 100% 125g Büffel-Mozzarella, Basilikum" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/4b/614b8e62502c2.jpeg> ;
+                    ns1:name "BIO BUFALA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Mozzarella, frisch gemahlenem Pfeffer und 18 Monate gereiftem Pecorino" ;
+                    ns1:name "BIO CACIO E PEPE (WHITE)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Tomatensoße, 250g 100%  Büffel-Mozzarella, Basilikum" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/4c/614c3c98d2584.jpeg> ;
+                    ns1:name "BIO BUFALA GRANDE" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Tomatensoße, Mozzarella, Rucola und Chili" ;
+                    ns1:name "BIO RUCOLA E PEPERONCINO" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "BIO PIZZE VEGETARIANE" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "BARBAROSSA '17 COLLI TORINESI DOC" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "LAURIA - ZIO PAOLO NERO D'AVOLA TERRE SICILIANE IGT" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,7 Liter Rotwein" ;
+                    ns1:name "AMALIA - LANGHE '17 NEBBIOLO DOC" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,75 Liter Rotwein" ;
+                    ns1:name "CÔTES DU RHÔNE PETIT OURS SYRAH" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,7 Liter Rotwein" ;
+                    ns1:name "LORANO '15 MARCHE IGT" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€39.00" ] ] ;
+            ns1:name "ROT" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "mit Büffelmozzarella, Tomaten, Basilikum, Olivenöl" ;
+                    ns1:name "CAPRESE DI BUFALA" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Mozzarella, Tomaten, Pinienkernen, Basilikum, gegrilltem Gemüse, Schafsricotta,  Olivenöl" ;
+                    ns1:name "CAPRESE SPECIALE" ;
+                    ns1:nutrition "Celery",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "RICCA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Mozzarella, Tomaten, Basilikum, Olivenöl" ;
+                    ns1:name "CAPRESE" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Büffelmozzarella, Tomaten, Pinienkernen, Basilikum, gegrilltem Gemüse, Schafsricotta,  Olivenöl" ;
+                    ns1:name "CAPRESE DI BUFALA SPECIALE" ;
+                    ns1:nutrition "Celery",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "SEMPLICE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ] ;
+            ns1:name "SALATE BIO" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "ROTHAUS TANNENZÄPFLE PILS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33" ;
+                    ns1:name "ALKOHOLFREIES JEVER" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "KELLER BIER" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,5l" ;
+                    ns1:name "RADLER LAMMSBRÄU ZITRONE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "BIERE UND BARGETRÄNKE" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "ROSSO DEI COLLI DI CARNAIOLA COUVÉ" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,75 Liter Weißwein" ;
+                    ns1:name "BIANCO DEL FRIULI (FRIAUL)" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,75 Liter Rotwein" ;
+                    ns1:name "TAGLIO PARMA COUVÉ" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ] ;
+            ns1:name "UNSERE WEIN" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "mit Tomatensoße, Knoblauch, Oregano" ;
+                    ns1:name "BIO MARINARA" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit rote Paprika, eingelegte Kapern, frische Tomaten, eingelegte getrocknete Tomaten, Knoblauch und Olivenöl" ;
+                    ns1:name "BIO PEPERONI, CAPPERI, POMODORI FRESCHI E POMODORI SECCHI" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Tomatensoße, gebackene Auberginen, Zucchini und Paprika, Knoblauch, Basilikum, Petersilie, Oliven Taggiasca mit Stein, und Olivenöl" ;
+                    ns1:name "BIO ORTOLANA VEGANA" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Tomatensoße, Champignons, Rucola, frische Tomaten und Olivenöl" ;
+                    ns1:name "BIO CHAMPIGNONS, RICOLA E POMODORI FRESCHI" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Tomatensoße, Zwiebeln Oliven Taggiasca mit Stein, frische Tomaten und Olivenöl" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/4c/614c3e077b3b1.jpeg> ;
+                    ns1:name "BIO CIPOLLA, OLIVE E POMODORI FRESCHI" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "BIO PIZZE VEGANE" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "0,75 Liter Weißwein" ;
+                    ns1:name "RIESLING 2018 TROCKEN VDP" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,75 Liter Weißwein" ;
+                    ns1:name "GRECO DI TUFO DOCG" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€30.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,75 Liter Weißwein" ;
+                    ns1:name "CHARDONNAY LEITHABERG DAC 2016" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€29.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "COENOBIUM BIANCO DEL LAZIO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,75 Liter Weißwein" ;
+                    ns1:name "CORTESE TERRE BIANCHE" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,75 Liter Weißwein" ;
+                    ns1:name "GRAUBURGUNDER PFALZ" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "FALCEBIANCO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ] ;
+            ns1:name "WEIßE WEINE" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CANNOLO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Hausgemacht mit Caffee, Eier, Savoiardi Kekse,Mascarpone und Kakaopulver" ;
+                    ns1:name "TIRAMISÙ" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "DESSERT" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "1 Liter Rosé" ;
+                    ns1:name "PODERI CELLARIO É ROSATA" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.00" ] ] ;
+            ns1:name "ROSÉ WEINE" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "mit Doppelmozzarella, Bauchspeck vom Sattelschwein und Weichkäse" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/4c/614c40a8431db.jpeg> ;
+                    ns1:name "PANCETTA E STRACCHINO (WEIß)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Tomatensoße, Bauchspeck vom Sattelschwein, Champignons und mildem Gorgonzola" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/4c/614c410cd05e3.jpeg> ;
+                    ns1:name "PANCETTA, FUNGHI E GORGONZOLA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Tomatensoße, Mozzarella, Karee Schinken vom Sattelschwein, Champignons und mildem Gorgonzola" ;
+                    ns1:name "LONZA, FUNGHI E GORGONZOLA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit 200gMozzarella, frische Tomaten, frisch gemahlenem Pfeffer und Rückenspeck vom Sattelschwein" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/4c/614c3f4905b68.jpeg> ;
+                    ns1:name "LARDO E POMODORI (WEIß)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Tomatensoße, Mozzarella, Karee Schinken vom Sattelschwein,, gebackenen Auberginen, Basilikum und Schafsricotta" ;
+                    ns1:name "LONZA, MELANZANE E RICOTTA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Tomatensoße, Mozzarella, Sardellen, Oregano und Taggiasca-Oliven" ;
+                    ns1:name "LIGURE" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Doppelmozzarella, frische Tomaten, frish gemahlenem Pfeffer und Salame di Parma" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/4c/614c41e69d61d.jpeg> ;
+                    ns1:name "SALAME, POMODORI FRESCHI E PEPE NERO (WEIß)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Tomatensoße, Mozzarella und Salame di Parma" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/4c/614c41adc6b65.jpeg> ;
+                    ns1:name "SALAME" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Tomatensoße, Mozzarella, Schinken vom Sattelschwein, Rucola und Parmesankäse" ;
+                    ns1:name "CRUDO, RUCOLA E PARMIGIANO" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Tomatensoße, Mozzarella, Rückenspeck vom Sattelschwein, frische Tomaten und Rucola" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/4c/614c405194184.jpeg> ;
+                    ns1:name "LARDO, RUCOLA E POMODORI" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ] ;
+            ns1:name "LE PIZZE" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "RHABARBER PROVIANT" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "GLASS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,75 L" ;
+                    ns1:name "CLASSIC oder STILL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,75" ;
+                    ns1:name "MINERALWASSER VIVA CON AGUA LEISER" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "APFELSAFT PROVIANT" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "ZITRONE PROVIANT" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "KOLA PROVIANT" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "ALKOHOLFREIE GETRÄNKE" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "0,75 Liter" ;
+                    ns1:name "EMILIA LAMBRUSCO \"LIBECCIO 225\" IGT." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,75l" ;
+                    ns1:name "MIOTTO NATURLICHER PROSECCO" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,75 Liter weiß Bubbles" ;
+                    ns1:name "CAMPEDELLO VINO BIANCO FRIZZANTE" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,75 Liter weiß Bubbles" ;
+                    ns1:name "DE SOUSA ET FILS CHAMPAGNE BRUT TRADITION" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€68.00" ] ] ;
+            ns1:name "BUBBLES" ] .
+

@@ -1,0 +1,387 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://cyclome.coopcycle.org/api/restaurants/39> ns1:hasMenu <https://cyclome.coopcycle.org/en/restaurant/39-le-namaste#menu> .
+
+<https://cyclome.coopcycle.org/en/restaurant/39-le-namaste#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Brochettes d'agneau haché avec oignons, menthe et épices" ;
+                    ns1:name "Sheekh Kebab" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Dés de poulet macérés aux épices et aromates cuits au tandoor" ;
+                    ns1:name "Poulet Tikka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gambas macérées aux épices et aromates grillées au tandoor" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/64525bf6e191d.jpeg> ;
+                    ns1:name "Gambas Tandoori" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet tikka, agneau tikka, samoussa, pakora et sheekh kebab" ;
+                    ns1:name "Mix Grill Diwana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet tikka, sheekh kebab et mix beignet" ;
+                    ns1:name "Mix Grill" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux d'agneau marinés aux épices" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/645252b8b1720.jpeg> ;
+                    ns1:name "Agneau Tikka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "Entrées Grillades" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Salade de fruits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/64525058930ee.jpeg> ;
+                    ns1:name "Sulji Halwa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/645250c143989.jpeg> ;
+                    ns1:name "Glaces indienne maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Nan à l'ail" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâte levée de farine blanche fourrée au fromage" ;
+                    ns1:name "Nan au fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain beurré de farine blanche non levée" ;
+                    ns1:name "Parata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâte levée de farine blanche" ;
+                    ns1:name "Nan Nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain beurré et fourré aux légumes" ;
+                    ns1:name "Stuffed Nan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâte levée de farine blanche fourrée à la viande hachée" ;
+                    ns1:name "Keema Nan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Pains" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Raita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crevettes Raita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Salade Diwana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Salade Poulet Tikka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Salades" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Gigot d'agneau aux noix de cajou, amandes et fruits secs. Servi avec du riz basmati" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/64525291e8cd8.jpeg> ;
+                    ns1:name "Agneau Shiha Korma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Agneau curry aux aubergines. Servi avec du riz basmati" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/645251ea40ec2.jpeg> ;
+                    ns1:name "Agneau Aubergine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry d'agneau aux pommes de terre assez relevé. Servi avec du riz basmati" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/645252fc35310.jpeg> ;
+                    ns1:name "Agneau Vindaloo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry d'agneau relevé. Servi avec du riz basmati" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/6452524bbe6b5.jpeg> ;
+                    ns1:name "Agneau Punjabi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Agneau grillé au tandoor, cuit avec de la sauce tomate, oignons, poivrons et différentes épices. Servi avec du riz basmati" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/645252da187dd.jpeg> ;
+                    ns1:name "Agneau Tikka Massala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Carry d'agneau traditionnel. Servi avec du riz basmati" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/6452520bab811.jpeg> ;
+                    ns1:name "Agneau Curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Agneau curry aux lentilles de pois chiches. Servi avec du riz basmati" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/6452522b60ff8.jpeg> ;
+                    ns1:name "Agneau Dal" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry d'agneau aux épinards. Servi avec du riz basmati" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/645258abbfadb.jpeg> ;
+                    ns1:name "Agneau Sagwala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ] ;
+            ns1:name "Plats Agneau" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Boeuf au curry relevé. Servi avec du riz basmati" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/64525799ab654.jpeg> ;
+                    ns1:name "Boeuf Punjabi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boulettes de viande hachée et sauce curry. Servi avec du riz basmati" ;
+                    ns1:name "Kofta Curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boeuf de curry traditionnel. Servi Avec du riz basmati" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/6452573022b55.jpeg> ;
+                    ns1:name "Boeuf Curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boeuf au curry à la crème fraîche, noix de cajou et fruits secs. Servi Avec du riz basmati" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/645257c1b2909.jpeg> ;
+                    ns1:name "Boeuf Shahi Korma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boeuf cuit avec la sauce tomate, oignons, poivrons et différentes épices. Servi Avec du riz basmati" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/64525769c87cb.jpeg> ;
+                    ns1:name "Boeuf Massala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "Plats Boeuf" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Palak Paneer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/6452590d85d2d.jpeg> ;
+                    ns1:name "Curry d'aubergine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/64525931a70d5.jpeg> ;
+                    ns1:name "Dal Makhani" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de légumes" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/64525c529adff.jpeg> ;
+                    ns1:name "Miste de légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "Légumes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/6452533c70171.jpeg> ;
+                    ns1:name "Biryani de boeuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/645256ab2383d.jpeg> ;
+                    ns1:name "Biryani de Poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/645253b54d21a.jpeg> ;
+                    ns1:name "Biryani de crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/64525705202e9.jpeg> ;
+                    ns1:name "Biryani végétarien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/645256db12cd4.jpeg> ;
+                    ns1:name "Biryani Royal" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/64524fa36d0be.jpeg> ;
+                    ns1:name "Biryani d'agneau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "Biryanis (Plats aux épices préparé avec du riz basmati)" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Crevettes cuites avec de la sauce tomate, oignons, poivrons et différentes épices. Servi Avec du riz basmati" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/6452584f2b2ab.jpeg> ;
+                    ns1:name "Crevettes Massala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poisson cuit au tandoor, sauce noix de cajou, amandes et fruits secs. Servi avec du riz basmati" ;
+                    ns1:name "Poisson Korma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de gambas très relevé. Servi Avec du riz basmati" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/645259755da81.jpeg> ;
+                    ns1:name "Gambas Punjabi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de gambas traditionnel. Servi Avec du riz basmati" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/6452595322bfa.jpeg> ;
+                    ns1:name "Gambas Curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de crevettes non épicé, sauce noix de cajou, amandes et fruits secs. Servi avec du riz basmati" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/645258e3dac6d.jpeg> ;
+                    ns1:name "Crevettes Shahi Korma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de crevettes très relevé. Servi Avec du riz basmati" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/6452587770d60.jpeg> ;
+                    ns1:name "Crevettes Punjabi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de crevettes traditionnel. Servi avec du riz basmati" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/6452582599a1d.jpeg> ;
+                    ns1:name "Crevettes Curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poisson grillé au tandoor, cuit avec de la sauce tomate, oignons, poivrons et différentes épices. Servi avec du riz basmati" ;
+                    ns1:name "Poisson Tikka Massala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de poisson très relevé. Servi Avec du riz basmati" ;
+                    ns1:name "Poisson Punjabi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gambas grillées au tandoor, cuites avec de la sauce tomate, oignons, poivrons et différentes épices. Servi avec du riz basmati" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/64525c1b808e6.jpeg> ;
+                    ns1:name "Gambas Tikka Massala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de poisson traditionnel. Servi avec du riz basmati" ;
+                    ns1:name "Poisson Curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de gambas non épicé, sauce noix de cajou, amandes et fruits secs. Servi Avec du riz basmati" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/64525998e1d4b.jpeg> ;
+                    ns1:name "Gambas Shahi Korma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ] ;
+            ns1:name "Plats Fruits de mer" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Beignet d'aubergines à la farine de pois chiches" ;
+                    ns1:name "Pakora d'aubergine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Assortiment de beignets" ;
+                    ns1:name "Pakora Mixte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignet de crevettes à la farine de pois chiches" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/64525ca1b3acb.jpeg> ;
+                    ns1:name "Pakora Crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignet de pomme de terre à la farine de pois chiches" ;
+                    ns1:name "Pakora d'Alou" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Différents légumes aux épices" ;
+                    ns1:name "Samossa Légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignets de viande hachée cuisinés aux épices" ;
+                    ns1:name "Samossa viande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignets de lamelles d'oignons à la farine de pois chiches" ;
+                    ns1:name "Oignons Bajia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Entrées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Poulet désossé cuit aux noix de cajou, amandes et fruits secs. Servi avec du riz basmati" ;
+                    ns1:name "Poulet Shahi Korma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry poulet aux pommes de terre assez relevé. Servi avec du riz basmati" ;
+                    ns1:name "Poulet Vindaloo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi avec du riz basmati" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/645257ebb334f.jpeg> ;
+                    ns1:name "Butter Chicken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de poulet assez relevé. Servi avec du riz basmati" ;
+                    ns1:name "Poulet Punjabi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet sauce oignon et poivron. Servi avec du riz basmati" ;
+                    ns1:name "Poulet Tikka Massala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de poulet traditionnel. Servi avec du riz basmati" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/52/64525d0015c1c.jpeg> ;
+                    ns1:name "Poulet Curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet aux épinards. Servi avec du riz basmati" ;
+                    ns1:name "Poulet Sagu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "Plats Poulet" ] .
+

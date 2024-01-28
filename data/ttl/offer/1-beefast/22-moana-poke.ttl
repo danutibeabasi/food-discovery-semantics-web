@@ -1,0 +1,157 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://beefast.coopcycle.org/api/restaurants/22> ns1:hasMenu <https://beefast.coopcycle.org/en/restaurant/22-moana-poke#menu> .
+
+<https://beefast.coopcycle.org/en/restaurant/22-moana-poke#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "1 base, 1 protéine, 5 toppings, 2 toppings crunchy et 1 sauce maison au choix. Une boisson au choix Taille au choix" ;
+                    ns1:name "Menu Poké Création" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz vinaigré, saumon mariné, avocat, wakamé, concombre, edamame, cébette, sésame Sauce base au choix Sauce maison au choix. Taille au choix. Servi avec une boisson au choix." ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5f59bb9b60.jpeg> ;
+                    ns1:name "Menu Green Addict" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz vinaigré, saumon frais, avocat, carotte, tomate cerise, mangue, grenade, sésame Sauce base au choix Sauce maison au choix. Taille au choix. Servi avec une boisson au choix." ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/60/b6/60b6a0530e76e.jpeg> ;
+                    ns1:name "Menu Maui" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz vinaigré, poulet teriyaki, edamame, mangue, carotte, concombre, noix de cajou Sauce base au choix Sauce maison au choix. Taille au choix. Servi avec une boisson au choix." ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/60/b6/60b69ec37fd98.jpeg> ;
+                    ns1:name "Menu Waikiki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz vinaigré, Saumon mariné, avocat, edamame, tomate cerise, radis, cream cheese, sésame Sauce base au choix Sauce maison au choix. Taille au choix. Servi avec une boisson au choix." ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/60/b6/60b68f3ba3b41.jpeg> ;
+                    ns1:name "Menu Honolulu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz vinaigré, tofu mariné, avocat, edamame, carotte, tomate cerise, mangue, cébette, noix de cajou Sauce base au choix Sauce maison au choix. Taille au choix. Servi avec une boisson au choix." ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/60/b6/60b6a02f1f48d.jpeg> ;
+                    ns1:name "Menu veggie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ] ;
+            ns1:name "Menu Poké + Boisson" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Riz vinaigré, tofu mariné, avocat, edamame, carotte, tomate cerise, mangue, cébette, noix de cajou Sauce base au choix Sauce maison au choix. Taille au choix." ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/60/b6/60b69fc537952.jpeg> ;
+                    ns1:name "Poké Veggie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz vinaigré, saumon mariné, avocat, wakamé, concombre, edamame, cébette, sésame Sauce base au choix Sauce maison au choix. Taille au choix." ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/60/b6/60b6a090c36e1.jpeg> ;
+                    ns1:name "Poké Green addict" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz vinaigré, saumon frais, avocat, carotte, tomate cerise, mangue, grenade, sésame Sauce base au choix Sauce maison au choix. Taille au choix." ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/60/b6/60b69fa29f08d.jpeg> ;
+                    ns1:name "Poké Maui" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz vinaigré, Saumon mariné, avocat, edamame, tomate cerise, radis, cream cheese, sésame Sauce base au choix Sauce maison au choix. Taille au choix." ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/60/b5/60b55696ac7cd.jpeg> ;
+                    ns1:name "Poké Honolulu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz vinaigré, poulet teriyaki, edamame, mangue, carotte, concombre, noix de cajou Sauce base au choix Sauce maison au choix. Taille au choix." ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/60/b6/60b69fe3e87ae.jpeg> ;
+                    ns1:name "Poké Waikiki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ] ;
+            ns1:name "Poké Bowls \"Signature\"" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Salade d'algues wakamé, sésame" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Salade d'edamame, grenade, sésame" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Sides" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "ChariTea green \"bio\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lemonaid citron vert \"bio\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "ChariTea red \"bio\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola Zéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Evian" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Badoit" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "1 base, 1 protéine, 5 toppings, 2 toppings crunchy et 1 sauce maison au choix." ;
+                    ns1:name "Poké Création" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ] ;
+            ns1:name "Poké Création" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Bière PIP Super Blonde \"bio\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Bière PIP IPA \"Bio\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Bière PIP Blanche de Passion \"bio\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Bières" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Mangue fraîche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Salade de fruits frais \"Moana\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Panna Cotta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ] ;
+            ns1:name "Desserts" ] .
+

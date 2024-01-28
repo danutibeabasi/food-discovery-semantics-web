@@ -1,0 +1,35 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://demo.coopcycle.org/api/restaurants/40> a ns1:Restaurant ;
+    ns1:address <https://demo.coopcycle.org/api/addresses/90> ;
+    ns1:bannerImage "https://demo.coopcycle.org/placeholder/restaurant_banner/placeholders/PoV5ZQmZk3QL.jpg" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.885565e+01 ;
+            ns1:longitude 2.301179e+00 ] ;
+    ns1:image <https://demo.coopcycle.org/img/cuisine/default.jpg> ;
+    ns1:name "La cuillère qui chante" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "16:30" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "01:45" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://demo.coopcycle.org/en/restaurant/40-la-cuillere-qui-chante" ] ] ;
+    ns1:sameAs <https://demo.coopcycle.org/en/restaurant/40-la-cuillere-qui-chante> ;
+    ns1:url <https://demo.coopcycle.org/en/restaurant/40-la-cuillere-qui-chante> .
+
+<https://demo.coopcycle.org/api/addresses/90> a ns1:PostalAddress ;
+    ns1:name "La cuillère qui chante" ;
+    ns1:streetAddress "Allée Adrienne Lecouvreur 47, 75007 Paris" ;
+    ns1:telephone "+33895831609" .
+

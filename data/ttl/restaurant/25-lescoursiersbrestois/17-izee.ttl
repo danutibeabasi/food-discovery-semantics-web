@@ -1,0 +1,36 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/restaurants/17> a ns1:Restaurant ;
+    ns1:address <https://lescoursiersbrestois.coopcycle.org/api/addresses/416> ;
+    ns1:description """Parce que FAST peut mais doit aussi rimer avec GOOD, nous avons toujours mis la qualité au cœur de notre travail de cuisinier(e)s et de commerçant(e)s.\r
+\r
+Comment ? En cuisinant chaque jour, dans notre cuIZEEne du Relecq Kerhuon, des plats «maison» équilibrés et gourmands élaborés à partir de produits frais, dès que possible BIO et locaux.\r
+\r
+Notre carte permanente évolue au fil des saisons avec les fruits et légumes frais. Chaque semaine, nous ajoutons à la carte, les «suggestions de la semaine» pour enrichir et renouveler nos recettes constamment.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.83903e+01 ;
+            ns1:longitude -4.4848e+00 ] ;
+    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/restaurant_thumbnail/62/13/62135db83d54e.png> ;
+    ns1:name "IZEE" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:30" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:15" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://lescoursiersbrestois.coopcycle.org/en/restaurant/17-izee" ] ] ;
+    ns1:sameAs <https://lescoursiersbrestois.coopcycle.org/en/restaurant/17-izee> ;
+    ns1:url <https://lescoursiersbrestois.coopcycle.org/en/restaurant/17-izee> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/addresses/416> a ns1:PostalAddress ;
+    ns1:name "IZEE" ;
+    ns1:streetAddress "5 Place de la Liberté, 29200 Brest, France" ;
+    ns1:telephone "+33298432403" .
+

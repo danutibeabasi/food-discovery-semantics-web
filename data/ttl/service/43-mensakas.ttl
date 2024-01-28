@@ -1,0 +1,21 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mensakas.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "es" ;
+                    ns1:addressLocality "Barcelona" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 4.138506e+01 ;
+                    ns1:longitude 2.173404e+00 ] ] ;
+    ns1:description "Mensakas was born out of the RidersxDerechos union struggle of the FAA-IAC, led by former couriers from other platforms. The co-operative is addressing the antipodes of its competitors by considering the workforce as people rather than numbers in an algorithm, thus prioritizing their interests and rights over capital."@en,
+        "Mensakas nace de la lucha sindical de RidersxDerechos de la FAA-IAC, liderada por ex couriers de otras plataformas. La cooperativa se dirige a las antípodas de sus competidores considerando a la plantilla personas y no números de un algoritmo, priorizando así sus intereses y derechos por encima del capital."@es ;
+    ns1:name "Mensakas" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:sameAs <https://twitter.com/MensakasApp>,
+        <https://www.facebook.com/Mensakas/> ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://mensakas.coopcycle.org> .
+

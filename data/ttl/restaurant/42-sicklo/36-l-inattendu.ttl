@@ -1,0 +1,44 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://sicklo.coopcycle.org/api/restaurants/36> a ns1:Restaurant ;
+    ns1:address <https://sicklo.coopcycle.org/api/addresses/3819> ;
+    ns1:bannerImage "https://sicklo.coopcycle.org/placeholder/restaurant_banner/placeholders/0ebKZVrZLVR4.jpg" ;
+    ns1:description """La richesse de L’Inattendu vient d’abord de la passion de son chef. La cuisine, profondément ancrée dans la vie d’Alexis Busso, c’est pour lui le potager de sa mère. C’est la couleur des fraises, l’odeur des herbes et la cueillette des haricots, mais surtout des moments de complicité et de partage. La cuisine traditionnelle de l’Inattendu se nourrit de ces racines profondément familiales : l’amour des produits simples, et l’envie de les partager.\r
+\r
+L’Inattendu, c’est aussi la découverte au travers de vrais produits locaux. Partagez des plats traditionnels cuisinés pour vous apporter une émotion inédite. Découvrez le mélange surprenant des produits authentiques des agriculteurs de la région""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.519063e+01 ;
+            ns1:longitude 5.716466e+00 ] ;
+    ns1:image <https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/61/a9/61a9d78c510f6.png> ;
+    ns1:name "L'INATTENDU 🏷️" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "20:30" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:30" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://sicklo.coopcycle.org/en/restaurant/36-l-inattendu" ] ] ;
+    ns1:sameAs <https://sicklo.coopcycle.org/en/restaurant/36-l-inattendu> ;
+    ns1:url <https://sicklo.coopcycle.org/en/restaurant/36-l-inattendu> .
+
+<https://sicklo.coopcycle.org/api/addresses/3819> a ns1:PostalAddress ;
+    ns1:name "L'INATTENDU 🏷️" ;
+    ns1:streetAddress "52 Avenue Félix Viallet, Grenoble, France" ;
+    ns1:telephone "+33476472964" .
+

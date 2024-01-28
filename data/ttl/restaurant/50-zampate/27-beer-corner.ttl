@@ -1,0 +1,43 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://zampate.coopcycle.org/api/restaurants/27> a ns1:Restaurant ;
+    ns1:address <https://zampate.coopcycle.org/api/addresses/13821> ;
+    ns1:description "La casa de la cerveza artesana en la Magdalena. Buena birra y comida para llevar. Join the Craft Beer Revolution!" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.165113e+01 ;
+            ns1:longitude -8.738656e-01 ] ;
+    ns1:image <https://zampate.coopcycle.org/media/cache/restaurant_thumbnail/62/16/6216434b4d2a5.jpeg> ;
+    ns1:name "Beer Corner" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:30" ;
+            ns1:dayOfWeek "Saturday" ;
+            ns1:opens "12:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Wednesday" ;
+            ns1:opens "20:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "12.50" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.50" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "es" ;
+                    ns1:urlTemplate "https://zampate.coopcycle.org/en/restaurant/27-beer-corner" ] ] ;
+    ns1:sameAs <https://zampate.coopcycle.org/en/restaurant/27-beer-corner> ;
+    ns1:url <https://zampate.coopcycle.org/en/restaurant/27-beer-corner> .
+
+<https://zampate.coopcycle.org/api/addresses/13821> a ns1:PostalAddress ;
+    ns1:name "Beer Corner" ;
+    ns1:streetAddress "Calle Heroísmo, 2, Zaragoza, España" ;
+    ns1:telephone "+34605846661" .
+

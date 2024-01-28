@@ -1,0 +1,426 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/restaurants/17> ns1:hasMenu <https://lescoursiersbrestois.coopcycle.org/en/restaurant/17-izee#menu> .
+
+<https://lescoursiersbrestois.coopcycle.org/en/restaurant/17-izee#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Les chips salées sont une valeur sûre pour tous les amoureux de la pomme de terre grillée : elles sont justement salées et croquantes à souhait." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/80/6380b0bf88f80.jpeg> ;
+                    ns1:name "Chips au sel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Les chips à la truffe apportent un vent de fraîcheur et d'originalité dans le monde de la chips avec une saveur subtile et caractéristique de la truffe noire d'été." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/80/6380b147f20ba.jpeg> ;
+                    ns1:name "Chips à la truffe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petit pain blanc Label Rouge pour accompagner votre salade." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd0ded2b867.jpeg> ;
+                    ns1:name "Petit pavé nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petit pain de seigle à déguster avec votre salade." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd0dd43ed6b.jpeg> ;
+                    ns1:name "Petit pain de seigle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Aidez nous à supprimer la vaisselle à usage unique en optant pour notre kit de couverts en bambou : entièrement lavables et réutilisables ! Ce kit de couverts en bambou naturel comprend : un couteau, une fourchette, une cuillère, du sel, du poivre et une serviette en papier." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/5d/645dff0ea8041.jpeg> ;
+                    ns1:name "Couverts en bambou réutilisables" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "L'indispensable petit beurre salé pour agrémenter votre pain." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd0dc0cedab.jpeg> ;
+                    ns1:name "Petit beurre demi-sel 10g" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petite salade verte pour accompagner vos plats." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd0e90e88f9.jpeg> ;
+                    ns1:name "P'tite salade verte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Les chips au piment sont relevées grâce à une pincée ardente de cayenne et de paprika !" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/80/6380b1118c183.jpeg> ;
+                    ns1:name "Chips au piment" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ] ;
+            ns1:name "Accompagnements 🥖" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """L'iconique riz au lait IZEE, maintenant préparé avec de la véritable vanille de Madagascar !\r
+Crème, lait entier, riz, sucre BIO, vanille de Madagascar""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd0f303a532.jpeg> ;
+                    ns1:name "Riz au lait à la véritable vanille de Madagacar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fromage blanc, œuf, spéculoos (sans huile de palme), beurre, jus de citron" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd341da7b7f.jpeg> ;
+                    ns1:name "Cheesecake citron & spéculoos \"maison\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sucre cassonade, farine BIO, crème, beurre, praliné pécan, noix de pécan, œufs, chocolat blanc, levure, sel (à la tranche)" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/80/658064122b457.jpeg> ;
+                    ns1:name "Cake noix de pécan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """LE brownie "maison" chocolat & noix de chez IZEE !\r
+Sucre, œuf, farine, levure chimique, chocolat noir, pépites de chocolat, mélange de fruits secs, beurre)""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd020666fb3.jpeg> ;
+                    ns1:name "Brownie \"maison\" chocolat & noix" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, sucre BIO, coulis de fruit de la passion, gélatine" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/80/65806630620cd.jpeg> ;
+                    ns1:name "Panna cotta au coulis de fruit de la passion" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Yaourt grec pour un dessert équilibré et gourmand à la fois !" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd1161477ef.jpeg> ;
+                    ns1:name "Yaourt grec granola BIO & miel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Le classique carrot cake "maison" fait par nos pâtissiers, à la tranche !\r
+Carotte, poudre de noisette, cassonade, farine, noix, gingembre confit, levure, zeste de citron, épices & cannelle""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/90/6290d906e3294.jpeg> ;
+                    ns1:name "Carrot cake" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Le cookie au chocolat IZEE a été revisité pour offrir encore plus de gourmandise !\r
+Farine BIO, beurre, sucre cassonade BIO, chocolat, sucre BIO, oeuf, sel, levure""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/5e/645e0a65aebc5.jpeg> ;
+                    ns1:name "Cookie \"maison\" chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poudre d’amande, œuf, sucre BIO, crème, maïzena, chocolat noir BIO, lait, levure" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/14/651440e34d0fe.jpeg> ;
+                    ns1:name "Fondant au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ananas frais, découpés tous les jours avec soin par nos équipes" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/26/6426dd72ee3d8.jpeg> ;
+                    ns1:name "Ananas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une pâtisserie gourmande maison à déguster en dessert ou à garder pour votre goûter !" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd09b9b9dc8.jpeg> ;
+                    ns1:name "Croûte à thé \"maison\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fromage blanc 0%, granola BIO et son coulis de fruits rouges" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd0aab2018b.jpeg> ;
+                    ns1:name "Fromage blanc 0%, fruits rouges & granola BIO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Une nouvelle recette de cookie gourmand 100% vegan !\r
+Farine BIO, sucre cassonade, huile de coco BIO, palets au chocolat noir, lait d'avoine BIO, noisettes, compote, levure""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/5e/645e0ad106a5c.jpeg> ;
+                    ns1:name "Cookie \"maison\" vegan noisette & chocolat noir" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fromage blanc 0 % nature" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/80/65806675507ef.jpeg> ;
+                    ns1:name "Fromage blanc  nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lait de coco, graines de chia BIO, mangues, coulis de fruits exotiques, sucre BIO" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/80/65806651c8db2.jpeg> ;
+                    ns1:name "Dessert végétal coco & mangue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "LA mousse au chocolat \"maison\" par IZEE" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd0c8991030.jpeg> ;
+                    ns1:name "Mousse au chocolat \"maison\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fromage blanc 0%, caramel au beurre salé \"maison\", brisures de crêpes dentelle" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/90/6290d8bc530c7.jpeg> ;
+                    ns1:name "Fromage blanc caramel & crêpes dentelle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ] ;
+            ns1:name "Desserts 🍰" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Riz basmati BIO, lentilles coco curry BIO, edamame, patates douces BIO rôties, saumon, mangue, sésame, vinaigrette mangue" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd0e0905bad.jpeg> ;
+                    ns1:name "Poke bowl saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Carottes BIO, huile de tournesol, jus d'orange, graines de tournesol, graines de sésame, moutarde, gingembre, menthe fraîche" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/80/658062a2e2e65.jpeg> ;
+                    ns1:name "Carottes boost" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boulgour BIO, potimarron BIO, feta, figues, ail, bouillon de légumes BIO, huile d’olive, huile de noix, miel, noix, persil, roquette, champignons" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/80/658062df7d836.jpeg> ;
+                    ns1:name "Buddha bowl de saison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cellentani, crème fraîche, lardons, mayonnaise, ail, oignons rouges, Comté AOP, roquette, Grana Padano AOP, moutarde" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/80/658064bcb6002.jpeg> ;
+                    ns1:name "Salade montagnarde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz à sushi vinaigré (vinaigre de riz blanc), coleslaw (chou rouge, carotte, chou blanc), tataki de thon mariné à la coriandre et huile de sésame, avocat, edamame, cacahuètes grillées, purée de yuzu" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/64/6364de560f624.jpeg> ;
+                    ns1:name "Poke bowl riz vinaigré & thon mariné" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Potimarron BIO, couscous d'épeautre BIO, pois chiches, champignons blancs, feta, graines au miel, huile de tournesol, huile de noix, miel BIO, persil" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/80/658063f1c0928.jpeg> ;
+                    ns1:name "Houmous de potimarron, feta & couscous d'épeautre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Couscous BIO, butternut BIO, chou-fleur BIO, noix, grenade, raisins secs, huile de tournesol" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/80/658064fb35463.jpeg> ;
+                    ns1:name "Petit taboulé antioxydant" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.60" ] ] ;
+            ns1:name "Salades 🥗" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Nouilles aux œufs, poulet VF, carottes BIO, poireaux BIO, chou chinois BIO, pousses de soja, cacahuètes, edamame, yakitori, sauce soja, coriandre" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/80/65806520bba51.jpeg> ;
+                    ns1:name "Pad thaï au poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Penne BIO, crème, oignons, fromage de chèvre, Gorgonzola AOP, mozzarella, vin blanc" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/80/6580656b1a976.jpeg> ;
+                    ns1:name "Penne BIO aux 3 fromages" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet, chorizo, crème, Grana Padano, champignons, oignons, riz rond, vin blanc" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd0f134847f.jpeg> ;
+                    ns1:name "Risotto poulet chorizo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâtes à lasagnes BIO, potimarron BIO, carottes BIO, sauce tomate BIO, lait entier, butternut BIO, chou vert BIO, panais BIO, mozzarella, crème fraîche, Gorgonzola, Grana Padano AOP" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/80/6580645a6a776.jpeg> ;
+                    ns1:name "Lasagnes aux légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet VF, riz BIO, carottes BIO, oignons, sauce tomate BIO, crème, yaourt grec, beurre, jus de citron, garam masala, coriandre, cumin, curcuma, gingembre, sucre" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/80/658065ab5ef4b.jpeg> ;
+                    ns1:name "Tikka masala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâtes penne BIO, poulet VF, carottes BIO, poireaux BIO, crème, oignons, lait de coco, farine, curry, curry biryani" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/80/65806588a204f.jpeg> ;
+                    ns1:name "Penne BIO poulet curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La bolognaise \"maison\" IZEE adaptée pour les petits ogres" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd0e47794a0.jpeg> ;
+                    ns1:name "P'tite pâte bolo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâtes penne BIO, viande de bœuf hachée, tomates concassées, oignons, basilic, pesto" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd0d9b685d0.jpeg> ;
+                    ns1:name "Penne BIO à la bolognaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ] ;
+            ns1:name "Plats 🍝" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain maxi panini, pommes de terre BIO, fromage à raclette, crème épaisse, oignon, mozzarella, lardons" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/8e/658e8a21c5d0f.jpeg> ;
+                    ns1:name "Maxi panini raclette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Le Mac IZEE, maxi panini chez IZEE depuis … 2006 !\r
+Maxi panini, steak haché frais (VF), tomate, mozzarella, cheddar, sauce tomate BIO""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd0c3208a8e.jpeg> ;
+                    ns1:name "Maxi panini Mac IZEE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Un panini gourmand aux parfums orientaux.\r
+Maxi panini, poulet (origine Bretagne), mozzarella, crème, lait de coco, oignon blanc, oignon rosé BIO, curry, farine""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/6b/626bf862172f0.jpeg> ;
+                    ns1:name "Maxi panini poulet au curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Le sandwich club historique chez IZEE !\r
+Pain de mie BIO, œuf de plein air brouillé "maison", poitrine grillée VF, cheddar, tomate BIO, mayonnaise, roquette""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6e/636e3bd9b18fb.jpeg> ;
+                    ns1:name "Club œuf poitrine grillée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain brioché BIO, coleslaw (chou blanc BIO, chou rouge BIO, carottes, oignons BIO), poulet VF, sauce joopie (mayonnaise, curry, miel), raisins secs, roquette" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/80/658065e65dcf2.jpeg> ;
+                    ns1:name "Brioché poulet curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tortilla de blé (sans huile de palme), carottes BIO, fromage de chèvre, mozzarella, yaourt grec, miel, noix, pousses d'épinards, baies de Goji (à toaster)" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/80/658064839511e.jpeg> ;
+                    ns1:name "Wrap carotte chèvre & miel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Baguette blanche Label Rouge, pousses d’épinards, coleslaw (chou blanc, chou rouge, carotte, mayonnaise), cacahuètes, sauce piment doux, sauce joopie (mayonnaise aux épices douces), menthe fraîche" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/80/658065cad3b65.jpeg> ;
+                    ns1:name "Baguette thaï curry & légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Un panini à vous faire fondre avec sa mozzarella et son cheddar !\r
+Panini, jambon blanc, sauce tomate BIO, tranches de mozzarella et cheddar.""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd0d5717058.jpeg> ;
+                    ns1:name "Panini jambon mozzarella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Panini, chèvre, miel, noix, tranches de mozzarella" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/80/6580654d48f15.jpeg> ;
+                    ns1:name "Panini chèvre miel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tortilla de blé, coleslaw -choux blancs et rouges, carottes-, tartinade de tartare, tomate, feta AOP" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/26/6426dfd131b52.jpeg> ;
+                    ns1:name "Wrap feta & crudités" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """On fond pour ce wraps poulet cheddar avec ses petits oignons frits !\r
+Tortilla, émincé de poulet - origine Bretagne -, poitrine grillée, cheddar, oignons frits, tomate pleine terre, laitue""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd113c1e3bc.jpeg> ;
+                    ns1:name "Wrap poulet cheddar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """La recette phare de sandwich chez IZEE !\r
+(baguette pavot Label Rouge,\r
+poulet VF, tomate BIO, roquette, lard VF, cheddar)""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/40/6340049b8018b.jpeg> ;
+                    ns1:name "Baguette pavot-poulet-cheddar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain brioché BIO, carotte BIO, chou rouge, mayo chiracha, cacahuètes grillées & salées, coriandre, pousses d'épinard" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/5e/645e0b3253b03.jpeg> ;
+                    ns1:name "Banh-mi crudités" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ] ;
+            ns1:name "Sandwichs 🥪" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Fruits fraîchement mixés et stabilisés à froid par haute pression." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd0b8b3bb1c.jpeg> ;
+                    ns1:name "Le Smoothie Mangue-passion 25cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Coca Cola Zero en canette de 33cl" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd08f9c5287.jpeg> ;
+                    ns1:name "Coca Cola Zero 33CL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Oasis Tropical en canette de 33cl" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd0cf8575b6.jpeg> ;
+                    ns1:name "Oasis Tropical 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Formule vitaminée antioxydante" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd10266b577.jpeg> ;
+                    ns1:name "Vitamin Well antioxidant 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Formule vitaminée \"coup de fouet\"" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd109461e88.jpeg> ;
+                    ns1:name "Vitamin Well reload 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Volvic 50cl en bouteille" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd10c3b9943.jpeg> ;
+                    ns1:name "Volvic 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Volvic Zest de citron 50cl" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd10edc4de4.jpeg> ;
+                    ns1:name "Volvic Zest de citron 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Badoit 50cl en bouteille" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd00f709f2e.jpeg> ;
+                    ns1:name "Badoit 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Eau enrichie en caféine pour un bon réveil !" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd103adcb60.jpeg> ;
+                    ns1:name "Vitamin Well awake 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fruits fraîchement mixés et stabilisés à froid par haute pression." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd0b784f0b1.jpeg> ;
+                    ns1:name "Le Smoothie kiwi 25cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fruits fraîchement mixés et stabilisés à froid par haute pression." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd0b6a6e3e4.jpeg> ;
+                    ns1:name "Le Smoothie Fraise 25cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Coca Cola en canette de 33cl" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd08e1a7b21.jpeg> ;
+                    ns1:name "Coca Cola 33CL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Formule enrichie en vitamine C et B12, réduit l'état de fatigue" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd108340725.jpeg> ;
+                    ns1:name "Vitamin Well refresh 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Boissons 🥤" ] .
+

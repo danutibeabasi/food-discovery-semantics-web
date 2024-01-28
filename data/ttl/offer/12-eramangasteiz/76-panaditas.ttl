@@ -1,0 +1,234 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/76> ns1:hasMenu <https://eramangasteiz.coopcycle.org/en/restaurant/76-panaditas#menu> .
+
+<https://eramangasteiz.coopcycle.org/en/restaurant/76-panaditas#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/45/6245fb8d00ff6.jpeg> ;
+                    ns1:name "Pack de 6 Panaditas + 2 Bebidas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/45/6245f8b1adfc0.jpeg> ;
+                    ns1:name "6 Panaditas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/45/6245f998d535d.jpeg> ;
+                    ns1:name "Pack de 12 Panaditas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€32.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 de pollo al curry, 2 de veggie calabacín, 2 de chili con carne, 2 de york con queso, 2 de espinacas con mozzarella y 2 de atún." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/45/6245fc1873aab.jpeg> ;
+                    ns1:name "Pack de 12 Panaditas \"Las más Vendidas\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€32.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pollo al curry, veggie calabacín, chili con carne, york con queso, espinacas con mozzarella y atún." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/45/6245fc0501e38.jpeg> ;
+                    ns1:name "Pack de 6 Panaditas \"Las más Vendidas\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ] ;
+            ns1:name "PACKS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salteado de calabacín con cebollita, ajo, champiñones, tomate seco y albahaca fresca." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/45/6245fc9d42806.jpeg> ;
+                    ns1:name "Panadita Veggie de Calabacín" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Carne de cerdo cocinada con sus verduritas, frijoles y un toque picante." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/45/6245fcb5ae3bc.jpeg> ;
+                    ns1:name "Panadita de Chile con Carne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pollo cocinado a baja temperatura con pimiento verde, pimiento rojo, huevo cocido y curry amarillo." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/45/6245fc7d7e271.jpeg> ;
+                    ns1:name "Panadita de Pollo al Curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jamón york y suave selección de quesos, la preferida de los peques." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/4c/624cb29504df1.jpeg> ;
+                    ns1:name "Panadita de York y Queso" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Espinacas rehogadas y suave crema de queso mozzarella." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/45/6245fce738ebb.jpeg> ;
+                    ns1:name "Panadita de Espinacas y Mozzarella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Atún con sofrito de cebolla, pimiento rojo, pimiento verde, tomate, aceite de oliva y huevo cocido." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/45/6245fcff65db7.jpeg> ;
+                    ns1:name "Panadita de Atún" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morcilla de Burgos con un toque de tomate y piñones." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/45/6245fd128154f.jpeg> ;
+                    ns1:name "Panadita de Morcilla y Piñones" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "PANADITAS GOURMET" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bacalao cocinado con cebollita, ajo, nata patata pochada y tomillo." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/48/6248bb4f2f7b2.jpeg> ;
+                    ns1:name "Panadita Brandada de Bacalao" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cremosa fusión de queso mozzarella, tomate seco, albahaca y orégano." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/48/6248bb2f44a09.jpeg> ;
+                    ns1:name "Panadita Caprese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Carne 100 % vacuno cocinada con sus verduritas, huevo cocido, aceitunas verdes y especias" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/48/6248bb10b9f3f.jpeg> ;
+                    ns1:name "Panadita de Carne Suave" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mix de setas rehogadas y crema de queso camembert." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/48/6248bb6eda809.jpeg> ;
+                    ns1:name "Panadita de Setas Camembert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Costillas deshuesadas cocinadas a baja temperatura con deliciosa salsa barbacoa." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/48/6248bbb112514.jpeg> ;
+                    ns1:name "Panadita de Costillas Barbacoa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pollo cocinado a baja temperatura con pimiento verde, pimiento rojo, huevo cocido y sweet chili. Suave picante." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/48/6248ba60b8543.jpeg> ;
+                    ns1:name "Panadita de Pollo Thai" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cremosa fusión de queso idiazábal ahumado y dulce de membrillo." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/48/6248bb954403a.jpeg> ;
+                    ns1:name "Panadita de Idiazábal con Membrillo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sabrosa carne de cerdo adobada y guisada lentamente con achiote al puro estilo mexicano." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/48/6248bae7a68b5.jpeg> ;
+                    ns1:name "Panadita de Cochinita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Carne 100 % vacuno cocinada con sus verduritas, huevo cocido, aceitunas verdes, especias y ¡Ají picante!" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/48/6248ba848cd78.jpeg> ;
+                    ns1:name "Panadita de Carne Picante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "PANADITAS SUPREME" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Deliciosa Nutella y plátano." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/48/6248bc4f5dfa9.jpeg> ;
+                    ns1:name "Panadita de Nutella y Plátano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Manzanas caramelizadas y canela." ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/48/6248bc3451035.jpeg> ;
+                    ns1:name "Panadita de Manzana y Canela" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/62/48/6248bbd945464.jpeg> ;
+                    ns1:name "Cookie Rellena de Nutella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "PANADITAS GOLOSOS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Fanta Limón" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Aquarius Limón" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Coca-Cola Light" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Coca-Cola Zero Zero" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Aquarius Naranja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Fanta Naranja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Coca-Cola Original" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Coca-Cola Zero" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Aquabona" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ] ;
+            ns1:name "BEBIDAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Águila Lata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Cerveza Amstel Radler" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Cerveza Heineken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Cerveza Heineken 0.0" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "CERVEZAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Botella de vino cune crianza 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Botella vino cune crianza 17,50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "VINOS" ] .
+

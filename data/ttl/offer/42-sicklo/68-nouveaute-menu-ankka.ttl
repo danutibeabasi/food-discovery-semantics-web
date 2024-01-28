@@ -1,0 +1,282 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://sicklo.coopcycle.org/api/restaurants/68> ns1:hasMenu <https://sicklo.coopcycle.org/en/restaurant/68-nouveaute-menu-ankka#menu> .
+
+<https://sicklo.coopcycle.org/en/restaurant/68-nouveaute-menu-ankka#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Fusilli, Sauce Carbonara, Œuf Poché, Oignons Frits, Lardons, Grana Padano" ;
+                    ns1:name "Les Pâtes Carbo'" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fusilli, Sauce Saumon , jeune pousse d'épinard, Saumon fumé, Mozzarella, Emmental" ;
+                    ns1:name "Les Pâtes au saumon" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gnocchis, Sauce 4 Fromages, Jambon blanc, Champignons, Oignons frais, Emmental" ;
+                    ns1:name "Les Pâtes 4 Fromages" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fusilli, Sauce Napolitaine, Jambon cru, Olives Vertes, Roquette, Grana Padano et Filet d'huile d'olive" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/63/ff/63ff664f284ba.jpeg> ;
+                    ns1:name "Les Pâtes Come Stai" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fusilli, Cheddar, Poulet, cheddar, oignons rouges, Sauce Arrabiata" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/88/6088095c9081f.jpeg> ;
+                    ns1:name "Les Pates Gourmandes" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fusili, Jeunes Pousses d'épinards, Olives, Tomates Cerises, Sauce Pesto Vert" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/89/60896076f1d04.jpeg> ;
+                    ns1:name "Les Pates végétariennes" ;
+                    ns1:nutrition "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.30" ] ] ;
+            ns1:name "RECETTES DE PATES CHAUDES🍝" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Base Jeunes Pousses d'épinards, Tartare de concombres, 1/2 Avocat, Olives Vertes, Féta, Graine Oméga, Sauce Huile d'olive" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/79/60794c708ff47.jpeg> ;
+                    ns1:name "La Grecque" ;
+                    ns1:nutrition "Celery",
+                        "Milk",
+                        "Mustard",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base Lentilles/épinards, Champignons, Oignons rouges, Tartare de concombres, Fèves d'édamame, œuf poché, vinaigrette à l'ancienne" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/79/60794ec396017.jpeg> ;
+                    ns1:name "La Protéinée" ;
+                    ns1:nutrition "Fish",
+                        "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base quinoa épinards, Falafels, Carottes râpées, Choux rouge, Maîs, Tartare de tomates, sauce Finlandaise" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/79/60794f0ec620f.jpeg> ;
+                    ns1:name "La Végétarienne" ;
+                    ns1:nutrition "Milk",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base roquette et pâtes, Tomates séchées, Jambon cru, Oignon frits, Mozzarella, Copeaux de fromage italien, sauce Marinade épicée" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/79/60794f9b724fa.jpeg> ;
+                    ns1:name "L’Italienne" ;
+                    ns1:nutrition "Celery",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base Jeunes Pousses d'épinards, jambon Blanc, Champignons, Oignons Rouges, œuf poché, Croutons, Sauce vinaigrette à l'ancienne" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/79/60794de844ae2.jpeg> ;
+                    ns1:name "La Lyonnaise" ;
+                    ns1:nutrition "Mustard",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base Batavia, Poulet, Grana padano, Œuf dur, Tomate cerises, Croutons, sauce Caesar" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/79/60794bc233d0d.jpeg> ;
+                    ns1:name "La Caesar" ;
+                    ns1:nutrition "Eggs",
+                        "Fish",
+                        "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ] ;
+            ns1:name "RECETTES DE SALADES🥗" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Pain nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Selon disponibilité sur le point de vente" ;
+                    ns1:name "Soupe du jour maison 30cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Pain aux céréales" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.90" ] ] ;
+            ns1:name "PAINS ET SOUPE🥖🥣" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "COCACOLA ZERO - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Maytea pêche - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "COCACOLA - 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "SAN PELLEGRINO - 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "COCACOLA - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "COCACOLA ZERO - 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "SCHWEPPS AGRUME - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "ORANGINA - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "OASIS TROPICAL - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ] ;
+            ns1:name "BOISSONS🥂" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Base : fusilli ou radiatori, fraîche, ou gnocchi (selon disponibilité)\r
+3 ingrédients au choix, une sauce, et un topping fromage""" ;
+                    ns1:name "Pâtes chaude avec 3 ingrédients sur-mesure" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce et possibilité d'ingrédients au choix" ;
+                    ns1:name "CUP DE PÂTES sur-mesure (pâtes, sauce, fromage)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pour les amoureux qui veulent partager un plat fit, nous vous offrons une promo sur l'achat de deux salades à composé." ;
+                    ns1:name "Formule Duo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base, ingrédients, sauce, et topping au choix" ;
+                    ns1:name "Salade 5 ingrédients sur-mesure" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ] ;
+            ns1:name "SUR MESURE📏" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "galette de blé, champignons, carottes râpées, tomates et sauce Napolitaine* (tomates, basilic, et huile d'olive)" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/89/60896243ae357.jpeg> ;
+                    ns1:name "Wrap chaud Végan" ;
+                    ns1:nutrition "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Base:                  Galette de blé\r
+3 ingrédients: Pommes de terre, fromage à raclette, Jambon cru\r
+Sauce:                4 fromages""" ;
+                    ns1:name "Wrap Chaud Raclette" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "galette de blé, poulet curry*, tomates, emmental râpée et sauce curry (crème fraîche et curry)" ;
+                    ns1:name "Wrap Chaud Curry" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "galette de blé, poulet*, tomate en quartiers, emmental râpé et sauce Pesto Rosso* (tomates, ricotta, huile d'olive et noix de cajou)" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/89/6089621b569b9.jpeg> ;
+                    ns1:name "Wrap Chaud Pesto" ;
+                    ns1:nutrition "Celery",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette de blès, Batavia, Tenders, Tomates, Fromage italien  en copaux, Oignons fris, Sauce miel moutarde" ;
+                    ns1:name "Wrap Froid Tenders" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "galette de blé, mâche, poulet*, tomates, cheddar et sauce Caesar" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/89/608960efc15d6.jpeg> ;
+                    ns1:name "Wrap froid Caesar" ;
+                    ns1:nutrition "Eggs",
+                        "Fish",
+                        "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette, Feuille de Batavia, Falafel, Carottes râpées, tartare de concombre" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/89/60896131db8f8.jpeg> ;
+                    ns1:name "Wrap froid Veggie" ;
+                    ns1:nutrition "Mustard",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "galette de blé, batavia, œuf dur, concombres, saumon, sauce Finlandaise (crème et ciboulette)" ;
+                    ns1:name "Wrap froid Nordique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.40" ] ] ;
+            ns1:name "NOS WRAPS🌯" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Cookie nature pépites de chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Panna Cotta coulis aux fruits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mélange de fruit, 450 ml" ;
+                    ns1:name "Grande salade de fruit (mix)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fruit frais de saison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Muffin vanille pépites chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Brownie CHOCOLAT" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ] ;
+            ns1:name "DESSERTS🍪" ] .
+

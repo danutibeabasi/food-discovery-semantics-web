@@ -1,0 +1,42 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/27> a ns1:Restaurant ;
+    ns1:address <https://eramangasteiz.coopcycle.org/api/addresses/1249> ;
+    ns1:bannerImage "https://eramangasteiz.coopcycle.org/media/cache/restaurant_banner/65/6d/656dbd631ec54292350796.jpg" ;
+    ns1:description "En el Txoko encontrarás una extensa barra de Pintxos, Desayunos y almuerzos, Bocadillos, Picoteo, Comidas y cenas Certadas y Comida Mexicana Concertada." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.285343e+01 ;
+            ns1:longitude -2.668272e+00 ] ;
+    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/restaurant_thumbnail/60/6b/606b4fa7e8f71.jpg> ;
+    ns1:name "El Txoko Taberna" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "12:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "23:45" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "19:45" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "es" ;
+                    ns1:urlTemplate "https://eramangasteiz.coopcycle.org/en/restaurant/27-el-txoko-taberna" ] ] ;
+    ns1:sameAs <https://eramangasteiz.coopcycle.org/en/restaurant/27-el-txoko-taberna> ;
+    ns1:url <https://eramangasteiz.coopcycle.org/en/restaurant/27-el-txoko-taberna> .
+
+<https://eramangasteiz.coopcycle.org/api/addresses/1249> a ns1:PostalAddress ;
+    ns1:name "El Txoko Taberna" ;
+    ns1:streetAddress "Portal de Legutiano 20, Vitoria, España" ;
+    ns1:telephone "+34945202211" .
+

@@ -1,0 +1,255 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://khora.berlin/en/restaurant/190-piri-s> ns1:hasMenu <https://khora.berlin/en/restaurant/190-piri-s#menu> .
+
+<https://khora.berlin/en/restaurant/190-piri-s#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/fb/61fbbd6df3a9f.jpeg> ;
+                    ns1:name "Big Kahuna" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Smashin' Sachin" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Rugged Manwich" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Claudietta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ] ;
+            ns1:name "Smash Burgers" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/5f/615f628a406db.jpeg> ;
+                    ns1:name "Bottle of Piri sauce (200mL)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/5f/615f6422c0f70.jpeg> ;
+                    ns1:name "Bottle of Trauma sauce (100mL)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ] ;
+            ns1:name "Hot sauce bottles" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/fb/61fbba774afab.jpeg> ;
+                    ns1:name "Codfather" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Fish and Chips" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Fish Friday" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bottle of classic margarita (tequila, triple sec, lemon, lime, sugar) - serve on ice" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/5f/615f61dee9f72.jpeg> ;
+                    ns1:name "Bottle of Margarita (2 serves)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ] ;
+            ns1:name "Drinks" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Pirama" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "sesame seed bun, tofu, cheese, soy aioli, Piri sauce (spicy), iceberg lettuce, sesame seed bun" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/5f/615f5d40ccd9f.jpeg> ;
+                    ns1:name "Fiction" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "sesame seed bun, breaded chicken, tomato, bacon, iceberg lettuce, cheese, aioli NOT SPICY" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/fb/61fbb9fe82062.jpeg> ;
+                    ns1:name "Damaja" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sesame seed bun, grilled breaded chicken breast, soy aioli, Trauma sauce (habanero, very spicy), cheese, iceberg lettuce" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/5f/615f5ecc7ef8f.jpeg> ;
+                    ns1:name "Rockness Monsta" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tofu “cheese-steak”, sauteed red onions, iceberg lettuce, tomato, pickle, chipotle mayo, sesame seed bun" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/fb/61fbb83959ba5.jpeg> ;
+                    ns1:name "KRS-Bun" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sesame seed bun, grilled breaded chicken breast, soy aioli, Piri sauce (spicy), cheese, iceberg lettuce" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/5f/615f5238d500a.jpeg> ;
+                    ns1:name "Piri" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sesame seed bun, double portion of grilled breaded chicken breast, soy aioli, Piri sauce (spicy), cheese, iceberg lettuce" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/5f/615f5e023517e.jpeg> ;
+                    ns1:name "Mojo" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/fb/61fbbf6a4b82a.jpeg> ;
+                    ns1:name "Rhino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Ronald Runner" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """sesame bun, deep fried oyster mushroom, jalapeño, tomato, lettuce, soy chipotle aioli, piri sauce\r
+mild spicy\r
+VEGAN""" ;
+                    ns1:name "MF Shroom" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sesame seed bun, double grilled breaded chicken breast, soy aioli, Trauma sauce (habanero, very spicy), cheese, iceberg lettuce" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/5f/615f60a375fd6.jpeg> ;
+                    ns1:name "Gravedigga" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/fb/61fbbec0db91e.jpeg> ;
+                    ns1:name "Buckshot" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ] ;
+            ns1:name "Burgers" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "side of vegan soy aioli" ;
+                    ns1:name "Side Aioli" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "cup of homemade vegan gravy" ;
+                    ns1:name "cup of gravy" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "regular portion of fries with herb salt" ;
+                    ns1:name "Fries" ;
+                    ns1:nutrition "Celery" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "side of our famous Piri sauce - made from fresh chili and ginger (mild)" ;
+                    ns1:name "Side Piri sauce" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Deep fried chicken wings coated in a spicy cayenne pepper and vinegar sauce, served with blue cheese ranch. Spicy." ;
+                    ns1:name "Bison Wings" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Large portion of fries with homemade vegan gravy" ;
+                    ns1:name "Chips and gravy" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "blue cheese, herb and buttermilk sauce" ;
+                    ns1:name "Blue Cheese Ranch" ;
+                    ns1:nutrition "Celery",
+                        "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "deep fried oyster mushrooms" ;
+                    ns1:name "mushroom nuggets" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "our famous piri sauce mixed with homemade vegan soy aioli" ;
+                    ns1:name "Pirinnaise" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Cheese fries" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "side of our very spicy habanero salsa" ;
+                    ns1:name "Side of trauma sauce" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "deep fried chicken wings, rubbed in our special spice blend" ;
+                    ns1:name "Chicken wings" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Side of chipotle mixed with homemade vegan soy aioli (mild)" ;
+                    ns1:name "Side chipotle mayo" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ] ;
+            ns1:name "Sides" ] .
+

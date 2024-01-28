@@ -1,0 +1,365 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiers-stephanois.coopcycle.org/api/restaurants/68> ns1:hasMenu <https://coursiers-stephanois.coopcycle.org/en/restaurant/68-spice-lounge-cuisine-indienne#menu> .
+
+<https://coursiers-stephanois.coopcycle.org/en/restaurant/68-spice-lounge-cuisine-indienne#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/6f/656f706f52a99.jpeg> ;
+                    ns1:name "HARICOTS ROUGES AU CURRY" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "épinards et paneer (fromage indien)" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/6f/656f70b428830.jpeg> ;
+                    ns1:name "PALAK PANEER" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pommes de terre et épinards" ;
+                    ns1:name "ALOO PALAK" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "paneer mariné et cuit dans une sauce crémeuse" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/6f/656f70d2ccb32.jpeg> ;
+                    ns1:name "PANEER NAWABI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry d’épinards et maïs" ;
+                    ns1:name "Palak Corn" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "lentilles corail préparées dans une sauce onctueuse avec du cumin" ;
+                    ns1:name "DAL FRY" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "aubergines grillées au tandoor puis mijotées avec des tomates, des épices et de la coriandre" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/6f/656f7043dae0c.jpeg> ;
+                    ns1:name "BAINGAN KA BHARTHA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Paneer dans une sauce onctueuse, tomates, épices, noix de cajou" ;
+                    ns1:name "Shahi Paneer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "POIS CHICHES AU CURRY" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "CHAMPIGNONS AU CURRY" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mélanges de légumes, sauce Korma" ;
+                    ns1:name "NAVRATTAN KORMA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "lentilles et haricots rouges dans une sauce crémeuse curry/tomates" ;
+                    ns1:name "DAL MAKHANI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "PLATS VEGETARIENS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "(tomates, concombre, oignons + poulet grillé)" ;
+                    ns1:name "Chicken tikka salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "(tomates, concombre, oignons + crevettes)" ;
+                    ns1:name "Prawns salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "(tomates, concombre, oignons + paneer fromage)" ;
+                    ns1:name "Paneer salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "(tomates, concombre, oignons)" ;
+                    ns1:name "Indian salad" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "SALADES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "bœuf mariné aux épices et cuit dans du lait de coco" ;
+                    ns1:name "Bœuf Goan curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "bœuf cuit dans un curry épicé" ;
+                    ns1:name "Bœuf Madras (épicé)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "bœuf et pommes de terre cuits dans un curry épicé" ;
+                    ns1:name "Bœuf Vindaloo (épicé)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de viande hachée / petits pois" ;
+                    ns1:name "Keema matar curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "bœuf cuit dans une sauce crémeuse" ;
+                    ns1:name "Bœuf Korma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bœuf au curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ] ;
+            ns1:name "PLATS AU BŒUF" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "agneau et pommes de terre cuits dans un curry épicé" ;
+                    ns1:name "Agneau Vindaloo (épicé)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Agneau aubergine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "cuit dans une sauce crémeuse" ;
+                    ns1:name "Agneau korma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "agneau mariné aux épices et cuit au tandoor mijoté en sauce" ;
+                    ns1:name "Agneau tikka masala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Agneau au curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Agneau épinards" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Agneau mijoté dans une sauce savoureuse" ;
+                    ns1:name "Agneau Rogan Josh" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ] ;
+            ns1:name "PLATS A L’AGNEAU" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Poulet mariné dans une sauce à la crème et cuit au tandoor : 2 sauces en accompagnement (ananas et menthe/coriandre)" ;
+                    ns1:name "Poulet Malai Tikka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bœuf haché mariné aux épices et grillé au tandoor : 2 sauces en accompagnement (ananas et menthe/coriandre)" ;
+                    ns1:name "SHEEKH KEBAB BŒUF" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Agneau marinés et cuits au tandoor : 2 sauces en accompagnement (ananas et menthe/coriandre)" ;
+                    ns1:name "Agneau Tikka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet mariné et cuit au tandoor : 2 sauces en accompagnement (ananas et menthe/coriandre)" ;
+                    ns1:name "POULET TIKKA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Samosas au bœuf et légumes (x2) : 2 sauces en accompagnement (ananas et menthe/coriandre)" ;
+                    ns1:name "SAMOSA VIANDE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "ENTREES NON VEGETARIENNES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "dessert traditionnel indien : pudding : farine de riz, sucre, lait, cardamone, fruits secs" ;
+                    ns1:name "Phirni" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "nature ou avec coulis mangue" ;
+                    ns1:name "Fromage Blanc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "DESSERTS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "poulet cuit dans un curry épicé" ;
+                    ns1:name "Poulet Madras (épicé)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "poulet mariné, grillé au tandoor et cuit dans une sauce onctueuse à base de tomates, beurre et crème" ;
+                    ns1:name "Butter chicken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "poulet et pommes de terre cuits dans un curry épicé" ;
+                    ns1:name "Poulet Vindaloo (épicé)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boulettes de poulet marinées et mijotées en sauce" ;
+                    ns1:name "Nargisi Kofte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Poulet épinards" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "poulet mariné, grillé au tandoor et servi en sauce" ;
+                    ns1:name "Poulet Malai Tikka masala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "cuit dans une sauce crémeuse" ;
+                    ns1:name "Poulet Korma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Poulet aubergine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "poulet mariné aux épices et cuit au tandoor mijoté en sauce" ;
+                    ns1:name "Poulet tikka masala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Poulet au curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "PLATS AU POULET" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Biryani agneau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Biryani agneau tikka masala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Biryani poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Biryani crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "plat complet : riz basmati et légumes" ;
+                    ns1:name "Biryani Légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Biryani poulet tikka masala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ] ;
+            ns1:name "BIRYANI" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "JUS DE FRUITS PAGO 20CL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "SODAS 33 CL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "BOISSONS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Poisson korma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crevettes masala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crevettes au curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Goan fish curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ] ;
+            ns1:name "PLATS ‘DE LA MER’" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Karai bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Karai Paneer (fromage)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Karai poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Karai champignons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Karai agneau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ] ;
+            ns1:name "PLATS ‘KARAI’" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "RIZ" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "PAINS/NAANS…" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "ACCOMPAGNEMENTS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Beignets de légumes à la farine de pois chiche (x4) : 2 sauces en accompagnement (ananas et menthe/coriandre)" ;
+                    ns1:name "MIXED PAKORAS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Samosas aux légumes, pommes de terre, petits pois (x2) : 2 sauces en accompagnement (ananas et menthe/coriandre)" ;
+                    ns1:name "SAMOSA LEGUMES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignets d’oignons à la farine de pois chiche (x4) : 2 sauces en accompagnement (ananas et menthe/coriandre)" ;
+                    ns1:name "ONION BHAJI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignets de betterave et pomme de terre (x4 ) : 2 sauces en accompagnement (ananas et menthe/coriandre)" ;
+                    ns1:name "BEETROOT TIKKI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Beignets de pomme de terre et figues (x4),\r
+accompagnés de 2 sauces (ananas et menthe/coriandre)""" ;
+                    ns1:name "Aloo Anjeer Ki tikki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Palets de pommes de terre, épinards et petits pois (x4) : 2 sauces en accompagnement (ananas et menthe/coriandre)" ;
+                    ns1:name "HARA BHARA KEBAB" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "ENTRÉES VEGETARIENNES" ] .
+

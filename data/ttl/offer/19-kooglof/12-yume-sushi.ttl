@@ -1,0 +1,962 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://kooglof.coopcycle.org/api/restaurants/12> ns1:hasMenu <https://kooglof.coopcycle.org/en/restaurant/12-yume-sushi#menu> .
+
+<https://kooglof.coopcycle.org/en/restaurant/12-yume-sushi#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """34 pièces.\r
+2 sushis thon, 2 sushis saumon cheese, 6 Salmon roll cheese, 6 California chèvre et miel, 6 greenroll thon, 6 California saumon fumé cheese et 8 tatakis roll, servi avec 2 salades de choux et 2 boissons au choix "hors alcool".""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143609912f1.jpeg> ;
+                    ns1:name "Menu Duobox Gourmet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€44.00" ] ] ;
+            ns1:name "Box Duo 🍣✌️" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Thon, cream cheese, avocat et tobiko." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641488f739fc4.jpeg> ;
+                    ns1:name "Tobiko thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet, mayonnaise, avocat et sésame." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64144014dcaca.jpeg> ;
+                    ns1:name "Snow roll poulet avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641488f185085.jpeg> ;
+                    ns1:name "Tobiko Tempura" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon, cream cheese, avocat et tobiko." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641488eabb78e.jpeg> ;
+                    ns1:name "Tobiko saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon et cream cheese." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64144028e6e93.jpeg> ;
+                    ns1:name "Snow roll saumon cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thon cuit au cream cheese, ciboulette et avocat." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64144032cedec.jpeg> ;
+                    ns1:name "Snow roll thon cuit" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Tobiko & SnowRoll ❄️🍣" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Brochettes de boulette de poulet, poireau, gingembre et oignon." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64148978694c0.jpeg> ;
+                    ns1:name "Yakitori boulette de poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brochettes de bœuf au gouda." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641489704aa8e.jpeg> ;
+                    ns1:name "Yakitori boeuf fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brochettes de saumon teriyaki." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/6414899390b25.jpeg> ;
+                    ns1:name "Yakitori saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brochettes de boulette de poulet, poireau et gingembre au satay." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64148985526bd.jpeg> ;
+                    ns1:name "Yakitori boulette de poulet satay" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brochettes de cuisses de poulet à la sauce citronnelle." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/6414898d0db37.jpeg> ;
+                    ns1:name "Yakitori poulet citronelle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ] ;
+            ns1:name "Yakitori 🍢" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "6 pièces. Haricot vert, radis jaune marine, carotte, pousses d'épinard et sauce goma." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64136e06d2c25.jpeg> ;
+                    ns1:name "California vegan roll" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces. Poulet tempura, tomate, poivron, avocat, cheddar, oignon frit et sauce épicée." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64136b98f23bc.jpeg> ;
+                    ns1:name "California cheddar roll" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces. Poulet mayonnaise, parmesan, salade, sauce Caesar et sésame noir." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64136cb3cf9c6.jpeg> ;
+                    ns1:name "California poulet parmesan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces. Fromage de chèvre, noix concassées, miel et roquette." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64136bc142d65.jpeg> ;
+                    ns1:name "California chèvre et miel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces. Thon cuit, cream cheese, avocat, concombre et sésame." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64136dd97271d.jpeg> ;
+                    ns1:name "California thon cuit" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces. Saumon, avocat, concombre et sésame." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64136d4cbb81a.jpeg> ;
+                    ns1:name "California saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces. Poulet mayonnaise, avocat et sésame." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64136c85205bc.jpeg> ;
+                    ns1:name "California poulet avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces. Crevette, mangue fraiche, mango sauce, basilic thaï et sésame noir." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64136be8e4f4b.jpeg> ;
+                    ns1:name "California crevette mangue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64136b69995c6.jpeg> ;
+                    ns1:name "California bresaola roll" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces. Saumon fumé, cream cheese et sésame." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64136d711d39d.jpeg> ;
+                    ns1:name "California saumon fumé cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ] ;
+            ns1:name "California 6 Pcs ✨" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salade d'algues wakamé, champignons, noirs, sésame et piment rouge." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64132b2d50971.jpeg> ;
+                    ns1:name "Salade d'algues wakamé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fèves de soja, sauce sriracha" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64142db145133.jpeg> ;
+                    ns1:name "Edamamé Epicé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64132a3a0395e.jpeg> ;
+                    ns1:name "Riz Nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bouillon miso, tofu, champignons de Paris, algues et ciboulette." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64132bf4371fd.jpeg> ;
+                    ns1:name "Soupe miso" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fèves de soja" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64132a28a5507.jpeg> ;
+                    ns1:name "Edamamé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chou blanc mariné, saumon et sésame." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64132b58cc51e.jpeg> ;
+                    ns1:name "Salade de chou saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade de calamars, champignons noirs, gingembre mariné, pousses de bambou, sauce soja et sésame." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64132bc798217.jpeg> ;
+                    ns1:name "Salade de calamar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64132a6487f32.jpeg> ;
+                    ns1:name "Riz Vinaigré" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chou blanc mariné et sésame." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64132baa00113.jpeg> ;
+                    ns1:name "Salade de chou" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bouillon miso, tofu, champignons de Paris, algues, ciboulette et saumon." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64148a5303595.jpeg> ;
+                    ns1:name "Soupe miso Saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Entrées & Salades 🥗" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64142e9439e61.jpeg> ;
+                    ns1:name "Gyoza Nature x4" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64142f2e9a0a3.jpeg> ;
+                    ns1:name "Gyoza Veggie x4" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crevettes en panure japonaise, servi par 3 pièces" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/641370631a23c.jpeg> ;
+                    ns1:name "Crevettes tempura x3" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignets de poulet mariné au gingembre, servi par 4 pièces." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143d2b84a8a.jpeg> ;
+                    ns1:name "Poulet karaage x4" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.20" ] ] ;
+            ns1:name "Tempura 🍤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "6 Pièces" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/6414357117f08.jpeg> ;
+                    ns1:name "Maki thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 Pièces" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641434cfde208.jpeg> ;
+                    ns1:name "Maki concombre cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 Pièces" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/6414322721c80.jpeg> ;
+                    ns1:name "Maki avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 Pièces" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143517cd1a7.jpeg> ;
+                    ns1:name "Maki saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 Pièces" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641485e15b9a1.jpeg> ;
+                    ns1:name "Maki saumon cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 Pièces" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143250a99dc.jpeg> ;
+                    ns1:name "Maki avocat cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 Pièces" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/6414326d4bb64.jpeg> ;
+                    ns1:name "Maki avocat crevette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 Pièces" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641434bfe3e49.jpeg> ;
+                    ns1:name "Maki concombre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 Pièces" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/6414352a2275d.jpeg> ;
+                    ns1:name "Maki saumon avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ] ;
+            ns1:name "Maki 6 Pcs 🍥" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Muscat Lorentz" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ] ;
+            ns1:name "Les Vins 🍷" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Gyoza au poulet, eby fry, avocat, salade, condiment, algues, sésame, sésame noir et salade Osaka, servi avec riz vinaigré et salade de chou." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64136aca27da4.jpeg> ;
+                    ns1:name "Bento tempura" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 tranches de saumon et 6 tranches de thon, servi avec riz vinaigré, salade d'algues aux champignons noirs, edamamé, salade et de chou." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64136aac876dd.jpeg> ;
+                    ns1:name "Bento sashimi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ] ;
+            ns1:name "Bento 🍱" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "2 pièces." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64148aa2ab407.jpeg> ;
+                    ns1:name "Sushi saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641487554660f.jpeg> ;
+                    ns1:name "Sushi crevette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/6414878f83275.jpeg> ;
+                    ns1:name "Sushi saumon tataki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64148761abe43.jpeg> ;
+                    ns1:name "Sushi saumon avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/6414876db97d2.jpeg> ;
+                    ns1:name "Sushi saumon cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/6414879c863db.jpeg> ;
+                    ns1:name "Sushi tartare de saumon ciboulette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641487a515c71.jpeg> ;
+                    ns1:name "Sushi thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ] ;
+            ns1:name "Sushi 2 Pcs 🍣" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641433196d462.jpeg> ;
+                    ns1:name "Maki choco fraise x8" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Mi-cuit au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64136f004dcb7.jpeg> ;
+                    ns1:name "Cheesecake nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143fc4047f5.jpeg> ;
+                    ns1:name "Simi mangue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143fb45873f.jpeg> ;
+                    ns1:name "Simi banane" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143dc2af725.jpeg> ;
+                    ns1:name "Salade de litchis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143db56ba18.jpeg> ;
+                    ns1:name "Salade de fruits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143301d1ff2.jpeg> ;
+                    ns1:name "Maki choco fraise x4" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641432e9cb6a5.jpeg> ;
+                    ns1:name "Maki choco banane x8" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143344575ae.jpeg> ;
+                    ns1:name "Maki choco nature x8" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641432d6394f7.jpeg> ;
+                    ns1:name "Maki choco banane x4" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641433336d9ff.jpeg> ;
+                    ns1:name "Maki choco nature x4" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64136f48ab087.jpeg> ;
+                    ns1:name "Cheesecake Oreo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ] ;
+            ns1:name "Les Desserts 🍡" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64148618b3e8a.jpeg> ;
+                    ns1:name "Oasis Tropical" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641435bc6ab88.jpeg> ;
+                    ns1:name "Maytea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641431ff779d0.jpeg> ;
+                    ns1:name "Limonade Japonaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143a30b22a2.jpeg> ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50cl" ;
+                    ns1:name "Carola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143f95165fa.jpeg> ;
+                    ns1:name "Schweppes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143a543c8e3.jpeg> ;
+                    ns1:name "Pepsi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Les Boissons 🍹" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "6 pièces. Cream cheese et feuille d'omelette." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641487b511387.jpeg> ;
+                    ns1:name "Tamago maki cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thon cuit au cream cheese, ciboulette, avocat, feuille d'omelette et sésame." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/6414880feaea0.jpeg> ;
+                    ns1:name "Tamago tuna" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces. Poulet grillé, feuille d'omelette et salade." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641487af2f79d.jpeg> ;
+                    ns1:name "Tamago chicken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ] ;
+            ns1:name "Tamago 🍥" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Saumon, salade trévise, concombre, avocat, coriandre, menthe, et sauce shiracha." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/6414872cc87ed.jpeg> ;
+                    ns1:name "Springroll saumon spicy" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, concombre, avocat, carotte, tomate, coriandre et menthe." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64148742dd9a8.jpeg> ;
+                    ns1:name "Springroll veggie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crevette, salade, concombre, avocat, coriandre, menthe, masago et spicy mayo." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64148705393ea.jpeg> ;
+                    ns1:name "Springroll crevette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crevette tempura, concombre, avocat, coriandre, menthe, masago et spicy mayo." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641487146eb77.jpeg> ;
+                    ns1:name "Springroll Crevette tempura" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon, salade, concombre, avocat, coriandre, menthe, masago, et spicy mayo." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64148720ebe15.jpeg> ;
+                    ns1:name "Springroll saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crevette tempura, salade trévise, concombre, avocat, coriandre, menthe, et sauce shiracha." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64148739d4c9f.jpeg> ;
+                    ns1:name "Springroll tempura spicy" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet mayonnaise, roquette, basilic, parmesan, concombre, tomate et sauce Caesar." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641486b42ba6a.jpeg> ;
+                    ns1:name "Springroll Caesar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet tempura, salade, concombre, avocat, tomate, coriandre, menthe et spicy mayo." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641486f74ec5e.jpeg> ;
+                    ns1:name "Springroll chicken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ] ;
+            ns1:name "SpringRoll 6 Pcs🌱" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Saumon, avocat, concombre, mayonnaise aneth, ciboulette et coriandre." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64142d74adf87.jpeg> ;
+                    ns1:name "Greenroll saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thon, roquette et cream cheese." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641435038e6bc.jpeg> ;
+                    ns1:name "Maki roquette Thon cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon, roquette et cream cheese." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641434f07a37a.jpeg> ;
+                    ns1:name "Maki roquette saumon cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon fumé, avocat et cream cheese." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64136a63e78e9.jpeg> ;
+                    ns1:name "Avocado saumon fumé cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thon, avocat, concombre, mayonnaise aneth, ciboulette et coriandre." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64142e1a6b940.jpeg> ;
+                    ns1:name "Greenroll thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crevette tempura, avocat, concombre, mayonnaise, aneth, ciboulette et coriandre." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64142d402b11a.jpeg> ;
+                    ns1:name "Greenroll Crevette tempura" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon, avocat, concombre, mayonnaise et sésame." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64136a03cf0dd.jpeg> ;
+                    ns1:name "Avocado saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Carotte, avocat, concombre, aneth, ciboulette, coriandre et cream cheese" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64142e620b9de.jpeg> ;
+                    ns1:name "Greenroll veggie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ] ;
+            ns1:name "GreenRoll, Avocado, Makiroquette 6 Pcs 🌱🥑" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143f1d95475.jpeg> ;
+                    ns1:name "Sashimi x16 thon mariné" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143f6f9de7d.jpeg> ;
+                    ns1:name "Sashimi x8 thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tranches de poulet tempura, sauce tonkatsu, sésame, sur un lit de riz vinaigré" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64137026ed848.jpeg> ;
+                    ns1:name "Chirashi Tonkatsu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/16/6416295435472.jpeg> ;
+                    ns1:name "Chirashi Thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Dès de saumon, thon, poivrons, oignons rouges, coriandres, sauce yuzu et épices shichimi sur un grand bol de riz vinaigré." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64136f828c77e.jpeg> ;
+                    ns1:name "Chirashi marinade thaï" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/6414889b52ec8.jpeg> ;
+                    ns1:name "Tataki x8 thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143f0b62169.jpeg> ;
+                    ns1:name "Sashimi x16 thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "16 tranches de saumon braisé tataki, cream cheese, sauce tayaki et épices shichimi sur un grand bol de riz vinaigré." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64136fec4789d.jpeg> ;
+                    ns1:name "Chirashi tataki cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143f58da0dc.jpeg> ;
+                    ns1:name "Sashimi x8 saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tranches de saumon marinées à la sauce soja aromatisée aux agrumes, épices et ciboulette. Nombre de tranches au choix. au choix." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143efcea6be.jpeg> ;
+                    ns1:name "Sashimi x16 saumon mariné" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nombre de tranches de saumon au choix, sauce teriyaki et épices shichimi." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/6414887f2a94a.jpeg> ;
+                    ns1:name "Tataki x16 saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143ed5f2a9c.jpeg> ;
+                    ns1:name "Sashimi x16 mix" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64136fb3d7de9.jpeg> ;
+                    ns1:name "Chirashi saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143f32c52ab.jpeg> ;
+                    ns1:name "Sashimi x8 mix" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/6414888a61dbb.jpeg> ;
+                    ns1:name "Tataki x16 thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143f78ce9e2.jpeg> ;
+                    ns1:name "Sashimi x8 thon mariné" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143eeee27b0.jpeg> ;
+                    ns1:name "Sashimi x16 saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nombre de tranches de saumon au choix, sauce teriyaki et épices shichimi." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641488925972d.jpeg> ;
+                    ns1:name "Tataki x8 saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tranches de saumon marinées à la sauce soja aromatisée aux agrumes, épices et ciboulette. Nombre de tranches au choix. au choix." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143f644a49b.jpeg> ;
+                    ns1:name "Sashimi x8 saumon mariné" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ] ;
+            ns1:name "Tataki, Sashimi & Chirashi 🍣🍚" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "50 pièces : 2 sushis saumon cheese, 2 sushis thon, 4 sushis saumon, 4 sushis crevette, 6 salmon roll cheese, 6 California thon cuit, 6 makis saumon avocat, 6 springroll Caesar, 6 greenroll veggie et 8 dragon." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641489a27947f.jpeg> ;
+                    ns1:name "Yumebox 1" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€59.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "70 pièces : 3 sushis thon, 3 sushis saumon, 2 sushis crevette, 2 sushis saumon cheese, 2 sushis saumon avocat, 6 makis concombre cheese, 6 makis saumon avocat, 6 springroll saumon, 6 California salmon, 6 Salmon roll cheese, 6 greenroll thon, 6 Califo" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641489b762009.jpeg> ;
+                    ns1:name "Yumebox 2" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€75.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50 pièces : 4 sushis saumon, 4 sushis saumon avocat, 4 sushis saumon cheese, 6 Salmon roll cheese, 6 Snow roll saumon, 6 salmon roll tataki, 10 sashimis saumon et 10 tatakis saumon." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641489b0434c5.jpeg> ;
+                    ns1:name "Yumebox 100% saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€65.00" ] ] ;
+            ns1:name "YumeBox 🍣🍱" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Crevette tempura, saumon tataki, épices shichimi, avocat, cream cheese et sésame." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64148863997b1.jpeg> ;
+                    ns1:name "Tataki roll" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet tempura, avocat, tomate, oignon frit, et sauce tonkatsu" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/6413709b3a5a8.jpeg> ;
+                    ns1:name "Crispy poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crevette tempura, oignon frit, kiwi, mangue fraiche et mango sauce." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/641371870ae41.jpeg> ;
+                    ns1:name "Crispy tempura" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon, cream cheese et oignon blanc, en panure tempura" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641488d1186ae.jpeg> ;
+                    ns1:name "Tempura roll" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thon mariné à l'huile de sésame et sauce soja, saumon avocat, mayonnaise pimentée, sésame et tobiko." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64142d03875ab.jpeg> ;
+                    ns1:name "Fire roll" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz vinaigré, saumon, oignon frit, avocat, concombre, mayonnaise pimentée, huile de sésame et algue nori." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/641371615f5fa.jpeg> ;
+                    ns1:name "Crispy saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641488db51ec0.jpeg> ;
+                    ns1:name "Tempura R. Veggie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crevette tempura, asperge, avocat, tobiko, spicy mayo et sésame" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/641371c09f3a6.jpeg> ;
+                    ns1:name "Dragon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ] ;
+            ns1:name "Signatures (8Pcs) & Crispy (6Pcs) 🍤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bouillon de miso, algues, ciboulette, champignons, pâtes de blé, coriandre et saumon grillé." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143d5947d5d.jpeg> ;
+                    ns1:name "Ramen saumon grillé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bouillon au soja, pâtes de blé, crevettes, carotte, poireau, champignons, poivron rouge et fèves de soja." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143d4a49e7c.jpeg> ;
+                    ns1:name "Ramen crevette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bouillon au soja, pâtes de blé, carotte, poireau, champignons de paris, champignons shiitaké, poivron rouge et coriandre." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143d69013f0.jpeg> ;
+                    ns1:name "Ramen veggie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bouillon au soja, pâtes, de blé, carotte, poireau, champignons, poivron rouge, poulet tempura et épices shichimi." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143d3c2fa5f.jpeg> ;
+                    ns1:name "Ramen chicken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "Ramen 🍜" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "l (5°)" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64142ef8831a1.jpeg> ;
+                    ns1:name "Ichiban Kirin" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Les Bières 🍺" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Avocat, concombre, tomate, poivron, edamamé, ananas, vinaigrette soja/wasabi sur un lit de riz vinaigré" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143d18ea77e.jpeg> ;
+                    ns1:name "Poké Bowl Veggie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crevette, pulpe de pamplemousse, roquette, spicy mayo, sésame noir avec riz vinaigré" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64148835261fd.jpeg> ;
+                    ns1:name "Tartare Crevette/Pamplemousse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Dès de saumon et avocat, sésame, accompagné d'un riz vinaigré." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/6414884189350.jpeg> ;
+                    ns1:name "Tartare saumon avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Dès de thon, avocat et sésame, accompagné d'un riz vinaigré." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64148848b4d2a.jpeg> ;
+                    ns1:name "Tartare thon avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon mariné à l'huile de sésame et sauce soja mangue, concombre, avocat, tomate, radis rose, édamamé, vinaigrette, soja wasabi, condiment algues, sésame et riz vinaigré." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143d050bae3.jpeg> ;
+                    ns1:name "Poké bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thon, marinade au citron vert, gingembre et lait de coco, mangue, oignons rouges, coriandre, menthe et sésame, accompagné d'un riz vinaigré." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64136ea217ad8.jpeg> ;
+                    ns1:name "Ceviche thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon, marinade au citron vert, fruit de la passion et curry madras, fenouil, oignons rouges, sésame, radis et basilic thaï, accompagné d'un riz vinaigré." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64136e707da3a.jpeg> ;
+                    ns1:name "Ceviche saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ] ;
+            ns1:name "Ceviches, Tartares & Poké Bowl 🍜" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Thon avocat et sésame." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641488b25a6cf.jpeg> ;
+                    ns1:name "Temaki thon avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon avocat et sésame." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641488ac838d1.jpeg> ;
+                    ns1:name "Temaki saumon avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thon cuit, cream cheese, ciboulette, avocat et sésame." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641488b8d62b2.jpeg> ;
+                    ns1:name "Temaki thon cuit avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ] ;
+            ns1:name "Temaki 🎉" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "3 sushis saumon, 3 sushis thon, 6 makis thon et 6 California saumon." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143ca3e5b49.jpeg> ;
+                    ns1:name "Plateau mix" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143c2cd349f.jpeg> ;
+                    ns1:name "Plateau 8 YAKI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 brochettes aux choix, 3 California saumon, 3 springroll saumon, 3 California poulet parmesan et 3 Salmon roll." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64148952cf594.jpeg> ;
+                    ns1:name "Yaki roll" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 sushis saumon cheese, 6 Salmon rolls cheese et 6 California saumon fumé." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143cb35685c.jpeg> ;
+                    ns1:name "Plateau super cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143c1263ff6.jpeg> ;
+                    ns1:name "Plateau 5 YAKI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 California thon cuit, 6 crevettes mangue et 6 California saumon." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/13/64136c1d2dee3.jpeg> ;
+                    ns1:name "Plateau California mix" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "10 sushi saumon" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143cd6d8c26.jpeg> ;
+                    ns1:name "Plateau sushi saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 makis saumon, 6 makis thon et 6 makis avocat cheese." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143c5e8b297.jpeg> ;
+                    ns1:name "Plateau maki mix" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 sushis saumon, 2 sushis saumon cheese, 2 sushis saumon avocat, 2 sushis saumon takati et 2 sushis tartare de saumon ciboulette." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/641487811b062.jpeg> ;
+                    ns1:name "Plateau Sushi saumon mix" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 greenroll vegie, 6 springroll veggie et 6 maki avocat cheese." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/16/6416f7798478c.jpeg> ;
+                    ns1:name "Plateau végétarien mix" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ] ;
+            ns1:name "Les Plateaux 🍱" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Saumon braisé, épices shichimi, cream cheese et sauce tariyaki." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143e73438fb.jpeg> ;
+                    ns1:name "Salmon roll tataki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces. Saumon, cream cheese, avocat et concombre." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143df6e2184.jpeg> ;
+                    ns1:name "Salmon roll California" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon, saumon fumé et cream cheese." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143e4476388.jpeg> ;
+                    ns1:name "Salmon roll saumon fumé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon et cream cheese." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143e1094303.jpeg> ;
+                    ns1:name "Salmon roll cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon, cream cheese, avocat et sésame" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143de523acc.jpeg> ;
+                    ns1:name "Salmon roll avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon, cream cheese, concombre et sésame." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143e37052f8.jpeg> ;
+                    ns1:name "Salmon roll concombre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon braisé, épices shichimi, cream cheese, avocat et sauce tariyaki." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/14/64143e7e48493.jpeg> ;
+                    ns1:name "Salmon roll tataki avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ] ;
+            ns1:name "SalmonRoll 6 Pcs 🍣🍥" ] .
+

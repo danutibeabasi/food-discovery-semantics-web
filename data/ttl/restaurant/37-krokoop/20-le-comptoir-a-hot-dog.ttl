@@ -1,0 +1,51 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://krokoop.coopcycle.org/api/restaurants/20> a ns1:Restaurant ;
+    ns1:address <https://krokoop.coopcycle.org/api/addresses/955> ;
+    ns1:description """Non, vous n’êtes pas à New-York dans un quartier de Brooklyn mais bel et bien à Nîmes, tout près du Carré d’Art et de la Maison Carré, rue Racine pour déguster le nouvel Hot-Dog incontournable de la ville.\r
+\r
+Le Comptoir à Ho-Dog , c’est la street-food américaine mêlé au savoir faire d’un gastronome français : Benjamin Durand.\r
+\r
+Disciple d’Escoffier, le jeune cuisinier qui tient le lieu a l’ambition affirmée de réinventer le fameux sandwich brioché en un véritable produit gourmet, déclinable sous différentes saveurs, et avec le soucis constant de la qualité.\r
+\r
+Confectionnés à partir de produits frais, vous les retrouverez en version poisson, poulet, porc et parfois même en homard ! Évidemment accompagnés de frites maison ou d’un dessert, et d’un soda voire d’une bière !\r
+\r
+On n’oubliera pas les salades : Version Comptoir (version du chef) pour les amateurs de bonne découverte, et version César pour la plus célèbre.\r
+\r
+Alors c’est le moment de se régaler et de venir tester cette belle trouvaille !""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.383757e+01 ;
+            ns1:longitude 4.354838e+00 ] ;
+    ns1:image <https://krokoop.coopcycle.org/media/cache/restaurant_thumbnail/65/49/65498b8e4ca08.png> ;
+    ns1:name "LE COMPTOIR A HOT DOG" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:20" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:50" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://krokoop.coopcycle.org/en/restaurant/20-le-comptoir-a-hot-dog" ] ] ;
+    ns1:sameAs <https://krokoop.coopcycle.org/en/restaurant/20-le-comptoir-a-hot-dog> ;
+    ns1:url <https://krokoop.coopcycle.org/en/restaurant/20-le-comptoir-a-hot-dog> .
+
+<https://krokoop.coopcycle.org/api/addresses/955> a ns1:PostalAddress ;
+    ns1:name "LE COMPTOIR A HOT DOG" ;
+    ns1:streetAddress "6 Rue Racine, Nîmes, France" ;
+    ns1:telephone "+33777140864" .
+

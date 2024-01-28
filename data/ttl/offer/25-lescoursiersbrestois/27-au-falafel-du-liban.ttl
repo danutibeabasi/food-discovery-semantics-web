@@ -1,0 +1,192 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/restaurants/27> ns1:hasMenu <https://lescoursiersbrestois.coopcycle.org/en/restaurant/27-au-falafel-du-liban#menu> .
+
+<https://lescoursiersbrestois.coopcycle.org/en/restaurant/27-au-falafel-du-liban#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Fanta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Sprite" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Perrier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Coca-Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Lipton Ice Tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Schweppes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Cristaline" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Oasis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "barquette de frites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 brochette kafta, servi avec salade libanaise et frites." ;
+                    ns1:name "Barquette kafta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 falafels, servi avec salade libanaise et frites." ;
+                    ns1:name "Barquette falafel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 brochette taouk, servi avec salade libanaise et frites." ;
+                    ns1:name "Barquette taouk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "Barquettes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Beignets de pois chiches parfumés aux épices et coriandre. Servi avec frites." ;
+                    ns1:name "Sandwich falafel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi avec frites." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/59/635949e061100.jpeg> ;
+                    ns1:name "Chawarma fait maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain libanais grillé farci à la viande de bœuf hachée, persil et oignons. Servi avec frites." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/59/63594a4422bd5.jpeg> ;
+                    ns1:name "Sandwich arayes viande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Viande de bœuf hachée, persil et oignons. Servi avec frites." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/59/63594b3e8aa90.jpeg> ;
+                    ns1:name "Sandwich kafta méchoui" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain libanais grillé au fromage et thym. Servi avec frites." ;
+                    ns1:name "Sandwich arayes au fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet mariné au citron, l'ail et aux épices orientales. Servi avec frites." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/59/63594a0f8665c.jpeg> ;
+                    ns1:name "Sandwcih taouk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "Sandwichs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "1 brochette de kafta, 1 brochette de taouk et 2 falafels. Servi avec salade libanaise, frites et hommos." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/59/63594ad517fda.jpeg> ;
+                    ns1:name "Assiette gourmande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "FAIT MAISON" ;
+                    ns1:name "Assiette Chawarma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 falafels, servi avec salade libanaise, frites et hommos." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/59/63594a637b6f7.jpeg> ;
+                    ns1:name "Assiette falafel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 brochette de kafta, 1 brochette de taouk et arayes. Servi avec salade libanaise, frites et hommos." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/59/63594af854f35.jpeg> ;
+                    ns1:name "Assiette orientale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 brochettes de kafta, servi avec salade libanaise, frites et hommos." ;
+                    ns1:name "Assiette kafta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 brochettes de taouk, servi avec salade libanaise, frites et hommos." ;
+                    ns1:name "Assiette taouk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 brochette de kafta et 1 brochette de taouk. Servi avec salade libanaise, frites et hommos." ;
+                    ns1:name "Assiette mix grill" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ] ;
+            ns1:name "Assiettes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "3 feuilletés aux fruits secs." ;
+                    ns1:name "Assiette baklawa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gâteau farci aux noix, pistaches et dattes." ;
+                    ns1:name "Maamoul" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 pâtisseries traditionnelles." ;
+                    ns1:name "Assiette la perle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomates, concombre, menthe sèche, huile d'olive et citron." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/59/63594aab716f2.jpeg> ;
+                    ns1:name "Salade libanaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Feuilles de vigne farcies, riz, tomates, persil et citron." ;
+                    ns1:name "Warak enab" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Une pièce de Falafel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Purée de pois chiche, crème de sésame et citron." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/59/63594a82f247f.jpeg> ;
+                    ns1:name "Hommos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "Entrées" ] .
+

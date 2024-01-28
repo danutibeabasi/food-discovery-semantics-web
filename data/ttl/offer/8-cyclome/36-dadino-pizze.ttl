@@ -1,0 +1,203 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://cyclome.coopcycle.org/api/restaurants/36> ns1:hasMenu <https://cyclome.coopcycle.org/en/restaurant/36-dadino-pizze#menu> .
+
+<https://cyclome.coopcycle.org/en/restaurant/36-dadino-pizze#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomate, Mozzarella, Pomme de terre, Raclette à l’ail des ours, Jambon cru d’Auvergne 9 mois" ;
+                    ns1:name "Raclette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Burrata i Tartufo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate SAN MARZANO, Mozzarella  Fior Di Latte, Parmigiano Reggiano AOP, Mortadelle pistachée, Pesto de Pistache, Pistaches concassées, , Basilics" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/62/83/6283966f4d2df.jpeg> ;
+                    ns1:name "Mortadelle" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate SAN MARZANO Bio, Mozzarella  Fior Di Latte, Parmigiano Reggiano AOP, Champignons, Crème d’ail confit, Miel, Basilic" ;
+                    ns1:name "Camila" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base potimarron, Pomme de terre, Mozzarella, Gorgonzola, Crème d’ail confit" ;
+                    ns1:name "Automnale" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, Mozzarella ,Saucisse piquante napolitaine type \"chorizo\" Chèvre Frais, Huile d’Olive à l’ail fumé" ;
+                    ns1:name "Capra Piquante" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Poti" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ] ;
+            ns1:name "Les pizze du chef" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tube de pâte frite farcie d’une crème légère à la pistache et d’éclat de pistache" ;
+                    ns1:name "Cannoli à la pistache" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Le classique, recette de l’Académie Italienne de Cuisine" ;
+                    ns1:name "Tiramisu" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomate SAN MARZANO Bio, Mozzarella Fior Di Latte, Cantal entre deux, St Nectaire, Scamorza fumée" ;
+                    ns1:name "4 fromages" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, Mozza, champignons , cantal, st nectaire" ;
+                    ns1:name "Auvergnate" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate SAN MARZANO, Mozzarella Fior Di Latte, Crottin de Chèvre, Miel, Noisette du Piémont" ;
+                    ns1:name "Berrichone" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, Mozzarella, Champignons, Poulet d’Auvergne, Chèvre, Huile d’ail fumée" ;
+                    ns1:name "Aia" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ] ;
+            ns1:name "Les terroirs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "9% Triple cuivrée, goûteuse et puissante" ;
+                    ns1:name "Zeus" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6.5% Indian Pale Ale herbacée à l’amertume maîtrisée" ;
+                    ns1:name "Vintage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6.5% Amber Ale ambrée au caractère subtil et équilibré" ;
+                    ns1:name "Alligator" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5.5 % Pale Ale blonde, légère, douce et florale" ;
+                    ns1:name "Savnah" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "Les bières Billd" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "« L’eau du Roi Louis XIV »" ;
+                    ns1:name "Chateldon 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Auvergnat 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "« C’est le goût de la Toscane en bouteille »" ;
+                    ns1:name "Acqua Panna 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "San pellegrino 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Volvic 1.5L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "De la pomme et rien d’autre, issu de la ferme de mes parents !" ;
+                    ns1:name "Jus de pomme 1L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "Les soft" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomate SAN MARZANO Bio, Mozzarella  Fior Di Latte, Parmigiano Reggiano AOP, Burrata, Basilic" ;
+                    ns1:name "Queen Margherita" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, Mozzarella, saucisse de porc napolitaine épicée «type chorizo»" ;
+                    ns1:name "Salame" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate SAN MARZANO Bio, Mozzarella  Fior Di Latte, Jambon Blanc, Champignon, Œuf, Cuit en chausson" ;
+                    ns1:name "Calzone" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate SAN MARZANO, Mozzarella  Fior Di Latte, Parmigiano Reggiano AOP, Basilic" ;
+                    ns1:name "Margherita" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate SAN MARZANO, Mozzarella  Fior Di Latte, Jambon Blanc, Champignons, Basilic" ;
+                    ns1:name "Regina" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate SAN MARZANO, Crème d’ail confit" ;
+                    ns1:name "Marinara" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "Les classiques" ] .
+

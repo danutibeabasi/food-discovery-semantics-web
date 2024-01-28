@@ -1,0 +1,79 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://feelavelo.coopcycle.org/api/restaurants/14> ns1:hasMenu <https://feelavelo.coopcycle.org/en/restaurant/14-chez-tigre#menu> .
+
+<https://feelavelo.coopcycle.org/en/restaurant/14-chez-tigre#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Boeuf citronnelle + vermicelle de riz, crudités, cacahuètes, oignons grillés" ;
+                    ns1:name "Bun Bo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Supplément de nems" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet citronnelle + vermicelle de riz, crudités, cacahuètes, oignons grillés" ;
+                    ns1:name "Bun Ga" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tofu citronnelle + vermicelle de riz, crudités, cacahuètes, oignons grillés" ;
+                    ns1:name "Bun Chay" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "mon Bun" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Sandwich vietnamien Cha lua + porc laqué" ;
+                    ns1:name "Banh mi dac biet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sandwich vietnamien au Tofu" ;
+                    ns1:name "Banh mi chay" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ] ;
+            ns1:name "mon Banh Mi" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "50 cl" ;
+                    ns1:name "Cristalline gazeuse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Citron gingembre bio 33 cl" ;
+                    ns1:name "Schorle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Breizh Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière vietnamienne 35 cl" ;
+                    ns1:name "Bia Saigon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50 cl" ;
+                    ns1:name "Cristalline plate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ] ;
+            ns1:name "boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Perles de tapioca façon riz au lait, coco et mangue" ;
+                    ns1:name "Mango coco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ] ;
+            ns1:name "desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Sup" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "mon Sup" ] .
+

@@ -1,0 +1,223 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiersmontpellier.coopcycle.org/api/restaurants/11> ns1:hasMenu <https://coursiersmontpellier.coopcycle.org/en/restaurant/11-cheezy-pizza#menu> .
+
+<https://coursiersmontpellier.coopcycle.org/en/restaurant/11-cheezy-pizza#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5d/10/5d10f2c7281a5.PNG> ;
+                    ns1:name "Coca Cola Zéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Fuzetea Mangue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5d/10/5d10f55a299b0.PNG> ;
+                    ns1:name "San Pellegrino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5d/10/5d10f3eeccbbf.PNG> ;
+                    ns1:name "Lipton" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "7 up" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5d/10/5d10f1004ca84.PNG> ;
+                    ns1:name "Coca Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33CL" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5d/10/5d10f52b990de.PNG> ;
+                    ns1:name "Oasis tropical" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50cl" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5d/10/5d10f59eaff3d.PNG> ;
+                    ns1:name "Cristalline" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33CL" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5d/10/5d10f3c1bcf4d.PNG> ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Schweppes agrumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "🥤BOISSONS🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Je ne souhaite pas de couvert jetable" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Je ne souhaite pas de serviette jetable" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ] ;
+            ns1:name "🍴Couvert et serviette🍴" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, jambon, champignons frais, emmental, mozzarella" ;
+                    ns1:name "Super Royale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, poivron, mozzarella, pesto" ;
+                    ns1:name "Poivron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, jambon, champignon frais, emmental" ;
+                    ns1:name "Reine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Emmental, mozzarella, Rochefort, chèvre" ;
+                    ns1:name "Quatre fromages base tomate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, lardon,  jambon, chorizo, emmental" ;
+                    ns1:name "Meat Lover" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, aubergine grillées, mozzarella pesto" ;
+                    ns1:name "Végétarienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, viande hachée, oignons confits, emmental" ;
+                    ns1:name "Bolognaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, lardon, œuf, emmental" ;
+                    ns1:name "Paysanne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella" ;
+                    ns1:name "Mozzarella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Thaï" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, poulet, emmental" ;
+                    ns1:name "Chicken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, chèvre, emmental" ;
+                    ns1:name "Chèvre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, chorizo, emmental" ;
+                    ns1:name "Chorizo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, viande hachée, cheddar, oignons confits, sauce barbecue" ;
+                    ns1:name "Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, fromage" ;
+                    ns1:name "Fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.30" ] ] ;
+            ns1:name "🍕LES PIZZAS ROUGE🍕" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "crème fraîche, chèvre, emmental, miel" ;
+                    ns1:name "Chèvre miel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "crème fraîche, pesto, jambon, champignon frais, mozzarella" ;
+                    ns1:name "Pesto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème fraîche, lardons, chèvre, emmental" ;
+                    ns1:name "Berger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "crème fraîche, raclette , pomme de terre, jambon cru de Serrano, emmental" ;
+                    ns1:name "Raclette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "crème fraîche, chèvre, merguez, emmental" ;
+                    ns1:name "Merguez" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème fraîche, mozzarella, saumon" ;
+                    ns1:name "Saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Coppa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Lorenzo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "crème fraîche, gorgonzola, tomate fraîche, jambon cru serrano, mozzarella" ;
+                    ns1:name "Siciliana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème fraîche, jambon cru (Serrano), pomme de terre, camembert, mozzarella" ;
+                    ns1:name "Calandos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème fraîche, chorizo, chèvre, champignons frais, mozzarella" ;
+                    ns1:name "Chorizette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "crème fraîche, lardon, oignon confit , pommes de terre, lardon, reblochon, emmental" ;
+                    ns1:name "Tartiflette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Ch'ti" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème fraîche, chèvre, Rochefort, emmental, mozzarella" ;
+                    ns1:name "Quatre fromages blanche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ] ;
+            ns1:name "🍕LES PIZZAS BLANCHES🍕" ] .
+

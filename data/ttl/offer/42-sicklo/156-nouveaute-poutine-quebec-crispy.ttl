@@ -1,0 +1,220 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://sicklo.coopcycle.org/api/restaurants/156> ns1:hasMenu <https://sicklo.coopcycle.org/en/restaurant/156-nouveaute-poutine-quebec-crispy#menu> .
+
+<https://sicklo.coopcycle.org/en/restaurant/156-nouveaute-poutine-quebec-crispy#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/659948b4269f8.jpeg> ;
+                    ns1:name "7UP MOJITO - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/6599385eddf6d.jpeg> ;
+                    ns1:name "EAU DE SOURCE - 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/6599388886563.jpeg> ;
+                    ns1:name "FANTA ORANGE - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/6599378119a6b.jpeg> ;
+                    ns1:name "COCACOLA CHERRY - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/65993a7bc6d65.jpeg> ;
+                    ns1:name "SPRITE - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/659938db31ddb.jpeg> ;
+                    ns1:name "OASIS TROPICAL - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/6599387462981.jpeg> ;
+                    ns1:name "FANTA CITRON - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/6599389aadc37.jpeg> ;
+                    ns1:name "LEFFE BLONDE - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/659937f75aca6.jpeg> ;
+                    ns1:name "DESPERADOS - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/6599379e9f09d.jpeg> ;
+                    ns1:name "COCACOLA ZERO - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/65993a6b19a61.jpeg> ;
+                    ns1:name "SAN PELLEGRINO - 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/659938ac9b618.jpeg> ;
+                    ns1:name "LIPTON ICE TEA PECHE - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/65993764a23a2.jpeg> ;
+                    ns1:name "COCACOLA - 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Demi roblochon fondu, oignons poêlés, lardons grillés. Préparées avec des frites fraîches. (quantité limité)" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/65993a2d57849.jpeg> ;
+                    ns1:name "Poutine tartiflette" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Des frites maison, des légumes sautés, du fromage de chèvre, du miel, des graines et notre délicieuse sauce poutine." ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/6599349c28dfd.jpeg> ;
+                    ns1:name "Poutine Biquette végétarienne" ;
+                    ns1:nutrition "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Frites maison, oignons, fromage a raclette au lait cru." ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/659939e75e82b.jpeg> ;
+                    ns1:name "Poutine Raclette" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Filet de poulet sauté, champignons. Préparées avec des frites fraîches." ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/65993a075fd5b.jpeg> ;
+                    ns1:name "Poutine suprême" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 étages de fromage, des frites maison et notre délicieuse sauce Poutine. Camembert, Raclette, Fromage Poutine." ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/6599395e4161b.jpeg> ;
+                    ns1:name "Poutine Cheese Tower" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Avec une base de frites maison, d'une sauce gravy, accompagné d'oignons caramélisé, de délicieux morceaux de TENDERS sous une couche de fromage en grains." ;
+                    ns1:name "Spécial SICKLO - LA POUTINE CRISPY" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crispy bacon, oignons caramélisés. Préparées avec des frites fraîches." ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/6599398dde14c.jpeg> ;
+                    ns1:name "Poutine montagnarde" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fromage en grains, sauce poutine et oignons croustillants et préparées avec des frites maison fraîches." ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/659939bcd95b2.jpeg> ;
+                    ns1:name "Poutine québéquoise" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "LES POUTINES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Portion pour une personne" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/659937dc8cb45.jpeg> ;
+                    ns1:name "Cookie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Portion pour une personne" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/659937cae4116.jpeg> ;
+                    ns1:name "Compote de fruit" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Portion pour une personne" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/6599355f269b2.jpeg> ;
+                    ns1:name "Brownie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Portion pour une personne" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/659938c19d095.jpeg> ;
+                    ns1:name "Muffin pépites de chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "DESSERTS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "6 sticks de Mozza, avec salade." ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/65993aa5615ab.jpeg> ;
+                    ns1:name "Stick de Mozzarela" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une portion." ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/6599392435779.jpeg> ;
+                    ns1:name "Portion de potatoes crispers" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Roquette, épinards, mâche, trévise, carottes, céleri, choux, tomates cerises, oignons rouges et croûtons maison." ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/65993a55171d1.jpeg> ;
+                    ns1:name "Salade fraîcheur M" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 crevettes panées, salade et sauce de votre choix." ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/65993bad7fefd.jpeg> ;
+                    ns1:name "Crevettes panées" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Crustaceans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Délicieux morceaux de blanc de poulet frits avec une panure aux herbes. 5pce" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/65993ce23b442.jpeg> ;
+                    ns1:name "Tenders" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pour les amateurs de poulet, une box regroupant 4 tenders 4 wings et 8 nuggets" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/65993d9d65064.jpeg> ;
+                    ns1:name "Bucket de poulet" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une portion de frite maison de 120g!" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/659938fd86d6f.jpeg> ;
+                    ns1:name "Portion de frites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "10 pièces de nuggets maison coupées dans un filet de poulet et panées par nos soins." ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/6599383880151.jpeg> ;
+                    ns1:name "Chicken Nuggets" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 Wings de poulet grillées" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/99/65993ace9cfe7.jpeg> ;
+                    ns1:name "Wings de Poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ] ;
+            ns1:name "ACCOMPAGNEMENTS" ] .
+

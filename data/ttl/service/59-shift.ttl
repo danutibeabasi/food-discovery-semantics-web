@@ -1,0 +1,19 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://shift.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "ca" ;
+                    ns1:addressLocality "Vancouver" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 4.928273e+01 ;
+                    ns1:longitude -1.231207e+02 ] ] ;
+    ns1:description "Shift Delivery is a worker owned co-op located in East Vancouver that specializes in last mile delivery. Do you need help with logistics? Want to reduce your carbon footprint? Write or give us a call."@en ;
+    ns1:name "Shift Delivery Co-op" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:sameAs <https://www.facebook.com/ShiftDelivery/> ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://shift.coopcycle.org> .
+

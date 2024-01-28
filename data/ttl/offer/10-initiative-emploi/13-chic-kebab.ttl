@@ -1,0 +1,226 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://initiative-emploi.coopcycle.org/api/restaurants/13> ns1:hasMenu <https://initiative-emploi.coopcycle.org/en/restaurant/13-chic-kebab#menu> .
+
+<https://initiative-emploi.coopcycle.org/en/restaurant/13-chic-kebab#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "2 steaks 95g, fromage" ;
+                    ns1:name "Spécial" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 steaks, 4 fromages, boursin, œuf, 2 bacons, galette de pomme de terre" ;
+                    ns1:name "Chic gourmand" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 viandes au choix, 2 fromages, crème fraîche" ;
+                    ns1:name "Mixte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 escalopes, bacon, champignons, boursin, crème fraîche, fromage" ;
+                    ns1:name "Savoyard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 steaks, œuf, cheddar" ;
+                    ns1:name "Top" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 steaks 95g, crème fraîche, galette de pomme de terre, fromage" ;
+                    ns1:name "Délice" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Brochette poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 steaks 45g, chicken au choix, fromage" ;
+                    ns1:name "Suprème" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cordon bleu, galette de pomme de terre, fromage" ;
+                    ns1:name "Must" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 steaks, cheddar" ;
+                    ns1:name "Triple steaks" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Brochette agneau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.60" ] ] ;
+            ns1:name "Nos sandwichs gourmands" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Vache qui rit" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 steak" ;
+                    ns1:name "Empire" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fish burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cheese burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Chicken burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 steaks, une galette de pomme de terre, cheddar" ;
+                    ns1:name "Croustillant" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Double cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.80" ] ] ;
+            ns1:name "Burgers classiques" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Tarte au daim" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tiramisu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "4 steak, 4 fromages, œuf, bacon, galette de pomme de terre" ;
+                    ns1:name "Chic" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cordon bleu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Grec" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Steak" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Chicken curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Chicken tandoori" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Escalope" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Merguez" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.80" ] ] ;
+            ns1:name "Nos Sandwichs classiques" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "3 viandes au choix" ;
+                    ns1:name "Tacos XL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 viande au choix" ;
+                    ns1:name "Tacos M" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 viandes au choix" ;
+                    ns1:name "Tacos L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.80" ] ] ;
+            ns1:name "Nos tacos" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Steak haché, galette de pomme de terre, fromage raclette, oignon rouge, sauce boursin, pain gourmet" ;
+                    ns1:name "Savoyard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Steak haché, chèvre, sauce au miel, salade, tomate, oignons, pain gourmet" ;
+                    ns1:name "Chèvre miel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Steak haché, cheddar, sauce old school, pain gourmet" ;
+                    ns1:name "Old school" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Steak haché, fromage bleu, bacon fumé, sauce au bleu, pain gourmet" ;
+                    ns1:name "Blue cheese bacon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Steak, guacamole, cheddar, salade, tomate, oignons frits, sauce salsa" ;
+                    ns1:name "Le Mexico" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Steak haché, oignon rouge, sauce BBQ, cheddar, pain gourmet" ;
+                    ns1:name "Beef BBQ" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Filet de poulet, cheddar, oignons rouges, sauce césar, pain gourmet" ;
+                    ns1:name "Chicken césar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Burgers gourmets" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "un étage" ;
+                    ns1:name "Hummer 1" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 étages" ;
+                    ns1:name "Hummer 3" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 étages" ;
+                    ns1:name "Hummer 2" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.80" ] ] ;
+            ns1:name "Nos hummers" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "6 pièces servies avec frites et boisson" ;
+                    ns1:name "Nuggets" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces servies avec frites et boisson" ;
+                    ns1:name "Wings" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces servies avec frites et boisson" ;
+                    ns1:name "Tenders" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "Fried chicken" ] .
+

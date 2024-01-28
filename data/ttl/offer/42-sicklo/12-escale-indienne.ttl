@@ -1,0 +1,181 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://sicklo.coopcycle.org/api/restaurants/12> ns1:hasMenu <https://sicklo.coopcycle.org/en/restaurant/12-escale-indienne#menu> .
+
+<https://sicklo.coopcycle.org/en/restaurant/12-escale-indienne#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Beignets à la farine de Pois Chiche aux courgettes. Servis avec une sauce tamarins. Contient 8 petite bouchées." ;
+                    ns1:name "PAKORA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 Beignets de légumes et 1 Samosa." ;
+                    ns1:name "COMBO-PAKORA SAMOSA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Yaourt au concombre parfumé aux épices maison \r
+et Safran.""" ;
+                    ns1:name "Kheera Raita" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Les Amuses Bouches🧆" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Vin Rouge Domaine Du Jas" ;
+                    ns1:name "Côtes du Rhône Bio Cuvée Prestige 75 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€29.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vin Rouge" ;
+                    ns1:name "Lussac Saint-Émilion La Croix de Saint-Roc 75 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€33.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Domaine Caslot-Pontonnier 75 cl" ;
+                    ns1:name "Vin Rouge Bourgueil Bio (Aop)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€30.00" ] ] ;
+            ns1:name "VINS🍷" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Un léger cube à base de farine de blé et de pois chiches qui fond dans la bouche comme de la barbe à papa, se casse comme un mille feuille, avec un gout prononcé de cardamome et des éclats de pistaches et d'amandes." ;
+                    ns1:name "Escale papdi" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Les Desserts🍰" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain indien moelleux à base de farine de blé et farine de pois chiches fourrée à la vache qui rit" ;
+                    ns1:name "Kulcha Cheese" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain indien moelleux à base de farine de blé et farine de pois chiches fourrée à l'ail" ;
+                    ns1:name "Kulcha Ail" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Kulcha Cheese Aïe" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain indien moelleux à base de farine de blé et farine de pois chiches" ;
+                    ns1:name "Kulcha Nature" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Pain Indien🛕" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Riz Basmati revenu à l'huile d'olive, sauté aux épices et des noix de cajou et amandes entières" ;
+                    ns1:name "Escale Riz" ;
+                    ns1:nutrition "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Riz Basmati" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Les Accompagnements🍚" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Badami Tofu (Servi avec du Riz Basmati)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Des de gigot d'agneau mijoter au feu doux, plongé dans une sauce au épinard, yaourt et pois chiche Noir" ;
+                    ns1:name "Besalak Agneau (Servi avec du Riz Basmati)" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Badami Paneer (Servi avec du Riz Basmati)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Badami Poulet (Servi avec du Riz Basmati)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tofu Bio, plongé dans une sauce au épinard, yaourt et pois chiche Noir" ;
+                    ns1:name "Besalak Tofu (Servi avec du Riz Basmati)" ;
+                    ns1:nutrition "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """C’est un genre de butter chicken avec un twist. Préparer dans une délicieuse sauce soyeuse et riche du nord de l'Inde, ce plat au poulet est l'un des délices de la cuisine Mughlai. Comme à son habitude, la cheffe à revisiter délicatement ce plat pour lui apporter l’authentique touche de l’Escale Indienne. Dénué de crème, l’aspect onctueux de cette sauce saura vous surprendre.
+\r
+Contient : Le subtil mariage d’un coulis maison de tomate à l’ail aux épices avec du lait de coco… Vous en dire plus serait vous gâchez la surprise !""" ;
+                    ns1:name "Chicken Lababdar (Servi avec du Riz Basmati)" ;
+                    ns1:nutrition "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Blanc de poulet, plongé dans une sauce au épinard, yaourt et pois chiche Noir" ;
+                    ns1:name "Besalak Poulet (Servis avec du Riz Basmati)" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Une délicieuse composition, aux notes mélodieuses de l’automne à l’hiver. Un ton sucré dans ce plat salé qui ne manquera pas de vous apporter ce que la terre a de meilleur à vous offrir. Encore une belle invention de la cheffe, qui a revisité le mélange de légumes classiques pour s’accorder avec les produits locaux. 
+\r
+Contient : Une panoplie de légumes de saison agrémenter du Winter mix masala maison ainsi qu’une note de fruit !""" ;
+                    ns1:name "Winter Mix (Servi avec du Riz Basmati)" ;
+                    ns1:nutrition "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Maa Ki Daal Makhani" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Badami Agneau (Servi avec du Riz Basmati)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Paneer Maison Bio, plongé dans une sauce au épinard, yaourt et pois chiche Noir" ;
+                    ns1:name "Besalak Paneer (Servi avec du Riz Basmati)" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ] ;
+            ns1:name "Les Plats🍛" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33cl de plaisir d’une douce bière ambrée mêlée à de subtiles notes de Noix. De la Brasserie des Cuves de Sassenage." ;
+                    ns1:name "La Belle Noiseuse 5,8%" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière blanche de Brasserie des Cuves à Sessenage 4,3% 330ml" ;
+                    ns1:name "Bière Blanche" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "IPA de la Brasserie des Cuves de Sassenage  33cl" ;
+                    ns1:name "Blonde Happy'A 5,8%" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brasserie des Cuves de Sassenage 33cl" ;
+                    ns1:name "Bière Rousse 5,2%" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Boisson : Bières de la Brasserie des Cuves de Sassenage🍺" ] .
+

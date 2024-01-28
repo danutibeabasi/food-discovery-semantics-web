@@ -1,0 +1,231 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://a2roo.coopcycle.org/api/restaurants/69> ns1:hasMenu <https://a2roo.coopcycle.org/en/restaurant/69-chez-mes-soeurs-musette#menu> .
+
+<https://a2roo.coopcycle.org/en/restaurant/69-chez-mes-soeurs-musette#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """1 soupe\r
++ 1 brioché au choix : Poulet ou Veggie\r
++ 1 boisson fraiche au choix : Thé glacé ou Eau détox ou Eau plate ou Eau gazeuse\r
++ 1 cookie ou autre dessert de la carte avec supplément""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/da/63da9da28f1a3.jpeg> ;
+                    ns1:name "Menu Soupe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """1 burger au choix : Sulina, Newcastle, Dijon, Calais\r
++ 1 boisson fraiche au choix : Thé glacé ou Eau détox ou Eau plate ou Eau gazeuse\r
++ 1 dessert du menu ou autre dessert de la carte avec supplément""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/da/63da9d9584934.jpeg> ;
+                    ns1:name "Menu Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """1 bowl au choix : Santa Clara, Phayao, Yokohama, Annaba\r
++ 1 boisson fraiche au choix : Thé glacé ou Eau détox ou Eau plate ou Eau gazeuse\r
++ 1 dessert du menu ou autre dessert de la carte avec supplément""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/27/6527bbd8ed75b.jpeg> ;
+                    ns1:name "Menu Bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ] ;
+            ns1:name "MENUS 🥂" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bun brioché, confit d’oignon au vinaigre de vin et sirop d’érable, pomme de terre rôtie à la moutarde à l’ancienne, salade 20 g, poulet, sauce moutarde" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/26/6526c9132bd06.jpeg> ;
+                    ns1:name "Burger Dijon" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain à la farine de maïs et de blé, pastrami au poivre, oignon rouge, tomate, cornichon aigre-doux, sauce cheddar." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/64/9e/649ec54c92cd3.jpeg> ;
+                    ns1:name "Burger Sulina" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain focaccia, potimarron rôti citron poivre, ricotta, noisette, mimolette et jeunes pousses" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/26/6526c8896d371.jpeg> ;
+                    ns1:name "Burger Calais" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain Ciabatta, dinde fumé, parmesan, romaine, pickles de carotte, sauce Ranch maison" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/26/6526c8d132cc6.jpeg> ;
+                    ns1:name "Burger Newcastle" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "BURGERS 🍔" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/da/63da9c421e559.jpeg> ;
+                    ns1:name "Fromage blanc, coulis de fruit, graines au miel" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/27/6527bb94cf6d9.jpeg> ;
+                    ns1:name "Cake double chocolat" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/da/63da9c362e578.jpeg> ;
+                    ns1:name "Fromage blanc, confiture de lait au chocolat maison, copeaux de chocolat" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/27/6527bc466ec36.jpeg> ;
+                    ns1:name "Muffin vanille & caramel au beurre salé" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/da/63da9bf340742.jpeg> ;
+                    ns1:name "Carrot Cake, notre spécialité !" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/da/63da9c6b54e78.jpeg> ;
+                    ns1:name "Fruits frais/Compote maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/27/6527bc2410f2e.jpeg> ;
+                    ns1:name "Muffin poire & spéculos" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/26/6526caf202882.jpeg> ;
+                    ns1:name "Brownie chocolat et beurre de cacahuète" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/27/6527bbb373226.jpeg> ;
+                    ns1:name "Flan à la fleur d'oranger et à la pistache" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gâteau sucré au miel" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/da/63da9cf99f74a.jpeg> ;
+                    ns1:name "Lekah" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/26/6526cb22136d3.jpeg> ;
+                    ns1:name "Moelleux pomme et noix de Pécan caramélisées" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "DESSERTS 🍰" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Vermicelle de patate douce, pois gourmand, chou chinois, brocolis, sauce tahin, poulet et cacahuète" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/27/6527baab231d9.jpeg> ;
+                    ns1:name "Bowl Phayao" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Butternut, carotte, navet,  chou blanc, céleri branche, semoule épicée, pois chiches grillés au paprika" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/27/6527ba8f90b6f.jpeg> ;
+                    ns1:name "Bowl Annaba" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nouilles ramen, bouillon de bœuf, chou pak choï, bœuf, omelette, cébette, betterave chioggia, champignon enoki, graines de sésame" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/26/6526c712bc8bb.jpeg> ;
+                    ns1:name "Bowl Yokohama" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mojo cubain : cabillaud, citron, ail, coriandre, persil, piment, huile d’olive, haricot rouge, riz" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/27/6527bacd5cba2.jpeg> ;
+                    ns1:name "Bowl Santa Clara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "BOWLS 🥗" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/da/63da9df956b52.jpeg> ;
+                    ns1:name "Soupe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain brioché, mimosa d'oeuf maison, ciboulette et cheddar" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/26/6526c9b778185.jpeg> ;
+                    ns1:name "Brioché Veggie" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain brioché, effiloché de poulet, mayonnaise au paprika, crudités" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/64/36/6436ca80cb013.jpeg> ;
+                    ns1:name "Brioché Poulet" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "LES P'TITS PLUS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Spaghetti, crème d’ail, herbes fraîches, huile d’olive, citron, parmesan, tomate confite" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/27/6527bcaa20934.jpeg> ;
+                    ns1:name "Salade Ravenne" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Patate douce rôtie au miel et coco, noix de Pécan, grenade, salade, vinaigrette miel et citron" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/27/6527bc879aefa.jpeg> ;
+                    ns1:name "Salade Mahina" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sarrasin, figue, jambon cru, noix et mesclun, vinaigrette à la framboise" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/27/6527bc690f598.jpeg> ;
+                    ns1:name "Salade Amman" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "SALADES 🥗" ] .
+

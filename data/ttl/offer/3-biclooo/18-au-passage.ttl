@@ -1,0 +1,85 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://biclooo.coopcycle.org/api/restaurants/18> ns1:hasMenu <https://biclooo.coopcycle.org/en/restaurant/18-au-passage#menu> .
+
+<https://biclooo.coopcycle.org/en/restaurant/18-au-passage#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Cookie chocolat/noisettes" ;
+                    ns1:name "Cookies" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Desserts sans formule" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Piadine au choix+boisson+verrine fromage blanc pommes et caramel" ;
+                    ns1:name "Formule Piadine + boisson + dessert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ] ;
+            ns1:name "Formule" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Mozza, jambon cru, noix caramel balsamique, verdure" ;
+                    ns1:name "Piadine Valentina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Piadine Francesca" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Piadine  Mozza, jambon cuit, cantal, champignon frais verdure" ;
+                    ns1:name "Piadine Gina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Feuillet de blé, tome fraîche d'Aubrac, pecorino, chèvre, miel, noix torréfiées et verdure." ;
+                    ns1:name "Piadine Bianca" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Feuillet de blé, tome fraîche d'Aubrac, pancetta, pesto, tomates séchées ou fraîches selon la saison, pignons torréfiés et verdure." ;
+                    ns1:name "Piadine Emilia" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozza, légumes grillés, persto de roquette, chèvre frais, amandes,verdure" ;
+                    ns1:name "Piadine Sofia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Piadine Greta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ] ;
+            ns1:name "Piadine sans formule" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Jus de fruits locaux et artisanaux : pommes, pommes/coings et raisins." ;
+                    ns1:name "Jus de la Maison Pouget à Pruines" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Stout" ;
+                    ns1:name "Bière de la brasserie d'Olt" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Limonades bios de la Brasserie d'Olt à St Geniez" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Eau minérale cristalline" ;
+                    ns1:name "Eau minérale plate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ] ;
+            ns1:name "Boissons sans formule" ] .
+

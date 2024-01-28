@@ -1,0 +1,37 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://feelavelo.coopcycle.org/api/restaurants/13> ns1:hasMenu <https://feelavelo.coopcycle.org/en/restaurant/13-dynamo-cantine-velo#menu> .
+
+<https://feelavelo.coopcycle.org/en/restaurant/13-dynamo-cantine-velo#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Brassée dans les Côtes d'Armor, son brasseur en dit : \"Avec un nez floral et légèrement grillé mais aussi discrètement houblonné (agrumes, végétal), notre rousse est souple. Une bière ronde et désaltérante avec des arômes floraux et légèrement grillées/caramélisées mais aussi de la fraîcheur houblonnée (agrumes, végétal).\"" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/60/6c/606cc150c209f.jpeg> ;
+                    ns1:name "Bière Philomenn Rousse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Brassée dans les Côtes d'Armor, le brasseur en dit "Son nez est floral et légèrement houblonné (agrumes) sur des notes discrètes de céréales."\r
+Alcool : 5,6%""" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/60/6c/606cc132d158b.jpeg> ;
+                    ns1:name "Bière Philomenn Blonde" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pécan chocolat blanc" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/60/6c/606cb996c0e11.jpeg> ;
+                    ns1:name "1 Cookie de la semaine" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jus de fruit bio poire, fruits jaunes ou ananas, limonade citron, Jus de Yuzu, Bionade citron bergamote, Cola Bio, Schorle pomme ou rhubarbe, précisez votre souhait dans votre commande!" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/60/6e/606ed2218cc41.jpeg> ;
+                    ns1:name "Boisson dynamique!" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Plats de la semaine!" ] .
+

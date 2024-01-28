@@ -1,0 +1,173 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lcr.coopcycle.org/api/restaurants/38> ns1:hasMenu <https://lcr.coopcycle.org/en/restaurant/38-juppiter-hamburger#menu> .
+
+<https://lcr.coopcycle.org/en/restaurant/38-juppiter-hamburger#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "potato bun artisanal snacké / sauce \"J\" / laitue / tomate / oignons en rondelles / pickles maison / cheddar / patties de boeuf (VBF) smashés" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/0c/650c68e88b514.jpeg> ;
+                    ns1:name "#2" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Eggs",
+                        "Fish",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mâche / Crème balsamique à la truffe / Burrata / Tartuffade de champignons à la truffe / Cheddar / Patties de boeuf smashés / Mayonnaise maison aux herbes" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/91/6391c039ee2b9.jpeg> ;
+                    ns1:name "Jokker I" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "potato bun artisanal snacké / moutarde de Dijon & ketchup maison / oignons en dés / pickles maison / cheddar / patties de boeuf (VBF) smashés" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/00/65004f8ae5a45.jpeg> ;
+                    ns1:name "#1" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ] ;
+            ns1:name "SMASHBURGERS 🍔" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Blanche - 4,5% - 33cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/c9/63c9189c9a63e.jpeg> ;
+                    ns1:name "Souffle tropical" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ambrée - 5,5% - 33cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/c9/63c91823c1cad.jpeg> ;
+                    ns1:name "En pleine tempête" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "APA - 5% - 33cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/c9/63c9186508788.jpeg> ;
+                    ns1:name "Nouveau monde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "BIERES 🍺" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/77/6377b1c9bcb1b.jpeg> ;
+                    ns1:name "May Tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/77/6377b50f2490b.jpeg> ;
+                    ns1:name "Limonade Artisanale Citron 🍋" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/77/6377b4d46abfa.jpeg> ;
+                    ns1:name "Limonade Artisanale Pink Agrumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sodas artisanaux bio SCHORLE 33cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/77/6377b36cb2a63.jpeg> ;
+                    ns1:name "L'Orange Affriolante 🍊" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/77/6377b7aad718e.jpeg> ;
+                    ns1:name "Limonade Artisanale Originale 🫧" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/77/6377b563219c2.jpeg> ;
+                    ns1:name "Plancoët" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sodas artisanaux bio SCHORLE 33cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/77/6377b2cb83442.jpeg> ;
+                    ns1:name "La Pomme Tonique 🍏" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/77/6377b16f05c45.jpeg> ;
+                    ns1:name "Breizh Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "BOISSONS FRAÎCHES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Chocolat blanc - Noix - Myrtilles" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/54/6554d9009b880.jpeg> ;
+                    ns1:name "Blondie Maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chocolat Noisettes" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/00/65004db823de4.jpeg> ;
+                    ns1:name "COOKIE ARTISANAL - Choco Noisettes" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tout Chocolat - Noisettes" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/00/65004ddac0bd4.jpeg> ;
+                    ns1:name "COOKIE ARTISANAL - Tout Chocolat Noisettes" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/0e/650ec8aa84fb9.jpeg> ;
+                    ns1:name "BROWNIE MAISON" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "DESSERTS 🍪" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/77/6377b72b01a25.jpeg> ;
+                    ns1:name "Frites CHEDDAR / BACON GRILLÉ / OIGNONS FRITS" ;
+                    ns1:nutrition "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/77/6377b645b0b98.jpeg> ;
+                    ns1:name "Frites CLASSIQUES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/77/6377b6fc63b24.jpeg> ;
+                    ns1:name "Frites SAUCE CHEDDAR / PIMENT / OIGNONS FRITS" ;
+                    ns1:nutrition "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "FRITES MAISON 🍟" ] .
+

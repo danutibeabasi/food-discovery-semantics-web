@@ -1,0 +1,74 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://demo.coopcycle.org/api/restaurants/46> ns1:hasMenu <https://demo.coopcycle.org/en/restaurant/46-la-boule-rebelle#menu> .
+
+<https://demo.coopcycle.org/en/restaurant/46-la-boule-rebelle#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Escargots aux oignons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.73" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tomates fraîches au naturel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.37" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "This is a good Chicken" ;
+                    ns1:name "Chicken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€40.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tomates fraîches à l'huile d'olive" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.38" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Courgettes en sauce" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.24" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Gâteau à la rhubarbe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.82" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jambon cru à l'huile d'olive" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.44" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crudités à l'huile d'olive" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.66" ] ] ;
+            ns1:name "entrées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Lapin rôti·e·s aux herbes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.19" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "rica milanesa napolitana" ;
+                    ns1:name "Milanesa Napolitana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€121.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jambon cru à l'huile d'olive" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.45" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Flan aux fruits confits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.65" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Poulet rôti·e·s en sauce" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.04" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Flan à la rhubarbe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.24" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Gâteau au café" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.79" ] ] ;
+            ns1:name "plats" ] .
+

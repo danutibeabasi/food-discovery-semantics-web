@@ -1,0 +1,52 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://coursiers-stephanois.coopcycle.org/api/restaurants/58> a ns1:Restaurant ;
+    ns1:address <https://coursiers-stephanois.coopcycle.org/api/addresses/10629> ;
+    ns1:bannerImage "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_banner/65/98/65983a0e3b8c2.jpg" ;
+    ns1:description """Little garden est un petit restaurant dans le centre ville de Saint-Étienne situé au 2, rue Dormoy. Un véritable jardin culinaire où vous trouverez toutes les saveurs de mon enfance.\r
+Cuisine Asiatique ne rime pas toujours avec Glutamate ! Parce que de bons produits frais suffisent ! Je vous propose un nouveau menu tous les mois à base de produits frais issus des producteurs locaux.\r
+Je vous invite à entrer dans mon jardin pour vivre une expérience culinaire mais également éveiller vos sens comme lors d’un voyage dans mon pays natal. J’aimerais que chaque petit plat vous fasse visiter Sai Gon, ou le petit restaurant de la première rencontre avec mon mari, le rivière de parfum où l’on mange le meilleur Bun Bo Hue du monde …   \r
+Bref, laissez-moi vous raconter mon pays avec ma cuisine !\r
+Merci et bienvenue dans mon jardin culinaire !""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.544208e+01 ;
+            ns1:longitude 4.385299e+00 ] ;
+    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560ca66a71bd.jpg> ;
+    ns1:name "Little garden restaurant" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:30" ;
+            ns1:dayOfWeek "Saturday",
+                "Thursday" ;
+            ns1:opens "17:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "16:00" ;
+            ns1:dayOfWeek "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "09:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:30" ;
+            ns1:dayOfWeek "Friday" ;
+            ns1:opens "09:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "13.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.50" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://coursiers-stephanois.coopcycle.org/en/restaurant/58-little-garden-restaurant" ] ] ;
+    ns1:sameAs <https://coursiers-stephanois.coopcycle.org/en/restaurant/58-little-garden-restaurant> ;
+    ns1:url <https://coursiers-stephanois.coopcycle.org/en/restaurant/58-little-garden-restaurant> .
+
+<https://coursiers-stephanois.coopcycle.org/api/addresses/10629> a ns1:PostalAddress ;
+    ns1:name "Little garden restaurant" ;
+    ns1:streetAddress "2 Rue Dormoy, Saint-Étienne, France" ;
+    ns1:telephone "+33487669053" .
+

@@ -1,0 +1,233 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://kooglof.coopcycle.org/api/restaurants/17> ns1:hasMenu <https://kooglof.coopcycle.org/en/restaurant/17-le-petit-faubourg#menu> .
+
+<https://kooglof.coopcycle.org/en/restaurant/17-le-petit-faubourg#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "La choucroute aux 5 viandes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Escalope de veau, tomme et jambon blanc" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/76/63765f4302136.jpeg> ;
+                    ns1:name "Le Cordon Bleu de Veau (+accompagnement)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Poêlée de spaetzle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bavette de boeuf, câpres fines, oignons rouges, relevé au piment d'Espelette AOP" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/76/6376614d7350c.jpeg> ;
+                    ns1:name "Tartare de boeuf au couteau" ;
+                    ns1:nutrition "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Escalope de veau, munster AOP et jambon blanc" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/76/63765f498b955.jpeg> ;
+                    ns1:name "Le Cordon Bleu de Veau au Munster (+accompagnement)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/76/63765c4cf1415.jpeg> ;
+                    ns1:name "Filet de sandre sur choucroute" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.00" ] ] ;
+            ns1:name "Plats Fait Maison 🍲" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/76/6376147467582.jpeg> ;
+                    ns1:name "Le Burger de Schnitzel (+accompagnement)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette de légumineuses, emmental, crudités, oignons confits, ketchup, sauce miel-moutarde" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/5f/b5/5fb5562592a78.jpg> ;
+                    ns1:name "Le Burger Végé (+accompagnement)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Effiloché de boeuf, emmental français, crudités, oignons confits, ketchup, sauce miel-moutarde" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/5f/b5/5fb555fa01cfe.jpg> ;
+                    ns1:name "Le Burger du Faubourg (+accompagnement)" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ] ;
+            ns1:name "Burgers Fait Maison 🍔🍟" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Comté AOP, jambon et salade mêlée" ;
+                    ns1:name "Croque à la truffe noire" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Terrine maison au piment d’Espelette AOP" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/76/63765f7263465.jpeg> ;
+                    ns1:name "Potage du jour" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/76/63765e54339a4.jpeg> ;
+                    ns1:name "Foie gras de canard au torchon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Salade de lentille verte et oeuf mollet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mariné à l’aneth et baies roses, servi avec du fromage frais à la ciboulette" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/76/63765e918a5cb.jpeg> ;
+                    ns1:name "Gravelax de truite saumonée et gremolata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "Entrées 🥗" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Des bulles fines et délicates fraiches, florales et toujours prête pour\r
+la fête !""" ;
+                    ns1:name "Domaine Herr - Crémant d’Alsace 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Arômes floraux (fleurs d’acacias et aubépine) et de brioche chaude." ;
+                    ns1:name "Domaine Deutz - Champagne - Brut Classic 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€65.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gros coup de cœur de la patronne !!!" ;
+                    ns1:name "Domaine Kumpf & Meyer - Crémant d’Alsace - Extra Brut 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€44.00" ] ] ;
+            ns1:name "Bulles 🥂" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/76/63765e74e4377.jpeg> ;
+                    ns1:name "Fondant au chocolat." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/76/63765ec8498ab.jpeg> ;
+                    ns1:name "La crème brulée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Le Kougelhopf façon pain perdu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Selon les livraisons de la ferme Riedinger, et l’humeur du chef" ;
+                    ns1:name "La tarte du jour" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crumble de chocolat à la fleur de sel." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/78/63789ca7ae521.jpeg> ;
+                    ns1:name "La mousse au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "La pavlova" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "Desserts 🍰" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Coca-Cola (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Carole Verte 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Schweppes Premium Pink Pepper 20cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Coca-Cola Zéro (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Carola Bleue 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "(Pomme, Orange, Ananas, Tomate Bio, Nectar d’Abricot)" ;
+                    ns1:name "Jus de Fruit SAUTTER 25cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "RedBull (25cl)." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Perrier 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Orangina 25cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Schweppes Tonic, Agrumes 25cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lisbeth Tea 25cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Softs 🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Perles des vignes  7,5% (33cl)." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Desperados 5,9%  (33cl)." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Pietra blonde bio 5,5% (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Perle des iles 7% (33cl)." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Bières 🍺" ] .
+

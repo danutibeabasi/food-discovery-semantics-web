@@ -1,0 +1,196 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://robinfood.coopcycle.org/api/restaurants/31> ns1:hasMenu <https://robinfood.coopcycle.org/en/restaurant/31-reburger#menu> .
+
+<https://robinfood.coopcycle.org/en/restaurant/31-reburger#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/65/72/657248f046f06.jpeg> ;
+                    ns1:name "Patatine fritte con Zaatar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/65/72/657248d07fb85.jpeg> ;
+                    ns1:name "Patate dolci fritte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/65/72/65724911245e2.jpeg> ;
+                    ns1:name "Patatine fritte cajun" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/65/72/657248ae0c7a8.jpeg> ;
+                    ns1:name "Patatine fritte con rosmarino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/65/72/6572488184a5f.jpeg> ;
+                    ns1:name "Patatine fritte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Fritti" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Vino rosè 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Vino bianco 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Vino rosso 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Prosecco 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ] ;
+            ns1:name "Vini" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "San Sebastian cheesecake fatto in casa con salsa al cioccolato" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/65/72/6572494027894.jpeg> ;
+                    ns1:name "San Sebastian Cheesecake" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brownie fatto in casa con panna montata e salsa al cioccolato" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/65/72/657249dc84b43.jpeg> ;
+                    ns1:name "Sundae Brownie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ] ;
+            ns1:name "Dolci" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Vol. 5%" ;
+                    ns1:name "Heineken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Birra artigianale 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vol. 4,3%" ;
+                    ns1:name "Moretti filtrata a freddo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Birre" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Scegli tra gli ingredienti e crea la bowl perfetta per te!" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/65/72/65724789d1889.jpeg> ;
+                    ns1:name "Componi la tua bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ] ;
+            ns1:name "Crea la tua insalata" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/65/72/657247fef3a1f.jpeg> ;
+                    ns1:name "Onion rings" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/65/72/657247c338f4a.jpeg> ;
+                    ns1:name "Hummus e veggies" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/65/72/657247e32687e.jpeg> ;
+                    ns1:name "Guacamole con tortillas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Con salsa 1000 island" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/65/72/6572481dda6e8.jpeg> ;
+                    ns1:name "Mozzarella bombs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "Antipasti" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Scegli tra gli ingredienti e crea il burger perfetto per te!" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/65/72/65724760b0ce2.jpeg> ;
+                    ns1:name "Componi il tuo burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "Crea il tuo burger" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/65/72/657246e29c4b8.jpeg> ;
+                    ns1:name "Chili chicken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Esclusivo burger vegano di ceci fatto in casa, condito con cipolle caramellate, pomodori, rucola fresca e salsa di senape al miele" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/65/72/6572470addf04.jpeg> ;
+                    ns1:name "White evergreen burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Esclusivo burger vegano di barbabietola fatto in casa, condito con cipolle caramellate, pomodori, rucola fresca e salsa di senape al miele" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/65/72/65724733bb6bf.jpeg> ;
+                    ns1:name "Red evergreen burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Burger di manzo smashed condito con formaggio cheddar, cipolla fresca, cetrioli sottaceto e la nostra salsa cocktail." ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/65/72/65724649427e1.jpeg> ;
+                    ns1:name "Smashed cheese burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Burger di manzo grigliato, formaggio brie fuso, rucola fresca, crema di funghi fatta in casa e salsa di maionese al tartufo" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/65/72/65724695690f0.jpeg> ;
+                    ns1:name "Swiss Truff" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Burger di manzo grigliato condito con cipolle grigliate, jalapeños, blue cheese e pomodoro fresco con salsa cubana piccante" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/65/72/6572466f3d248.jpeg> ;
+                    ns1:name "Cuban burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petto di pollo alla griglia marinato condito con lattuga fresca, fetta di pomodoro fresco, cetrioli sottaceto e la nostra salsa 1000Island" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/65/72/657246b70aa35.jpeg> ;
+                    ns1:name "Mighty chicken burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ] ;
+            ns1:name "Burger" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Fanta 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca Cola Zero 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Acqua naturale 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ginger beer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sprite 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Acqua frizzante 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca Cola 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Bevande analcoliche" ] .
+

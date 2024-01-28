@@ -1,0 +1,18 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://envici.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "mx" ;
+                    ns1:addressLocality "Puebla" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 1.904368e+01 ;
+                    ns1:longitude -9.819904e+01 ] ] ;
+    ns1:name "Envici" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:sameAs <https://www.facebook.com/envicientregasymensajeria> ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://envici.coopcycle.org> .
+

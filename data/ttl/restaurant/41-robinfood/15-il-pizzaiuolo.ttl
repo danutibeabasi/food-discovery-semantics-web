@@ -1,0 +1,42 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://robinfood.coopcycle.org/api/restaurants/15> a ns1:Restaurant ;
+    ns1:address <https://robinfood.coopcycle.org/api/addresses/786> ;
+    ns1:description "_**Muzzarella, pommarola,core e fatica so’ è Napule**_" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.377113e+01 ;
+            ns1:longitude 1.126623e+01 ] ;
+    ns1:image <https://robinfood.coopcycle.org/media/cache/restaurant_thumbnail/61/e0/61e0a2a66208c.jpeg> ;
+    ns1:name "Il Pizzaiuolo" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "19:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "12:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "it" ;
+                    ns1:urlTemplate "https://robinfood.coopcycle.org/en/restaurant/15-il-pizzaiuolo" ] ] ;
+    ns1:sameAs <https://robinfood.coopcycle.org/en/restaurant/15-il-pizzaiuolo> ;
+    ns1:url <https://robinfood.coopcycle.org/en/restaurant/15-il-pizzaiuolo> .
+
+<https://robinfood.coopcycle.org/api/addresses/786> a ns1:PostalAddress ;
+    ns1:name "Il Pizzaiuolo" ;
+    ns1:streetAddress "Via dei Macci 113 R, 50121 Firenze, Italia" ;
+    ns1:telephone "+39055241171" .
+

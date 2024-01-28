@@ -1,0 +1,183 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiersmontpellier.coopcycle.org/api/restaurants/31> ns1:hasMenu <https://coursiersmontpellier.coopcycle.org/en/restaurant/31-a-la-braise-grillades-au-feu-de-bois#menu> .
+
+<https://coursiersmontpellier.coopcycle.org/en/restaurant/31-a-la-braise-grillades-au-feu-de-bois#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5e/34/5e34abd85454d.PNG> ;
+                    ns1:name "Coca Cola Cherry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Schweppes agrumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5e/34/5e34b05925042.PNG> ;
+                    ns1:name "Fanta orange" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5e/34/5e34b2b7c4bc3.PNG> ;
+                    ns1:name "Sprite" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5e/34/5e34b0c508935.PNG> ;
+                    ns1:name "Ice Tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5e/34/5e34b2fa73f8d.PNG> ;
+                    ns1:name "Tropico" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5e/34/5e34ad26a999b.PNG> ;
+                    ns1:name "Fanta citron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Liptonic" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Selecto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5e/34/5e34b0ea6f483.PNG> ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5e/34/5e34b126cd138.PNG> ;
+                    ns1:name "Perrier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5e/34/5e34ab7ea4ed5.PNG> ;
+                    ns1:name "Coca Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5e/34/5e34ac11c7825.PNG> ;
+                    ns1:name "Coca Cola Zéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "🥤Boissons🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Je ne souhaite pas de couvert jetable" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Je ne souhaite pas de serviette jetable" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ] ;
+            ns1:name "🍴Couvert et serviette🍴" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Écrasé de patates douces" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Riz safrané" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Légumes grillées" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Frites maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "🍟Les accompagnement🍟" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Tiramisu Nutella Spéculoos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fruit rouge ou caramel" ;
+                    ns1:name "Panna cotta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Coulant Caramel" ;
+                    ns1:name "Coulant Caramel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crème brûlée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "🍰Dessert🍰" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Sauce poivre vert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Forestière" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Roquefort" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sauce verte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ] ;
+            ns1:name "🌶️Les sauces maison🌶️" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Servi avec accompagnement au choix." ;
+                    ns1:name "Entrecôte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain burger, Salade, Tomates, oignon, cornichon emmental, sauce biggy" ;
+                    ns1:name "Le Braise Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi avec accompagnement au choix." ;
+                    ns1:name "Brochettes de poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 kg mini pour 2 personnes, accompagnement au choix" ;
+                    ns1:name "Côte de bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€43.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi avec accompagnement au choix." ;
+                    ns1:name "Brochettes de kefta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "400 gr accompagnement au choix" ;
+                    ns1:name "Maxi steak haché" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi avec accompagnement au choix." ;
+                    ns1:name "1/2 poulet braisé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi avec accompagnement au choix." ;
+                    ns1:name "Brochettes de bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "bœuf, poulet, kefta, merguez, chorizo" ;
+                    ns1:name "Mixed grille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ] ;
+            ns1:name "🥩Grillades au feu de bois🥩" ] .
+

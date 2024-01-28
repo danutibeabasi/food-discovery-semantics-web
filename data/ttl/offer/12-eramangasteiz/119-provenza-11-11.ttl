@@ -1,0 +1,136 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/119> ns1:hasMenu <https://eramangasteiz.coopcycle.org/en/restaurant/119-provenza-11-11#menu> .
+
+<https://eramangasteiz.coopcycle.org/en/restaurant/119-provenza-11-11#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Carne de ternera (200gr), queso de cabra, cebolla caramelizada, salsas de la casa." ;
+                    ns1:name "La Cabrona" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Carne de chuletón (200gr), queso cheddar, salsa Provenza, verduras frescas." ;
+                    ns1:name "Provenza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pechuga de pollo (200gr), queso mozzarella, bacon, ensalada americana, salsas de la casa, verduras frescas." ;
+                    ns1:name "La Pechugona" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Carne de ternera (200gr), queso cheddar, carne desmechada, bacon, salsa de la casa, verduras frescas." ;
+                    ns1:name "La Cachonda" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan Brioche, 200gm de carne de ternera, queso mozzarella, bacon, ensalada americana" ;
+                    ns1:name "La 69" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Carne de ternera (200gr), queso mozzarella, roquefort, Q. cabra, cebolla caramelizada, salsas de la casa, queso cheddar, verduras." ;
+                    ns1:name "En Cuatro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Carne de ternera (200gr), queso cheddar, bacon, huevo, salsas de la casa, verduras frescas." ;
+                    ns1:name "La Misionera" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan brioche, salchicha Frankfurt, queso mozarella, bacon, cebolla caramelizada, ensalada americana, patata paja y huevo de codorniz" ;
+                    ns1:name "Perro Provenza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Carne de ternera (200gr), queso mozzarella, nachos, guacamoles, pico de gallo, filadelfia, salsas de la casa, verduras frescas." ;
+                    ns1:name "La Chingona" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Carne de ternera (200gr), queso mozarella, costilla deshuesada, bacon, aros de cebolla, salsas de la casa, verduras frescas." ;
+                    ns1:name "La Corrida" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ] ;
+            ns1:name "Hamburguesas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Calamares a la Romana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 unidades" ;
+                    ns1:name "Minitacos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Patatas Bravas de Alioli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Carne picada, queso chedar, guacamole, pico de gallo y Jalapeños" ;
+                    ns1:name "Nachos media ración" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tacos Provenza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Carnes picada con salsa de la casa, queso cheddar fundido , guacamole, pico de gallo, Jalapeños y sour cream" ;
+                    ns1:name "Nachos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Paleta de Jamón Ibérico" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 unidades" ;
+                    ns1:name "Croquetas de Jamón" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 unidades" ;
+                    ns1:name "Alitas BBQ" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 unidades" ;
+                    ns1:name "Fingers de Pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Raciones" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Huevos camperos sobre patatas fritas caseras" ;
+                    ns1:name "Plato" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Huevos camperos sobre patatas fritas caseras" ;
+                    ns1:name "Cazuelita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Huevos Camperos" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Ensalada Mixta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ensalada Cesar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ensalada de Ventresca" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ensalada con Rulo de Cabra" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "Ensaladas" ] .
+

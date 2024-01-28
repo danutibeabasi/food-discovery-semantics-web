@@ -1,0 +1,309 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lcr.coopcycle.org/api/restaurants/12> ns1:hasMenu <https://lcr.coopcycle.org/en/restaurant/12-restaurant-luca#menu> .
+
+<https://lcr.coopcycle.org/en/restaurant/12-restaurant-luca#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Vénétie" ;
+                    ns1:name "Amarone della Valpolicella - Musella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€76.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Piémont" ;
+                    ns1:name "Barolo Serralunga - Luigi Pira" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€72.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Toscane" ;
+                    ns1:name "Casino delle Vie - Il Palagio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€52.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Toscane" ;
+                    ns1:name "Chianti Colli Fiorentini - Malenchini" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€32.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sicile" ;
+                    ns1:name "Nero d'Avola - Musita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Piémont (0,75cl)" ;
+                    ns1:name "Docetto d'Alba - Luigi Pira" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€33.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Abruzzes" ;
+                    ns1:name "Montepulciano d'Abruzzo - Villa Medoro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sicile" ;
+                    ns1:name "Etna Rosso Ciauria - Pietro Caciorgna" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€41.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Toscane" ;
+                    ns1:name "Paleo Rosso - Le macchiole" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€140.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vénétie" ;
+                    ns1:name "Valpolicella Superiore - Musella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€37.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Toscane" ;
+                    ns1:name "Brunello di Montalcino - Il Marroneto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€135.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Abruzzes" ;
+                    ns1:name "Montepulciano Amaranta - Tenuta Ulisse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€39.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Toscane" ;
+                    ns1:name "Chianti Classico - Querciabella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€44.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pouilles" ;
+                    ns1:name "La Voliera Primitivo - Tenute Girolamo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€27.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Toscane" ;
+                    ns1:name "Tignanello - Antinori" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€175.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Toscane" ;
+                    ns1:name "CiFra - Duemani" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€64.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Toscane" ;
+                    ns1:name "Amaranto - Podere San Cristoforo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€38.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Piémont" ;
+                    ns1:name "Langhe Nebbiolo - Cascina Corte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€54.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ombrie - Rossi" ;
+                    ns1:name "Villa Barbi - Decugnano dei Barbi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€30.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Piémont" ;
+                    ns1:name "Lessona - Tenute Sella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€52.00" ] ] ;
+            ns1:name "VINI ROSSI" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Ricotta de brebis, fruits confis, pépites de chocolat et pistaches, avec son biscuit" ;
+                    ns1:name "Cannolo siciliano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tiramisu traditionnel" ;
+                    ns1:name "Tiramisù" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Panna cotta aux fruits rouges, au caramel ou nature" ;
+                    ns1:name "Panna Cotta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Baba au limoncello napolitain" ;
+                    ns1:name "Baba napoletano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "DOLCI" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Trentin" ;
+                    ns1:name "Giulio Ferrari Riserva - Ferrari" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€144.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vénétie" ;
+                    ns1:name "Prosecco Cru Cartizze dry - Bisol" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€52.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Trentin" ;
+                    ns1:name "Ferrari Riserva Lunelli - Ferrari" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€90.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vénétie" ;
+                    ns1:name "Prosecco brut - Frassinelli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€30.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vénétie" ;
+                    ns1:name "Moscato Giallo Fior d'Arancio - Maeli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€40.00" ] ] ;
+            ns1:name "VINI FRIZZANTI" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Gambas au brandy, servi avec pommes de terre" ;
+                    ns1:name "Gamberoni al brandy" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€27.00" ] ] ;
+            ns1:name "SECONDI PIATTI" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pouilles" ;
+                    ns1:name "La Voliera Rosato - Tenute Girolamo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ] ;
+            ns1:name "VINI ROSATI" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Assortiment de légumes grillés et à l'huile" ;
+                    ns1:name "Piatto di verdure grigliate e sott'oglio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Assortiments de fromages italiens du moment, pecorino pepato, taleggio, gorgonzola, Parmigiano..." ;
+                    ns1:name "Formaggi misti italiani" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jambon San Daniele AOP affiné" ;
+                    ns1:name "Piatto di San Daniele AOP" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Assortiment de charcuteries italiennes du moment: jambon de parme, mortadella, salami milano, Coppa, sapressata calabrese..." ;
+                    ns1:name "Salumi misti italiani" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ] ;
+            ns1:name "PRODOTTI TIPICI ITALIANI" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Sicile" ;
+                    ns1:name "Musita Passito - Musita (50 cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€48.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Appenins" ;
+                    ns1:name "Artemissia pecorino - Tenuta spinelli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vénétie" ;
+                    ns1:name "Soave Classico - Pieropan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€36.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sicile" ;
+                    ns1:name "Musita Grillo - Musita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "La Voliera Fiano - Tenuta Girolamo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sardaigne" ;
+                    ns1:name "Samas - Agripunica Sassicaia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€39.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vénétie" ;
+                    ns1:name "Pinot Griggio - Frassinelli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€27.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Toscane" ;
+                    ns1:name "Luminoso - Podere San Cristoforo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€38.00" ] ] ;
+            ns1:name "VINI BIANCHI" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Ravioles pâtes fraiches, au beurre, sauge et parmesan" ;
+                    ns1:name "Agnolotti Burro, salvia e parmigiano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ravioles pâtes fraiches, au gorgonzola au mascarpone et noix" ;
+                    ns1:name "Agnolotti Gorgonzola al mascarpone e noci" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Calamarata aux asperges, gambas et tomates cerises" ;
+                    ns1:name "Calamarata asparagi e gamberi al pomodoro pachino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Covatelli, saucisses de porc cuisinées à la tomate" ;
+                    ns1:name "Covatelli alla calabrese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâtes fraîches pappardelles aux cèpes" ;
+                    ns1:name "Pappardelle ai funghi porcini" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Spaghetti alle vongole" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Casarecce aux aubergines, tomates et ricotta affinée" ;
+                    ns1:name "Casarecce alla norma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâtes fraiches Lasagnes traditionnelles" ;
+                    ns1:name "Lasagna tradizionale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ] ;
+            ns1:name "LA PASTA" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella de buffonne AOP, tomates, basilic et huile d'olive" ;
+                    ns1:name "Mozzarella di bufala campana AOP, pomodori, basilico" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Assortiment de nos entrées" ;
+                    ns1:name "Antipasto della casa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Seiches en sauce à l'italienne" ;
+                    ns1:name "Seppie alla diavola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Burrata des Pouilles au cœur crémeux, jambon de parme" ;
+                    ns1:name "Burrata pugliese IGP con prosciutto di parma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Spécialité italienne de carpaccio de veau à la sauce au thon" ;
+                    ns1:name "Vitello tonnato" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Insalata di polipo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "ANTIPASTI" ] .
+

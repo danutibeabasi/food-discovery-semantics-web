@@ -1,0 +1,37 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://coursiersmontpellier.coopcycle.org/api/restaurants/67> a ns1:Restaurant ;
+    ns1:address <https://coursiersmontpellier.coopcycle.org/api/addresses/5901> ;
+    ns1:bannerImage "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_banner/65/6e/656e157b43687.png" ;
+    ns1:description """Ici c’est vous le chef, composez vos plats et boissons avec des produits locaux, de saison ou bio🥗🌯☕️🥤\r
+Ça fait du bien aux papilles et à la planète 🍃 \r
+Peut convenir à tout type de régime alimentaire: végétarien, végan, sans gluten, sans lactose, flexitarien, etc. \r
+Il y en a pour tous les goût  et pour toutes les heures: petit déjeuner, déjeuner, goûter et même diner si vous vous y prenez assez tôt ⏰""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.360827e+01 ;
+            ns1:longitude 3.871756e+00 ] ;
+    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_thumbnail/64/55/64552d3e90f25.png> ;
+    ns1:name "Le bon sens 🥗" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:40" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://coursiersmontpellier.coopcycle.org/en/restaurant/67-le-bon-sens" ] ] ;
+    ns1:sameAs <https://coursiersmontpellier.coopcycle.org/en/restaurant/67-le-bon-sens> ;
+    ns1:url <https://coursiersmontpellier.coopcycle.org/en/restaurant/67-le-bon-sens> .
+
+<https://coursiersmontpellier.coopcycle.org/api/addresses/5901> a ns1:PostalAddress ;
+    ns1:name "Le bon sens 🥗" ;
+    ns1:streetAddress "15 Rue du Faubourg du Courreau, 34000 Montpellier, France" ;
+    ns1:telephone "+33467121980" .
+

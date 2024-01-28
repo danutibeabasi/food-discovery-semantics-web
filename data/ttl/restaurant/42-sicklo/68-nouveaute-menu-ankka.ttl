@@ -1,0 +1,51 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://sicklo.coopcycle.org/api/restaurants/68> a ns1:Restaurant ;
+    ns1:address <https://sicklo.coopcycle.org/api/addresses/24276> ;
+    ns1:bannerImage "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/6d/656dc2038f73e.png" ;
+    ns1:description """Notre philosophie, manger vite mais manger sain ou l’art de prendre le temps d’aller vite.\r
+Ankka est une petite ville au centre de la Finlande, en harmonie avec la nature, où il fait bon vivre\r
+\r
+Du sur-mesure dans votre assiette : 1 base + des ingrédients + une sauce\r
+\r
+Notre offre se décline en repas chauds (pâtes, wraps, soupe) ou froids (salade, sandwich…).\r
+\r
+Soucieux du « bien manger » nous prônons la fraicheur et l’authenticité par la mise en avant de nos ingrédients préparés devant vous !""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.519155e+01 ;
+            ns1:longitude 5.72767e+00 ] ;
+    ns1:image <https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/61/a8/61a8ea29dd137.jpg> ;
+    ns1:name "Nouveauté (menu) ! ANKKA 🥗" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:40" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:50" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:45" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://sicklo.coopcycle.org/en/restaurant/68-nouveaute-menu-ankka" ] ] ;
+    ns1:sameAs <https://sicklo.coopcycle.org/en/restaurant/68-nouveaute-menu-ankka> ;
+    ns1:url <https://sicklo.coopcycle.org/en/restaurant/68-nouveaute-menu-ankka> .
+
+<https://sicklo.coopcycle.org/api/addresses/24276> a ns1:PostalAddress ;
+    ns1:name "Nouveauté (menu) ! ANKKA 🥗" ;
+    ns1:streetAddress "4 Place Grenette, Grenoble, France" ;
+    ns1:telephone "+33650136641" .
+

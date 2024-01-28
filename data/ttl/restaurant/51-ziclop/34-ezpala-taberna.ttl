@@ -1,0 +1,31 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ziclop.coopcycle.org/api/restaurants/34> a ns1:Restaurant ;
+    ns1:address <https://ziclop.coopcycle.org/api/addresses/11014> ;
+    ns1:description "Hamburguesas, bocadillos, paninis y brochetas." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.280651e+01 ;
+            ns1:longitude -1.647545e+00 ] ;
+    ns1:image <https://ziclop.coopcycle.org/media/cache/restaurant_thumbnail/65/3f/653fe22b7c038.jpeg> ;
+    ns1:name "Ezpala Taberna" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday" ;
+            ns1:opens "20:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "es" ;
+                    ns1:urlTemplate "https://ziclop.coopcycle.org/en/restaurant/34-ezpala-taberna" ] ] ;
+    ns1:sameAs <https://ziclop.coopcycle.org/en/restaurant/34-ezpala-taberna> ;
+    ns1:url <https://ziclop.coopcycle.org/en/restaurant/34-ezpala-taberna> .
+
+<https://ziclop.coopcycle.org/api/addresses/11014> a ns1:PostalAddress ;
+    ns1:name "Ezpala Taberna" ;
+    ns1:streetAddress "Calle San Juan Bosco, 1, Pamplona, España" ;
+    ns1:telephone "+34948359055" .
+

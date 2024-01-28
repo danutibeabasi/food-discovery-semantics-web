@@ -1,0 +1,18 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://hotlinecouriers.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "au" ;
+                    ns1:addressLocality "Sydney" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude -3.387359e+01 ;
+                    ns1:longitude 1.512067e+02 ] ] ;
+    ns1:name "Hotline Couriers" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:sameAs <https://www.instagram.com/hotlinecouriers/> ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://hotlinecouriers.coopcycle.org> .
+

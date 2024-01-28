@@ -1,0 +1,41 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://sicklo.coopcycle.org/api/restaurants/152> a ns1:Restaurant ;
+    ns1:address <https://sicklo.coopcycle.org/api/addresses/90952> ;
+    ns1:bannerImage "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/6d/656da76055fba.jpg" ;
+    ns1:description "Le concept novateur du gourmet se concentre sur l'idée de vous offrir des plats équivalents à ceux d'un chef, élaborés à partir d'ingrédients frais et locaux, méticuleusement préparés et présentés dans des bocaux lavables et recyclables, prêts à être emportés n'importe où. Cette expérience culinaire assure une variété de recettes équilibrées, garantissant une fusion de saveurs raffinées, tout en soutenant la durabilité grâce à l'utilisation de contenants respectueux de l'environnement." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.518912e+01 ;
+            ns1:longitude 5.720907e+00 ] ;
+    ns1:image <https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/65/49/654968c604fa2.jpg> ;
+    ns1:name "LE GOURMET 🌱" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:45" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "19:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday" ;
+            ns1:opens "18:45" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://sicklo.coopcycle.org/en/restaurant/152-le-gourmet" ] ] ;
+    ns1:sameAs <https://sicklo.coopcycle.org/en/restaurant/152-le-gourmet> ;
+    ns1:url <https://sicklo.coopcycle.org/en/restaurant/152-le-gourmet> .
+
+<https://sicklo.coopcycle.org/api/addresses/90952> a ns1:PostalAddress ;
+    ns1:name "LE GOURMET 🌱" ;
+    ns1:streetAddress "21 Avenue Alsace Lorraine, Grenoble, France" ;
+    ns1:telephone "+33438869000" .
+

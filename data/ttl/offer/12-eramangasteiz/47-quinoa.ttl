@@ -1,0 +1,215 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/47> ns1:hasMenu <https://eramangasteiz.coopcycle.org/en/restaurant/47-quinoa#menu> .
+
+<https://eramangasteiz.coopcycle.org/en/restaurant/47-quinoa#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Fanta Limón lata 330ml." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Agua (1 lt.)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Cerveza Cuzqueña rubia (330 ml.)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Agua (330 ml.)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Nestea (330 ml.)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Cerveza Cuzqueña negra (330 ml.)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ] ;
+            ns1:name "BEBIDAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Chicharrón de pollo en salsa agridulce y arroz chaufa" ;
+                    ns1:name "Pollo Tipakay" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chicharon de pollo bañados con salsa de soja y ostión y arroz chaufa" ;
+                    ns1:name "Pollo Chijaukay" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Trozos de carne de cordero cocidos a fuego lento en pastas de ajís aromatizado con cilantro y chicha de jora, acompañado de alubias y arroz" ;
+                    ns1:name "Seco de cordero" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 pollo entero al carbón + patatas + ensalada + 3 cremas" ;
+                    ns1:name "Pollo a la brasa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de ají amarillo con trozos de pollo, arroz blanco, patatas a vapor, huevo y aceituna morada" ;
+                    ns1:name "Ají De Gallina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Trozos de ternera salteados al wok en salsa oriental, patatas y arroz blanco" ;
+                    ns1:name "Lomo saltado al wok" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pasta en crema huancaína, queso parmesano y tierna carne de res al wok" ;
+                    ns1:name "Fetuccini a la huancaína con lomo saltado" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ] ;
+            ns1:name "NUESTRAS CARNES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "1 Pollo entero al carbón, patatas, ensalada y 3 palos de anticucho" ;
+                    ns1:name "Pollo A La Brasa Anticuchero" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€29.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1/4 de pollo a la brasa + patatas + porción de chaufa" ;
+                    ns1:name "Mostrito" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "1/4 Pollo a la brasa para peques" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1/4 de pollo broaster + patatas + porción de arroz chaufa" ;
+                    ns1:name "Super broaster" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1/4 de pollo al carbón + patatas + ensalada" ;
+                    ns1:name "1/4 Pollo a la brasa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "I pollo entero al carbón, patatas, ensalada y porción de arroz chaufa" ;
+                    ns1:name "Pollo A La Brasa Chifero" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€29.00" ] ] ;
+            ns1:name "A LA BRASA" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Arroz frito al wok con carne y pollo aderezada con sabores orientales, cebollín y tortilla de huevo" ;
+                    ns1:name "Arroz chaufa mixto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ] ;
+            ns1:name "TOP VENTAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Con rachi- callos al estilo peruano" ;
+                    ns1:name "Anticucho mixtos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "quinoa orgánica con tiras de pollo al grill" ;
+                    ns1:name "Ensalada  de la casa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Suave corazón de ternera al wok, con patatas rusticas y huancaína" ;
+                    ns1:name "Anticucho de corazón" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sabrosa salsa de ají amarillo envuelto con fideos y coronado con un sabroso lomo saltado" ;
+                    ns1:name "Tallarín a la huancaína con lomo saltado" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ] ;
+            ns1:name "TAPAS PERUANAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Masa de patata con toque de ají amarillo, zumo de limón y relleno de pollo" ;
+                    ns1:name "Causa Limeña" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "NUESTRAS CAUSAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Crema de rocoto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ] ;
+            ns1:name "DULCE FINAL" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Arroz cremoso con salsa madre marina, queso parmesano y mariscos de temporada" ;
+                    ns1:name "Arroz meloso de marisco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Trozos de pescado rebozados y fritos con yuca y salsa de la casa" ;
+                    ns1:name "Jalea de pescado" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mezcla de alubias y arroz coronado con una salsa especial de mariscos" ;
+                    ns1:name "Tacu tacu con salsa de mariscos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Arroz frito al wok con mariscos con sabores orientales, cebollino y tortilla de huevo" ;
+                    ns1:name "Chaufa De Mariscos cantones" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ] ;
+            ns1:name "PESCADOS Y MARISCOS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Sabrosa salsa especial de ceviche acompañado con trozos de pescado" ;
+                    ns1:name "Leche de tigre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pesca del día, marisco de temporada, crema de rocoto y leche de tigre" ;
+                    ns1:name "Ceviche mixto de rocoto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pesca del día , leche de tigre power, cancha, boniato y choclo" ;
+                    ns1:name "Ceviche clásico" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ] ;
+            ns1:name "FESTIVAL DE CEVICHES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Porción de cancha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Porción de arroz blanco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Porción de patatas fritas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Porción de chifle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Crema de ají amarillo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ] ;
+            ns1:name "EXTRAS" ] .
+

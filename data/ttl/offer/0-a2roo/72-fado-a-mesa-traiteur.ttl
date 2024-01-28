@@ -1,0 +1,114 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://a2roo.coopcycle.org/api/restaurants/72> ns1:hasMenu <https://a2roo.coopcycle.org/en/restaurant/72-fado-a-mesa-traiteur#menu> .
+
+<https://a2roo.coopcycle.org/en/restaurant/72-fado-a-mesa-traiteur#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Pâte feuilletée croustillante et crème aux jaunes d'oeufs\r
+Boîte de 6 unités""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/08/650821b34c63d.jpeg> ;
+                    ns1:name "Pasteis de nata" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "La touche sucrée indispensable... les fameux pasteis de nata !" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Riz au lait\r
+4  personnes""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/08/65081aec4a951.jpeg> ;
+                    ns1:name "Arroz doce, version famille" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Roulé à l'orange, pour 8 personnes" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/08/65081d85d2d01.jpeg> ;
+                    ns1:name "Torta de laranja" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ] ;
+            ns1:name "A partager sans modération... nos desserts familiaux !" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salade de pois chiches & morue 200 grs" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/08/65081be14b3a3.jpeg> ;
+                    ns1:name "Grao de bico" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 pains à la purée de patate douce & persillade" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/08/650820c4db06f.jpeg> ;
+                    ns1:name "Bolo de caco" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chaussons à la viande, par 6" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/08/65082281ce34f.jpeg> ;
+                    ns1:name "Rissois de carne" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Assortiment de 4 variétés de charcuterie espagnoles et/ou portugaises, pour 2 personnes" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/08/6508255a58548.jpeg> ;
+                    ns1:name "Planche ibérique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade de cornilles & thon, portion de 200g" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/08/65081b5cbb8e9.jpeg> ;
+                    ns1:name "Feijao Frade" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tartelettes à la morue, par 6" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/08/650821389be11.jpeg> ;
+                    ns1:name "Pasteis de bacalhau" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain au chorizo, par 6" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/08/65081c1d27799.jpeg> ;
+                    ns1:name "Pao com chouriço" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saucisse flambée et découpée, prête à être dégustée" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/08/65082417bafbe.jpeg> ;
+                    ns1:name "Chouriça assada" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "Composez votre apéro box !" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Vin très vif, frais avec beaucoup d'aromatique. \r
+Minéral et végétal, légèrement perlant.""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/08/650829da98d51.jpeg> ;
+                    ns1:name "VINHO VERDE › Pequenos Rebentos 2022 › région du Minho" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """VIN ROUGE NATURE \r
+Notes poivrées, de fruits des bois. Léger et très rafraichissant""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/65/08/65082b318ba46.jpeg> ;
+                    ns1:name "Rouge › LERO-LERO 2020 › Région du DAO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ] ;
+            ns1:name "Notre cave" ] .
+

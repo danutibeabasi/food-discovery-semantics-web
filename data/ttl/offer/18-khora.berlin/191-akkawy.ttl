@@ -1,0 +1,285 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://khora.berlin/en/restaurant/191-akkawy> ns1:hasMenu <https://khora.berlin/en/restaurant/191-akkawy#menu> .
+
+<https://khora.berlin/en/restaurant/191-akkawy#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Traditional hand mashed warm hummus.\r
+Served with a pita bread and pickles. 
+\r
+Traditionell handgestampfter, warmer Hummus.\r
+Serviert mit Pita Brot und eingelegtem Gemüse.""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/f0/61f07c6d85eb1.jpeg> ;
+                    ns1:name "Msabaha" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Topped with fava beans. \r
+Served with a pita bread and pickles. 
+\r
+Mit Saubohnen.\r
+Serviert mit Pita Brot und eingelegtem Gemüse.""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/f0/61f0787563e0b.jpeg> ;
+                    ns1:name "Hummus Foul" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Baked cauliflower, tahini, Indian herbs.\r
+Served with a pita bread and pickles. 
+\r
+Gebackener Blumenkohl mit Tahini und indischen Kräutern\r
+Serviert mit Pita Brot und eingelegtem Gemüse.""" ;
+                    ns1:name "Zahara" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Served with a pita bread and pickles. 
+\r
+Serviert mit Pita Brot und eingelegtem Gemüse.""" ;
+                    ns1:name "Shakshuka, 2 Bio Eggs, Tahini" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """With jackfruit and shawarma spices.\r
+Served with pita bread and pickles. \r
+Serviert mit pita Brot und eingelegtem Gemüse.""" ;
+                    ns1:name "Hummus Shavvama" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Topped with fresh beetroot salad\r
+Served with a pita bread and pickles. 
+\r
+Mit frischem Rote Beete Salad. \r
+Serviert mit Pita Brot und eingelegtem Gemüse.""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/f0/61f0794d8321d.jpeg> ;
+                    ns1:name "Hummus Beetroot" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Topped with shakshuka (spicey) \r
+Served with a pita bread and pickles. 
+\r
+Mit Shakshuka (scharf). \r
+Serviert mit Pita Brot und eingelegtem Gemüse.""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/f0/61f07bbb6abda.jpeg> ;
+                    ns1:name "Hummus Shakshuka" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """with tahini and chickpeas. \r
+Served with pita bread and pickles. 
+\r
+Mit Tahini und Kichererbsen \r
+Serviert mit Pita Brot und eingelegtem Gemüse.""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/f0/61f076aed2012.jpeg> ;
+                    ns1:name "Hummus Classic" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Topped with mushrooms cooked with tamarind and Indian spices \r
+Served with a pita bread and pickles. 
+\r
+Mit Pilzen, eingekocht mit Tamarind und indischen Gewürzen.\r
+Serviert mit Pita Brot und eingelegtem Gemüse.""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/f0/61f07a7544df9.jpeg> ;
+                    ns1:name "Hummus Shrooms" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Topped with eggplant cooked with Indian spices.\r
+Served with a pita bread and pickles. 
+\r
+Mit Aubergine, eingekocht mit indischen Gewürzen. \r
+Serviert mit Pita Brot und eingelegtem Gemüse.""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/f0/61f07b25dce1d.jpeg> ;
+                    ns1:name "Hummus Eggplant" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/f0/61f07d6402c0a.jpeg> ;
+                    ns1:name "Foul" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "HUMMUS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Tanzäpfle Alcohol Free" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "BIER" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Lentil soup served with bread. 
+\r
+Linsensuppe, serviert mit Pita Brot.""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/f0/61f08559c7d66.jpeg> ;
+                    ns1:name "Soup" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/f0/61f0849cdfd82.jpeg> ;
+                    ns1:name "Fatoush" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/f0/61f084531d0fa.jpeg> ;
+                    ns1:name "Beetroot" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "SALADS AND SOUPS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Vöslauer Water Still 750ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Proviant Zitronenlimo-Ingwer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "330ml" ;
+                    ns1:name "Elephant Bay Icetea Peach" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "330ml" ;
+                    ns1:name "Proviant Cola No Sugar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Proviant Rhabarberschorle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Vöslauer Water Still 250ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "330ml" ;
+                    ns1:name "Proviant Appleschorle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Vöslauer Water Sparkling 250ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "330ml" ;
+                    ns1:name "Elephant Bay Rosewater" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Vöslauer Water Sparkling 750ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "330ml" ;
+                    ns1:name "Proviant Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "COLD DRINKS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Eggplant" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bio" ;
+                    ns1:name "Boiled Egg" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Spicy" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pita" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pickles" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Feta Cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Side Salad" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Mushroom" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "EXTRAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Hummus, mushrooms, house salad. \r
+Served with pickles in a whole wheat pita. 
+\r
+Hummus, Pilze, Haussalat. \r
+Serviert mit Pickles in einem Pitabrot.""" ;
+                    ns1:name "Shroom Boom" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Hummus, jackfruit, tahini, shawarma spices, house salad. \r
+Served with pickles in a whole wheat pita. 
+\r
+Hummus, Jackfruit, Tahini, Shawarma Gewürze, Haussalat. \r
+Serviert mit Pickles in einem Pitabrot.""" ;
+                    ns1:name "Shavvama Sandwich" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Hummus, tahini, house salad. \r
+Served with pickles in a whole wheat pita. 
+\r
+Hummus, Tahini, Haussalat. \r
+Serviert mit Pickles in einem Pitabrot.""" ;
+                    ns1:name "Akkawy Klassisch" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "SANDWICHES" ] .
+

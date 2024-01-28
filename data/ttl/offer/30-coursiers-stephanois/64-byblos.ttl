@@ -1,0 +1,317 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiers-stephanois.coopcycle.org/api/restaurants/64> ns1:hasMenu <https://coursiers-stephanois.coopcycle.org/en/restaurant/64-byblos#menu> .
+
+<https://coursiers-stephanois.coopcycle.org/en/restaurant/64-byblos#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "5 Mezzes froids (Houmous, moutabal, tabouleh, 1 feuille de vigne, salade de moine) et 4 mezzes chauds (1 falafel, 1 rikakat fromage et 1 fatayer, sanboussik viande)." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/0a/650afe40cc2e2.jpeg> ;
+                    ns1:name "Plateau rapide" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.50" ] ] ;
+            ns1:name "Plat du jour" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Cristalline 50 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Au choix. 33 cl." ;
+                    ns1:name "Canettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Couverts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Aubergine grillé, poivron, tomate et oignon au four" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/0a/650adf0199e06.jpeg> ;
+                    ns1:name "Moussaka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fromage de brebis, tomates, oignons, poivrons et thym sauvage, huile d'olive." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/0a/650afa6bcc144.jpeg> ;
+                    ns1:name "Chankliche" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Purée de pois chiches à la crème de sésame, citron et filet d’huile d’olive, végétarien." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/0a/650afb223c979.jpeg> ;
+                    ns1:name "Houmos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Aubergines grillées, poivrons, oignons, tomates et concombres, végétarien." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/af/64afc5f8c84d4.jpeg> ;
+                    ns1:name "Salade du moine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fromage blanc à partir de lait caillé, ail, menthe, garni d’huile d’olive, végétarien." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/0a/650aea7d435c3.jpeg> ;
+                    ns1:name "Labne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Le taboulé est une salade ou un mézzé froid à base de persil, de menthe et de boulghour (blé concassé) tomate, oignons, menthe fraîche, huile d’olive et citron," ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/0a/650af6ce4bff7.jpeg> ;
+                    ns1:name "Taboulé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Caviar d’aubergine, crème de sésame, jus de citron et filet d'huile d'olive,  boite de 200g." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/0a/650ae37776e69.jpeg> ;
+                    ns1:name "Moutabbal" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Feuilles de vigne farcies de riz, 6 pièces, végétarien." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/ae/64aef7b99b75d.jpeg> ;
+                    ns1:name "Feuille de vigne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Mets froids" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Sachet de pain libanais (100g) (8 Pièces)" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/0b/650b03343441f.jpeg> ;
+                    ns1:name "Pain libanais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz au vermicelle" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/af/64afa4651ec16.jpeg> ;
+                    ns1:name "Riz à la libanaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Frites fait maison" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/0a/650afcece4315.jpeg> ;
+                    ns1:name "Barquette de frites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Idéal pour accompagner vos falafels Sauce faite entièrement maison" ;
+                    ns1:name "Sauce sésame \"Tarator\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème d'ail Sauce faite entièrement maison" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/0a/650af8bb4608c.jpeg> ;
+                    ns1:name "Sauce à l'ail \"Toum\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.25" ] ] ;
+            ns1:name "Accompagnements" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "2 brochettes Tawouk ( Blanc de Poulet Marinée) (300g) accompagné de 7 d'hors d’œuvre houmous, moutabal, taboulé, feuille de vigne, salade de moine, chancliche, labné" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/0a/650af6397f536.jpeg> ;
+                    ns1:name "Plateau Grillad Tawouk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 brochettes Kaffta (250 a 300g)(viande hachée persil oignions) accompagné de 7 Mézzés froids houmous, , moutabal, taboulé,, feuille de vigne farcie,  salade de moine,  chancliche, Labné." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/0a/650af35743bb5.jpeg> ;
+                    ns1:name "Plateau grillade Kafta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Assortiments de mezzés froids : Homouss, Moutabal, Taboulé, Chankliche, Salade du moine, Feuille de vigne,Boulgour, Moussaka, 1 pc falafel, 1pc Fatayer épinard, 1 pc Rikakat fromage et 1pc Rikakat lègumes." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/0a/650aed067632c.jpeg> ;
+                    ns1:name "Plateau découverte végétarien (1 personne)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€27.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Assortiments de mezzés froids : Homous, Moutabal, Taboulé, Chankliche, Salade du moine, Feuille de vigne,Boulgour, Moussaka, Kebbé, Safiha, Fatayer épinard, Rikakat fromage et Samboussik viande." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/0a/650aea01f102d.jpeg> ;
+                    ns1:name "Plateau Découverte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€27.90" ] ] ;
+            ns1:name "Plateau gourmand" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Le kebbé est un plat traditionnel libanais. Il est constitué de boulghour, de bœuf et d’épices. Ce plat est consommé de façon quotidienne au Liban. Il se mange sous forme d’entrée, accompagné du Labné ou Houmous . (2 pcs)" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/ae/64aef85350740.jpeg> ;
+                    ns1:name "Kebbe 2 pièces" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Les falafels est une spécialité culinaire levantine très répandue au Proche-Orient, constituée de boulettes de pois chiches ou de fèves broyés et mélangés à diverses épices, frites dans l'huile. a accompagner de la sauce sésame (2 pcs) végétalien." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/ae/64aef74101628.jpeg> ;
+                    ns1:name "Falafel 2 pièces" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Rouleaux croustillants aux légumes (2 pcs) végétarien Choux, carottes, champignons, maïs, petit pois" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/af/64afa43652bb3.jpeg> ;
+                    ns1:name "Rikakat légumes 2 pièces" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chausson d’agneau (2 pcs)" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/0a/650af7eed30c4.jpeg> ;
+                    ns1:name "Samboussik viande 2 pièces" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "blé concassé a la sauce tomate" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/0a/650af9d61efc8.jpeg> ;
+                    ns1:name "Boulgour 200 g (blé concassé au poivron et à la sauce tomate)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Rouleaux croustillants au fromage (2 pcs) végétarien." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/af/64afa41ede897.jpeg> ;
+                    ns1:name "Rikakat fromage 2 pièces" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Rouleaux croustillants au poulet Mariné (2 pcs)" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/af/64afa44df3bb9.jpeg> ;
+                    ns1:name "Rikakat poulet 2 pièces" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Rissole aux épinards acidulés (2 pcs) végétarien. Le fatayer épinards un des plus célèbres mezzés de la cuisine libanaise, est un petit chausson farci d’épinards délicieusement parfumés." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/ae/64aef78aa0fd1.jpeg> ;
+                    ns1:name "Fatayer 2 pièces" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Mets chauds" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Houmous + Taboulé + 1 pièce Samboussik viande + 1 pièce Rikakat fromage + 1 pièce Kébbé + Deux sandwich shawarma poulet + frites + 2 soft 33cl au choix+ 2 Desserts au choix." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/0a/650adb65a5680.jpeg> ;
+                    ns1:name "Box Duo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€42.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Houmous +1 Fatayer épinard + 1 Rikakat fromage +1 sandwich falafel+ frites + 1 soft 33cl au choix+ 1dessert au choix." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/0a/650aeba6320b1.jpeg> ;
+                    ns1:name "Box Solo végétarien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Houmous + 1 Samboussik viande + 1 Rikakat fromage + 1 sandwich shawarma poulet + frites + 1 soft 33cl au choix + un Dessert au choix+ Sauce" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/ae/64aef6c9391e4.jpeg> ;
+                    ns1:name "Box Solo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ] ;
+            ns1:name "Box" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Émincé de poulet mariné, Accompagné du houmous, (purée de pois chiche a la crème de sésame) + taboulé, (persil tomate oignon ) + ( riz à la libanaise au vermicelle) + sauce à l'ail fait maison sauce à l'ail." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/0a/650af76cd6d79.jpeg> ;
+                    ns1:name "Grillade Sharwarma poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 brochettes de suprême de volaille marinées, (250 a 300g) Accompagné du houmous, (purée de pois chiche a la crème de sésame) +taboulé, (persil tomate oignon ) + ( riz à la libanaise au vermicelle) + sauce à l'ail fait maison" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/ae/64aef70516c36.jpeg> ;
+                    ns1:name "Grillade Chicken Tawouk" ;
+                    ns1:nutrition "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 brochette d'agneau, 1 brochette kefta et 1 brochette de suprême de volaille marinée, (420 a 450g) Accompagné du Houmous, (purée de pois chiche a la crème de sésame) +Taboulé, (persil tomate oignon ) + ( Riz à la libanaise au vermicelle) sauce ail et sauce sésame." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/0a/650ade9fba165.jpeg> ;
+                    ns1:name "Grillade Mixte 3 brochettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€30.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 brochettes de viande hachée,(250 a 300g) Accompagné du houmous, (purée de pois chiche a la crème de sésame) +taboulé, (persil tomate oignon ) + ( riz à la libanaise au vermicelle) et sauce sésame." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/ae/64aef87003497.jpeg> ;
+                    ns1:name "Grillade Kafta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Émincé de 100% noix de veau, (0% gras) Accompagné du houmous, (purée de pois chiche a la crème de sésame) +taboulé, (persil tomate oignon ) + ( riz à la libanaise au vermicelle) et sauce sésame." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/0b/650b01b2498e5.jpeg> ;
+                    ns1:name "Grillade Shawarma viande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.90" ] ] ;
+            ns1:name "Grillades" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Émince de 100% noix de veau, salade, tomate, persil, oignon, cornichon libanais, sauce sésame Viande ORIGINE Française" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/0b/650b0227d731a.jpeg> ;
+                    ns1:name "Wrap Shawarma viande (100 % Noix de veau)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Suprême de volaille marinée, salade, coleslaw,  cornichon libanais, sauce à l'ail, enrouler de pita libanais" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/ae/64aef71f32012.jpeg> ;
+                    ns1:name "Wrap Chicken Tawouk" ;
+                    ns1:nutrition "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Emincé de poulet mariné, salade, coleslaw, tomate, cornichons libanais, sauce à l'ail" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/0b/650b0143122c7.jpeg> ;
+                    ns1:name "Wrap Shawarma poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 sandwich shawarma viande + 1 barquette de frites + 1 boisson 33cl" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/0a/650addd03baa3.jpeg> ;
+                    ns1:name "Menu Wrap shawarma viande (100 % Noix de veau)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 sandwich shawarma poulet + 1 barquette de frites + 1 boisson 33cl" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/0a/650add7454935.jpeg> ;
+                    ns1:name "Menu Wrap shawarma poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 sandwiches falafel + 1 barquette de frites + 1 boisson 33cl" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/ae/64aefab5ba7e7.jpeg> ;
+                    ns1:name "Menu Wrap falafel végétarien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 sandwich tawouk + 1 barquette de frites + 1 boisson 33cl" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/ae/64aefa90696cd.jpeg> ;
+                    ns1:name "Menu Wrap Chicken tawouk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 sandwich kafta + 1 barquette de frites + 1 boisson 33cl" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/af/64afa33435824.jpeg> ;
+                    ns1:name "Menu Wrap kafta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Viande hachée, salade, tomate, persil, oignon, navet, cornichons libanais, sauce sésame" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/ae/64aef82e41cec.jpeg> ;
+                    ns1:name "Wrap Kafta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignets de fèves et pois chiches, salade, tomate, persil, oignons, sauce sésame 100% végétalienne. Vous pourrez déguster les falafels avec leur sauce tahina, à la crème de sésame, qui est elle aussi 100% végétale !" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/0a/650adc3ce7bce.jpeg> ;
+                    ns1:name "Wrap Falafel végétarien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ] ;
+            ns1:name "Sandwiches et Menus" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Flan libanais au lait, parfumé à la fleur d'oranger et eau de rose, arrosé de sirop de sucre" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/ae/64aef7d458037.jpeg> ;
+                    ns1:name "Flan libanais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Assortiment de pâtisseries libanaises fourrées aux amandes, pistaches, noix de cajou ou pignons de pin, (3 pcs)" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/ae/64aef6968db0f.jpeg> ;
+                    ns1:name "Baklawa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ] ;
+            ns1:name "Desserts" ] .
+

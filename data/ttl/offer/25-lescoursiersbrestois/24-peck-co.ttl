@@ -1,0 +1,128 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/restaurants/24> ns1:hasMenu <https://lescoursiersbrestois.coopcycle.org/en/restaurant/24-peck-co#menu> .
+
+<https://lescoursiersbrestois.coopcycle.org/en/restaurant/24-peck-co#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "de Kauri Brewery, Plovan (29)" ;
+                    ns1:name "Bière Citra Pale Ale 44 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "de Kauri Brewery, Plovan (29)" ;
+                    ns1:name "Bière Stout 44cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Boissons Alcoolisées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "suprême de volaille fermière confite aux épices & au miel, patates douces rôties au paprika fumé" ;
+                    ns1:name "Volaille fermière à la texane" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "œuf cuit à basse température, velouté de chou-fleurs au parmesan, lard grillé, croûtons & oignons frits" ;
+                    ns1:name "Cauly" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ] ;
+            ns1:name "Les Plats Chauds" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Boisson pétillante à base d’herbes & plantes" ;
+                    ns1:name "Infusion pétillante HABITUS STIMULUS, Thym citronné & Curcuma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boisson pétillante à base d’herbes & plantes" ;
+                    ns1:name "Infusion pétillante HABITUS DETOX, Hibiscus & Menthe Poivrée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "boisson à base de thé vert bio, naturellement fermenté (33 cl)" ;
+                    ns1:name "Lökki Kombutcha Maté & Agrumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Infusion Glacée Bienfaits Romarin & Jus de griotte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boisson 100 % naturelle, sans sucre ajoutés, à base de plante et de jus de fruits (25 cl)" ;
+                    ns1:name "Infusion Glacée Bienfaits Cassis & Jus de cassis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "boisson à base de thé vert bio, naturellement fermenté (33 cl)" ;
+                    ns1:name "Lökki Kombutcha Hibiscus, Rose & Timur" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boisson 100 % naturelle, sans sucre ajoutés, à base de plante et de jus de fruits (25 cl)" ;
+                    ns1:name "Infusion Glacée Bienfaits Menthe poivrée & Jus de pomme" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Infusion Glacée Bienfaits Verveine & Jus de framboise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "boisson à base de thé vert bio, naturellement fermenté (33 cl)" ;
+                    ns1:name "Lökki Kombutcha Tulsi & Gingembre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Cubano + velouté de chou-fleurs au parmesan, croûtons + Dessert du Jour" ;
+                    ns1:name "La Formule Regular Cubano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mush + velouté de chou-fleurs au parmesan, croûtons + Dessert du jour" ;
+                    ns1:name "La Formule Regular Mush" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Yankee Hot-Dog +  velouté de chou-fleurs au parmesan, croûtons + Dessert du jour" ;
+                    ns1:name "La Formule Regular Yankee" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ] ;
+            ns1:name "Les Formules" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "galette de blé, champignons portobello, mornay, noix de pécan & ail noir" ;
+                    ns1:name "Mush" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pain moelleux, knack d’Olivier, choucroute, cheddar & sauce moutarde au miel" ;
+                    ns1:name "Yankee Hot-Dog" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pain de mie, échine de cochon, confit d’oignon, cheddar épicé & mayo chipotle" ;
+                    ns1:name "Cubano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "Les Casse-Croûtes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "50 % brownie, 50 % cookie, 100 % gourmand" ;
+                    ns1:name "Le Brookie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "fromage blanc, fruits frais, granola maison & miel de la Vallée de l’Elorn" ;
+                    ns1:name "Le Granola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mousse pop-corn & crumble au maïs grillé" ;
+                    ns1:name "Le Dessert du Jour" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.60" ] ] ;
+            ns1:name "Le Sucré" ] .
+

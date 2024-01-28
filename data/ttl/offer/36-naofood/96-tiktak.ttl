@@ -1,0 +1,738 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://naofood.coopcycle.org/api/restaurants/96> ns1:hasMenu <https://naofood.coopcycle.org/en/restaurant/96-tiktak#menu> .
+
+<https://naofood.coopcycle.org/en/restaurant/96-tiktak#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f910ce09b1.jpeg> ;
+                    ns1:name "Thé noir nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f9301c5f32.jpeg> ;
+                    ns1:name "Thé oolong nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f9172a5781.jpeg> ;
+                    ns1:name "Thé vert jasmin nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Thé Nature 🍵" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Crevettes sauté à l'ail" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e5dd27f83f.jpeg> ;
+                    ns1:name "Com Tom" ;
+                    ns1:nutrition "Eggs",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 Brochettes de poulet teriyaki grillées" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e5cb9ea13e.jpeg> ;
+                    ns1:name "Com Poulet Teriyaki" ;
+                    ns1:nutrition "Eggs",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 viandes au choix" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e5e4dedaee.jpeg> ;
+                    ns1:name "Maxi Com 3 viandes" ;
+                    ns1:nutrition "Eggs",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Canard laqué" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e5d69c1296.jpeg> ;
+                    ns1:name "Com Vit" ;
+                    ns1:nutrition "Eggs",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Porc laqué aux 5 épices" ;
+                    ns1:name "Com Xa Xiu" ;
+                    ns1:nutrition "Eggs",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet grillé au miel et à la citronnelle" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e584ca2a4a.jpeg> ;
+                    ns1:name "Com Ga" ;
+                    ns1:nutrition "Eggs",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saucisses Thaï de porc à la citronnelle" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e5d13f1ad9.jpeg> ;
+                    ns1:name "Com Saucisses" ;
+                    ns1:nutrition "Eggs",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bœuf sauté à la citronnelle" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e57dcb0dd8.jpeg> ;
+                    ns1:name "Com Bo" ;
+                    ns1:nutrition "Eggs",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tofu aigre-douce" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e58e8b69a8.jpeg> ;
+                    ns1:name "Com Chay Vegetarien" ;
+                    ns1:nutrition "Celery",
+                        "Eggs",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ] ;
+            ns1:name "Com 🍚" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """À base de patate douce violette \r
+Fait avec du lait végétal 🌱""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f883823f0f.jpeg> ;
+                    ns1:name "Brown Sugar Taro 🍠" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fait avec du lait de vache 🐄" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f8750bdf2a.jpeg> ;
+                    ns1:name "Brown Sugar Cacao 🐮" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fait avec du lait de vache 🐄" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f89206025d.jpeg> ;
+                    ns1:name "Brown Sugar Crème Brûlée" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fait avec du lait végétal 🌱" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f88b4ea1b0.jpeg> ;
+                    ns1:name "Brown Sugar Thé Noir au lait" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fait avec du lait de vache 🐄" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f8644a3611.jpeg> ;
+                    ns1:name "Brown Sugar Original" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fait avec du lait végétal" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f86ee4f0a1.jpeg> ;
+                    ns1:name "Brown Sugar Matcha 🌱" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ] ;
+            ns1:name "Brown Sugar Tapioca" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/6553407d99188.jpeg> ;
+                    ns1:name "Menu Banh Mi + Boisson (canette)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e90fe869c6.jpeg> ;
+                    ns1:name "Menu Banh Mi + Bubble Tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/655340935d21b.jpeg> ;
+                    ns1:name "Menu Banh Mi + Boisson (canette) + Dessert" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e9355d7117.jpeg> ;
+                    ns1:name "Menu Banh Mi + Bubble Tea + Dessert" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.90" ] ] ;
+            ns1:name "Menus Bánh Mì 🥖🥤🍰" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Café au lait coco et au lait concentré 🐄" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f8c7c990b7.jpeg> ;
+                    ns1:name "Cafe Coco" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Café au lait concentré 🐄" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f8ac64c68a.jpeg> ;
+                    ns1:name "Cafe Sua Da" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f8ceee657c.jpeg> ;
+                    ns1:name "Macchiato Caramel" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f8d47245ad.jpeg> ;
+                    ns1:name "Cafe Noisette" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Café Vietnamien ☕ 🇻🇳" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "2 nems au poulet + 2 nems aux légumes + 2 raviolis frits + 2 brochettes de poulet teriyaki, servi avec la sauce nuoc mam (au poisson), la sauce aigre-douce et de la salade" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e6276681c9.jpeg> ;
+                    ns1:name "Tapas Viet" ;
+                    ns1:nutrition "Crustaceans",
+                        "Fish",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 pièces de raviolis, servi avec la sauce aigre-douce et la salade" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e619607577.jpeg> ;
+                    ns1:name "Raviolis frits aux crevettes" ;
+                    ns1:nutrition "Crustaceans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 pièces de nems, servi avec la sauce de soja et la salade" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e60d0afca1.jpeg> ;
+                    ns1:name "Nems aux légumes" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 pièces de nems, servi avec la sauce nuoc mam (au poisson) et la salade" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e60660fa26.jpeg> ;
+                    ns1:name "Nems au poulet" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Apéro Viet 🥟" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f8edd38cf9.jpeg> ;
+                    ns1:name "Soda Fruit de la Passion" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f8fa307a02.jpeg> ;
+                    ns1:name "Soda Blue Curaçao" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f8f1846bf4.jpeg> ;
+                    ns1:name "Soda Myrtille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Soda Pétillant 🍹" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e969a23ce3.jpeg> ;
+                    ns1:name "Menu Bun + Bubble Tea" ;
+                    ns1:nutrition "Fish",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/655340ca2e0dd.jpeg> ;
+                    ns1:name "Menu Bun + Boisson (canette) + Dessert" ;
+                    ns1:nutrition "Fish",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e974615b3f.jpeg> ;
+                    ns1:name "Menu Bun + Bubble Tea + Dessert" ;
+                    ns1:nutrition "Fish",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/655340ba34199.jpeg> ;
+                    ns1:name "Menu Bun + Boisson (canette)" ;
+                    ns1:nutrition "Fish",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ] ;
+            ns1:name "Menus Bún 🍜🥤🍰" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "3 viandes au choix" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e55814d623.jpeg> ;
+                    ns1:name "Super Bun 3 viandes" ;
+                    ns1:nutrition "Fish",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Porc laqué aux 5 épices" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e4d8a6e010.jpeg> ;
+                    ns1:name "Bun Heo" ;
+                    ns1:nutrition "Fish",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet grillé au miel et à la citronnelle" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e4bd016519.jpeg> ;
+                    ns1:name "Bun Ga (poulet)" ;
+                    ns1:nutrition "Fish",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e50af22bf3.jpeg> ;
+                    ns1:name "Bun Ca (poisson)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crevettes sautées à l'ail" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e53b7d9920.jpeg> ;
+                    ns1:name "Bun Tom" ;
+                    ns1:nutrition "Crustaceans",
+                        "Fish",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bœuf sauté à la citronnelle" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e490537837.jpeg> ;
+                    ns1:name "Bo Bun" ;
+                    ns1:nutrition "Fish",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 brochettes de poulet teriyaki grillées" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e50f4d8775.jpeg> ;
+                    ns1:name "Bun Poulet Teriyaki" ;
+                    ns1:nutrition "Fish",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Canard laqué" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e5372b9548.jpeg> ;
+                    ns1:name "Bun Vit" ;
+                    ns1:nutrition "Fish",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saucisses Thaï de porc grillées à la citronnelle" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e525357f5e.jpeg> ;
+                    ns1:name "Bun Saucisses" ;
+                    ns1:nutrition "Fish",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tofu aigre-douce, nems aux légumes" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e4d3798fa3.jpeg> ;
+                    ns1:name "Bun Chay Végétarien" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ] ;
+            ns1:name "Bún 🍜" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/36/653678d71f896.jpeg> ;
+                    ns1:name "Menu Com + Boisson (canette)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e9fc60620d.jpeg> ;
+                    ns1:name "Menu Com + Bubble Tea" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/36/653679313f067.jpeg> ;
+                    ns1:name "Menu Com + Boisson (canette) + Dessert" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637ea170b66f6.jpeg> ;
+                    ns1:name "Menu Com + Bubble Tea + Dessert" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.90" ] ] ;
+            ns1:name "Menu Com 🍚🥤🍰" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Thé vert japonais" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f7c94541da.jpeg> ;
+                    ns1:name "Matcha au lait 🍵" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thé rouge thaïlandais" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f824c90876.jpeg> ;
+                    ns1:name "Thé Thai" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """À la base de patate douce violette 🍠\r
+Boisson sans théine""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f8079a4858.jpeg> ;
+                    ns1:name "Taro au lait" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boisson sans théine" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f810ba9af6.jpeg> ;
+                    ns1:name "Chocolat Noisette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thé noir au lait caramel noisette" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f8323a095e.jpeg> ;
+                    ns1:name "Hokkaido" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "À base de thé noir" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f82b1a6066.jpeg> ;
+                    ns1:name "Tiramisu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ] ;
+            ns1:name "Signature Tiktak" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f79e1e4703.jpeg> ;
+                    ns1:name "Thé Pêche au lait 🍑" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f7ac29454c.jpeg> ;
+                    ns1:name "Thé Melon au lait 🍈" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f7756b8b3a.jpeg> ;
+                    ns1:name "Thé Caramel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f73d38aba1.jpeg> ;
+                    ns1:name "Traditionnel Thé Vert Jasmin" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f7929d3c93.jpeg> ;
+                    ns1:name "Thé Chai" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f7403743eb.jpeg> ;
+                    ns1:name "Traditionnel Thé Noir" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f7b2797dc0.jpeg> ;
+                    ns1:name "Thé Myrtille au lait" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f76c96c02e.jpeg> ;
+                    ns1:name "Traditionnel Thé Oolong" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f7b9a9c16a.jpeg> ;
+                    ns1:name "Thé Fraise au lait 🍓" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Thé au lait 🥛" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Flan caramel, perles de tapioca, lait de coco, chantilly maison" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f99c4da8bd.jpeg> ;
+                    ns1:name "Bobo Chacha" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "On va vous surprendre 😏" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637fa2bbb88f7.jpeg> ;
+                    ns1:name "Patisserie du jour 🍰" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 mochis aléatoires" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f9a37536cb.jpeg> ;
+                    ns1:name "Mochi (3pcs)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Peanuts",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fait du lait de coco 🥥" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f986792de1.jpeg> ;
+                    ns1:name "Panna cotta à la mangue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fait du lait de coco 🥥" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f98bc58d43.jpeg> ;
+                    ns1:name "Panna cotta à la framboise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Banane fondue au lait de coco, avec des mini perles de tapioca blanches" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f9919de4b1.jpeg> ;
+                    ns1:name "Che Chuoi 🍌" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Dessert 🍰" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Sandwich avec omelette façon Viet" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e4063a4b23.jpeg> ;
+                    ns1:name "Banh Mi Trung Pate" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sandwich aux saucisses Thaï de porc grillées à la citronnelle" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e3f713835b.jpeg> ;
+                    ns1:name "Banh Mi Saucisses" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sandwich au poulet grillé au miel et à la citronnelle" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e3b908eecc.jpeg> ;
+                    ns1:name "Banh Mi Ga" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sandwich avec 3 viandes au choix" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e468657dc4.jpeg> ;
+                    ns1:name "Big Banh Mi 3 viandes" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sandwich au bœuf sauté à la citronnelle" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e3cd3d9309.jpeg> ;
+                    ns1:name "Banh Mi Bo" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sandwich aux crevettes sautées à l'ail" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e428a5829e.jpeg> ;
+                    ns1:name "Banh Mi Tom" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Crustaceans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sandwich au porc laqué aux 5 épices" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e3d3abbea9.jpeg> ;
+                    ns1:name "Banh Mi Heo Xa Xiu" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sandwich végétarien avec tofu aigre-douce" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e3ebdd78c5.jpeg> ;
+                    ns1:name "Banh Mi Chay" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sandwich au canard laqué" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637e41966ee06.jpeg> ;
+                    ns1:name "Banh Mi  Vit" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ] ;
+            ns1:name "Bánh Mì 🥖" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637ea6e792662.jpeg> ;
+                    ns1:name "Thé au citron 🍋" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637eac830fce1.jpeg> ;
+                    ns1:name "Thé au raisin 🍇" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637ea8a31a7eb.jpeg> ;
+                    ns1:name "Thé à la fraise 🍓" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637eabd0a65ae.jpeg> ;
+                    ns1:name "Thé à l'ananas 🍍" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534139ef2a2.jpeg> ;
+                    ns1:name "Thé Kiwi - Pomme 🥝🍏" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637eab2363a08.jpeg> ;
+                    ns1:name "Thé à la goyave" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637eab81a6fbd.jpeg> ;
+                    ns1:name "Thé à la pastèque 🍉" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637eac3145de7.jpeg> ;
+                    ns1:name "Thé à la cerise 🍒" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637ea46c3fd0a.jpeg> ;
+                    ns1:name "Thé à la pêche 🍑" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637eaaa8e903c.jpeg> ;
+                    ns1:name "Thé au melon 🍈" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mélange d'orange, de citron et de pamplemousse" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637ea76446306.jpeg> ;
+                    ns1:name "Thé Royal Citrus 🍊" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637ea69893319.jpeg> ;
+                    ns1:name "Thé au fruit de la passion" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637ea609b8a92.jpeg> ;
+                    ns1:name "Thé au litchi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637ea99d9d454.jpeg> ;
+                    ns1:name "Thé à la myrtille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7e/637ea5a303892.jpeg> ;
+                    ns1:name "Thé à la mangue 🥭" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Thé au fruit 🍓🍏🍋" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f96454e429.jpeg> ;
+                    ns1:name "Perrier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière chinoise" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f96aad1616.jpeg> ;
+                    ns1:name "Bière Tsingtao" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f95f4f0578.jpeg> ;
+                    ns1:name "Eau Minérale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f957f503be.jpeg> ;
+                    ns1:name "Lipton" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière Vietnamienne" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/7f/637f96fa6cdd2.jpeg> ;
+                    ns1:name "Bière Saigon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/655340ea20b66.jpeg> ;
+                    ns1:name "Pepsi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534105e75d6.jpeg> ;
+                    ns1:name "Pepsi zéro sucres" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Soft 🥤" ] .
+

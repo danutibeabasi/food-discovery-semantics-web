@@ -1,0 +1,37 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://coursiers-metz.coopcycle.org/api/restaurants/6> a ns1:Restaurant ;
+    ns1:address <https://coursiers-metz.coopcycle.org/api/addresses/235> ;
+    ns1:description """Mauricette a banni de son vocabulaire le mot consommateur qu’elle laisse à la grande distribution. En effet, elle préfère de loin le mot de client parce que chez elle, le client est roi.\r
+\r
+Ceux qui la connaissent savent que les produits sélectionnés le sont avec rigueur. Qu'elle ne transige pas sur la qualité et que l'immense majorité d'entre eux (sauf quelques incontournables) sont véritablement produits de façon artisanale. À cela s'ajoute un sens du service hors du commun qui la fait apprécier du plus grand nombre. Les mots saveurs, qualité, tradition, service, et accueil ne sont pas pour les époux VONNER de simples slogans commerciaux. Ils sont leur profession de foi.\r
+\r
+Aujourd'hui, présents sur de nombreux marchés de la région sous l'enseigne « Le Haut de Rabas chez Mauricette », Mauricette et son équipe sont présents tous les jours au marché couvert de METZ de 7h à 19h sans interruption du mardi au samedi.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.91195e+01 ;
+            ns1:longitude 6.17497e+00 ] ;
+    ns1:image <https://coursiers-metz.coopcycle.org/media/cache/restaurant_thumbnail/60/0d/600d51f3dabc3.jpg> ;
+    ns1:name "Mauricette Traiteur" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "18:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "10:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://coursiers-metz.coopcycle.org/en/restaurant/6-mauricette-traiteur" ] ] ;
+    ns1:sameAs <https://coursiers-metz.coopcycle.org/en/restaurant/6-mauricette-traiteur> ;
+    ns1:url <https://coursiers-metz.coopcycle.org/en/restaurant/6-mauricette-traiteur> .
+
+<https://coursiers-metz.coopcycle.org/api/addresses/235> a ns1:PostalAddress ;
+    ns1:name "Mauricette Traiteur" ;
+    ns1:streetAddress "2 Place Jean Paul II, 57000 Metz, France" ;
+    ns1:telephone "+33387363769" .
+

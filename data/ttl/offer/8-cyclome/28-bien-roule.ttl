@@ -1,0 +1,136 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://cyclome.coopcycle.org/api/restaurants/28> ns1:hasMenu <https://cyclome.coopcycle.org/en/restaurant/28-bien-roule#menu> .
+
+<https://cyclome.coopcycle.org/en/restaurant/28-bien-roule#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "bourriol végétarien/ Crème de petits pois/ Menthe/ Féta" ;
+                    ns1:name "Bourriol végétarien/ Crème de petits pois/ Menthe/ Féta" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Bourriol à la truite BIO fumée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Bourriol au Bleu de Laqueuille \" La mémé\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Bourriol à la volaille d'Auvergne/ Sauce Satay" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette de sarrasin, jambon d'Auvergne de chez Durif, tomme fraîche, coleslaw, pickles d'oignons doux oignons frits et sauce vinaigrette" ;
+                    ns1:name "Bourriol au jambon d'Auvergne affiné" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ] ;
+            ns1:name "Nos Bourriols" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Sauce barbecue/ Ciboulette" ;
+                    ns1:name "Truffade & Pulled Pork de cochon fermier d'Auvergne, sauce Barbecue maison, ciboulette" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Truffade, pastrami de Boeuf provenant de la Boucherie Durif\r
+Mayonnaise au miel et moutarde de Charroux""" ;
+                    ns1:name "Truffade &  Pastrami de Boeuf/ Mayo au miel et moutarde de Charroux" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Truffadeà la tomme fraîche de Cantal, jambon d'Auvergne affiné, sauce Deluxe maison, pickles d'oignons et oignons fris" ;
+                    ns1:name "Truffade & Jambon d'Auvergne affiné" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ] ;
+            ns1:name "Nos Truffades" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Volvic 500 ml\r
+Eau minérale naturelle volcanique""" ;
+                    ns1:name "Volvic" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière blonde artisanale BIO de la brasserie NK à Teilhède (63) 
+\r
+La Blonde du Sancy est une bière avec une bonne longueur en bouche houblonnée, elle est composée de cinq Malts qui lui confèrent un corps complexe au nez céréalié. \r
+Alc: 5,2 %""" ;
+                    ns1:name "Bière artisanale de la brasserie NK" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """San Pelegrino 550 ml\r
+Eau minérale naturelle avec adjonction de  gaz carbonique""" ;
+                    ns1:name "San Pellegrino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "ChariTea green: Thé vert BIO/Gingembre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nectar de pêche de vigne Patrick Font 250 ml" ;
+                    ns1:name "Nectar de pêche de vigne Patrick Font" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Jus d'orange Patrick Font 250 ml\r
+100% jus d'orange""" ;
+                    ns1:name "Jus d'orange blonde Patrick Font" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "LimonAid Citron vert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Jus de pomme Patrick Font 250 ml\r
+100% jus de pomme""" ;
+                    ns1:name "Jus de pomme Patrick Font" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Nectar de fraise Gariguette Patrick Font" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Jus multifruits minute Maid" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Volvic BIO Infusion hibiscus" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Nos Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Part de cake au citron à la Verveine du Velay" ;
+                    ns1:name "Cake au Citron et verveine du Velay" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Nos desserts" ] .
+

@@ -1,0 +1,118 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://kooglof.coopcycle.org/api/restaurants/10> ns1:hasMenu <https://kooglof.coopcycle.org/en/restaurant/10-jabiru-cafe#menu> .
+
+<https://kooglof.coopcycle.org/en/restaurant/10-jabiru-cafe#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Boisson maison, fleur d’hibiscus à la cerise « Chérie des îles Kirch » - 25 cl" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/5f/ac/5faceb6704068.jpg> ;
+                    ns1:name "Bissap" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/5f/ac/5facf24820f91.jpg> ;
+                    ns1:name "Ginger Beer - Old Jamaïca" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière \"sans alcool\" et sucrée - 33 cl" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/5f/ac/5facf1ffa0984.jpg> ;
+                    ns1:name "Vita Malta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jus de baobab et litchi - Fait maison, 25cl" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/5f/ac/5facef359bb4d.jpg> ;
+                    ns1:name "Bali" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boisson maison, au gingembre, citron et macis - 15 cl" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/5f/ac/5facef53d4342.jpg> ;
+                    ns1:name "Gnamakoudji" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Boissons sans alcool 🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Semoule de manioc, sauce B.E.P, gaou (beignets de niébé), pois chiche, oignons rouges vinaigrés. Vegan" ;
+                    ns1:name "Attiéké Gaou (Vegan)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce d’arachide, tomate concentrée, petit pois, carotte, riz, cuisse de poulet" ;
+                    ns1:name "Petit Mafé poulet" ;
+                    ns1:nutrition "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce d’arachide, tomate concentrée, petit pois, carotte, tofu frit + riz blanc" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/5f/ac/5facf0707ef62.jpg> ;
+                    ns1:name "Mafé Arachide au Tofu (Vegan)" ;
+                    ns1:nutrition "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce d’arachide, tomate concentrée, petit pois, carotte, cuisse de poulet marinée et grillée + riz blanc" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/5f/ac/5facf022f2a64.jpg> ;
+                    ns1:name "Mafé Arachide Poulet" ;
+                    ns1:nutrition "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce d’arachide, tomate, petit pois, carotte, riz, tofu frit (VEGAN)" ;
+                    ns1:name "Petit Mafé tofu (Vegan)" ;
+                    ns1:nutrition "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Semoule de manioc, sauce B.E.P, pois chiche, oignons rouges vinaigrés, brochette de poisson mariné (cabillaud)" ;
+                    ns1:name "Attiéké Poisson" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ] ;
+            ns1:name "Plats 🥘" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bâton d’arachide caramélisé" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/5f/ac/5facee857e94f.jpg> ;
+                    ns1:name "Cornes de kudu (3 pièces)" ;
+                    ns1:nutrition "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pana Cotta au lait de coco,  agar agar, coulis de mangue" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/5f/ac/5facedd45ce6d.jpg> ;
+                    ns1:name "Cocotta (1 pièce)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Desserts 🍮" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Viande de bœuf marinée au suya (mélange d'épices ouest africaine)" ;
+                    ns1:name "Chichinga" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignet au bœuf, poivre de Jamaïque, épices, petit pois, poivrons, oignons + Chutney de mangue" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/5f/ac/5facf19656245.jpg> ;
+                    ns1:name "Pastel Jamaican Pepper Beef (4 pièces)" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Croquettes de manioc + caramel de lait de coco – VEGAN" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/5f/ac/5facec97ba3be.jpg> ;
+                    ns1:name "Boule Boule (5 pièces)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Portion de bananes plantain frites – VEGAN" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/5f/ac/5facea3aef0b3.jpg> ;
+                    ns1:name "Aloco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "Afro Tapas 🧆" ] .
+

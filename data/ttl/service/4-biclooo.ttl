@@ -1,0 +1,18 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://biclooo.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "fr" ;
+                    ns1:addressLocality "Rodez" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 4.435283e+01 ;
+                    ns1:longitude 2.562013e+00 ] ] ;
+    ns1:description "Biclooo, c’est le fruit une réflexion sur la mobilité et les services de proximité, accélérée par la crise sanitaire. Notre but est de montrer qu’il y a une alternative à la voiture au sein de notre ville, et de créer des emplois pérennes tout en proposant des solutions aux commerçants et restaurateurs du centre ville. Alors, tout en vélo à Rodez, on tente ?"@fr ;
+    ns1:name "Biclooo" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://biclooo.coopcycle.org> .
+

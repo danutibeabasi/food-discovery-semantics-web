@@ -1,0 +1,36 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://hull.coopcycle.org/api/restaurants/4> a ns1:Restaurant ;
+    ns1:address <https://hull.coopcycle.org/api/addresses/63> ;
+    ns1:description "Connecting chefs, growers, local suppliers and hungry mouths. Great food delivered to your door and the doors of those who need it most." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 5.374186e+01 ;
+            ns1:longitude -3.73109e-01 ] ;
+    ns1:image <https://hull.coopcycle.org/media/cache/restaurant_thumbnail/63/3a/633ae1107c980.png> ;
+    ns1:name "W . A . N . T" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "19:15" ;
+            ns1:dayOfWeek "Monday" ;
+            ns1:opens "18:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "0.00" ;
+                            ns1:priceCurrency "GBP" ] ;
+                    ns1:price "2.00" ;
+                    ns1:priceCurrency "GBP" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "en" ;
+                    ns1:urlTemplate "https://hull.coopcycle.org/en/restaurant/4-w-a-n-t" ] ] ;
+    ns1:sameAs <https://hull.coopcycle.org/en/restaurant/4-w-a-n-t> ;
+    ns1:url <https://hull.coopcycle.org/en/restaurant/4-w-a-n-t> .
+
+<https://hull.coopcycle.org/api/addresses/63> a ns1:PostalAddress ;
+    ns1:name "W . A . N . T" ;
+    ns1:streetAddress "Unit 2, 23, Arthur St, Kingston upon Hull, City of, HU3 6BH" ;
+    ns1:telephone "+447807680930" .
+

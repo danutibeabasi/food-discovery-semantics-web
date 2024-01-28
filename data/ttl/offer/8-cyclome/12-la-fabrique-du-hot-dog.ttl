@@ -1,0 +1,321 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://cyclome.coopcycle.org/api/restaurants/12> ns1:hasMenu <https://cyclome.coopcycle.org/en/restaurant/12-la-fabrique-du-hot-dog#menu> .
+
+<https://cyclome.coopcycle.org/en/restaurant/12-la-fabrique-du-hot-dog#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Tiramisu Oreo" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Yaourt vanille" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tiramisu Speculos" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Coca-Cola Zéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Oasis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Coca-Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Ice Tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Schweppes Agrumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Sprite" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50 cl" ;
+                    ns1:name "San-Pélégrino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50 cl" ;
+                    ns1:name "Volvic" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Dr Pepper" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Softs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Duo de tenders de poulet épices et chapelure maison" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "par 4 ou par 8" ;
+                    ns1:name "Camembert pâné maison" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Finger Food" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Bud" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "35,5 cl" ;
+                    ns1:name "Corona Extra" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "San Miguel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Bières" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Saucisse knack supérieur, oignons frits maison, salade de roquette, mayonnaise truffée" ;
+                    ns1:name "Menu Hot Truffe" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain artisanal au sésame, Saucisse Knack supérieure fumée au bois de hêtre, Fine tranche de poitrine fumée, cheddar maturé, oignons frits maison, Ketchup et moutarde sucrée" ;
+                    ns1:name "Menu Américain" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain artisanal au sésame, Saucisse Knack supérieure fumée au bois de hêtre, Effiloché de bœuf, cheddar maturé, oignons frits maison, BBQ" ;
+                    ns1:name "Menu Texan" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Menu Italiano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain artisanal au sésame, Saucisse Knack supérieure fumée au bois de hêtre, Chou cuit à la graisse de canard, Fine tranche de poitrine fumée, cheddar maturé, Oignons frits maison, Moutarde" ;
+                    ns1:name "Menu Dutch" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain artisanal au sésame, Saucisse de Campagne, Bleu d’auvergne AOC, éclat de noix, roquette, oignons frits maison" ;
+                    ns1:name "Menu Frenchy" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "saucisses de campagne supérieur, fromage à raclette AOP, jambon de pays d'Auvergne, cornichons et oignons frits maison. Servi avec 1 accompagnement et 1 boisson au choix." ;
+                    ns1:name "Menu Hors Piste" ;
+                    ns1:nutrition "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain artisanal au sésame, Saucisse de campagne supérieure, Saint Nectaire AOP, éclats de noix, fine tranche de poitrine fumée, oignons frits maison, salade de roquette, velouté de balsamique" ;
+                    ns1:name "Menu Arverne" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain artisanal au sésame, Saucisse Knack supérieure fumée au bois de hêtre, Haricots rouges, cheddar maturé, oignons frits maison, Guacamole maison et sauce salsa" ;
+                    ns1:name "Menu Mexicano" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain artisanal au sésame, Saucisse Knack supérieure fumée au bois de hêtre, Oignons frits maison, Ketchup et moutarde sucrée" ;
+                    ns1:name "Menu Pti Suisse" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ] ;
+            ns1:name "Formules pour Hot Dog Lovers" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Pain + garniture au choix + 2 sauces + oignons frits (topping)
+\r
+/!\\ Présence possible des allergènes listés selon la composition de votre hot dog /!\\""" ;
+                    ns1:name "Hot Dog à personnaliser" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """UNIQUEMENT AVEC UN HOT DOG À PERSONNALISER\r
+Choisissez un accompagnement et une boisson pour compléter votre Hot Dog personnalisé !
+\r
+/!\\ Présence possible des allergènes listés selon vos choix /!\\""" ;
+                    ns1:name "Complément Formule" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Hot Dog à personnaliser" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain artisanal au sésame, Saucisse de campagne supérieure, Saint Nectaire AOP, éclats de noix, fine tranche de poitrine fumée, oignons frits maison, salade de roquette, velouté de balsamique" ;
+                    ns1:name "L’Arverne" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saucisse knack supérieur, oignons frits maison, salade de roquette, mayonnaise truffée" ;
+                    ns1:name "Le Hot Truffe" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain artisanal au sésame, Saucisse Knack supérieure fumée au bois de hêtre, Oignons frits maison, Ketchup et moutarde sucrée" ;
+                    ns1:name "Le Pti Suisse" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain artisanal au sésame, Saucisse de Campagne, Bleu d’auvergne AOC, éclat de noix, roquette, oignons frits maison" ;
+                    ns1:name "Le Frenchy" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain artisanal au sésame, Saucisse Knack supérieure fumée au bois de hêtre, Haricots rouges, cheddar maturé, oignons frits maison, Guacamole maison et sauce salsa" ;
+                    ns1:name "El Mexicano" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain artisanal au sésame, Saucisse Knack supérieure fumée au bois de hêtre, Effiloché de bœuf, cheddar maturé, oignons frits maison, BBQ" ;
+                    ns1:name "Le Texan" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "saucisses de campagne supérieur, fromage à raclette AOP, jambon de pays d'Auvergne, cornichons et oignons frits maison" ;
+                    ns1:name "Le hors piste" ;
+                    ns1:nutrition "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Il Italiano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain artisanal au sésame, Saucisse Knack supérieure fumée au bois de hêtre, Fine tranche de poitrine fumée, cheddar maturé, oignons frits maison, Ketchup et moutarde sucrée" ;
+                    ns1:name "L’Américain" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain artisanal au sésame, Saucisse Knack supérieure fumée au bois de hêtre, Chou cuit à la graisse de canard, Fine tranche de poitrine fumée, cheddar maturé, Oignons frits maison, Moutarde" ;
+                    ns1:name "Le Dutch" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ] ;
+            ns1:name "Hot dogs à la carte" ] .
+

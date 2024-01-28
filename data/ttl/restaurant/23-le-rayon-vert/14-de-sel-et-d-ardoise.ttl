@@ -1,0 +1,40 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://le-rayon-vert.coopcycle.org/api/restaurants/14> a ns1:Restaurant ;
+    ns1:address <https://le-rayon-vert.coopcycle.org/api/addresses/41> ;
+    ns1:description "Cuisine française soignée à base de produits localement sourcés." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.790415e+01 ;
+            ns1:longitude 1.903022e+00 ] ;
+    ns1:image <https://le-rayon-vert.coopcycle.org/media/cache/restaurant_thumbnail/61/70/6170314b7fb5c.jpg> ;
+    ns1:name "De Sel et d'Ardoise" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "12:00" ;
+            ns1:dayOfWeek "Saturday" ;
+            ns1:opens "10:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "17:00" ;
+            ns1:dayOfWeek "Friday" ;
+            ns1:opens "13:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "0.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "9.90" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://le-rayon-vert.coopcycle.org/en/restaurant/14-de-sel-et-d-ardoise" ] ] ;
+    ns1:sameAs <https://le-rayon-vert.coopcycle.org/en/restaurant/14-de-sel-et-d-ardoise> ;
+    ns1:url <https://le-rayon-vert.coopcycle.org/en/restaurant/14-de-sel-et-d-ardoise> .
+
+<https://le-rayon-vert.coopcycle.org/api/addresses/41> a ns1:PostalAddress ;
+    ns1:name "De Sel et d'Ardoise" ;
+    ns1:streetAddress "44 Rue du Faubourg Bannier, 45000 Orléans, France" ;
+    ns1:telephone "+33234502340" .
+

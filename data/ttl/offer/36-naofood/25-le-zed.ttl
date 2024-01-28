@@ -1,0 +1,168 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://naofood.coopcycle.org/api/restaurants/25> ns1:hasMenu <https://naofood.coopcycle.org/en/restaurant/25-le-zed#menu> .
+
+<https://naofood.coopcycle.org/en/restaurant/25-le-zed#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e06a0509d.jpeg> ;
+                    ns1:name "A nos enfants ( Cotes Catalanes) . Bio 2022" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.00" ] ] ;
+            ns1:name "Vins" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain burger du Zed, effiloché de pleurotes à la sauce BBQ, cheddar rouge mature, oignons frits, Coriandre, tomates confites, oignons caramélisés au miel, cornichons, sauce burger du Zed et mélange de salades." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e21fdc7d7.jpeg> ;
+                    ns1:name "Le Pulled Mushroom" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Portion de frites !" ;
+                    ns1:name "Frites Maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain burger du zed, Viande fraîche Limousine, lard grillé, Avocat, Cheddar rouge mature , tomates confites, oignons caramélisés au miel, cornichons, sauce burger du Zed et mélange de salades" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/95/65952888394c3.jpeg> ;
+                    ns1:name "Le New Yorkais  (Burger de la semaine)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain burger maison, croustillant de camembert de Normandie AOP, pesto, cheddar rouge mature, cornichons, oignons caramélisés au miel, tomates confites, sauce Zed et roquette. Accompagné de pommes de terre grenaille ou de salade composée." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e0948a35e.jpeg> ;
+                    ns1:name "Burger Camembert Pesto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pain maison, viande charolaise (150g), lard grillé, herbes fraiches, piments japalenos, cheddar rouge mature, cornichons, tomates confites, oignons caramélisés au miel, sauce Zed et roquette.\r
+Servi avec pommes de terre grenaille ou de salade composée.""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e0f181732.jpeg> ;
+                    ns1:name "Burger Jalapenos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pain maison, Croustillants de Curé Nantais, Pesto de tomates confites aux noisettes torréfiées et feta, graines de tournesol caramélisées au sirop d'érable, oignons confit au miel, cornichons, sauce Zed et roquette.\r
+Accompagné de pommes de terre grenaille ou de salade composée.""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e1d110a13.jpeg> ;
+                    ns1:name "Le Nantais Végé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pain burger maison, poulet frit mariné aux épices Cajun, mayonnaise Cajun, Cheddar rouge mature, tomates confites, herbes fraiches, cornichons, oignons caramélisés au miel, sauce Zed et roquette.\r
+Accompagné de pommes de terre grenaille ou de salade composée.""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e20fe300d.jpeg> ;
+                    ns1:name "Le Poulet Cajun" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pain burger maison, viande hachée fraîche charolaise (150g), tomates confites, cornichons, oignons caramélisés au miel, Cheddar rouge mature, sauce Zed et roquette. \r
+Accompagné de pommes de terre grenaille ou de salade composée.""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e0b0ddd12.jpeg> ;
+                    ns1:name "Burger Classique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain burger du Zed, Viande hachée Limousine, Mont D'or AOP, Jambon de Bayonne IGP, tomates confites, oignons caramélisés au miel, cornichons, sauce burger du Zed et mélange de salades." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e1a424f11.jpeg> ;
+                    ns1:name "Le Mont D'or" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pain burger maison, viande hachée charolaise, Fourme d'Ambert AOP , lard grillé, noisettes torréfiées, cornichons, oignons caramélisés au miel, tomates confites, sauce Zed et salades diverses.\r
+Accompagné de pommes de terre grenaille ou de salade composée.""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e0cee758d.jpeg> ;
+                    ns1:name "Burger Fourme" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pain burger maison, rösti de patate douce, burrata entière, cheddar rouge mature, cornichons, oignons caramélisés au miel, tomates confites, sauce Zed et roquette et mâche Nantaise.\r
+Accompagné de pommes de terre grenaille ou de salade composée.""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e1e69436a.jpeg> ;
+                    ns1:name "Le Patate Douce" ;
+                    ns1:nutrition "Milk",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pain burger maison, Croustillants de chèvre frits, miel, cheddar rouge mature , oignons caramélisés au miel, tomates confites, sauce zed, cornichons et roquette.\r
+Servi avec frites maison ou salade composée.""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e18fdbbf2.jpeg> ;
+                    ns1:name "Le Chèvre Miel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pain burger maison, viande fraîche hachée Limousine (FR), Brézain (Raclette de haute Savoie fumé), Lard grillé, oignons caramélisés au miel, tomates confites, cornichons et sauce zed .\r
+Servi avec frites maison ou salade composée.""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e17de7c40.jpeg> ;
+                    ns1:name "Le Brézain" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ] ;
+            ns1:name "Burgers" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e1606e8cb.jpeg> ;
+                    ns1:name "Dr Pepper" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e2ee62bd1.jpeg> ;
+                    ns1:name "Volvic Citron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e2fb96228.jpeg> ;
+                    ns1:name "Volvic Fraise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cidre Bio le Coq toqué" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e127f38f1.jpeg> ;
+                    ns1:name "Cidre artisanal" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e2a8553b6.jpeg> ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e247a7951.jpeg> ;
+                    ns1:name "Lipton Ice Tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e27ee7b5f.jpeg> ;
+                    ns1:name "Oasis Tropical" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Cheese Cake maison, parfum au choix" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e10438ebf.jpeg> ;
+                    ns1:name "Cheese Cake" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fondant Chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e236684e2.jpeg> ;
+                    ns1:name "Le Zwix" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cookie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "Desserts" ] .
+

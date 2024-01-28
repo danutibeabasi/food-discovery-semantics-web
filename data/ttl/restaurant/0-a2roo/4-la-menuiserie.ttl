@@ -1,0 +1,42 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://a2roo.coopcycle.org/api/restaurants/4> a ns1:Restaurant ;
+    ns1:address <https://a2roo.coopcycle.org/api/addresses/24> ;
+    ns1:description """La Menuiserie, c’est un café restaurant locavore où est servie une cuisine savoureuse et engagée, un petit rade où boire un verre soigneusement sélectionné. \r
+\r
+Notre bistrot a obtenu la labellisation 3 ÉCOTABLES : qu’ils soient à boire ou à manger, nos produits sont locaux, nos légumes de saison et bio dans la mesure du possible, nos plats entièrement élaborés sur place avec amour. \r
+Nous nous fournissons en circuit-court chez les producteurs, principalement sous les halles de Dijon. Nous proposons des viandes locales, des plats végétariens et de quoi satisfaire tous les régimes. Nous souhaitons que soient respectés et valorisés l’ensemble des acteurs et collaborateurs, producteurs ou éleveurs.\r
+\r
+## COMMENT ÇA MARCHE ?\r
+\r
+Créez votre compte [sur Bocaux & Co.fr](https://conso.bocaux-and-co.fr), chargez votre cagnotte de consigne. Lors de la livraison, le coursier scannera votre QR code pour déduire les bocaux livrés de votre consigne. \r
+\r
+Vous n'avez pas de compte ou ne souhaitez pas en créer ? Pas de problème votre coursier pourra encaisser directement sur place la consigne.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.73245e+01 ;
+            ns1:longitude 5.0381e+00 ] ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/63/3b/633b4355bec5f.png> ;
+    ns1:name "La Menuiserie" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "09:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://a2roo.coopcycle.org/en/restaurant/4-la-menuiserie" ] ] ;
+    ns1:sameAs <https://a2roo.coopcycle.org/en/restaurant/4-la-menuiserie> ;
+    ns1:url <https://a2roo.coopcycle.org/en/restaurant/4-la-menuiserie> .
+
+<https://a2roo.coopcycle.org/api/addresses/24> a ns1:PostalAddress ;
+    ns1:name "La Menuiserie" ;
+    ns1:streetAddress "28 Rue des Godrans, Dijon, France" ;
+    ns1:telephone "+33380304607" .
+

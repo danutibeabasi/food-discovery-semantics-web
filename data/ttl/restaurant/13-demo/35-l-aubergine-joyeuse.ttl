@@ -1,0 +1,58 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://demo.coopcycle.org/api/restaurants/35> a ns1:Restaurant ;
+    ns1:address <https://demo.coopcycle.org/api/addresses/85> ;
+    ns1:bannerImage "https://demo.coopcycle.org/placeholder/restaurant_banner/placeholders/K1W9loBZPrRB.jpg" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.888158e+01 ;
+            ns1:longitude 2.32929e+00 ] ;
+    ns1:image <https://demo.coopcycle.org/img/cuisine/default.jpg> ;
+    ns1:name "L'aubergine joyeuse" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:00" ;
+            ns1:dayOfWeek "Saturday",
+                "Sunday" ;
+            ns1:opens "09:15" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:30" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "20:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "01:00" ;
+            ns1:dayOfWeek "Saturday",
+                "Sunday" ;
+            ns1:opens "20:15" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:30" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "09:45" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "15.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.50" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://demo.coopcycle.org/en/restaurant/35-l-aubergine-joyeuse" ] ] ;
+    ns1:sameAs <https://demo.coopcycle.org/en/restaurant/35-l-aubergine-joyeuse> ;
+    ns1:url <https://demo.coopcycle.org/en/restaurant/35-l-aubergine-joyeuse> .
+
+<https://demo.coopcycle.org/api/addresses/85> a ns1:PostalAddress ;
+    ns1:name "L'aubergine joyeuse" ;
+    ns1:streetAddress "Villa Ballu 8, 75009 Paris" ;
+    ns1:telephone "+33771318960" .
+

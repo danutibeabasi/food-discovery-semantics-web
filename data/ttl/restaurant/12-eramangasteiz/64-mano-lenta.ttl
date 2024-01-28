@@ -1,0 +1,42 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/64> a ns1:Restaurant ;
+    ns1:address <https://eramangasteiz.coopcycle.org/api/addresses/88329> ;
+    ns1:bannerImage "https://eramangasteiz.coopcycle.org/media/cache/restaurant_banner/65/6d/656dc2889b3ad969775283.jpg" ;
+    ns1:description "COCINAMOS TODO A MANO, CON MIMO Y PACIENCIA, COMO SE HA HECHO SIEMPRE, PORQUE ASÍ LA COMIDA SABE MEJOR." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.284863e+01 ;
+            ns1:longitude -2.682322e+00 ] ;
+    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/restaurant_thumbnail/62/0e/620e3362ae351.jpg> ;
+    ns1:name "Mano Lenta" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "12:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Wednesday" ;
+            ns1:opens "20:10" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "es" ;
+                    ns1:urlTemplate "https://eramangasteiz.coopcycle.org/en/restaurant/64-mano-lenta" ] ] ;
+    ns1:sameAs <https://eramangasteiz.coopcycle.org/en/restaurant/64-mano-lenta> ;
+    ns1:url <https://eramangasteiz.coopcycle.org/en/restaurant/64-mano-lenta> .
+
+<https://eramangasteiz.coopcycle.org/api/addresses/88329> a ns1:PostalAddress ;
+    ns1:name "Mano Lenta" ;
+    ns1:streetAddress "Tomas Alfaro Kalea, 11, Vitoria-Gasteiz, España" ;
+    ns1:telephone "+34945012277" .
+

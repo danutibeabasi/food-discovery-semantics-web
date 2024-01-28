@@ -1,0 +1,184 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://cyclome.coopcycle.org/api/restaurants/31> ns1:hasMenu <https://cyclome.coopcycle.org/en/restaurant/31-y-oumi#menu> .
+
+<https://cyclome.coopcycle.org/en/restaurant/31-y-oumi#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/61/eb/61ebf282bbd8f.jpeg> ;
+                    ns1:name "Assortiment de 4 pâtisseries orientales" ;
+                    ns1:nutrition "Arachides",
+                        "Céréales contenant du gluten",
+                        "Fruits à coque",
+                        "Graines de sésame",
+                        "Lait",
+                        "Oeufs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "10,50 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Semoule de riz au lait, aromatisé à l'eau de rose & pistache concassées" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/61/ec/61ec0508efcb1.jpeg> ;
+                    ns1:name "M'halbi" ;
+                    ns1:nutrition "Fruits à coque",
+                        "Lait" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "4,50 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Fromage blanc sans sucre, aromatisé à la fleur d'oranger et  agrémenté de confit de figues. \r
+Amandes concassées sur le dessus""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/63/75/6375157a0be3b.jpeg> ;
+                    ns1:name "Fromage blanc figues" ;
+                    ns1:nutrition "Fruits à coque",
+                        "Lait" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "4,50 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Indisponible" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/61/eb/61ebf5a8ea9d6.jpeg> ;
+                    ns1:name "Crémeux dattes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "4,50 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Indisponible" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/62/73/6273a2a7de2f2.jpeg> ;
+                    ns1:name "Besboussa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "4,20 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Indisponible" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/64/92/6492ed28bd0d4.jpeg> ;
+                    ns1:name "Zamita / Sellou" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "7,50 €" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Perrier 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "2,50 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Citronnade Bio & artisanale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "3,90 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Volvic" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "2,50 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La limonade algérienne par excellence, 33cl" ;
+                    ns1:name "Hamoud Boualem" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "3,20 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "2,50 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Orangeade Bio & artisanale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "3,90 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Coca cola sans sucre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "2,50 €" ] ] ;
+            ns1:name "Boissons fraîches" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Boulettes de kefta maison (bœuf, herbes, épices) sauce rouge parfumé aux  épices accompagné de courgettes, carottes, navets et pois chiches" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/63/75/637514ba61448.jpeg> ;
+                    ns1:name "Couscous kefta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "16,90 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Légumes (courgettes, carottes, navets et pois chiches) cuits dans un bouillon parfumé aux épices. (avec de la semoule)\r
+À réchauffer""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/63/b8/63b80844878e6.jpeg> ;
+                    ns1:name "Couscous Légumes 🌱" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "15,90 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Sauce obtenue à partir d'un confit d'oignons, raisins secs et pois chiches.\r
+Subtilement parfumé de fleur d’oranger et parsemé d’amandes grillées.""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/63/75/6375152cb3802.jpeg> ;
+                    ns1:name "Couscous Tfaya 🌱" ;
+                    ns1:nutrition "Fruits à coque" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "15,90 €" ] ] ;
+            ns1:name "Couscous" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Semoule roulée à la main & cuite de façon traditionnelle au couscoussier" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/63/75/637517de62eb6.jpeg> ;
+                    ns1:name "Semoule tajine" ;
+                    ns1:nutrition "Céréales contenant du gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "1,50 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/61/ec/61ec149913f4e.jpeg> ;
+                    ns1:name "Pain rond individuel à la semoule" ;
+                    ns1:nutrition "Céréales contenant du gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "1,10 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Harissa maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "0,50 €" ] ] ;
+            ns1:name "Petits Plaisirs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Indisponible" ;
+                    ns1:name "Tajine de veau sucré" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "17,90 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Plat sucré/salé: Potimarron, chou, carottes & dattes avec sa sauce aux épices (non piquant).  \r
+Semoule à ajouter dans "petits plaisirs".""" ;
+                    ns1:name "Tajine de saison 🌱" ;
+                    ns1:nutrition "Fruits à coque" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "16,90 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet désossé cuit avec du citron confit, pommes de terre & olives vertes" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/63/75/637516fa22234.jpeg> ;
+                    ns1:name "Tajine Poulet aux citrons confits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "15,90 €" ] ] ;
+            ns1:name "Tajines" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Le sandwich à l'oriental !\r
+Base de msemen (galette feuilletée à la semoule), garniture au choix parmi les options""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/63/75/637517460c645.jpeg> ;
+                    ns1:name "Wrap'Y" ;
+                    ns1:nutrition "Céréales contenant du gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "13,50 €" ] ] ;
+            ns1:name "Street food 🔥🌯" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Indisponible" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/61/ec/61ec02ba96ec5.jpeg> ;
+                    ns1:name "Garantita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "4,90 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Indisponible" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/61/ec/61ec14e77d647.jpeg> ;
+                    ns1:name "Soupe 🌱" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "4,90 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Indisponible" ;
+                    ns1:name "Carottes à l'argan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "5,20 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Purée de pois chiches légèrement relevé d’harissa maison" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/61/ec/61ec143d71c39.jpeg> ;
+                    ns1:name "Houmous 🌱" ;
+                    ns1:nutrition "Graines de sésame" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "4,95 €" ] ] ;
+            ns1:name "Entrées" ] .
+

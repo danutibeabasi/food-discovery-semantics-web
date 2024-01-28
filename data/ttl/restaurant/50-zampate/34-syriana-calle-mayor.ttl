@@ -1,0 +1,52 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://zampate.coopcycle.org/api/restaurants/34> a ns1:Restaurant ;
+    ns1:address <https://zampate.coopcycle.org/api/addresses/17816> ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.165336e+01 ;
+            ns1:longitude -8.761978e-01 ] ;
+    ns1:image <https://zampate.coopcycle.org/media/cache/restaurant_thumbnail/63/23/6323000823ed2.jpg> ;
+    ns1:name "SYRIANA (CALLE MAYOR)" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:00" ;
+            ns1:dayOfWeek "Thursday" ;
+            ns1:opens "13:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:30" ;
+            ns1:dayOfWeek "Sunday",
+                "Wednesday" ;
+            ns1:opens "20:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday" ;
+            ns1:opens "13:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "23:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday" ;
+            ns1:opens "20:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "12.50" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.50" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "es" ;
+                    ns1:urlTemplate "https://zampate.coopcycle.org/en/restaurant/34-syriana-calle-mayor" ] ] ;
+    ns1:sameAs <https://zampate.coopcycle.org/en/restaurant/34-syriana-calle-mayor> ;
+    ns1:url <https://zampate.coopcycle.org/en/restaurant/34-syriana-calle-mayor> .
+
+<https://zampate.coopcycle.org/api/addresses/17816> a ns1:PostalAddress ;
+    ns1:name "SYRIANA (CALLE MAYOR)" ;
+    ns1:streetAddress "Calle Mayor, 28-30, Zaragoza, España" ;
+    ns1:telephone "+34633136915" .
+

@@ -1,0 +1,35 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lescoursiersnanceiens.coopcycle.org/api/restaurants/36> a ns1:Restaurant ;
+    ns1:address <https://lescoursiersnanceiens.coopcycle.org/api/addresses/875> ;
+    ns1:description """C’est un petit coin d’Arménie sis au coeur de Nancy. [...] Cette hôtesse charmeuse dans sa maison douce vient goûter ici entre amis aux charmes simples mais frais d’un bistrot au jour le jour. Ce café anodin depuis l’extérieur, a gardé un air de bistrot 1880 avec stucs fort bien mis. Colonnades, lampes et pampres Art nouveau, comptoir, banquettes et ardoises du jour donnent le ton d’un lieu de toujours.\r
+\r
+Le style culinaire est franco-arménien, sous la houlette de Régis et Emma Petri – lui est originaire de Sarrebourg, elle arménienne -, et l’on sert là des mets qui reflètent les humeurs du jour comme les références aux racines d’Emma. Harengs marinés aux pommes tièdes, rillettes maison, crudités « malossol », pkhali (roulés de légumes grillés aux noix) font de plaisants hors d’oeuvres. Il y a aussi les moules de bouchot en marinière, la salade vosgienne, l’émincé de rognon de veau à la dijonnaise, le tartare de boeuf pommes sautées. Mais la vedette de la maison est tenue par l’assiette arménienne avec pkhali, dolma, blintchik, pimelni.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.86847e+01 ;
+            ns1:longitude 6.18707e+00 ] ;
+    ns1:image <https://lescoursiersnanceiens.coopcycle.org/media/cache/restaurant_thumbnail/61/5b/615b0d97c4a6b.jpg> ;
+    ns1:name "Le Strasbourg" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:15" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "09:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://lescoursiersnanceiens.coopcycle.org/en/restaurant/36-le-strasbourg" ] ] ;
+    ns1:sameAs <https://lescoursiersnanceiens.coopcycle.org/en/restaurant/36-le-strasbourg> ;
+    ns1:url <https://lescoursiersnanceiens.coopcycle.org/en/restaurant/36-le-strasbourg> .
+
+<https://lescoursiersnanceiens.coopcycle.org/api/addresses/875> a ns1:PostalAddress ;
+    ns1:name "Le Strasbourg" ;
+    ns1:streetAddress "22 Place des Vosges, 54000 Nancy, France" ;
+    ns1:telephone "+33383354130" .
+

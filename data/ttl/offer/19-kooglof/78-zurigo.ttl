@@ -1,0 +1,195 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://kooglof.coopcycle.org/api/restaurants/78> ns1:hasMenu <https://kooglof.coopcycle.org/en/restaurant/78-zurigo#menu> .
+
+<https://kooglof.coopcycle.org/en/restaurant/78-zurigo#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pizza, fond de tomate, mozzarella, poivrons, courgettes et aubergines poêlés" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/9c/649c3495ae247.jpeg> ;
+                    ns1:name "Pizza all'ortolana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "18,00 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pizza, fond de tomate, mozzarella, taleggio roquette et tomates cerise" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/9c/649c34bc857b5.jpeg> ;
+                    ns1:name "Pizza taleggio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "19,00 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pizza, fond de tomate, gorgonzola & pancetta" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/9c/649c3444789fb.jpeg> ;
+                    ns1:name "Pizza gorgonzola & pancetta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "20,00 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pizza blanche, pesto de basilic, jambon aux herbes" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/9c/649c33b96642d.jpeg> ;
+                    ns1:name "Pizza blanche pesto de basilic & jambons aux herbes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "19,00 €" ] ] ;
+            ns1:name "Pizze 🍕" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate faites maison, cuisson 5 heures" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/9c/649c365096f51.jpeg> ;
+                    ns1:name "Pasta sauce napolitaine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "14,00 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâtes assaisonnées de d'une sauce tomate à la nduja, l'ensemble étant légèrement pimenté." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/9c/649c3613e8f2a.jpeg> ;
+                    ns1:name "Pasta Nduja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "18,00 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâtes aux légumes; poivrons, aubergines, courgettes" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/9c/649c35b00f0d3.jpeg> ;
+                    ns1:name "Pasta all'ortolana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "18,00 €" ] ] ;
+            ns1:name "Pasta 🍝" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Tiramisu fait maison" ;
+                    ns1:nutrition "Céréales contenant du gluten",
+                        "Lait",
+                        "Oeufs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "6,00 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Indisponible" ;
+                    ns1:name "Fraises" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "6,00 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nature ou accompagnée d'un filet de confiture (Monastero Trappiste Vitorchiano)" ;
+                    ns1:name "Pannacotta faite maison, parfumée à la vanille de Madagascar Bio" ;
+                    ns1:nutrition "Fruits à coque",
+                        "Lait" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "6,00 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Tarte à la confiture, dessert classique par excellence : pâte brisée et garniture de confiture \r
+Cette semaine confiture de pêche""" ;
+                    ns1:name "Tarte Crostata faite maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "6,00 €" ] ] ;
+            ns1:name "Dessert 🧁" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Indisponible" ;
+                    ns1:name "Salade de pâtes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "17,00 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade composées de légumes et de charcuterie italienne" ;
+                    ns1:name "Salade antipasti & charcuterie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "18,00 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Salade de burrata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "20,00 €" ] ] ;
+            ns1:name "Salades 🥗" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Cépages : Corvina, Rondinella, Molinara" ;
+                    ns1:name "Rosé Italien La Canestraia Chiaretto di Bardolino DOC 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "18,00 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cépage : Giera" ;
+                    ns1:name "Prosecco DOC Spumante Extra Dry 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "18,00 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cépages : Lambrusco Salamino, Lambrusco Grasparossa, Lambrusco Marani, Lambrusco Maestri" ;
+                    ns1:name "Lambrusco di Modena Amabile Biologico DOC 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "12,00 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Valle d'Oro Trebbiano d'Abruzzo DOC, cépage Trebbiano d'Abruzzo" ;
+                    ns1:name "Blanc Italien des Abruzzes Valle d'Oro DOC 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "18,00 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cépage : Sangiovese" ;
+                    ns1:name "Rouge italien Monte Pietroso Terre Sicilienne 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "18,00 €" ] ] ;
+            ns1:name "Alcools 🍸" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Variété de 3 charcutières en fonction de nos arrivages" ;
+                    ns1:name "Plateau de charcuterie solo ou duo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "8,00 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Variété de trois fromages en fonction de nos arrivages" ;
+                    ns1:name "Plateau de fromage solo ou duo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "12,00 €" ] ] ;
+            ns1:name "Nos plateaux 🧀" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Importé d'Italie, Bio." ;
+                    ns1:name "Tonic (bio)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "3,00 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Importé d'Italie" ;
+                    ns1:name "Eau plate 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "2,50 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Importé d'Italie, Bio." ;
+                    ns1:name "Ginger Beer (bio) 35cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "3,00 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Importé d'Italie" ;
+                    ns1:name "Eau gazeuse 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "2,50 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Importé d'Italie, Bio." ;
+                    ns1:name "Citron (bio) 35cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "3,00 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Importé d'Italie, Bio." ;
+                    ns1:name "Ice Tea (bio) 35cl Pêche ou Citron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "3,00 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Importé d'Italie, Bio." ;
+                    ns1:name "Cola (bio) 35cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "3,00 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Importé d'Italie, Bio." ;
+                    ns1:name "Limonade (bio) 35cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "3,00 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Importé d'Italie, Bio." ;
+                    ns1:name "Orange Sanguine (bio) 35cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "3,00 €" ] ] ;
+            ns1:name "Boissons 🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Formule avec 2 pizze et une bouteille de vin italien au choix ! (Rouge, Rosé, Blanc, Lambrusco, Prosecco)" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/9c/649c3fbb136b4.jpeg> ;
+                    ns1:name "Formule Duo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "45,00 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Formule avec 2 pizze au choix, 2 dessert au choix et une bouteille de vin italien au choix ! (Rouge, Rosé, Blanc, Lambrusco, Prosecco)" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/9c/649c420238685.jpeg> ;
+                    ns1:name "Formule Duo + Desserts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "55,00 €" ] ] ;
+            ns1:name "Formules de lancement ! ⭐" ] .
+

@@ -1,0 +1,44 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://fast-and-curious.coopcycle.org/api/restaurants/43> a ns1:Restaurant ;
+    ns1:address <https://fast-and-curious.coopcycle.org/api/addresses/2285> ;
+    ns1:description """GALETTES, CRÊPES, SALADES BOWLS\r
+Crêperie moderne alliant produits frais, régionaux et bio, dans une ambiance chaleureuse et conviviale <3\r
+Toutes préparées avec amour, Pearl élabore des recettes new age et sans gluten \r
+Délicieux!""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.94954e+01 ;
+            ns1:longitude 9.9275e-02 ] ;
+    ns1:image <https://fast-and-curious.coopcycle.org/media/cache/restaurant_thumbnail/62/45/6245881471b5e.jpg> ;
+    ns1:name "Black Pearl" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://fast-and-curious.coopcycle.org/en/restaurant/43-black-pearl" ] ] ;
+    ns1:sameAs <https://fast-and-curious.coopcycle.org/en/restaurant/43-black-pearl> ;
+    ns1:url <https://fast-and-curious.coopcycle.org/en/restaurant/43-black-pearl> .
+
+<https://fast-and-curious.coopcycle.org/api/addresses/2285> a ns1:PostalAddress ;
+    ns1:name "Black Pearl" ;
+    ns1:streetAddress "68 Rue Frédéric Bellanger, 76600 Le Havre, France" ;
+    ns1:telephone "+33650092709" .
+

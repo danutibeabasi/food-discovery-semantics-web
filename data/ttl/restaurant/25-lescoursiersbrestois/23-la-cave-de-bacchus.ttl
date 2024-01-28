@@ -1,0 +1,32 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/restaurants/23> a ns1:Winery ;
+    ns1:address <https://lescoursiersbrestois.coopcycle.org/api/addresses/1894> ;
+    ns1:description "Caviste à Brest depuis 1995. Vins d'auteurs respectueux de l'environnement et de l'humain, bières artisanales, spiritueux, épicerie fine. Vous retrouverez ici une petite sélection de nos produits. Pour avoir accès à l'ensemble de notre gamme, passez par notre site et choisissez la livraison par les Coursiers Brestois !" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.838722e+01 ;
+            ns1:longitude -4.487688e+00 ] ;
+    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/restaurant_thumbnail/62/bd/62bd6bebcbad8.png> ;
+    ns1:name "La Cave de Bacchus" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "19:45" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "10:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://lescoursiersbrestois.coopcycle.org/en/restaurant/23-la-cave-de-bacchus" ] ] ;
+    ns1:sameAs <https://lescoursiersbrestois.coopcycle.org/en/restaurant/23-la-cave-de-bacchus> ;
+    ns1:url <https://lescoursiersbrestois.coopcycle.org/en/restaurant/23-la-cave-de-bacchus> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/addresses/1894> a ns1:PostalAddress ;
+    ns1:name "La Cave de Bacchus" ;
+    ns1:streetAddress "10 Rue Alain Fournier, Brest, France" ;
+    ns1:telephone "+33298443376" .
+

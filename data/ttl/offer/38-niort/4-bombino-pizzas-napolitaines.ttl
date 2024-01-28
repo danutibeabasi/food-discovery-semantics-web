@@ -1,0 +1,225 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://niort.coopcycle.org/api/restaurants/4> ns1:hasMenu <https://niort.coopcycle.org/en/restaurant/4-bombino-pizzas-napolitaines#menu> .
+
+<https://niort.coopcycle.org/en/restaurant/4-bombino-pizzas-napolitaines#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Burrata truffes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Buonissimo !" ;
+                    ns1:name "Focaccia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Burrata olio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "ANTIPASTI" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate Fior di latte Roquette Tomates datterini Double burrata Parmesan" ;
+                    ns1:name "Verrati Burrata Végétariene" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème de taleggio, fior di latte, provolone, gorgonzola, pecorino poivre*, basilic*, huile olive*" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/24/652400b6109a6.jpeg> ;
+                    ns1:name "Puissance 5 (Fromages)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomates, tomates confites, ail, basilic frais, huile d’olive, origan, parmesan" ;
+                    ns1:name "Marinara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomates, fior di latte, jambon de Parme*, pousses d’épinards*, burrata*, parmigiano reggiano*, tomates cerises*" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/24/6524010f4ffc8.jpeg> ;
+                    ns1:name "Verrati Burrata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème de truffes blanches, gorgonzola, pleurotes, speck*, taralli pugliesi*, truffes fraîches*" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/24/6524001c2ca3f.jpeg> ;
+                    ns1:name "Tu Truffes ?" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fior di latte, porchetta, pomme de terre, fondue taleggio, basilic, huile d’olive" ;
+                    ns1:name "Sexy Calzedonia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella di bufala, tomates, basilic frais, huile d’olive" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/24/6524006a60106.jpeg> ;
+                    ns1:name "Margherita DOP" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomates, fior di latte, ventricina des Abbruzzes, aubergines, pecorino poivre*, basilic*" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/23/6523ffb5c79c2.jpeg> ;
+                    ns1:name "Red Hot Pizza Peppers" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Le super lapin ! Tomates, Jambon rosto, Mozzarella fior di latte" ;
+                    ns1:name "Pizza Enfant" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème courgettes jaunes, fior di latte, pousses d’épinards*, aubergines*, tomates cerises*, parmigiano reggiano*" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/23/6523ffebe6abf.jpeg> ;
+                    ns1:name "Ortolana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fondue provolone, fior di latte, pleurotes, jambon blanc, huile d’olive*" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/24/652400e3869e4.jpeg> ;
+                    ns1:name "Regina 2.0" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème de courgettes, pousses épinards*, saumon fumé*, crème burrata citron & basilic*, huile d’olive*" ;
+                    ns1:name "Pescheria Lover" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.50" ] ] ;
+            ns1:name "PIZZA NAPOLETANA" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tiramisù fait avec amour, à Bombino !" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/23/6523ee874bb5b.jpeg> ;
+                    ns1:name "Tiramissimo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâtisserie sicilienne Artisanale. Biscuits gaufrés farcis d’une crème de ricotta de brebis aux pépites de chocolat et saupoudrés de sucre glace et pistaches" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/23/6523eef2b610e.jpeg> ;
+                    ns1:name "Cannoli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ] ;
+            ns1:name "DOLCI" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Panuozzo 5 Fromages" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Roquette, coppa, tomates datterino, fior di latte, parmesan, huile d’olive" ;
+                    ns1:name "Panuozzo di Parma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "PANUOZZO" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Sec !" ;
+                    ns1:name "Lambrusco Secco Emilia IGT" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gourmand !" ;
+                    ns1:name "Lambrusco Rosso Amabile Emilia IGT" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Tignanello 2015" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€190.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Etna Rosso DOC \"A Rina\" 2017 - Girolamo Russo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€43.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl Blonde italienne" ;
+                    ns1:name "Bière Poretti" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Vino Rosso" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Barbera d'Alba" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€34.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Vino Bianco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Etna Rosso DOC \"Feudo\" 2017 - Girolamo Russo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€88.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Presa n°3" ;
+                    ns1:name "Prosecco Rosato" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Otello Nero Lambrusco Secco EMilia IGT" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ] ;
+            ns1:name "Vino & Birra" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/24/652401402d954.jpeg> ;
+                    ns1:name "Pack 12 sodas Siciliens" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sodas bio siciliens | Eau de source naturelle de l'Etna" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/24/65240193c941b.jpeg> ;
+                    ns1:name "Orange" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Eau Plate 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sodas bio siciliens | Eau de source naturelle de l'Etna" ;
+                    ns1:name "Orange Sanguine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sodas bio siciliens | Eau de source naturelle de l'Etna" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/24/65240161ae2b4.jpeg> ;
+                    ns1:name "Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sodas bio siciliens | Eau de source naturelle de l'Etna" ;
+                    ns1:name "Mandarine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Eau gazeuse 50cl" ;
+                    ns1:name "San Pellegrino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "SOFT" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/24/652401fb07e7a.jpeg> ;
+                    ns1:name "FIlets de thon Delfino 545g" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/24/6524022065d6b.jpeg> ;
+                    ns1:name "Tomates Datterino Rosso au naturel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ] ;
+            ns1:name "NOS FABULEUX PRODUITS ITALIENS" ] .
+

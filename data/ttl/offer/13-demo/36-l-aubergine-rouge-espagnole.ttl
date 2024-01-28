@@ -1,0 +1,72 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://demo.coopcycle.org/api/restaurants/36> ns1:hasMenu <https://demo.coopcycle.org/en/restaurant/36-l-aubergine-rouge-espagnole#menu> .
+
+<https://demo.coopcycle.org/en/restaurant/36-l-aubergine-rouge-espagnole#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Moelleux aux fruits confits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.83" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crêpe au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.17" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Gâteau au sucre glace" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.44" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Flan aux pépites de chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.51" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Flan aux pommes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.77" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Courgettes mi-cuit·e·s au gros sel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.91" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tomates aux carottes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.72" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lapin mi-cuit·e·s à la crème" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.54" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Escargots farci·e·s au vin rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.21" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lapin aux poivrons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.66" ] ] ;
+            ns1:name "Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Jambon cru en salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.35" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pickles en salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.09" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crudités en salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.93" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crudités à l'huile d'olive" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.53" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crudités à l'huile d'olive" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.29" ] ] ;
+            ns1:name "Entrées" ] .
+

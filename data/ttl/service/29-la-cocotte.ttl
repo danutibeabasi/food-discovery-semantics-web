@@ -1,0 +1,19 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://la-cocotte.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "fr" ;
+                    ns1:addressLocality "Toulon" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 4.312519e+01 ;
+                    ns1:longitude 5.93104e+00 ] ] ;
+    ns1:description "La Cocotte, an ethical and fast delivery for restaurants and shopkeepers in Toulon and its surroundings."@en,
+        "La Cocotte, une livraison éthique et rapide pour les restaurants et commerçants de Toulon et ses environs."@fr ;
+    ns1:name "La Cocotte" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://la-cocotte.coopcycle.org> .
+

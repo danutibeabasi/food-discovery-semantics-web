@@ -1,0 +1,45 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://coursiers-stephanois.coopcycle.org/api/restaurants/54> a ns1:Restaurant ;
+    ns1:address <https://coursiers-stephanois.coopcycle.org/api/addresses/9427> ;
+    ns1:bannerImage "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_banner/65/98/65983a1f08ff8.png" ;
+    ns1:description """Munchies, c'est l'envie de faire partager une cuisine simple, chaleureuse et travaillée, qui prend son inspiration de la street-food du monde ! \r
+Des plats populaires qu'on mange sur le pouce ou en prenant son temps mais surtout qu'on déguste !\r
+Des recettes qui s'inspirent de l'Amérique centrale, de l'Asie ou du Moyen-Orient. L'important pour nous, c'est de proposer des recettes équilibrées, avec des produits de qualité et surtout travailler en local.\r
+\r
+Dégustez nos tacos mexicains et découvrir nos menus hebdomadaires, entièrement fait maison, élaborés avec des produits frais et de qualité.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.54392e+01 ;
+            ns1:longitude 4.39335e+00 ] ;
+    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560ca9f762fa.jpg> ;
+    ns1:name "Munchies" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "13.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.50" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://coursiers-stephanois.coopcycle.org/en/restaurant/54-munchies" ] ] ;
+    ns1:sameAs <https://coursiers-stephanois.coopcycle.org/en/restaurant/54-munchies> ;
+    ns1:url <https://coursiers-stephanois.coopcycle.org/en/restaurant/54-munchies> .
+
+<https://coursiers-stephanois.coopcycle.org/api/addresses/9427> a ns1:PostalAddress ;
+    ns1:name "Munchies" ;
+    ns1:streetAddress "39 Rue de la République, 42000 Saint-Étienne, France" ;
+    ns1:telephone "+33765837739" .
+

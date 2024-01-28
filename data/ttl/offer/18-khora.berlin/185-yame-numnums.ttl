@@ -1,0 +1,452 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://khora.berlin/en/restaurant/185-yame-numnums> ns1:hasMenu <https://khora.berlin/en/restaurant/185-yame-numnums#menu> .
+
+<https://khora.berlin/en/restaurant/185-yame-numnums#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Lachshaut, Chilijam, Gurke, Avocado, Thaibasilikum, Masagocoat" ;
+                    ns1:name "JOKI IO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tamago, Kimchi-Frischkäse, Gurke, Baconcoat" ;
+                    ns1:name "YAME IO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "TAIYO IO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thunfisch, Avocado Panko Tempura, Wakame mit Sesam, Chilimayonnaise, Sesamcoat, Katsobushiflocken" ;
+                    ns1:name "AME IO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thunfisch Tartar gewürzt mit Sesamöl, Chilijam, Frühlingszwiebeln, Avocado, Gurke, Sesamcoat" ;
+                    ns1:name "HI IO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Butterfisch, Thaibasilikum, Mango, schwarzer Kaviar und Trüffelmayonnaise, Masagocoat" ;
+                    ns1:name "MORI IO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Spargel Panko Tempura, Chilijam, Oshinko, Avocadocoat" ;
+                    ns1:name "CHIKYU IO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Flusskrebs in Kimchi-Mayonnaise, Avocado, Frühlingszwiebeln, Teriyakisauce, Masagocoat" ;
+                    ns1:name "FURO IO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lachs, Oshinko, Kimchi-Frischkäse, Masagocoat" ;
+                    ns1:name "KAZE IO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Süßkartoffel, Avocado, Mango, Kimchi-Frischkäse, Sesamcoat" ;
+                    ns1:name "MEYA IO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "YaMe Signature Inside Out" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Butterfisch, Gurke, Avocado, Masagocoat" ;
+                    ns1:name "Mutsu Kappa Avo IO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Flussaal, Gurke, Avocado, Sesamcoat" ;
+                    ns1:name "Unagi Kappa Avo IO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gurke, Rettich, Avocado, Sesamcoat" ;
+                    ns1:name "Kappa Oshinko Avo IO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thunfisch, Gurke, Frischkäse, Sesamcoat" ;
+                    ns1:name "Tekka Kappa, Creamcheese IO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Surimi, Avocado, Masagocoat" ;
+                    ns1:name "Surimi Avo IO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lachs, Avocado, Masagocoat" ;
+                    ns1:name "Sake Avo IO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Flusskrebs in Chilimayonnaise, Frühlingszwiebeln, Sesamcoat" ;
+                    ns1:name "Kani IO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Traditionelle Inside Out" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Thunfisch" ;
+                    ns1:name "Tekka Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Garnele, Frühlingszwiebeln" ;
+                    ns1:name "Negi Ebi Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gurke" ;
+                    ns1:name "Kappa Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "marinierter Kräuterseitling" ;
+                    ns1:name "Eringi Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Rettich" ;
+                    ns1:name "Oshinko Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ei" ;
+                    ns1:name "Tamago Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thunfisch, Gurke" ;
+                    ns1:name "Tekka Kappa Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lachs" ;
+                    ns1:name "Sake Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Algensalat, Sesam" ;
+                    ns1:name "Wakame Sesam Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Avocado Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lachs, Avocado" ;
+                    ns1:name "Sake Avo Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Flussall an hausgemachter Teriyakisauce" ;
+                    ns1:name "Unagi Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Butterfisch" ;
+                    ns1:name "Mutsu Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Surimi, Avocado" ;
+                    ns1:name "Surimi Avo Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Traditionelle Maki" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bacon, Tamago, Kimchi-Frischkäse, Ingwersirup" ;
+                    ns1:name "KOJU Big Roll" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lachs, Kimchi-Frischkäse, Avocado, Oshinko, Teriyakisauce" ;
+                    ns1:name "MIZU Big Roll" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Zucchini Panko Tempura, Oshinko, Teriyakisauce" ;
+                    ns1:name "SHIZUKU Big Roll" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Süßkartoffel, Mango, Avocado, Trüffelmayonnaise" ;
+                    ns1:name "IZUMI Big Roll" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thunfisch, Frühlingszwiebeln, Mango, Trüffelmayonnaise" ;
+                    ns1:name "ABURA IO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Fittierte BigRoll" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Thunfisch, Katsobushiflocken, Kimchi-Mayonnaise" ;
+                    ns1:name "Tekka Kimchi Nigiri" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Eringi Nigiri" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Thaibasilikum Pesto" ;
+                    ns1:name "Mozzarella Nigiri" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Teriyakisauce" ;
+                    ns1:name "Avocado Panko Tempura Nigiri" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lachs, Frühlingszwiebeln Chilijam" ;
+                    ns1:name "Sake Chilijam Nigiri" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "YaMe Nigiri (zwei Stück)" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "6 Scheiben vom Lachs" ;
+                    ns1:name "Sake Sashimi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 Scheiben vom Thunfisch" ;
+                    ns1:name "Tekka Sashimi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "Sashimi Classics" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """- Avocado Maki\r
+- MIDORI Maki - Zucchini Panko Tempura, Kimchi-\r
+Frischkäse\r
+- Kappa Oshinko Avo Inside Out \r
+- Mozzarella mit Thaibasilikum Pesto Nigiri (2 Stück)\r
+- IZUMI Big Roll - Süßkartoffel, Mango, Avocado,\r
+Trüffelmayonnaise""" ;
+                    ns1:name "Shea (vegetarisch) Set" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """- Sake Avo Maki – Lachs, Avocado\r
+- ASHI Maki- Gekochter Thunfisch, Frühlingszwiebeln,\r
+Gurke, Kimchi-Mayonnaise 5,50\r
+- Sake Avo Inside Out – Lachs, Avocado, Masagocoat \r
+- FURO Inside Out - Flusskrebs in Kimchi-Mayonnaise,\r
+Avocado, Frühlingszwiebeln, Teriyakisauce, Masagocoat \r
+- IZUMI Big Roll - Süßkartoffel, Mango, Avocado,\r
+Trüffelmayonnaise""" ;
+                    ns1:name "Aisuru Set" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€36.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """- Mutsu Maki – Butterfisch\r
+- NIWA Maki – Tamago, Kimchi-Frischkäse\r
+- Sake Avo Inside Out – Lachs, Avocado, Masagocoat \r
+- HI Inside Out - Thunfisch Tartar gewürzt mit Sesamöl, Chilijam, Frühlingszwiebeln, Avocado, Gurke, Sesamcoat \r
+- IZUMI Big Roll - Süßkartoffel, Mango, Avocado, Trüffelmayonnaise\r
+- Sake Nigiri (2 Stück)\r
+- Avocado Panko Tempura Nigiri, Teriyakisauce (2 Stück)""" ;
+                    ns1:name "Hato Set" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€42.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """- Avocado Maki,\r
+- SUNA Maki - Spargel Panko Tempura\r
+- Kappa Oshinko Avocado Inside Out\r
+- CHIKYU Inside Out - Spargel Panko Tempura, Chilijam, Oshinko, Avocadocoat""" ;
+                    ns1:name "Issho (vegan) Set" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ] ;
+            ns1:name "SUSHI-SETS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Ei" ;
+                    ns1:name "Tamago Nigiri" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Garnele" ;
+                    ns1:name "Ebi Nigiri" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lachs" ;
+                    ns1:name "Sake Nigiri" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Butterfisch" ;
+                    ns1:name "Mutsu Nigiri" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thunfisch" ;
+                    ns1:name "Tekka Nigiri" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Traditionelle Nigiri (zwei Stück)" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Glutenfreie Sojasauce" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "hausgemachte Teriyakisauce" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "hausgemachte Trüffelmayonnaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "hausgemachte Chilimayonnaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.50" ] ] ;
+            ns1:name "Extras" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Zucchini, Spargel, Avocado, serviert mit Trüffelmayonnaise oder Chilimayonnaise" ;
+                    ns1:name "Grünes Gemüse Panko Tempura" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Himalayasalz" ;
+                    ns1:name "Edamame" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tofu, Algenblätter, Frühlingszwiebeln, Kimchi" ;
+                    ns1:name "Kimchi Misosuppe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Algensalat mit Sesam" ;
+                    ns1:name "Wakame Side" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tofu, Algenblätter, Frühlingszwiebeln" ;
+                    ns1:name "Misosuppe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "leicht scharfes Tartar aus Thunfisch mit Frühlingszwiebeln und Sesamöl" ;
+                    ns1:name "Tunatatar Side" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "knusprig frittierte Garnelen Tempura in Pankomehl, serviert mit Trüffelmayonnaise oder Chilimayonnaise (2 Stück)" ;
+                    ns1:name "Crispy Ebi Tempura" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "hausgemachtes veganes Kimchi Side" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "YaMe Platter" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ] ;
+            ns1:name "YaMe Sides" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella, hausgemachtes Thaibasilikum Pesto, frischer Thaibasilikum" ;
+                    ns1:name "HA Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tamago, Kimchi-Frischkäse" ;
+                    ns1:name "NIWA Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thunfisch, Algensalat, Sesam" ;
+                    ns1:name "MIZUUMI Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gekochter Thunfisch, Frühlingszwiebeln, Gurke, Kimchi- Mayonnaise" ;
+                    ns1:name "ASHI Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bacon, Kimchi-Frischkäse" ;
+                    ns1:name "KIMUCHI Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Zucchini Panko Tempura, Kimchi-Frischkäse" ;
+                    ns1:name "MIDORI Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Butterfisch, Frühlingszwiebeln, Trüffelmayonnaise" ;
+                    ns1:name "TSUCHI Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Eringi - marinierter Kräuterseitling, Trüffelmayonnaise" ;
+                    ns1:name "KI Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lachs, Avocado Panko Tempura, Chilimayonnaise" ;
+                    ns1:name "IRO Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Flusskrebs in Kimchi-Mayonnaise, Frühlingszwiebeln" ;
+                    ns1:name "UMI Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Spargel Panko Tempura" ;
+                    ns1:name "SUNA Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Knusprige Lachshaut in Chilijam" ;
+                    ns1:name "AKAI Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Avocado Panko Tempura, frische Mango, frischer Thaibasilikum" ;
+                    ns1:name "KUDAMONO Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "YaMe Maki" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "hausgemachte Ingwer-Zitronen Limonade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Coca Cola light" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,2" ;
+                    ns1:name "Coca Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Getränke" ] .
+

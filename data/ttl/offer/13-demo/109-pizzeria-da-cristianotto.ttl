@@ -1,0 +1,32 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://demo.coopcycle.org/api/restaurants/109> ns1:hasMenu <https://demo.coopcycle.org/en/restaurant/109-pizzeria-da-cristianotto#menu> .
+
+<https://demo.coopcycle.org/en/restaurant/109-pizzeria-da-cristianotto#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "CocaCola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Peroni" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/1a/631af19968efb.jpeg> ;
+                    ns1:name "Birra" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Bibite" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pomodoro, olio extravergine, fior di latte, basilico" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/1a/631af1f523554.jpeg> ;
+                    ns1:name "Margherita" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pomodoro, olio extravergine, origano, sale" ;
+                    ns1:name "Marinara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Pizze" ] .
+

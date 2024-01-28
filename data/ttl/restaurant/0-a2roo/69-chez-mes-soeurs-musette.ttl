@@ -1,0 +1,44 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://a2roo.coopcycle.org/api/restaurants/69> a ns1:Restaurant ;
+    ns1:address <https://a2roo.coopcycle.org/api/addresses/13236> ;
+    ns1:description """Nous sommes 3 sœurs : Anne-Sophie, Anne-Claire & Annabelle. Passionnées par la cuisine et le commerce et avons réuni nos talents pour vous proposer un concept de cuisine nomade unique. Vous pouvez prendre le temps de savourer sur place les spécialités faites maison avec amour dans notre laboratoire. Mieux encore, n'hésitez pas à accompagner votre dégustation d’une lecture choisie dans notre librairie solidaire.\r
+\r
+Il est possible de consommer sur place, en terrasse ou à emporter. Notre concept est de proposer une cuisine saine, faite maison qui valorise la cuisine du monde. Couleurs, épices, saveurs sont nos leitmotivs !\r
+\r
+Venez déguster nos spécialités à n’importe quelle heure de la journée : petit déjeuner, déjeuner et même au goûter dans une ambiance propice à la détente !\r
+\r
+Comment ça marche ?\r
+======\r
+\r
+MERCI DE PRÉCOMMANDER JUSQU'À 12H00 LE JOUR J POUR UNE LIVRAISON ENTRE 11H30 ET 18H\r
+\r
+----""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.73227e+01 ;
+            ns1:longitude 5.040521e+00 ] ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/63/e3/63e37e513817d.png> ;
+    ns1:name "Chez Mes Soeurs - Musette" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "18:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "10:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://a2roo.coopcycle.org/en/restaurant/69-chez-mes-soeurs-musette" ] ] ;
+    ns1:sameAs <https://a2roo.coopcycle.org/en/restaurant/69-chez-mes-soeurs-musette> ;
+    ns1:url <https://a2roo.coopcycle.org/en/restaurant/69-chez-mes-soeurs-musette> .
+
+<https://a2roo.coopcycle.org/api/addresses/13236> a ns1:PostalAddress ;
+    ns1:name "Chez Mes Soeurs - Musette" ;
+    ns1:streetAddress "3 Rue Musette, Dijon, France" ;
+    ns1:telephone "+33380441913" .
+

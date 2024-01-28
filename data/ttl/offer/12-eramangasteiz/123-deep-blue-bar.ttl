@@ -1,0 +1,203 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/123> ns1:hasMenu <https://eramangasteiz.coopcycle.org/en/restaurant/123-deep-blue-bar#menu> .
+
+<https://eramangasteiz.coopcycle.org/en/restaurant/123-deep-blue-bar#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Monster" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Kas Naranja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Kas Naranja, 500ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca Cola, 330ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca Cola, 500ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Aquarius" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Redbull" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ] ;
+            ns1:name "Bebidas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Base de crema de manzana Golden, 160 gr de presa ibérica, juliana de verduras al dente y salsa de queso idiazabal." ;
+                    ns1:name "Burg-Presa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa roja, lechuga, carne 100% de vacuno, queso mozzarella, tiras de pimiento rojo asado, bacon crujiente y crema de pesto picante" ;
+                    ns1:name "Burguerpesto con Chilly" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crema de piquillos, espinacas frescas, carne de pollo empanada Euskolabel con daditos de queso blanco y Cheddar, cebolla roja dulce, bacon crujiente y mayonesa de curry" ;
+                    ns1:name "Chick-Pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa barbacoa, lechuga, carne 100% de vacuno, cebolla caramelizada, rulo de queso de cabra a plancha, salsa Deep Blue y bacon crujiente" ;
+                    ns1:name "Cheese Cabra" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa barbacoa, lechuga, carne 100% de vacuno, queso Cheddar, aros de cebolla crujientes, cebolla caramelizada y salsa Deep Blue" ;
+                    ns1:name "Cheese Bacon BBQ" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crema de patata alavesa trufada, carne 100% de vacuno, cebolla caramelizada, salsa Deep Blue y Foie fresco a la plancha" ;
+                    ns1:name "Deep Blue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base de crema de tomate natural, lechuga iceberg, 160 gr de carne de vacuno Premium 100%, queso suave, cebolla blanca, rodaja de tomate, ketchup y mayonesa" ;
+                    ns1:name "La Clásica" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base de ketchup de piquillo, 160 gr de carne vegetal elaborada con espinaca fresca-zanahoria-queso de Burgos, huevo a la plancha y mahonesa suave de mango" ;
+                    ns1:name "Vegetariana Deep" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ] ;
+            ns1:name "Burguers" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Salsa barbacoa, lechuga, carne 100% de vacuno, queso Cheddar, aros de cebolla crujientes, cebolla caramelizada y salsa Deep Blue\r
+11,50 €""" ;
+                    ns1:name "Cheese Bacon BBQ*" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ] ;
+            ns1:name "Top Ventas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Jamón ibérico" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cecina con queso rayado" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Patatas bacon-queso" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Alitas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Empanadas Latinas (5 ud.)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Patatas bravioli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "Raciones" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Lechuga, tomate, pollo, miel y mostaza" ;
+                    ns1:name "Ensalada de pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pasado a la plancha con salsa de patata trufada" ;
+                    ns1:name "Pulpo a la feira" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Croquetas caseras" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Rabas caseras" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lechuga Mezclum, taquitos de membrillo rojo, cebollitas en vinagre balsámico, Crouton y rula de queso de cabra a la plancha" ;
+                    ns1:name "Ensalada Cabrona" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.60" ] ] ;
+            ns1:name "Entrantes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Tarta de chocolate casera" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tarta de queso casera" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Con helado de vainilla o chocolate" ;
+                    ns1:name "Brownie casero" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.10" ] ] ;
+            ns1:name "Postres" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Acompañado de pimientos y patatas" ;
+                    ns1:name "Filete de ternera" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Plato Pechuga a la Plancha, Huevos, Pimiento y Patatas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Plato Lomo, Huevo, Pimientos y Patatas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Platos combinados" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Jamón Serrano con Pimiento o Tomate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Vegetal con Pollo o Bonito" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pechuga Rebozada a la Plancha con Pimiento y Queso" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lechuga , tomate" ;
+                    ns1:name "Bonito con Mayonesa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bacon con Queso" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Rabas con Ali Olí" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Acompañado de pimiento y queso" ;
+                    ns1:name "Lomo con Pimiento y Queso" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tortilla de Patata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Bocadillos" ] .
+

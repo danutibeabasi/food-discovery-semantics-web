@@ -1,0 +1,40 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cyclome.coopcycle.org/api/restaurants/39> a ns1:Restaurant ;
+    ns1:address <https://cyclome.coopcycle.org/api/addresses/16069> ;
+    ns1:description "Le Namaste vous propose de délicieuses spécialités indiennes et pakistanaises." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.578018e+01 ;
+            ns1:longitude 3.087068e+00 ] ;
+    ns1:image <https://cyclome.coopcycle.org/media/cache/restaurant_thumbnail/64/4a/644a4b56274e0.png> ;
+    ns1:name "Le Namaste" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://cyclome.coopcycle.org/en/restaurant/39-le-namaste" ] ] ;
+    ns1:sameAs <https://cyclome.coopcycle.org/en/restaurant/39-le-namaste> ;
+    ns1:url <https://cyclome.coopcycle.org/en/restaurant/39-le-namaste> .
+
+<https://cyclome.coopcycle.org/api/addresses/16069> a ns1:PostalAddress ;
+    ns1:name "Le Namaste" ;
+    ns1:streetAddress "8 Rue du Port, Clermont-Ferrand, France" ;
+    ns1:telephone "+33473244446" .
+

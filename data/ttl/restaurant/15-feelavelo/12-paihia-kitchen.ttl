@@ -1,0 +1,40 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://feelavelo.coopcycle.org/api/restaurants/12> a ns1:Restaurant ;
+    ns1:address <https://feelavelo.coopcycle.org/api/addresses/563> ;
+    ns1:description "Restaurant - Coffee shop qui propose une cuisine créative et gourmande avec des produits frais, locaux et de saison." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.77353e+01 ;
+            ns1:longitude -3.36627e+00 ] ;
+    ns1:image <https://feelavelo.coopcycle.org/media/cache/restaurant_thumbnail/60/01/600164eaf34e4.jpg> ;
+    ns1:name "PAIHIA KITCHEN" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "17:30" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:45" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "12.50" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.00" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://feelavelo.coopcycle.org/en/restaurant/12-paihia-kitchen" ] ] ;
+    ns1:sameAs <https://feelavelo.coopcycle.org/en/restaurant/12-paihia-kitchen> ;
+    ns1:url <https://feelavelo.coopcycle.org/en/restaurant/12-paihia-kitchen> .
+
+<https://feelavelo.coopcycle.org/api/addresses/563> a ns1:PostalAddress ;
+    ns1:name "PAIHIA KITCHEN" ;
+    ns1:streetAddress "9 Avenue de la Perrière, 56100 Lorient, France" ;
+    ns1:telephone "+33662079316" .
+

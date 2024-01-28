@@ -1,0 +1,165 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://naofood.coopcycle.org/api/restaurants/74> ns1:hasMenu <https://naofood.coopcycle.org/en/restaurant/74-my-gyoza#menu> .
+
+<https://naofood.coopcycle.org/en/restaurant/74-my-gyoza#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "BOUTEILLE 33cl" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cfed63666d.jpeg> ;
+                    ns1:name "Gallia East IPA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "ASAHI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Kirin" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ] ;
+            ns1:name "BIÈRES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Choisissez votre base, vos 5 Gyozas puis votre sauce, boisson au choix !  Tous nos menus sont servis avec des oignons frits et des cébettes." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cff5df1151.jpeg> ;
+                    ns1:name "Menu Gyoza + Boisson classique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi avec bowl composé de riz blanc vinaigré, carottes , choux rouge, fèves de soja, graines de sésames noir et Mayonnaise Wasabi. Base froide. Choisissez vos 4 Gyozas. Tous nos menus sont servis avec des oignons frits et des cébettes." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cff3db8674.jpeg> ;
+                    ns1:name "Menu Bowl + Boisson classique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Choisissez votre base, vos 5 Gyozas puis votre sauce !  Tous nos menus sont servis avec des oignons frits et des cébettes." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cff4ea3513.jpeg> ;
+                    ns1:name "Menu Gyoza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi avec bowl composé de riz blanc vinaigré, carottes , choux rouge, fèves de soja, graines de sésames noir et mayonnaise Wasabi. Base froide. Choisissez vos 4 Gyozas. Tous nos menus sont servis avec des oignons frits et des cébettes." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cff2c56307.jpeg> ;
+                    ns1:name "Menu Bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "Menu Gyoza" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "À la fleur de sel de Guérande" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cff6d48893.jpeg> ;
+                    ns1:name "Mousse chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Gyoza Poire Spéculoos x3" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Au lait de coco et coulis de mangue" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cfeb4d4269.jpeg> ;
+                    ns1:name "Fromage blanc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cfef8eb86e.jpeg> ;
+                    ns1:name "Gyoza pomme caramel au beurre salé X6" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gyoza pomme caramel au beurre salé X3" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cfee87bba1.jpeg> ;
+                    ns1:name "Gyoza pomme caramel au beurre salé X3" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "DESSERTS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cff0811c93.jpeg> ;
+                    ns1:name "Gyoza X3" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cff1a66f4a.jpeg> ;
+                    ns1:name "Gyoza X6" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ] ;
+            ns1:name "Gyoza" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cff97d7acc.jpeg> ;
+                    ns1:name "Sprite" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cff8788aa5.jpeg> ;
+                    ns1:name "Perrier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cfec686e86.jpeg> ;
+                    ns1:name "Fuze Tea pêche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cfe93055ae.jpeg> ;
+                    ns1:name "Coca Cola Zero" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cfe82b68a4.jpeg> ;
+                    ns1:name "Coca Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50cl" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cfea689729.jpeg> ;
+                    ns1:name "Cristaline" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fuze Tea citron vert menthe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "BOISSONS CLASSIQUES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Goût classique" ;
+                    ns1:name "Limonade Japonnaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Red Bull" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "ChariTea x LemonAid Lime" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cfcf1718a1.jpeg> ;
+                    ns1:name "ChariTea Green Thé vert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654cfe4222635.jpeg> ;
+                    ns1:name "ChariTea Red Rooibos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "ChariTea x LemonAid Ginger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ] ;
+            ns1:name "BOISSONS EXOTIQUES" ] .
+

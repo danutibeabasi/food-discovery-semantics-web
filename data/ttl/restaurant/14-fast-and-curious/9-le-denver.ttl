@@ -1,0 +1,43 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://fast-and-curious.coopcycle.org/api/restaurants/9> a ns1:Restaurant ;
+    ns1:address <https://fast-and-curious.coopcycle.org/api/addresses/9> ;
+    ns1:description "Le Denver est un restaurant américain utilisant exclusivement comme ingrédients des produits frais et locaux. Situés en face de la mairie du Havre, nous mettons tout en oeuvre pour vous faire vivre le temps d'un repas le rêve américain. Dépaysement garanti par la décoration et la musique !" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.94921e+01 ;
+            ns1:longitude 1.06786e-01 ] ;
+    ns1:image <https://fast-and-curious.coopcycle.org/media/cache/restaurant_thumbnail/60/e2/60e25f9d0ef65.png> ;
+    ns1:name "Le Denver" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:15" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:25" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "23:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:25" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://fast-and-curious.coopcycle.org/en/restaurant/9-le-denver" ] ] ;
+    ns1:sameAs <https://fast-and-curious.coopcycle.org/en/restaurant/9-le-denver> ;
+    ns1:url <https://fast-and-curious.coopcycle.org/en/restaurant/9-le-denver> .
+
+<https://fast-and-curious.coopcycle.org/api/addresses/9> a ns1:PostalAddress ;
+    ns1:name "Le Denver" ;
+    ns1:streetAddress "21 Rue Robert de la Villeherve, 76600 Le Havre, France" ;
+    ns1:telephone "+33235477836" .
+

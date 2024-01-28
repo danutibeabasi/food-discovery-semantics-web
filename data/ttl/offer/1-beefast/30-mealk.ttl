@@ -1,0 +1,174 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://beefast.coopcycle.org/api/restaurants/30> ns1:hasMenu <https://beefast.coopcycle.org/en/restaurant/30-mealk#menu> .
+
+<https://beefast.coopcycle.org/en/restaurant/30-mealk#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/3a/623a24276811d.jpeg> ;
+                    ns1:name "Flan Savary" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lait, crème liquide, pistaches" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/65/96/65969b9adaa7d.jpeg> ;
+                    ns1:name "Liégeois pistache" ;
+                    ns1:nutrition "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Caramel beurre salé, noisettes" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/65/96/65969950c3089.jpeg> ;
+                    ns1:name "Brioche perdue" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Praliné coco amande, crumble noisette" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/65/96/659693cf55434.jpeg> ;
+                    ns1:name "Mousse au chocolat" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Biscuits Speculoos et Petit Beurre, Philadelphia, crème liquide, crème de marrons" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/65/96/65969905ed32c.jpeg> ;
+                    ns1:name "Cheesecake crème de marrons" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/63/bd/63bd34aba30f9.jpeg> ;
+                    ns1:name "Eau Minérale Plate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/b1/62b1909085120.jpeg> ;
+                    ns1:name "Fritz Kola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl - Jus de pomme artisanal pressé à la ferme made in Picardie" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/63/bd/63bd35f83b2a3.jpeg> ;
+                    ns1:name "Jus de pomme artisanal" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl - Brassée en Picardie" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/65/96/65969d222eb60.jpeg> ;
+                    ns1:name "Bière la tricorne blonde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/63/bd/63bd347557ea8.jpeg> ;
+                    ns1:name "Eau minérale pétillante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/b1/62b1905bd5847.jpeg> ;
+                    ns1:name "Fritz Kola sans sucre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl - Brassée en Picardie" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/b1/62b1949493398.jpeg> ;
+                    ns1:name "Bière la félicité blanche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.95" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/65/96/659696de7b9a5.jpeg> ;
+                    ns1:name "BOX Apéro GAMBAS à partager" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pois chiche, crème, jus de citron, pignons de pin" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/65/96/659699eadd255.jpeg> ;
+                    ns1:name "BOX Apéro HOUMOUS à partager" ;
+                    ns1:nutrition "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ] ;
+            ns1:name "Apéro" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/65/96/65969776cc3cf.jpeg> ;
+                    ns1:name "Bun's façon Caesar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/65/96/6596984f3c100.jpeg> ;
+                    ns1:name "Poke bawl d'hiver" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crêpes maison, champignons de Paris, crème crue de Normandie, raclette du moment" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/65/97/6597e1005f152.jpeg> ;
+                    ns1:name "Ficelles picardes" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Tartiflette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lardons, vin blanc, oignons, crème crue de Normandie, raclette du moment" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/65/96/65969a2944ddc.jpeg> ;
+                    ns1:name "Gratin de crozets au Morbier AOP" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâtes italiennes, champignons de Paris, Parmesan DOP, persil" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/65/96/659699bad48d4.jpeg> ;
+                    ns1:name "Maltagliati saucisses" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Courgettes grillées, tomates confites, fèves de soja, tomme de brebis" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/65/96/659698b69a911.jpeg> ;
+                    ns1:name "Salade de céréales" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain brioché de la Pétrie, œuf, Roquette" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/65/96/659697afd8fa3.jpeg> ;
+                    ns1:name "Bun's Thon Mayo" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Crustaceans",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ] ;
+            ns1:name "Plats" ] .
+

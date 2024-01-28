@@ -1,0 +1,36 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://demo.coopcycle.org/api/restaurants/88> a ns1:Restaurant ;
+    ns1:address <https://demo.coopcycle.org/api/addresses/10572> ;
+    ns1:bannerImage "https://demo.coopcycle.org/placeholder/restaurant_banner/placeholders/K5zplrrylDjk.jpg" ;
+    ns1:description "beste steinoffenpizza der stadt" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.946524e+01 ;
+            ns1:longitude 6.352662e+00 ] ;
+    ns1:image <https://demo.coopcycle.org/media/cache/restaurant_thumbnail/61/f3/61f3a967a2319.jfif> ;
+    ns1:name "pizzaZZZZ" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "23:59" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "00:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://demo.coopcycle.org/en/restaurant/88-pizzazzzz" ] ] ;
+    ns1:sameAs <https://demo.coopcycle.org/en/restaurant/88-pizzazzzz> ;
+    ns1:url <https://demo.coopcycle.org/en/restaurant/88-pizzazzzz> .
+
+<https://demo.coopcycle.org/api/addresses/10572> a ns1:PostalAddress ;
+    ns1:name "pizzaZZZZ" ;
+    ns1:streetAddress "Heegermühler Straße 4, 16225 Eberswalde, Deutschland" ;
+    ns1:telephone "+493334282330" .
+

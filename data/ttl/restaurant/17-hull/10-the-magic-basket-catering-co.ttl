@@ -1,0 +1,36 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://hull.coopcycle.org/api/restaurants/10> a ns1:Restaurant ;
+    ns1:address <https://hull.coopcycle.org/api/addresses/4865> ;
+    ns1:description "The magic basket offer ready to heat at home plant based meals for the whole family to enjoy nutritious unprocessed meat free meals." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 5.374457e+01 ;
+            ns1:longitude -3.7521e-01 ] ;
+    ns1:image <https://hull.coopcycle.org/media/cache/restaurant_thumbnail/63/6f/636f80890307c.png> ;
+    ns1:name "The Magic Basket Catering Co" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "17:00" ;
+            ns1:dayOfWeek "Wednesday" ;
+            ns1:opens "14:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "5.00" ;
+                            ns1:priceCurrency "GBP" ] ;
+                    ns1:price "2.50" ;
+                    ns1:priceCurrency "GBP" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "en" ;
+                    ns1:urlTemplate "https://hull.coopcycle.org/en/restaurant/10-the-magic-basket-catering-co" ] ] ;
+    ns1:sameAs <https://hull.coopcycle.org/en/restaurant/10-the-magic-basket-catering-co> ;
+    ns1:url <https://hull.coopcycle.org/en/restaurant/10-the-magic-basket-catering-co> .
+
+<https://hull.coopcycle.org/api/addresses/4865> a ns1:PostalAddress ;
+    ns1:name "The Magic Basket Catering Co" ;
+    ns1:streetAddress "Lonsdale Community Centre, Lonsdale Street, Kingston upon Hull, City of, HU3 6PA" ;
+    ns1:telephone "+447969775188" .
+

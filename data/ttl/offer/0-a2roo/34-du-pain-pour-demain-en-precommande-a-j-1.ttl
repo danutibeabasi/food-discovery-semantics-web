@@ -1,0 +1,267 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://a2roo.coopcycle.org/api/restaurants/34> ns1:hasMenu <https://a2roo.coopcycle.org/en/restaurant/34-du-pain-pour-demain-en-precommande-a-j-1#menu> .
+
+<https://a2roo.coopcycle.org/en/restaurant/34-du-pain-pour-demain-en-precommande-a-j-1#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/c7/60c751c55876e.jpeg> ;
+                    ns1:name "Croissant Amande" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/c7/60c751dbbec7f.jpeg> ;
+                    ns1:name "Croissant Amande Chocolat" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.35" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Le classique pain au chocolat (ou chocolatine) , mais avec son bâton de chocolat au lait pour faire plaisir au plus grand nombre !" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/c7/60c754721d97b.jpeg> ;
+                    ns1:name "Pain Choco Lait" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "L’original et traditionnel Croissant !" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/c7/60c7519595dd6.jpeg> ;
+                    ns1:name "Croissant" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Notre croissant bicolore au chocolat noir , pour les amateurs de chocolat avec une touche d’esthétisme raffinée !" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/c7/60c752474eb59.jpeg> ;
+                    ns1:name "Croissant Choco Extra Noir" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une version alternative au pain au chocolat , dans une version croissant tout choco-cacao !" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/c7/60c752102d375.jpeg> ;
+                    ns1:name "Croissant Cacao" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Le classique Pain aux raisins !" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/c7/60c7546454b52.jpeg> ;
+                    ns1:name "Pain Aux Raisins" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ] ;
+            ns1:name "Les classiques" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/72/6172fbcfdf1b4.jpeg> ;
+                    ns1:name "Roulé Pistache Chocolat blanc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.65" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/72/6172fbf50de1b.jpeg> ;
+                    ns1:name "Roulé Full Choco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.65" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/72/6172fc0f5edc6.jpeg> ;
+                    ns1:name "Roulé Pralines Roses" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.65" ] ] ;
+            ns1:name "Les roulés" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "La brioche traditionnelle aux oeufs et au beurre." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/c7/60c754241d04c.jpeg> ;
+                    ns1:name "Nanterre 6 Pers." ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nos petites Briochettes en lot de 5 pour le prix de 4 , lot comprenant un parfum de chaque." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/c7/60c753f9cec2b.jpeg> ;
+                    ns1:name "Lot de 5 Briochettes" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Notre petite briochette toute mignonne agrémentée de grains de raisins." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/c7/60c7501a3df5e.jpeg> ;
+                    ns1:name "Briochette Aux Raisins" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.69" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Notre petite briochette toute mignonne agrémentée de petites perles de caramel !" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/c7/60c7503d23940.jpeg> ;
+                    ns1:name "Briochette Caramel" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.69" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Notre petite briochette toute mignonne agrémentée de bon chocolat au lait !" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/c7/60c74fb819099.jpeg> ;
+                    ns1:name "Briochette Au Chocolat Lait" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.69" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Notre petite briochette toute mignonne agrémentée de petites perles de sucre !" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/c7/60c74fec49b9a.jpeg> ;
+                    ns1:name "Briochette Au Sucre" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.69" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La brioche traditionnelle aux oeufs et au beurre." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/c7/60c754309afdd.jpeg> ;
+                    ns1:name "Nanterre 4 Pers." ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.45" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Notre petite briochette toute mignonne agrémentée de petites de fruits rouges." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/c7/60c750748e30b.jpeg> ;
+                    ns1:name "Briochette Fruits Rouge" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.69" ] ] ;
+            ns1:name "Les briochettes & les brioches" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/c7/60c75393a4300.jpeg> ;
+                    ns1:name "Kiflie’s Pistache" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/c7/60c75343de03f.jpeg> ;
+                    ns1:name "Kiflie’s Caramel Beurre Salé" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/c7/60c752a4e1237.jpeg> ;
+                    ns1:name "Kiflie’s Au Praline" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/c7/60c7539137cf9.jpeg> ;
+                    ns1:name "Kiflie’s Speculoos" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/c7/60c75356dacc9.jpeg> ;
+                    ns1:name "Kiflie’s Choco Blanc" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Garniture à base de purée de fruit de la passion fraiche , cuite avec ce qu’il faut de sucre pour équilibrer avec l’acidité du fruit , un goût exotique et rafraichissant !" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/c7/60c752cbaa12b.jpeg> ;
+                    ns1:name "Kiflie’s à la Passion" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Le Kiflie’s au citron , avec une garniture relativement brute , fera plaisir aux amateurs du genre. Âmes sensibles s’abstenir…." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/c7/60c752b4ca706.jpeg> ;
+                    ns1:name "Kiflie’s au Citron" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/c7/60c7539656a3f.jpeg> ;
+                    ns1:name "Kiflie’s Framboise" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/c7/60c752bf62890.jpeg> ;
+                    ns1:name "Kiflie’s au Cassis" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ] ;
+            ns1:name "Les Kiflie's" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/72/6172faeb513fb.jpeg> ;
+                    ns1:name "Torsade Praliné" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/72/6172fac967af7.jpeg> ;
+                    ns1:name "Torsade Pistache" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/72/6172fa7658a3d.jpeg> ;
+                    ns1:name "Torsade Chocolat Blanc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/72/6172fa8ed6af2.jpeg> ;
+                    ns1:name "Torsade Framboise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Torsade Caramel Beurre Salé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/72/6172faa48122c.jpeg> ;
+                    ns1:name "Torsade Nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ] ;
+            ns1:name "Les torsades" ] .
+

@@ -1,0 +1,72 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://demo.coopcycle.org/api/restaurants/28> ns1:hasMenu <https://demo.coopcycle.org/en/restaurant/28-la-boite-gourmande#menu> .
+
+<https://demo.coopcycle.org/en/restaurant/28-la-boite-gourmande#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Pickles à l'huile d'olive" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.42" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tomates fraîches au naturel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.12" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tomates fraîches à l'huile d'olive" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.85" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tomates fraîches au naturel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.56" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pickles au naturel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.87" ] ] ;
+            ns1:name "Entrées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Crêpe à la rhubarbe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.69" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crêpe aux pépites de chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.41" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crêpe aux figues" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.84" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tarte aux pépites de chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.92" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Gâteau au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.82" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Boeuf farci·e·s aux pommes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.16" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Boeuf rôti·e·s aux oignons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.38" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tomates aux oignons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.36" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pommes de terre farci·e·s aux carottes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.93" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Aubergines poêlé·e·s au beurre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.99" ] ] ;
+            ns1:name "Plats" ] .
+

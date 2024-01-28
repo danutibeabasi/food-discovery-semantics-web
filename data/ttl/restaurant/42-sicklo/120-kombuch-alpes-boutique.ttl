@@ -1,0 +1,41 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://sicklo.coopcycle.org/api/restaurants/120> a ns1:Brewery ;
+    ns1:address <https://sicklo.coopcycle.org/api/addresses/52054> ;
+    ns1:bannerImage "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/70/6570ad4c53b41.jpg" ;
+    ns1:description "Aux pieds des Alpes se trouvait une «bullerie» : une fabrique magique d’où sortait des boissons incroyables, pétillantes, vivantes et délicieuses, méli-mélo de savoirs ancestraux et nouveaux... Des breuvages toujours plus vertueux pour votre petit corps et notre grande planète." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.519626e+01 ;
+            ns1:longitude 5.730652e+00 ] ;
+    ns1:image <https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/62/8e/628e2298f276e.png> ;
+    ns1:name "kombuch'alpes boutique" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "18:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "15.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.50" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://sicklo.coopcycle.org/en/restaurant/120-kombuch-alpes-boutique" ] ] ;
+    ns1:sameAs <https://sicklo.coopcycle.org/en/restaurant/120-kombuch-alpes-boutique> ;
+    ns1:url <https://sicklo.coopcycle.org/en/restaurant/120-kombuch-alpes-boutique> .
+
+<https://sicklo.coopcycle.org/api/addresses/52054> a ns1:PostalAddress ;
+    ns1:name "kombuch'alpes boutique" ;
+    ns1:streetAddress "57 Rue Saint-Laurent, Grenoble, France" ;
+    ns1:telephone "+33634552570" .
+

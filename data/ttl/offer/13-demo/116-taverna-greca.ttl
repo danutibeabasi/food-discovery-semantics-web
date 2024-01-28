@@ -1,0 +1,80 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://demo.coopcycle.org/api/restaurants/116> ns1:hasMenu <https://demo.coopcycle.org/en/restaurant/116-taverna-greca#menu> .
+
+<https://demo.coopcycle.org/en/restaurant/116-taverna-greca#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Classico dip di yogurt greco" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/63208728b2e9b.jpeg> ;
+                    ns1:name "Tzatziki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Dip" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Gyros Pita Lamb" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/632085f58714a.jpeg> ;
+                    ns1:name "Gyros Lamb" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gyros Pita di maiale" ;
+                    ns1:name "Gyros Pork" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Gyros" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/632064c3e95cb.jpeg> ;
+                    ns1:name "Polipo alla Griglia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Pescato" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Filetti di pollo marinati in olio sale e limone" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/6320845787b80.jpeg> ;
+                    ns1:name "Pollo marinato" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Carne al piatto" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Formaggio" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/63205ef82d5af.jpeg> ;
+                    ns1:name "Feta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Insalata" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/63205e7f55d38.jpeg> ;
+                    ns1:name "Dakos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/63205e07c09c3.jpeg> ;
+                    ns1:name "Insalata Greca" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Insalate" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Piatto tipico ..." ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/63205f57b8f03.jpeg> ;
+                    ns1:name "Mussaka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "impasto di pasta frolla ripiena di formaggio e spinaci" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/6320843024d77.jpeg> ;
+                    ns1:name "Torta di spinaci" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/632085ac14ba3.jpeg> ;
+                    ns1:name "Pastisio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "Tradizionali" ] .
+

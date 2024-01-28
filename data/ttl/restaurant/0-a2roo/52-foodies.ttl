@@ -1,0 +1,33 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://a2roo.coopcycle.org/api/restaurants/52> a ns1:Restaurant ;
+    ns1:address <https://a2roo.coopcycle.org/api/addresses/9223> ;
+    ns1:description "Foodies truck, camion et restaurant sur Dijon et les environs. Découvrez notre cuisine authentique, et adhérez à la street food !" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.731833e+01 ;
+            ns1:longitude 5.030784e+00 ] ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/63/05/63050f5e348a5.png> ;
+    ns1:name "Foodies" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://a2roo.coopcycle.org/en/restaurant/52-foodies" ] ] ;
+    ns1:sameAs <https://a2roo.coopcycle.org/en/restaurant/52-foodies> ;
+    ns1:url <https://a2roo.coopcycle.org/en/restaurant/52-foodies> .
+
+<https://a2roo.coopcycle.org/api/addresses/9223> a ns1:PostalAddress ;
+    ns1:name "Foodies" ;
+    ns1:streetAddress "6 Rue du Faubourg Raines, Dijon, France" ;
+    ns1:telephone "+33300000000" .
+

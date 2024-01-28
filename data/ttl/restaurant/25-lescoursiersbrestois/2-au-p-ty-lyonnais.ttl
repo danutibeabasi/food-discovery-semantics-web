@@ -1,0 +1,36 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/restaurants/2> a ns1:Restaurant ;
+    ns1:address <https://lescoursiersbrestois.coopcycle.org/api/addresses/9> ;
+    ns1:description "Authentique lyonnais, nous sommes heureux de vous faire aussi connaitre quelqu’une de nos spécialités régionales." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.839e+01 ;
+            ns1:longitude -4.4912e+00 ] ;
+    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/restaurant_thumbnail/61/f5/61f572a518f17.jpg> ;
+    ns1:name "AU P'TY LYONNAIS" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:30" ;
+            ns1:dayOfWeek "Thursday",
+                "Wednesday" ;
+            ns1:opens "11:15" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:00" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Wednesday" ;
+            ns1:opens "18:15" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://lescoursiersbrestois.coopcycle.org/en/restaurant/2-au-p-ty-lyonnais" ] ] ;
+    ns1:sameAs <https://lescoursiersbrestois.coopcycle.org/en/restaurant/2-au-p-ty-lyonnais> ;
+    ns1:url <https://lescoursiersbrestois.coopcycle.org/en/restaurant/2-au-p-ty-lyonnais> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/addresses/9> a ns1:PostalAddress ;
+    ns1:name "AU P'TY LYONNAIS" ;
+    ns1:streetAddress "44 Rue de Lyon, 29200 Brest, France" ;
+    ns1:telephone "+33750489978" .
+

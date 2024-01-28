@@ -1,0 +1,133 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://demo.coopcycle.org/api/restaurants/114> ns1:hasMenu <https://demo.coopcycle.org/en/restaurant/114-osteria-da-carmela#menu> .
+
+<https://demo.coopcycle.org/en/restaurant/114-osteria-da-carmela#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Spaghetti, vongole, olio extra vergine d'oliva, aglio, sale e pepe" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/63207bd7f0439.jpeg> ;
+                    ns1:name "Spaghetti alle vongole" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Paccheri, baccalà dissalato, olive nere, capperi, pomodoro del piennolo del Vesuvio e prezzemolo" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/63207b8bb6942.jpeg> ;
+                    ns1:name "Paccheri al Baccalà" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Primi piatti di mare" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Songino, rucola, radicchio, finocchio, carote, funghi champignon, porro, olio d'oliva, limone, sale" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/63207ddb14b4f.jpeg> ;
+                    ns1:name "Insalata mista" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Patate a pasta gialla, sale" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/63207df7687c4.jpeg> ;
+                    ns1:name "Patate fresche fritte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ] ;
+            ns1:name "Contorni" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Calamari, limone, origano, olio extravergine d'oliva, sale e pepe" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/63207da0b5349.jpeg> ;
+                    ns1:name "Calamaro alla brace" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tonno sott'olio, menta, scorza di limone, aglio, olio extravergine d'oliva, sale" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/63207e4bc8dd0.jpeg> ;
+                    ns1:name "Tonno, menta e limone" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Secondi piatti di mare" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Vitello, funghi champignon, burro, olio extravergine d'oliva, rosmarino, timo, sale e pepe" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/63207e19be2e3.jpeg> ;
+                    ns1:name "Scaloppine ai funghi porcini" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Controfiletto di manzo, rucola, pomodorini pachino, parmigiano Reggiano DOP, olio extravergine d'oliva, sale e pepe" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/63207cce78c2f.jpeg> ;
+                    ns1:name "Tagliata di manzo, rucola e scaglie di parmigiano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.20" ] ] ;
+            ns1:name "Secondi piatti di terra" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Torta condita con: formaggio fresco cremoso, burro, scorza di limone, lamponi, oro alimentare, meringhe e zucchero a velo" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/63207e2fd8902.jpeg> ;
+                    ns1:name "Torta Red Velvet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cheesecake condita con Nutella e granelli di nocciole" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/63207dc2666e6.jpeg> ;
+                    ns1:name "Cheesecake a Nutella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/632075357af15.jpeg> ;
+                    ns1:name "Acqua 500 ML" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/632076981ebfd.jpeg> ;
+                    ns1:name "Pepsi 33 CL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/6320766d4d7ee.jpeg> ;
+                    ns1:name "Birra \"Ichnusa\" Sarda 50 CL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ] ;
+            ns1:name "Bibite" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Spaghetti, zucchine, provolone del Monaco, parmigiano Reggiano DOP, basilico, sale e pepe" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/63207c08b7a13.jpeg> ;
+                    ns1:name "Spaghetti alla Nerano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gnocchi, passata di pomodoro, olio extra vergine d'oliva, basilico e sale" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/63207c27b0446.jpeg> ;
+                    ns1:name "Gnocchi alla Sorrentina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.40" ] ] ;
+            ns1:name "Primi piatti di terra" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Polipo arricciato, limone, prezzemolo fresco, olio extra vergine d'oliva, aglio, sale e pepe" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/632079cbf1016.jpeg> ;
+                    ns1:name "Polipo all'insalata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cozze, sale fino, pepe nero, limone" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/63205e8aeb875.jpeg> ;
+                    ns1:name "Impepata di Cozze" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Prosciutto crudo, melone retato, mozzarella di bufala campana DOP" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/632079f0c131c.jpeg> ;
+                    ns1:name "Prosciutto con mozzarella e melone" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Melenzane oblunghe, passata di pomodoro, fior di latte di Agerola, olio extra vergine d'oliva, aglio, sale e pepe" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/63/20/632079b172913.jpeg> ;
+                    ns1:name "Parmigiana di melenzane" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.20" ] ] ;
+            ns1:name "Antipasti" ] .
+

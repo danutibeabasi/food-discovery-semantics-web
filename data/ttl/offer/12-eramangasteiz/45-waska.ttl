@@ -1,0 +1,211 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/45> ns1:hasMenu <https://eramangasteiz.coopcycle.org/en/restaurant/45-waska#menu> .
+
+<https://eramangasteiz.coopcycle.org/en/restaurant/45-waska#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "4 rollitos de pastrami Marinado y ahumado en casa relleno de crudites de verduras y salsa tartara asiatica" ;
+                    ns1:name "PASTRAMI CASERO CON TARTARA ASIATICA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Arroz cremoso de chipirones guisados en jugo de cebolla y parmesano" ;
+                    ns1:name "RISOTTO DE ALBAHACA,ESPINACAS Y LIMÓN" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ] ;
+            ns1:name "MEZCLA DE CULTURAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Con salsa barbacoa y verdudas encurtidas" ;
+                    ns1:name "MOLLETE RELLENO DE PULLED PORK" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Con mayonesa de hoisin,olivas negras,limón y pimentón,queso chedar y cezina de waygu" ;
+                    ns1:name "HAMBURGUESA DE VACA GALLEGA" ;
+                    ns1:nutrition "Mustard",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ] ;
+            ns1:name "ENTRE DOS PANES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Con parmesano y aove Alavés" ;
+                    ns1:name "CEZINA DE WAGYU PREMIUM" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Con salsa de ostras ,tamarindo,soja,jengibre y aceite de sesamo" ;
+                    ns1:name "TIRADITO DE PEZ MAHI MAHI ESTILO NIKKEI" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Peanuts",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ] ;
+            ns1:name "PRODUCTOS TOP" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "BLANCO CASA PRIMICIA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "VINOS BLANCOS RIOJA ALAVESA" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "EUKENI ARABAKO TXAKOLINA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ] ;
+            ns1:name "ARABAKO TXAKOLINA" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "MARQUES DE ULLIA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ] ;
+            ns1:name "VINOS BLANCOS RUEDA" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Con ali-oli de   hierbas y limón" ;
+                    ns1:name "RABAS FRESCAS DE CHIPIRON" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Crustaceans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Patata alavesa casera con salsa brava y ali-oli" ;
+                    ns1:name "PATATAS BRAVAS" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MEJILLON DE BOUCHOT" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ] ;
+            ns1:name "COSITAS RICAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "SIDRA NATURAL DE  KUARTANGO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "EUSKAL SAGARDOA" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU DEL DÍA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ] ;
+            ns1:name "MENÚ DEL DÍA" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "CAVA BRUT FRANCES  RICART" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ] ;
+            ns1:name "CAVAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Glaseadas al oporto, con minestrone de lenteja verdina eco" ;
+                    ns1:name "CARRILLERAS DE TERNERA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "PALETILLA DE CORDERO LECHAL CONFITADA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€30.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Giraldo al club ranero" ;
+                    ns1:name "KOKOTXAS DE BACALAO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Glaseado con pure de patatas (48 horas - 75 grados)" ;
+                    ns1:name "ASADO DE TIRA" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.50" ] ] ;
+            ns1:name "LOS CLASICOS NUNCA FALLAN" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "CRIANZA ECO CARRAVALSECA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "JOVEN MC  CASA PRIMICIA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "VINOS TINTOS RIOJA ALAVESA" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomate feo de Tudela, bonito del norte, cebolla y vinagreta" ;
+                    ns1:name "ENSALADA DE TOMATE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "LAS ENSALADAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "BAIAS SINGAPUR" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "DAURA ESTRELLA DAMM SIN GLUTEN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/product_thumbnail/61/55/61557dfdc73cc.jpeg> ;
+                    ns1:name "BAIAS CHAVELA IPA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "KELER 1/3" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "CERVEZAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Con chucrut de Lombarda y yogur" ;
+                    ns1:name "BRIOCHE TOSTADO DE RABO ESTILO THAI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ] ;
+            ns1:name "BRICHOES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "6 UND" ;
+                    ns1:name "CROQUETAS DE JAMÓN IBÉRICO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 UND" ;
+                    ns1:name "CROQUETAS DE IDIAZABAL AHUMADO Y NUECES" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 UND" ;
+                    ns1:name "CROQUETAS DE CHIPIRONES EN SU TINTA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "PARA LOS CROQUETEROS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "HUMUS NEGRO ECO CON NATXOS Y SHITAKES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "TABULE DE QUINOA Y BULGUR ECO CON VERDURITAS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "OPCIONES 100% VEGETALES" ] .
+

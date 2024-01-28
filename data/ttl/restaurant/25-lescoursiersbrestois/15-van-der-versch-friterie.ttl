@@ -1,0 +1,40 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/restaurants/15> a ns1:Restaurant ;
+    ns1:address <https://lescoursiersbrestois.coopcycle.org/api/addresses/339> ;
+    ns1:description "Van Der Versch est une authentique friterie tout droit importée de Belgique une fois ! Des frites, des snacks, des burgers, des mitraillettes (pas les fusils hein), des bières (belges évidemment), des gaufres et bien plus sont à découvrir chez nous à tout moment de la journée." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.83903e+01 ;
+            ns1:longitude -4.4854e+00 ] ;
+    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/restaurant_thumbnail/62/00/6200ee0858ef3.jpg> ;
+    ns1:name "Van Der Versch Friterie" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:15" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:30" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:15" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://lescoursiersbrestois.coopcycle.org/en/restaurant/15-van-der-versch-friterie" ] ] ;
+    ns1:sameAs <https://lescoursiersbrestois.coopcycle.org/en/restaurant/15-van-der-versch-friterie> ;
+    ns1:url <https://lescoursiersbrestois.coopcycle.org/en/restaurant/15-van-der-versch-friterie> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/addresses/339> a ns1:PostalAddress ;
+    ns1:name "Van Der Versch Friterie" ;
+    ns1:streetAddress "21 Place de la Liberté, 29200 Brest, France" ;
+    ns1:telephone "+33229637136" .
+

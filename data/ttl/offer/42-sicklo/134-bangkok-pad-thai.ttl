@@ -1,0 +1,213 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://sicklo.coopcycle.org/api/restaurants/134> ns1:hasMenu <https://sicklo.coopcycle.org/en/restaurant/134-bangkok-pad-thai#menu> .
+
+<https://sicklo.coopcycle.org/en/restaurant/134-bangkok-pad-thai#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Maxi Rouleux de printemps 4 pièces" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fait maison 4 pièces" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/63/19/6319c0135bf0b.jpeg> ;
+                    ns1:name "Samoussas bœuf 4 pièces" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fait maison 4 pièces" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/63/19/6319c0370c4d7.jpeg> ;
+                    ns1:name "Nems légumes 4 pièces" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "100% fait maison" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/63/19/6319b6791b00a.jpeg> ;
+                    ns1:name "Nêms légumes taille XXL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/63/19/6319b8f521f72.jpeg> ;
+                    ns1:name "Maxi rouleau de printemps" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "100% fait maison" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/63/19/6319b6a85430f.jpeg> ;
+                    ns1:name "Nêms porc taille XXL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "100% fait maison" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/63/19/6319b73b2fdaf.jpeg> ;
+                    ns1:name "Samoussas bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fait maison 4 pièces" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/63/19/6319c05dadfb9.jpeg> ;
+                    ns1:name "Nems porc XXL 4 pièces" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.80" ] ] ;
+            ns1:name "Entrées 🍱" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Mochi cheesecake à la fraise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Mochi au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Desserts 🍩" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Curry jaune au lait de coco, poulet, pomme de terre et oignons, servi avez du riz. Moins épicé." ;
+                    ns1:name "Curry thaï" ;
+                    ns1:nutrition "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Accompagné de riz thai nature.\r
+Minimum de 6 légumes de saison.""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/63/19/6319b776f2ce7.jpeg> ;
+                    ns1:name "Wok légumes" ;
+                    ns1:nutrition "Eggs",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Nouilles sautées et garniture au choix.\r
+PORC \r
+POULET\r
+LEGUMES\r
+CREVETTES""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/63/19/6319b6f29ea0b.jpeg> ;
+                    ns1:name "Pad thaï" ;
+                    ns1:nutrition "Eggs",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz sauté et garniture au choix.\r
+Poulet\r
+Porc\r
+légumes\r
+Crevettes""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/63/19/6319b6042e1a1.jpeg> ;
+                    ns1:name "Khao phat" ;
+                    ns1:nutrition "Eggs",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry vert au lait de coco, poulet, aubergine, poivron et basilic thaï, servi avez du riz. Un peu plus épicé par rapport au Curry thaï." ;
+                    ns1:name "Curry vert" ;
+                    ns1:nutrition "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ] ;
+            ns1:name "Plats 🥡" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Ice tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Eau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "S.pellegrino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boisson thaï à la base de jus de fruit avec des morceaux de gelée de noix de coco 320 ml." ;
+                    ns1:name "Mogu mogu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière asiatique" ;
+                    ns1:name "Bière tsingtao" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jus de coco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jus de litch" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca zero" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière thaï" ;
+                    ns1:name "Bière singha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ] ;
+            ns1:name "Boissons 🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/63/19/6319bbf8226ea.jpeg> ;
+                    ns1:name "10 x Samoussas Boeuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/63/19/6319bc4d5d060.jpeg> ;
+                    ns1:name "4 x Pad Thaï Porc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€48.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/63/19/6319bbc8d3390.jpeg> ;
+                    ns1:name "10 x Nems Porc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/63/19/6319bc7868092.jpeg> ;
+                    ns1:name "4 x Pad Thaï Poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€48.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/63/19/6319bba301cf2.jpeg> ;
+                    ns1:name "10 x Nems Légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/63/19/6319bc2d1e43c.jpeg> ;
+                    ns1:name "4 x khao phat poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€48.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/63/19/6319bb81b00d2.jpeg> ;
+                    ns1:name "4 x khao phat légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€44.90" ] ] ;
+            ns1:name "OFFRES SPECIALES FAMILLES OU GROUPES 🌟" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Entrée (2 pièces au choix) + plat + boisson. S'il vous voulez choisir deux entrées différentes, merci de nous laisser un commentaire." ;
+                    ns1:name "Formule solo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Entrée (4 pièces) + 2 plats + 2 boissons.S'il vous voulez choisir deux entrées et deux boissons différentes, merci de nous laisser un commentaire. Les plats restent le même." ;
+                    ns1:name "Formule duo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€31.90" ] ] ;
+            ns1:name "Formule ⭐" ] .
+

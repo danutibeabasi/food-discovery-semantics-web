@@ -1,0 +1,168 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://beefast.coopcycle.org/api/restaurants/21> ns1:hasMenu <https://beefast.coopcycle.org/en/restaurant/21-robin-room#menu> .
+
+<https://beefast.coopcycle.org/en/restaurant/21-robin-room#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/9f/629f3079163b4.jpeg> ;
+                    ns1:name "Menu Sandwich" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/9f/629f30a1df2f4.jpeg> ;
+                    ns1:name "Menu plat du jour ou tarte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "Menu" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/63/03/6303a664472a1.jpeg> ;
+                    ns1:name "Fromage blanc - fruits de saison - granola maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Coulis fruits ou Caramel" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/9f/629f3209e5c95.jpeg> ;
+                    ns1:name "Cheesecake" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/63/03/6303a5c88fb80.jpeg> ;
+                    ns1:name "Carrot cake la part" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/63/03/6303a61369b5f.jpeg> ;
+                    ns1:name "Mousse au chocolat végétalienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Agent provocateur 33cl" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/63/03/6303ad60470b8.jpeg> ;
+                    ns1:name "Bière sans alcool" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/9f/629f3511e8480.jpeg> ;
+                    ns1:name "FRITZ COLA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Blonde agrumes, mangue, litchis 33cl" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/9f/629f34771724f.jpeg> ;
+                    ns1:name "Picardilly" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bears' Tavern, Blonde légère et fruité. 33cl" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/9f/629f34514e81b.jpeg> ;
+                    ns1:name "Bear'Maid" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "American Pale Ale, brassée au pain. 33cl" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/63/03/6303aeb388262.jpeg> ;
+                    ns1:name "Gasper" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/63/03/6303aecf0d11b.jpeg> ;
+                    ns1:name "Ginger Beer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Roibois bio glace infuse aux fruits de la passion" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/9f/629f35ee69dac.jpeg> ;
+                    ns1:name "Charitea Red" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/e1/62e14695c6883.jpeg> ;
+                    ns1:name "Granola sucré" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/e1/62e146add5f22.jpeg> ;
+                    ns1:name "Granola Salé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Épicerie/Traiteur" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain blanc garni d'effiloché de porc confit, cheddar, crudités, pickles, sauce menthe." ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/9f/629f313282205.jpeg> ;
+                    ns1:name "Pulled pork sandwich" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Végétarien / Pain brioché bio, confit d'oignons, saucisse végétale, cheddar gratiné, pickles de cornichon, oignons frits." ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/9f/629f31e2a9a27.jpeg> ;
+                    ns1:name "Hot dog végétal maison gratiné au cheddar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Crème butternut, oeuf mollet \r
+chou fleur et oignon rôtis laqués au miso, scamorza fumé, pain brioché snacké au beurre d’ail""" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/9f/629f32f3e3994.jpeg> ;
+                    ns1:name "Plat végétarien de la semaine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain brioché bio, confit d'oignons, saucisse artisanale, cheddar gratiné, pickles de cornichon, oignons frits." ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/9f/629f31cc4c059.jpeg> ;
+                    ns1:name "Hot dog saucisse gratiné au cheddar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/63/03/6303a55b76cbb.jpeg> ;
+                    ns1:name "Plat du jour" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "tarte: lard, champignon, gorgonzola" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/63/0e/630e1ba4858b8.jpeg> ;
+                    ns1:name "Tarte + Salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pain brioche vegan, galettes vg, cheddar vg ou vegan, houmous, concombre, oignons rouges, pickles de cornichons, salade" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/9f/629f2ffd829f0.jpeg> ;
+                    ns1:name "Burger Végétarien ou Vegan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Noix de saint jacques snackées  \r
+purée de panais à la vanille, réduction agrumes, carottes rôties, pickles de moutarde""" ;
+                    ns1:name "plat poisson de la semaine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.00" ] ] ;
+            ns1:name "Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "250g" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/62/9f/629f2f947db55.jpeg> ;
+                    ns1:name "Houmous" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "velouté :  céleri rave" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/63/03/6303a4f940d29.jpeg> ;
+                    ns1:name "Soupe du moment" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "250 gr" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/63/03/6303a6c74a208.jpeg> ;
+                    ns1:name "Légumes à diper" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Entrées" ] .
+

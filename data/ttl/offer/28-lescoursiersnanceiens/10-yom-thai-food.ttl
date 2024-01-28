@@ -1,0 +1,278 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lescoursiersnanceiens.coopcycle.org/api/restaurants/10> ns1:hasMenu <https://lescoursiersnanceiens.coopcycle.org/en/restaurant/10-yom-thai-food#menu> .
+
+<https://lescoursiersnanceiens.coopcycle.org/en/restaurant/10-yom-thai-food#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande." ;
+                    ns1:image <https://lescoursiersnanceiens.coopcycle.org/media/cache/product_thumbnail/61/40/61406201efd4c.jpeg> ;
+                    ns1:name "Soupe de crevettes à la citronnelle et tamarin" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande." ;
+                    ns1:name "Soupe de poulet au lait de coco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "Soupes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Taco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande." ;
+                    ns1:name "Perles de coco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande." ;
+                    ns1:name "Flan au taro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Riz thaï sauté tofu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bo bun nems légumes au tofu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Nouilles sautés au tofu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tofu aux noix cajou" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "végétarien , végan ," ;
+                    ns1:name "Pad Thaï tofu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi par 6 pièces" ;
+                    ns1:name "Nem aux légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tofu aux lait de coco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ] ;
+            ns1:name "Végan / Végétarien" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande." ;
+                    ns1:name "Crevettes au curry vert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande." ;
+                    ns1:name "Pad thaï bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande." ;
+                    ns1:name "Pad thaï poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande." ;
+                    ns1:name "Bœuf au basilic" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande." ;
+                    ns1:image <https://lescoursiersnanceiens.coopcycle.org/media/cache/product_thumbnail/61/40/614063ad3e698.jpeg> ;
+                    ns1:name "Pad thaï aux crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande." ;
+                    ns1:name "Bœuf au curry panang" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande." ;
+                    ns1:name "Nouilles sautées au poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande." ;
+                    ns1:name "Poulet au curry panang" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Riz thaï sauté poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande." ;
+                    ns1:name "Poulet au curry vert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande." ;
+                    ns1:name "Bœuf au curry vert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande." ;
+                    ns1:name "Poulet sauté au basilic" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande." ;
+                    ns1:name "Poulet sauté au noix de cajou" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ] ;
+            ns1:name "Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "35 cL" ;
+                    ns1:name "Jus de fruit THAÏ marque FOCO Coco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "35 cl." ;
+                    ns1:name "Jus de fruit THAÏ marque FOCO lychée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "35 cL" ;
+                    ns1:name "Jus de fruit THAÏ marque FOCO mangue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cL" ;
+                    ns1:name "Perrier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cL" ;
+                    ns1:name "Coca-Cola Zéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50 cL" ;
+                    ns1:name "San Pellegrino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cL" ;
+                    ns1:name "Fanta Orange" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cL" ;
+                    ns1:name "Coca-Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cL" ;
+                    ns1:name "Singha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Liption Ice Tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "32 cL" ;
+                    ns1:name "Chang" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande." ;
+                    ns1:image <https://lescoursiersnanceiens.coopcycle.org/media/cache/product_thumbnail/61/3f/613fccd06aba9.jpeg> ;
+                    ns1:name "Bò bún nems" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande." ;
+                    ns1:name "Salade de poulet à la citronnelle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Salade de papaye thaï" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande." ;
+                    ns1:name "Salade de bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande." ;
+                    ns1:name "Salade fruits de mer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ] ;
+            ns1:name "Salades" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Servi par 6 pièces
+\r
+Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande.""" ;
+                    ns1:name "Crevettes en couvertures" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Servi par 2 pièces
+\r
+Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande.""" ;
+                    ns1:name "Rouleaux de printemps" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Servi par 6 pièces
+\r
+Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande.""" ;
+                    ns1:name "Raviolis aux crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Servi par 6 pièces
+\r
+Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande.""" ;
+                    ns1:name "Nems au poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Servi par 6 pièces
+\r
+Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande.""" ;
+                    ns1:name "Nems au porc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Servi par 6 pièces
+\r
+Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande.""" ;
+                    ns1:name "Samoussas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Servi par 6 pièces
+\r
+Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande.""" ;
+                    ns1:name "Nems samoussas raviolis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """3 Pièces de chaque : nems, beignets, raviolis, samoussa, crevettes en couverture
+\r
+Si vous souffrez d'allergies alimentaires ou si vous suivez un régime alimentaire spécifique veuillez en aviser directement le restaurant avant de passer votre commande.""" ;
+                    ns1:name "Plateau entre amis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€27.00" ] ] ;
+            ns1:name "Entrées" ] .
+

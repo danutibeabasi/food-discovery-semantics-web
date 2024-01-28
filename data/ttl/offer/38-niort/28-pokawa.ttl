@@ -1,0 +1,248 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://niort.coopcycle.org/api/restaurants/28> ns1:hasMenu <https://niort.coopcycle.org/en/restaurant/28-pokawa#menu> .
+
+<https://niort.coopcycle.org/en/restaurant/28-pokawa#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, falafels*, fruit au choix, radis, carottes, avocat, edamame, chou rouge, graines de sésame. * Vegan, sans gluten, biologique et sans OGM. LIL: 461 kcal / MEDIUM : 672 kcal / BIG : 1101 kcal Allergènes : soja et sésame" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5cd69011eb.jpeg> ;
+                    ns1:name "Poké Falafels" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ici c'est vous le chef ! Créez votre poké avec les ingrédients de votre choix" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5c9bbd1a6d.jpeg> ;
+                    ns1:name "Poké Création" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, thon mariné*, fruit au choix, radis, concombre, carottes, avocat, edamame, chou rouge, graines de sésame. *Sans OGM, riche en protéines et faible en calories. LIL: 381 kcal / MEDIUM : 526 kcal / BIG : 954 kcal Allergènes : poisson, gluten, sésame, soja et sulfites" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5cce444edc.jpeg> ;
+                    ns1:name "Poké Thon Mariné" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, crevettes, avocat, fruit au choix, radis, carotte, concombre, chou rouge, edamame, graines de sésame. *Faible en calories LIL: 381 kcal / MEDIUM : 527 kcal / BIG : 866 kcal Allergènes : gluten, crustacés, soja, sésame et sulfites" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5cdf652c8b.jpeg> ;
+                    ns1:name "Poké Crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, saumon et thon mariné, fruit au choix, carotte, radis, concombre, chou rouge, avocat, edamame, graines de sésame. LIL : 407 kcal / MEDIUM : 573 kcal / BIG : 989 kcal Allergènes : poisson, soja, gluten, sésame et sulfites" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5cb03602da.jpeg> ;
+                    ns1:name "Poké Super Protéiné 🥇" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, saumon frais mariné, avocat, edamame, graines de sésame et cébette thaï. LIL : 574 kcal / MEDIUM : 800 kcal / BIG : 1068 kcal Allergènes : poisson, soja, sésame et sulfite" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5cac0d5a85.jpeg> ;
+                    ns1:name "Green Lover 💚" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, saumon frais, avocat, cébette thaï, graines de sésame. LIL : 585 kcal / MEDIUM : 812 kcal / BIG : 1025 kcal Allergènes : poisson, gluten, soja, sésame et sulfites" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5ca833cf94.jpeg> ;
+                    ns1:name "Le Chirashi Saumon Avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5cda4a1d77.jpeg> ;
+                    ns1:name "Poké Poulet rôti teriyaki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lil poké base riz blanc vinaigré, saumon, ananas, edamame, carotte, radis, concombre, chou rouge et graines de sésame. Allergènes : Soja, Sésame, Gluten et Sulfites." ;
+                    ns1:name "⚡ Lil Poké Saumon Ananas ⚡" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, saumon frais, avocat, mangue fraiche, cebette thaï, graines de sésame. LIL : 378 kcal / MEDIUM : 566 kcal / BIG : 1028 kcal Allergènes : poisson, gluten, soja, sésame et sulfites" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5ca278858a.jpeg> ;
+                    ns1:name "Le Chirashi Hawaien 🎖" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, saumon frais, fruit au choix, avocat, edamame, carotte, radis, concombre, chou rouge et graines de sésame. LIL : 432 kcal / MEDIUM : 620 kcal / BIG : 1084 kcal Allergènes : poisson, gluten, soja, sésame et sulfites" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5cb339c5fc.jpeg> ;
+                    ns1:name "Poké Saumon 🐟" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ] ;
+            ns1:name "Pokés Signatures" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Chocolate lover ❤️ ce moelleux est fait pour vous ! Et nous avons qu’une chose à vous dire : REGALEZ-VOUS ! À déguster tiède pour plus de plaisir 418 Kcal Allergènes : oeuf, gluten, lait et soja (Ne pas recongeler)" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5d1f1b547f.jpeg> ;
+                    ns1:name "Moelleux au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Aussi addictive que le jeu ! Notre salade de fruits exotiques vous apporte une touche de fraicheur avec ses beaux morceaux de mangue fraîche, ananas et pastèque. 🥭 77 Kcal" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5d33789e25.jpeg> ;
+                    ns1:name "Fruit Ninja 🥭" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5d1a55f087.jpeg> ;
+                    ns1:name "Cheesecake" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/62/58/62582b5f02241.jpeg> ;
+                    ns1:name "Crumble aux fruits exotiques" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Un vrai soda BIO naturel et rafraichissant avec du citron vert et une pointe de sucre de canne ! Le rêve non ? 330ml - 89,1 Kcal" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5d560007ba.jpeg> ;
+                    ns1:name "Lemonaid citron vert BIO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Notre ami américain, original et rafraichissant depuis 1886 ! 330 ml - 138,6 Kcal" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5d6b778483.jpeg> ;
+                    ns1:name "Coca Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Réveillez votre énergie naturelle avec le thé glacé maison au parfum fruité et léger. Idéal pour se rafraichir ! 250ml - 0 Kcal" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5d63399ea0.jpeg> ;
+                    ns1:name "Le Thé glacé Maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Eau de coco bio naturellement rafraichissante, de quoi rester frais toute la journée ! 200 ml" ;
+                    ns1:name "Eau de Coco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une bière fraîche fruitée & florale. Pour accompagner tout vos pokés ! 330 ml - 4,3% Vol. La vente d'alcool est interdite aux mineurs. Allergènes: gluten" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5d4d6f0023.jpeg> ;
+                    ns1:name "Poka Beer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une subtile combinaison d’ingrédients restituant le goût de Coca-Cola avec zéro sucres, de quoi vous faire plaisir sans vous priver… 330ml - 0 Kcal" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5c50c9b08b.jpeg> ;
+                    ns1:name "Coca Cola zéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une version stimulante au pur jus de gingembre et de citron. Frissons garantis ! 330ml - 79 Kcal" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5d5c1a95a5.jpeg> ;
+                    ns1:name "Lemonaid Ginger BIO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "On vous a déjà dit qu'il fallait boire 2 litres d'eau par jour ? 500ml" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5d65b36a2b.jpeg> ;
+                    ns1:name "Evian" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Étonnant, addictif et délicieux. Que du rêve dans cette boisson fruitée ! A déguster au bord de la piscine ou sur une plage... 330ml - 82,5 Kcal" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5d58c93799.jpeg> ;
+                    ns1:name "Lemonaid fruit de la passion Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Découvrez notre super citronnade maison infusée à la menthe avec une pointe de gingembre. Pourquoi faire compliqué quand on peut faire bon ? 250ml - 53 Kcal" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5d5fbbb962.jpeg> ;
+                    ns1:name "La citronnade Maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Base de riz blanc, saumon, avocat, cream cheese, cébette thai et graines de sésame. Un mélange JUSTE parfait ! 450 Kcal Allergènes : poisson, gluten, lait, soja, sulfites" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5ce52a558d.jpeg> ;
+                    ns1:name "Mini Salmon Bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Falafels* de pois chiche bio (x5) + Tzatziki. Le side parfait à partager ! À déguster chaud *Vegan, sans gluten, biologique. 241 Kcal" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5cf86a1011.jpeg> ;
+                    ns1:name "Falafels de pois chiche bio ♨️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Délicieux raviolis japonais au poulet et aux légumes. À déguster chaud ! 5 pièces 196 Kcal / 8 pièces 314 Kcal (Ne pas recongeler) Allergènes : Gluten, soja, sésame" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/62/58/625824d2461bd.jpeg> ;
+                    ns1:name "Box de Gyozas au poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pois, chou, soja, carotte et radis blanc. Toujours un délice mais en version veggie (x5 ou x8) ! 133Kcal Allergènes : gluten, soja, sésame (Ne pas recongeler)" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/62/58/6258246e9c874.jpeg> ;
+                    ns1:name "Box de Gyozas aux légumes 🥬" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vous hésitez entre les gyozas veggie et poulet ? Notre box est votre solution ! Pour la boîte de 5 gyozas, vous dégusterez 3 gyozas poulet et 2 gyozas veggie. Dans notre boîte de 8, c'est moitié - moitié ! Allergènes : Gluten, soja, sésame" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/62/58/6258251801ffb.jpeg> ;
+                    ns1:name "Box de Gyozas Mixtes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "Sides" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5c78fdae14.jpeg> ;
+                    ns1:name "Formule Poké + Boisson" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une box faite sur mesure pour nos minis-aventuriers (-12 ans) ! 🔎 Nous avons trouvé la formule parfaite pour les régaler, au menu : un Mini Poké, une boisson et un dessert. Et pour prolonger l'aventure: un Livre Mini-Monde" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5c819de3f3.jpeg> ;
+                    ns1:name "Poka Box 🎒" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5c7dea0912.jpeg> ;
+                    ns1:name "Formule Poké + Boisson + Dessert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "BRUNCH EVERYDAY ! Choisissez le poké de votre choix, accompagné d'un mini healthy bowl ou d'un excellent toast, et d'une boisson rafraichissante" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5c749e10c8.jpeg> ;
+                    ns1:name "Formule Brunch 💥" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ] ;
+            ns1:name "Formules" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Une compotée de myrtilles et cassis, surmonté d'un délicat crumble bien croustillant ! Produit décongelé, ne pas recongeler. 151 kcal Allergènes : Gluten, lait, fruits à coque" ;
+                    ns1:name "Crumble myrtilles cassis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, protéine au choix, tartare de légumes composé de mangue, concombre, oignons rouges et cacahuètes, piment jalapeños et cébette. La touche finale, notre sauce spicy secrète" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/2a/642ad6cf09e0d.jpeg> ;
+                    ns1:name "Spicy Chirashi 🔥" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base de riz blanc, thon, avocat, cream cheese, cébette thai et graines de sésame. Un mélange JUSTE parfait ! 284Kcal Allergènes : Poisson, lait, soja, sésame, sulfites, gluten" ;
+                    ns1:name "Mini-tuna bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Du lait de coco, des perles de chia et du coulis à la framboise : le dessert parfait pour finir votre escapade hawaïenne ! 353 Kcal Allergènes : fruits à coques, sulfites" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5d2275d474.jpeg> ;
+                    ns1:name "Pudding Vegan et coulis de framboises" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "Nouveautés" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/d5/61d5cfe882de5.jpeg> ;
+                    ns1:name "Power Bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ] ;
+            ns1:name "Healthy Bowls" ] .
+

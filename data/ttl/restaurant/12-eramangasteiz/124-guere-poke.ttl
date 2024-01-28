@@ -1,0 +1,50 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/124> a ns1:Restaurant ;
+    ns1:address <https://eramangasteiz.coopcycle.org/api/addresses/229420> ;
+    ns1:bannerImage "https://eramangasteiz.coopcycle.org/media/cache/restaurant_banner/65/6d/656db7d660076583029993.jpg" ;
+    ns1:description "Gürepoke es una marca Euskadi que ofrece poke gourmet con productos de cercanía, como el mar, la tierra y los pescados de Arroyabe, Alakrana, Keia y Bertokuek. Pide online y disfruta de una comida sencilla, sin edulcorantes ni excesos, con un concepto minimalista y tradicional." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.284667e+01 ;
+            ns1:longitude -2.673618e+00 ] ;
+    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/restaurant_thumbnail/65/1f/651fda7a86416.jpg> ;
+    ns1:name "Güre Poke" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:00" ;
+            ns1:dayOfWeek "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "12:50" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday" ;
+            ns1:opens "12:50" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:40" ;
+            ns1:dayOfWeek "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "19:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:40" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday" ;
+            ns1:opens "19:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "es" ;
+                    ns1:urlTemplate "https://eramangasteiz.coopcycle.org/en/restaurant/124-guere-poke" ] ] ;
+    ns1:sameAs <https://eramangasteiz.coopcycle.org/en/restaurant/124-guere-poke> ;
+    ns1:url <https://eramangasteiz.coopcycle.org/en/restaurant/124-guere-poke> .
+
+<https://eramangasteiz.coopcycle.org/api/addresses/229420> a ns1:PostalAddress ;
+    ns1:name "Güre Poke" ;
+    ns1:streetAddress "Plaza la, Virgen Blanca Plaza, 4, 01001 Gasteiz, Araba, España" ;
+    ns1:telephone "+34619606198" .
+

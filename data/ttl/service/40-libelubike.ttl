@@ -1,0 +1,21 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://libelubike.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "mx" ;
+                    ns1:addressLocality "Puerto de Veracruz" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 1.919606e+01 ;
+                    ns1:longitude -9.614487e+01 ] ] ;
+    ns1:description "<p>Libelubike es la primer bicimensajería en todo el Estado de Veracruz y somos una empresa versátil que atiende e incentiva la economía local, incidimos en la concientización y generación de políticas públicas que incentiven el uso de alternativas sustentables para el traslado, transporte y distribución de productos y servicios. Lo anterior se da de forma natural por las características propias de nuestro oficio que implican estar en la calle y conocer las condiciones reales de la infraestructura vial, lo cual nos permite reportar sus necesidades (coladeras abiertas, baches, semáforos sin funcionar, falta de señalización).</p>"@es ;
+    ns1:name "Libelubike" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:sameAs <https://twitter.com/libelubikemx>,
+        <https://www.facebook.com/Libelubikemx/>,
+        <https://www.instagram.com/libelubikemx> ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://libelubike.coopcycle.org> .
+

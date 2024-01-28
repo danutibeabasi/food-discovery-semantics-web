@@ -1,0 +1,46 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://kooglof.coopcycle.org/api/restaurants/90> a ns1:Restaurant ;
+    ns1:address <https://kooglof.coopcycle.org/api/addresses/48219> ;
+    ns1:bannerImage "https://kooglof.coopcycle.org/media/cache/restaurant_banner/65/6d/656dd092d8607.png" ;
+    ns1:description """Pizzeria familiale & artisanale par Mauro Colagreco, chef étoilé\r
+Pecora Negra : La tua pizza preferita 🍕\r
+Produits locaux & de saison 🌿\r
+\r
+Livraison de pizza à Strasbourg et alentours !""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.857908e+01 ;
+            ns1:longitude 7.753325e+00 ] ;
+    ns1:image <https://kooglof.coopcycle.org/media/cache/restaurant_thumbnail/65/6e/656e1572f325a.png> ;
+    ns1:name "Nouveau ! 🔥 Pecora Negra 🍕" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:30" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Wednesday" ;
+            ns1:opens "12:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:30" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "19:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://kooglof.coopcycle.org/en/restaurant/90-nouveau-pecora-negra" ] ] ;
+    ns1:sameAs <https://kooglof.coopcycle.org/en/restaurant/90-nouveau-pecora-negra> ;
+    ns1:url <https://kooglof.coopcycle.org/en/restaurant/90-nouveau-pecora-negra> .
+
+<https://kooglof.coopcycle.org/api/addresses/48219> a ns1:PostalAddress ;
+    ns1:name "Nouveau ! 🔥 Pecora Negra 🍕" ;
+    ns1:streetAddress "13 Rue des Couples, 67000 Strasbourg, France" ;
+    ns1:telephone "+33981729721" .
+

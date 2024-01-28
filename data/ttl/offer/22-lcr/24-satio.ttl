@@ -1,0 +1,175 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lcr.coopcycle.org/api/restaurants/24> ns1:hasMenu <https://lcr.coopcycle.org/en/restaurant/24-satio#menu> .
+
+<https://lcr.coopcycle.org/en/restaurant/24-satio#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tartine de pain d'épice, mélange de champignons, Bleu d’Auvergne, Speculoos" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/96/6596d242eacbc.jpeg> ;
+                    ns1:name "Tartine pain d’épices/Champignon/Bleu/Speculoos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servies avec une sauce barbecue maison" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/96/6596d19f89092.jpeg> ;
+                    ns1:name "Les Croquettes de cochon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/96/6596d133e5d3e.jpeg> ;
+                    ns1:name "Les Accras de poisson" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Amuse Gueules" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Bol + Boisson" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bol + Boisson + Dessert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ] ;
+            ns1:name "Menu" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/96/6596d02f48eb4.jpeg> ;
+                    ns1:name "Flan courge / sirop d'érable" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/96/6596d05c11b80.jpeg> ;
+                    ns1:name "Gâteau roulé chocolat / noisette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/96/6596d1be20f2e.jpeg> ;
+                    ns1:name "Tartelette crème pâtissière / kiwi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Poitrine de cochon confite, grenailles rôties, embeurrée de chou frisé, condiment Piri-Piri, pickles." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/96/6596d00f326b4.jpeg> ;
+                    ns1:name "Le Cochon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet grillé à l'asiatique, sauce thaï (coriandre), wok de légumes, tombée d’épinards au sésame, riz basmati." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/96/6596d0f03c6a5.jpeg> ;
+                    ns1:name "Le Poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/96/6596d17a255ae.jpeg> ;
+                    ns1:name "Les Cannelloni Tartufata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry Japonais, œuf tamago, riz basmati, salade de chou/wakamé, champignons." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/96/6596d087acbb6.jpeg> ;
+                    ns1:name "Le Curry Japonais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poisson du moment, grenailles et céleri rôtis, carpaccio de fenouil, sauce safranée aux coquillages." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/96/6596d0b878639.jpeg> ;
+                    ns1:name "Le Poisson" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ] ;
+            ns1:name "Bols de saison" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Cette IPA s’ouvre sur des senteurs d’agrumes et de chair de mangue. Sa texture douce et ses notes épicées soutiennent une belle amertume." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/2c/612cfb6d6c410.jpeg> ;
+                    ns1:name "Bière Skumenn IPA (6%)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cette bière blanche florale et harmonieuse, mélange notes herbacées et zestes d’agrumes." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/2c/612cfb46dc97e.jpeg> ;
+                    ns1:name "Bière Skumenn blanche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une Pale Ale fringante, délicatement parfumée, vive sèche et fruitée, le tout s’étirant dans une finale des plus rafraîchissantes." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/2c/612cfb892a91d.jpeg> ;
+                    ns1:name "Bière Skumenn Pale Ale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Bières" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Coca Cola zéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une infusion de rooibos au fruit de la passion, et c’est tout." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/2c/612cfc22e139a.jpeg> ;
+                    ns1:name "ChariTea Red" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Eau minérale 100% naturelle plate, qui s'engage à reverser 52% de ses bénéfices à la protection des océans" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/2c/612cfd065663f.jpeg> ;
+                    ns1:name "Eau plate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un thé vert infusé au gingembre et au citron, adouci par une touche de miel." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/2c/612cfbe22022d.jpeg> ;
+                    ns1:name "ChariTea Green" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une limonade rafraichissante contenant uniquement du jus de citron vert, de l’eau pétillante et un soupçon de sucre de canne." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/2c/612cfd37452aa.jpeg> ;
+                    ns1:name "Lemonaid Citron vert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Limonade fruitée à l'orange sanguine" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/2c/612cfae6abc52.jpeg> ;
+                    ns1:name "Lemonaid Orange sanguine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boisson à l'Hibiscus faite à Rennes" ;
+                    ns1:name "Ibahis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une infusion de maté à l’orange et au citron. Pour un coup de boost naturellement riche en caféine" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/2c/612cfc034ed06.jpeg> ;
+                    ns1:name "ChariTea Maté" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Limonade stimulante au pur jus de gingembre et de citron." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/2c/612cfacb2d003.jpeg> ;
+                    ns1:name "Lemonaid Gingembre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/8c/618c0e2b7b4f0.jpeg> ;
+                    ns1:name "Coca Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Orangeade gingembre" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/2c/612cfba538894.jpeg> ;
+                    ns1:name "Boisson de saison maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Eau minéralle 100% naturelle gazeuse, qui s'engage à reverser 52% de ses bénéfices à la protection des océans" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/2c/612cfcccccf99.jpeg> ;
+                    ns1:name "Eau gazeuse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Boissons" ] .
+

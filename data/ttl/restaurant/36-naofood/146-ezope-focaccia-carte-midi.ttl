@@ -1,0 +1,35 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://naofood.coopcycle.org/api/restaurants/146> a ns1:Restaurant ;
+    ns1:address <https://naofood.coopcycle.org/api/addresses/96128> ;
+    ns1:bannerImage "https://naofood.coopcycle.org/media/cache/restaurant_banner/63/b2/63b2b5d8eec3d.jpg" ;
+    ns1:description """EZOPE vous propose des recettes de saison gourmandes en version focaccia ou salade, c'est au choix ! 🥗 🥪\r
+Foca-quoi ? La focaccia, c’est un pain traditionnel italien, au levain et à l’huile d’olive. Chez nous, il est fait maison chaque jour par Antoine, à base de farine bio et locale. 💛""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.721914e+01 ;
+            ns1:longitude -1.555288e+00 ] ;
+    ns1:image <https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/63/b2/63b2b5d8eec3d.jpg> ;
+    ns1:name "EZOPE FOCACCIA (carte midi)" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:45" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:45" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://naofood.coopcycle.org/en/restaurant/146-ezope-focaccia-carte-midi" ] ] ;
+    ns1:sameAs <https://naofood.coopcycle.org/en/restaurant/146-ezope-focaccia-carte-midi> ;
+    ns1:url <https://naofood.coopcycle.org/en/restaurant/146-ezope-focaccia-carte-midi> .
+
+<https://naofood.coopcycle.org/api/addresses/96128> a ns1:PostalAddress ;
+    ns1:name "EZOPE FOCACCIA (carte midi)" ;
+    ns1:streetAddress "13 Rue Léon Blum, Nantes, France" ;
+    ns1:telephone "+33982585667" .
+

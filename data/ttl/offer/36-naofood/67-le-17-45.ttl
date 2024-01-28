@@ -1,0 +1,323 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://naofood.coopcycle.org/api/restaurants/67> ns1:hasMenu <https://naofood.coopcycle.org/en/restaurant/67-le-17-45#menu> .
+
+<https://naofood.coopcycle.org/en/restaurant/67-le-17-45#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """220g de fromage à raclette à l'ail des ours\r
+220g de Morbier""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/51/6351181e17896.jpeg> ;
+                    ns1:name "Fromage à Raclette et Morbier (2 personnes)" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fcc276074.jpeg> ;
+                    ns1:name "Mix Fromage/Charcut' Raclette (2 Personnes)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/51/635118b285f08.jpeg> ;
+                    ns1:name "Mix charcut' raclette (2 personnes)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ] ;
+            ns1:name "Hummmm Raclette" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654c1ce304882.jpeg> ;
+                    ns1:name "Lubéron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La Cabriole" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654c1bd896c28.jpeg> ;
+                    ns1:name "Saumur-Champigny" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Château Haute Sauvetat" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654c1c06e6a91.jpeg> ;
+                    ns1:name "Côtes de Blaye" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "🍷 Nos vins Rouges" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fc8a57b06.jpeg> ;
+                    ns1:name "L'épicurienne (2 personnes)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Reblochon Fermier, Fuet , Jambon de pays grande réserve (24 mois), Morbier, Tête de moine, Brie truffé, Lomo Artisanal" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fc7206b8f.jpeg> ;
+                    ns1:name "La Gourmet (2 Personnes)" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "La planche des amis (2 personnes)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ] ;
+            ns1:name "🥖Les planches des indécis🥖" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Fromage rustique Auvergnat était le préféré de Louis XV." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fd62a8ad6.jpeg> ;
+                    ns1:name "Saint Nectaire Fermier" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâte molle au lait cru entier de vache" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549faf365ffb.jpeg> ;
+                    ns1:name "Brie Truffé" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La \"Girolle\" permet de former les rosettes très caractéristiques de ce fromage au lait entier cru du Jura" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fdffcda3b.jpeg> ;
+                    ns1:name "Tête de Moine" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Surnommé le Prince des Gruyères" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fab586be6.jpeg> ;
+                    ns1:name "Beaufort" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cette merveille du nord de la France était de le fromage préféré du Général de Gaulle" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fcb10f6e7.jpeg> ;
+                    ns1:name "Mimolette Extra-Vieille 24 mois" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ce fromage au lait de vache du Massif Central est persillé de moisissure et séduit les amateurs de fromages forts en goûts." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/60/d5/60d5d11930681.jpeg> ;
+                    ns1:name "Bleu d'Auvergne" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La tomme rustique et paysanne, est le plus ancien fromage savoyard au lait de vache" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fe317df56.jpeg> ;
+                    ns1:name "Tomme de Savoie fermière" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Croûte fine et bosselée d'aspect marronnée et une pâte de couleur jaune pâles avec des morceaux de truffes" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fbf2ecd6b.jpeg> ;
+                    ns1:name "Gouda à la Truffe" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fe0e9199a.jpeg> ;
+                    ns1:name "Timanoix" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ce fromage haut savoyard est élaboré exclusivement au lait cru et entier de vaches" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549faa12879f.jpeg> ;
+                    ns1:name "Abondance" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un fromage au lait cru de vache qui nous vient de l'Auvergne où il est affiné 3 à 7 mois" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fb0810146.jpeg> ;
+                    ns1:name "Cantal Entre-Deux" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Le comté fait la fierté des fermiers de Franche-Comté. Lait cru" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fb56c80d1.jpeg> ;
+                    ns1:name "Comté 16 mois" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ce célèbre fromage au lait cru et entier est issu de la seconde traite des vaches" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fd42693b2.jpeg> ;
+                    ns1:name "Reblochon fermier" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Les fermiers Jurassiens réservaient le caillé dans une cuve en le recouvrant d'une fine couche de suie" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fcd5e13cd.jpeg> ;
+                    ns1:name "Morbier" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "🧀 Fromages" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fc9ece349.jpeg> ;
+                    ns1:name "Lomo traditionnel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chorizo épicé" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fb4466df9.jpeg> ;
+                    ns1:name "Chorizo piquant" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fd93c113f.jpeg> ;
+                    ns1:name "Saucisson sec de canard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fd7424df9.jpeg> ;
+                    ns1:name "Saucisse Sèche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâté de campagne à l'ancienne, confectionné dans le respect des traditions ancestrales de la charcuteries française" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fd1041549.jpeg> ;
+                    ns1:name "Pâté de campagne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jambon Serrano Espagnol séché pendant 24 mois" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fc5ecad0a.jpeg> ;
+                    ns1:name "Jambon grande réserve" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Coppa affinée au Séchoir naturel" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fb7e5c16c.jpeg> ;
+                    ns1:name "Coppa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saucisson des Alpes séché à l'air libre" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fd847216a.jpeg> ;
+                    ns1:name "Saucisson pur porc artisanal" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Rilettes pur porc 100% artisanal" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/60/d5/60d5dd4d3dca7.jpeg> ;
+                    ns1:name "Rillettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Spécialité charcutière catalane de forme allongée et très fine." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fbda39902.jpeg> ;
+                    ns1:name "Fuet Catalan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fbcb819cc.jpeg> ;
+                    ns1:name "Fuet au roquefort" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boudin noir séché espagnol. Goût puissant aux oignons et épices" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fce51b952.jpeg> ;
+                    ns1:name "Morcilla Piquante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "🐷 Charcuteries" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Fief de la Brie" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654c1c429ff81.jpeg> ;
+                    ns1:name "Muscadet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654c1cb565569.jpeg> ;
+                    ns1:name "Cote de gascogne - Moelleux" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 pour tous - Sec et Fruité" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4c/654c1c275bbc3.jpeg> ;
+                    ns1:name "Côtes de Gascogne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "🟡 Nos vins Blancs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Produit confectionné par le 17.45 à la ferme du Gros Caillou en Normandie, cochons élevés sur paille et agriculture raisonnée.\r
+Pot : 200g""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fdde328ff.jpeg> ;
+                    ns1:name "Terrine de Canard à l'Orange du 17.45" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Produit Bio" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fb34a3841.jpeg> ;
+                    ns1:name "Caviar d'aubergine du 17.45" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Produit confectionné par le 17.45 à la ferme du Gros Caillou en Normandie, cochons élevés sur paille et agriculture raisonnée.\r
+Pot : 200g""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fd53a7ee6.jpeg> ;
+                    ns1:name "Rillettes de porc du 17.45" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Produit confectionné par le 17.45 à la ferme du Gros Caillou en Normandie, cochons élevés sur paille et agriculture raisonnée.\r
+Pot : 200g""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fd214f311.jpeg> ;
+                    ns1:name "Pâté façon Grand-mère du 17.45" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Produit Bio" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fdcfb126f.jpeg> ;
+                    ns1:name "Tapenade Verte du 17.45" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "🐽 L'épicerie du 17.45" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fb6840fef.jpeg> ;
+                    ns1:name "Confit d'oignons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fc4e8303b.jpeg> ;
+                    ns1:name "Gressins" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fb1bbcf88.jpeg> ;
+                    ns1:name "Carottes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fdc08d4ed.jpeg> ;
+                    ns1:name "Tapenade d'olives noires" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fe1f5d376.jpeg> ;
+                    ns1:name "Tomates Confites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549fd2f00045.jpeg> ;
+                    ns1:name "Radis Red Meat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "🥕 Crudités et accompagnements" ] .
+

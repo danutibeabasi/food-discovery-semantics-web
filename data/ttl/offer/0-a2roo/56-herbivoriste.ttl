@@ -1,0 +1,36 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://a2roo.coopcycle.org/api/restaurants/56> ns1:hasMenu <https://a2roo.coopcycle.org/en/restaurant/56-herbivoriste#menu> .
+
+<https://a2roo.coopcycle.org/en/restaurant/56-herbivoriste#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Crème coco-noisette et pralin" ;
+                    ns1:nutrition "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Financier aux amandes" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Les desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Salade de freekeh, pois chiches et courgettes fumées" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Purée de carottes et patate douce, polenta aux herbes, granola salé" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ] ;
+            ns1:name "Les plats" ] .
+

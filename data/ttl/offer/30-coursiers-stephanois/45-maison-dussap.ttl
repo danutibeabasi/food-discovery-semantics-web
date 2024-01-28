@@ -1,0 +1,247 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiers-stephanois.coopcycle.org/api/restaurants/45> ns1:hasMenu <https://coursiers-stephanois.coopcycle.org/en/restaurant/45-maison-dussap#menu> .
+
+<https://coursiers-stephanois.coopcycle.org/en/restaurant/45-maison-dussap#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Fruits exotiques frais (mangue, ananas, fruit du dragon), chantilly noix de coco, confit passion mangue et biscuit moelleux" ;
+                    ns1:name "Upolu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Nocciola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chantilly chocolat, croustillant praliné noisette, biscuit chocolat sans gluten" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/06/62069e2183da4.jpeg> ;
+                    ns1:name "Chéri Choco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "chantilly vanille, diplomate vanille, caramel beurre salé, choux vanille" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/e9/61e92e9d24774.jpeg> ;
+                    ns1:name "Saint-Honoré" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Le Cydon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """flan à la vanille de madagascar \r
+part de 4cm""" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/e9/61e92e624b102.jpeg> ;
+                    ns1:name "Flan pâtissier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Le Brignolles" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Gâteau à la part" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Noisettes, sucre, chocolat lait, huile de noisettes, riz soufflé" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/03/6203d75055fa6.jpeg> ;
+                    ns1:name "Pâte à tartiner croustillante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "Pâte à tartiner" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Gâteau moelleux aux amandes surplombé de caramel et de noix de pécan" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/7b/627b81f77da28.jpeg> ;
+                    ns1:name "Financier caramel pécan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cookie aux noisettes avec son caramel beurre salé" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/7b/627b81c3eec45.jpeg> ;
+                    ns1:name "Cookie noisette caramel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cookie aux noisettes et confit citron" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/7b/627b819bdee12.jpeg> ;
+                    ns1:name "Cookie citron noisette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cookie au chocolat topping praliné pistache et carrés de gianduja" ;
+                    ns1:name "Cookie chocolat pistache gianduja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Muffin avec un insert vanille et topping caramel beurre salé" ;
+                    ns1:name "Muffin caramel vanille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gâteau moelleux aux amandes et aux noisettes" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/7b/627b8220dcc51.jpeg> ;
+                    ns1:name "Financier noisettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brownie au chocolat et topping caramel beurre salé" ;
+                    ns1:name "Brownie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "cookie au speculoos et noix de pécan" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/e6/61e6f92c592bd.jpeg> ;
+                    ns1:name "Cookie speculoos noix de pécan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cookie noisettes topping caramel, compotée de poire 🍐 et noix de pécan" ;
+                    ns1:name "Cookie poire caramel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Portion de 2cm de Nougat 100% fait maison" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/03/6203d92741dee.jpeg> ;
+                    ns1:name "Nougat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Tea Time" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Moelleux aux marrons avec son confit cassis et topping crème de marrons, cassis et éclats de marrons glacés" ;
+                    ns1:name "Gâteau de voyage marrons cassis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Moelleux noisette, caramel à vanille et noisettes caramélisées" ;
+                    ns1:name "Gâteau de voyage caramel noisettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "gâteau à partager mi-cuit chocolat" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/e6/61e6f9b47b1c3.jpeg> ;
+                    ns1:name "Mi-cuit chocolat à partager" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "Gâteau de voyage" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """coffret 24 macarons assortis 100% faits maison\r
+sans gluten*""" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/e6/61e6f85b59a7f.jpeg> ;
+                    ns1:name "Coffret 24 macarons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€34.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """coffret 18 macarons assortis 100% faits maison \r
+sans gluten*""" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/e6/61e6f9e6b808b.jpeg> ;
+                    ns1:name "Coffret 18 macarons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """9 MACARONS assortis 100% faits maison \r
+sans gluten""" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/e6/61e6f83249dfd.jpeg> ;
+                    ns1:name "Coffret 9 macarons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ] ;
+            ns1:name "Macarons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Chocolat noir grand cru du Vietnam 250gr
+\r
+Ingrédients. : Fève de cacao, beurre de cacao, sucre""" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/06/620692fd293ef.jpeg> ;
+                    ns1:name "Maxi tablette chocolat noir - Vietnam" ;
+                    ns1:nutrition "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/06/620690c258f5b.jpeg> ;
+                    ns1:name "Maxi tablette chocolat noir + mendiants" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/06/620691ea97b16.jpeg> ;
+                    ns1:name "Maxi tablette chocolat noir + nougat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Chocolat lait grand cru 250g\r
+Morceaux de caramel
+\r
+Ingrédients : fève de cacao, beurre de cacao, poudre de lait, crème, sucre, beurre, fleur de sel""" ;
+                    ns1:name "Maxi tablette chocolat lait au caramel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/03/6203d486db17c.jpeg> ;
+                    ns1:name "Mendiants" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Amandes éffilées, chocolat noir, oranges amères, bigarreaux, beurre, sucre" ;
+                    ns1:name "Florentin individuel" ;
+                    ns1:nutrition "Milk",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Chocolat au lait grand cru de Madagascar 250gr 
+\r
+Ingrédients : Fève de cacao, beurre de cacao, sucre, poudre de lait""" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/06/62068f7872180.jpeg> ;
+                    ns1:name "Maxi tablette chocolat lait - Madagascar" ;
+                    ns1:nutrition "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/06/62068d72b5af0.jpeg> ;
+                    ns1:name "Maxi tablette chocolat lait + cookies" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Amandes effilées, chocolat noir, orange confite, bigarreaux, beurre, sucre" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/03/6203ceb88af27.jpeg> ;
+                    ns1:name "Coffret de 12 florentins" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/06/6206910170ae3.jpeg> ;
+                    ns1:name "Maxi tablette chocolat noir + noisettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Chocolat noir grand cru du Venezuela 250gr 
+\r
+Ingrédients : Fève de cacao, beurre de cacao, sucre""" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/06/62069324320b7.jpeg> ;
+                    ns1:name "Maxi tablette chocolat noir - Venezuela" ;
+                    ns1:nutrition "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/06/62068eff52a79.jpeg> ;
+                    ns1:name "Maxi tablette chocolat lait + noisettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/62/03/6203d26a2eaa1.jpeg> ;
+                    ns1:name "Palets mélangés" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ] ;
+            ns1:name "Chocolats" ] .
+

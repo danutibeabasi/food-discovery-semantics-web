@@ -1,0 +1,334 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiersmontpellier.coopcycle.org/api/restaurants/121> ns1:hasMenu <https://coursiersmontpellier.coopcycle.org/en/restaurant/121-le-karawane#menu> .
+
+<https://coursiersmontpellier.coopcycle.org/en/restaurant/121-le-karawane#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "4 entrées froides, 4 entrées chaudes, 1 plateau de grillades mixtes, servi avec galettes libanaises et dessert maison" ;
+                    ns1:name "Mézzé 2 personnes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€46.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 entrées froides, 5 entrées chaudes, 1 plateau de grillades mixtes, servi avec galettes libanaises et dessert maison" ;
+                    ns1:name "Mézzé 3 personnes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€69.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 entrées froides, 4 entrées chaudes, 1 plateau de grillades mixtes, servi avec galettes libanaises et dessert maison" ;
+                    ns1:name "Mézzé 1 personne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 entrées froides, 6 entrées chaudes, 1 plateau de grillades mixtes, servi avec galettes libanaises et dessert maison" ;
+                    ns1:name "Mézzé 4 personnes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€90.00" ] ] ;
+            ns1:name "🍽️Nos menu mézzés🍽️" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Galette libanaise, brochette d'agneau, salade, tomate, cornichon, oignon et persil ou sumac, crème de pois chiche + frites. Choix persil ou sumac" ;
+                    ns1:name "Sandwich Agneau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger, blanc de poulet pané, salade, cornichon, crème d'ail, mayonnaise, ketchup + frites." ;
+                    ns1:name "Sandwich escalope de poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette libanaise, soudjouk, tomate, cornichon, crème d'ail + frites." ;
+                    ns1:name "Sandwich soudjouk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette libanaise, brochette de blanc de poulet mariné, salade, cornichon, crème d'ail + frites." ;
+                    ns1:name "Sandwich taouk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette libanaise, brochette de viande hachée, salade, tomate, cornichon, oignon et persil ou sumac, crème de pois chiche, + frites. Choix persil ou sumac" ;
+                    ns1:name "Sandwich kafta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette libanaise, falafel, salade, tomate, cornichon, crème de sésame (tahiné) + frites." ;
+                    ns1:name "Sandwich falafel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger, blanc de poulet mariné, salade, cornichon, mayonnaise, ketchup, mozzarella + frites." ;
+                    ns1:name "Sandwich chicken sap" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger, blanc de poulet mariné à la sauce (soja, champignon et maïs), salade, cornichon, mayonnaise, ketchup, mozzarella + frites." ;
+                    ns1:name "Sandwich Fahita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette libanaise, viande veau à la broche, salade, tomate, cornichon, oignon et persil ou sumac, sauce crème de sésame (tahiné) + frites. Choix persil ou sumac" ;
+                    ns1:name "Sandwich chawarma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ] ;
+            ns1:name "🌯 Nos sandwichs 🌯" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Assortiments pâtisseries libanaises (2 personnes)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Assortiments pâtisseries libanaises (1 personne)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Assortiments pâtisseries libanaises (3 personnes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ] ;
+            ns1:name "🧁 Nos desserts maison 🧁" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Je ne souhaite pas de couvert jetable" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Je ne souhaite pas de serviette jetable" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ] ;
+            ns1:name "🍴Couvert et serviette🍴" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "5 pains" ;
+                    ns1:name "Pains libanais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ] ;
+            ns1:name "🫓Nos pains🫓" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Oasis framboise 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cristaline 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Oasis tropical 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fanta orange 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Perrier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola cherry 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ice Tea pêche 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Hawai tropical 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Orangina 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Schweppes agrumes 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola zero 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "🍹Nos boissons 🍹" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Viande de veau hachée avec oignon et persil, crudités et frites ou riz." ;
+                    ns1:name "Assiette brochette de kefta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brochette de viande hachée servie avec une sauce relevée, crudités et frites ou riz." ;
+                    ns1:name "Assiette kafta cachcach" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gambas grillée, crudités et frites ou riz." ;
+                    ns1:name "Assiette gambas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Daurade grillée, crudités et frites ou riz." ;
+                    ns1:name "Assiette daurade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Viande de veau marinée et grillée à la broche, crudités et frites ou riz." ;
+                    ns1:name "Assiette chawarma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Côtelette d'agneau grillé, crudités et frites ou riz." ;
+                    ns1:name "Assiette côtelette d'agneau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brochette d'agneau, crudités et frites ou riz." ;
+                    ns1:name "Assiette agneau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brochette de blanc de poulet mariné, crudités et frites ou riz." ;
+                    ns1:name "Assiette chiche taouk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 brochette de kafta, 1 brochette de poulet, crudités et frites ou riz." ;
+                    ns1:name "Assiette mixte duo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet désossé mariné et grillé, crudités et frites ou riz." ;
+                    ns1:name "Assiette ½ poulet grillé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 brochette de kafta, 1 brochette de poulet, 1 brochette d'agneau, crudités et frites ou riz." ;
+                    ns1:name "Assiette mixte trio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ] ;
+            ns1:name "🥩Nos assiettes grillades🥩" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger, blanc de poulet (boucher), salade, mayonnaise, tomate, cheddar, frites." ;
+                    ns1:name "Chicken burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain boulanger, viande de veau hachée (boucher), salade, mayonnaise, tomate, cheddar, frites." ;
+                    ns1:name "Burger libanais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ] ;
+            ns1:name "🍔Nos burgers maison🍔" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "½ poulet grillé acheté = 1 offert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "1 Cuisse de poulet achetée =    1 offerte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ] ;
+            ns1:name "💥PROMOTION💥" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Assiette de 7 entrées différentes \"viande de veau ou végétarienne\"." ;
+                    ns1:name "Le karawan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Yaourt libanais, ail, menthe et dés de concombre." ;
+                    ns1:name "Yaourt karawan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.85" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Caviar d'aubergine grillée." ;
+                    ns1:name "Moutabel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.85" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mousse de pois chiche à la crème de sésame." ;
+                    ns1:name "Houmous" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.85" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade de crudités surmontée de pain grillé." ;
+                    ns1:name "Fattouche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.85" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fromage libanais, tomates, oignons et poivrons." ;
+                    ns1:name "Chenklich" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.85" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Aubergines et pois chiche à la sauce tomate." ;
+                    ns1:name "Moussaka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.85" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jeunes feuilles de vignes farcies." ;
+                    ns1:name "Feuilles de vigne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.85" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mélange savoureux de persil, tomates, blé concassé, citron et huile d'olive." ;
+                    ns1:name "Taboulé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.85" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fromage blanc velouté à la libanaise." ;
+                    ns1:name "Labneh" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.85" ] ] ;
+            ns1:name "🥗 Nos hors-d'oeuvres froids 🥗" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Fromage, beignet et Feta. 5 grandes pièces." ;
+                    ns1:name "Samboussek" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fèves cuites dans une sauce citronnée avec un filet d'huile d'olive" ;
+                    ns1:name "Foul" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Blé concassé farci à la viande, 5 pièces." ;
+                    ns1:name "Kebé krass" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette libanaise farcie de viande assaisonnée et grillée." ;
+                    ns1:name "Arayess viande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignet de viande hachée, 5 grandes pièces." ;
+                    ns1:name "Samboussek viande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fromage fondu dans une galette libanaise grillée." ;
+                    ns1:name "Arayess fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâte fine, croustillante fourrée à la viande parfumée. 5 grandes pièces." ;
+                    ns1:name "Sfiha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boulettes de fève, pois chiche et coriandre (5 pièces) ." ;
+                    ns1:name "Falafel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Feuilleté aux épinards, 5 grandes pièces." ;
+                    ns1:name "Fatayer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ] ;
+            ns1:name "🥗Nos hors-d'oeuvres chauds🥗" ] .
+

@@ -1,0 +1,38 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://dinan.coopcycle.org/api/restaurants/8> a ns1:Restaurant ;
+    ns1:address <https://dinan.coopcycle.org/api/addresses/344> ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.845304e+01 ;
+            ns1:longitude -2.044355e+00 ] ;
+    ns1:image <https://dinan.coopcycle.org/media/cache/restaurant_thumbnail/63/77/637790f8eeb1e.png> ;
+    ns1:name "Le bistrot du marché" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "0.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "4.80" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://dinan.coopcycle.org/en/restaurant/8-le-bistrot-du-marche" ] ] ;
+    ns1:sameAs <https://dinan.coopcycle.org/en/restaurant/8-le-bistrot-du-marche> ;
+    ns1:url <https://dinan.coopcycle.org/en/restaurant/8-le-bistrot-du-marche> .
+
+<https://dinan.coopcycle.org/api/addresses/344> a ns1:PostalAddress ;
+    ns1:name "Le bistrot du marché" ;
+    ns1:streetAddress "16 Place du Champ Clos, Dinan, France" ;
+    ns1:telephone "+33296391152" .
+

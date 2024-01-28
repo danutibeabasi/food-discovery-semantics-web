@@ -1,0 +1,306 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiersmontpellier.coopcycle.org/api/restaurants/67> ns1:hasMenu <https://coursiersmontpellier.coopcycle.org/en/restaurant/67-le-bon-sens#menu> .
+
+<https://coursiersmontpellier.coopcycle.org/en/restaurant/67-le-bon-sens#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Je ne souhaite pas de serviette jetable" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Je ne souhaite pas de couvert jetable" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ] ;
+            ns1:name "🍴Couvert et serviette🍴" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/64/47/6447826cb09bb.jpeg> ;
+                    ns1:name "Wrap et jeunes pousses d'épinards +4 ingrédients" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/64/47/644782ce956bf.jpeg> ;
+                    ns1:name "Wrap et jeunes pousses d'épinards +6 ingrédients" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Wrap, épinards, oeuf, pickles, houmous paprika-gingembre, champignons sauce soja, sauce soja" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/64/53/6453ecbaa77bd.jpeg> ;
+                    ns1:name "Wrap signature" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "🌯Nos wraps🌯" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/64/53/6453eb7cd5b31.jpeg> ;
+                    ns1:name "Verveine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vert, noir, jasmin" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5f/c0/5fc0e5e8cc52f.jpg> ;
+                    ns1:name "Thé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "café mélangé à du chocolat chaud" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/64/53/6453f177dff9f.jpeg> ;
+                    ns1:name "Mocha" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "bio - commerce solidaire" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/64/53/6453eb378e0cd.jpeg> ;
+                    ns1:name "Thé Matcha" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "bio - commerce solidaire" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/64/53/6453f1a3ba8e1.jpeg> ;
+                    ns1:name "Flat White" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5f/c0/5fc0e29b752bf.jpg> ;
+                    ns1:name "Latte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fait maison" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5f/c0/5fc0e1c815d82.jpg> ;
+                    ns1:name "Chaï Latte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Issue d'agriculture raisonnée" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/63/56/6356a512d1d48.jpeg> ;
+                    ns1:name "Chocolat chaud" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "☕Nos boissons chaudes☕" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bio" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5f/c0/5fc0e5cb116d1.jpg> ;
+                    ns1:name "Soda" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Malpolon 33cl - Bière local et en circuit court" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/64/53/6453e36732e7f.jpeg> ;
+                    ns1:name "Bière" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chaï ou latte" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5f/c0/5fc0e257e792b.jpg> ;
+                    ns1:name "Frappé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """*Bio et Local\r
+50cl""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/62/84/6284daead3f4f.jpeg> ;
+                    ns1:name "Viognier Chardonnay" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pêche blanche, citron vert, framboise" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5f/c0/5fc0e58db2f9e.jpg> ;
+                    ns1:name "Sirop" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "🧋Nos boissons froides🧋" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Fait maison" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/63/56/6356a5a32dcb2.jpeg> ;
+                    ns1:name "Petite Soupe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Soupe maison agrémentée de topping de votre choix" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/63/56/6356a5bcd8551.jpeg> ;
+                    ns1:name "Soupe 4 ingrédients" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "🍜Les soupes🍜" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Framboises, pommes, poires" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/64/53/6453e5e0d876b.jpeg> ;
+                    ns1:name "Salade de fruits Le Bon Sens" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gaufre maison, poires locales et pâte à tartiner maison" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/64/53/6453e52971da4.jpeg> ;
+                    ns1:name "Gaufre signature" ;
+                    ns1:nutrition "Milk",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fait maison" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5f/c0/5fc0e27c5c439.jpg> ;
+                    ns1:name "Gâteau" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "À composer" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/63/56/6356a532a9432.jpeg> ;
+                    ns1:name "Gaufre simple ou gourmande" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "oeuf bénédicte, gaufre maison, sauce hollandaise et épinards cuits" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/64/53/6453e6a270b7f.jpeg> ;
+                    ns1:name "Oeuf bénédicte et gaufre maison" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Yaourt grec, granola, framboises" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/64/53/6453f58fbf767.jpeg> ;
+                    ns1:name "Yaourt Granola" ;
+                    ns1:nutrition "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Granola, yaourt grec, purée de poires et framboises" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/64/53/6453f14ba9def.jpeg> ;
+                    ns1:name "Power bowl" ;
+                    ns1:nutrition "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pour le déjeuner comme pour le goûter" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/63/56/6356a5f2e8334.jpeg> ;
+                    ns1:name "Yaourt Grec ou porridge" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base gaufre maison et topping salés au choix : Pesto fait maison, fromage frais de brebis, tapenade de tomate confite ou tome de brebis" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/64/53/6453eb02ec3ff.jpeg> ;
+                    ns1:name "Gaufre salée" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fait maison" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5f/c0/5fc0e23a17160.jpg> ;
+                    ns1:name "Cookie" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "🍯Nos snack🍯" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/64/53/6453f55f2af07.jpeg> ;
+                    ns1:name "Jus frais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 ingrédient au choix" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5f/c0/5fc0e5b30435e.jpg> ;
+                    ns1:name "Smoothie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5f/c0/5fc0e16f43926.jpg> ;
+                    ns1:name "Boisson maison du jour" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jus Orange, Citron, Carottes" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/64/53/6453f53c318fe.jpeg> ;
+                    ns1:name "Jus ACE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Yaourt grec, framboises et poire bio" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/64/53/6453f51d8677e.jpeg> ;
+                    ns1:name "Smoothie Fragosta" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "🧋Nos jus & smoothie frais🧋" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salade signature la gourmande : Lentilles, épinards frais, houmous, pommes, tome de brebis, oignons confits, tomates confites, noix, sauce soja" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/64/53/6453f105b6a05.jpeg> ;
+                    ns1:name "Salade gourmande" ;
+                    ns1:nutrition "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Épinards, truite, cébette, fromage frais, champignons sauce soja, sauce balsamique" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/64/53/6453f0ce00003.jpeg> ;
+                    ns1:name "Salade Troita" ;
+                    ns1:nutrition "Fish",
+                        "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâtes, poulet fermier aux épices, champignons sauce soja, tome de brebis, pesto maison, sauce balsamique" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/64/53/6453f1373634a.jpeg> ;
+                    ns1:name "Salade Carnée" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5f/c0/5fc0e2c91348e.jpg> ;
+                    ns1:name "Salade 4 ingrédients" ;
+                    ns1:nutrition "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade signature végan : épinards, lentilles, tofu fumé, champignons sauce soja, pickles maison, carottes, sauce balsamique" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/64/53/6453f0897043f.jpeg> ;
+                    ns1:name "Salade Vegan" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/5f/c0/5fc0e563d83e2.jpg> ;
+                    ns1:name "Salade 6 ingrédients" ;
+                    ns1:nutrition "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ] ;
+            ns1:name "🥗Nos salades🥗" ] .
+

@@ -1,0 +1,211 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://a2roo.coopcycle.org/api/restaurants/11> ns1:hasMenu <https://a2roo.coopcycle.org/en/restaurant/11-dz-envies#menu> .
+
+<https://a2roo.coopcycle.org/en/restaurant/11-dz-envies#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "10 carrés de guimauve à la fleur d’oranger" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Panna cotta au pain d’épices de Dijon, marmelade de fruits" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/63/606348760ff90.jpeg> ;
+                    ns1:name "Comme un gâteau Basque au cassis" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Riz au lait à l’anis de Flavigny, coulis de mangue" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Les desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "La bouteille de 75 cL" ;
+                    ns1:name "La Chatelaine AOC Bourgogne Vézelay  Domaine de la Cadette Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Saint Romain AOC Alain Gras" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€45.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La bouteille de 75 cL" ;
+                    ns1:name "Bourgogne chardonnay AOC Domaine Trapet Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€30.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La bouteille de 75 cL" ;
+                    ns1:name "Pernand Vergelesses AOC Domaine Dubreuil-Fontaine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€45.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La bouteille de 75 cL" ;
+                    ns1:name "Aligoté de Bouzeron AOC Julien Cruchandeau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ] ;
+            ns1:name "Les vins blancs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Eau plate Velleminfroy 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bière blonde La Mandubienne 33cl" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bière blanche Vézelay 33cl bio" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bière ambrée Vézelay 33cl bio" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Eau gazeuse Velleminfroy 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca zero 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Les boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "La bouteille de 75 cL" ;
+                    ns1:name "BBF crémant du Jura AOC blanc de blanc élevé en fût S et B Tissot Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€30.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La bouteille de 75cL" ;
+                    ns1:name "Les Terroirs Crémant de Bourgogne AOC  Louis Picamelot" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La bouteille de 75cL" ;
+                    ns1:name "Zéro brut nature AOC Champagne Tarlant" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€55.00" ] ] ;
+            ns1:name "Les effervescents" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Salade de homard et tourteau, quelques légumes cuits et crus" ;
+                    ns1:nutrition "Celery",
+                        "Crustaceans",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Foie gras de canard, marmelade de pommes au vin rouge" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Les légumes Bio du moment, pousses du Potager des Ducs" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Fish",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Persillé de Bourgogne, petite salade et condiments" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/07/600717718a4c0.jpeg> ;
+                    ns1:name "Pâté en croûte Maison, petite salade" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "Les entrées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/07/600710293e895.jpeg> ;
+                    ns1:name "10 madeleines salées aux épices" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Foie gras de canard au naturel	150 gr" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Persillé de Bourgogne 150 gr" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Pour l'apéritif" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Truite de région snackée, mêlée de légumes, vinaigrette tiède aux herbes" ;
+                    ns1:nutrition "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/07/600712050bdc8.jpeg> ;
+                    ns1:name "Dos de cabillaud, écrasé de pommes de terre et pâte de citron" ;
+                    ns1:nutrition "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Gigotin de volaille fermière, créme à l’aligoté, champignons de Corcelotte et riz basmati" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Noix de joue de boeuf à la Bourguignonne, écrasé de pommes de terre" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Accompagné de légumes bio de saison" ;
+                    ns1:name "L’agneau français au vin jaune et curry, raisins et amandes torréfiées" ;
+                    ns1:nutrition "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ] ;
+            ns1:name "Les plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "La bouteille de 75 cL" ;
+                    ns1:name "Côtes de Nuits Village AOC Le Meix Fringuet  Domaine Trapet Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€45.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La bouteille de 75 cL" ;
+                    ns1:name "Macon Rouge La Roche Vineuse AOC Domaine Normand" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La bouteille de 75 cL" ;
+                    ns1:name "Santenay AOC Domaine des Rouges Queues Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€60.00" ] ] ;
+            ns1:name "Les vins rouges" ] .
+

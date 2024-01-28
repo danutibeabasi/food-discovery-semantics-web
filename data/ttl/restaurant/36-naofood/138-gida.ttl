@@ -1,0 +1,45 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://naofood.coopcycle.org/api/restaurants/138> a ns1:Restaurant ;
+    ns1:address <https://naofood.coopcycle.org/api/addresses/82799> ;
+    ns1:bannerImage "https://naofood.coopcycle.org/media/cache/restaurant_banner/63/26/6326096065d9d.jpg" ;
+    ns1:description "Un kebab gourmet qui redonne ses lettres de noblesse aux fameux Döner turc" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.720624e+01 ;
+            ns1:longitude -1.556259e+00 ] ;
+    ns1:image <https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/63/26/6326096065d9d.jpg> ;
+    ns1:name "GïDA" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:45" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "12:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday" ;
+            ns1:opens "18:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:30" ;
+            ns1:dayOfWeek "Sunday",
+                "Wednesday" ;
+            ns1:opens "18:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://naofood.coopcycle.org/en/restaurant/138-gida" ] ] ;
+    ns1:sameAs <https://naofood.coopcycle.org/en/restaurant/138-gida> ;
+    ns1:url <https://naofood.coopcycle.org/en/restaurant/138-gida> .
+
+<https://naofood.coopcycle.org/api/addresses/82799> a ns1:PostalAddress ;
+    ns1:name "GïDA" ;
+    ns1:streetAddress "27 Rue la Tour d'Auvergne, Nantes, France" ;
+    ns1:telephone "+33981993160" .
+

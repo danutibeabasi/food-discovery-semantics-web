@@ -1,0 +1,180 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/restaurants/34> ns1:hasMenu <https://lescoursiersbrestois.coopcycle.org/en/restaurant/34-lokal#menu> .
+
+<https://lescoursiersbrestois.coopcycle.org/en/restaurant/34-lokal#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/86/6486b40a14245.jpeg> ;
+                    ns1:name "Ile de Beauté Corse / Cuvée Fiorella / Domaine Terra Vecchia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/86/6486b3e1b1e13.jpeg> ;
+                    ns1:name "IGP Méditerranée / Domaine des Triennes 2021" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/86/6486b429c7d7a.jpeg> ;
+                    ns1:name "Ile de Ré / Domaine Arica" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€30.00" ] ] ;
+            ns1:name "Notre sélection vins rosés en Quille" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/86/6486b3abb6f83.jpeg> ;
+                    ns1:name "Happy Time / Côtye de Gascogne / Vin moelleux" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/81/6481ccff1d139.jpeg> ;
+                    ns1:name "Bourgogne blanc / Cuvée spéciale Lokal - Domaine Descroix 2022" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/86/6486b4f1ec7a7.jpeg> ;
+                    ns1:name "Ménétou Salon / Cuvée Clément / Domaine Clément" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€34.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/86/6486b50d0c21c.jpeg> ;
+                    ns1:name "Muscadet S&M / Cuvée Château de la Jousselière" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/86/6486b534dfb16.jpeg> ;
+                    ns1:name "Pouilly Fumé / Domaine Michel Redde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€43.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/81/6481cbfd85dfe.jpeg> ;
+                    ns1:name "Anjou blanc / Cuvée Clos des Sables / Domaine Sauveroy" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/86/6486b71bccc28.jpeg> ;
+                    ns1:name "Sancerre blanc / Domaine Cherrier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€32.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ile de Ré / Domaine Arica / Cuvée Four à Chaux" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€34.00" ] ] ;
+            ns1:name "Notre sélection vins blancs en Quille" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Plat + boisson + dessert" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/43/6443958867740.jpeg> ;
+                    ns1:name "Formule 2" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/88/6488989e0e2a8.jpeg> ;
+                    ns1:name "Suggestion du moment" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Huîtres à la douzaine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Plat + boisson" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/43/64439529e7657.jpeg> ;
+                    ns1:name "Formule 1" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ] ;
+            ns1:name "Nos menus" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/81/6481cc6e67b85.jpeg> ;
+                    ns1:name "Anjou village / Ultima Terra / Domaine Sauveroy" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€45.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/86/6486b74445e32.jpeg> ;
+                    ns1:name "St Nicolas de Bourgueil / Cuvée entre vin et marrée / Domaine Gérald Vallée Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/86/6486b4da6cbe2.jpeg> ;
+                    ns1:name "Lubéron / Cuvée Grand Marennon / Maison Grand Marennon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/86/6486b77c45bdf.jpeg> ;
+                    ns1:name "Ventoux / Maison Alméras Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Brouilly Vielles vignes / Cuvée spéciale Lokal / Domaine Descroix 2021" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ] ;
+            ns1:name "Notre sélection vins rouges en Quille" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/86/6486b6f12f418.jpeg> ;
+                    ns1:name "Rillettes de poisson maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/41/644171af570a4.jpeg> ;
+                    ns1:name "Crevettes & sauce tartare maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Accras (le soir)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "Nos tapas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/81/6481cc459bc0d.jpeg> ;
+                    ns1:name "Bière blonde sans alcool Bio Dremmwel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/86/6486b4bfd351e.jpeg> ;
+                    ns1:name "Jus vitaminé granini ACE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/86/6486b4a729453.jpeg> ;
+                    ns1:name "Jus d'orange granini" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/86/6486b2fb6489c.jpeg> ;
+                    ns1:name "Eau gazeuse plancoet 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/86/6486b36fc40d9.jpeg> ;
+                    ns1:name "Eau plate plancoet 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/86/6486b48a14584.jpeg> ;
+                    ns1:name "Jus de pomme granini" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/86/6486b44869cc1.jpeg> ;
+                    ns1:name "Jus d'ananas granini" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/86/6486b469c63b0.jpeg> ;
+                    ns1:name "Jus de fraise granini" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ] ;
+            ns1:name "Nos boissons sans alcool" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "En fonction du talent & envies de nos chefs !" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/64/95/6495c96053ff5.jpeg> ;
+                    ns1:name "Nos desserts du moment" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "Desserts" ] .
+

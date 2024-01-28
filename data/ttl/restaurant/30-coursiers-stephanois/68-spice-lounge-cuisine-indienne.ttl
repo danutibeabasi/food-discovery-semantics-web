@@ -1,0 +1,53 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://coursiers-stephanois.coopcycle.org/api/restaurants/68> a ns1:Restaurant ;
+    ns1:address <https://coursiers-stephanois.coopcycle.org/api/addresses/24205> ;
+    ns1:bannerImage "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_banner/65/98/65983c5c63259.png" ;
+    ns1:description """Le temps d’un repas, laissez-vous transporter en Inde ! Nous vous proposons un grand choix de plats, végétariens ou non, aux multiples saveurs et concoctés par nos soins : curry ou cuisson au tandoor traditionnel, riz basmati, naans… \r
+\r
+N'hésitez pas à demander un plat plus ou moins épicé en commentaires. \r
+LISTE DES ALLERGENES SUR DEMANDE.\r
+Toutes nos viandes sont halal.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.543426e+01 ;
+            ns1:longitude 4.391421e+00 ] ;
+    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/74/657463d3407f8.png> ;
+    ns1:name "Spice Lounge - Cuisine indienne" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "12.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.50" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://coursiers-stephanois.coopcycle.org/en/restaurant/68-spice-lounge-cuisine-indienne" ] ] ;
+    ns1:sameAs <https://coursiers-stephanois.coopcycle.org/en/restaurant/68-spice-lounge-cuisine-indienne> ;
+    ns1:url <https://coursiers-stephanois.coopcycle.org/en/restaurant/68-spice-lounge-cuisine-indienne> .
+
+<https://coursiers-stephanois.coopcycle.org/api/addresses/24205> a ns1:PostalAddress ;
+    ns1:name "Spice Lounge - Cuisine indienne" ;
+    ns1:streetAddress "23 Rue Pnte Cadet, 42000 Saint-Étienne, France" ;
+    ns1:telephone "+33427408512" .
+

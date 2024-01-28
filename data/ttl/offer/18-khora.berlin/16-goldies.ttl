@@ -1,0 +1,477 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://khora.berlin/en/restaurant/16-goldies> ns1:hasMenu <https://khora.berlin/en/restaurant/16-goldies#menu> .
+
+<https://khora.berlin/en/restaurant/16-goldies#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Hacker Pschorr hell 0,33" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Nordberliner Pils 0,5" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Hacker Pschorr Natur Radler 0,33" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Almdudler 0,35" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Viva con Aqua leise 0,33" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca Cola 0,33" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Viva con Aqua laut 0,33" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lammsbräu Alkoholfrei 0,33" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca Cola Zero" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Voelkel Apfelschorle 0,33" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Spezi Original 0,33" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Getränke" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Monster" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Skinny" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Standard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Champion" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Naked Fries" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Frische Pommes, geschmorte u. gezupfte Entenkeule, \r
+Hoisin-Pflaumen- Majo, Gemüsestreifen, Entencrumble""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/d9/5ed9130d29a06.jpg> ;
+                    ns1:name "Ente Peking" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "frische Pommes, Guacamole, STomatensalsa, rote Zwiebeln, Koriander, Aioli, grüne Chilibutter" ;
+                    ns1:name "El Gringo Loco" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Frische Pommes, Misomajo, Kimchi, Frühlingszwiebel, Wakame Algen,\r
+Furikake-mix""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/d9/5ed913f425cf9.jpg> ;
+                    ns1:name "Kimchi Fusion" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Eggs",
+                        "Fish",
+                        "Lupin",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Roastbeef" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/d9/5ed915c32b70e.jpg> ;
+                    ns1:name "The Truffle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Frische Pommes, marinierte Rote Bete, Meerrettichmajo, \r
+Weißkraut-Karotten-Salat, Dill, frischer Meerrettich""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/d9/5ed91446a99d8.jpg> ;
+                    ns1:name "Odessas Beten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Frische Pommes, Petersilienpesto, Parmesan, Trüffelmajo" ;
+                    ns1:name "Garlic Parmegiano Truffle" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Frische Pommes, Cheddar-Cheesesauce, \r
+Jalapenos, Chipotle Chili Sauce""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/d9/5ed90f8166c2c.jpg> ;
+                    ns1:name "Cali Chili Cheese" ;
+                    ns1:nutrition "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Beef in Paris" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Frische Pommes, Petersilienpesto, Parmesan, Aioli" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/d9/5ed914ea791ad.jpg> ;
+                    ns1:name "Garlic Parmegiano" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "Nasty Fries" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "2 Schenkelteile vom Paderborner Maishähnchen, Honigbutter, Gurken-Pickles, Zitrone, Petersilie" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/d9/5ed912494c158.jpg> ;
+                    ns1:name "Honeybutter Fried Chicken M" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """2 Schenkelteile vom Pderborner Maishähnchen, Grüne Chilibutter, frische Chili, Koriander,\r
+Sichuan-Chili-Öl""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/d9/5ed9138957e19.jpg> ;
+                    ns1:name "Green Chili Fried Chicken M" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 Schenkelteile vom Paderborner Maishähnchen, Honigbutter, Gurken-Pickles, Zitrone, Petersilie" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/d9/5ed91293d85e8.jpg> ;
+                    ns1:name "Honeybutter Fried Chicken L" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """4 \r
+Schenkelteile vom Paderborner Maishähnchen, Grüne Chilibutter, frische Chili, Koriander,\r
+Sichuan-Chili-Öl""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/d9/5ed90fed36987.jpg> ;
+                    ns1:name "Green Chili Fried Chicken L" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ] ;
+            ns1:name "Fried Chicken" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Sichuan-Chili-Majo, jemenitische grüne Chilisauce, Salat,  Jalapeno, Homemade Pickle" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/d9/5ed91a1e36079.jpg> ;
+                    ns1:name "Chili Chicken Burger" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bernaise-Majo, gebratene Zwiebel, Salat, eingelegte Zwiebel, Homemade Pickle" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/d9/5ed9196ee53b2.jpg> ;
+                    ns1:name "Bernaise Chicken Burger" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Parmesanmajo, Tomate, Salat, Homemade Pickle" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/d9/5ed91a8ebec09.jpg> ;
+                    ns1:name "Fried Chicken Burger" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Eggs",
+                        "Fish",
+                        "Milk",
+                        "Mustard",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ] ;
+            ns1:name "Fried Chicken Burgers" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Römersalatherzen, Schnittlauch-Schmand Dressing\r
+halbgetrocknete Tomaten, Brotcroutons""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/d9/5ed913c35c2e5.jpg> ;
+                    ns1:name "Junger Römer" ;
+                    ns1:nutrition "Fish",
+                        "Milk",
+                        "Mustard",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Marinierter Weißkraut, Karotte, Petersilie," ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/d9/5ed910fe9ff5b.jpg> ;
+                    ns1:name "The Slaw" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Ofengebackene Süßkartoffelscheiben, Granatapfelkerne, \r
+Ricotta Salata, rote Zwiebeln, Koriander, Chili-Orangen-Limettendressing""" ;
+                    ns1:name "Sweetpotatoe-Bowl" ;
+                    ns1:nutrition "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "Salate" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Cheeseburger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Super Smash Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Double Cheeseburger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ] ;
+            ns1:name "Smashburgers" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Bio Spiegelei" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Beef-Ragout" ;
+                    ns1:nutrition "Celery",
+                        "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Rohe Zwiebeln" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Burger Cheese" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Kimchi" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Rosa Beef" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Parmesan" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Röstzwiebeln" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jalapenos" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ] ;
+            ns1:name "Extras" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Parmesan Majo" ;
+                    ns1:nutrition "Eggs",
+                        "Fish",
+                        "Milk",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Mangochutney" ;
+                    ns1:nutrition "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Aioli" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Trüffelmajo" ;
+                    ns1:nutrition "Celery",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ketchup" ;
+                    ns1:nutrition "Celery",
+                        "Mustard",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Hoisin-Pflaumen-Majo" ;
+                    ns1:nutrition "Celery",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cheesesauce" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Majo" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Erdnusssauce" ;
+                    ns1:nutrition "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Guacamole" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bernaise Majo" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Misomajo" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Grüne Chilibutter" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Vegane Majo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sour Creme" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Chipotle Chili Sauce" ;
+                    ns1:nutrition "Celery",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Meerrettichmajo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Röstzwiebelmajo" ;
+                    ns1:nutrition "Celery",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sichuan Chili Majo" ;
+                    ns1:nutrition "Celery",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Senfmajo" ;
+                    ns1:nutrition "Celery",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.80" ] ] ;
+            ns1:name "Saucen" ] .
+

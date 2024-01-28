@@ -1,0 +1,264 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://krokoop.coopcycle.org/api/restaurants/17> ns1:hasMenu <https://krokoop.coopcycle.org/en/restaurant/17-l-atelier-du-sandwich#menu> .
+
+<https://krokoop.coopcycle.org/en/restaurant/17-l-atelier-du-sandwich#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salade, Blanc de Poulet, Tomate marinée, Poivron confit, Parmesan, Gouda, Croutons." ;
+                    ns1:name "La Poulet Fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, Saumon fumé, Tomate, Concombre, Oignon rouge, Citron confit." ;
+                    ns1:name "La Saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, Blanc de poulet, Tomate, Carotte, Concombre, Choux blanc." ;
+                    ns1:name "La Poulet Crudités" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, Toasts de chèvre chaud, Lardons, Tomates, Oignons rouges, Carotte." ;
+                    ns1:name "La Chèvre chaud" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, Boeuf aux épices, Sauce chimichurri, Poivron confit, Crudités." ;
+                    ns1:name "L'Argentine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, Toasts de brandade maison, Concombre, Poivron confit, Tomate confite." ;
+                    ns1:name "La Brandade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, Jambon cru, Poivron confit, Tomate confite, Parmesan, Croutons." ;
+                    ns1:name "La Florence" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, Légumes confits (Aubergine, Poivron, Courgette, Tomate)." ;
+                    ns1:name "Salade Végétarienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, Toasts de thon préparé, Tomate, Carotte, Concombre, Oeuf dur." ;
+                    ns1:name "La Thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.30" ] ] ;
+            ns1:name "Nos Salades" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Perrier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thé glacé BIO Detox" ;
+                    ns1:name "JOMO  Passion Citron vert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Oasis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ice-Tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Vittel 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jus Multifruits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Lipton Citron  Vert Menthe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Liptonic pêche 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Orangina 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jus de pomme" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thé glacé BIO Detox" ;
+                    ns1:name "JOMO Menthe Citron Gingembre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "7 UP" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Liptonic" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fanta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thé glacé BIO Detox" ;
+                    ns1:name "JOMO Grenade Litchi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca Zero  50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thé glacé BIO Detox" ;
+                    ns1:name "JOMO Pêche  Hibiscus" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jus d'orange Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca Zero" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "San Pellegrino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Fuzetea 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ] ;
+            ns1:name "Nos Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tapenade, mascarpone, legumes confits, pesto." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/64/5d/645d17b008538.jpeg> ;
+                    ns1:name "Tartine Vegetarienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mascarpone, jambon cru, tomate, parmesan, poivron confit, pesto." ;
+                    ns1:name "L'Italienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, crottins de chèvre, légumes de saison confits, pesto" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/64/5d/645d1742903f9.jpeg> ;
+                    ns1:name "La Chèvre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ] ;
+            ns1:name "Nos Tartines" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Le Gaspacho" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.80" ] ] ;
+            ns1:name "Nos Soupes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Graines de Chia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Mousse au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Banane, pomme, orange, canelle, vanille" ;
+                    ns1:name "Compote de fruits frais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Brownie Noisettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tiramisu Spéculoos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Panna Cotta coulis fruits rouges" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Nos Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Aubergine, courgette, poivron confit, tomate confite, tapenade, pesto, salade." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/93/6393f390f2cb0.jpeg> ;
+                    ns1:name "Le Milan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Blanc de poulet, Poivron confit, Tomate, Salade, Sauce curry maison." ;
+                    ns1:name "Le New Delhi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Magret de canard fumé, poivron confit, pomme, oignon rouge, moutarde à l'ancienne." ;
+                    ns1:name "Le Auch" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boeuf, Sweet Mustard, Coleslaw, Cornichon doux, Tomate." ;
+                    ns1:name "Le Bagel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brandade à la Nîmoise maison, poivron confit, salade." ;
+                    ns1:name "Le Nîmes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jambon cru, ricotta, poivron confit, pesto, salade." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/64/5d/645d16c5ba1a0.jpeg> ;
+                    ns1:name "Le Rome" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon fumé, fromage frais, concombre, citron confit, salade." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/93/6393f7160b536.jpeg> ;
+                    ns1:name "Le Glasgow" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jambon, Gouda, Oeuf, Tomate, Cornichon, Sauce spéciale." ;
+                    ns1:name "Le Bruxelles" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thon préparé, Oeuf dur, Tomate, Salade." ;
+                    ns1:name "Le Marseille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boeuf aux épices, Sauce chimichurri, Crudités, Salade." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/93/6393f43e8b82e.jpeg> ;
+                    ns1:name "Le Buenos Aires" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.30" ] ] ;
+            ns1:name "Nos Sandwichs" ] .
+

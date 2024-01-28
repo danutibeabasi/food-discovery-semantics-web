@@ -1,0 +1,35 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://a2roo.coopcycle.org/api/restaurants/28> a ns1:Restaurant ;
+    ns1:address <https://a2roo.coopcycle.org/api/addresses/2680> ;
+    ns1:description """Les bonnes recettes maison d'Aida\r
+Des bons plats de "noodles", "woks" et "wontons" à déguster sur place ou à emporter.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.73225e+01 ;
+            ns1:longitude 5.04256e+00 ] ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/60/8a/608ac60613180.jpg> ;
+    ns1:name "Aïda" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:30" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://a2roo.coopcycle.org/en/restaurant/28-aida" ] ] ;
+    ns1:sameAs <https://a2roo.coopcycle.org/en/restaurant/28-aida> ;
+    ns1:url <https://a2roo.coopcycle.org/en/restaurant/28-aida> .
+
+<https://a2roo.coopcycle.org/api/addresses/2680> a ns1:PostalAddress ;
+    ns1:name "Aïda" ;
+    ns1:streetAddress "4 Rue de la Chouette, 21000 Dijon, France" ;
+    ns1:telephone "+33649315554" .
+

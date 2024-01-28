@@ -1,0 +1,342 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiers-stephanois.coopcycle.org/api/restaurants/10> ns1:hasMenu <https://coursiers-stephanois.coopcycle.org/en/restaurant/10-la-taverne-de-maitre-kanter#menu> .
+
+<https://coursiers-stephanois.coopcycle.org/en/restaurant/10-la-taverne-de-maitre-kanter#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "servi avec pain de seigle, beurre et mayonnaise" ;
+                    ns1:name "Crevettes roses - Les 8" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Demi tourteau, demi homard, crevettes roses, bulots et 1 crevette label rouge" ;
+                    ns1:name "Plateau du pêcheur" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€46.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6 claires n°3, crevettes roses, bulots, couteaux  coquillage du moment et un demi tourteau\r
+servi avec citron, vinaigre à l'échalotes, mayonnaise, aïoli, beurre et pain de seigle""" ;
+                    ns1:name "Plateau de Maitre Kanter" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€36.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6 claires n°3, 3 crevettes roses, 6 bulots\r
+servi avec pain de seigle, beurre, citron et vinaigre à l'échalote, aïoli et mayonnaise""" ;
+                    ns1:name "Trois gourmandises de la Mer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6 claires 3, crevettes roses, bulots, coquillages du moment\r
+servi avec citron, vinaigre à l'échalotes, mayonnaise, aïoli, beurre et pain de seigle""" ;
+                    ns1:name "Assiette de l'écailler" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "servi avec pain de seigle, beurre et mayonnaise" ;
+                    ns1:name "Tourteau mayonnaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "servis avec pain de seigle, beurre et aïoli" ;
+                    ns1:name "Bulots à l'aïoli - Les 12" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ] ;
+            ns1:name "Coquillages et crustacés" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "cru classé - Presqu'île de St Tropez" ;
+                    ns1:name "st Tropez  Domaine de la Croix - Bouteille 75 cl rosé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€32.90" ] ] ;
+            ns1:name "Les Vins Roses AOC" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Coca Cola 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fuzetea 25 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Badoit rouge 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ] ;
+            ns1:name "Les Eaux - Soft - Bières" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Cliquez içi pour avoir le détails des plats" ;
+                    ns1:name "Entrée + Plat + Dessert (sans boisson)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cliquez içi pour avoir le détails des plats" ;
+                    ns1:name "Plat + Dessert (sans boisson)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cliquez içi pour avoir le détails des plats" ;
+                    ns1:name "Entrée + Plat (sans boisson)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.50" ] ] ;
+            ns1:name "Les Formules" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Assiette de fourme de montbrison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "crème anglaise aux pralines" ;
+                    ns1:name "Ile flottante et sa crème anglaise aux pralines" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "tarte tatin maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "crêpes façon suzette" ;
+                    ns1:name "Crêpes façon Suzette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ananas frais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ] ;
+            ns1:name "Les Gourmandises" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "pommes vapeur et crème raifort" ;
+                    ns1:name "Saumon mariné, façon gravlax (PLAT)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "servi avec tagliatelles de la maison (CORNAND)" ;
+                    ns1:name "escalope de volaille gratiné a la fourme" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pommes vapeur" ;
+                    ns1:name "RAIE AUX CAPRES" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain bun’s, steak haché Charolais, oignons, sauce burger, servi avec frites et salade verte" ;
+                    ns1:name "Burger de bœuf charolais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "boeuf" ;
+                    ns1:name "estouffade de boeuf a la bourguignonne et ses petits légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thon mariné citron vert/gingembre, pané aux graines de sésame et mi-cuit  jus réduit aux champignons. poêlée de légumes et purée de butternut" ;
+                    ns1:name "Tataki de thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "gambas et riz et legumes de saison" ;
+                    ns1:name "gambas persillées" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi avec frites et salade verte" ;
+                    ns1:name "Tartare de bœuf VBF 180 gr" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Compotée d’oignons et purée de pommes de terre" ;
+                    ns1:name "Confit de canard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pain bun’s, steak haché Charolais, oignons, sauce burger et fourme de Montbrison\r
+servi avec frites et salade verte""" ;
+                    ns1:name "Burger de bœuf charolais à la forézienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain bun’s au cumin du Gruau Lorrain,  volaille panée , oignons , mayonnaise estragon ,frites salade" ;
+                    ns1:name "Burger  de volaille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "legumes  et riz" ;
+                    ns1:name "pavé de  saumon  sauce riesling" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Avec ail, persil, tomates confites, gambas et sauce pesto" ;
+                    ns1:name "Pennes aux gambas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ] ;
+            ns1:name "Les Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Avec crème, oignons, lardons, fourme de Montbrison, champignons de Paris et fromage râpé" ;
+                    ns1:name "Flammekueche forézienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Avec crème, oignons, lardons et fromage râpé" ;
+                    ns1:name "Flammekueche aux lardons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Avec crème, oignons, tomates confites, fromage de chèvre et huile aux herbes" ;
+                    ns1:name "Flammekueche au chèvre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "tomates, oignons,courgettes, aubergines, poivrons,parmesan,sauce pesto" ;
+                    ns1:name "FLAMMEKUECHE VEGETARIENNE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ] ;
+            ns1:name "Les Flammenküches" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "oeuf  , saumon mariné" ;
+                    ns1:name "oeuf mimosa au saumon  mariné  petit modele" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "salade, lardons, croutons ,oeuf poché" ;
+                    ns1:name "salade lyonnaise grand modele" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "salade dés de poire , toast de fourme de montbrison et noix" ;
+                    ns1:name "SALADE  FOREZIENNE PETIT" ;
+                    ns1:nutrition "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "oeuf, saumon mariné" ;
+                    ns1:name "oeuf mimosa saumon  mariné grand modele" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "salade , dés de poire , toast de fourme de montaison et noix" ;
+                    ns1:name "SALADE FOREZIENNE GRANDE" ;
+                    ns1:nutrition "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "salade , lardons ,croutons , oeuf poché" ;
+                    ns1:name "salade lyonnaise  petit modele" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ] ;
+            ns1:name "Les Salades" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "salade verte, râpée, oeuf mimosa , ravioles gratinées , petite flammekueche végète" ;
+                    ns1:name "Grande assiette Végétarienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "salade verte, râpée, brick de fourme  de Montbrison,tomates, saucisson chaud , noix dés d poires , sarrason , petite flammekueche aux lardons" ;
+                    ns1:name "grande assiette forezienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ] ;
+            ns1:name "LES GRANDES ASSIETTES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "bannwarth" ;
+                    ns1:name "Gewurztraminer - Bouteille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€34.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "bannwarth" ;
+                    ns1:name "Riesling - Bouteille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€30.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Domaine Reverdy" ;
+                    ns1:name "Sancerre Blanc - Bouteille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€34.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Domaine des Poncetys" ;
+                    ns1:name "Saint-Véran - Bouteille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€44.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "prestige" ;
+                    ns1:name "Muscadet - Bouteille 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.90" ] ] ;
+            ns1:name "Les Vins Blanc AOC" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Saint Nicolas de Bourgueil," ;
+                    ns1:name "Saint-Nicolas - Bouteille 75CL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€33.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "la bergerie  en vin rouge" ;
+                    ns1:name "Saint-Joseph - Bouteille  vin rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€44.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "les saffres" ;
+                    ns1:name "Côtes du Rhône - Bouteille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Domaine de la Madone - Gilles Bonnefoy à Champdieu – Vin biologique" ;
+                    ns1:name "Côtes du Forez - Bouteille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Blayes - Côtes de Bordeaux" ;
+                    ns1:name "Château La Rose Bellevue - Bouteille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cuvée particulière - Domaine des Remizières" ;
+                    ns1:name "Crozes Hermitages - Bouteille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€44.90" ] ] ;
+            ns1:name "Les Vins Rouges AOC" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Jarreton de porc, saucisses de Francfort et fumée, lard et saucisson fumés, pommes de terre" ;
+                    ns1:name "Choucroute Spéciale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon, rouget , dorade, crevette et coulis crustacés, pommes de terre" ;
+                    ns1:name "Choucroute de la Mer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saucisses de Francfort et fumée, lard et saucisson fumés, pommes de terre" ;
+                    ns1:name "Choucroute des Brasseurs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saucisse de francfort et fumée, poitrine fumée, saucisson fumé et confit de canard" ;
+                    ns1:name "Choucroute Taverne confit de canard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.90" ] ] ;
+            ns1:name "Les Choucroutes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Marennes Oléron, Maison SCHMITT à la tremblade\r
+servi avec pain de seigle, beurre, citron et vinaigre à l'échalote""" ;
+                    ns1:name "Huitres de Claires n°2 - Les 12" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Marennes Oléron, Maison SCHMITT à la tremblade\r
+servi avec pain de seigle, beurre, citron et vinaigre à l'échalote""" ;
+                    ns1:name "Huitres de Claires n°3 - Les 12" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.90" ] ] ;
+            ns1:name "Les Huîtres" ] .
+

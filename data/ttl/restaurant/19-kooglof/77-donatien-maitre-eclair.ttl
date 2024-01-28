@@ -1,0 +1,49 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://kooglof.coopcycle.org/api/restaurants/77> a ns1:Restaurant ;
+    ns1:address <https://kooglof.coopcycle.org/api/addresses/40607> ;
+    ns1:bannerImage "https://kooglof.coopcycle.org/media/cache/restaurant_banner/65/6e/656e0fa2917bc.JPG" ;
+    ns1:description """Donatien Maitre Eclair : spécialiste des éclairs et de la pâte à choux à Strasbourg !\r
+\r
+Livraison à Strasbourg et alentours !""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.858127e+01 ;
+            ns1:longitude 7.745286e+00 ] ;
+    ns1:image <https://kooglof.coopcycle.org/media/cache/restaurant_thumbnail/65/6e/656e168020d14.png> ;
+    ns1:name "Donatien Maitre Eclair 🍰" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "20:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "17:01" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "20:00" ;
+            ns1:dayOfWeek "Saturday",
+                "Sunday" ;
+            ns1:opens "17:01" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "10:01" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://kooglof.coopcycle.org/en/restaurant/77-donatien-maitre-eclair" ] ] ;
+    ns1:sameAs <https://kooglof.coopcycle.org/en/restaurant/77-donatien-maitre-eclair> ;
+    ns1:url <https://kooglof.coopcycle.org/en/restaurant/77-donatien-maitre-eclair> .
+
+<https://kooglof.coopcycle.org/api/addresses/40607> a ns1:PostalAddress ;
+    ns1:name "Donatien Maitre Eclair 🍰" ;
+    ns1:streetAddress "111 Grand'Rue, 67000 Strasbourg, France" ;
+    ns1:telephone "+33951679955" .
+

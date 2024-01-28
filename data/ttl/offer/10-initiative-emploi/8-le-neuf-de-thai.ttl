@@ -1,0 +1,253 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://initiative-emploi.coopcycle.org/api/restaurants/8> ns1:hasMenu <https://initiative-emploi.coopcycle.org/en/restaurant/8-le-neuf-de-thai#menu> .
+
+<https://initiative-emploi.coopcycle.org/en/restaurant/8-le-neuf-de-thai#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Un classique de la cuisine Thaï qui ravira les amateurs de plats sucré-salés. Légèrement frit, poivrons, ananas, tomates, carottes, ciboulettes, oignons, sauce sucrée aigre-douce, au choix" ;
+                    ns1:name "P4 – AIGRE DOUCE  CREVETTES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crevettes à la sauce au curry vert, basilic thaï, légumes et lait de Coco" ;
+                    ns1:name "P6 – CURRY VERT CREVETTES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un classique de la Thaïlande, carottes, oignons, tomates, ciboulettes, et coriandre" ;
+                    ns1:image <https://initiative-emploi.coopcycle.org/media/cache/product_thumbnail/61/c2/61c2141ee9c7f.jpeg> ;
+                    ns1:name "P2 - RIZ FRIT - KHAO PHAT CREVETTES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Emincé de bœuf sauté au wok avec des feuilles de basilic thaï, oignons, pousses de bambou, poivrons et piments.\r
+Un peu épicé""" ;
+                    ns1:image <https://initiative-emploi.coopcycle.org/media/cache/product_thumbnail/61/c2/61c214b06709e.jpeg> ;
+                    ns1:name "P5 – SAUTE AU BASILIC THAI BOEUF" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Emincé de poulet sauté au gingembre, poivrons, ciboulettes, carottes et champignons noirs" ;
+                    ns1:name "P3 – POULET AU GINGEMBRE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Emincé de poulet aux noix de cajou avec ciboulettes, oignons, et carottes" ;
+                    ns1:image <https://initiative-emploi.coopcycle.org/media/cache/product_thumbnail/61/c2/61c214e414410.jpeg> ;
+                    ns1:name "P11 – POULET NOIX DE CAJOU" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bœuf au curry massaman et à la crème de coco avec ses pommes de terre, carottes et arachides.\r
+Un peu pimenté""" ;
+                    ns1:name "P9 – MASSAMAN BOEUF" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Emincé de porc sauté au wok avec des feuilles de basilic thaï, oignons, pousses de bambou, poivrons et piments.\r
+Un peu pimenté""" ;
+                    ns1:name "P5 – SAUTE AU BASILIC THAI PORC" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "P10 – PORC AU CARAMEL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Viande à la sauce au curry rouge et à la crème de coco avec pousses de bambou, carottes et poivrons.\r
+Un peu pimenté""" ;
+                    ns1:image <https://initiative-emploi.coopcycle.org/media/cache/product_thumbnail/61/c2/61c21a9200ed1.jpeg> ;
+                    ns1:name "P7 – PANENG CURRY ROUGE POULET" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Poulet au curry massaman et à la crème de coco avec ses pommes de terre, carottes et arachides.\r
+Un peu pimenté""" ;
+                    ns1:name "P9 – MASSAMAN POULET" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Frit au wok, poivrons, carottes, ciboulettes, oignons, à la sauce tamarin" ;
+                    ns1:name "P13 – POULET SAUCE TAMARIN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Emincé de crevettes sautées au wok avec des feuilles de basilic thaï, oignons, pousses de bambou, poivrons et piment.\r
+Un peu pimenté""" ;
+                    ns1:name "P5 – SAUTE AU BASILIC THAI CREVETTES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un classique de la Thaïlande, carottes, oignons, tomates, ciboulettes, et coriandre" ;
+                    ns1:name "P2 - RIZ FRIT - KHAO PHAT POULET" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Emincé de poulet sauté au wok avec des feuilles de basilic thaï, oignons, pousses de bambou, poivrons et piments.\r
+Un peu pimenté""" ;
+                    ns1:name "P5 – SAUTE AU BASILIC THAI POULET" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un classique de la Thaïlande, carottes, oignons, tomates, ciboulettes, et coriandre" ;
+                    ns1:name "P2 - RIZ FRIT - KHAO PHAT LEGUMES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nouilles de riz sautées au wok, œuf, arachides, soja" ;
+                    ns1:image <https://initiative-emploi.coopcycle.org/media/cache/product_thumbnail/61/c2/61c214683ea2c.jpeg> ;
+                    ns1:name "P1 - PAD THAI CREVETTES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Viande à la sauce au curry vert, basilic thaï, légumes et lait de Coco" ;
+                    ns1:image <https://initiative-emploi.coopcycle.org/media/cache/product_thumbnail/61/c2/61c213b6a299d.jpeg> ;
+                    ns1:name "P6 – CURRY VERT POULET" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nouilles de riz sautées au wok, œuf, arachides, soja, au choix" ;
+                    ns1:name "P1 - PAD THAI LEGUMES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "P10 – POULET AU CARAMEL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Frit au wok, poivrons, carottes, ciboulettes, oignons, à la sauce tamarin" ;
+                    ns1:name "P13 – CREVETTES SAUCE TAMARIN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un classique de la cuisine Thaï qui ravira les amateurs de plats sucré-salés. Légèrement frit, poivrons, ananas, tomates, carottes, ciboulettes, oignons, sauce sucrée aigre-douce" ;
+                    ns1:name "P4 – AIGRE DOUCE  POULET" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crevette à la sauce au curry rouge et à la crème de coco avec pousses de bambou, carottes et poivrons." ;
+                    ns1:name "P7 – PANENG CURRY ROUGE CREVETTES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nouilles de riz sautées au wok, œuf, arachides, soja" ;
+                    ns1:name "P1 - PAD THAI POULET" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Viande à la sauce au curry rouge et à la crème de coco avec pousses de bambou, carottes et poivrons.\r
+Un peu pimenté""" ;
+                    ns1:name "P7 – PANENG CURRY ROUGE BOEUF" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Viande à la sauce au curry vert, basilic thaï, légumes et lait de Coco\r
+Un peu pimenté""" ;
+                    ns1:name "P6 – CURRY VERT BOEUF" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ] ;
+            ns1:name "Nos plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "A2 – RIZ THAI GLUANT" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "A1 – RIZ THAI NATURE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Nos accompagnements" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "D3 – TRANCHES DE MANGUE FRAICHE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz gluant à la mangue fraîche nappée de crème coco" ;
+                    ns1:name "D4 – MANGO STICKY RICE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Flan Thaï au lait de coco avec morceaux de potiron" ;
+                    ns1:name "D1 – FLAN THAI" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ] ;
+            ns1:name "Nos desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Soupe de poulet à la crème de noix de coco et galanga" ;
+                    ns1:name "S2P - TOM KHAA KAI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Soupe de crevettes à la citronnelle, parfumée et épicée\r
+Un peu pimenté""" ;
+                    ns1:name "S1P - TOM YAM KHUNG" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.40" ] ] ;
+            ns1:name "Nos soupes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Un très grand classique thai, salade de papaye verte, délicieux et épicé (voire très épicé)" ;
+                    ns1:image <https://initiative-emploi.coopcycle.org/media/cache/product_thumbnail/61/c2/61c2198e822af.jpeg> ;
+                    ns1:name "E8 – SOM TAM" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 aumonières farcies au poulet, accompagnées d’une sauce aigre douce" ;
+                    ns1:image <https://initiative-emploi.coopcycle.org/media/cache/product_thumbnail/61/c2/61c21538a286e.jpeg> ;
+                    ns1:name "E2 – THUNG TONG" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Tranches de bœuf aux herbes Thaï avec sa sauce piquante\r
+Un peu pimenté""" ;
+                    ns1:image <https://initiative-emploi.coopcycle.org/media/cache/product_thumbnail/61/c2/61c218d32f012.jpeg> ;
+                    ns1:name "E5 – SALADE DE BŒUF" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tartare de saumon avec son jus de citron aux herbes thaï (cru)" ;
+                    ns1:image <https://initiative-emploi.coopcycle.org/media/cache/product_thumbnail/61/c2/61c21887006df.jpeg> ;
+                    ns1:name "E6 – LAB PLA SAUMON" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Soupe de crevettes à la citronnelle, parfumée et épicée\r
+Un peu pimenté""" ;
+                    ns1:name "S1E - TOM YAM KHUNG" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 nems frits au porc, servis avec une sauce aigre douce" ;
+                    ns1:image <https://initiative-emploi.coopcycle.org/media/cache/product_thumbnail/61/c2/61c212bd954e6.jpeg> ;
+                    ns1:name "E1 – PHO PIA PORC" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 nems frits végétariens, servis avec une sauce aigre douce" ;
+                    ns1:name "E1 – PHO PIA VEGETARIEN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Soupe de poulet à la crème de noix de coco et galanga" ;
+                    ns1:image <https://initiative-emploi.coopcycle.org/media/cache/product_thumbnail/61/c2/61c219fb0866f.jpeg> ;
+                    ns1:name "S2E - TOM KHAA KAI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 brochettes de poulet marinées et grillées, servies avec sa sauce" ;
+                    ns1:image <https://initiative-emploi.coopcycle.org/media/cache/product_thumbnail/61/c2/61c215c9743d5.jpeg> ;
+                    ns1:name "E3 – CHICKEN SATAY" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 boulettes de porc frit, menthe et coriandre" ;
+                    ns1:image <https://initiative-emploi.coopcycle.org/media/cache/product_thumbnail/61/c2/61c217b2db275.jpeg> ;
+                    ns1:name "E4 – LAP MOU TOD" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ] ;
+            ns1:name "Nos entrées" ] .
+

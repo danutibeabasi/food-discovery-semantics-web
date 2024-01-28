@@ -1,0 +1,18 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://porlachita.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "cl" ;
+                    ns1:addressLocality "Concepción" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude -3.682349e+01 ;
+                    ns1:longitude -7.304634e+01 ] ] ;
+    ns1:description "<p>Somos un grupo de trabajadores y trabajadoras organizados/as de plataformas digitales del rubro de la mensajería y el delivery, que nace de la lucha contra la preacrieidad qie imponen las transnacionales de App. Buscamos a través de la autogestión cooperativa crear puestos de trabajo digno, no precarizado y sustentable.</p>"@es ;
+    ns1:name "Por La Chita" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://porlachita.coopcycle.org> .
+

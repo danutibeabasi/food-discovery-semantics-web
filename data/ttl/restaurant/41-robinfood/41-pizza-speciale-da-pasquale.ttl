@@ -1,0 +1,35 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://robinfood.coopcycle.org/api/restaurants/41> a ns1:Restaurant ;
+    ns1:address <https://robinfood.coopcycle.org/api/addresses/3937> ;
+    ns1:description "**_Pizza preparata con un impasto a lenta lievitazione naturale di ben 48 ore che permette di ottenere un prodotto gustoso e altamente digeribile._**" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.376238e+01 ;
+            ns1:longitude 1.128559e+01 ] ;
+    ns1:image <https://robinfood.coopcycle.org/media/cache/restaurant_thumbnail/63/c5/63c5bdd4a5db6.jpeg> ;
+    ns1:name "Pizza speciale da Pasquale" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "19:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "it" ;
+                    ns1:urlTemplate "https://robinfood.coopcycle.org/en/restaurant/41-pizza-speciale-da-pasquale" ] ] ;
+    ns1:sameAs <https://robinfood.coopcycle.org/en/restaurant/41-pizza-speciale-da-pasquale> ;
+    ns1:url <https://robinfood.coopcycle.org/en/restaurant/41-pizza-speciale-da-pasquale> .
+
+<https://robinfood.coopcycle.org/api/addresses/3937> a ns1:PostalAddress ;
+    ns1:name "Pizza speciale da Pasquale" ;
+    ns1:streetAddress "Piazza Gualfredotto da Milano, 24r, Firenze, FI, Italia" ;
+    ns1:telephone "+393509913819" .
+

@@ -1,0 +1,1179 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/restaurants/29> ns1:hasMenu <https://lescoursiersbrestois.coopcycle.org/en/restaurant/29-osaka#menu> .
+
+<https://lescoursiersbrestois.coopcycle.org/en/restaurant/29-osaka#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "25 pièces de sashimis assortis saumon, thon, daurade et maquereau. Servis avec soupe, salade et riz." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bcedbf3244.jpeg> ;
+                    ns1:name "Sashimi B" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "15 pièces de sashimis assortis saumon, thon, daurade et maquereau. Servis avec soupe, salade et riz." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bcebf0e913.jpeg> ;
+                    ns1:name "Sashimi A" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.20" ] ] ;
+            ns1:name "Sashimi H1" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "4 brochettes : 1 bœuf, 1 poulet, 1 boulettes de poulet et 1 bœuf au fromage. Servis avec soupe, salade et riz." ;
+                    ns1:name "PE1 Menu enfant" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 sushis saumon, 6 makis saumon. Servis avec soupe, salade et riz." ;
+                    ns1:name "PE2 Menu enfant" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ] ;
+            ns1:name "Menu enfant" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/636812ded2c02.jpeg> ;
+                    ns1:name "207 Omelette roll saumon grillé avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/636812f8e8ab1.jpeg> ;
+                    ns1:name "208 Omelette roll thon grillé avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/6368129c9d840.jpeg> ;
+                    ns1:name "205 Omelette roll avocat cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/6368106b5194b.jpeg> ;
+                    ns1:name "203 Omelette roll thon avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681047b92c8.jpeg> ;
+                    ns1:name "202 Omelette roll saumon cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/6368102409fd4.jpeg> ;
+                    ns1:name "201 Omelette roll saumon avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/636812c30a640.jpeg> ;
+                    ns1:name "206 Omelette roll poulet avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/636812759e3f6.jpeg> ;
+                    ns1:name "204 Omelette roll thon cuit avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.40" ] ] ;
+            ns1:name "Omelette roll" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "5 brochettes assorties, 2 sushis saumon et 6 makis saumon. Servis avec soupe, salade et riz." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bc823e8c23.jpeg> ;
+                    ns1:name "M5 Osaka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 brochettes assorties et 6 California avocat saumon. Servis avec soupe, salade et riz." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bc7ad8f573.jpeg> ;
+                    ns1:name "M1 Akita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 brochettes assortis et 5 sushis assortis. Servis avec soupe, salade et riz." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bc7c53acd9.jpeg> ;
+                    ns1:name "M2 Yamato" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 sashimis saumon, 2 sushis saumon et 6 makis saumon. Servis avec soupe, salade et riz." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bc867187fb.jpeg> ;
+                    ns1:name "M9" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 sashimis saumon, 2 sushis de thon et saumon et 2 brochettes de thon et saumon. Servis avec soupe, salade et riz." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bc85236729.jpeg> ;
+                    ns1:name "M7" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 sushis saumon, 9 sashimis saumon et 6 California makis avocat saumon. Servis avec soupe, salade et riz." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bc83ab069b.jpeg> ;
+                    ns1:name "M6 Tokujo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 brochettes assortis et sashimis assortis. Servis avec soupe, salade et riz." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bc7e176846.jpeg> ;
+                    ns1:name "M3 Nagasaki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 brochettes assorties et 9 sashimis saumon. Servis avec soupe, salade et riz." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bc7fcc3724.jpeg> ;
+                    ns1:name "M4 Fuji" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ] ;
+            ns1:name "Menu mixtes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "10 tranches." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bcc8b43749.jpeg> ;
+                    ns1:name "SA4 Sashimi daurade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "10 tranches." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bccca88de1.jpeg> ;
+                    ns1:name "SA7 Sashimi tataki saumon mi-cuit" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "10 tranches." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bccaa72216.jpeg> ;
+                    ns1:name "SA5 Sashimi anguille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "10 tranches." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bcc770c805.jpeg> ;
+                    ns1:name "SA3 Sashimi maquereau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "10 tranches." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bccf151630.jpeg> ;
+                    ns1:name "SA8 Sashimi saumon et thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "10 tranches." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bcc5ee2f73.jpeg> ;
+                    ns1:name "SA2 Sashimi saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Sashimi" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/6368146edd7d5.jpeg> ;
+                    ns1:name "404 Maki dragon avocat thon cuit" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:name "403 Maki dragon avocat masago" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:name "402 Maki dragon avocat thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681444f1770.jpeg> ;
+                    ns1:name "401 Maki dragon avocat saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/6368148ecd38d.jpeg> ;
+                    ns1:name "405 Maki dragon tempura" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ] ;
+            ns1:name "Maki dragon" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Servis par 1 cornet." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bcf6f0ed9c.jpeg> ;
+                    ns1:name "T3 Temaki unagi anguille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servis par 1 cornet." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bcf5905ee5.jpeg> ;
+                    ns1:name "T2 Temaki shake saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servis par 1 cornet." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bcfcb52bf7.jpeg> ;
+                    ns1:name "T6 Temaki ebi avocat crevette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servis par 1 cornet." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bcf9b4d895.jpeg> ;
+                    ns1:name "T4 Temaki ikura œuf de saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servis par 1 cornet." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bcf43663a5.jpeg> ;
+                    ns1:name "T1 Temaki maguro thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servis par 1 cornet." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bcfb6e81cf.jpeg> ;
+                    ns1:name "T5 Temaki surimi avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Temaki" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "2 pièces" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bcaeb3582f.jpeg> ;
+                    ns1:name "PERLES DE COCO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 PIÈCE" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/636819ca1d535.jpeg> ;
+                    ns1:name "DORAYAKI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bc752011df.jpeg> ;
+                    ns1:name "LYCHEE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 PIÈCE" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/636819ab77dac.jpeg> ;
+                    ns1:name "DAIFUKU" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ] ;
+            ns1:name "DESSERTS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Riz au curry au poulet avec poulet pané" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681d0d77d9d.jpeg> ;
+                    ns1:name "Furai curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ] ;
+            ns1:name "Curry japonais" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "E13 Beignets de poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681ba61dad3.jpeg> ;
+                    ns1:name "E1 Soupe miso" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681bbd70fb0.jpeg> ;
+                    ns1:name "E2 Salade de choux japonaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681c2b28556.jpeg> ;
+                    ns1:name "E7 Raviolis grillés" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681cc134390.jpeg> ;
+                    ns1:name "E9 Algue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "E3 salade de champignon royal épicée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 pièces" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681b8664baf.jpeg> ;
+                    ns1:name "E15 Beignets de calamars" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681bfd594f1.jpeg> ;
+                    ns1:name "E5 Riz nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681acb587dc.jpeg> ;
+                    ns1:name "E11 Nems au poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681c11c225b.jpeg> ;
+                    ns1:name "E6 Riz japonais vinaigré" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681ca49afa4.jpeg> ;
+                    ns1:name "E8 Calamars" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/636819e87df70.jpeg> ;
+                    ns1:name "E10 Edamame" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681b44d1f5b.jpeg> ;
+                    ns1:name "E14 Tempura crevette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ] ;
+            ns1:name "Entrées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "5 brochettes bœuf au fromage. Servis avec soupe, salade et riz." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/636816ddb8299.jpeg> ;
+                    ns1:name "B4 Brochette cheese toya" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 brochettes : 1 poulet, 1 aile de poulet, 1 boulettes de poulet, 1 bœuf au fromage et 1 bœuf. Servis avec soupe, salade et riz." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/636816961a519.jpeg> ;
+                    ns1:name "B2 Brochette hagi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 brochettes : 2 bœuf au fromage et 2 bœuf. Servis avec soupe, salade et riz." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681675d4db2.jpeg> ;
+                    ns1:name "B1 Brochette tori" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 brochettes et 6 gyoza raviolis au poulet et légumes. Servis avec soupe, salade et riz." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/6368171773a1a.jpeg> ;
+                    ns1:name "B6" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "7 brochettes : 2 saumon, 2 thon, 2 gambas et 1 coquilles St-Jacques. Servis avec soupe, salade et riz." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/636816b4bb9b3.jpeg> ;
+                    ns1:name "B3 Brochette nara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ] ;
+            ns1:name "Menu brochettes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bc9c505db9.jpeg> ;
+                    ns1:name "N2 Neige roll saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bc91e008c7.jpeg> ;
+                    ns1:name "N12 Neige roll thon avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bca4ec3e2b.jpeg> ;
+                    ns1:name "N7 Neige roll thon cuit avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bc8e8527ae.jpeg> ;
+                    ns1:name "N10 Neige roll poulet avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.59" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:name "N11 Neige roll saumon avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bca201ac8a.jpeg> ;
+                    ns1:name "N6 Neige roll saumon cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bca839f381.jpeg> ;
+                    ns1:name "N9 Neige roll saumon grillé avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bc96fdf7b8.jpeg> ;
+                    ns1:name "N1 Neige roll thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bca64c1fbc.jpeg> ;
+                    ns1:name "N8 Neige roll thon grillé avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bc94ed52a4.jpeg> ;
+                    ns1:name "N15 Neige roll avocat cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bca095f998.jpeg> ;
+                    ns1:name "N5 Neige roll concombre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:name "N14 Neige roll bœuf au fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bc9ea7eed6.jpeg> ;
+                    ns1:name "N4 Neige roll avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Neige roll" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "P1 Menu spécial" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ] ;
+            ns1:name "Menu spéciaux" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "2 soupe, 2 salades, 2 riz, 20 sashimis assortis, 8 sushis assortis, 6 makis saumon, 6 California makis saumon avocat et 6 brochettes : 2 poulet, 2 boulettes de poulet et 2 bœuf au fromage. Pour 2 personnes." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/6368175de48f0.jpeg> ;
+                    ns1:name "Bateau R2" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€53.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 soupes, 2 salades, 2 riz, 25 sashimis assortis, 6 sushis assortis, 6 makis saumon et 6 California makis saumon avocat. Pour 2 personnes." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681746cbed4.jpeg> ;
+                    ns1:name "Bateau R1" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€46.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 soupes, 2 salades, 2 riz, 10 sashimis saumon, 10 sashimis tataki saumon, 6 neige roll saumon, 6 saumon roll saumon, 4 sushis saumon, 4 sushis avocat saumon et 4 sushis saumon cheese." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/636817bc48113.jpeg> ;
+                    ns1:name "Bateau R5" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€53.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 soupes, 3 salades, 3 riz, 16 sushis assortis, 20 sashimis assortis, 6 makis thon, 6 California makis saumon avocat, 6 saumon roll et 6 makis printemps. pour 3 personnes." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681775b32ec.jpeg> ;
+                    ns1:name "Bateau R3" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€65.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 soupe, 4 salades, 6 California saumon avocat, 6 California thon mayonnaise avocat, 6 California thon avocat, 6 makis saumon, 6 makis concombre, 6 makis thon, 6 makis surimi et 20 sushis : 8 saumon, 4 thon, 2 daurade, 2 crevette, 2 thon mayonnaise et 2 œufs de saumon. Pour 4 personnes." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/6368179c640da.jpeg> ;
+                    ns1:name "Bateau R4" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€66.90" ] ] ;
+            ns1:name "Bâteaux" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bb91be54cb.jpeg> ;
+                    ns1:name "K34 Maki printemps avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bb9a904436.jpeg> ;
+                    ns1:name "K39 Maki printemps végétarienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:name "K31 Maki printemps thon avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:name "K33 Maki printemps surimi avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:name "K32 Maki printemps saumon avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:name "K37 Maki printemps saumon cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bb95fba569.jpeg> ;
+                    ns1:name "K36 Maki printemps thon grillé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bb98b0e652.jpeg> ;
+                    ns1:name "K38 Maki printemps avocat cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bb940d6b18.jpeg> ;
+                    ns1:name "K35 Maki printemps concombre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Maki printemps" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/6368198095170.jpeg> ;
+                    ns1:name "Coca Cola light" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bcaa325b8b.jpeg> ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bce6878cf8.jpeg> ;
+                    ns1:name "Saké Junmai Ginjo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681cea454b0.jpeg> ;
+                    ns1:name "Fanta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/636818ffcd995.jpeg> ;
+                    ns1:name "Coca Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "200ml" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bc73471716.jpeg> ;
+                    ns1:name "Limonade Sangaria JP" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bcf0ea6ad3.jpeg> ;
+                    ns1:name "Sprite" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Oasis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Chirashi assortiment. Servis avec soupe et salade." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681e0e5e86a.jpeg> ;
+                    ns1:name "H2 Chirashi C" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chirashi tartare saumon avocat. Servis avec soupe et salade." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681e6272d65.jpeg> ;
+                    ns1:name "H2 Chirashi F" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chirashi saumon et thon. Servis avec soupe et salade." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681df3854c4.jpeg> ;
+                    ns1:name "H2 Chirashi B" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet croustillant. Servis avec soupe et salade." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681e7930dd2.jpeg> ;
+                    ns1:name "H2 Chirashi G" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 saumon grillé et 1 coquilles St-Jacques grillées. Servis avec soupe et salade." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681e44cb07a.jpeg> ;
+                    ns1:name "H2 Chirashi E" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chirashi anguille. Servis avec soupe et salade." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681e25e8956.jpeg> ;
+                    ns1:name "H2 Chirashi D" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chirashi saumon. Servis avec soupe et salade." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681ddea7f7c.jpeg> ;
+                    ns1:name "H2 Chirashi A" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.20" ] ] ;
+            ns1:name "Chirashi H2" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "2 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bcb0b626dc.jpeg> ;
+                    ns1:name "S10 Sushi tarte de saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bcbf9eb136.jpeg> ;
+                    ns1:name "S6 Sushi ebi crevette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bcb29d4768.jpeg> ;
+                    ns1:name "S12 Sushi masago" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bcb44934f9.jpeg> ;
+                    ns1:name "S13 Sushi saumon fumé cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bcc2108094.jpeg> ;
+                    ns1:name "S8 Sushi tamago omelette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bcb8e28354.jpeg> ;
+                    ns1:name "S2 Sushi shake saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bcba750bd6.jpeg> ;
+                    ns1:name "S3 Sushi maquereau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bcc3860bd6.jpeg> ;
+                    ns1:name "S9 Sushi saumon bœuf fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bcc0dd2615.jpeg> ;
+                    ns1:name "S7 Sushi avocat saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces." ;
+                    ns1:name "S15 Sushi thon épicé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bcbc410b60.jpeg> ;
+                    ns1:name "S4 Sushi tai daurade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bcbdf60e71.jpeg> ;
+                    ns1:name "S5 Sushi unagi anguille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bcb7414ca9.jpeg> ;
+                    ns1:name "S1 Sushi maguro thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Sushi" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:name "K17 Maki California saumon masago" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681f337dad8.jpeg> ;
+                    ns1:name "K14 Maki California bœuf au fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681f550429a.jpeg> ;
+                    ns1:name "K15 Maki California avocat crevette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681ef769688.jpeg> ;
+                    ns1:name "K12 Maki California avocat saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681f71d1467.jpeg> ;
+                    ns1:name "K16 Maki California légume" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681ebc074bd.jpeg> ;
+                    ns1:name "K10 Maki California tempura crevette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681ed71a32f.jpeg> ;
+                    ns1:name "K11 Maki California avocat thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681f92e774f.jpeg> ;
+                    ns1:name "K18 Maki California frit" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681fad8c491.jpeg> ;
+                    ns1:name "K19 Maki California saumon grillé mangue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681f132a4ed.jpeg> ;
+                    ns1:name "K13 Maki California avocat poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/6368207ed4f4f.jpeg> ;
+                    ns1:name "K22 Maki California surimi avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/6368200d97db2.jpeg> ;
+                    ns1:name "K20 Maki California thon avocat mangue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/6368204e31538.jpeg> ;
+                    ns1:name "K21 Maki California thon cuit avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Maki California" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "SAUCE NEM" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "SAUCE SUCRÉE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "SAUCE SALÉE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.50" ] ] ;
+            ns1:name "sauce" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/6368139d302af.jpeg> ;
+                    ns1:name "305 Maki croustillant avocat cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/6368133a9626e.jpeg> ;
+                    ns1:name "302 Maki croustillant saumon cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/636813fe35d32.jpeg> ;
+                    ns1:name "308 Maki croustillant saumon grillé avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681381e9077.jpeg> ;
+                    ns1:name "304 Maki croustillant thon cuit avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681417208ba.jpeg> ;
+                    ns1:name "309 Maki croustillant thon grillé avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/6368131e6b15d.jpeg> ;
+                    ns1:name "301 Maki croustillant saumon avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/636813650ffd1.jpeg> ;
+                    ns1:name "303 Maki croustillant thon avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/636813c2141e6.jpeg> ;
+                    ns1:name "306 Maki croustillant bœuf au fromage avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/636813e225d90.jpeg> ;
+                    ns1:name "307 Maki croustillant poulet avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ] ;
+            ns1:name "Maki croustillant" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Concombre, avocat, radis marinés, tomate et algues." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bd387e1649.jpeg> ;
+                    ns1:name "X4 Gyoza poke bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 gyoza ravioli Japonais au poulet, concombre, avocat, œuf de saumon et tomate." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bd345e7918.jpeg> ;
+                    ns1:name "X3 Gyoza poke bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 gyoza ravioli Japonais au poulet, Concombre, avocat, saumon et tomate." ;
+                    ns1:name "X1 Gyoza poke bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 gyoza ravioli Japonais au poulet, concombre, avocat, crevettes et tomate." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bd3318d2a0.jpeg> ;
+                    ns1:name "X2 Gyoza poke bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ] ;
+            ns1:name "Gyoza poke bowl" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bba618b7b9.jpeg> ;
+                    ns1:name "K4 Maki abocado avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bba45238d4.jpeg> ;
+                    ns1:name "K3 Maki oshinko radis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bbaa6bcddc.jpeg> ;
+                    ns1:name "K5 Maki kappa concombre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "K1 Maki tekka thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bc6e6b854e.jpeg> ;
+                    ns1:name "K9 Maki royal" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bbafc08d9b.jpeg> ;
+                    ns1:name "K7 Maki unagi anguille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:name "K2 Maki shake saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bbad28b344.jpeg> ;
+                    ns1:name "K6 Maki surimi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bbb8fd6f1a.jpeg> ;
+                    ns1:name "K8 Maki California futo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Maki" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "6 makis printemps et 6 saumon roll. Servis avec soupe et salade." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/636815b25b623.jpeg> ;
+                    ns1:name "A5" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 futo California makis. Servis avec soupe et salade." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/636815520b545.jpeg> ;
+                    ns1:name "A2 Maki futo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "12 makis royal. Servis avec soupe et salade." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681568ebf49.jpeg> ;
+                    ns1:name "A3 Maki wasakomo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 pièces de maki croustillant tempura, 3 pièces de maki croustillant avocat thon cuit, 3 pièces de maki California avocat cheese, 3 pièces de california saumon cheese, 3 pièces de maki California avocat saumon servis avec soupe et salade" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/636814d55422b.jpeg> ;
+                    ns1:name "A16" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 maki omelettes rolls saumon cheese, 3 maki croustillants saumon cheese, 3 saumon rolls saumon cheese, 1 pièce de sushi saumon" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bc88c555c4.jpeg> ;
+                    ns1:name "Menu A13" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 California avocat concombre, 6 makis concombre et 6 radis. Servis avec soupe et salade." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/636814b0d0a12.jpeg> ;
+                    ns1:name "A11" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 maki omelettes rolls avocat cheese, 3 maki croustillants avocat cheese, 3 saumon rolls avocat cheese, 1 pièce de sushi saumon" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bc8a50c2c5.jpeg> ;
+                    ns1:name "Menu A14" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 maki omelettes rolls avocat cheese, 3 maki omelettes rolls saumon cheese, 3 maki croustillants avocat cheese, 3 maki croustillants saumon cheese, 3 saumon rolls avocat cheese, 3 saumon rolls saumon cheese." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bc8cd701b9.jpeg> ;
+                    ns1:name "Menu A15" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 makis saumon, 6 makis thon, et 6 California makis avocat saumon. Servis avec soupe et salade." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/6368152127c2d.jpeg> ;
+                    ns1:name "A1 Maki neigiria" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 California saumon avocat, 6 thon avocat et 6 surimi avocat. Servis avec soupe et salade." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/6368158141e9e.jpeg> ;
+                    ns1:name "A4 California" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "12 tempura California makis. Servis avec soupe et salade." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bc792e2b51.jpeg> ;
+                    ns1:name "M11" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 makis roll avocat, 3 couleur roll saumon, thon, daurade, avocat, 6 California mangue roll. Servis avec soupe et salade." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681618aa43b.jpeg> ;
+                    ns1:name "A8 Couleur roll" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "18 makis : 6 omelette roll, 6 makis saumon et 6 saumon roll cheese. Servis avec soupe et salade." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/636815eb76782.jpeg> ;
+                    ns1:name "A7 Plateau California vrie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "A22" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 makis printemps, 6 makis neige et 6 saumon roll. Servis avec soupe et salade." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/636815cd9ef10.jpeg> ;
+                    ns1:name "A6" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ] ;
+            ns1:name "Menus maki" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:name "Bière Asahi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Bières" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "2 pièces" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bd51915e55.jpeg> ;
+                    ns1:name "Y7 Hotate \"Coquilles Saint-Jaques\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bd482c7b43.jpeg> ;
+                    ns1:name "Y3 Teba \"ailes de poulet\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces" ;
+                    ns1:name "Y2 Tsukune \"boulette de poulet\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bd557da961.jpeg> ;
+                    ns1:name "Y9 Shake \"saumon\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bd4f07c95d.jpeg> ;
+                    ns1:name "Y6 Ebi \"gambas\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bd4a2af1ce.jpeg> ;
+                    ns1:name "Y4 Gyuniku \"bœuf\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bd3cbbcae1.jpeg> ;
+                    ns1:name "Y11 Zukini \"courgette\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bd3fa2d980.jpeg> ;
+                    ns1:name "Y1 Syoniku \"poulet\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bd4bf6301a.jpeg> ;
+                    ns1:name "Y5 Cheese \"bœuf au fromage\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bd53cf380e.jpeg> ;
+                    ns1:name "Y8 Kinoko \"champignons\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Yakitori" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:name "103 Saumon roll saumon cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63680eee3ff25.jpeg> ;
+                    ns1:name "101 Saumon roll saumon avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:name "106 Saumon roll saumon grillé avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:name "102 Saumon roll thon avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63680fd17f912.jpeg> ;
+                    ns1:name "107 Saumon roll thon grillé avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:name "104 Saumon roll thon cuit avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63680f6b41377.jpeg> ;
+                    ns1:name "105 Saumon roll avocat cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "Saumon roll" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Poulet pané et oignon avec sauce sojas sur un bol de riz" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/63681d3d772c8.jpeg> ;
+                    ns1:name "Furai don" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Omelette de porc pané et oignon avec soja sur un bol de riz" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/6b/636bc709d49cc.jpeg> ;
+                    ns1:name "Katsu don" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ] ;
+            ns1:name "Plat mijotés sur bol de riz" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "10 sushi saumon servis avec soupe et salade" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/636818bc69f5d.jpeg> ;
+                    ns1:name "C4 Menu 10 sushi saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "10 sushis assortis. Servis avec soupe et salade." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/6368184855e91.jpeg> ;
+                    ns1:name "C2 Sushi samouraï" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 pièces de sushi saumon et 5 pièces de sushi saumon cheese servis avec soupe et salade" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/636818dd82c64.jpeg> ;
+                    ns1:name "C5 Menu sushi 5/5" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 sushis assortis et 6 makis saumon. Servis avec soupe et salade." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/68/636818649150b.jpeg> ;
+                    ns1:name "C3 Sushi Wakayama" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ] ;
+            ns1:name "Menu sushi" ] .
+

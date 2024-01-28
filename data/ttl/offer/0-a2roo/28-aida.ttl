@@ -1,0 +1,186 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://a2roo.coopcycle.org/api/restaurants/28> ns1:hasMenu <https://a2roo.coopcycle.org/en/restaurant/28-aida#menu> .
+
+<https://a2roo.coopcycle.org/en/restaurant/28-aida#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pour déguster votre plat partout !" ;
+                    ns1:name "Couverts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Baguettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ] ;
+            ns1:name "Nomade" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Beignets de poulet mariné soja et gingembre" ;
+                    ns1:name "Beignets de poulet mariné" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Chips aux crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "edamame" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Assortiments Gyozas et beignets de poulet" ;
+                    ns1:name "Assortiments Gyozas et beignets de poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "gyozas au poulet" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/6d/616d8d491a610.jpeg> ;
+                    ns1:name "gyozas au poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "concombre à l'ail" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Champignon noir au wasabi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Apéritifs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Pommes caramélisées et fromage blanc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Mochi glacé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tiramisu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Salade de nouilles de riz garnie et son nem, servi chaud
+\r
+Remarque : les nems crevettes peuvent avoir quelques traces de porc dans leur assaisonnement""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/9d/609d0ea355396.jpeg> ;
+                    ns1:name "Bò Bún" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """boeuf braisé et nouilles de blé\r
+recette traditionelle cantonaise""" ;
+                    ns1:name "boeuf braisé et nouilles de blé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nouilles asiatiques sautées au wok, servi chaud" ;
+                    ns1:name "Noodles wok" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """boeuf braisé et nouilles de riz\r
+recette traditionelle cantonaise""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/6d/616d8aa3a2e7f.jpeg> ;
+                    ns1:name "boeuf braisé et nouilles de riz" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Magret de canard laqué façon Aida accompagné de riz jasmin, légumes sautés au wok, assaisonnement." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/9d/609d132dd73a8.jpeg> ;
+                    ns1:name "Canard laqué d'AIDA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """boeuf braisé et riz jasmin légumes wok\r
+recette traditionnelle cantonaise""" ;
+                    ns1:name "boeuf braisé et riz jasmin" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Soupe de raviolis chinois, servi chaud" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/9d/609d13f44a116.jpeg> ;
+                    ns1:name "Soup Wonton Bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nouilles épaisses japonaises, servi chaud" ;
+                    ns1:name "Wok Udon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/9d/609d1429d1ec5.jpeg> ;
+                    ns1:name "Wok de riz jasmin" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ] ;
+            ns1:name "Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Rouleaux de printemps" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Remarque : les nems crevettes peuvent avoir quelques traces de porc dans leur assaisonnement" ;
+                    ns1:name "6 nems crevette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4pcs" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/9d/609d1285df3bb.jpeg> ;
+                    ns1:name "4pcs Samoussas BOEUF" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "6 nems végétariens" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "6 nems poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Assortiment de 6 nems" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2pcs BOEUF + 2pcs POULET" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/9d/609d12cd5546f.jpeg> ;
+                    ns1:name "Assortiment 4 samoussas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4pcs" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/9d/609d12a7c4be9.jpeg> ;
+                    ns1:name "4pcs Samoussas POULET" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "Nems et samoussas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "jus de fruits en canette" ;
+                    ns1:name "Jus fruits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Au choix : Evian, Perrier, Coca-Cola Coca Zero, Orangina, Arizona thé vert miel" ;
+                    ns1:name "Boissons soft" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """25cl, livré en bouteille\r
+Alcool : 10°""" ;
+                    ns1:name "Cocktail maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ] ;
+            ns1:name "Cocktails et Jus" ] .
+

@@ -1,0 +1,44 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://sicklo.coopcycle.org/api/restaurants/58> a ns1:Restaurant ;
+    ns1:address <https://sicklo.coopcycle.org/api/addresses/15318> ;
+    ns1:bannerImage "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/6d/656dc64e28161.jpg" ;
+    ns1:description """Le Café Foch est un restaurant de quartier, ouvert le midi pour de la restauration sur place ou à emporter.\r
+Une cuisine faite maison avec des produits frais et avec amour !\r
+\r
+Chaque semaine nous vous proposerons une carte différente et de saison, il y en a pour tout les goûts :)\r
+\r
+Pensez aux formules avec les plats du jour ! ;)\r
+\r
+Suivez notre actualité sur notre site : www.cafefoch.fr\r
+Retrouvez nous aussi sur les réseaux FB et Insta.\r
+\r
+A plus au Foch !""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.518149e+01 ;
+            ns1:longitude 5.724706e+00 ] ;
+    ns1:image <https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/64/8f/648f4b5ea1641.jpg> ;
+    ns1:name "CAFÉ FOCH 🌱" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:40" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:15" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://sicklo.coopcycle.org/en/restaurant/58-cafe-foch" ] ] ;
+    ns1:sameAs <https://sicklo.coopcycle.org/en/restaurant/58-cafe-foch> ;
+    ns1:url <https://sicklo.coopcycle.org/en/restaurant/58-cafe-foch> .
+
+<https://sicklo.coopcycle.org/api/addresses/15318> a ns1:PostalAddress ;
+    ns1:name "CAFÉ FOCH 🌱" ;
+    ns1:streetAddress "20 Boulevard Maréchal Foch, 38000 Grenoble, France" ;
+    ns1:telephone "+33457134392" .
+

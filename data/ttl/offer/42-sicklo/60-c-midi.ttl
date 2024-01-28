@@ -1,0 +1,144 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://sicklo.coopcycle.org/api/restaurants/60> ns1:hasMenu <https://sicklo.coopcycle.org/en/restaurant/60-c-midi#menu> .
+
+<https://sicklo.coopcycle.org/en/restaurant/60-c-midi#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Tiramisu spéculoos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/fd/62fd2abdb9a8b.jpeg> ;
+                    ns1:name "Spéculos, fromage blanc et pomme" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/fc/64fc76104a8e8.jpeg> ;
+                    ns1:name "Crème citron spéculoos 🍋" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/fd/62fd29246d5ee.jpeg> ;
+                    ns1:name "Compotée rhubarbe, pomme, framboise et fromage blanc 🍏" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/fd/62fd2aa09ef79.jpeg> ;
+                    ns1:name "Spéculos, fromage blanc et sauce caramel salé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/fd/62fd28e6e129c.jpeg> ;
+                    ns1:name "Compotée de rhubarbe, framboise et pomme 🍏 (végan)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/fc/64fc772a6a82a.jpeg> ;
+                    ns1:name "Perles du Japon, lait de coco et mangue (végan)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/fd/62fd2952428c3.jpeg> ;
+                    ns1:name "Mi cuit chocolat 🍫" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "🍰Dessert" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/fc/64fc75d5bee86.jpeg> ;
+                    ns1:name "Coca sans sucre 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lipton pèche 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/fc/64fc7539e1e95.jpeg> ;
+                    ns1:name "A.C.E 20 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/fc/64fc782e2cee0.jpeg> ;
+                    ns1:name "Lipton framboise 33 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/fc/64fc764945439.jpeg> ;
+                    ns1:name "Eau gazeuse 50 cL 💦" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/fc/64fc76d927431.jpeg> ;
+                    ns1:name "Nectar de poire 20cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/fc/64fc7667a70c9.jpeg> ;
+                    ns1:name "Eau plate 50cl 💦" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/fc/64fc76854121c.jpeg> ;
+                    ns1:name "Lipton pastèque menthe 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/fc/64fc75b822e06.jpeg> ;
+                    ns1:name "Coca original 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/fc/64fc77460992b.jpeg> ;
+                    ns1:name "Pulco citronnade 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/fc/64fc76a3bb351.jpeg> ;
+                    ns1:name "Jus de pommes 20 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "🧃 Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/63/73/6373db9819f3e.jpeg> ;
+                    ns1:name "Lasagne de légumes, chèvre et pesto + 1 entrée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/63/73/6373db272ac26.jpeg> ;
+                    ns1:name "Gratin dauphinois + 1 base protéine + 1 entrée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "🥧Plat chaud + 1 entrée" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "1 base + 3 accompagnements" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/fc/64fc7562afb57.jpeg> ;
+                    ns1:name "🥘 Bowl à composer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "🥘 Bowl" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/96/65967a14d0ee3.jpeg> ;
+                    ns1:name "Raclette bowl, oignons caramélisés et brocolis 🧀🥦" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/96/659679e7789bc.jpeg> ;
+                    ns1:name "Raclette bowl, oignons caramélisés et dinde 🧀" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "🧀 Raclette bowl" ] .
+

@@ -1,0 +1,44 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://coursiersmontpellier.coopcycle.org/api/restaurants/121> a ns1:Restaurant ;
+    ns1:address <https://coursiersmontpellier.coopcycle.org/api/addresses/30462> ;
+    ns1:bannerImage "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_banner/65/6e/656e0d328fb3f.png" ;
+    ns1:description "Restaurant Libanais 🌲" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.36043e+01 ;
+            ns1:longitude 3.88349e+00 ] ;
+    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_thumbnail/65/46/6546cce32a2ac.png> ;
+    ns1:name "🌲Le Karawane🌲" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:40" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:40" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "12:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://coursiersmontpellier.coopcycle.org/en/restaurant/121-le-karawane" ] ] ;
+    ns1:sameAs <https://coursiersmontpellier.coopcycle.org/en/restaurant/121-le-karawane> ;
+    ns1:url <https://coursiersmontpellier.coopcycle.org/en/restaurant/121-le-karawane> .
+
+<https://coursiersmontpellier.coopcycle.org/api/addresses/30462> a ns1:PostalAddress ;
+    ns1:name "🌲Le Karawane🌲" ;
+    ns1:streetAddress "24 Rue du Pont de Lattes, 34070 Montpellier, France" ;
+    ns1:telephone "+33679145477" .
+

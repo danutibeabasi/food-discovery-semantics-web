@@ -1,0 +1,318 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://rayon9.coopcycle.org/api/restaurants/15> ns1:hasMenu <https://rayon9.coopcycle.org/en/restaurant/15-la-pizzeria#menu> .
+
+<https://rayon9.coopcycle.org/en/restaurant/15-la-pizzeria#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Crème, tomate, jambon, champignons" ;
+                    ns1:name "Lasagne jambon-champignons" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, tomate, champignons, courgette, aubergine" ;
+                    ns1:name "Lasagne végétarienne" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.99" ] ] ;
+            ns1:name "Lasagne" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, câpres, olives, anchois, mozzarella fraîche, tomate fraîche, origan" ;
+                    ns1:name "La Caprèse" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, jambon, champignons, origan" ;
+                    ns1:name "Calzone" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, jambon, œuf mou, origan" ;
+                    ns1:name "Solemio" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, aubergine, poivron , origan" ;
+                    ns1:name "Parmigiana" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, champignons, origan" ;
+                    ns1:name "Funghi" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, pesto, mascarpone, origan" ;
+                    ns1:name "Pesto-mascarpone" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, salami piquant, origan" ;
+                    ns1:name "Vesuvio" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, jambon, origan" ;
+                    ns1:name "Jambon" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, thon, origan" ;
+                    ns1:name "Thon" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, champignons, artichaut, olives, courgette, aubergine, origan" ;
+                    ns1:name "Végétarienne" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, champignon, jambon, artichaut, olives, origan" ;
+                    ns1:name "4 Saisons" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, jambon, ananas, origan" ;
+                    ns1:name "Hawaï" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, roquette, mozzarella fraîche, tomate fraîche, jambon de parme, origan" ;
+                    ns1:name "L'Estate" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, jambon de parme, origan" ;
+                    ns1:name "Parmesane" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "tomate, mozzarella, origan" ;
+                    ns1:name "Margherita" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Selon l'humeur du chef" ;
+                    ns1:name "Pizza du chef" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, salami piquant, artichaut, olives, origan" ;
+                    ns1:name "Joseph 2" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.49" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, champignons, pesto vert, origan" ;
+                    ns1:name "Joseph 1" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, champignons, huile de truffe, origan" ;
+                    ns1:name "La Truffe" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, jambon, champignons, origan" ;
+                    ns1:name "Capriciosa" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, câpres, olives, anchois, origan" ;
+                    ns1:name "Napoli" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, mélange du chef, origan" ;
+                    ns1:name "4 fromages" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, poulet, courgette, origan" ;
+                    ns1:name "Poulet - Courgette" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, pesto rouge, courgette, olives, origan" ;
+                    ns1:name "La 2023" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.99" ] ] ;
+            ns1:name "Pizzas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Penne 4 Fromages" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, tomate, pesto vert" ;
+                    ns1:name "Penne pesto vert" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, tomate, champignons, courgette, aubergine" ;
+                    ns1:name "Penne végétarienne" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, tomate, jambon, champignons" ;
+                    ns1:name "Penne jambon-champignons" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Penne crème-tomate" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.99" ] ] ;
+            ns1:name "Pâtes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Soft (coca, fanta, ice tea, ...)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "San Benedetto thé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "San Peligrino Essenza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ] ;
+            ns1:name "Sans alcool" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Montepuclino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€33.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Nero d'Avola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€29.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tasari" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Primitivo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€29.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Vin (blanc, rosé, rouge)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "Vin" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Val Dieu fruitée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Blanche de liège" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Maes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ] ;
+            ns1:name "Bières" ] .
+

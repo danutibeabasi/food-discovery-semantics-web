@@ -1,0 +1,180 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lcr.coopcycle.org/api/restaurants/14> ns1:hasMenu <https://lcr.coopcycle.org/en/restaurant/14-yam-yam#menu> .
+
+<https://lcr.coopcycle.org/en/restaurant/14-yam-yam#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/47/6047c0a0b0836.jpeg> ;
+                    ns1:name "Tofu Gang Jeong" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/47/6047bf5fd6d16.jpeg> ;
+                    ns1:name "Donkass 돈까스" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/47/6047bf403e1af.jpeg> ;
+                    ns1:name "Bibimbap au tofu 비빔밥" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.52" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz accompagné de ses 6 légumes, d'un oeuf sur le plat et de boeuf mariné, avec de la sauce pimentée ou de la sauce soja à l’huile de sésame" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/47/6047bf2259e4e.jpeg> ;
+                    ns1:name "Bibimbap au boeuf 비빔밥" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.52" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet frit épicé accompagné de riz, de salade et de chou blanc à la sauce Yuzu" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/47/6047bfbc4f5f0.jpeg> ;
+                    ns1:name "Maxi Dak Gang Jeong 닭강정" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Viande de bœuf mariné accompagné de riz, de salade et de chou blanc à la sauce spéciale" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/47/6047bfee72b95.jpeg> ;
+                    ns1:name "Bulgogui 불고기" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.52" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet épicé accompagné de riz, de salade et de chou blanc à la sauce spéciale" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/47/6047c05c7032e.jpeg> ;
+                    ns1:name "Dak Bulgogui 닭 불고기" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/47/6047c0ce520c4.jpeg> ;
+                    ns1:name "Tofu sauté" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ] ;
+            ns1:name "Jeong Sik" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Financier au thé vert matcha et haricots rouges sucrés ou au Yuzu" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/47/6047c3d4cb117.jpeg> ;
+                    ns1:name "Financier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.22" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Castella à la vanille / à la framboise / au sésame noir / au fruit de la passion / au chocolat gingimbre" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/ec/60ec98f1b4c98.jpeg> ;
+                    ns1:name "Castella 카스테라" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.60" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Vermicelles de patate douce avec des légumes émincés et du boeuf mariné ou de la pâte de poisson" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/47/6047bd1ed2f5a.jpeg> ;
+                    ns1:name "Japché E 잡채" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/47/6047ba9b2ca24.jpeg> ;
+                    ns1:name "Jeon E 전" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade de tofu sauté ou de poulet épicé accompagné de salade chêne verte, chou blanc, carotte, concombre, pomme, pignon de pin et noix avec de la sauce Yuzu." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/47/6047bcc7b3dee.jpeg> ;
+                    ns1:name "Naingché E 냉채" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Jeon Sik 전식" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/47/6047bd9b4788d.jpeg> ;
+                    ns1:name "Naingché au Tofu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade de poulet épicé accompagné de salade chêne verte, chou blanc, carotte, concombre, patate douce, poire asiatique, pomme, pignon de pin et noix avec de la sauce Yuzu" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/47/6047bdc622bec.jpeg> ;
+                    ns1:name "Naingche au Poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gâteaux de riz à la sauce pimentée et sucrée avec de la pâte de poisson." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/47/6047bea26dd52.jpeg> ;
+                    ns1:name "Tok-bokki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vermicelles de patate douce avec des légumes émincés et du boeuf mariné ou de la pâte de poisson" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/47/6047be18819ac.jpeg> ;
+                    ns1:name "Japché 잡채" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.65" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet frit épicé (le bucket du poulet)" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/47/6047bd6c57bf3.jpeg> ;
+                    ns1:name "Dak gangjeong 닭강정" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.25" ] ] ;
+            ns1:name "Han Jeop Si" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Spiritueux coréen" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/47/6047c507339b0.jpeg> ;
+                    ns1:name "Soju" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/47/6047c49da818f.jpeg> ;
+                    ns1:name "Charitea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.45" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/47/6047c56477e12.jpeg> ;
+                    ns1:name "Eau / Eau petillante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière coréenne selectionée par Yam Yam" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/47/6047c53a1a09d.jpeg> ;
+                    ns1:name "Bière coréenne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/47/6047c4824e25e.jpeg> ;
+                    ns1:name "Limonade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.45" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/47/6047c6e469783.jpeg> ;
+                    ns1:name "Lemony" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.45" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/47/6047c4bf06cbf.jpeg> ;
+                    ns1:name "Jus de Recolt" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.63" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "chou chinois fermenté au piment et à la sauce de poisson (130g)" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/47/6047c40f92f2d.jpeg> ;
+                    ns1:name "Kimchi 김치" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.45" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Blanc ou aux céréales" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/47/6047c445113ef.jpeg> ;
+                    ns1:name "Riz" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ] ;
+            ns1:name "Banchan 반찬" ] .
+

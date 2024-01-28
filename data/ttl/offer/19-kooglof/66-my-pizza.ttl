@@ -1,0 +1,362 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://kooglof.coopcycle.org/api/restaurants/66> ns1:hasMenu <https://kooglof.coopcycle.org/en/restaurant/66-my-pizza#menu> .
+
+<https://kooglof.coopcycle.org/en/restaurant/66-my-pizza#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Sauce tomate, mozzarella,\r
+jambon, ananas""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/80/6380bda6de09a.jpeg> ;
+                    ns1:name "Hawaïenne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Sauce tomate, mozzarella, thon,\r
+oignons frais, olives noires""" ;
+                    ns1:name "My tuna" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Sauce tomate, mozzarella,\r
+lardons fumés, oignons frais""" ;
+                    ns1:name "Paysanne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Sauce tomate, mozzarella, champignons\r
+de Paris frais, poivrons frais, oignons frais,\r
+olives noires, tomates cerises""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/62/c0/62c00e064cba3.jpeg> ;
+                    ns1:name "Végétarienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Sauce tomate,mozzarella, jambon,\r
+champignons de Paris frais""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/80/6380be8de4264.jpeg> ;
+                    ns1:name "Reine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Sauce tomate, mozzarella, anchois,\r
+câpres, olives noires""" ;
+                    ns1:name "Napolitaine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Sauce tomate, mozzarella, anchois,\r
+ail frais, olives noires, pincée de thym""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/80/6380bede1ca8d.jpeg> ;
+                    ns1:name "Russicada" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Chorizo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Sauce tomate, mozzarella, escalope\r
+de poulet, poivrons frais, oignons frais""" ;
+                    ns1:name "Fermière" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Sauce tomate, mozzarella, roquefort,\r
+fromage de chèvre, emmental, ciboulette""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/62/c0/62c00ccce9c2f.jpeg> ;
+                    ns1:name "4 fromages" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Sauce tomate, mozzarella, merguez,\r
+poivrons frais, oignons frais""" ;
+                    ns1:name "Orientale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Sauce tomate, mozzarella, escalope\r
+de poulet, bœuf haché, poivrons frais""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/80/6380beab407cd.jpeg> ;
+                    ns1:name "Royale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Sauce tomate, mozzarella,\r
+pepperoni, oignons frais""" ;
+                    ns1:name "Pepperoni" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella" ;
+                    ns1:name "Marguerita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Sauce tomate, mozzarella,\r
+escalope de poulet, bœuf haché,\r
+merguez, poivrons frais""" ;
+                    ns1:name "3 viandes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Sauce tomate, mozzarella, bœuf haché,\r
+poivrons frais, maïs""" ;
+                    ns1:name "Mexicaine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "Pizzas base tomate 🍅" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Niçoise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Salade verte, tomates cerises,\r
+olives, ciboulette""" ;
+                    ns1:name "Salade verte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Salade verte, escalope de poulet,\r
+tomates cerises, olives, ciboulette""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/1d/631de68b43db9.jpeg> ;
+                    ns1:name "Salade César" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ] ;
+            ns1:name "Les Salades 🥗" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola Cherry 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "San Pelligrino 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Evian 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola Classique 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Oasis Tropical 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ice Tea Pêche 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola Zéro 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Boissons 50cl 🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Choisissez votre goût en cliquant !" ;
+                    ns1:name "Coca-Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Choisissez votre goût en cliquant !" ;
+                    ns1:name "Oasis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "7 Up Mojito" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Choisissez votre goût en cliquant !" ;
+                    ns1:name "Ice Tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Choisissez le goût en cliquant !" ;
+                    ns1:name "Fanta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.90" ] ] ;
+            ns1:name "Boissons 33cl 🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/62/c5/62c5a8957bd93.jpeg> ;
+                    ns1:name "Panini Chèvre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/62/c5/62c5a942aef43.jpeg> ;
+                    ns1:name "Panini Bacon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/62/c5/62c5a8b08a70a.jpeg> ;
+                    ns1:name "Panini Jambon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/62/c5/62c5a90a2dea9.jpeg> ;
+                    ns1:name "Panini Thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/62/c5/62c5a8f754477.jpeg> ;
+                    ns1:name "Panini Poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Paninis 🥖" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Gâteau au daim" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Brownie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tiramisu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Muffin" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "Les Desserts 🍰" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Au Four" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/1d/631de6b7e532f.jpeg> ;
+                    ns1:name "Potatoes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Au four (7 pièces)" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/1d/631de6e35f535.jpeg> ;
+                    ns1:name "Chicken wings" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Les Plus 😋" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "(sauf Margherita)" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/5e/635e442ed3294.jpeg> ;
+                    ns1:name "Formule Grande Pizza + Boisson + Dessert 🍕🥤🍰" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "(sauf Margherita)" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/5e/635e441a73e2c.jpeg> ;
+                    ns1:name "Formule Grande Pizza + Boisson 🍕🥤" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "(sauf Alsacienne)" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/5e/635e43e244c59.jpeg> ;
+                    ns1:name "Formule Tarte Flambée + Boisson 🥨🥤" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "(sauf Alsacienne)" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/5e/635e44000fe1a.jpeg> ;
+                    ns1:name "Formule Tarte Flambée + Boisson + Dessert 🥨🥤🍰" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ] ;
+            ns1:name "Formules ⭐" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Crème fraîche, fromage,\r
+lardons fumés, oignons frais""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/80/6380bef6f1ee1.jpeg> ;
+                    ns1:name "Alsacienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Crème fraîche, fromage,\r
+saumon, oignons frais""" ;
+                    ns1:name "Saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Crème fraîche, fromage,\r
+escalope de poulet, champignons\r
+de Paris frais, oignons frais""" ;
+                    ns1:name "Poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Crème fraîche, fromage,\r
+lardons fumés, champignons\r
+de Paris frais, oignons frais""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/80/6380bfa63d64d.jpeg> ;
+                    ns1:name "Forestière" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ] ;
+            ns1:name "Tartes Flambées 🥨" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Crème fraîche, mozzarella,\r
+fromage de chèvre, miel""" ;
+                    ns1:name "Chèvre miel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Crème fraîche, mozzarella, escalope de\r
+poulet, pomme de terre, poivrons frais""" ;
+                    ns1:name "Poulet crème" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Crème fraîche, mozzarella, saumon,\r
+pomme de terre, oignons frais""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/80/6380be4b7ac4b.jpeg> ;
+                    ns1:name "Norvégienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Crème fraîche,mozzarella, escalope\r
+de poulet, pomme de terre, sauce curry""" ;
+                    ns1:name "Indienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Crème fraîche, mozzarella, escalope\r
+de poulet, jambon,œuf, sauce brésilienne""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/62/c0/62c00e7722cd0.jpeg> ;
+                    ns1:name "Brésilienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Crème fraîche, mozzarella, escalope\r
+de poulet, oignons frais, olives noires""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/80/6380bd2a48e71.jpeg> ;
+                    ns1:name "Chicken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Crème fraîche, mozzarella, lardons fumés,\r
+fromage de chèvre, pomme de terre,\r
+oignons frais""" ;
+                    ns1:name "Savoyarde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Crème fraîche, mozzarella,\r
+escalope de poulet, pomme de terre,\r
+poivrons frais, sauce barbecue""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/62/c0/62c00e5ea7894.jpeg> ;
+                    ns1:name "Poulet barbecue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "Pizzas base crème ⚪" ] .
+

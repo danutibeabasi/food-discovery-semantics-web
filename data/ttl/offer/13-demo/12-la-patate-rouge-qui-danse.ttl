@@ -1,0 +1,73 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://demo.coopcycle.org/api/restaurants/12> ns1:hasMenu <https://demo.coopcycle.org/en/restaurant/12-la-patate-rouge-qui-danse#menu> .
+
+<https://demo.coopcycle.org/en/restaurant/12-la-patate-rouge-qui-danse#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Grenouilles en sauce" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.15" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lapin aux carottes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.35" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lapin poêlé·e·s à la crème" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.63" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Boeuf poêlé·e·s aux carottes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.74" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pommes de terre farci·e·s aux poivrons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.03" ] ] ;
+            ns1:name "Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Flan au chocolat" ;
+                    ns1:nutrition "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.83" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tarte aux figues" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.78" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Clafoutis au sucre glace" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.64" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Clafoutis aux pommes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.63" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Charlotte à la rhubarbe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.92" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Crudités au naturel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.79" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crudités en salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.16" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crudités au naturel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.97" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tomates fraîches au naturel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.01" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pickles à l'huile d'olive" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.16" ] ] ;
+            ns1:name "Entrées" ] .
+

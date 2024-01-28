@@ -1,0 +1,72 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://demo.coopcycle.org/api/restaurants/37> ns1:hasMenu <https://demo.coopcycle.org/en/restaurant/37-la-patate-rouge-maline#menu> .
+
+<https://demo.coopcycle.org/en/restaurant/37-la-patate-rouge-maline#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Flan aux raisons secs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.71" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Charlotte aux pépites de chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.91" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tarte aux figues" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.05" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tarte à la rhubarbe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.02" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Charlotte à la rhubarbe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Pommes de terre à la crème" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.02" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lapin rôti·e·s aux poivrons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lapin aux herbes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.77" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lapin mi-cuit·e·s aux poivrons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.87" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Poulet aux oignons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.65" ] ] ;
+            ns1:name "Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Pickles en salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.27" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jambon cru au naturel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.57" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crudités en salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pickles au naturel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.84" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jambon cru en salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.93" ] ] ;
+            ns1:name "Entrées" ] .
+

@@ -1,0 +1,694 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/20> ns1:hasMenu <https://eramangasteiz.coopcycle.org/en/restaurant/20-dolomiti#menu> .
+
+<https://eramangasteiz.coopcycle.org/en/restaurant/20-dolomiti#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "De parmigiano y espinacas" ;
+                    ns1:name "RAVIOLI RELLENOS DE QUESOS" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Con crema de hongos" ;
+                    ns1:name "RAVIOLI RELLENOS DE FOIE Y TRUFA" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Con salsa de queso mascarpone, nueces y parmigiano" ;
+                    ns1:name "RAVIOLI DE POLLO BRASEADO, ESPINACAS Y CHALOTA" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ] ;
+            ns1:name "PASTA RELLENA" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Vino Tinto Viña Enara (Rioja Alavesa) Joven (75cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Vino Blanco 100% Verdejo Bittácora (75cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Vino Blanco Txakolí Rezabal (75cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Vino Tinto Crianza Dominio de Berzal (75cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.00" ] ] ;
+            ns1:name "Vinos" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Con almejas (en temporada)" ;
+                    ns1:name "ALCACHOFAS DE TUDELA CON ALMEJAS" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Molluscs",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "QUESO PROVOLONE GRATINATI CON ORÉGANO" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Acompañadas de Idiazábal" ;
+                    ns1:name "CROQUETAS DE BOLETUS (6)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "ESPÁRRAGOS TRIGUEROS AL GORGONZOLA" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salteadas con jamón Ibérico (en temporada)" ;
+                    ns1:name "ALCACHOFAS DE TUDELA CON JAMÓN" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Acompañadas de pimientos del País" ;
+                    ns1:name "CROQUETAS DE BRESAOLA Y GORGONZOLA (6)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "PIMIENTOS DE PAÍS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ] ;
+            ns1:name "ENTRANTES CALIENTES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "BONITO A LA VINAGRETA" ;
+                    ns1:nutrition "Fish",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Con rúcula, trufa y laminas de parmigiano" ;
+                    ns1:name "CARPACCIO DE SOLOMILLO DE BUEY" ;
+                    ns1:nutrition "Celery",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "ESPÁRRAGOS DE NAVARRA DOS SALSAS" ;
+                    ns1:nutrition "Eggs",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "JAMÓN IBÉRICO DE BELLOTA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "LOMO IBÉRICO DE BELLOTA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jamón y lomo Ibérico, pimientos de Gernika, Idiazabal y croquetas variadas (3 + 3)" ;
+                    ns1:name "PIKOTEO DOLOMITI" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.00" ] ] ;
+            ns1:name "ENTRANTES FRIOS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "TARTA CASERA DE CHOCOLATE (80 grs)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "PANNACOTTA CON MANGO, FRESA O CHOCOLATE" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "290 gr." ;
+                    ns1:name "TIRAMISÚ ARTESANO" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "POSTRES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Calabacín, gambas peladas, ajo, guindilla y un toque de cognac" ;
+                    ns1:name "GAMBERI ZUCHINI" ;
+                    ns1:nutrition "Crustaceans",
+                        "Fish",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bacon, cebolla, salsa de tomate, picante, pimienta y parmigiano" ;
+                    ns1:name "AMATRICIANA" ;
+                    ns1:nutrition "Celery",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate" ;
+                    ns1:name "NAPOLITANA" ;
+                    ns1:nutrition "Celery",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pechuga de pollo, piña, curry, queso mascarpone y nata" ;
+                    ns1:name "POLLO Y PIÑA AL CURRY" ;
+                    ns1:nutrition "Celery",
+                        "Milk",
+                        "Mustard",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crema de queso azul" ;
+                    ns1:name "GORGONZOLA" ;
+                    ns1:nutrition "Celery",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Almejas salteadas en salsa verde" ;
+                    ns1:name "VÓNGOLE" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Molluscs",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Albahaca, ajo, piñones, aceite y parmigiano" ;
+                    ns1:name "PESTO DE ALBAHACA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Hongos salteados con crema de boletus y un toque de nata" ;
+                    ns1:name "FUNGHI" ;
+                    ns1:nutrition "Celery",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salchichas, bacon, ajo, jamón Ibérico, salsa de tomate y picante" ;
+                    ns1:name "SUINO" ;
+                    ns1:nutrition "Celery",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bacon, huevo, parmeggiano, pimienta negra" ;
+                    ns1:name "CARBONARA" ;
+                    ns1:nutrition "Celery",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, ajo y picante" ;
+                    ns1:name "ARRABBIATA" ;
+                    ns1:nutrition "Celery",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ragú de carne con salsa de tomate" ;
+                    ns1:name "BOLOGNESE" ;
+                    ns1:nutrition "Celery",
+                        "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ajo, aceite y picante" ;
+                    ns1:name "AGLIO, OLIO E PEPERONCINIO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa de tomate, alcaparras, anchoas, ajo, aceitunas negras y picante" ;
+                    ns1:name "PUTTANESCA" ;
+                    ns1:nutrition "Celery",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "PASTA FRESCA  LARGA" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Baias Ipa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pepsi 330ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Agua (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Mahou Cinco Estrellas 33cl." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Mahou clásica 33cl." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Kas Naranja 330ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pepsi Max 330ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cerveza Italiana" ;
+                    ns1:name "Birra Moretti" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Bebidas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "RISSOTTO NERO DI SEPIA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "RISSOTTO CON ALCACHOFAS, TRIGUEROS Y JAMÓN IBÉRICO" ;
+                    ns1:nutrition "Celery",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "RISSOTTO AL FUNGHI PORCINI" ;
+                    ns1:nutrition "Celery",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "RISSOTTO CON ALMEJAS" ;
+                    ns1:nutrition "Fish",
+                        "Milk",
+                        "Molluscs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.00" ] ] ;
+            ns1:name "RISOTTOS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Con langostinos, salmón ahumado, rúcula y laminas de parmigiano acompañado de salsa rosa" ;
+                    ns1:name "ENSALADA ROSA DE PASTA FRESCA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Crustaceans",
+                        "Eggs",
+                        "Fish",
+                        "Milk",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Queso burrata acompañado de rúcula, tomate natural, tomate seco y piñones al pesto de albahaca" ;
+                    ns1:name "INSALATA DI BURRATA" ;
+                    ns1:nutrition "Milk",
+                        "Sulphur dioxide and sulphites",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lechuga verde, cebolla, tomate, bonito, zanahoria, huevo, aceitunas y espárragos" ;
+                    ns1:name "ENSALADA ILUSTRADA" ;
+                    ns1:nutrition "Eggs",
+                        "Fish",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate y mozzarella de búfala" ;
+                    ns1:name "ENSALADA CAPRESE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Con pimientos asados al horno de leña, piparras, cebolleta y ali-oli de anchoas" ;
+                    ns1:name "ENSALADA DE VENTRESCA DE BONITO" ;
+                    ns1:nutrition "Eggs",
+                        "Fish",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Acompañada de vinagreta de tomate y albahaca y con jamón Ibérico, mozzarella de búfala y piñones" ;
+                    ns1:name "ENSALADA DE PASTA FRESCA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sulphur dioxide and sulphites",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ] ;
+            ns1:name "ENSALADAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "PATITAS DE CORDERO A LA ALAVESA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "RABO DE BUEY ESTOFADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.00" ] ] ;
+            ns1:name "CARNES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomate, chorizo picante, berenjenas, champiñón, mozzarella, cebolla, atún, alcaparras, gorgonzola, huevo y trufa" ;
+                    ns1:name "DEL PIZZAIOLO" ;
+                    ns1:nutrition "Eggs",
+                        "Fish",
+                        "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Queso, tomate natural, bacon, pechuga de pavo, queso gorgonzola y orégano" ;
+                    ns1:name "DELLE ALPI" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, piña y jamón york" ;
+                    ns1:name "TROPICAL" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, queso, alcachofas, jamón york, champiñón y orégano (4 ingredientes separados o mezclados)" ;
+                    ns1:name "4 STAGIONI" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, chorizo picante, salchicha, bacon y orégano" ;
+                    ns1:name "ALLE SUINO" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Queso mozzarella, hongo boletus, tomate seco, cebolla, queso gorgonzola y orégano (Pizza sin salsa de tomate)" ;
+                    ns1:name "BIANCA AL FUNGHI PORCINI" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, tomate seco, albahaca, pimiento verde y pimienta negra molida (patrono di Napoles)" ;
+                    ns1:name "SAN GENNARO" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, jamón york y queso" ;
+                    ns1:name "AL PROSCIUTTO" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Mozzarella, crema mascarpone, bacon y dátiles\r
+(Pizza sin salsa de tomate)""" ;
+                    ns1:name "BACON" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, Carne picada, cebolla, ajo y alegrías riojanas" ;
+                    ns1:name "DIÁBOLA" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, espárragos, salchicha, chorizo picante, aceitunas y queso gorgonzola" ;
+                    ns1:name "DOLOMITI" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, cebolla, queso y atún" ;
+                    ns1:name "ALLA CIPOLLA CON ATÚN" ;
+                    ns1:nutrition "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, queso" ;
+                    ns1:name "MARGHERITA" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, jamón york, cebolla, atun, champiñones, mozzarella y queso de cabra" ;
+                    ns1:name "ALPINA" ;
+                    ns1:nutrition "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Tomate, mozzarella, carne picada, cebolla, ajo y alegrías riojanas\r
+(Tres ingredientes separados o mezclados)""" ;
+                    ns1:name "TRICARNI" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, queso, berenjenas, hongos, bacon, cebolla, queso de cabra y orégano" ;
+                    ns1:name "STELVIO" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, cebolla y queso gorgonzola" ;
+                    ns1:name "ALLA CIPOLLA" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, champiñón y queso" ;
+                    ns1:name "AL FUNGHI" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, berenjenas, setas y alegrías riojanas" ;
+                    ns1:name "ESPECIAL" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, langostinos, salmón ahumado, ajetes y queso mascarpone" ;
+                    ns1:name "NÓRDIKA" ;
+                    ns1:nutrition "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, queso suave, mozzarella, queso de cabra, jamón york y queso gorgonzola (4 ingredientes separados o mezclados)" ;
+                    ns1:name "CUATRO QUESOS" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, berenjenas, chorizo picante y queso gorgonzola" ;
+                    ns1:name "ALLE MELANZANE" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, queso gorgonzola, cebolla, bresaola, salchichas y orégano" ;
+                    ns1:name "BRESAOLA" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, bacon, espinaca, cebolla, queso gorgonzola y alegrías riojanas" ;
+                    ns1:name "ALLA ESPINACCI" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Queso, champiñón, jamón york, anchoas, queso gorgonzola y alegrías riojanas (pizza cerrada)" ;
+                    ns1:name "CALZONE" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, queso, bresaola, pechuga de pavo, cebolla, huevo y orégano" ;
+                    ns1:name "ALL ANFORA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, queso, anchoa, alcaparras, aceitunas y orégano" ;
+                    ns1:name "ROMANA" ;
+                    ns1:nutrition "Crustaceans",
+                        "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, queso, anchoas, alcachofas, jamón york, alcaparras, champiñón y orégano" ;
+                    ns1:name "CAPRICCIOSA" ;
+                    ns1:nutrition "Fish",
+                        "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, chorizo picante y queso gorgonzola" ;
+                    ns1:name "ALLA SALSICCIA" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, rúcula, pechuga de pollo, piña y orégano" ;
+                    ns1:name "ALLE POLLO" ;
+                    ns1:nutrition "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, setas, pimientos verde, alcaparras, aceitunas, tomate seco, queso de cabra y orégano" ;
+                    ns1:name "TUTTO SOLE" ;
+                    ns1:nutrition "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ] ;
+            ns1:name "PIZZAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "ALMEJAS A LA MARINERA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Molluscs",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Con guarnición de patatas fritas y pimientos del país" ;
+                    ns1:name "BACALAO DOLOMITI A LA ARRABIATA" ;
+                    ns1:nutrition "Fish",
+                        "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lomo de merluza a la plancha con refrito y guarnición." ;
+                    ns1:name "MERLUZA A LA PLANCHA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ] ;
+            ns1:name "PESCADOS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Macarrones gratinados con carne picada, champiñones, queso y un toque de bechamel" ;
+                    ns1:name "PENNE GRATINATI" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ] ;
+            ns1:name "PASTA AL HORNO GRATINADA" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bollo de pan de Artepan terminado de cocer en nuestro Horno de Leña" ;
+                    ns1:name "RACIÓN DE PAN de Artepan" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Significa \"Hogaza\" en Italiano e sun pan plano con especias y aliñado con aceite de oliva, muy tradicional en la cocina Italiana. (Tamaño de pizza - 8 porciones)" ;
+                    ns1:name "FOCACCIA CON GUARNICIÓN DE TOMATE NATURAL Y ALBAHACA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "PAN" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "GNOCCHI CON SALSA DE TOMATE" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "GNOCCHI A LA GORGONZOLA" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "GNOCCHI CON GORGONZOLA Y NUECES" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "GNOCCHI CON HONGOS" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ] ;
+            ns1:name "GNOCCHI" ] .
+

@@ -1,0 +1,163 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://feelavelo.coopcycle.org/api/restaurants/10> ns1:hasMenu <https://feelavelo.coopcycle.org/en/restaurant/10-camp-de-base-tara#menu> .
+
+<https://feelavelo.coopcycle.org/en/restaurant/10-camp-de-base-tara#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Bière bio rousse typée refermentée en bouteille.\r
+6°\r
+33 cl""" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/86/5f86ea650d4ad.png> ;
+                    ns1:name "Dremmwel rousse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "canette de 33cl" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/86/5f86df0226454.jpg> ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Nectar de fruits\r
+25 cl""" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/86/5f86e6b1976e9.jpg> ;
+                    ns1:name "Granini - Nectar miltifruits Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière blonde Bio à base de grains d'orge. Fine amertume.\r
+5.5°\r
+33 cl""" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/86/5f86f8603f482.png> ;
+                    ns1:name "Morgane Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Légère et rafraîchissante, cette recette exprime des notes d’agrumes et une amertume discrète.\r
+4.5°\r
+33 cl""" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/86/5f86f7ae6478f.webp> ;
+                    ns1:name "Dremmwel blanche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Eau minérale naturelle 33 cl" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/86/5f86e9b2471f9.png> ;
+                    ns1:name "Plancoët" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "canette de 33cl - Boisson au thé, saveur pêche" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/86/5f86e0d55bd08.jpg> ;
+                    ns1:name "Fuze tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Nectar à base de jus concentré\r
+25 cl""" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/86/5f86e32af004e.jpg> ;
+                    ns1:name "Granini - Nectar de pommes Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Eau minérale naturelle gazeuse\r
+33 cl""" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/86/5f86e90f0546b.png> ;
+                    ns1:name "Plancoët intense" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "canette de 33cl" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/86/5f86df6cb7381.jpg> ;
+                    ns1:name "Perrier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "canette de 33cl" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/86/5f86de0299168.jpg> ;
+                    ns1:name "Coca cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "canette de 33cl" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/86/5f86de7eb03c9.jpg> ;
+                    ns1:name "Coca cola Zéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Nectar à base de jus concentré\r
+25 cl""" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/86/5f86e26b03548.jpg> ;
+                    ns1:name "Granini - Nectar d'orange Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Le wrap est fait à partir de produits frais et de saison, il peut être consommé froid ou chaud.\r
+ils sont servis par 2""" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/85/5f859293982fc.jpg> ;
+                    ns1:name "Les 2 Wraps" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "plat du jour mis en bocal à la commande. Les bocaux sont consignés" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/85/5f8592ce513e4.jpg> ;
+                    ns1:name "Le plat du jour" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "tarte ou quiche du moment est fait à base de légumes de saison" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/85/5f8590b63dc83.jpg> ;
+                    ns1:name "La Tarte du jour" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Le plat du jour et le dessert du jour" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/ae/5fae4c5010034.jpg> ;
+                    ns1:name "Le plat et le dessert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "soupe du jour à base de légumes de saison" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/85/5f8592489d6e0.jpg> ;
+                    ns1:name "La soupe du jour" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La soupe et le wrap du jour pour avoir un repas complet et équilibré" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/ae/5fae4ce5323f0.jpg> ;
+                    ns1:name "La soupe et le Wrap" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.60" ] ] ;
+            ns1:name "plat" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Ce panier est composé de 2 bières et de 4 terrines différentes de la marque Henaff" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/ae/5fae505de33fe.jpg> ;
+                    ns1:name "le panier apéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ] ;
+            ns1:name "Apéro" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "couverts en bambou" ;
+                    ns1:name "couverts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ] ;
+            ns1:name "Couverts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Dessert du jour peut être une tarte aux fruits de saison, une pana cotta ou encore un delicieux gateau au chocolat." ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/85/5f85932b6e8b5.jpg> ;
+                    ns1:name "Le dessert du jour" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ] ;
+            ns1:name "dessert" ] .
+

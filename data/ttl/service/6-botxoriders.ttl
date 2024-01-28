@@ -1,0 +1,18 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://botxoriders.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "es" ;
+                    ns1:addressLocality "Bilbao" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 4.32627e+01 ;
+                    ns1:longitude -2.9253e+00 ] ] ;
+    ns1:description "<p>Botxo Riders es un colectivo de propiedad de los trabajadores que ofrece el servicio de mensajería en bicicleta. Nos esforzamos por ofrecer la opción más ecológica, rápida y económica para la entrega inmediata en Bilbao. Creemos que somos una herramienta importante para hacer frente a los nuevos desafíos del comercio local y la transformación de la ciudad. Nos gusta lo que hacemos! </p>"@es ;
+    ns1:name "Botxoriders" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://botxoriders.coopcycle.org> .
+

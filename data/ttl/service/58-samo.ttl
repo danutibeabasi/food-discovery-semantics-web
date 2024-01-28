@@ -1,0 +1,19 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://samo.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "fr" ;
+                    ns1:addressLocality "Saint-Maur-des-Fossés" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 4.880368e+01 ;
+                    ns1:longitude 2.485329e+00 ] ] ;
+    ns1:description "Your ethical and ecological delivery service in Saint-Maur."@en,
+        "Votre service de livraison éthique et écologique à Saint-Maur."@fr ;
+    ns1:name "Samo" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://samo.coopcycle.org> .
+

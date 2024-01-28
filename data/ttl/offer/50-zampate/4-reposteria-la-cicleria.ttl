@@ -1,0 +1,259 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://zampate.coopcycle.org/api/restaurants/4> ns1:hasMenu <https://zampate.coopcycle.org/en/restaurant/4-reposteria-la-cicleria#menu> .
+
+<https://zampate.coopcycle.org/en/restaurant/4-reposteria-la-cicleria#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "10/12 raciones" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/39/6239cdeb7bf52.jpeg> ;
+                    ns1:name "Bizcocho de Queso y Limón" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "10/12 raciones" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/56/6256bda070b25.jpeg> ;
+                    ns1:name "Bizcocho de Plátano y Chocolate" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "10/12 raciones" ;
+                    ns1:name "Bizcocho de Especias, Miel y Limón" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "10/12 raciones" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/43/5f43f968128ab.jpg> ;
+                    ns1:name "Bizcocho de Naranja y Chocolote" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ] ;
+            ns1:name "Bizcochos" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "12" ;
+                    ns1:name "Cookies de Naranja y Chocolate" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "12" ;
+                    ns1:name "Cookies de Cacahuete y Chocolate" ;
+                    ns1:nutrition "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "12" ;
+                    ns1:name "Cookies de Limón y Chocolate Blanco" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "12 galletas" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/44/5f4403aacb76b.jpg> ;
+                    ns1:name "Cookies de Canela y Chocolate" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "12 cookies, elige 4 de nuestros sabores: cacao/choco, canela/choco, miel, cacahuete/choco, cacao/nueces, arándonos/choco blanco, naranja/choco, limón/choco blanco (especificar en comentarios)" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/39/6239d20c95926.jpeg> ;
+                    ns1:name "Surtido Cookies" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "12 galletas" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/44/5f440085bc861.jpg> ;
+                    ns1:name "Cookies de Miel" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "12" ;
+                    ns1:name "Cookies de Cacao y Nueces" ;
+                    ns1:nutrition "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 unidades" ;
+                    ns1:name "Super Magdalenas de Chocolate con Corazón Blanco" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 unidades" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/39/6239cf1ef060d.jpeg> ;
+                    ns1:name "Super Magdalenas de FrutosRojos" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 unidades" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/39/6239cf666eb7d.jpeg> ;
+                    ns1:name "Super Magdalenas Veganas de Naranja y Chocolate" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "12" ;
+                    ns1:name "Cookies de Arándanos y Choco blanco" ;
+                    ns1:nutrition "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "12 galletas" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/44/5f440036cc6d8.jpg> ;
+                    ns1:name "Cookies de Cacao y Chocolate" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "Cookies y Madalenas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "12 mini Pizzetas, elige 4 de nuestros sabores: bacon/queso, anchoas/piquillo, puerros/mozzerella, pera/gorgozola/nueces, mezcla de quesos, manzana/queso de cabra, champis/ajo/perejil, cebolla/tomate seco, espinacas/pesto rojo (especificar en comentarios)" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/39/6239d2815eae0.jpeg> ;
+                    ns1:name "Surtido mini Pizzetas" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "Repostería Salada" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "14/16 raciones" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/39/6239cf8789430.jpeg> ;
+                    ns1:name "Tarta Black Velvet" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€32.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6/8 raciones" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/39/6239d16aadf40.jpeg> ;
+                    ns1:name "Tarta Sacher Vegana Pequeña" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "10/12 raciones. Sin gluten (no apta para celíacas)" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/39/6239cfbe4af47.jpeg> ;
+                    ns1:name "Tarta de Queso" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "10/12 raciones. Sin gluten (no apta para celíacas)" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/44/5f4403270a878.jpg> ;
+                    ns1:name "Choquesada" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6/8 raciones. Sin gluten (no apta para celíacas)" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/39/6239cec07dfbb.jpeg> ;
+                    ns1:name "Carrot Cake Pequeña" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6/8 raciones" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/44/5f44041dc4764.jpg> ;
+                    ns1:name "Tarta Black Velvet Pequeña" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "14/16 raciones" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/39/6239d135e54bb.jpeg> ;
+                    ns1:name "Tarta Sacher Vegana" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€32.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "14/16 raciones. Sin gluten (no apta para celíacas)" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/39/6239ce70bdeae.jpeg> ;
+                    ns1:name "Carrot Cake" ;
+                    ns1:nutrition "Eggs",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€32.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6/8 raciones" ;
+                    ns1:name "Tarta de Yogurt, Fresa y Chocolate Pequeña" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "14/16 raciones" ;
+                    ns1:name "Tarta de Yogurt, Fresa y Chocolate" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€32.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 raciones. Sin gluten (no apta para celíacas)" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/44/5f44035e50490.jpg> ;
+                    ns1:name "Choquesada Pequeña" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 raciones. Sin gluten (no apta para celíacas)" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/39/6239d0dbb8e5e.jpeg> ;
+                    ns1:name "Tarta de Trufa Pequeña" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "10/12 raciones. Sin gluten (no apta para celíacas)" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/39/6239d0bc7785c.jpeg> ;
+                    ns1:name "Tarta de Trufa" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "10/12 raciones. Sin gluten (no apta para celíacas)" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/62/39/6239cfa3f09ac.jpeg> ;
+                    ns1:name "Tarta de Manzana estilo Normandía" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ] ;
+            ns1:name "Tartas" ] .
+

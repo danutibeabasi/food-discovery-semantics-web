@@ -1,0 +1,56 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lescoliporteursnz.coopcycle.org/api/restaurants/2> a ns1:Brewery ;
+    ns1:address <https://lescoliporteursnz.coopcycle.org/api/addresses/128> ;
+    ns1:description """Brasserie Artisanale labellisée bio sur St Nazaire.\r
+\r
+Nous disposons d'une gamme classique distribuée à l'année et nous vous brassons également des cuvées spéciales qui évoluent au fil des saisons et de nos envies....\r
+\r
+Blondes, IPA, Stout, Fruitées, Ambrées, vieillies en barriques, ...\r
+\r
+100% ingrédients bio, 90% du malt breton dont orge Nazairienne, 90% houblon local (44 et 56)\r
+\r
+Bouteilles consignées.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.729567e+01 ;
+            ns1:longitude -2.29232e+00 ] ;
+    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/restaurant_thumbnail/62/2a/622a589635419.png> ;
+    ns1:name "Brasserie Bouyer" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:00" ;
+            ns1:dayOfWeek "Saturday" ;
+            ns1:opens "09:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "19:00" ;
+            ns1:dayOfWeek "Friday" ;
+            ns1:opens "16:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "16:00" ;
+            ns1:dayOfWeek "Friday" ;
+            ns1:opens "13:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:00" ;
+            ns1:dayOfWeek "Friday" ;
+            ns1:opens "10:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "30.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "4.00" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://lescoliporteursnz.coopcycle.org/en/restaurant/2-brasserie-bouyer" ] ] ;
+    ns1:sameAs <https://lescoliporteursnz.coopcycle.org/en/restaurant/2-brasserie-bouyer> ;
+    ns1:url <https://lescoliporteursnz.coopcycle.org/en/restaurant/2-brasserie-bouyer> .
+
+<https://lescoliporteursnz.coopcycle.org/api/addresses/128> a ns1:PostalAddress ;
+    ns1:name "Brasserie Bouyer" ;
+    ns1:streetAddress "27 Rue Jacques Daguerre, 44600 Saint-Nazaire, France" ;
+    ns1:telephone "+33668138397" .
+

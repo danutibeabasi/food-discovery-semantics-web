@@ -1,0 +1,43 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://demo.coopcycle.org/api/restaurants/88> ns1:hasMenu <https://demo.coopcycle.org/en/restaurant/88-pizzazzzz#menu> .
+
+<https://demo.coopcycle.org/en/restaurant/88-pizzazzzz#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "srly, süßgetränk halt" ;
+                    ns1:name "süßgetränk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "regionales bier, nice!" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/61/f3/61f3a9af69740.jpeg> ;
+                    ns1:name "bier" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "getränke" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "pizza mit zucchini, paprika und oliven" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/61/38/6138fb3e26fc2.jpeg> ;
+                    ns1:name "pizza zicchini" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pizza mit käse, oregano und pilzen" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/61/38/6138f7fb326a8.jpeg> ;
+                    ns1:name "pizza funghi" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pizza mit käse" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/61/38/6138f9cea9fa1.jpeg> ;
+                    ns1:name "pizza margherita" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.10" ] ] ;
+            ns1:name "nur essen" ] .
+

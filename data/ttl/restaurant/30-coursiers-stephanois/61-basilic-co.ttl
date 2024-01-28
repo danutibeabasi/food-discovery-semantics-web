@@ -1,0 +1,50 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://coursiers-stephanois.coopcycle.org/api/restaurants/61> a ns1:Restaurant ;
+    ns1:address <https://coursiers-stephanois.coopcycle.org/api/addresses/13219> ;
+    ns1:bannerImage "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_banner/65/98/659839deafe93.jpg" ;
+    ns1:description "Pizzas préparées autour d'ingrédients emblématiques de terroirs gastronomiques d’ici (ravioles du Dauphiné IGP Label Rouge, jambon sec d’Ardèche IGP, reblochon de Savoie AOP, etc.), et d’ailleurs (mozzarella di Bufala Campana DOP, cheddar au lait cru AOP affiné, etc.)." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.54333e+01 ;
+            ns1:longitude 4.388359e+00 ] ;
+    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560c86bcbbd9.jpg> ;
+    ns1:name "Basilic & Co" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "15.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.50" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://coursiers-stephanois.coopcycle.org/en/restaurant/61-basilic-co" ] ] ;
+    ns1:sameAs <https://coursiers-stephanois.coopcycle.org/en/restaurant/61-basilic-co> ;
+    ns1:url <https://coursiers-stephanois.coopcycle.org/en/restaurant/61-basilic-co> .
+
+<https://coursiers-stephanois.coopcycle.org/api/addresses/13219> a ns1:PostalAddress ;
+    ns1:name "Basilic & Co" ;
+    ns1:streetAddress "4 Rue Faure-Belon, Saint-Étienne, France" ;
+    ns1:telephone "+33477900627" .
+

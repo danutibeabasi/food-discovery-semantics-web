@@ -1,0 +1,44 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://krokoop.coopcycle.org/api/restaurants/10> a ns1:Restaurant ;
+    ns1:address <https://krokoop.coopcycle.org/api/addresses/54> ;
+    ns1:description """La pizzeria portée par Saber, finaliste du championnat de France de pizza 2022, est l'un de nos partenaires !\r
+\r
+Au menu : une large variété de pizzas (forcément), mais aussi des salades, des paninis, hotdogs, viandes ...\r
+Toujours avec des produits frais, évidemment.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.382936e+01 ;
+            ns1:longitude 4.354165e+00 ] ;
+    ns1:image <https://krokoop.coopcycle.org/media/cache/restaurant_thumbnail/65/49/654988a694556.png> ;
+    ns1:name "MY PIZZA" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://krokoop.coopcycle.org/en/restaurant/10-my-pizza" ] ] ;
+    ns1:sameAs <https://krokoop.coopcycle.org/en/restaurant/10-my-pizza> ;
+    ns1:url <https://krokoop.coopcycle.org/en/restaurant/10-my-pizza> .
+
+<https://krokoop.coopcycle.org/api/addresses/54> a ns1:PostalAddress ;
+    ns1:name "MY PIZZA" ;
+    ns1:streetAddress "9 Rue Dhuoda, Nîmes, France" ;
+    ns1:telephone "+33771105287" .
+

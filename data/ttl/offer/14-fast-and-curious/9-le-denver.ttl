@@ -1,0 +1,337 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://fast-and-curious.coopcycle.org/api/restaurants/9> ns1:hasMenu <https://fast-and-curious.coopcycle.org/en/restaurant/9-le-denver#menu> .
+
+<https://fast-and-curious.coopcycle.org/en/restaurant/9-le-denver#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bœuf haché, champignons frais, confit d'oignons, lamelles d'avocats et sirop d'érable" ;
+                    ns1:name "Karibou" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bœuf haché, cheddar, ketchup, pickles" ;
+                    ns1:name "Cheese burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bœuf haché, cheddar, bacon, oeuf à cheval, sauce burger" ;
+                    ns1:name "Le Denver" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poisson, salade, tomate, oignons rouges, sauce tartare" ;
+                    ns1:name "Fish burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bœuf haché, bacon, salade, tomate, fromage à raclette" ;
+                    ns1:image <https://fast-and-curious.coopcycle.org/media/cache/product_thumbnail/60/43/6043b2008e40c.jpeg> ;
+                    ns1:name "Fremont" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Volaille, salade, tomate, oignons rouges, sauce tartare" ;
+                    ns1:image <https://fast-and-curious.coopcycle.org/media/cache/product_thumbnail/60/43/6043b1dda66d6.jpeg> ;
+                    ns1:name "Fletcher" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette de pommes de terre, champignons frais, jeunes pousses, tomates confites, sauce cocktail" ;
+                    ns1:name "Daisy burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bœuf haché, camembert de Normandie, salade, tomate, sauce Denver" ;
+                    ns1:name "Oh day" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bœuf haché, cheddar, bacon, oignons rouges, galette de pomme de terre, sauce BBQ" ;
+                    ns1:name "Road 66" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bœuf haché, reblochon, lard fumé, galette de pomme de terre, sauce au poivre" ;
+                    ns1:name "Cleveland" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bœuf haché, cheddar, mozzarella, fourme d'Ambert, accompagné de sa sauce Fred, mayonnaise à l'estragon" ;
+                    ns1:image <https://fast-and-curious.coopcycle.org/media/cache/product_thumbnail/60/43/6043b27db519d.jpeg> ;
+                    ns1:name "Sun valley" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ] ;
+            ns1:name "Burgers simple" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Menu enfant sans dessert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Menu enfant avec dessert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ] ;
+            ns1:name "Menus" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Assortiment de Teezers cheese, jalapenos, stick mozzarella, beignet de calamar, onion rings" ;
+                    ns1:name "Pour 2" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Assortiment de Teezers cheese, jalapenos, stick mozzarella, beignet de calamar, onion rings" ;
+                    ns1:name "Pour 4" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ] ;
+            ns1:name "Assiettes à tapas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Brownie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.29" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cheesecake" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Brookie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Cookie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Apple pie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Les desserts (maison)" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bœuf haché, cheddar, mozzarella, fourme d'Ambert, accompagné de sa sauce Fred, mayonnaise à l'estragon" ;
+                    ns1:name "Sun valley double" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poisson, salade, tomate, oignons rouges, sauce tartare" ;
+                    ns1:name "Fish double" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bœuf haché, cheddar, ketchup, pickles" ;
+                    ns1:name "Cheese burger double" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bœuf haché, reblochon, lard fumé, galette de pomme de terre, sauce au poivre" ;
+                    ns1:image <https://fast-and-curious.coopcycle.org/media/cache/product_thumbnail/60/43/6043b18ee1fba.jpeg> ;
+                    ns1:name "Cleveland double" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bœuf haché, champignons frais, confit d'oignons, lamelles d'avocats et sirop d'érable" ;
+                    ns1:name "Karibou double" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bœuf haché, cheddar, bacon, oeuf à cheval, sauce burger" ;
+                    ns1:name "Le Denver double" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette de pommes de terre, champignons frais, jeunes pousses, tomates confites, sauce cocktail" ;
+                    ns1:name "Daisy double" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Volaille, salade, tomate, oignons rouges, sauce tartare" ;
+                    ns1:name "Fletcher (poulet) double" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bœuf haché, bacon, salade, tomate, fromage à raclette" ;
+                    ns1:name "Fremont double" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bœuf haché, cheddar, bacon, oignons rouges, galette de pomme de terre, sauce BBQ" ;
+                    ns1:image <https://fast-and-curious.coopcycle.org/media/cache/product_thumbnail/60/43/6043b24dc60df.jpeg> ;
+                    ns1:name "Road 66 double" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bœuf haché, camembert de Normandie, salade, tomate, sauce Denver" ;
+                    ns1:name "Oh day double" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "Burgers double" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bière aromatisée à la Tequila" ;
+                    ns1:name "Desperados 5,9° 33 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bud" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Heineken 33 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Anchor steam" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75 cL" ;
+                    ns1:name "Chardonnay blanc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.89" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Anchor california" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.59" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Brooklyn lager" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75 cL" ;
+                    ns1:name "Gallo vin rouge USA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.89" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75 cL" ;
+                    ns1:name "Côtes-de-Provence rosé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.89" ] ] ;
+            ns1:name "Vins et bières" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Salade fraicheur" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade verte, tomates, lamelles de poulet, croûtons de pain, sauce caesar" ;
+                    ns1:name "Vegas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade verte, tomates-cerises, avocats, crevettes, saumon fumé, sauce vinaigrette" ;
+                    ns1:name "Victoria" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "Salades" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Parfum au choix" ;
+                    ns1:name "Milkshake" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Milkshake" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Onion rings x 6" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jalapenos (pimentés) x4" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Teezers cheese x 4" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Stick mozzarella x 5" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Beignets calamars x 6" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Tapas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33 cL" ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cL" ;
+                    ns1:name "Sprite" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "oasis 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cL" ;
+                    ns1:name "Fanta orange" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cL" ;
+                    ns1:name "Coca-Cola zéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cL" ;
+                    ns1:name "Nestea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cL" ;
+                    ns1:name "Perrier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cL" ;
+                    ns1:name "Coca-Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cL" ;
+                    ns1:name "Fanta citron frappé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Soda authentique U.S. au jus d'orange. 33,5 cL" ;
+                    ns1:name "Soda USA Boylan orange" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Authentique production U.S, cola aux arômes naturels d'huile de citron, citron vert et gingembre est naturellement sucré au sucre de canne. 33,5 cL" ;
+                    ns1:name "Soda USA Boylan ginger ale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Soda USA Boylan black cherry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Docteur pepper" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ] ;
+            ns1:name "Softs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Frites maison" ;
+                    ns1:name "Cornet de frites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Frites" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "1 Burger au choix, 1 boisson et des frites maison" ;
+                    ns1:name "Formule burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "Formule" ] .
+

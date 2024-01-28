@@ -1,0 +1,140 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://feelavelo.coopcycle.org/api/restaurants/9> ns1:hasMenu <https://feelavelo.coopcycle.org/en/restaurant/9-restaurant-croc-epi#menu> .
+
+<https://feelavelo.coopcycle.org/en/restaurant/9-restaurant-croc-epi#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Mousse choco sarrasin" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Compotée de fruits de saison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fruit de saison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Fromage blanc granola et fruits secs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.30" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/a1/5fa11ab2b5cb5.jpg> ;
+                    ns1:name "Smoothie banane/pomme/myrtille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.85" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/a1/5fa1256b7fa21.jpg> ;
+                    ns1:name "Soda orange sanguine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/9f/5f9fe3aa103af.jpg> ;
+                    ns1:name "Soda fruits rouges 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/9f/5f9fdf29bdb39.jpg> ;
+                    ns1:name "Eau gazeuse Celtic 50 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/9f/5f9fe309707ce.jpg> ;
+                    ns1:name "Soda citron 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/a1/5fa133e88bdb2.jpg> ;
+                    ns1:name "smoothie ananas/banane" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.85" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Ajout 2 :  Poulet mariné émincé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Ajout 3 : Thon émietté" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Légumes et céréales cuisinés, selon l’inspiration du jour (Dahl, Miso, sauté...)" ;
+                    ns1:name "Base chaude" ;
+                    ns1:nutrition "Celery",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Kasha, quinoa, pois cassés, légumes crus et cuits, agrumes, citron confit, fines herbes, pickles" ;
+                    ns1:name "Base froide" ;
+                    ns1:nutrition "Celery",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Ajout 4 :  Œuf mollet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Ajout 1 : Falafels" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "Épi Bowl" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Salade verte" ;
+                    ns1:nutrition "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Portion de frites" ;
+                    ns1:nutrition "Mustard",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi avec frites et salades" ;
+                    ns1:name "Burger du chef" ;
+                    ns1:nutrition "Mustard",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servie avec salade" ;
+                    ns1:name "Tarte salée du jour" ;
+                    ns1:nutrition "Celery",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Soupe de légumes de saison" ;
+                    ns1:name "Soupe du jour" ;
+                    ns1:nutrition "Celery" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Dosa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "Snacks" ] .
+

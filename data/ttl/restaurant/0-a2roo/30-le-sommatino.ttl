@@ -1,0 +1,35 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://a2roo.coopcycle.org/api/restaurants/30> a ns1:Restaurant ;
+    ns1:address <https://a2roo.coopcycle.org/api/addresses/2884> ;
+    ns1:description """Venez déguster les délicieuses pizzas et hamburgers au Sommatino. \r
+\r
+Un bout d'Italie au bout de la rue d'Auxonne""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.731589e+01 ;
+            ns1:longitude 5.044923e+00 ] ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/65/0d/650d46f02d06a.jpg> ;
+    ns1:name "Le Sommatino" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:30" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "12:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://a2roo.coopcycle.org/en/restaurant/30-le-sommatino" ] ] ;
+    ns1:sameAs <https://a2roo.coopcycle.org/en/restaurant/30-le-sommatino> ;
+    ns1:url <https://a2roo.coopcycle.org/en/restaurant/30-le-sommatino> .
+
+<https://a2roo.coopcycle.org/api/addresses/2884> a ns1:PostalAddress ;
+    ns1:name "Le Sommatino" ;
+    ns1:streetAddress "7 Rue d'Auxonne, 21000 Dijon, France" ;
+    ns1:telephone "+33380676914" .
+

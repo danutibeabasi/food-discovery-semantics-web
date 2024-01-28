@@ -1,0 +1,33 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://colibri.coopcycle.org/api/restaurants/11> a ns1:Restaurant ;
+    ns1:address <https://colibri.coopcycle.org/api/addresses/189> ;
+    ns1:description "Ristorante Vegano nel cuore del Centro Storico." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.085028e+01 ;
+            ns1:longitude 1.426009e+01 ] ;
+    ns1:image <https://colibri.coopcycle.org/media/cache/restaurant_thumbnail/63/ce/63ce5d845f06f.jpeg> ;
+    ns1:name "Vegan Art" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:30" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "12:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "it" ;
+                    ns1:urlTemplate "https://colibri.coopcycle.org/en/restaurant/11-vegan-art" ] ] ;
+    ns1:sameAs <https://colibri.coopcycle.org/en/restaurant/11-vegan-art> ;
+    ns1:url <https://colibri.coopcycle.org/en/restaurant/11-vegan-art> .
+
+<https://colibri.coopcycle.org/api/addresses/189> a ns1:PostalAddress ;
+    ns1:name "Vegan Art" ;
+    ns1:streetAddress "Via Duomo, 238, Napoli, NA, Italia" ;
+    ns1:telephone "+393485635823" .
+

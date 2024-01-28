@@ -1,0 +1,307 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lcr.coopcycle.org/api/restaurants/33> ns1:hasMenu <https://lcr.coopcycle.org/en/restaurant/33-fuji#menu> .
+
+<https://lcr.coopcycle.org/en/restaurant/33-fuji#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Boulette de pâtes fourré de poulpe." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/b0/62b0ec8b1e324.jpeg> ;
+                    ns1:name "Takoyaki 10 Pièces" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ravioli de poulet et légumes." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/b0/62b0ea88cb72a.jpeg> ;
+                    ns1:name "Gyoza 10pieces" ;
+                    ns1:nutrition "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette japonaise aux choux et poulpe" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/b0/62b0ebaa2d20c.jpeg> ;
+                    ns1:name "Okonomiyaki Stick" ;
+                    ns1:nutrition "Eggs",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "Plat Chaud" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Saumon cru, servi avec riz vinaigré." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/b0/62b0eb68b8d21.jpeg> ;
+                    ns1:name "Nigiri que Saumon 11 pièces" ;
+                    ns1:nutrition "Fish",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petite portion de saumon cru enroulée du riz vinaigré et d'algue séchée" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/b0/62b0ead5b9472.jpeg> ;
+                    ns1:name "Hosomaki Saumon 6 pièces" ;
+                    ns1:nutrition "Fish",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poisson cru enroule du riz vinaigré et d'algue séchée." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/b0/62b0eb1732415.jpeg> ;
+                    ns1:name "Maki Sushi 12 Pièces" ;
+                    ns1:nutrition "Fish",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petite portion de thon rouge cru enroulée du riz vinaigré et d'algue séchée." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/b0/62b0eaf11e742.jpeg> ;
+                    ns1:name "Hosomaki Thon Rouge 6 Pièces" ;
+                    ns1:nutrition "Fish",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Rouleau de riz vinaigré, algue séchée, avocat, mayonnaise et de poisson mix." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/b0/62b0e9024abf3.jpeg> ;
+                    ns1:name "California Fuji 10 Pièces" ;
+                    ns1:nutrition "Eggs",
+                        "Fish",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poisson, fruit de mer, 2 saumons, 2 thons rouges, 2 dorade royale, 1 calamar, 1 maquereau, 1 crevette, 1 anguille grillée et 1 clams japonais. Servi avec riz vinaigré." ;
+                    ns1:name "Nigiri sushi 11 pièces" ;
+                    ns1:nutrition "Crustaceans",
+                        "Fish",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Chirashi sushi que saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petite portion de concombre enroulée du riz vinaigré et d'algue séchée." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/b0/62b0eab300429.jpeg> ;
+                    ns1:name "Hosomaki concombre 6 pièces" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, avocat, mayonnaise enroulée de riz vinaigré et d'algue séchée." ;
+                    ns1:name "California Salade 10 Pièces" ;
+                    ns1:nutrition "Eggs",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crevettes panées, mayonnaise enroulée de riz vinaigré et d'algue séchée." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/b0/62b0ea15e0556.jpeg> ;
+                    ns1:name "Ebi Maki 10 Pièces" ;
+                    ns1:nutrition "Crustaceans",
+                        "Eggs",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petite portion d'avocat enroulée du riz vinaigré et d'algue séchée." ;
+                    ns1:name "Hosomaki avocat 6 Pièces" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petite portion d'omelette enroulée du riz vinaigré et d'algue séchée." ;
+                    ns1:name "Hosomaki Omelette 6 Pièces" ;
+                    ns1:nutrition "Eggs",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crevettes, avocat, mayonnaise enroulée de riz vinaigré et d'algue séchée." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/b0/62b0e8e6e51db.jpeg> ;
+                    ns1:name "California Crevettes 10 Pièces" ;
+                    ns1:nutrition "Crustaceans",
+                        "Eggs",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Anguille grillée enroulée de riz vinaigré et d'algue séchée." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/b0/62b0ecafd24f1.jpeg> ;
+                    ns1:name "Unagi Maki 10 Pièces" ;
+                    ns1:nutrition "Eggs",
+                        "Fish",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/b0/62b0eb4587296.jpeg> ;
+                    ns1:name "Mix California et Nigiri que saumon" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Fish",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bol de riz vinaigré recouvert de poisson cru \"saumon thon rouge, dorade royal , maquereau et calamar" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/b0/62b0e925807b7.jpeg> ;
+                    ns1:name "Chirashi sushi" ;
+                    ns1:nutrition "Crustaceans",
+                        "Fish",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Sashimi que saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Émince de poisson crus, saumon, thon rouge, dorade royal , maquereau et calamars" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/b0/62b0ec3fa63fb.jpeg> ;
+                    ns1:name "Sashimi Grande Portion" ;
+                    ns1:nutrition "Crustaceans",
+                        "Fish",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon, avocat, mayonnaise enroulée de riz vinaigré et d'algue séchée." ;
+                    ns1:name "California saumon 10 Pièces" ;
+                    ns1:nutrition "Eggs",
+                        "Fish",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ] ;
+            ns1:name "Sushi & Sashimi" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Friture de ravioli au thon avec sauce mayonnaise" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/b0/62b0ebd0dc8ce.jpeg> ;
+                    ns1:name "Ravioli de thon 2 Pièces" ;
+                    ns1:nutrition "Eggs",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fève de soja edamame" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Riz nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade compose avec Iceberg , Algue, Radis blanc , Carotte , Concombre ,Ongion confits et Sauce vinaigrette au sesame ." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/b0/62b0ec2605dc0.jpeg> ;
+                    ns1:name "Salade japonaise" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/b0/62b0ebfd9c74c.jpeg> ;
+                    ns1:name "Salade d'algue" ;
+                    ns1:nutrition "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Riz vinaigré" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Accompagnement" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "gaufre à la japonaise fourré de crème d'haricot rouge." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/b0/62b0ec6da7836.jpeg> ;
+                    ns1:name "Taiyaki" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâtes de riz fourré de crème d'haricot rouge." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/b0/62b0e9c1c813c.jpeg> ;
+                    ns1:name "Daifuku 2 pièces" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâtes de riz garnis de sésame fourré de crème d'haricot rouge." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/b0/62b0ea3d47857.jpeg> ;
+                    ns1:name "Goma Daifuku 2 pièces" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pancake à la japonaise fourré de crème d'haricot rouge." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/b0/62b0e9f2e5e22.jpeg> ;
+                    ns1:name "Dorayaki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Dessert" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Assortiment de brochette \"2 poulets, 1 boulette de poulet, et 1 fromage bacon\". Accompagné de salade, de riz, de légumes et d'omelette sautée." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/b0/62b0e8ceb56bb.jpeg> ;
+                    ns1:name "Bento Yakimori" ;
+                    ns1:nutrition "Eggs",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Friture de crevettes panées (4 pièces), accompagné de salade, de riz, de légumes et d'omelette sauté." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/b0/62b0e7c6497c9.jpeg> ;
+                    ns1:name "Bento Ebifry" ;
+                    ns1:nutrition "Crustaceans",
+                        "Eggs",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauté de porc au gingembre, accompagné de salade, de riz, de légumes et d'omelette sautée." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/b0/62b0e88e5f2be.jpeg> ;
+                    ns1:name "Bento Shougayaki" ;
+                    ns1:nutrition "Eggs",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Friture de porc pané, accompagné de salade, de riz, de légumes et d'omelette sautée." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/b0/62b0e8ad807d6.jpeg> ;
+                    ns1:name "Bento Tonkatsu" ;
+                    ns1:nutrition "Eggs",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fritures de poulet à la japonaise accompagné de riz, salade, de légumes sautés, et d'omelette" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/b0/62b0e85f5ed05.jpeg> ;
+                    ns1:name "Bento Karaagé" ;
+                    ns1:nutrition "Eggs",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ] ;
+            ns1:name "Bento" ] .
+

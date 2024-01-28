@@ -1,0 +1,35 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://sicklo.coopcycle.org/api/restaurants/13> a ns1:Restaurant ;
+    ns1:address <https://sicklo.coopcycle.org/api/addresses/251> ;
+    ns1:bannerImage "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/6d/656dc13289a17.jpg" ;
+    ns1:description "Traiteur halal spécialisé dans la nourriture libanaise" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.519208e+01 ;
+            ns1:longitude 5.728873e+00 ] ;
+    ns1:image <https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/61/8a/618a8bbd92e52.jpg> ;
+    ns1:name "Ô Délices du Liban 🧆" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:30" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://sicklo.coopcycle.org/en/restaurant/13-o-delices-du-liban" ] ] ;
+    ns1:sameAs <https://sicklo.coopcycle.org/en/restaurant/13-o-delices-du-liban> ;
+    ns1:url <https://sicklo.coopcycle.org/en/restaurant/13-o-delices-du-liban> .
+
+<https://sicklo.coopcycle.org/api/addresses/251> a ns1:PostalAddress ;
+    ns1:name "Ô Délices du Liban 🧆" ;
+    ns1:streetAddress "16 Rue des Clercs, 38000 Grenoble, France" ;
+    ns1:telephone "+33634601716" .
+

@@ -1,0 +1,162 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://naofood.coopcycle.org/api/restaurants/138> ns1:hasMenu <https://naofood.coopcycle.org/en/restaurant/138-gida#menu> .
+
+<https://naofood.coopcycle.org/en/restaurant/138-gida#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/655343cf6205d.jpeg> ;
+                    ns1:name "Bière \"Là Pénard\" artisanale CBD" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Bières" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/655345441305c.jpeg> ;
+                    ns1:name "Vin blanc Chardonnay IGP du Val de Loire" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Domaine des Cognettes. Croquant avec des notes épicées, de fruits rouges frais et floraux. Un vin rouge dit de copain pour le plaisir du vin et de la vie.\r
+Idéal entre copains, Apéro Gïdassiette et Broche marinade Orientale""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/72/6372b005e9ec2.jpeg> ;
+                    ns1:name "Vin Rouge Le Pas Rouge Gamay" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Vin blanc Les 2 Terres Muscadet Sèvre et Maine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ] ;
+            ns1:name "VIns issus de l'agriculture biologique" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "un mélange détonant d'agrumes, les oranges douces et sanguines de Sicile, adoucie d'une pointe de sirop d'agave 33cl" ;
+                    ns1:name "SCHORLE l'orange affriolante, association de fruits et d'eau gazeuse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534531c728b.jpeg> ;
+                    ns1:name "SCHORLE la rhubarbe pimpante, association de fruits et d'eau gazeuse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Le raffinement du thé vert associé aux feuilles de menthe douce, au gingembre et au citron. Floral, tonique et rafraichissant 33cl" ;
+                    ns1:name "SCHORLE thé vert l'idyllique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Assemblage de pommes des Pays de la Loire (Goldrush), rond et gourmand 33cl" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/27/6327b7f560ea6.jpeg> ;
+                    ns1:name "SCHORLE la pomme tonique, association de fruits et d'eau gazeuse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "SOFTS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain pide, végé du moment, choux marinés, chèvre frais, oignons, salade, herbes fraîches et sauce au choix." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/655344898bd84.jpeg> ;
+                    ns1:name "Döner pide Végé" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/6553447a263d6.jpeg> ;
+                    ns1:name "Döner pide Veau Dinde orientale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain dürüm, végé du moment, chèvre frais, oignons, salade, herbes fraîches et sauce au choix." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534447e0e1e.jpeg> ;
+                    ns1:name "Döner dürüm Végé" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Assiette mixte combinant toutes les viandes du moment et le végé , choux marinés, chèvre frais, oignons, salade, herbes fraiches et sauce au choix.  frites maison" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/655344eac499f.jpeg> ;
+                    ns1:name "Gïdassiette" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain dürüm, broche poulet artisanale marinade tandoori maison, choux marinés, chèvre frais, oignons, salade, herbes fraîches et sauce au choix." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/6553440654ffa.jpeg> ;
+                    ns1:name "Döner dürüm Poulet tandoori" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/655344ce4269d.jpeg> ;
+                    ns1:name "Frites maison bio (44)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade avec viande ou végé au choix, mâche,  céréales du moment (44) , chou mariné, chèvre frais, herbes fraîches , oignons et vinaigrette." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/655344dd43cd9.jpeg> ;
+                    ns1:name "Gïdabowl" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain dürüm, broche poulet artisanale marinade orientale maison, choux marinés, chèvre frais, oignons, salade, herbes fraîches et sauce au choix" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/655343f37c398.jpeg> ;
+                    ns1:name "Döner dürüm Poulet orientale" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain pide, broche de poulet artisanale marinade orientale maison, choux marinés, chèvre frais, oignons, salade, herbes fraîches et sauce au choix." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/6553445c29183.jpeg> ;
+                    ns1:name "Döner pide Poulet orientale" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/6553443a12335.jpeg> ;
+                    ns1:name "Döner dürüm Veau Dinde orientale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain pide, broche de poulet artisanale marinade tandoori maison, choux marinés, chèvre frais, oignons, salade, herbes fraîches et sauce au choix." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/6553446b0f54a.jpeg> ;
+                    ns1:name "Döner pide Poulet tandoori" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "Plats" ] .
+

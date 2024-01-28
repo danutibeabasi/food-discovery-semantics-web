@@ -1,0 +1,131 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://sicklo.coopcycle.org/api/restaurants/72> ns1:hasMenu <https://sicklo.coopcycle.org/en/restaurant/72-dragonne-pizza#menu> .
+
+<https://sicklo.coopcycle.org/en/restaurant/72-dragonne-pizza#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "1 de pizza au choix + 1 boisson au choix  + 1 cookie" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/63/24/632426879d60f.jpeg> ;
+                    ns1:name "Menu 1 part" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un assortiment de 4 parts au choix, coupées en 2 pour faciliter le partage. Une demi part de marguerite offerte soit un total de 9 demi parts. Taille des demi parts : 9x9cm" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/12/6212788bc3c20.jpeg> ;
+                    ns1:name "Assortiment à partager" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 parts de pizza au choix + une boisson au choix + 1 cookie" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/63/24/632427334a568.jpeg> ;
+                    ns1:name "Menu 2 parts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ] ;
+            ns1:name "Les formules⭐" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Fait avec amour, noisettes et chocolat. Plutôt mou et fondant que croustillant et sec" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/12/621270e35922d.jpeg> ;
+                    ns1:name "Cookie maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ] ;
+            ns1:name "Dessert🍪" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Base Sauce tomate (on a plus de crème ce soir désolé), Pommes de terre cuisinées, oignons cuisinés, Tomme de montagne locale au lait cru (la Tavaillarde), Fleur de Sel, persil frais ciselé" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/12/6212736ff095c.jpeg> ;
+                    ns1:name "Part de Pizza Montagnarde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce Tomate, Mozzarella, olives Kalamata ou oignons cuisinés, Potimarron cuisiné, Ricotta, Herbes de Provence, Fleur de Sel, persil frais ciselé" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/59/6459ddbb728fc.jpeg> ;
+                    ns1:name "Part de Pizza Champêtre" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce Tomate, Potimarron cuisiné, noisettes torréfiées, oignons cuisinés, olives kalamata, Pleurotes grillées, Tofu fumé grillé, Fleur de Sel, persil frais" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/12/6212721e7f223.jpeg> ;
+                    ns1:name "Part de Pizza Végane" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâte à pain, huile d’olive, olives Kalamata, rondelles de courgette,  Fleur de Sel, herbes de Provence. A couper par exemple en petits morceaux pour dipper à l'apéro" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/12/62127544a3a38.jpeg> ;
+                    ns1:name "Part de Focaccia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâte à base de farine de riz, Sauce Tomate, Potimarron, noisettes torréfiées, olives kalamata, oignons cuisinés, Pleurotes grillées, Tofu fumé grillé, Fleur de Sel, persil frais" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/12/6212743f8ac67.jpeg> ;
+                    ns1:name "Part de Pizza Sans Gluten Végane" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce Tomate, Mozzarella, olives Kalamata ou oignons cuisinés, Herbes de Provence, Fleur de Sel, persil frais" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/12/62127338ed92f.jpeg> ;
+                    ns1:name "Part de Pizza Marguerite" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâte sur farine de riz, Sauce Tomate, olives Kalamata, Mozzarella, Champignons frais, Fleur de Sel, persil frais" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/12/6212740de5b32.jpeg> ;
+                    ns1:name "Part de Pizza Sans Gluten Forestière" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, Légume du moment (Fondue de poireaux), Mozzarella, Olives Kalamata, Fleur de Sel, persil frais" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/12/62127265be37c.jpeg> ;
+                    ns1:name "Part de Pizza du moment" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, Mozzarella, olives Kalamata ou oignons cuisinés, Champignons blonds de l’Estacade, Herbes de Provence, Fleur de Sel, persil frais" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/12/621272b853588.jpeg> ;
+                    ns1:name "Part de Pizza Forestière" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ] ;
+            ns1:name "Les Pizzas à la part🍕" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Infusion de thé pétillante et stimulante (inspiré d'une boisson traditionnelle sud américaine). Teneur en sucre = 4.0g/100mL" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/31/6231b607800f4.jpeg> ;
+                    ns1:name "Charitea Maté" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Le cola dont 5% des bénéfices sont reversés à Oxfam. Teneur en sucre = 10g/100mL" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/14/6214be7c100bc.jpeg> ;
+                    ns1:name "Cola Oxfam 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tout doux. Teneur en sucre = 10g/100mL" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/14/6214c73654cf0.jpeg> ;
+                    ns1:name "Jus de Pomme" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Notre coup de cœur (presque) sans sucre : une infusion au gingembre et au thé vert. Quantité de sucre = 2g/100mL" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/04/6504113b47f07.jpeg> ;
+                    ns1:name "ChariTea Green" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La Komboucha locale de chez Kombouch'Alpes. On a testé, et on a approuvé. Pauvre en sucre, bon pour ton microbiote... il n'y a que des avantages à boire de la Komboucha !" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/6f/626fee26637bd.jpeg> ;
+                    ns1:name "Komboucha Badiane Romarin" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ] ;
+            ns1:name "Boissons Naturelles/ Locales / Solidaires🧃" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Un assortiment composé de 2 cartons totalisant 36 mini parts au choix, 8 choix de pizzas possible. 4 mini parts de Marguerite offertes . Taille des mini parts : 4.5x9cm" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/63/52/63529781a9c12.jpeg> ;
+                    ns1:name "Assortiment mini-parts à partager (8 à 10 personnes)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€39.90" ] ] ;
+            ns1:name "Evènements d'entreprises, associatifs, grosses soirées... c'est ici !🙂" ] .
+

@@ -1,0 +1,40 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://feelavelo.coopcycle.org/api/restaurants/8> a ns1:Restaurant ;
+    ns1:address <https://feelavelo.coopcycle.org/api/addresses/139> ;
+    ns1:description "L'ENVOL vous propose des repas Bio, équilibrés et gourmands. Notre cuisine trouve l’inspiration dans notre beau terroir Breton entre Terre et Mer : produits locaux, de saison et surtout nous cuisinons avec beaucoup de passion. Régalez-vous . Livré sans couverts" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.775035e+01 ;
+            ns1:longitude -3.362154e+00 ] ;
+    ns1:image <https://feelavelo.coopcycle.org/media/cache/restaurant_thumbnail/5e/aa/5eaaa51cb1ebc.jpg> ;
+    ns1:name "L'Envol" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:30" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "12:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "0.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "5.00" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://feelavelo.coopcycle.org/en/restaurant/8-l-envol" ] ] ;
+    ns1:sameAs <https://feelavelo.coopcycle.org/en/restaurant/8-l-envol> ;
+    ns1:url <https://feelavelo.coopcycle.org/en/restaurant/8-l-envol> .
+
+<https://feelavelo.coopcycle.org/api/addresses/139> a ns1:PostalAddress ;
+    ns1:name "L'Envol" ;
+    ns1:streetAddress "1 Rue de Clisson, Lorient, France" ;
+    ns1:telephone "+33783835257" .
+

@@ -1,0 +1,223 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://envici.coopcycle.org/api/restaurants/3> ns1:hasMenu <https://envici.coopcycle.org/en/restaurant/3-berenjena-centro#menu> .
+
+<https://envici.coopcycle.org/en/restaurant/3-berenjena-centro#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Combinación de hongos en una crema de cuatro quesos: parmesano, queso de cabra, gorgonzola y provolone" ;
+                    ns1:name "HONGOS A LOS 4 QUESOS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$125.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Queso de cabra horneado con un toque de miel y finas hierbas italianas." ;
+                    ns1:name "CABRA Y MIEL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$125.00" ] ] ;
+            ns1:name "TAPAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Jitomates deshidratados, pepita tostada, queso de cabra cenizo, y un toque de romero fresco." ;
+                    ns1:name "FRUTOS DEL BOSQUE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$215.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tocino estilo italiano, espinacas a la crema, láminas de almendra y un toque de miel de abeja." ;
+                    ns1:name "SWEET PANCHITA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$225.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Trozos de higo caramelizado, láminas de queso parmesano, rebanadas de prosciutto y hojas de arúgula orgánicas cosechadas localmente." ;
+                    ns1:name "HIGO TOVAR" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$255.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Berenjenas doradas con aceite de olivo, aceitunas kalamata, jocoque seco y un toque de zataar." ;
+                    ns1:name "BONG BONG" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$210.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Combinación de nuestras mejores carnes: jamón de pierna, chorizo argentino, salami y jamón serrano." ;
+                    ns1:name "PAUL McCARNE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$235.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Combinación de calabacita y champiñón, trozos de queso de cabra cenizo y un toque de ajo con aceite de olivo" ;
+                    ns1:name "TITA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$200.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Rebanadas de chistorra artesanal con nuestra receta de papas al horno con chimichurri y un toque de queso crema." ;
+                    ns1:name "DELIRIUM" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$200.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jamón artesanal de pierna combinado con julianas de cebolla morada y hongos." ;
+                    ns1:name "GOMBA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$190.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Rebanadas finas de pera, queso gorgonzola y jamón serrano fresco." ;
+                    ns1:name "DUENDE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$225.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jitomate cherry acompañado de queso mozzarella fresco y bañado en pesto tradicional de la casa." ;
+                    ns1:name "PIZZA NARCISISTA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$185.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La clásica. Pepperoni crujiente y queso mozzarella." ;
+                    ns1:name "PEPPE Y RONI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$195.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jitomate fresco con un toque de albahaca y ajo en aceite de olivo." ;
+                    ns1:name "PRIMAVERA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$200.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "¡La pizza más vegetariana! Cebolla morada, calabacitas, hongos, pimientos asados al horno de leña, jitomate fresco, ajo y espinaca." ;
+                    ns1:name "GIUSEPPE VERDI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$210.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La hawaiana estilo berenjena. Con piña fresca y jamón de pierna artesanal. (Cámbialo por jamón serrano + costo extra)." ;
+                    ns1:name "I & I" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$200.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mezcla de nuestros mejores quesos, mozzarella, gorgonzola, cabra cenizo y parmesano." ;
+                    ns1:name "4 QUESOS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$210.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Camarón salteado con ajo, perejil fresco, rodajas de chile guajillo y un toque de aceite de olivo." ;
+                    ns1:name "MARINERO PÁEZ" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$255.00" ] ] ;
+            ns1:name "PIZZAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Refrescos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$30.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Tehuacán vidrio mineral" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$35.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Doble carga" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$45.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Expresso" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$40.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Cappucino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$45.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Tehuacán vidrio natural" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$35.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Té" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$35.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Agua del día para llevar (1 L)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$60.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Americano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$40.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Botella de agua" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$30.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Limonada" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$35.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Agua de frutas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$30.00" ] ] ;
+            ns1:name "BEBIDAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Finas láminas de atún marinadas en una salsa agridulce asiática a base de soya, cítricos y un toque de aceite de ajonjolí. Servida con 8 rebanadas de pan. *El consumo de alimentos crudos es bajo responsabilidad del cliente." ;
+                    ns1:name "CARPACCIO DE ATÚN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$165.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pasta hecha a mano, crema de espinaca, queso ricotta, parmesano, mozzarella, brócoli y calabacitas." ;
+                    ns1:name "LASAGNA VERDE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$150.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pasta hecha a mano con salsa boloñesa a base de carne molida de res, acompañada de champiñón, calabacita y zanahoria. Servida con queso parmesano y queso mozzarella derretido" ;
+                    ns1:name "LASAGNA BOLOGNESA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$160.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Rebanadas delgadas de berenjena dorada con aceite de olivo, ajo picado, albahaca y queso parmesano." ;
+                    ns1:name "BERENICE CON ALBAHACA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$200.00" ] ] ;
+            ns1:name "PLATILLOS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Hecho con crust y queso crema mezclado con pinole artesanal de la sierra poblana." ;
+                    ns1:name "CHEESECAKE PINOLE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$100.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "El clásico, de chocolate calientito, servido con fruta de temporada." ;
+                    ns1:name "BROWNIE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$115.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Relleno de manzana caramelizada y un toque de canela." ;
+                    ns1:name "STRUDDEL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$115.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base de pizza con crema de avellana esparcida generosamente con fresas frescas y hojuelas de almendra. (Diámetro aprox. de 30cm)" ;
+                    ns1:name "PIZZA DE CHOCOAVELLANA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$135.00" ] ] ;
+            ns1:name "POSTRES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Arúgula orgánica, supremas de toronja, almendras tostadas, hojas de cilantro frescas, aguacate y pan chato horneado con ajo. Todo aderezado con aceite de olivo extra virgen, jugo de toronja y crema." ;
+                    ns1:name "MALLMANN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$130.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lechugas orgánicas cosechadas localmente, aguacate fresco, pepitas de calabaza tostadas, arándanos deshidratados, rebanadas de jitomate y vinagreta de la casa." ;
+                    ns1:name "GRANJERA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$130.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lechugas orgánicas cosechadas localmente, jitomate cherry, queso de cabra cenizo, nueces caramelizadas y manzana. Aderezado con vinagreta de la casa, hecha a base de aceite de olivo y vinagre balsámico." ;
+                    ns1:name "BIEN CHERRY" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$130.00" ] ] ;
+            ns1:name "ENSALADAS" ] .
+

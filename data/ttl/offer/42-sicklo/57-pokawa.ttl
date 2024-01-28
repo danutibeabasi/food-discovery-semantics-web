@@ -1,0 +1,517 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://sicklo.coopcycle.org/api/restaurants/57> ns1:hasMenu <https://sicklo.coopcycle.org/en/restaurant/57-pokawa#menu> .
+
+<https://sicklo.coopcycle.org/en/restaurant/57-pokawa#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/5f/645f626a1eb19.jpeg> ;
+                    ns1:name "Smoothie Pink Acaï" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Un smoothie fait maison aux saveurs exotiques grâce à notre mangue, ananas et fruit de la passion frais !
+\r
+ 162kcal""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/5f/645f629dd47a9.jpeg> ;
+                    ns1:name "Smoothie Yellow Passion" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ] ;
+            ns1:name "NOS SMOOTHIES 🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Voyage des papilles assuré avec ce hot poké aux mille saveurs. Taille et base au choix, poulet, ananas caramélisé rôti, cacahuètes, cébette thaï, oignons frits, citron vert, le tout arrosé d'une sauce saté à la cacahuète. \r
+ Son petit plus ? La coriande en option.
+\r
+ LIL : 403 kcal - MED : 606 kcal - BIG : 861 kcal
+\r
+ Allergènes : Arachides, gluten""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/3a/653a60c7a66a2.jpeg> ;
+                    ns1:name "Exotic Hot Poké 🍍" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Faîtes une pause chez nos voisins japonais avec ce hot poké sauce teriyaki plein de bons légumes. \r
+ Taille medium, base au choix, protéine au choix, edamame, aubergine miso, butternut rôti, carottes teriyaki. \r
+ Son petit plus ? Le topping au choix !
+\r
+ Entre 494 et 551 kcal suivant la base. 
+\r
+ Allergènes : soja, gluten, sésame, sulfites""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/3a/653a62752d0a3.jpeg> ;
+                    ns1:name "Teriyaki Hot Poké ♨️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ] ;
+            ns1:name "Gamme chaude 🔥" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Vous hésitez entre les gyozas veggie et poulet ? Notre box est votre solution ! Pour la boîte de 5 gyozas, vous dégusterez 3 gyozas poulet et 2 gyozas veggie. Dans notre boîte de 8, c'est moitié - moitié !
+\r
+ Allergènes : Gluten, soja, sésame\r
+ (Produits décongelés, ne pas recongeler)""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/63/ea/63ea6d8318727.jpeg> ;
+                    ns1:name "Box de gyozas mixtes ♨️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base de riz blanc, saumon, avocat, cream cheese, cébette thai et graines de sésame. Un mélange JUSTE parfait ! 350 Kcal" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/1c/641c724a07f3f.jpeg> ;
+                    ns1:name "Mini Salmon Bowl" ;
+                    ns1:nutrition "Fish",
+                        "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Base de riz blanc, thon, avocat, cream cheese, cébette thai et graines de sésame. Un mélange JUSTE parfait !
+\r
+ 284Kcal
+\r
+ Allergènes : Poisson, lait, soja, sésame, sulfites, gluten""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/1c/641c663325d5b.jpeg> ;
+                    ns1:name "Mini-Tuna Bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Régalez-vous avec notre tartare de légumes composé de concombre, mangue, oignons rouges, cacahuète, cébette thai et graines de sésame. Un mélange JUSTE parfait !
+\r
+ 143Kcal
+\r
+ Allergènes : Sésame, arachides""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/1c/641c65d28664a.jpeg> ;
+                    ns1:name "Mini-Veggie Bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Falafels de pois chiche (x5) et tzatziki. Le side parfait à partager ! \r
+ À déguster chaud ! 
+\r
+ 241 Kcal""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/63/ea/63ea6100ac8ba.jpeg> ;
+                    ns1:name "Falafels de pois chiche ♨️" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pois, chou, soja, carotte et radis blanc. Toujours un délice mais en version veggie (x5 ou x8) ! 133Kcal Allergènes : Gluten, crustacés, œuf, soja et sésame." ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/1c/641c722059b34.jpeg> ;
+                    ns1:name "Gyozas aux légumes 🥬" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Délicieux raviolis japonais au poulet et aux légumes. À déguster chaud !  (196 Kcal)\r
+5 pièces ou 8 pièce au choix""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/18/601817032d9b1.jpeg> ;
+                    ns1:name "Gyozas au poulet ♨️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "SIDES 🍢" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Ici c'est vous le chef ! Créez votre poké avec les ingrédients de votre choix.
+\r
+ Pour que votre poké reste frais et savoureux, il doit être consommé dans l’heure suivant l’achat.""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/1c/641c71ede42b1.jpeg> ;
+                    ns1:name "Poké Création 🔥" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Base au choix, thon mariné*, fruit au choix, radis, concombre, carottes, avocat, edamame, chou rouge, graines de sésame et framboise.\r
+ *Sans OGM et riche en protéines.\r
+ Pour que votre poké reste frais et savoureux, il doit être consommé dans l’heure suivant l’achat.
+\r
+ LIL: 381 kcal / MEDIUM : 526 kcal / BIG : 954 kcal""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/18/60181468bc821.jpeg> ;
+                    ns1:name "Poké Thon Mariné" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Base au choix, saumon frais, fruit au choix, avocat, edamame, carotte, radis, concombre, chou rouge, graines de sésame et framboise.\r
+ Pour que votre poké reste frais et savoureux, il doit être consommé dans l’heure suivant l’achat.
+\r
+ LIL : 409 kcal / MEDIUM : 624 kcal / BIG : 889 kcal""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/18/6018142b88365.jpeg> ;
+                    ns1:name "Poké Saumon 🐟" ;
+                    ns1:nutrition "Fish",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, poulet rôti sauce teriyaki, fruit au choix, radis, concombre, carottes, avocat, edamame, chou rouge, graines de sésame. LIL : 398 kcal / BIG : 558 kcal" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/18/601813e40c0ae.jpeg> ;
+                    ns1:name "Poké Poulet rôti teriyaki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Notre poké festif mi fondant mi croquant. Tartare de noix de Saint Jacques, mangue, edamame, grenade, concombre, cébette thaï et pincée de piment d'espelette ! La reco du chef : base riz noir, sauce mangue pour un résultat tout doux ou sauce passion pour une recette plus acidulée.
+\r
+ LIL : 329 kcal - MED : 504 kcal - BIG : 703 kcal
+\r
+ Allergènes : Mollusque, soja""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/3a/653a60eba39ca.jpeg> ;
+                    ns1:name "Tropical St Jacques 🌟" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Base de riz vinaigré, beaux morceaux de chick'en Happyvore, avocat, mangue, edamame, concombre, noix de cajou, cebette thai et sésame. \r
+ Pour que votre poké reste frais et savoureux, il doit être consommé dans l’heure suivant l’achat.
+\r
+ Lil : 505Kcal / Med :674Kcal / Big : 880Kcal""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/7d/607d82f214e7b.jpeg> ;
+                    ns1:name "Veggie Chick'en Bowl 👨🏽‍🌾" ;
+                    ns1:nutrition "Eggs",
+                        "Mustard",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Base au choix, 3 à 7 falafels selon la taille sélectionnée , fruit au choix, radis, carottes, avocat, edamame, chou rouge, graines de sésame et framboise. Pour que votre poké reste frais et savoureux, il doit être consommé dans l’heure suivant l’achat.
+\r
+ LIL: 461 kcal / MEDIUM : 672 kcal / BIG : 1101 kcal""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/18/6018160b9fdfc.jpeg> ;
+                    ns1:name "Poké Falafels" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Base au choix, crevettes, avocat, fruit au choix, radis, carotte, concombre, chou rouge, edamame, graines de sésame et framboise.\r
+ *Notre poké le moins calorique \r
+ Pour que votre poké reste frais et savoureux, il doit être consommé dans l’heure suivant l’achat.
+\r
+ LIL: 381 kcal / MEDIUM : 527 kcal / BIG : 866 kcal""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/18/601814a1c7255.jpeg> ;
+                    ns1:name "Poké Crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Base au choix, Aiguillettes végétales Happyvore , radis, concombre, carottes, avocat, edamame, chou rouge, graines de sésame et framboise.\r
+ Pour que votre poké reste frais et savoureux, il doit être consommé dans l’heure suivant l’achat.
+\r
+ Lil : 385Kcal / Med :391Kcal / Big : 773Kcal
+\r
+ Allergènes : Soja, sésame""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/63/ea/63ea6eea50de7.jpeg> ;
+                    ns1:name "Poké Chick'en végétal 🧑‍🎨" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Base au choix, saumon et thon mariné, fruit au choix, carotte, radis, concombre, chou rouge, avocat, edamame, graines de sésame et framboise.\r
+ Pour que votre poké reste frais et savoureux, il doit être consommé dans l’heure suivant l’achat.
+\r
+ LIL : 407 kcal / MEDIUM : 573 kcal / BIG : 989 kcal""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/7d/607d832185b3c.jpeg> ;
+                    ns1:name "Poké Super Protéiné 🥇" ;
+                    ns1:nutrition "Fish",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ] ;
+            ns1:name "POKES SIGNATURES 🍚" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Jus de fruits fraîchement pressés et stabilisé par haute pression à froid pour conserver tous les bienfaits ! Pomme, fruits rouges, grenade et raisin pour un jus très fruité.
+\r
+ 51 Kcal""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/1c/641c66a296e0c.jpeg> ;
+                    ns1:name "Jus Pomme & Fruits Rouges" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Étonnant, addictif et délicieux. Que du rêve dans cette boisson fruitée ! A déguster au bord de la piscine ou sur une plage... 330ml - 82,5 Kcal" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/18/60181cb7df347.jpeg> ;
+                    ns1:name "Lemonaid fruit de la passion BIO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une eau gazeuse à boire tous les jours, par tous. 500ml" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/a8/64a818057358e.jpeg> ;
+                    ns1:name "San Pellegrino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une boisson aux jus de fruits exotiques bio, pour une touche fruitée légère. 20cL." ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/01/6501d2e24820d.jpeg> ;
+                    ns1:name "Honest Bio 🥭" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Une version stimulante au pur jus de gingembre et de citron. Frissons garantis !\r
+ 330ml - 79 Kcal""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/1c/641c709746a5c.jpeg> ;
+                    ns1:name "Lemonaid Ginger BIO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Découvrez notre super citronnade maison infusée à la menthe avec une pointe de gingembre. Pourquoi faire compliqué quand on peu faire bon ? 300ml - 40 Kcal" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/18/60181bcd157b0.jpeg> ;
+                    ns1:name "La Citronnade maison 🍋" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/01/6501d2a94f176.jpeg> ;
+                    ns1:name "Coca Cola Light" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Jus de fruits fraîchement pressés et stabilisé par haute pression à froid pour conserver tous les bienfaits ! Pomme, citron et touche de menthe pour un jus étonnamment frais.
+\r
+ 67 Kcal""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/1c/641c673ec87e9.jpeg> ;
+                    ns1:name "Jus Pomme, Citron & Menthe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Notre ami américain, original et rafraichissant depuis 1886 ! 330 ml - 138,6 Kcal" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/18/60181bf9e34f0.jpeg> ;
+                    ns1:name "Coca-cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Jus de fruits fraîchement pressés et stabilisé par haute pression à froid pour conserver tous les bienfaits ! Pomme, mangue et passion pour un jus très exotique.
+\r
+ 67 Kcal""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/1c/641c66f14879d.jpeg> ;
+                    ns1:name "Jus Pomme & Fruits exotiques" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une subtile combinaison d’ingrédients restituant le goût de Coca-Cola avec zéro sucres, de quoi vous faire plaisir sans vous priver… 330ml - 0 Kcal" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/18/60181ce8d225a.jpeg> ;
+                    ns1:name "Coca-Cola zéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "On vous a déjà dit qu'il fallait boire 2 litres d'eau par jour ? 500ml" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/18/60181b753b7c2.jpeg> ;
+                    ns1:name "Evian" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Réveillez votre énergie naturelle avec le thé glacé maison au parfum fruité et léger. Idéal pour se rafraichir !\r
+ 250ml - 0 Kcal""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/63/ea/63ea5d2746ea5.jpeg> ;
+                    ns1:name "Le Thé glacé maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ] ;
+            ns1:name "BOISSONS 🧃" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Formule Bowl + Side" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Formule Bowl + Boisson" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Une box faite sur mesure pour nos minis-aventuriers (-12 ans) ! 🔎
+\r
+ Nous avons trouvé la formule parfaite pour les régaler, au menu : un Mini Poké au poulet, une boisson et un dessert.""" ;
+                    ns1:name "Pokabox 🎒" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Formule Bowl + Boisson + Dessert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ] ;
+            ns1:name "FORMULES 🍱" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Base au choix, chick'en végétal, tartare de légumes composé de mangue, concombre, oignons rouges et cacahuètes, piment jalapeños et cébette. La touche finale, notre sauce spicy secrète. 
+\r
+ Lil : 432Kcal - Med : 616Kcal - Big : 805Kcal
+\r
+ Allergènes : Gluten, soja, sésame, arachides""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/1c/641c5af7c2fbc.jpeg> ;
+                    ns1:name "Spicy Chirashi Chick'en Végétal" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Base au choix, thon, tartare de légumes composé de mangue, concombre, oignons rouges et cacahuètes, piment jalapeños et cébette. La touche finale, notre sauce spicy secrète. 
+\r
+ Lil : 390Kcal - Med : 568Kcal - Big : 757Kcal
+\r
+ Allergènes : Gluten, poisson, soja, sésame, sulfites, arachides""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/1c/641c5d65a77c7.jpeg> ;
+                    ns1:name "Spicy Chirashi Thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Base au choix, saumon, tartare de légumes composé de mangue, concombre, oignons rouges et cacahuètes, piment jalapeños et cébette. La touche finale, notre sauce spicy secrète. 
+\r
+ Lil : 470Kcal - Med : 675Kcal - Big : 864Kcal
+\r
+ Allergènes : Gluten, poisson, soja, sésame, sulfites, arachides""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/1c/641c5cb6323e8.jpeg> ;
+                    ns1:name "Spicy Chirashi Saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Base au choix, crevettes, tartare de légumes composé de mangue, concombre, oignons rouges et cacahuètes, piment jalapeños et cébette. La touche finale, notre sauce spicy secrète. 
+\r
+ Lil : 427Kcal - Med : 601Kcal - Big : 790Kcal"
+\r
+ Allergènes : Gluten, soja, sésame, sulfites, crustacés, arachides""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/1c/641c5b5568512.jpeg> ;
+                    ns1:name "Spicy Chirashi Crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Base au choix, poulêt rôti, tartare de légumes composé de mangue, concombre, oignons rouges et cacahuètes, piment jalapeños et cébette. La touche finale, notre sauce spicy secrète. 
+\r
+ Lil : 451Kcal - Med : 614Kcal - Big : 803Kcal
+\r
+ Allergènes : Gluten, soja, sésame, arachides""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/1c/641c5ba2312c9.jpeg> ;
+                    ns1:name "Spicy Chirashi Poulet Teriyaki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ] ;
+            ns1:name "SPICY CHIRASHI 🔥" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Base au choix, saumon frais, avocat, mangue fraiche, cebette thaï, graines de sésame.\r
+ Pour que votre poké reste frais et savoureux, il doit être consommé dans l’heure suivant l’achat.
+
+\r
+ LIL : 473 kcal / MEDIUM : 644 kcal / BIG : 871 kcal""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/18/601812bbe401a.jpeg> ;
+                    ns1:name "Chirashi Hawaien 🎖️" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, saumon frais, avocat, cebette thaï, graines de sésame. LIL : 365 kcal / BIG : 553 kcal" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/18/60181304c4f45.jpeg> ;
+                    ns1:name "Chirashi Saumon Avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, saumon frais mariné, avocat, edamame, graines de sésame et cébette thaï. LIL : 401 kcal / Big : 589 kcal" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/18/6018135b557cc.jpeg> ;
+                    ns1:name "Green Chirashi 💚" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ] ;
+            ns1:name "NOS CHIRASHIS 🌈" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Un cookie à la fois craquant et fondant. Les pépites de caramel se mêlent au côté iodé du sel de Guérande... à se damner ! 464 Kcal" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/18/60181ab0be94f.jpeg> ;
+                    ns1:name "Cookie BIO by La Fabrique Cookie : caramel d'Isigny au sel de Guérande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ici c'est vous le chef ! Créez votre sweet bowl fruité & gourmand en choisissant votre base, 2 toppings, un fruit et un twist ! Retrouvez le fichier des allergènes en caisse." ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/55/64554533b3980.jpeg> ;
+                    ns1:name "Sweet bowl Création" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Crème aérienne, biscuit spéculoos & coulis au choix. Miam miam, c'est onctueux !
+\r
+ (Produit décongelé, ne pas recongeler) 358 Kcal
+\r
+ Allergènes : Œufs, gluten, lait""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/1c/641c7040310ac.jpeg> ;
+                    ns1:name "Cheesecake" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Les pépites de chocolat au lait fondent délicieusement en bouche. Une valeur sûre ! 500 Kcal" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/18/60181adc1fb8f.jpeg> ;
+                    ns1:name "Cookie BIO by La Fabrique Cookie : chocolat au lait" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Craquez pour nos super cakes au citron ou marbré, fabriqués en France avec des oeufs bio et français, tout comme la farine et le sucre, français eux aussi !" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/1c/641c6916aa7b0.jpeg> ;
+                    ns1:name "Cake super moelleux 🍰" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un dessert composé d'une base au choix et de granola aux éclats de chocolat !" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/55/645545094f946.jpeg> ;
+                    ns1:name "Smart Sweet Bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Cette salade de fruits 100% mangue va vous faire fondre.\r
+ 95 kcal""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/01/6501d1933183e.jpeg> ;
+                    ns1:name "Mango Ninja 🥭" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Aussi addictive que le jeu ! Notre salade de fruits exotiques vous apporte une touche de fraicheur avec ses beaux morceaux de mangue fraîche, grenade et d'ananas. 🥭 82 Kcal" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/63/ea/63ea6407387f5.jpeg> ;
+                    ns1:name "Fruit Ninja 🥭" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chocolate lover ce moelleux est fait pour vous ! Et nous avons qu’une chose à vous dire : REGALEZ-VOUS ! À déguster tiède pour plus de plaisir 418 Kcal" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/18/601819c976e82.jpeg> ;
+                    ns1:name "Fondant au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Notre salade de fruits à l'ananas, variété extra sweet pour des extra saveurs !\r
+ 82 kcal""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/01/6501d14f50f8c.jpeg> ;
+                    ns1:name "Ananas Ninja 🍍" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un bowl gourmand et fruité dans lequel on retrouve du granola aux éclats de chocolat, des graines de courge, de la noix de coco, de la grenade, une framboise, à personnaliser avec une base et un fruit supplémentaire au choix ! Retrouvez le fichier des allergènes en caisse." ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/55/645544de7d3c6.jpeg> ;
+                    ns1:name "Original Sweet Bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ] ;
+            ns1:name "DESSERTS 🍪" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Un bubble tea en petite bouteille au thé vert avec des billes passion, des nata de coco et du sirop à la mangue et à la passion.
+\r
+ Se boit frais ! 🧊 
+\r
+ Format : 250 ML\r
+ 156 kcal\r
+ (visuel non contractuel)""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/3e/643ea7cfe0739.jpeg> ;
+                    ns1:name "LIL Bubble Tea Passion & Coco 🥥" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Un bubble tea en petite bouteille au thé vert avec des billes passion, du fruit de la passion frais et du sirop à la mangue et à la passion.
+\r
+ Se boit frais ! 🧊 
+\r
+ Format : 250 ML\r
+ 158 kcal\r
+ (visuel non contractuel)""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/3e/643ea7a8eead5.jpeg> ;
+                    ns1:name "LIL Bubble Tea Mangue & Passion 🥭" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Un bubble tea en petite bouteille au thé vert avec des billes de citron et du sirop au citron vert et litchi.
+\r
+ Se boit frais ! 🧊 
+\r
+ Allergènes : Sulfites 
+\r
+ Format : 250 ML\r
+ 128kcal\r
+ (visuel non contractuel)""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/64/3e/643ea75c57544.jpeg> ;
+                    ns1:name "LIL Bubble Tea Citron vert & Litchi 🍋" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ] ;
+            ns1:name "BUBBLE TEA 🧋" ] .
+

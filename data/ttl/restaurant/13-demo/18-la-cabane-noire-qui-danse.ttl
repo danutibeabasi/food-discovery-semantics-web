@@ -1,0 +1,58 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://demo.coopcycle.org/api/restaurants/18> a ns1:Restaurant ;
+    ns1:address <https://demo.coopcycle.org/api/addresses/68> ;
+    ns1:bannerImage "https://demo.coopcycle.org/placeholder/restaurant_banner/placeholders/63Mplp8lam9K.jpg" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.884407e+01 ;
+            ns1:longitude 2.344978e+00 ] ;
+    ns1:image <https://demo.coopcycle.org/img/cuisine/default.jpg> ;
+    ns1:name "La cabane noire qui danse" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:30" ;
+            ns1:dayOfWeek "Saturday",
+                "Sunday" ;
+            ns1:opens "09:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:15" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "20:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "01:00" ;
+            ns1:dayOfWeek "Saturday",
+                "Sunday" ;
+            ns1:opens "19:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:45" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "10:45" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "15.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.50" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://demo.coopcycle.org/en/restaurant/18-la-cabane-noire-qui-danse" ] ] ;
+    ns1:sameAs <https://demo.coopcycle.org/en/restaurant/18-la-cabane-noire-qui-danse> ;
+    ns1:url <https://demo.coopcycle.org/en/restaurant/18-la-cabane-noire-qui-danse> .
+
+<https://demo.coopcycle.org/api/addresses/68> a ns1:PostalAddress ;
+    ns1:name "La cabane noire qui danse" ;
+    ns1:streetAddress "Rue d'Ulm 18, 75005 Paris" ;
+    ns1:telephone "+33631527146" .
+

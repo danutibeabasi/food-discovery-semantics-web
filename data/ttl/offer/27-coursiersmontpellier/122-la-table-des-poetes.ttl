@@ -1,0 +1,56 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiersmontpellier.coopcycle.org/api/restaurants/122> ns1:hasMenu <https://coursiersmontpellier.coopcycle.org/en/restaurant/122-la-table-des-poetes#menu> .
+
+<https://coursiersmontpellier.coopcycle.org/en/restaurant/122-la-table-des-poetes#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bière sur lit de raisin  (75 cl)" ;
+                    ns1:name "Bière, brasserie Sacrilège, Montpellier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bière, brasserie Sacrilège, Montpellier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Nos boissons alcoolisées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Poireaux vinaigrette / chanterelles poêlées / mimosa et noisette\r
+Plat de côte de bœuf braisé / panais / graines de sarrasin""" ;
+                    ns1:name "Menu Entrée + Plat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ] ;
+            ns1:name "Nos menus" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Poireaux vinaigrette / chanterelles poêlées / mimosa et noisette\r
+Plat de côte de bœuf braisé / panais / graines de sarrasin\r
+Moelleux chocolat / Glace vanille / caramel beurre salé""" ;
+                    ns1:name "Menu Entrée + Plat + Dessert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.00" ] ] ;
+            ns1:name "Nos Menus" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Jus de fruits Bio  par Sibio Artisan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Perrier  (33 cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Limonade   (33 cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Nos  boissons sans alcool" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Plat de côte de bœuf braisé / panais / graines de sarrasin\r
+Moelleux chocolat / Glace vanille / caramel beurre salé""" ;
+                    ns1:name "Menu Plat + Dessert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ] ;
+            ns1:name "Nos Menus" ] .
+

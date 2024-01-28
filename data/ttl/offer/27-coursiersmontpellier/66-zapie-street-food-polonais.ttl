@@ -1,0 +1,292 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiersmontpellier.coopcycle.org/api/restaurants/66> ns1:hasMenu <https://coursiersmontpellier.coopcycle.org/en/restaurant/66-zapie-street-food-polonais#menu> .
+
+<https://coursiersmontpellier.coopcycle.org/en/restaurant/66-zapie-street-food-polonais#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/61/9f/619fee9dcb9f3.jpeg> ;
+                    ns1:name "BIGOS -Ragoût de viandes et choucroute" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/61/22/612292e018134.jpeg> ;
+                    ns1:name "Kabanos Nature (105g)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Les pierogi ce sont des ravioles traditionnelles polonaises. Faites maison.\r
+Farce composée de choucroute cuisinée, de champignons sauvages et oignon.\r
+Servi avec beurre clarifié et oignons frits.""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/61/99/61994db54e169.jpeg> ;
+                    ns1:name "PIEROGI Choucroute et Champignons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/61/80/61803f4be47c1.jpeg> ;
+                    ns1:name "Pierogi Végétarien (4 pièces)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Les pierogi ce sont des ravioles traditionnelles polonaises. Faites maison.\r
+Farce composée d'effiloché de porc rôti et de volaille.\r
+Accompagnés de la Cream Zapie (sauce maison à base de yaourt, un peu d'ail et de la marjolaine) et de ciboulette fraîche.""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/61/80/61803dbc6677a.jpeg> ;
+                    ns1:name "PIEROGI à la Viande (4 pièces)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "🥟 Spécialités Polonaises 🥟" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Zap de Saison Carnivore 40 cm" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """BASE: Pain bio de 40 cm, farci aux champignons de Paris, oignons, fromage râpé:  \r
+-sauce Tomato Zapie (ketchup maison)\r
+-oignons frits \r
+-ciboulette""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e7/60e755a388b0b.jpeg> ;
+                    ns1:name "Zap Original 40 cm" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """BASE: Pain bio de 40 cm, farci aux champignons de Paris, oignons, fromage râpé:\r
+-Cheddar\r
+-Mozzarella\r
+-Blue cheese\r
+-Cream Zapie (sauce maison à base de yaourt, un peu d'ail et de la marjolaine)""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e7/60e73409accb2.jpeg> ;
+                    ns1:name "Zap 3 Fromages 40 cm" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """BASE: Pain bio de 40 cm, farci aux champignons de Paris, oignons, fromage râpé:\r
+-saucisse fumée\r
+-KISZONE (cornichons polonais) \r
+-Cream Zapie (sauce maison à base de yaourt, un peu d'ail et de la marjolaine).\r
+-ciboulette""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e7/60e7567ed8979.jpeg> ;
+                    ns1:name "Zap Polka 40 cm" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """BASE: Pain bio de 40 cm, farci aux champignons de Paris, oignons, fromage râpé:\r
+-fromage de chèvre\r
+-noix torréfiées\r
+-miel""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e7/60e7554201161.jpeg> ;
+                    ns1:name "Zap Kozi 40 cm" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """BASE: Pain bio de 40 cm, farci aux champignons de Paris, oignons, fromage râpé:  \r
+-sauce Hot Tomato Zapie (ketchup épicé maison)\r
+-oignons frits \r
+-ciboulette""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e7/60e756043b435.jpeg> ;
+                    ns1:name "Zap Original HOT 40 cm" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """BASE: Pain bio de 40 cm, farci aux champignons de Paris, oignons, fromage râpé:  \r
+-chorizo\r
+-sauce Sweet Zapie (sauce maison à base yaourt, miel et moutarde à l'ancienne)\r
+-oignons frits""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e7/60e738d409390.jpeg> ;
+                    ns1:name "Zap Chorizo 40 cm" ;
+                    ns1:nutrition "Milk",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """BASE: Pain bio de 40 cm, farci aux champignons de Paris, oignons, fromage râpé:\r
+-mozzarella\r
+-tomate confite \r
+-jambon cru \r
+-pesto de basilic maison""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e7/60e739d44fe7b.jpeg> ;
+                    ns1:name "Zap Italo 40 cm" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """BASE-( Pain, Champignons de Paris, oignons, Cheddar) \r
+Blue Cheese, Bettrave et Butternut rôtie, Sauce Creamy, Ciboulette""" ;
+                    ns1:name "Zap de Saison Végétarienne 40 cm" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """BASE: Pain bio de 40 cm, farci aux champignons de Paris, oignons, fromage râpé: \r
+-saumon fumé\r
+-la Cream Zapie (sauce maison à base de yaourt, un peu d'ail et de la marjolaine).\r
+-ciboulette""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e7/60e756fd6df76.jpeg> ;
+                    ns1:name "Zap Smoked Salmon 40 cm" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ] ;
+            ns1:name "🥖 NOS ZAPIEKANKA 40 CM 🥖" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Je ne souhaite pas de couvert jetable" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Je ne souhaite pas de serviette jetable" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ] ;
+            ns1:name "🍴 Couvert et serviette 🍴" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Barre chocolaté maison: Chocolat Noir, Miel,  biscuits, riz soufflé, cacahuètes et cranberry" ;
+                    ns1:name "Chocobloc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/61/22/6122917c7cb2d.jpeg> ;
+                    ns1:name "Biscuit de VARSOVIE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/64/7b/647b248ab169f.jpeg> ;
+                    ns1:name "Cookie Caramel & Noisettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/64/a0/64a001e411162.jpeg> ;
+                    ns1:name "Cookie Cranberry & Chocolat Blanc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e7/60e753fc747d2.jpeg> ;
+                    ns1:name "Sachet de caramels polonais krówka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/64/7b/647b123a95190.jpeg> ;
+                    ns1:name "Carrot Cake" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/64/7b/647b253ba7e59.jpeg> ;
+                    ns1:name "Cookie Tout Chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.40" ] ] ;
+            ns1:name "🍰 NOS DESSERTS 🍰" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e7/60e7487cd8ae1.jpeg> ;
+                    ns1:name "Eau Gazeuse 50 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e7/60e7464ae32ce.jpeg> ;
+                    ns1:name "Limonade BIO La Délicieuse SUREAU" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e7/60e745d2299c3.jpeg> ;
+                    ns1:name "Limonade BIO La Délicieuse ORANGE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e7/60e744fa1e58f.jpeg> ;
+                    ns1:name "Limonade BIO La Délicieuse NATURE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e7/60e741fd40e15.jpeg> ;
+                    ns1:name "Limonade BIO La Délicieuse CHÂTAIGNE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e6/60e6f2e2ec880.jpeg> ;
+                    ns1:name "Colt Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e7/60e751b8d445f.jpeg> ;
+                    ns1:name "Pur Jus BIO de RAISIN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e7/60e743f694d47.jpeg> ;
+                    ns1:name "Limonade BIO La Délicieuse GENTIANE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """La Marque de l'eau selon arrivage.\r
+Photo non contractuelle.""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e7/60e73d06e639f.jpeg> ;
+                    ns1:name "Eau Minérale 50 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e7/60e74473cb74b.jpeg> ;
+                    ns1:name "Limonade BIO La Délicieuse MYRTILLE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e7/60e742f78d4b4.jpeg> ;
+                    ns1:name "Limonade BIO La Délicieuse FIGUE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e7/60e75179db741.jpeg> ;
+                    ns1:name "Pur Jus BIO de POMME" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e7/60e7539585f64.jpeg> ;
+                    ns1:name "Pur Jus BIO de TOMATE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ] ;
+            ns1:name "🍹NOS BOISSONS🍹" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e7/60e7574a99b2c.jpeg> ;
+                    ns1:name "ZUBR Bière « Bison » Polonaise 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/61/7c/617c4322574fc.jpeg> ;
+                    ns1:name "Warka Strong 50.cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e7/60e757c47d972.jpeg> ;
+                    ns1:name "TATRA Bière Blonde Dorée Polonaise 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/60/e7/60e757803a979.jpeg> ;
+                    ns1:name "Zywiec 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "🍻 NOS BIERES 🍻" ] .
+

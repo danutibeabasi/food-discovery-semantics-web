@@ -1,0 +1,411 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/restaurants/43> ns1:hasMenu <https://lescoursiersbrestois.coopcycle.org/en/restaurant/43-rajmahal#menu> .
+
+<https://lescoursiersbrestois.coopcycle.org/en/restaurant/43-rajmahal#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "semoule, sucre, lait, cardamone, noix de coco" ;
+                    ns1:name "GÂTEAU DE SEMOULE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lait et riz indien traditionnel" ;
+                    ns1:name "KHIRE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "DESSERT" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Riz préparé avec boeuf,petits pois, cajous\r
+raisins secs , épices et amandes effilees""" ;
+                    ns1:name "BOEUF" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz préparé avec agneau,petits pois, cajous\r
+raisins secs , épices et amandes effilees""" ;
+                    ns1:name "AGNEAU" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """POULET\r
+Riz préparé avec poulet, petits pois, cajous\r
+raisins secs , épices et amandes effilees""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/7a/657ac1d0524e2.jpeg> ;
+                    ns1:name "POULET" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz préparé avec crevettes,petits pois, cajous\r
+raisins secs , épices et amandes effilees""" ;
+                    ns1:name "CREVETTES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz préparé avec legumes,petits pois, cajous\r
+raisins secs , épices et amandes effilees""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/7a/657ac1a35d57c.jpeg> ;
+                    ns1:name "LÉGUMES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz préparé avec de l'agneau, boeuf, poulet, crevettes,petits pois, cajous\r
+raisins secs , épices et amandes effilees""" ;
+                    ns1:name "Rajmahal" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ] ;
+            ns1:name "Biriyanis" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Morceaux de poulet cuisinés aux épices avec des poivrons" ;
+                    ns1:name "POULET JALFREZI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet cuits avec des lentilles et épices." ;
+                    ns1:name "POULET DAAL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de poulet mélangé avec des pommes de terres, massala et coriandre." ;
+                    ns1:name "POULET VINDALOO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de poulet cuit avec piments vert" ;
+                    ns1:name "POULET CHILI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de poulet, amandes, noix de cajou." ;
+                    ns1:name "POULET SHAHI KORMA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet grillé au tandoor puis cuisiné au beurre et tomates" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/7a/657ac27c2ec2a.jpeg> ;
+                    ns1:name "BUTTER CHICKEN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Curry de poulet traditionnel grille au four tandoor avec poivrons frais, tomates fraiches et\r
+coriandre fraiche .""" ;
+                    ns1:name "POULET TIKKA MASSALA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux de poulet désossés et marinés à la sauce curry." ;
+                    ns1:name "POULET CURRY" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de poulet aux épinards" ;
+                    ns1:name "POULET PALAKE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux de poulet avec aubergines grillees au four et epices" ;
+                    ns1:name "POULET BAINGAN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Curry de poulet traditionnel a la creme fraiche avec noix de coco, raison secs \r
+et epices""" ;
+                    ns1:name "POULET KASHMIRI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.99" ] ] ;
+            ns1:name "Les Plats Poulet" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "boisson indienne traditionnelle à base de lait." ;
+                    ns1:name "LACCHI NATURE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "boisson indienne traditionnelle à base de lait et de noix de coco" ;
+                    ns1:name "LACCHI COCO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "boisson indienne traditionnelle à base de lait et de pulpe de mangue" ;
+                    ns1:name "LACCHI MANGUE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "boisson indienne traditionnelle à base de lait et de banane" ;
+                    ns1:name "LACCHI BANANE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "boisson indienne traditionnelle à base de lait et de sirop de rose." ;
+                    ns1:name "LACCHI ROSE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Curry de boeuf mélangé avec des pommes de terres, massala et coriandre." ;
+                    ns1:name "BOEUF VINDALOO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Curry de boeuf traditionnel grille au four tandoor avec poivrons frais, tomates fraiches et\r
+coriandre fraiche .""" ;
+                    ns1:name "BOEUF MASSALA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux de boeuf désossés et marinés à la sauce curry." ;
+                    ns1:name "BOEUF CURRY" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Curry de boeuf traditionnel a la creme fraiche avec noix de coco, raison secs \r
+et epices""" ;
+                    ns1:name "BOEUF KASHMIRI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boeuf cuits avec des lentilles et épices" ;
+                    ns1:name "BOEUF DAAL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de Boeuf aux épinards" ;
+                    ns1:name "BOEUF PALAK" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de boeuf, amandes, noix de cajou." ;
+                    ns1:name "BOEUF SAHI KORMA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.99" ] ] ;
+            ns1:name "Les Plats Boeuf" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Curry de crevettes traditionnel a la creme fraiche avec noix de coco, raison secs \r
+et epices""" ;
+                    ns1:name "CREVETTES KASHMIRI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Curry de saumon traditionnel grille au four tandoor avec poivrons frais, tomates fraiches et\r
+coriandre fraiche .""" ;
+                    ns1:name "SAUMON MASSALA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de crevettes, amandes, noix de cajou" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/7a/657abc84dd17f.jpeg> ;
+                    ns1:name "CREVETTES SAHI KORMA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux de crevettes désossés et marinés à la sauce curry" ;
+                    ns1:name "CREVETTES CURRY" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de saumon, amandes, noix de cajou." ;
+                    ns1:name "SAUMON SAHI KORMA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Curry de saumon traditionnel a la creme fraiche avec noix de coco, raison secs \r
+et epices""" ;
+                    ns1:name "SAUMON KASHMIRI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ] ;
+            ns1:name "Les Plats Poisson et Fruits de Mer" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain levé à l'ail et l'herbes" ;
+                    ns1:name "GARLIC NAN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain levé farci aux pommes de terre, herbes fraiches et épices" ;
+                    ns1:name "ALOO NAN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pate levée, farine" ;
+                    ns1:name "NAN NATURE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pate levée au fromage" ;
+                    ns1:name "NAN FROMAGE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâte levée au piment vert" ;
+                    ns1:name "CHILI NAN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain au fromage farci à la viande hachée" ;
+                    ns1:name "KEEMA NAN FROMAGE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Les Pains" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Beignets d'oignons à la farine de pois chiche." ;
+                    ns1:name "OIGNON BHAJA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignets de crevette aux divers épices" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/7a/657abc5457dd3.jpeg> ;
+                    ns1:name "CREVETTES PAKORA (6 PIECES)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignets de pommes de terre, d'aubergines, d'oignons." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/7a/657abcf3b03b7.jpeg> ;
+                    ns1:name "PAKORA MIX" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cuisse de poulet marinés avec des épices et grillé au Tandoor." ;
+                    ns1:name "POULET TANDOORI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Feuilletes de viandes haches" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/7a/657abd817a09e.jpeg> ;
+                    ns1:name "SAMOSSA KEEMA (2 PIECES)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignets d'aubergine à la farine de pois chiche" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/7a/657abd307e79e.jpeg> ;
+                    ns1:name "PAKORA D'AUBERGINE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Yaourt aux concombres, tomates et cumin" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/7a/657ac20f43e5b.jpeg> ;
+                    ns1:name "RAITA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Feuilleté de pommes de terre avec petits pois et épices indiennes." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/7a/657abdaad2a7b.jpeg> ;
+                    ns1:name "SAMOSSA LÉGUMES (2 PIÈCES)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brochette de gigot haché aux herbes fraiches cuit en brochettes au tandoor." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/7a/657abdd907fcf.jpeg> ;
+                    ns1:name "SHEESH KEBAB" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Blancs de poulet mariné et frits aux épices" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/7a/657ac2a387ace.jpeg> ;
+                    ns1:name "CHICKEN PAKORA (6 PIÈCES)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Assortiment de brochettes de poulets, agneau, sheesh kebab, mix pakora" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/7a/657abcc495639.jpeg> ;
+                    ns1:name "MIX GRILL (2 PERSONNES)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignets de pommes de terre, à la farine de pois chiche" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/7a/657abc224dcde.jpeg> ;
+                    ns1:name "ALOO PAKORA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "ENTRÉES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Curry de Agneau traditionnel grille au four tandoor avec poivrons frais, tomates fraiches et\r
+coriandre fraiche""" ;
+                    ns1:name "AGNEAU TIKKA MASSALA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry d'agneau aux épinards." ;
+                    ns1:name "AGNEAU PALAK" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux de agneau avec aubergines grillees au four et epices" ;
+                    ns1:name "AGNEAU BAIGAN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Curry de agneau traditionnel a la creme fraiche avec noix de coco, raison secs \r
+et epices""" ;
+                    ns1:name "AGNEAU KASHMIRI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry d'agneau piquant mélangés avec des pommes de terres" ;
+                    ns1:name "AGNEAU VINDALOO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux d'agneau désossés marinés à la sauce curry" ;
+                    ns1:name "AGNEAU CURRY" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Agneau cuits avec des lentilles et épices" ;
+                    ns1:name "AGNEAU DAAL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux d'agneau cuits aux épices avec poivrons." ;
+                    ns1:name "AGNEAU JALFREZI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry d'agneau aux amandes, noix de cajou, pistaches" ;
+                    ns1:name "AGNEAU SHAHI KORMA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.99" ] ] ;
+            ns1:name "Les Plats Agneau" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Curry de melange de legumes avec diverses épices." ;
+                    ns1:name "MIX SABJI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Choux fleur cuits avec des pommes de terre et des épices." ;
+                    ns1:name "ALOO CURRY" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lentilles indiennes concassées et légumes verts" ;
+                    ns1:name "DAAL MAKHANI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Épinards hachées cuits avec des pommes de terre." ;
+                    ns1:name "ALOO PALAK NEW" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Epinards hachés et fromage" ;
+                    ns1:name "PALAK PANEER" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Caviar d'aubergines aux aromates et herbes fraîches." ;
+                    ns1:name "BAINGAN BHARTA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lentilles indiennes concassées et épinards." ;
+                    ns1:name "DAAL PALAK" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.99" ] ] ;
+            ns1:name "Les Plats Végétariens" ] .
+

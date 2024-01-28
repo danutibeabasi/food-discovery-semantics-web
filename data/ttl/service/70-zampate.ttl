@@ -1,0 +1,21 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://zampate.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "es" ;
+                    ns1:addressLocality "Zaragoza" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 4.1651e+01 ;
+                    ns1:longitude -8.88742e-01 ] ] ;
+    ns1:description "Zámpate Zaragoza is a new initiative for food delivery in our city. A sustainable and ethical initiative of urban delivery by bicycle. We will start collaborating with several hotel establishments and food stores that we will present to you."@en,
+        "Zámpate Zaragoza es una nueva iniciativa de reparto de comida a domicilio en nuestra ciudad. Una iniciativa sostenible y ética de reparto urbano en bicicleta. Empezaremos colaborando con varios establecimientos hosteleros y tiendas de alimentación que os iremos presentado. "@es ;
+    ns1:name "Zampate" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:sameAs <https://www.facebook.com/100595218441670/>,
+        <https://www.instagram.com/zampate.zgz/> ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://zampate.coopcycle.org> .
+

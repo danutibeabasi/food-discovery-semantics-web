@@ -1,0 +1,283 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://khora.berlin/en/restaurant/79-neue-republik-reger> ns1:hasMenu <https://khora.berlin/en/restaurant/79-neue-republik-reger#menu> .
+
+<https://khora.berlin/en/restaurant/79-neue-republik-reger#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Flasche Weißwein Landwein Rhein, 1 L, 11 %" ;
+                    ns1:name "Hauswein Weiß" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Flasche Weißburgunder Trocken, 0,75 L, 12,5 %" ;
+                    ns1:name "Weißburgunder" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "Wein Weiß" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Snickerstorte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Bananenbrot" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ] ;
+            ns1:name "Nachtisch" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Flasche Rotwein, 0,75 L, 13 %" ;
+                    ns1:name "Cuvée Noir" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Flasche Tempranillo, 0,75 L, 14 %" ;
+                    ns1:name "Tempranillo" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Flasche Rotwein Syrah, 1 L, 13,5 %" ;
+                    ns1:name "Hauswein Rot" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ] ;
+            ns1:name "Wein Rot" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "+ 2 Saucen nach Wahl" ;
+                    ns1:name "FRISCHE FRITTEN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poutine mit extra Pulled Seitan" ;
+                    ns1:name "POUTINE \"LOADED\"" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Kanadische Spezialität aus frischen Fritten, veganer Cheezy Sauce, Bratensoße und Grrrilled Gronions" ;
+                    ns1:name "POUTINE \"REGULAR\"" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.10" ] ] ;
+            ns1:name "Daneben" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "HOT DOG" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "TEMPEH STICKS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CURRYVURST" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Klein" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Flasche Sekko Soziale, 0,75 L." ;
+                    ns1:name "Sekko Soziale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Flasche Sekoi Sekt, 0,75 L, 11 %" ;
+                    ns1:name "Sekoi Sekt" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "Sekt" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Softdrink" ;
+                    ns1:name "Rhabarber, BioZisch" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Softdrink 0,33l" ;
+                    ns1:name "Soli-Mate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Softdrink" ;
+                    ns1:name "Blutorange, BioZisch" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "leise / Viva Con Aqua stilles Wasser" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Roy Kombucha Ginger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Disco-Limo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "laut / Viva Con Aqua Sprudelwasser" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Softdrink" ;
+                    ns1:name "Zitrone, BioZisch" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Roy Kombucha Raspberry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Softdrink, 0,33l" ;
+                    ns1:name "Soli-Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Roy Kombucha Mate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Drinks" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Der verführerische mit frisch fermentierten marinierten Tempeh,  BBQ Chili Chipotle Sauce und Tortilla Chips für den Crunch" ;
+                    ns1:name "TEMPTING TEMPEH BURGER" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Mustard",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CHEERFUL CRUNCHY TEMPEH BURGER" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Der Rauchige mit Black Bean Pattie, Frischen Gemüse, Grrilled Grronions, Chipotle BBQ Sauce, Tortilla Chips für den Crunch" ;
+                    ns1:name "BBQ BURGER" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Der klassiker mit Black bean Pattie, frischem Salat, Yoppie Sauce und Röstzwiebeln" ;
+                    ns1:name "CLASSY BURGER" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Mustard",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "aka No Girlfriend mit Black Bean Pattie, Frisches Gemüse, Cheezy Sauce, Tortilla Chips für den Crunch!" ;
+                    ns1:name "CHEEZY BURGER" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Der Saftige mit Geschnetzeltem aus Weizen und Kichererbsen, frischem Gemüse, Coleslaw, BBQ Chili Chipotle Sauce und Tortilla Chips für den Crunch" ;
+                    ns1:name "PULLED SEITAN BURGER" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Mustard",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MAGIC MUSHROOM BURGER" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.30" ] ] ;
+            ns1:name "Burger" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Flasche Spätburgunder Rosé, 0,75 L, 12,5 %" ;
+                    ns1:name "Spätburgunder Rosé" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "Rosé" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Ale, 0,5 L. 5,1 %" ;
+                    ns1:name "Atlantik Ale, Störtebeker" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lammsbräu Pils alkoholfrei 0,33l. <0.5%" ;
+                    ns1:name "Lammsbräu Pils alkoholfrei" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Schneider Weisse Kristall 0,5l. 4.9%" ;
+                    ns1:name "Kristallweizen" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Republik Export Bier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "bio Hefeweizen 0,5l. 5,3%" ;
+                    ns1:name "Bernstein-Weizen, Störtebeker" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pils bio & kollektiv aus Hamburg 0,33l. 5%" ;
+                    ns1:name "Premium Pils" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Störtebeker Atlantik-Ale Alkoholfrei, 0,33 L. <0.5%" ;
+                    ns1:name "Atlantik-Ale Alkoholfrei, Störtebeker" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "bio Helles aus Brandenburg 0,5l. 4.5%" ;
+                    ns1:name "Helles, Braumanufaktur" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "bio Bier aus Brandenburg 0,5l, 4,5 %" ;
+                    ns1:name "Potsdamer Stange" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Schneiderweiße alkoholfrei 0,5l. <0.5%" ;
+                    ns1:name "Weizen Alkoholfrei" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ] ;
+            ns1:name "Bier" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "dit gleiche wie oben" ;
+                    ns1:name "SALAT GROß" ;
+                    ns1:nutrition "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.10" ] ] ;
+            ns1:name "Salat" ] .
+

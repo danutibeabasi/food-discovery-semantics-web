@@ -1,0 +1,64 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://demo.coopcycle.org/api/restaurants/27> ns1:hasMenu <https://demo.coopcycle.org/en/restaurant/27-la-casserole-qui-fume#menu> .
+
+<https://demo.coopcycle.org/en/restaurant/27-la-casserole-qui-fume#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Pommes de terre aux herbes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.63" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pommes de terre mi-cuit·e·s aux herbes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.85" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Poulet poêlé·e·s au vin rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.04" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Boeuf poêlé·e·s à la crème" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.59" ] ] ;
+            ns1:name "Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Flan aux pommes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.94" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tarte au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.94" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Gâteau aux figues" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.78" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crêpe aux pommes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.34" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Pickles en salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.14" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crudités en salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crudités au naturel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.12" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pickles en salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.72" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crudités en salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "Entrées" ] .
+

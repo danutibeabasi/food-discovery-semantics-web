@@ -1,0 +1,41 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://a2roo.coopcycle.org/api/restaurants/44> a ns1:Restaurant ;
+    ns1:address <https://a2roo.coopcycle.org/api/addresses/4875> ;
+    ns1:description """Bienvenue à l'Atelier Focaccia !\r
+\r
+Découvrez la street food à l'italienne dijonnaise autour de la focaccia. \r
+Tout est fait maison à la mano. En effet, notre concept est la combinaison entre savoir faire boulanger et les produits que nous importons d'Italie.\r
+La pâte fermente pendant 48h pour une onctuosité et croustillant grâce à notre recette à l'huile d'olive extra vierge.\r
+\r
+Découvrez nos focaccia avec une fougasse, une soupe ou une salade d'accompagnement et nos desserts maison : tiramisu revisité, panna cotta et cookies\r
+\r
+![Insta](https://www.a2roo-dijon.fr/assets/insta.png) [atelier_focaccia](https://www.instagram.com/latelier_focaccia/)""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.73191e+01 ;
+            ns1:longitude 5.03488e+00 ] ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/64/ab/64abcd4b5c38a.png> ;
+    ns1:name "Atelier Focaccia" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://a2roo.coopcycle.org/en/restaurant/44-atelier-focaccia" ] ] ;
+    ns1:sameAs <https://a2roo.coopcycle.org/en/restaurant/44-atelier-focaccia> ;
+    ns1:url <https://a2roo.coopcycle.org/en/restaurant/44-atelier-focaccia> .
+
+<https://a2roo.coopcycle.org/api/addresses/4875> a ns1:PostalAddress ;
+    ns1:name "Atelier Focaccia" ;
+    ns1:streetAddress "2 Place Émile Zola, 21000 Dijon, France" ;
+    ns1:telephone "+33984115350" .
+

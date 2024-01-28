@@ -1,0 +1,38 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://a2roo.coopcycle.org/api/restaurants/47> a ns1:Restaurant ;
+    ns1:address <https://a2roo.coopcycle.org/api/addresses/5720> ;
+    ns1:description """L'Alsacien Dijon vous ouvre ses portes pour vous faire découvrir ou redécouvrir les tartes flambées (flammekueches) dans la plus pure tradition alsacienne. Nos Flammekueches, sur lesquelles vous découvrirez un bord tressé à la main en Alsace, sont issues d'un savoir-faire familial issu de plusieurs générations. Le concept de L'Alsacien arrive enfin en Bourgogne Franche-Comté avec l'ambition de ravir les fin palais bourguignons.\r
+\r
+Venez goûter nos Flammekueches traditionnelles accompagnées de nombreux produits locaux spécialement sélectionnés pour vous faire découvrir le terroir alsacien. Entre amis ou en famille, pour un événement professionnel ou un anniversaire, l'Alsace se rapproche encore un peu plus de chez vous !\r
+\r
+L'Alsacien vous propose également une carte de vins alsaciens sélectionnés auprès des meilleurs domaines vignerons d'Alsace (Achillée, Joseph Koehli ou encore Julien Klein). L'Alsacien met également à votre disposition des tireuses en libre service pour une ambiance festive et conviviale. Nous vous attendons avec impatience pour partager avec nous cette nouvelle expérience. S'gilt !""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.73232e+01 ;
+            ns1:longitude 5.03657e+00 ] ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/62/0f/620f5fa6695db.png> ;
+    ns1:name "L'Alsacien" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:30" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "12:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://a2roo.coopcycle.org/en/restaurant/47-l-alsacien" ] ] ;
+    ns1:sameAs <https://a2roo.coopcycle.org/en/restaurant/47-l-alsacien> ;
+    ns1:url <https://a2roo.coopcycle.org/en/restaurant/47-l-alsacien> .
+
+<https://a2roo.coopcycle.org/api/addresses/5720> a ns1:PostalAddress ;
+    ns1:name "L'Alsacien" ;
+    ns1:streetAddress "3 Rue Mably, 21000 Dijon, France" ;
+    ns1:telephone "+33380608478" .
+

@@ -1,0 +1,392 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://krokoop.coopcycle.org/api/restaurants/3> ns1:hasMenu <https://krokoop.coopcycle.org/en/restaurant/3-l-amour-du-terroir#menu> .
+
+<https://krokoop.coopcycle.org/en/restaurant/3-l-amour-du-terroir#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Jus d'orange BIO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Landes Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Eau gazeuse Abatilles 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Eau plate Abatilles 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/96/6296af534a30b.jpeg> ;
+                    ns1:name "Landes Limo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.20" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Un foie gras 100% naturel ! Sans additif ni conservateur. Ce foie gras de canard entier du Sud-Ouest en conserve brille par son authenticité. Il se distingue par sa couleur très naturelle et son goût typé." ;
+                    ns1:name "Foie gras de canard entier du Sud Ouest 300g." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€63.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Farandole de petits pâtés en boîte 70g et bouteille d'Uby Rosé frais : la combinaison gagnante pour l'apéritif ! Des Rillettes de Canard, Terrine de canard à le fleur de sel et au piment d'espelette (70g), Terrine Gourmande 70g, Paté de Campagne (70g), des Chips pommes de terre au poivre Bio (sachet 100g) et une bouteille de Uby n°6 75cl" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/96/62969f93158fd.jpeg> ;
+                    ns1:name "Apéro 2 - Farandole de Pâtés, Chips, et Vin Rosé de Gascogne." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€30.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un foie gras 100% naturel ! Sans additif ni conservateur. Ce foie gras de canard entier du Sud-Ouest en conserve brille par son authenticité. Il se distingue par sa couleur très naturelle et son goût typé." ;
+                    ns1:name "Foie gras de canard entier du Sud Ouest 180g" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€33.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """ARMAFIZZ, la meilleure attaque !\r
+L'ARMAFIZZ est un Bas-Armagnac spécialement élaboré (47°) pour être servi en apéritif. 
+\r
+Il peut être préparé en Long Drink ou en cocktails. 
+\r
+ARMAFIZZ et Tonic doivent être mélangés dans une proportion qui peut être d'un quart d'ARMAFIZZ et de trois quarts de Tonic. 
+\r
+L'ARMAFIZZ est une recette familiale.""" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/96/6296a23f55356.jpeg> ;
+                    ns1:name "Armafizz - Apéritif" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€34.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Un délicieux assortiment pour un apéro entre amis ! \r
+Une saucisse sèche de canard, d'une Terrine de canard à la fleur de sel et au piment d'Espelette (70g), des Chips de pomme de terre BIO au poivre (sachet 100g) et un délicieux Uby N°3 Colombard Blanc Sec - IGP Gascogne 75cl""" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/96/62969e3b13e1f.jpeg> ;
+                    ns1:name "Apéro 1 - Assortiment Saucisson , Paté basque, Chips et Vin blanc sec de Gascogne." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un foie gras 100% naturel ! Sans additif ni conservateur. Ce foie gras de canard entier du Sud-Ouest en conserve brille par son authenticité. Il se distingue par sa couleur très naturelle et son goût typé." ;
+                    ns1:name "Foie gras de canard entier du Sud Ouest 125g" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une envie de terroir à partager ? Nous avons la solution pour votre apéritif : Foie gras entier de canard Sud Ouest (bocal 90g), une Pâté de Campagne  (boîte 70g), Croutons (sachet 300g), une bouteille Pellehaut Harmonie de Gascogne blanc - IGP Gascogne 75cl." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/96/6296a0403b204.jpeg> ;
+                    ns1:name "Apéro 3 - Terroir Foie gras, Pâté et Vin Blanc de Gascogne." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€40.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vous êtes en manque de foie gras ! Voilà de quoi satisfaire vos envies : un Foie Gras de Canard Entier du Sud-Ouest  (bocal 125g) et son Chutney de Figues (bocal 40g), une terrine de canard à la fleur de sel et au piment d'espelette (boite 70g), son sachet de croutons... le tout accompagné d'un délicieux Tariquet Premières Grives 75cl. Le régal absolu !" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/96/6296a0a040d03.jpeg> ;
+                    ns1:name "Apéro 4 - Dégustation Foie gras et Vin blanc Moelleux de Gascogne." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€58.00" ] ] ;
+            ns1:name "Apéros" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pour 4 à 5 personnes." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/96/6296b3b68d47a.jpeg> ;
+                    ns1:name "Poulet entier rôti Label Rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/96/6296b4dc761e0.jpeg> ;
+                    ns1:name "Raviolis au confit de canard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/96/6296b6c7ddc08.jpeg> ;
+                    ns1:name "Salade Pyrénéenne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Canard confit, écrasée de pomme de terre aux cèpes." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Issue de Canard à Foie gras du Sud-Ouest, retrouvez toute la saveur d'un merveilleux produit à déguster avec des pommes de terre sautées ou en gratin. \r
+250g la pièce environ.""" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/96/6296aa6ea6172.jpeg> ;
+                    ns1:name "Cuisse de canard confite" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Redécouvrez le goût du terroir avec notre véritable saucisse de Toulouse pur porc et ses véritables lentilles vertes Label Rouge du Berry." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/96/6296b7a0edd31.jpeg> ;
+                    ns1:name "Saucisse de Toulouse et lentilles vertes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Demi Poulet rôti BIO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/96/6296abf4a1542.jpeg> ;
+                    ns1:name "Cuisse de poulet rôti Label Rouge Landaise (ail & persil)." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ce cassoulet 100% pur porc vous régalera d'une échine de porc confite et d'une saucisse de Toulouse braisée. Concocté avec de délicieux haricots \"lingots\". À servir accompagné d'une bonne salade verte." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/96/6296a810e4dc0.jpeg> ;
+                    ns1:name "Cassoulet et sa saucisse braisée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pour 1 à 2 personnes." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/96/6296aca58227a.jpeg> ;
+                    ns1:name "Demi Poulet rôti Label Rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "250g" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/96/6296ab53586f6.jpeg> ;
+                    ns1:name "Cuisse de poulet rôti Label Rouge aux Herbes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Poulet entier rôti BIO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Découvrez le burger Gascon composé d'effilochés de Canard, de fromage, oignons doux des Cévennes et relevé avec son ketchup au piment d'espelette ... Le tout accompagné de ses pommes de terre grenaille à la graisse de canard." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/96/6296a4f757490.jpeg> ;
+                    ns1:name "Burger Gascon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Croque Monsieur composé de magret séché, d'emmental et d'une béchamel à la truffe.\r
+Servi avec sa petite salade.""" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/96/6296a97483847.jpeg> ;
+                    ns1:name "Croque Monsieur Canard Truffe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ce risotto élaboré avec un riz rond Arboria, l'un des plus fins en goût qui permet d'absorber tous les jus de cuisson, a été cuisiné avec de l'émincé de viande de canard fondante, des champignons de Paris et des cèpes. Pour un coté encore plus onctueux vous pouvez rajouter une cuillerée de crème fraiche." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/96/6296b59b8661e.jpeg> ;
+                    ns1:name "Risotto au canard et aux champignons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Foie Gras entier mi-cuit sous vide (350g)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€64.50" ] ] ;
+            ns1:name "Épicerie" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Sauce Barbecue - Stick" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sauce Moutarde - Stick" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sauce Mayonnaise - Stick" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sauce Ketchup - Stick" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.40" ] ] ;
+            ns1:name "Sauces" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "200g pour 1 personne." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/96/6296b27a21a04.jpeg> ;
+                    ns1:name "Pommes de terre grenailles" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "200g pour 1 personne" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/96/6296ae49cda45.jpeg> ;
+                    ns1:name "Gratin de pommes de terre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "200g pour 1 personne" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/96/6296b45f0a3f1.jpeg> ;
+                    ns1:name "Ratatouille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "Accompagnement" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "D'une robe jaune au reflet vert, ce vin possède une aromatique de pêche, d'abricot, ponctuée par des notes fleuries. Au goût, on retrouve ces notes de fruits à chair jaune, de poire et de chèvrefeuille. La note est légèrement vanillée et beurrée. Il accompagnera à merveille les plats de volaille ainsi que les plats exotiques." ;
+                    ns1:name "Domaine Pellehaut - Ampelomeryx" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """UBY N°4 est un véritable concentré de fruits exotiques, avec des notes marquées de fruit de la passion, d'ananas et de mangue. \r
+Une sensation veloutée et onctueuse exprime des arômes de coing et de citrion confit. \r
+Ce vin vous étonnera par son élégance et son incroyable fraîcheur.""" ;
+                    ns1:name "Uby N°4 blanc - IGP Gascogne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière artisanale Bio du Sud-Ouest bouteille 75cl. \r
+Brassée à Gimont dans le Gers par Jean Brasse.""" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/96/6296a29e51fe2.jpeg> ;
+                    ns1:name "Bière blanche BIO - Brasseur Artisanal du Gers \"Jean Brasse\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Le N°3 d'UBY est le produit de partage et de plaisir par excellence. Un blanc sec avec une palette aromatique intense : idéal pour l'apéritif avec un rapport qualité prix exceptionnel." ;
+                    ns1:name "Uby N°3 Colombard - Blanc sec IGP Gascogne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "D'une robe rouge rubis, ce vin aux senteurs de fruits noirs et de violette, nous offre un goût voluptueux, avec des notes de fruits rouges mûris à point, et des tanins souples. D'une structure toute en finesse, il accompagnera à merveille viande rouge, plateau de fromage, assiette de charcuterie." ;
+                    ns1:name "Domaine Pellehaut - Harmonie de Gascogne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière artisanale Bio du Sud-Ouest bouteille 75cl. \r
+Brassée à Gimont dans le Gers par Jean Brasse.""" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/96/6296a3ac6b089.jpeg> ;
+                    ns1:name "Bière blonde BIO - Brasseur Artisanal du Gers \"Jean Brasse\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Rosé à la robe très claire, couleur pétale de rose, au nez très aromatique sur des notes de fruits blanc et d'agrumes. Bouche toute en finesse sur les mêmes notes aromatiques avec une très bonne longueur." ;
+                    ns1:name "Perle rosé vin de France" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Rond, fruité, pimpant !\r
+Ce rouge inspire la joie de vivre, entre richesse et fraîcheur toute en naturel. Le vignoble de l'appellation Buzet est situé au croisement de deux grandes régions viticoles. Il es très lié au vignoble bordelais par ses cépages, ses caractéristiques géologiques et son influence climatologique, mais son accent lui vient de la proximité avec le Sud-Ouest.""" ;
+                    ns1:name "Buzet sans soufre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """C'est un vin fin, élégant et typé. Le caractère est exotique et gourmand. Ce vin propose une grande fraîcheur qui dynamise l'ensemble. Moment de bonheur immédiat, un vrai moelleux équilibré laissant placeà une finale de raisin frais ...\r
+Servir frais. À consommer en apéritif, durant les repas, sur foie gras, viandes blanches. Il surprendra avec des fromages à pâte persillée ...""" ;
+                    ns1:name "Tariquet - Premières Grives" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "L'Homme Canon - Vin rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Une bière ambrée avec ajout de notre Bas-Armagnac (VSOP) en fin de fermentation (6,2% vol). \r
+Cette bière est brassée artisanalement par notre ami "La Séquère" à Seignosse, une bière qui est donc 100% Landaise et Artisanale.""" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/96/6296a44864304.jpeg> ;
+                    ns1:name "Bière Demognac" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La robe est rubis. La senteur est intense, il révèle des arômes de cassis, de figue, de mûre ainsi que des notes de sous-bois, de menthe poivrée. L'élevage en fût est discret et complète subtilement la palette aromatique avec de fines notes toastées et torréfiées. Au goût l'attaque est délicate et crémeuse, la finale longue et finement boisée." ;
+                    ns1:name "Le Roi Boeuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Glamour rosé vin de Pays d'Oc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Robe rose avec de jolis reflets bleutés, nez intense sur des notes de fruits blancs, en bouche, très belle intensité aromatique avec des notes d'agrumes et de fraise." ;
+                    ns1:name "My Tavel rosé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Uby N°6 rosé - IGP Gascogne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Ce vin au parfum d'exotisme, nous submerge en bouche avec des notes de fruits de la passion, d'ananas, d'orange, de kiwi. \r
+Ce vin légèrement moelleux mais frais appelle à la gourmandise avec son melting-pot de savoureux fruits. \r
+À déguster aussi bien en apéritif, qu'en accompagnement d'une viande blanche. \r
+Assemblage de gros Manseng.""" ;
+                    ns1:name "L'été Gascon 2021 - Domaine de Pellehaut" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Cépages Marseng et Courbu blanc.\r
+Note agrume, exotique. Ce Pacherenc du Vic Bilh Sec a une belle fraicheur en bouche avec un caractère fruité et équilibré. \r
+Un très bon vin blanc pour l'apéritif ...""" ;
+                    ns1:name "Pacherenc de Vil Bilh - Berthomieu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.80" ] ] ;
+            ns1:name "Boissons alcoolisées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "150 gr de Jambon de Bayonne 14 mois ,  125g de saucisson de porc au piment d'Espelette, Rillettes de porc au jambon de Bayonne et piment d'Espelette (70g), Paté de Campagne (70g)  et un pâté au magret (70 gr)" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/96/6296b08463448.jpeg> ;
+                    ns1:name "Planche Charcuterie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Planche Fromages" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "100g de jambon de Bayonne 14 mois , 100g de chorizo de porc noir de Bigorre, pâté de magret (70g), 100g de tomette pur brebis et 100g de tomette pur vache." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/96/6296b172446a4.jpeg> ;
+                    ns1:name "Planche mixte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.00" ] ] ;
+            ns1:name "Planches" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Crème Dessert Chocolat au lait" ;
+                    ns1:name "Crème Dessert Chocolat au lait" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gateau moelleux Citron Amandes sans Gluten" ;
+                    ns1:name "Dessert - Moelleux citron Amande (part)" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chocolat 26% (sucre, pâte de cacao, beurre de cacao, émulsifiant: lécithine de soja, arôme vanille), oeufs entiers liquides, beurre (lait origine UE), sucre, farine de blé." ;
+                    ns1:name "Moelleux au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crème Dessert Vanille & Rhum" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Dessert" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Cuisse de poulet aux herbes et pommes de terre.\r
+Servi avec une boisson non alcoolisée et un dessert au choix.""" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/96/6296ba404dbb3.jpeg> ;
+                    ns1:name "Formule déjeuner - Cuisse de Poulet aux Herbes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1/2 Magret de canard et pommes de terre grenaille ou gratin dauphinois ou ratatouille, servi avec une boisson non alcoolisée et un dessert au choix." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/e5/63e596ea14033.jpeg> ;
+                    ns1:name "Formule déjeuner - Magret de canard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/e5/63e5982a6646e.jpeg> ;
+                    ns1:name "Formule déjeuner - Cuisse de Poulet marinade Barbecue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cuisse de canard confite et pommes de terre grenaille ou gratin dauphinois, servi avec une boisson non alcoolisée et un dessert au choix" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/e5/63e597c529212.jpeg> ;
+                    ns1:name "Formule déjeuner Cuisse de canard confite" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.90" ] ] ;
+            ns1:name "Formules" ] .
+

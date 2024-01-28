@@ -1,0 +1,640 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://cyclome.coopcycle.org/api/restaurants/15> ns1:hasMenu <https://cyclome.coopcycle.org/en/restaurant/15-bougnat-burger#menu> .
+
+<https://cyclome.coopcycle.org/en/restaurant/15-bougnat-burger#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pâte Sucrée, Appareil Citron et Meringue." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/91/6091071a1c941.jpeg> ;
+                    ns1:name "Tarte Citron Meringuée" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Génoise Nature, Mousse Bavaroise, Framboises, Amandes Hachées Torréfiées." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/91/609117f988156.jpeg> ;
+                    ns1:name "Framboisier" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Génoise Chocolat, Crème Chantilly Maison, Copeaux de Chocolat au Lait, Sans Cerise, Sans Alcool." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/60903c8de94c3.jpeg> ;
+                    ns1:name "Forêt Noire" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base Crème Fraîche et Fruits Secs, Cubes d'Abricots et Raisins Secs ainsi que des Morceaux de Noisettes, Pistaches et Amandes." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/91/6091179fc4f18.jpeg> ;
+                    ns1:name "Nougat Glacé" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gâteau au Chocolat, et son Cœur Fondant. Servi Tiède." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/91/60911a53df53e.jpeg> ;
+                    ns1:name "Coulant Gourmand au Chocolat" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain Burger Artisanal, Steak Haché Charolais ou Galette de Pommes de Terre, Cantal Jeune AOP, Tomates, Salade Faite Maison et son Mesclun, Sauce au Saint Nectaire Fermier AOP. Servi avec Frites Faites Maison. Boisson CAPRISUN au choix." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/60904021b8212.jpeg> ;
+                    ns1:name "Lo Petiot" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ] ;
+            ns1:name "Lo Petiot" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/60903ac702258.jpeg> ;
+                    ns1:name "Fanta Orange" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Arôme au choix, 20cl" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/91/60911a1d16110.jpeg> ;
+                    ns1:name "Pago" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/6090445f301af.jpeg> ;
+                    ns1:name "Sprite" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/6090396c8800e.jpeg> ;
+                    ns1:name "Coca Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/609039f473fe4.jpeg> ;
+                    ns1:name "Coca Cola Zero" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/609043eede570.jpeg> ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/60904379b2ee9.jpeg> ;
+                    ns1:name "Perrier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/6090389e6320f.jpeg> ;
+                    ns1:name "Bouteille d'eau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/60903cde03916.jpeg> ;
+                    ns1:name "Fuze Tea Pêche Intense" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/60904435bfaa7.jpeg> ;
+                    ns1:name "Shweppes Agrum" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "Boissons sans alcool" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bière Artisanale Blonde Aux Parfums Maltés et à La Douce Amertume, 5%, 33 cL." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/609037dc8721a.jpeg> ;
+                    ns1:name "Blonde Des Sagnes" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière Artisanale Indian Pale Ale Parfum Fruité Avec Une Amertume Désaltérante, IPA 5%, 33cl." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/60903820bb4c2.jpeg> ;
+                    ns1:name "Boom Shiva" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière Artisanale Blonde Pale Ale Au Parfum Fruité et à l'Amertume Équilibrée, 5,5%, 33cl." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/6090434a0014d.jpeg> ;
+                    ns1:name "Owl Beer Pale Ale" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière Artisanale Noire à La Texture Veloutée et Une Douce Amertume 5,9%, 33 cL." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/60903797bc54a.jpeg> ;
+                    ns1:name "Black Sands" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière Artisanale Blanche Pale Ale, Parfum Fruité Avec Une Amertume Equilibrée, 5,5%, 33 cl." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/60904b769e53b.jpeg> ;
+                    ns1:name "White Pale Ale" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière Artisanale Ambrée Aux Notes Caramélisées et Avec Une Légère Amertume, 6%, 33 cL." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/6090359b15c60.jpeg> ;
+                    ns1:name "Ambrée Des Sagnes" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "Bières artisanales - Brasserie des Sagnes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Crème Glacée Chocolat Avec des Morceaux de Brownies . 465mL" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/91/6091015779bf8.jpeg> ;
+                    ns1:name "Chocolate Fudge Brownie (465mL)" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Crème Glacée Vanille Avec des Morceaux de Noix de Pécan caramélisés.\r
+100 mL""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/91/609101a737a88.jpeg> ;
+                    ns1:name "Vanilla Pecan Brittle (100 mL)" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Peanuts",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/91/60911a8803c4a.jpeg> ;
+                    ns1:name "Maxi Vanille Pecan Blondie (465 mL)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème Glacée Chocolat Avec des Morceaux de Brownies .100 mL" ;
+                    ns1:name "Chocolate Fudge Brownie (100mL)" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Glaces" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Vin rouge aux notes fruitées, 2015, Côtes d'Auvergne Appellation d'Origine Controlée, 75cL." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/6090386435247.jpeg> ;
+                    ns1:name "Boudes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vin rosé aux notes florales, 2018, Côtes d'Auvergne Apellation d'Origine Contrôlée, 75cL." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/60903a2b06994.jpeg> ;
+                    ns1:name "Corent" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vin rouge aux notes épicées, 2016, Châteaux de Lascaux, Appellation Languedoc Controlée, 75cL." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/609043c8026bb.jpeg> ;
+                    ns1:name "Pic Saint Loup" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vin rouge aux notes fruitées, 2019, Appellation Côtes du Rhône Contrôlée, 75cL." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/609035ef2a9c6.jpeg> ;
+                    ns1:name "Belleruche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vin rosé aux notes de fraîcheur, 2020, Château des Demoiselles - Apellation Côtes de Provence Protégée, 75cL." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/609038cd06354.jpeg> ;
+                    ns1:name "Charme des Demoiselles" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vin blanc moelleux, Côtes de Gascogne Indication Géographique Protégée, 75cL." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/609036bef0205.jpeg> ;
+                    ns1:name "Villa Dria" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vin blanc sec, 2018, Domaine Des Cailles - Saint Pourçain Appellation d'Origine Protégée, 75cL." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/91/6091052ebe3ca.jpeg> ;
+                    ns1:name "Domaine Des Cailles" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ] ;
+            ns1:name "Vins" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain Burger Artisanal, Steak Haché Charolais ou Galette de Pommes de Terre, Cantal Jeune AOP, Poivrons, Chorizo, Pomme Paillasson, Salade Faite Maison et Son Mesclun, Sauce Chili. Servi avec Frites Faites Maison." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/60904b363f08c.jpeg> ;
+                    ns1:name "Ti Vulcano" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain Burger Artisanal, Galette de Pommes de Terre, Cantal Jeune AOP, Poivrons, Tomates, Salade Faite Maison et Son Mesclun, Sauce Ciboulette. Servi avec Frites Faites Maison." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/60904ae074188.jpeg> ;
+                    ns1:name "Ti Vegetario" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain Burger Artisanal, Steak Haché Charolais ou Galette de Pommes de Terre, Cantal Salers AOP, Jambon d'Auvergne IGP, Pomme Paillasson, Salade Faite Maison et Son Mesclun, Sauce au Saint Nectaire Fermier AOP. Servi avec Frites Faites Maison." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/60904a6a1d5d0.jpeg> ;
+                    ns1:name "Ti Salers" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain Burger Artisanal, Steak Haché Charolais ou Galette de Pommes de Terre, Saint Nectaire Fermier AOP, Bleu d'Auvergne AOP, Cantal Jeune AOP, Fromage de Chèvre Moulé à la Louche, Jambon d'Auvergne IGP, Chorizo, Tomates, Pomme Paillasson, Poivrons, Tomates, Noix, Salade Faite Maison et Son Mesclun, Sauce au Saint Nectaire Fermier AOP. Servi avec Frites Faites Maison." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/92/60922eafdc6c0.jpeg> ;
+                    ns1:name "Ti Mefiano" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain Burger Artisanal, Steak Haché Charolais ou Galette de Pommes de Terre, Fromage de Chèvre Moulé à la Louche, Jambon d'Auvergne IGP, Miel, Salade Faite Maison et Son Mesclun, Sauce Crème Ciboulette. Servi avec Frites Faites Maison." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/91/609117531afdb.jpeg> ;
+                    ns1:name "Ti Cabri" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain Burger Artisanal, Steak Haché Charolais ou Galette de Pommes de Terre, Bleu d'Auvergne AOP, Cantal Jeune AOP, Pomme Paillasson, Noix, Salade Faite Maison et Son Mesclun, Sauce au Bleu d'Auvergne AOP. Servi avec Frites Faites Maison." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/6090479e3857a.jpeg> ;
+                    ns1:name "Ti Blue" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain Burger Artisanal, Steak Haché Charolais ou Galette de Pommes de Terre, Saint Nectaire Fermier AOP, Bleu d'Auvergne AOP, Cantal Jeune AOP, Jambon d'Auvergne IGP, Tomates, Pomme Paillasson, Noix, Salade Faite Maison et Son Mesclun, Sauce au Saint Nectaire Fermier AOP. Servi avec Frites Faites Maison." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/609048c8add2e.jpeg> ;
+                    ns1:name "Ti Mefia Te" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain Burger Artisanal, Steak Haché Charolais ou Galette de Pommes de Terre, Saint Nectaire Fermier AOP, Jambon d'Auvergne IGP, Pomme Paillasson, Salade Faite Maison et son Mesclun, Sauce au Saint Nectaire Fermier AOP. Servi avec Frites Faites Maison." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/609047e4336b3.jpeg> ;
+                    ns1:name "Ti Bougnat" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain Burger Artisanal, Steak Haché Charolais ou Galette de Pommes de Terre, Carré d'Aurillac AOP, Pomme Paillasson, Noix, Salade Faite Maison et Son Mesclun, Sauce au Bleu d'Auvergne AOP. Servi avec Frites Faites Maison." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/60904a14e9960.jpeg> ;
+                    ns1:name "Ti Rillac" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain Burger Artisanal, Steak Haché Charolais ou Galette de Pommes de Terre, Saint Nectaire Fermier AOP, Bleu d'Auvergne AOP, Jambon d'Auvergne IGP, Pomme Paillasson, Noix, Salade Faite Maison et son Mesclun, Sauce au Saint Nectaire Fermier AOP. Servi avec Frites Faites Maison." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/6090484ca0c24.jpeg> ;
+                    ns1:name "Ti Gourmand" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ] ;
+            ns1:name "Burgers Simple" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Galette de Blé, Fromage de Chèvre Moulé à la Louche, Miel, Jambon d'Auvergne IGP, Tomates, Salade Faite Maison et son Mesclun, Sauce Crème Ciboulette. Servi avec Frites Faites Maison." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/60904c306d554.jpeg> ;
+                    ns1:name "Wrap Chèvre" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette de blé, Blanc de Poulet, Tomates, Poivrons, Salade Faite Maison et son Mesclun, Sauce Crème curry. Servi avec Frites Faites Maison." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/60904ca9580ee.jpeg> ;
+                    ns1:name "Wrap Poulet" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette de blé, Saumon Fumé en Auvergne, Tomates, Salade Faite Maison et son Mesclun, Sauce à l'aneth. Servi avec Frites Faites Maison." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/60904bc98fae0.jpeg> ;
+                    ns1:name "Wrap Saumon" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Fish",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ] ;
+            ns1:name "Wraps" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bière Blonde Artisanale à base d’Orges d’Auvergne, de houblons Alsaciens et refermentée avec du Miel d’Auvergne. 6% 33cL." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/60903b18ee357.jpeg> ;
+                    ns1:name "Fée de l'Effet" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière Artisanale Ambrée aux Noix. 6% 33cL." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/92/60922d32c3ea9.jpeg> ;
+                    ns1:name "Noix de Dordogne" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière Artisanale Blanche, à base de Verveine élaborée à partir d’Orge et de Blé d’Auvergne. 5%  33cL." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/60903d1702a5b.jpeg> ;
+                    ns1:name "La Bière des Druides" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière Artisanale Biologique, Blonde aux Céréales d'Auvergne. 5% 33cL." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/92/60922d80c60dd.jpeg> ;
+                    ns1:name "Organic Bio" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière Artisanale Noire, aux Céréales d'Auvergne. 7% 33cL." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/92/60922b5ac65dc.jpeg> ;
+                    ns1:name "Bière de Lave" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière Artisanale Blanche, Fruitée à la Myrtille et aux Céréales d'Auvergne, 6% 33cL." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/60903c19eb7e9.jpeg> ;
+                    ns1:name "Flagrant Désir" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière Artisanale Blonde aux Céréales d'Auvergne et aux Notes de Sureau. 6% 33cL." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/609039128f1d1.jpeg> ;
+                    ns1:name "Cloche Rouge" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière artisanale Biologique Ambrée à la Châtaigne et à la Gentiane.  6% 33cL." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/92/60922b041feb6.jpeg> ;
+                    ns1:name "Antidote Bio" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière Artisanale Blonde aux Lentilles de St Flour. 5% 33cL." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/92/60922cf6865df.jpeg> ;
+                    ns1:name "La Planèze" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière Artisanale Cuivrée aux Cèpes d'Auvergne. 5% 33cL." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/92/60922dc95100c.jpeg> ;
+                    ns1:name "Tête Noire" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "Bières artisanales - Maison Desprat" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Brune, Bière Artisanale Biologique, 5%, Belle Mousse Dense et Abondante, 33cL." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/92/60922cbc2cc0a.jpeg> ;
+                    ns1:name "La Brune" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Blanche, Bière Artisanale Biologique, 4,5%, Fine Mousse Bulle Délicate, 33cL." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/92/60922bddc0e7b.jpeg> ;
+                    ns1:name "La Blanche" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ambrée, Bière Artisanale Biologique, 5%, Mousse Homogène et Compacte, 33cL." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/92/60922c917b1dc.jpeg> ;
+                    ns1:name "L'Ambrée" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Blonde, Bière Artisanale Biologique, 5%, Mousse Onctueuse Bulle Légère, 33cL." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/92/60922c06c039d.jpeg> ;
+                    ns1:name "La Blonde" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "Bières Artisanales - Le Plan B" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/92/60924544661e6.jpeg> ;
+                    ns1:name "Salade et Mesclun" ;
+                    ns1:nutrition "Mustard",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/92/609245ae7f2c2.jpeg> ;
+                    ns1:name "Cornet de Frites Maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ] ;
+            ns1:name "Accompagnements" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain Burger Artisanal, Double Steak Haché Charolais ou Galette de Pommes de Terre, Fromage de Chèvre Moulé à la Louche, Jambon d'Auvergne IGP, Miel, Salade Faite Maison et Son Mesclun, Sauce Crème Ciboulette. Servi avec Frites Faites Maison." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/91/609116da65a30.jpeg> ;
+                    ns1:name "Lo Cabri" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain Burger Artisanal, Double Galette de Pommes de Terre, Cantal Jeune AOP, Poivrons, Tomates, Salade Faite Maison et Son Mesclun, Sauce Ciboulette. Servi avec Frites Faites Maison." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/609041bf8148e.jpeg> ;
+                    ns1:name "Lo Vegetario" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain Burger Artisanal, Double Steak Haché Charolais ou Galette de Pommes de Terre, Saint Nectaire Fermier AOP, Jambon d'Auvergne IGP, Pomme Paillasson, Salade Faite Maison et son Mesclun, Sauce au Saint Nectaire Fermier AOP. Servi avec Frites Faites Maison." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/60903eede7237.jpeg> ;
+                    ns1:name "Lo Bougnat" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain Burger Artisanal, Double Steak Haché Charolais ou Galette de Pommes de Terre, Saint Nectaire Fermier AOP, Bleu d'Auvergne AOP, Jambon d'Auvergne IGP, Pomme Paillasson, Noix, Salade Faite Maison et son Mesclun, Sauce au Saint Nectaire Fermier AOP. Servi avec Frites Faites Maison." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/60903f39b4cde.jpeg> ;
+                    ns1:name "Lo Gourmand" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain Burger Artisanal, Double Steak Haché Charolais ou Galette de Pommes de Terre, Cantal Jeune AOP, Poivrons, Chorizo, Pomme Paillasson, Salade Faite Maison et Son Mesclun, Sauce Chili. Servi avec Frites Faites Maison." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/6090422ccc308.jpeg> ;
+                    ns1:name "Lo Vulcano" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain Burger Artisanal, Double Steak Haché Charolais ou Galette de Pommes de Terre, Carré d'Aurillac AOP, Pomme Paillasson, Noix, Salade Faite Maison et Son Mesclun, Sauce au Bleu d'Auvergne AOP. Servi avec Frites Faites Maison." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/60904076cda87.jpeg> ;
+                    ns1:name "Lo Rillac" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain Burger Artisanal, Double Steak Haché Charolais ou Galette de Pommes de Terre, Cantal Salers AOP, Jambon d'Auvergne IGP, Pomme Paillasson, Salade Faite Maison et Son Mesclun, Sauce au Saint Nectaire Fermier AOP. Servi avec Frites Faites Maison." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/60904172c82ba.jpeg> ;
+                    ns1:name "Lo Salers" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain Burger Artisanal, Double Steak Haché Charolais ou Galette de Pommes de Terre, Saint Nectaire Fermier AOP, Bleu d'Auvergne AOP, Cantal Jeune AOP, Jambon d'Auvergne IGP, Tomates, Pomme Paillasson, Noix, Salade Faite Maison et Son Mesclun, Sauce au Saint Nectaire Fermier AOP. Servi avec Frites Faites Maison." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/60903f851a3cb.jpeg> ;
+                    ns1:name "Lo Mefia Te" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain Burger Artisanal, Double Steak Haché Charolais ou Galette de Pommes de Terre, Bleu d'Auvergne AOP, Cantal Jeune AOP, Pomme Paillasson, Noix, Salade Faite Maison et Son Mesclun, Sauce au Bleu d'Auvergne AOP. Servi avec Frites Faites Maison." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/90/60903dfd6bb2a.jpeg> ;
+                    ns1:name "Lo Blue" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ] ;
+            ns1:name "Burgers Double" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salade Faite Maison et son Mesclun, Cantal Jeune AOP, Blanc de Poulet, Poivrons, Croûtons à l'Huile d'Olive, Tomates Cerises." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/91/609156592bfc3.jpeg> ;
+                    ns1:name "Vercingetorix VS Cesar" ;
+                    ns1:nutrition "Eggs",
+                        "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade Faite Maison et son Mesclun, Jambon d’Auvergne IGP, Bleu d'Auvergne AOP, Cantal Jeune AOP, Noix, Tomates Cerises." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/88/60884cc17e3dd.jpeg> ;
+                    ns1:name "Auvergnate" ;
+                    ns1:nutrition "Mustard",
+                        "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade Faite Maison et son Mesclun, Toasts Chauds de Fromage de Chèvre Moulé à la Louche, Miel, Jambon d'Auvergne IGP, Pignons de Pin, Herbes de Provence, Tomates Cerises." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/88/60884f91b697a.jpeg> ;
+                    ns1:name "Chèvre Chaud" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Mustard",
+                        "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade Faite Maison et son Mesclun, Toasts Chauds de Saint Nectaire Fermier AOP, Toasts Chauds de Bleu d'Auvergne AOP, Cantal Jeune AOP, Jambon d'Auvergne IGP, Tomates Cerises." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/91/60915630f3c9f.jpeg> ;
+                    ns1:name "Sancy" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ] ;
+            ns1:name "Salades" ] .
+

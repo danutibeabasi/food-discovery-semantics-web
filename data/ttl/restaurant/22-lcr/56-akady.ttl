@@ -1,0 +1,44 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lcr.coopcycle.org/api/restaurants/56> a ns1:Restaurant ;
+    ns1:address <https://lcr.coopcycle.org/api/addresses/44367> ;
+    ns1:bannerImage "https://lcr.coopcycle.org/media/cache/restaurant_banner/65/6e/656e06c5ddc92.png" ;
+    ns1:description "\"Le restaurant solidaire AKADY est construit comme un concept à double facette. D’une part, le restaurant relève le défi de proposer une offre de restauration africaine saine et généreuse à moindre coût, accessible en particulier à des personnes aux revenus faibles. D’autre part, Akady se veut être, plus qu’un restaurant, un vrai lieu de vie ouvert à toutes et tous.\"" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.810394e+01 ;
+            ns1:longitude -1.677383e+00 ] ;
+    ns1:image <https://lcr.coopcycle.org/media/cache/restaurant_thumbnail/65/56/65563dc249a52.jpg> ;
+    ns1:name "Akady" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:45" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "12:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:45" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:15" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://lcr.coopcycle.org/en/restaurant/56-akady" ] ] ;
+    ns1:sameAs <https://lcr.coopcycle.org/en/restaurant/56-akady> ;
+    ns1:url <https://lcr.coopcycle.org/en/restaurant/56-akady> .
+
+<https://lcr.coopcycle.org/api/addresses/44367> a ns1:PostalAddress ;
+    ns1:name "Akady" ;
+    ns1:streetAddress "12 Rue de l'Alma, 35000 Rennes, France" ;
+    ns1:telephone "+33753938900" .
+

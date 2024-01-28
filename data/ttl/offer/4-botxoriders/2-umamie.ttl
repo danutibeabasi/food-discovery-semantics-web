@@ -1,0 +1,146 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://botxoriders.coopcycle.org/api/restaurants/2> ns1:hasMenu <https://botxoriders.coopcycle.org/en/restaurant/2-umamie#menu> .
+
+<https://botxoriders.coopcycle.org/en/restaurant/2-umamie#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Txipis, cebolla y tinta, ¿qué más se puede pedir?" ;
+                    ns1:image <https://botxoriders.coopcycle.org/media/cache/product_thumbnail/5f/c8/5fc8c52c3dded.jpeg> ;
+                    ns1:name "Txipirones en su Tinta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://botxoriders.coopcycle.org/media/cache/product_thumbnail/5f/c8/5fc8c84770628.jpg> ;
+                    ns1:name "Zumo de Fresa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://botxoriders.coopcycle.org/media/cache/product_thumbnail/5f/c8/5fc8c4acead0f.jpeg> ;
+                    ns1:name "Patatas fritas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pollo pasado por la parrilla y terminado a baja temperatura con salsa BBQ coreana. Si te gusta el picante tienes que probarlo" ;
+                    ns1:image <https://botxoriders.coopcycle.org/media/cache/product_thumbnail/5f/c8/5fc8c4ed0608d.jpeg> ;
+                    ns1:name "Pollo en BBQ Coreana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://botxoriders.coopcycle.org/media/cache/product_thumbnail/5f/c8/5fc8c54264d69.jpg> ;
+                    ns1:name "Verduras asadas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "¿Por qué limitarse a los fines de semana?" ;
+                    ns1:image <https://botxoriders.coopcycle.org/media/cache/product_thumbnail/5f/c8/5fc8c51668547.jpg> ;
+                    ns1:name "Rabas y punto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Si tienes gusanillo de un postre no muy dulce esta es tu opción" ;
+                    ns1:image <https://botxoriders.coopcycle.org/media/cache/product_thumbnail/5f/c8/5fc8c5561053f.jpeg> ;
+                    ns1:name "Yogurt, mermelada de frutas y cereales" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Musaka, nuestra version vegetariana de este delicioso plato griego." ;
+                    ns1:image <https://botxoriders.coopcycle.org/media/cache/product_thumbnail/5f/c8/5fc8c47504609.jpeg> ;
+                    ns1:name "Musaka de Shitakes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "Categoria 2" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://botxoriders.coopcycle.org/media/cache/product_thumbnail/5f/c8/5fc8c85d70f66.jpg> ;
+                    ns1:name "Zumo de Melocotón" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Basqueland Arraun Amber Ale - Basqueland Arraun Hoppy Amber Ale Arraun! significa ¡Remar! en Euskera. Comúnmente gritado por el hombre de popa de la embarcación para conseguir que sus remeros tiren al unísono. Arraun! Y que no miren hacia atrás.\r
+Esta te pega primero en la nariz con el pomelo, caramelo y cuero, que parten de una generosa dosis de lúpulo Simcoe seco. En el paladar, Arraun Amber Ale está perfectamente equilibrada por una robusta columna vertebral de malta con matices de arce (gracias, maltas Crystal), y con un acabado limpio y fresco.\r
+Un robusto sabor a malta que acompaña a una buena dosis de Simcoe añadida a base de “dry-hop”. Que siga la fiesta, no vamos a hacer caso a la economía.""" ;
+                    ns1:image <https://botxoriders.coopcycle.org/media/cache/product_thumbnail/5f/c8/5fc8c3177a1c6.jpg> ;
+                    ns1:name "Basqueland Arraun Amber Ale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Imparable IPA\r
+India Pale Ale\r
+Nuestra cerveza artesana Imparable India Pale Ale es la cerveza más popular de Basqueland.\r
+Es una IPA hecha al estilo de la costa oeste de los EEUU. Tiene un cuerpo medio y rubio. Los lúpulos son los protagonistas esta cerveza.\r
+Con aromas a papaya, guayaba, piña y sabor de pino con toques resinosos, esta cerveza es un “bad-ass m*therf*cker”""" ;
+                    ns1:image <https://botxoriders.coopcycle.org/media/cache/product_thumbnail/5f/c8/5fc8c33339ed9.png> ;
+                    ns1:name "Basqueland Imparable IPA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Cervezas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "La mezcla perfecta de un caldo aromatizado con una jugosa porción de proteína, acompañada de fideos, zanahoria, brócoli y coliflor al alcance y de todos y para disfrutar en casa, con una jarra que te puedes quedar para acordar de nosotros." ;
+                    ns1:image <https://botxoriders.coopcycle.org/media/cache/product_thumbnail/63/98/6398846e84c46.jpeg> ;
+                    ns1:name "Ramen de Amén de Pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Se nos da bien hacerlos, y a muchos se os da bien comerlos así que..." ;
+                    ns1:image <https://botxoriders.coopcycle.org/media/cache/product_thumbnail/5f/c8/5fc8c38cdd983.jpeg> ;
+                    ns1:name "Bote de Garbanzos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La mezcla perfecta de un caldo aromatizado con una jugosa porción de proteína, acompañada de fideos, zanahoria, brócoli y coliflor al alcance de todos y para disfrutar en casa, servido en un recipiente que podrás reutilizar en tu casa para que te acuerdes de nosotros" ;
+                    ns1:image <https://botxoriders.coopcycle.org/media/cache/product_thumbnail/63/98/63988431931a4.jpeg> ;
+                    ns1:name "Ramen de Amén de Ternera" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brownie hecho con  4 tipos de chocolate, dulce de leche... que mas se puede pedir." ;
+                    ns1:image <https://botxoriders.coopcycle.org/media/cache/product_thumbnail/60/59/6059df62a159a.jpeg> ;
+                    ns1:name "Brownie" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pues, ¿qué contaros de este? Hemos hecho nuestra versión más sabrosa de burrito, está teniendo mucho éxito, por eso lo solemos poner muy a menudo. Plato completo, salsa de verduras, arroz y carne... ¿qué más se puede pedir? (version vegana disponible)" ;
+                    ns1:image <https://botxoriders.coopcycle.org/media/cache/product_thumbnail/5f/c8/5fc8c7c2d3b53.jpg> ;
+                    ns1:name "Burrito" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ya que nos salen tan bien, te las puedes llevar en ración con su guarnición." ;
+                    ns1:image <https://botxoriders.coopcycle.org/media/cache/product_thumbnail/5f/c8/5fc8c2c808302.jpeg> ;
+                    ns1:name "Albóndigas en Salsa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://botxoriders.coopcycle.org/media/cache/product_thumbnail/5f/c8/5fc8c2e17a9f9.jpg> ;
+                    ns1:name "Arroz Integral" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Delicioso y jugoso bizcocho." ;
+                    ns1:image <https://botxoriders.coopcycle.org/media/cache/product_thumbnail/5f/c8/5fc8c35446328.jpeg> ;
+                    ns1:name "Bizcocho de chocolate con nueces" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bacalao hecho a baja temperatura con nuestra salsa Bizkaina o con un curry de coco." ;
+                    ns1:image <https://botxoriders.coopcycle.org/media/cache/product_thumbnail/5f/c8/5fc8c2f85834e.jpg> ;
+                    ns1:name "Bacalao en Salsa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Alitas de pollo cocinadas a baja temperatura y rebozadas  para que estén siempre tiernas y jugosas." ;
+                    ns1:name "Alitas de pollo" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Mustard",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ] ;
+            ns1:name "Ramenes de Amén" ] .
+

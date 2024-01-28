@@ -1,0 +1,43 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://khora.berlin/api/restaurants/114> a ns1:Restaurant ;
+    ns1:address <https://khora.berlin/api/addresses/25440> ;
+    ns1:description "Bio-Pizzeria" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 5.249958e+01 ;
+            ns1:longitude 1.343997e+01 ] ;
+    ns1:image <https://khora.berlin/media/cache/restaurant_thumbnail/61/4b/614b5c12e3869.jpeg> ;
+    ns1:name "Parma di Vinibenedetti" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:40" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "17:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:40" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "12:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "de" ;
+                    ns1:urlTemplate "https://khora.berlin/en/restaurant/114-parma-di-vinibenedetti" ] ] ;
+    ns1:sameAs <https://khora.berlin/en/restaurant/114-parma-di-vinibenedetti> ;
+    ns1:url <https://khora.berlin/en/restaurant/114-parma-di-vinibenedetti> .
+
+<https://khora.berlin/api/addresses/25440> a ns1:PostalAddress ;
+    ns1:name "Parma di Vinibenedetti" ;
+    ns1:streetAddress "Wrangelstraße 90, 10997 Berlin, Deutschland" ;
+    ns1:telephone "+493025782488" .
+

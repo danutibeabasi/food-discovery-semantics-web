@@ -1,0 +1,74 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://demo.coopcycle.org/api/restaurants/15> ns1:hasMenu <https://demo.coopcycle.org/en/restaurant/15-la-chaise-a-pois-bretonne#menu> .
+
+<https://demo.coopcycle.org/en/restaurant/15-la-chaise-a-pois-bretonne#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Charlotte au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Charlotte aux raisons secs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.15" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Gâteau aux fruits confits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.69" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Clafoutis au café" ;
+                    ns1:nutrition "Eggs",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.36" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Charlotte à la rhubarbe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.52" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Pickles au naturel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.56" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tomates fraîches en salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.19" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tomates fraîches en salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.06" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tomates fraîches à l'huile d'olive" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.47" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crudités à l'huile d'olive" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.41" ] ] ;
+            ns1:name "Entrées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Boeuf aux pommes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Aubergines aux pommes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.56" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Escargots aux herbes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.86" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Escargots aux pommes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.71" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lapin aux poivrons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.97" ] ] ;
+            ns1:name "Plats" ] .
+

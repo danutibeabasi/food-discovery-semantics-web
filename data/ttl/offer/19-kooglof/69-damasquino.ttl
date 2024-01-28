@@ -1,0 +1,209 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://kooglof.coopcycle.org/api/restaurants/69> ns1:hasMenu <https://kooglof.coopcycle.org/en/restaurant/69-damasquino#menu> .
+
+<https://kooglof.coopcycle.org/en/restaurant/69-damasquino#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Yaourt à la menthe et à l’ail\r
+Servi avec du pain libanais 👌""" ;
+                    ns1:name "LABNÉ" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Ratatouille syrienne\r
+Servi avec du pain libanais 👌""" ;
+                    ns1:name "MOUSSAKA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Purée de noix, poivrons rouge et biscottes\r
+Servi avec du pain libanais 👌""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/13/63134ccb2e629.jpeg> ;
+                    ns1:name "MARMARA" ;
+                    ns1:nutrition "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Caviar d’aubergine\r
+Servi avec du pain libanais 👌""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/13/63134da259071.jpeg> ;
+                    ns1:name "MOUTABAL" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/13/63134b0d63a85.jpeg> ;
+                    ns1:name "HOUMOUS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Mezze 🧆" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Légumes de saison et croquants" ;
+                    ns1:name "FATOUCH" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Boulgour avec persil, oignon, citron et\r
+légumes de saison""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/13/63134e601c73a.jpeg> ;
+                    ns1:name "TABOULEH" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "Salades 🥗" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "BOISSON AU CHOIX (33CL)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "CAROLA ROUGE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "CAROLA BLEUE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "CAROLA VERTE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Boissons 🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Croquettes de pois chiches" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/13/6313466869925.jpeg> ;
+                    ns1:name "FALAFEL" ;
+                    ns1:nutrition "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignet au fromage feta" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/13/631349f570c54.jpeg> ;
+                    ns1:name "FATAYER FROMAGE" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignet au épinard" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/13/631347123807d.jpeg> ;
+                    ns1:name "FATAYER EPINARD" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boulgour farci à la viande hachée" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/13/63134b99a2ab4.jpeg> ;
+                    ns1:name "KEBBÉ" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignet à la viande de boeuf" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/13/63134a148da23.jpeg> ;
+                    ns1:name "FATAYER VIANDE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "Beignets à l'unité ❤️" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Riz et légumes" ;
+                    ns1:name "MOUSSAKA ET RIZ (VÉGÉ)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boulgour, fève, beurre clarifié, coriandre, ail accompagné de tzatziki" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/14/63145e8f60df6.jpeg> ;
+                    ns1:name "FOULIEH" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/13/63134e3082454.jpeg> ;
+                    ns1:name "RIZ AUX PETITS POIS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/13/63134c88e4af3.jpeg> ;
+                    ns1:name "LAHMÉ AU FOUR" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "HARRA ISSBAO (VÉGÉ)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MOUNAZZALÉ" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz parfumé aux épices et escalope de poulet" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/13/63134b51b415f.jpeg> ;
+                    ns1:name "KABSSEH" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lentilles, boulgour, huile d'olive, accompagné de tzatziki" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/14/63145f7e3f447.jpeg> ;
+                    ns1:name "MOUJADARA (VÉGÉ)" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ] ;
+            ns1:name "Plats 🥘" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MADLOUAA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "KNAFÉ TIRAMISU" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/13/63134add248e1.jpeg> ;
+                    ns1:name "HALAWET EL JEBEN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Flan syrien à base de lait, crème fraîche,\r
+beurre, sucre et pistache""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/13/63134d253addb.jpeg> ;
+                    ns1:name "MOUHALLABIA" ;
+                    ns1:nutrition "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Cheveux d’ange, beurre clarifié, sucre, crème,\r
+pistache, sirop à la fleur d’oranger""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/13/63134bdd484d6.jpeg> ;
+                    ns1:name "KNAFÉ CUP" ;
+                    ns1:nutrition "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/13/6313446131065.jpeg> ;
+                    ns1:name "BALLOURIEH" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Petite crêpe avec mascarpone, pistache,\r
+sirop à la fleur d’oranger""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/13/63134406d2fdb.jpeg> ;
+                    ns1:name "ASSAFIRI" ;
+                    ns1:nutrition "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ] ;
+            ns1:name "Desserts 🍰" ] .
+

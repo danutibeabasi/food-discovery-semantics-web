@@ -1,0 +1,105 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://krokoop.coopcycle.org/api/restaurants/25> ns1:hasMenu <https://krokoop.coopcycle.org/en/restaurant/25-la-donutserie#menu> .
+
+<https://krokoop.coopcycle.org/en/restaurant/25-la-donutserie#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Chili con Carne, Cheddar et pickle" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/64/f5/64f54403d74c0.jpeg> ;
+                    ns1:name "Sloppy Joe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Confit d'oignons au vin blanc - Magret de Canard - Sauce Foie Gras" ;
+                    ns1:name "Fatty Christmas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.30" ] ] ;
+            ns1:name "Donuts Salés" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Sprite" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "San Pellegrino Citron Menthe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fuze Tea Pèche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Perrier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca cola zéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "San Pellegrino Grenade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Boisson" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Donut glaçage Nutella" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/ff/63ff255f58a8e.jpeg> ;
+                    ns1:name "Nutella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Glaçage Crème Kinder Bueno - Coulis Nutella" ;
+                    ns1:name "Kinder Bueno" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chocolat Blanc - Vermicelles Colorées" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/ff/63ff2541b3a63.jpeg> ;
+                    ns1:name "Homer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Honey Gingerbread" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Donut saupoudré de sucre" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/ff/63ff25ad64b4a.jpeg> ;
+                    ns1:name "Sucre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Creme de Marrons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Donut glaçage Caramel Beurre Salé" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/ff/63ff226e9c621.jpeg> ;
+                    ns1:name "Caramel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beurre de cacahuète et Confiture de fraise" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/ff/63ff257a93e64.jpeg> ;
+                    ns1:name "Peanut Butter and Jam" ;
+                    ns1:nutrition "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ferrero" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Raffaello" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ] ;
+            ns1:name "Donuts" ] .
+

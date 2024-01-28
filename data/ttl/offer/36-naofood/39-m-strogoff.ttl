@@ -1,0 +1,174 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://naofood.coopcycle.org/api/restaurants/39> ns1:hasMenu <https://naofood.coopcycle.org/en/restaurant/39-m-strogoff#menu> .
+
+<https://naofood.coopcycle.org/en/restaurant/39-m-strogoff#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "tous nos produits pour bien commencer l'année 2021" ;
+                    ns1:name "Epicerie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ] ;
+            ns1:name "Épicerie" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Salade Olivier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Rouleau d'aubergines" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon frais mariné au sel, sucre, vodka et betteraves. Blinis de Pommes de terre et crème de fromage frais aux herbes fraîches. Espuma raifort." ;
+                    ns1:name "Saumon à la russe" ;
+                    ns1:nutrition "Eggs",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ] ;
+            ns1:name "entree" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e95a489a5.jpeg> ;
+                    ns1:name "Burger Géorgien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Pizza Julienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux de poulet et boeuf fermier hachés avec des oignons, sel et poivre. Grillés sur pierre volcanique. Carottes marinées et épicées. Légumes grillés. Pommes de terre à la Strogoff. Pain lavach. Sauce tkhémali: Prunes, épices, ail, aneth et piment." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e9a4ab374.jpeg> ;
+                    ns1:name "Lula arménien" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "\"Pelmeni\" à la viande de canard haché, épinards, oignons caramélisés, herbes fraîches et crème fraîches." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549ea256e70c.jpeg> ;
+                    ns1:name "Ravioles Russes au canard" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e9f80895b.jpeg> ;
+                    ns1:name "Pizza Georgienne \"Kubdari\" 2prs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "\"Pelmeni\" à la viande de boeuf et de porc haché, oignons caramélisés, herbes fraîches et crème fraîches." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549ea10a6779.jpeg> ;
+                    ns1:name "Ravioles Russes à la viande" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "Carte" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e9c0810da.jpeg> ;
+                    ns1:name "Pizza géorgienne \"Ajarski\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/5f/dc/5fdc961da5f47.jpeg> ;
+                    ns1:name "Pizza géorgienne \"Imejuli\" 2prs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "\"Vareniki\" à la pommes de terre, Champignons, oignons caramélisés, herbes fraîches et crème fraîches." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549ea424629a.jpeg> ;
+                    ns1:name "Ravioles Russes végétariennes" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "Vegetarien" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Beaux morceaux de saumon marinés et grillés sur pierre volcanique. pommes de terre frites et sauce grenade" ;
+                    ns1:name "Chachlik de Saumon" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e96e8c773.jpeg> ;
+                    ns1:name "Fish and chips à la strogoff" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "\"Pelmeni\" au saumon, encre de seiche, échalotes caramélisés, herbes fraîches et crème fraîches." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549ea331317e.jpeg> ;
+                    ns1:name "Ravioles Russes au saumon" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "Poisson" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Galettes de fromage frais , poêlées" ;
+                    ns1:name "Syrniki" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gâteau Russe: Biscuit au miel en mille-feuille ,garni de crème russe: confiture de lait et crème , fraîche." ;
+                    ns1:name "Medovik" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549ea5bdcbc1.jpeg> ;
+                    ns1:name "Vins" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€33.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549ea6ee2d72.jpeg> ;
+                    ns1:name "Vodka" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€36.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saperavi" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e983730b1.jpeg> ;
+                    ns1:name "Limonade Géorgienne 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Au choix : russe" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549e92d9b1e0.jpeg> ;
+                    ns1:name "Bières de l'est 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Carte des boissons" ] .
+

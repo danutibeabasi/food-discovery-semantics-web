@@ -1,0 +1,20 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://twc.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "mx" ;
+                    ns1:addressLocality "Ciudad de México - TWC" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 1.943268e+01 ;
+                    ns1:longitude -9.913421e+01 ] ] ;
+    ns1:description "<p>Collective of cycle couriers who live and work in the one of the biggest cities in the world, Mexico City. Our focus is on generating a connection between consumers and local businesses in an ecological, fast and efficient way.</p>"@en,
+        "<p>Colectivo de bicimensajerxs que viven y trabajan en la ciudad de México. Nuestro enfoque está en generar la conexión entre negocios locales y consumidor de forma ecologica, rapida y eficiente.</p>"@es ;
+    ns1:name "Two Wheel Collective" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:sameAs <file:///E:/Dev/Python/EMSE/tp_cps2_semantic_web/semantic-web-project/> ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://twc.coopcycle.org> .
+

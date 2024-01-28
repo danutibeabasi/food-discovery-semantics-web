@@ -1,0 +1,71 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://niort.coopcycle.org/api/restaurants/21> ns1:hasMenu <https://niort.coopcycle.org/en/restaurant/21-hypsoline-kitchen#menu> .
+
+<https://niort.coopcycle.org/en/restaurant/21-hypsoline-kitchen#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/80/6580b433e68d4.jpeg> ;
+                    ns1:name "Poulet à l’ananas" ;
+                    ns1:nutrition "Crustaceans",
+                        "Fish",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/80/6580b4963fa59.jpeg> ;
+                    ns1:name "Shoyu miso ramen aux champignons (option œuf mariné)" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servis avec riz, crudités marinées et topings" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/80/6580b4dd17772.jpeg> ;
+                    ns1:name "Porc mijoté façon bulgogi" ;
+                    ns1:nutrition "Fish",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ] ;
+            ns1:name "Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/80/6580b55b8270a.jpeg> ;
+                    ns1:name "Mousse châtaigne et gingembre confit" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "dessert vegan cambodgien" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/80/6580b3a1c9b3b.jpeg> ;
+                    ns1:name "Fanchak kachan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/80/6580b3f1f2859.jpeg> ;
+                    ns1:name "Gâteau chocolat" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/80/6580b512c2200.jpeg> ;
+                    ns1:name "Ravioli Wonton frit au canard" ;
+                    ns1:nutrition "Eggs",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/80/6580b3209d05a.jpeg> ;
+                    ns1:name "Velouté butternut saint nectaire" ;
+                    ns1:nutrition "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ] ;
+            ns1:name "Entrées" ] .
+

@@ -1,0 +1,47 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://naofood.coopcycle.org/api/restaurants/80> a ns1:Restaurant ;
+    ns1:address <https://naofood.coopcycle.org/api/addresses/56944> ;
+    ns1:bannerImage "https://naofood.coopcycle.org/media/cache/restaurant_banner/64/a9/64a96e5892d04.jpg" ;
+    ns1:description "Retrouvez des classiques de la street food américaine tels que le Pulled Pork, le Po Boy, le Grilled Cheese...🥪 🍔" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.72122e+01 ;
+            ns1:longitude -1.55602e+00 ] ;
+    ns1:image <https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/64/a9/64a96e5892d04.jpg> ;
+    ns1:name "Back Bay" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:45" ;
+            ns1:dayOfWeek "Monday",
+                "Thursday",
+                "Wednesday" ;
+            ns1:opens "18:55" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday" ;
+            ns1:opens "18:55" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:45" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:55" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://naofood.coopcycle.org/en/restaurant/80-back-bay" ] ] ;
+    ns1:sameAs <https://naofood.coopcycle.org/en/restaurant/80-back-bay> ;
+    ns1:url <https://naofood.coopcycle.org/en/restaurant/80-back-bay> .
+
+<https://naofood.coopcycle.org/api/addresses/56944> a ns1:PostalAddress ;
+    ns1:name "Back Bay" ;
+    ns1:streetAddress "11 Quai Turenne, 44000 Nantes, France" ;
+    ns1:telephone "+33749708314" .
+

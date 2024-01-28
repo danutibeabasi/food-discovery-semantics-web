@@ -1,0 +1,1006 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://zampate.coopcycle.org/api/restaurants/19> ns1:hasMenu <https://zampate.coopcycle.org/en/restaurant/19-asador-mari-carmen#menu> .
+
+<https://zampate.coopcycle.org/en/restaurant/19-asador-mari-carmen#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "lata 33cl" ;
+                    ns1:name "COCA COLA ORIGINAL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "sin azucar, sin cafeina, lata 33cl" ;
+                    ns1:name "COCA COLA ZERO ZERO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "sin azucar, lata 33cl" ;
+                    ns1:name "COCA COLA ZERO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50cl" ;
+                    ns1:name "BOTELLIN DE AGUA CABREIROA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.40" ] ] ;
+            ns1:name "REFRESCOS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 8 (POLLO)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.85" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "CONEJO ASADO DE 1250 grs (CON SALSA DE ASADO DE guarnición) +PATATAS A LO “Pobre” (600 grs) + 4 PIMIENTOS VERDES ASADOS.  Para 4 o 5 personas" ;
+                    ns1:name "MENU 3 (CONEJO)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€29.16" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """½ CONEJO ASADO (CON SALSA DE ASADO DE ACOMPAÑAMIENTO) + PATATAS A LO “Pobre” (250 grs) + 4 PIMIENTOS VERDES ASADOS.\r
+	Para 1 o 2 personas""" ;
+                    ns1:name "MENU 39 (CONEJO)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.45" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "POLLO ASADO “PEQUEÑO” DE 1000 grs (CON SALSA DE ASADO DE guarnición) + PATATAS A LO “Pobre” (400 grs) + 4 PIMIENTOS VERDES ASADOS. Para 2 o 3 personas" ;
+                    ns1:name "MENU 1 (POLLO)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 34 (POLLO ECOLOGICO)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/63/74/637418cf6fd59.jpeg> ;
+                    ns1:name "MENU 7 (POLLO)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """MEDIO POLLO (PECHUGA y CUARTO TRASERO), ASADO (CON SALSA DE ASADO DE ACOMPAÑAMIENTO) +PATATAS A LO “Pobre” (400 grs) +4 PIMIENTOS VERDES ASADOS.\r
+	Para 1 o 2 personas""" ;
+                    ns1:name "MENU 31 (POLLO)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "POLLO ASADO “GRANDE” DE 1550 grs (CON SALSA DE ASADO DE guarnición) + PATATAS A LO “Pobre” (600 grs) + 4 PIMIENTOS VERDES ASADOS. PAra 4 o 5 personas." ;
+                    ns1:name "MENU 2 (POLLO)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€29.60" ] ] ;
+            ns1:name "MENÚS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CONEJO IBERICO ASADO, con su salsa de asado de acompañamiento" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CACHOPO DE POLLO CON JAMON y QUESO, FRITO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "(1 o 2 personas) (con salsa de asado de guarnición)" ;
+                    ns1:name "½ CONEJO ASADO (650 grs), PARTIDO EN CUARTOS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "290 gr (1 persona)" ;
+                    ns1:name "MIGAS CASERAS AL ESTILO TRADICIONAL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CACHOPO DE CARNE, JAMON Y QUESO, FRITO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CODORNIZ ASADA, UNIDAD" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "(4 o 5 personas) (con salsa de asado de guarnición)" ;
+                    ns1:name "CONEJO ASADO (1.250 kG), PARTIDO EN CUARTOS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CONEJO RELENO ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€56.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "½ CALABACIN RELLENO GRATINADO AL HORNO DE CARNE, 280 grs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MIGAS CASERAS VEGETARIANAS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "½ BERENJENA RELLENA, 280 grs, GRATINADA AL HORNO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ] ;
+            ns1:name "PLATOS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "cuchillo, tenedor y servilleta" ;
+                    ns1:name "PACK BASICO DE CUBIERTOS REUTILIZABLES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.65" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "cuchillo, tenedor, cuchara sopera, cuchara postre, servilleta y vaso plastico" ;
+                    ns1:name "PACK COMPLETO DE SERVICIO, CUBIERTOS REUTILIZABLES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "cuchillo, tenedor, cuchara sopera, cuchara postre, y servilleta" ;
+                    ns1:name "PACK DE SERVICIO, CUBIERTOS REUTILIZABLES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.25" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "130 gr, unidad" ;
+                    ns1:name "BARRA DE PAN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.15" ] ] ;
+            ns1:name "OTROS SERVICIOS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "(alioli con salsa brava, casero, envase, envase de 115 gramos)" ;
+                    ns1:name "ALIBRAVA ARTESANA" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "envase de 115 gramos" ;
+                    ns1:name "ALI OLI ARTESANO" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ] ;
+            ns1:name "SALSAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 42 (CODORNIZ)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """½ CALABACIN RELLENO y GRATINADO DE CARNE (280gr) + ½ POLLO ASADO (750gr) (con su salsa de asado de acompañamiento) + PATATAS A LO “Pobre” (250 grs) + 2 PIMIENTOS VERDES ASADOS.\r
+	Para 1 o 2 personas.""" ;
+                    ns1:name "MENU 52 (Combinado)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 5 (CARNE)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€47.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 13 (POLLO DE CORRAL)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€93.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 16 (PAVITA)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€110.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 11 (POLLO)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€61.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 26 (CARNE)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€317.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 24 (CARNE)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€103.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 23 (CARNE)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€198.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 25 (CARNE)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€56.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 18 (CARNE)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€176.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 17 (CARNE)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€72.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 41 (COQUELET RUSTICO)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 29 (CARNE)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€78.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """TIRA DE COSTILLA DE CERDO ASADA, 750 grs (CON SALSA DE ASADO DE ACOMPAÑAMIENTO) + PATATAS A LO “Pobre” (400 grs) + 4 PIMIENTOS VERDES ASADOS
+	Para 2 personas""" ;
+                    ns1:name "MENU 46 (CARNE)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€27.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """TIRA DE COSTILLA DE CERDO CARNOSA ASADA, 1500 grs (CON SALSA DE ASADO DE ACOMPAÑAMIENTO) + PATATAS A LO “Pobre” (600 grs) + 6 PIMIENTOS VERDES ASADOS.\r
+	Para 3 o 4 personas""" ;
+                    ns1:name "MENU 47 (CARNE)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€49.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 4 (VERDURA y AVE)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.63" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 35 (POLLO)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 10 (POLLO)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€205.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 27 (CARNE)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€168.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 38 (CODORNIZ)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 48 (CARNE)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 50 (CARNE)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 37 (POLLO CORRAL)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 51 (CARNE)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€27.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 32 (POLLO)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "CABEZA DE TERNASCO (T.A) COMPLETA, ASADA (CON SALSA DE ASADO DE ACOMPAÑAMIENTO) + PATATAS A LO “Pobre” (250 grs) + 4 PIMIENTOS VERDES ASADOS.	Para 1 o 2 personas" ;
+                    ns1:name "MENU 19 (CARNE)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.49" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 40 (PICANTON)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 49 (CARNE)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€42.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 28 (CARNE)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€153.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 6 (CARNE)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€56.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 43 (PERDIZ)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 14 (PATO)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€87.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 9 (GALLINA DE CORRAL)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€111.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 15 (PAVO)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€113.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 21 (CARNE)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€93.98" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 30 (CONEJO)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€64.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "CODILLO DE CERDO, ASADO (CON SALSA DE ASADO DE ACOMPAÑAMIENTO) +PATATAS A LO “Pobre” (250 gr) +4 PIMIENTOS VERDES ASADOS. Para 1 o 2 personas" ;
+                    ns1:name "MENU 20 (CARNE)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 36 (POLLO CORRAL)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€50.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 12 (POLLO)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€85.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 45 (PINTADA)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€40.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 22 (CARNE)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€86.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 33 (POLLO ECOLOGICO)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€42.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "MENU 44 (FAISAN)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€29.60" ] ] ;
+            ns1:name "MENÚS ESPECIALES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "PECHUGA DE POLLO A LA VILLAROY CON QUESO ROQUEFORT, FRITO (unidad)" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "6 PARTES DE ALITAS DE POLLO FRITA (blanqueta y alón)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "PATATA RELLENA DE CARNE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "CROQUETON DE BACALAO (unidad)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "SOLOMILLO DE CERDO CON PIMIENTO VERDE Y QUESO, FRITO (unidad)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "6 PARTES DE ALITAS DE POLLO REBOZADA Y FRITA (blanqueta y alón)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "CROQUETA CASERA DE QUESO DE CABRALES (unidad)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "empanado, unidad, frito" ;
+                    ns1:name "PIMIENTO ROJO RELLENO DE QUESO CABRALES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "CROQUETON DE BOLETUS CON FOIE (unidad)" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "PIMIENTO RELLENO DE BOLETUS EDULIS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "CROQUETON DE JAMON CON POLLO (unidad)" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "PECHUGA DE POLLO EN FORMA DE ROLLO, RELLENA DE YORK Y QUESO, CON PAN RALLADO Y FRITO, (unidad)" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "PECHUGA DE POLLO A LA VILLAROY, FRITO (unidad)" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "CROQUETON DE JAMON IBERICO (unidad)" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CONTRAMUSLO DE POLLO RELLENO DE YORK Y QUESO, FRITO (unidad)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CROQUETA CASERA DE LONGANIZA (unidad)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "empanado, unidad, frito" ;
+                    ns1:name "PIMIENTO RELLENO DE BACALAO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.85" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "LOMITO DE PECHUGA DE POLLO CON PIMIENTO VERDE Y QUESO, FRITO (unidad)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.15" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "PIMIENTO RELLENO DE TERNASCO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "CROQUETON DE SEPIA CON GAMBA (unidad9" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "CROQUETON DE MERLUZA CON GAMBA (unidad)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "FLAMENQUIN DE YORK, CON MASA DE CROQUETA DE JAMON IBERICO RELLENO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "PATATA RELLENA DE ATUN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "CROQUETON DE COCIDO (unidad)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "FILETE DE CONTRAMUSLO DE POLLO REBOZADO CON PAN RALLADO Y FRITA (unidad)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ] ;
+            ns1:name "TAPAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "(unidad, envase de 140 gramos)" ;
+                    ns1:name "ARROZ CON LECHE, SIN CONSERVANTES NI COLORANTES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "110 gr, unidad" ;
+                    ns1:name "FLAN CASERO DE QUESO, LA ERMITA DE CANTABRIA" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "110 gr, unidad" ;
+                    ns1:name "FLAN DE CAFÉ, CASERO, LA ERMITA DE CANTABRIA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ] ;
+            ns1:name "POSTRES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "ENVASE DE 900 gramos DE PATATAS A LO “POBRE” CON SALSA DE SU ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "envase de 500 gr" ;
+                    ns1:name "ENSALADILLA RUSA, CASERA DE ATUN" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.45" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "ENSALADILLA DE MERLUZA CON GAMBAS, envase de 500 gr" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "2 PIMIENTOS VERDES ASADOS, CON SU SALSA DE ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "ENSALADILLA DE MERLUZA CON GAMBAS, envase de 900 gr" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "ENSALADILLA DE PALITO DE CANGREJO CON PIÑA, envase de 900 gramos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.65" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "6 PIMIENTOS VERDES ASADOS, CON SU SALSA DE ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "ENVASE DE 400 gramos DE PATATAS A LO “POBRE” CON SALSA DE SU ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "envase de 500 gramos, para 1 o 2 personas" ;
+                    ns1:name "ENSALADILLA DE PALITO DE CANGREJO CON PIÑA" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "8 PIMIENTOS VERDES ASADOS, CON SU SALSA DE ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "envase de 300 gramos, para 1 o 2 personas" ;
+                    ns1:name "ENSALADILLA DE PALITO DE CANGREJO CON PIÑA" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "ENVASE DE 200 gramos DE PATATAS A LO “POBRE” CON SALSA DE SU ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "ENVASE DE 600 gramos DE PATATAS A LO “POBRE” CON SALSA DE SU ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "envase de 900 gr" ;
+                    ns1:name "ENSALADILLA RUSA, CASERA DE ATUN" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.15" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "envase de 300 gramos, para 1 o 2 personas" ;
+                    ns1:name "ENSALADILLA RUSA, CASERA DE ATUN" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "4 PIMIENTOS VERDES ASADOS, CON SU SALSA DE ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "ENSALADILLA DE MERLUZA CON GAMBAS, envase de 300 gr" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ] ;
+            ns1:name "RACIONES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CERVEZA AMBAR ESPECIAL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.65" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CERVEZA SAN MIGUEL ESPECIAL, LATA 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CERVEZA ALHAMBRA TRADICIONAL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.65" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "CERVEZA HEINEKEN, LATA 33 cl." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "CERVEZA AMSTEL RADLER, CON ZUMO NATURAL DE LIMON. LATA DE 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "CERVEZA ALHAMBRA ESPECIAL LAGER. LATA 33 cl, 5.4% VOL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CERVEZA SAN MIGUEL ESPECIAL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.65" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CERVEZA ALHAMBRA TRADICIONAL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CERVEZA HEINEKEN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.65" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5,6% VOL" ;
+                    ns1:name "CERVEZA AMBAR ESPECIAL, LATA 33 cl." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ] ;
+            ns1:name "BEBIDAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "HUEVO DE OCA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "SALMOREJO CORDOBES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "HUEVO DE PATO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "GAZPACHO ANDALUZ" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "HUEVO DE AVESTRUZ" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€49.99" ] ] ;
+            ns1:name "PRODUCTOS FRESCOS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "EMPANADA CASERA DE ATUN, PORCION DE 400 gramos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.95" ] ] ;
+            ns1:name "ENTRANTES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "FAISAN ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "1/4 TERNASCO (T.A), ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€84.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "(con salsa de asado de guarnición) 700 grs (2 o 3 personas)" ;
+                    ns1:name "PANCETA DE CERDO ASADA, MARCADA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "SOLOMILLO DE CERDO ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "(1 o 2 personas) (CON SALSA DE ASADO DE guarnición)" ;
+                    ns1:name "CODILLO DE CERDO ASADO, 1.1 kG" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "PAVO RELLENO ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€80.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "(1 o 2 personas) (con salsa de asado de guarnición)" ;
+                    ns1:name "CABEZA DE TERNASCO ASADA, COMPLETA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "COCHINILLO ASADO DE SEGOVIA, 3 kG a 4 kG" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€170.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "1/4 CABRITO (T.A), ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€75.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "PIERNA DE TERNASCO RELLENA ASADA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€54.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "½ TERNASCO (T.A), ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€165.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "1/4 LECHAL (T.A), ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€80.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "PIERNA DE TERNASCO (T.A) ASADA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€44.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "½ COCHINILLO ASADO DE SEGOVIA, 1,5 kG a 2 kG," ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€98.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "½ CABRITO (T.A), ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€155.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "¼ DE COCHINILLO ASADO DE SEGOVIA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€45.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "(2 o 3 personas) (con salsa de asado de guarnición)" ;
+                    ns1:name "PALETILLA DE TERNASCO (T.A) ASADA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€39.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "4 COSTILLAS DE CERDO ASADAS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CABRITO (T.A), ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€290.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "½ LECHAL (T.A), ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€155.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "¼ DE COCHINILLO DE SEGOVIA ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€45.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "(con salsa de asado de guarnición) PARTIDA EN TROCITOS (2 o 3 personas)" ;
+                    ns1:name "½ CARETA DE CERDO ASADA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "MARCADA, (con salsa de asado de guarnición) 700 gr (2 o 3 personas)" ;
+                    ns1:name "TIRA DE COSTILLA DE CERDO ASADA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "PERDIZ ASADA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ] ;
+            ns1:name "OTROS ASADOS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "envase de 390 gr" ;
+                    ns1:name "ALBONDIGAS A LA JARDINERA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "envase de 390 gr" ;
+                    ns1:name "FABADA ASTURIANA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "envase de 390 gr" ;
+                    ns1:name "ESTOFADO DE TERNERA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "envase de 390 gr" ;
+                    ns1:name "CALLOS CON GARBANZOS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "envase de 390 gr" ;
+                    ns1:name "POLLO AL ENEBRO CON DATILES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "envase de 390 gr" ;
+                    ns1:name "LENTEJAS A LA RIOJANA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "envase de 390 gr" ;
+                    ns1:name "COCIDO ESPAÑOL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ] ;
+            ns1:name "PLATOS ESPECIALES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "POLLO RELLENO ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€46.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CUARTO DE POLLO (520 gr)+PATATAS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "POLLO DE CORRAL (2.3 kG), ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€34.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CUARTO DE POLLO (520 grs) ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.85" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CUARTO DE POLLO DE CORRAL (650 grs), ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "PAVO RELLENO ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€86.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "PULARDA RELLENA ASADA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CUARTO DE POLLO ECOLOGICO CERTIFICADO (650 grs) ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CUARTO DE POLLO (520 gr) ASADO+PIMIENTOS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "½ POLLO DE CORRAL (1.150 kG), ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CUARTO DE POLLO DE CORRAL (650 grs), ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "POLLO DE CORRAL RELLENO ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€85.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "PAVITA RELLENA ASADA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€89.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CUARTO DE POLLO ECOLOGICO CERTIFICADO (650 grs) ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CUARTO DE POLLO ECOLOGICO CERTIFICADO (650 grs) ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "POLLO PICANTON (350 grs) ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "POLLO (1kG) ASADO “PEQUEÑO”" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CAPON RELLENO ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "POLLO ECOLOGICO CERTIFICADO (2.2 kG), ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€27.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "POLLO ECOLOGICO RELLENO ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€70.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "½ POLLO ECOLOGICO CERTIFICADO (1.150 kG)  ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "(1 o 2 personas) (con salsa de asado de guarnición)" ;
+                    ns1:name "½ POLLO (750 grs) ASADO “GRANDE”" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "(4 o 5 personas) (con salsa de asado de guarnición)" ;
+                    ns1:name "POLLO (1.55 kG) ASADO “GRANDE”" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CUARTO DE POLLO DE CORRAL (650 grs), ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "COQUELET DE CRIANZA (500 grs) ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.15" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "PULARDA ASADA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€48.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "PATO RELLENO ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€72.00" ] ] ;
+            ns1:name "POLLOS ASADOS" ] .
+

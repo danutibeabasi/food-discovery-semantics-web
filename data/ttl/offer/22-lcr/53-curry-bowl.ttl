@@ -1,0 +1,187 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lcr.coopcycle.org/api/restaurants/53> ns1:hasMenu <https://lcr.coopcycle.org/en/restaurant/53-curry-bowl#menu> .
+
+<https://lcr.coopcycle.org/en/restaurant/53-curry-bowl#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Yaourt parfumé à la rose" ;
+                    ns1:name "Lassi rose" ;
+                    ns1:nutrition "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gâteau aux carottes noir" ;
+                    ns1:name "Black carrots Halwa" ;
+                    ns1:nutrition "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Yaourt parfumé à la mangue" ;
+                    ns1:name "Lassi mangue" ;
+                    ns1:nutrition "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Jus de mangue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "San Pellegrino 1L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Budweiser 25cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jus d'orange" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bière indienne Kingfisher 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "San Pellegrino 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Poulet parfumé grillé revenu dans une sauce crémeuse au beurre." ;
+                    ns1:name "Butter Chicken" ;
+                    ns1:nutrition "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain feuilleté au ghee (beurre clarifié)" ;
+                    ns1:name "Paratha" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain indien à la farine de blé complet cuit à la poêle" ;
+                    ns1:name "Chapathi" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain aux oignons feuilleté au ghee" ;
+                    ns1:name "Paratha aux Oignons" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Agneau émincée revenue au épices parfumées" ;
+                    ns1:name "Agneau keema" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crevettes revenues dans une sauce au coco et épices du sud" ;
+                    ns1:name "Crevettes aux Curry coco" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bœuf doucement cuit au épices ail et gingembre" ;
+                    ns1:name "Bœuf Lassani" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lentilles corails, pois chiche et haricot rouge cuits en curry" ;
+                    ns1:name "Dal Tarka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mélange de légumes de saison cuit en curry" ;
+                    ns1:name "Sabzi Curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pilon de poulet cuit en sauce épicé et acidulé à l'ail" ;
+                    ns1:name "Poulet Vindaloo" ;
+                    ns1:nutrition "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Curry Keerai" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Purée parfumée d'aubergines rôties" ;
+                    ns1:name "Baingan ka Burtha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz basmati de l'himalaya cuit avec cardamome, cumin et cannelle" ;
+                    ns1:name "1 riz extra" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Agneau mijoté dans une sauce onctueuse aux aubergine rôties" ;
+                    ns1:name "Agneau Brinjal" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de poulet aux champignons sauvages, cardamome et coco" ;
+                    ns1:name "Poulet au Curry « grand-mère »" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Filet de poulet mariné et grillé dans une sauce curry au poivrons, tomates et\r
+oignons""" ;
+                    ns1:name "Poulet Tikka Masala" ;
+                    ns1:nutrition "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ] ;
+            ns1:name "Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Choux Kale, beignets de légumes et vinaigrette aux épices" ;
+                    ns1:name "Salade Indienne" ;
+                    ns1:nutrition "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poisson sauté aux épices et citron" ;
+                    ns1:name "Poisson Lahori" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Côtelettes d'agneau grillés au cacahuètes, menthe et coriandre" ;
+                    ns1:name "Agneau Grill Masala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Filet de poulet mariné aux épices douces et parfumées" ;
+                    ns1:name "Poulet Tikka" ;
+                    ns1:nutrition "Milk",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Oignons et pomme de terre en beignet à la farine de pois chiche" ;
+                    ns1:name "Oignons Bajhi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Feuilles de blé croustillantes fourrées d'un écrasé de pomme de terre épicé et petit pois" ;
+                    ns1:name "Samoussa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "Entrées" ] .
+

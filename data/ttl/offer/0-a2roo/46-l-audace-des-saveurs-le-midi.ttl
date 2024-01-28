@@ -1,0 +1,121 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://a2roo.coopcycle.org/api/restaurants/46> ns1:hasMenu <https://a2roo.coopcycle.org/en/restaurant/46-l-audace-des-saveurs-le-midi#menu> .
+
+<https://a2roo.coopcycle.org/en/restaurant/46-l-audace-des-saveurs-le-midi#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Vanille, fruits rouges" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Paris Brest amande noisette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/f8/61f82232be368.jpeg> ;
+                    ns1:name "Tarte citron meringuée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/f8/61f821c5578f6.jpeg> ;
+                    ns1:name "3 chocolats croustillant" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Chocolat lait, cacahuètes caramel au beurre salé, sablé amandes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Pâtisseries" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "salade de jeunes pousses, vermicelle de riz, noix de cajou, queue d'écrevisse , saumon, carotte râpé, menthe, sauce soja, avocat, mangue" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/02/62021a825d41f.jpeg> ;
+                    ns1:name "Salade facon Thai" ;
+                    ns1:nutrition "Crustaceans",
+                        "Fish",
+                        "Peanuts",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "salade de jeunes pousse, légumes confit, carotte , choux rouge, concombre, radis, avocat, tomate , haricot mungo" ;
+                    ns1:name "salade végétarienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ] ;
+            ns1:name "Salades" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/f8/61f82142e28c8.jpeg> ;
+                    ns1:name "Sandwich tomatade, lomo, parmesan, légumes confits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Quiche comté" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/f8/61f8217f26b0d.jpeg> ;
+                    ns1:name "Sandwich poulet, crème de concombre, crudités" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/f8/61f820569a965.jpeg> ;
+                    ns1:name "Sandwich magret de canard, foie gras, vinaigre framboise, cranberries et noisette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sandwich  guacamole, saumon, crudités" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Quiche lorraine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ] ;
+            ns1:name "Sur le pouce" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "San Pellegrino 50cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Badoit 50 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca Cola Zéro 50 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ice Tea pêche 50cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 choix" ;
+                    ns1:name "Jus de fruits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Evian 50cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca Cola 50 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Boissons" ] .
+

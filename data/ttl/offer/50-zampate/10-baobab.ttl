@@ -1,0 +1,316 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://zampate.coopcycle.org/api/restaurants/10> ns1:hasMenu <https://zampate.coopcycle.org/en/restaurant/10-baobab#menu> .
+
+<https://zampate.coopcycle.org/en/restaurant/10-baobab#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Gyozas rellenas de jack fruit pulled pork, salsa de naranja y jengibre, rucula, rabanitos encurtidos" ;
+                    ns1:name "Gyozas" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Corazones de alcachofas confitados rellenos de praliné de almendras, mahonesa de ajo negro, cebolla frita y chutney de tomate." ;
+                    ns1:name "Siempre Corazón" ;
+                    ns1:nutrition "Soybeans",
+                        "Sulphur dioxide and sulphites",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Hummus de garbanzos, Verduras asadas, Tomate fresco, focaccia de olivas, romero y albahaca" ;
+                    ns1:name "Hummus de Calabaza" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Dos bolas de puré de yuca rellenas de soja y sobrasada vegana, con picadillo de cebolla roja, tomate, cilantro y guindilla." ;
+                    ns1:name "Bomba de yuca (por la paz entre los mundos)." ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Muhammara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tortilla de maíz, frijoles, boniato asado, cebolla roja en escabeche, tomate natural y salsa barbacoa." ;
+                    ns1:name "A saco Taco" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.80" ] ] ;
+            ns1:name "Para picar y entrantes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Curry verde, arroz basmati salteado, coco joven encebollado, cilantro y limón." ;
+                    ns1:name "Arroz al curry verde" ;
+                    ns1:nutrition "Celery",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pastel de Berenjenas asadas, patata, tomate natural y  guiso de soja y champiñón, gratinado con parmesano y salsa de ajo y yogurt" ;
+                    ns1:name "Moussaka vegetal" ;
+                    ns1:nutrition "Celery",
+                        "Eggs",
+                        "Milk",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Berenjenas, setas a la crema,  salsa de tomate casera, queso Provolone y aceite de cebollino." ;
+                    ns1:name "Milhojas de berenjenas" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Raviolis de borraja rellenos de calabaza, mantequilla de salvia y limón, calabaza asada y almendras." ;
+                    ns1:name "Raviolis de calabaza" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sulphur dioxide and sulphites",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Panecillo casero de cerveza negra, hamburguesa de soja y remolacha, salsa BBQ Baobab, pepino encurtido, cebolla caramelizada, tomate natural y mostaza." ;
+                    ns1:name "Beet burger" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Mustard",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ] ;
+            ns1:name "Especialidades Baobab" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tempranillo, Garnacha, Aguja, Somontano" ;
+                    ns1:name "Alquezar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tempranillo, Somontano" ;
+                    ns1:name "Idrias Ecológico" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Módena" ;
+                    ns1:name "Lambrusco Monteberin" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ] ;
+            ns1:name "Vino rosado" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pan integral ecologico de semillas y masa madre." ;
+                    ns1:name "Pan artesano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Pan" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Buñuelos de requesón y coco, salsa tofee, frutas del bosque." ;
+                    ns1:name "Syrniki" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tamal de arroz negro con leche de coco, piña caramelizada, helado vegano de especias y cacahuete." ;
+                    ns1:name "Tamal Negro" ;
+                    ns1:nutrition "Peanuts",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base de galleta, mermelada de limón, crema de yuzu y maracuyá, merengue vegano" ;
+                    ns1:name "Vegan lemon pie" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sopa especiada de fresa y maracuyá con helado de coco y semillas garrapiñadas" ;
+                    ns1:name "Chiqui Chiqui Boom Bomm" ;
+                    ns1:nutrition "Milk",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Coulant vegano casero de chocolate con helado vegano de mango" ;
+                    ns1:name "Coulant Vegano" ;
+                    ns1:nutrition "Peanuts",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Postres" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Rubia con jengibre de Aragón" ;
+                    ns1:name "Cerveza Artesana Ecológica BORDA Jengibeer 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Merlot y Cabernet Sauvignon, Somontano" ;
+                    ns1:name "Idrias Roble Ecológico" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Agua Mineral (1/2L)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Rubia de Aragón" ;
+                    ns1:name "Cerveza Artesana Ecologica BORDA Ripa 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Cerveza Artesana Ayinger Kellerbier 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "bebida de cola de aragón, ética y social" ;
+                    ns1:name "Frixen Cola 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Negra de Aragón" ;
+                    ns1:name "Cerveza Artesana Ecológica BORDA Roya 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Blanca de Aragón" ;
+                    ns1:name "Cerveza Artesana Rondadora 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "de manzana o mandarina natural" ;
+                    ns1:name "Zumo ecológico" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cerveza Ambar sin alcohol 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Rubia, alemana." ;
+                    ns1:name "Cerveza Artesana Ayinger Bräuweisse 50cl Trigo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cerveza Ambar 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ] ;
+            ns1:name "Bebidas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Verdejo, Rueda" ;
+                    ns1:name "Eresma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chadornnay, Somontano" ;
+                    ns1:name "Idrias Ecológico" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ] ;
+            ns1:name "Vino blanco" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Astigarraga" ;
+                    ns1:name "Sidra Natural sin sulfitos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Penedés" ;
+                    ns1:name "Cava Codorníu Brut Anna Blanc de Blancs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ] ;
+            ns1:name "Cava y Sidra" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Menú Infantil" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Menú  Corto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Menú Largo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ] ;
+            ns1:name "Menú Semanal" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Mézclum de lechugas, Kale, manzana, huevo duro, queso parmesano, croutons, proteína vegetal, maiz dulce y, salsa Cesar Baobab" ;
+                    ns1:name "Kale Cesar" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mézclum de lechugas, espinacas, col lombarda, tomate cherry, remolacha, pipas de calabaza, calabaza asada, tempeh crujiente y aliño de yogurt y mostaza" ;
+                    ns1:name "Ensalada de calabaza y tempeh" ;
+                    ns1:nutrition "Mustard",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Puré de boniato y naranja, escabeche de setas, burrata, kikos, granada y aceite de albahaca y tomillo" ;
+                    ns1:name "Burrata en Technicolor" ;
+                    ns1:nutrition "Celery",
+                        "Milk",
+                        "Sesame seeds",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mezcla de algas marinas ( wakame, agar-agar, nori ), espinacas frescas, pepino, tomates cherry, tofu macerado, nabo daikon con aliño de miso dulce" ;
+                    ns1:name "De Algas" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ] ;
+            ns1:name "Ensaladas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Garnacha, Bajo Aragón" ;
+                    ns1:name "Tempore Generación 73" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ] ;
+            ns1:name "Vino tinto" ] .
+

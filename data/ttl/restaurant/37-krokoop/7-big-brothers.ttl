@@ -1,0 +1,44 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://krokoop.coopcycle.org/api/restaurants/7> a ns1:Restaurant ;
+    ns1:address <https://krokoop.coopcycle.org/api/addresses/39> ;
+    ns1:description """Ouvert par Etienne, ce snacking a déjà pu mettre d'accord les étudiants du lycée St Stanislas, situé juste en face.\r
+\r
+Street Food Artisanale, vous y retrouverez des burgers gourmets, avec des buns & pains faits maisons servis avec des frites fraîches, s'il vous plait !""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.38378e+01 ;
+            ns1:longitude 4.35194e+00 ] ;
+    ns1:image <https://krokoop.coopcycle.org/media/cache/restaurant_thumbnail/65/49/65498e4acb6c0.png> ;
+    ns1:name "BIG BROTHERS" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:50" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://krokoop.coopcycle.org/en/restaurant/7-big-brothers" ] ] ;
+    ns1:sameAs <https://krokoop.coopcycle.org/en/restaurant/7-big-brothers> ;
+    ns1:url <https://krokoop.coopcycle.org/en/restaurant/7-big-brothers> .
+
+<https://krokoop.coopcycle.org/api/addresses/39> a ns1:PostalAddress ;
+    ns1:name "BIG BROTHERS" ;
+    ns1:streetAddress "9 Rue Bernard Lazare, 30900 Nîmes, France" ;
+    ns1:telephone "+33468656979" .
+

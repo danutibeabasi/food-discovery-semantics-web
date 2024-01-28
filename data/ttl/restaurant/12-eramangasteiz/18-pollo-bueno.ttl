@@ -1,0 +1,35 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/18> a ns1:Restaurant ;
+    ns1:address <https://eramangasteiz.coopcycle.org/api/addresses/704> ;
+    ns1:bannerImage "https://eramangasteiz.coopcycle.org/media/cache/restaurant_banner/65/6d/656dc2775dffc523234696.jpg" ;
+    ns1:description "Los mejores pollos asados de todo Gasteiz y mucho más!" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.285869e+01 ;
+            ns1:longitude -2.677188e+00 ] ;
+    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/restaurant_thumbnail/61/30/6130a0f0aaea9.jpg> ;
+    ns1:name "Pollo Bueno" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:40" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "13:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "es" ;
+                    ns1:urlTemplate "https://eramangasteiz.coopcycle.org/en/restaurant/18-pollo-bueno" ] ] ;
+    ns1:sameAs <https://eramangasteiz.coopcycle.org/en/restaurant/18-pollo-bueno> ;
+    ns1:url <https://eramangasteiz.coopcycle.org/en/restaurant/18-pollo-bueno> .
+
+<https://eramangasteiz.coopcycle.org/api/addresses/704> a ns1:PostalAddress ;
+    ns1:name "Pollo Bueno" ;
+    ns1:streetAddress "V85F+F4 Vitòria-Gasteiz, España" ;
+    ns1:telephone "+34945268206" .
+

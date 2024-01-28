@@ -1,0 +1,274 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://kooglof.coopcycle.org/api/restaurants/53> ns1:hasMenu <https://kooglof.coopcycle.org/en/restaurant/53-la-fabrique-a-miam#menu> .
+
+<https://kooglof.coopcycle.org/en/restaurant/53-la-fabrique-a-miam#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Crème, oignons, fromage, saumon frais ou fumé" ;
+                    ns1:name "Flambée Saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, oignons, fromage, chèvre, noix de Pecan caramélisées au sirop d’érable, miel" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/61/61614d165ab27.jpeg> ;
+                    ns1:name "Flambée Chèvre-Miel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, oignons, fromage, tomates séchées" ;
+                    ns1:name "Flambée Tomate Séchée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, oignons, Emmental, bleu, chèvre, mozzarella" ;
+                    ns1:name "Flambée 4 fromages" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, oignons, fromage" ;
+                    ns1:name "Flambée gratinée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, oignons, fromage, bleu" ;
+                    ns1:name "Flambée Bleu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, oignons, fromage, champignons de Paris" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/61/61614ccc6518a.jpeg> ;
+                    ns1:name "Flambée Champignon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, oignons" ;
+                    ns1:name "Flambée nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ] ;
+            ns1:name "Flammekueche - Les Tartes Flambées 🥨" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/fc/61fc05fb8a35b.jpeg> ;
+                    ns1:name "Formule Petite Salade + Petite Pizza 🥗⭐" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/fc/61fc05dae8c9d.jpeg> ;
+                    ns1:name "Formule Petite Salade + Petite Tarte Flambée 🥗⭐" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ] ;
+            ns1:name "Les Formules ⭐" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Nos jus de fruis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50cl" ;
+                    ns1:name "Carola Rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Coca-Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Fuze Tea Pêche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50cl" ;
+                    ns1:name "Carola bleue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Schweppes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Les Boissons 🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomate ou crème, fromage, thon, câpres, œuf" ;
+                    ns1:name "Pizza Cyclope" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate ou crème, fromage, champignons de Paris, thon œuf" ;
+                    ns1:name "Pizza Calzone (en chausson)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate ou crème, fromage, thon, tomates séchées, piments, câpres" ;
+                    ns1:name "Pizza Calabrese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate ou crème, fromage, champignons de Paris" ;
+                    ns1:name "Pizza Champignons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate ou crème, fromage, chèvre, aubergines grillées" ;
+                    ns1:name "Pizza Benny" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate ou crème, fromage, anchois, olives noires, câpres" ;
+                    ns1:name "Pizza Napolitaine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate ou crème, fromage, bleu, tomates séchées" ;
+                    ns1:name "Pizza Manu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate ou crème, fromage" ;
+                    ns1:name "Pizza Marguerite" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate ou crème, fromage, tomates séchées, aubergines grillées, persillade" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/61/61614e2e197ad.jpeg> ;
+                    ns1:name "Pizza du Sud" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate ou crème, mozzarella, Chèvre, bleu et Emmental" ;
+                    ns1:name "Pizza 4 fromages" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate ou crème, fromage, raclette, champignons de Paris" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/61/61614dfbecbcb.jpeg> ;
+                    ns1:name "Pizza Pierre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Tomate ou crème, fromage, champignons de Paris, artichauts, courgettes, poivrons, olives\r
+noires oignons, tomates séchées""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/61/61614f9d60810.jpeg> ;
+                    ns1:name "Pizza 4 Saisons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate ou crème, fromage, chèvre, olives noires, miel" ;
+                    ns1:name "Pizza Chèvre-Miel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate ou crème, fromage et olives noires" ;
+                    ns1:name "Pizza Olives" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate ou crème, fromage, saumon frais ou fumé, câpres, oignons, persillade" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/61/61614f7d6c70d.jpeg> ;
+                    ns1:name "Pizza Saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate ou crème, fromage, thon, olives noires" ;
+                    ns1:name "Pizza du pêcheur" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "La Fameuse et Délicieuse Pizza de M'sieur Henri 🍕" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Pâtes au thon frais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lasagne au Saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Pâtes A La Napolitaine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/61/61614da5c21d7.jpeg> ;
+                    ns1:name "Pâtes au saumon frais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/61/61614d7755a84.jpeg> ;
+                    ns1:name "Gratin de Pommes de terre et Patates douces" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ] ;
+            ns1:name "Les Pâtes du Chef 🍝" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/61/61614f6d2a013.jpeg> ;
+                    ns1:name "Tarte Maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Cookie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Carrot Cake" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Tiramisu maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "Les Desserts 🍰" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salade, Thon déglacé au vinaigre Balsamique, aïl, olives, champignons de Paris" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/61/61614f29bdfda.jpeg> ;
+                    ns1:name "Salade Gaby" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Salade verte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, raisins, brie, noix de pécan caramélisées au sirop d’érable, miel, amandes effilées" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/61/61614f41f0175.jpeg> ;
+                    ns1:name "Salade Fantaisie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, Emmental râpé, carotte, œuf, tomate, pickles d’oignons rouges" ;
+                    ns1:name "Salade d’Emmental" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pizza blanche, huile d’olive, persillade" ;
+                    ns1:name "Focaccia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, saumon poêlé ou fumé, maïs, pomme, melon ou pamplemousse selon saison, sauce cocktail" ;
+                    ns1:name "Salade Nordique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, chèvre sur pain grillé, maïs, œuf, noix de pécan caramélisées au sirop d’érable" ;
+                    ns1:name "Salade de chèvre chaud" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ] ;
+            ns1:name "Les Bonnes Salades de Marie Claire 🥗" ] .
+

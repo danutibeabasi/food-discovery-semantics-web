@@ -1,0 +1,149 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://khora.berlin/en/restaurant/98-maria-vegan-comfort-food> ns1:hasMenu <https://khora.berlin/en/restaurant/98-maria-vegan-comfort-food#menu> .
+
+<https://khora.berlin/en/restaurant/98-maria-vegan-comfort-food#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pommes frites, hausgemachte cashew käsesauce, Jalapenos" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5f/89/5f89a6d4f35e1.JPG> ;
+                    ns1:name "Cheese fries!" ;
+                    ns1:nutrition "Mustard",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cheese fries, home made barbecue ribs, home made  teriyaki, koriander, balsamico Zwiebeln." ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/47/61472f1383023.jpeg> ;
+                    ns1:name "Loaded fries Barbecue ribs" ;
+                    ns1:nutrition "Mustard",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "loaded fries, 2 panierte V. Hähnchnfilet, marinara, chipotle mayo, schmelz zwiebeln, cashew mozzarella, basilikum." ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/47/61472f7ae5ce4.jpeg> ;
+                    ns1:name "loaded fries faux chicken parma" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Mustard",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pommes frittes mit skin, gluten frei" ;
+                    ns1:name "just fries" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ] ;
+            ns1:name "Fries!!!" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "veganes Mc cheese, hausgemachte Käsesauce aus Cashew, Semmelbrösel, Balsamico zwiebeln" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5f/89/5f89a92805007.JPG> ;
+                    ns1:name "vegan Mc and Cheese" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Mustard",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Pasta!" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "ceaser salat, paniertes Hähnchenfilet, hausgemachte ceaser dressing aus cashews, croutons" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5f/89/5f89a8fb390b4.JPG> ;
+                    ns1:name "ceaser salat" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Mustard",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ] ;
+            ns1:name "Salate" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "mousse au chocolat, berry coulli, weiße Schokolade" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5f/98/5f985e4be7953.JPG> ;
+                    ns1:name "mousse au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "karotten Haselnuss kuchen, Mandelfrichkäse frosting" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5f/98/5f9860051e2c0.JPG> ;
+                    ns1:name "carrot cake" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Schokoladen Kuchen, Erdnussbutter creme" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/47/61472ffa2aa69.jpeg> ;
+                    ns1:name "chocolate and peanut butter cake" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Peanuts",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Dessert and Cakes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "hausgemachtes v.Steak, grüne paprika, zwiebeln, hausgemachte Cashew Käsesauce, baguette." ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/62/83/6283447e6eadc.jpeg> ;
+                    ns1:name "Philly  cheese steak sandwich" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Mustard",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "panierte Blumenkohlröschen, chipotle sauce, Chipotle mayo, mayo, Salat, baguette." ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/47/61472e38b9d34.jpeg> ;
+                    ns1:name "cauliflower Hotwing sub" ;
+                    ns1:nutrition "Mustard",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "sandwiches" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "in cornflakes paniertes veganes Hähnchenfilet, gegrillte Ananas Scheibe, chipotle sauce, chipotle mayo, salat, weisse mayo." ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/62/83/6283432ed4fe2.jpeg> ;
+                    ns1:name "crispy chicken pina burger" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Premium Burger Homers patty, marinara,pesto, homemade cashew mozzarella, Balsamico Zwiebeln, Ketchup, mayo, salat, brioche bun." ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/60/2c/602c458484d47.jpeg> ;
+                    ns1:name "The Italian!" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "hausgemachtes veganes  Birria pork, Ananas-tomaten- pico de gallo, salsa verde, weisse Mayo, tortilla chips, chipotle, eingelegte rote zwiebeln, bun." ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/62/83/6283456479376.jpeg> ;
+                    ns1:name "Birria Burger" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Mustard",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "patty, chipotle mayo, onion rings, hausgemachter Käse aus Kokosmilch, Senf, ketchup, bun." ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5f/89/5f89a73806bd5.JPG> ;
+                    ns1:name "Not the usual Cheeseburger!" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Mustard",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "Burger!!" ] .
+

@@ -1,0 +1,40 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://niort.coopcycle.org/api/restaurants/22> a ns1:Restaurant ;
+    ns1:address <https://niort.coopcycle.org/api/addresses/2425> ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.63243e+01 ;
+            ns1:longitude -4.58075e-01 ] ;
+    ns1:image <https://niort.coopcycle.org/media/cache/restaurant_thumbnail/61/4d/614d4e40673a2.jpg> ;
+    ns1:name "Les Petites Bretonnes" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:15" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "19:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://niort.coopcycle.org/en/restaurant/22-les-petites-bretonnes" ] ] ;
+    ns1:sameAs <https://niort.coopcycle.org/en/restaurant/22-les-petites-bretonnes> ;
+    ns1:url <https://niort.coopcycle.org/en/restaurant/22-les-petites-bretonnes> .
+
+<https://niort.coopcycle.org/api/addresses/2425> a ns1:PostalAddress ;
+    ns1:name "Les Petites Bretonnes" ;
+    ns1:streetAddress "2 Rue de la Boule d'Or, 79000 Niort, France" ;
+    ns1:telephone "+33547540023" .
+

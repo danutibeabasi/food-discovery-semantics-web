@@ -1,0 +1,39 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://krokoop.coopcycle.org/api/restaurants/14> a ns1:Restaurant ;
+    ns1:address <https://krokoop.coopcycle.org/api/addresses/306> ;
+    ns1:description """Sain Bol c'est une île, le sable et la mer en plein centre-ville. En bref ? C'est Hawaï qui s'implante à Nîmes !\r
+\r
+Sain Bol, c'est aussi une entreprise familiale gérée par Julie & Marine, deux soeurs qui donnent du coeur à l'ouvrage pour proposer et réinventer un plat emblématique : le Poke Bowl !\r
+\r
+Avis aux créatifs : vous pourrez choisir vous-mêmes vos propres ingrédients pour une composition personnalisée qui s'adapte à vos envies. \r
+\r
+Le tout fait maison, avec des produits si possible locaux et de saison !""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.383631e+01 ;
+            ns1:longitude 4.357617e+00 ] ;
+    ns1:image <https://krokoop.coopcycle.org/media/cache/restaurant_thumbnail/65/49/6549719ac078e.png> ;
+    ns1:name "SAIN BOL" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:20" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://krokoop.coopcycle.org/en/restaurant/14-sain-bol" ] ] ;
+    ns1:sameAs <https://krokoop.coopcycle.org/en/restaurant/14-sain-bol> ;
+    ns1:url <https://krokoop.coopcycle.org/en/restaurant/14-sain-bol> .
+
+<https://krokoop.coopcycle.org/api/addresses/306> a ns1:PostalAddress ;
+    ns1:name "SAIN BOL" ;
+    ns1:streetAddress "24 Boulevard Victor Hugo, Nîmes, France" ;
+    ns1:telephone "+33466066665" .
+

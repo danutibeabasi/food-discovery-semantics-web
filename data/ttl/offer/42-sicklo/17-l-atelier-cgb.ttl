@@ -1,0 +1,252 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://sicklo.coopcycle.org/api/restaurants/17> ns1:hasMenu <https://sicklo.coopcycle.org/en/restaurant/17-l-atelier-cgb#menu> .
+
+<https://sicklo.coopcycle.org/en/restaurant/17-l-atelier-cgb#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "*possibilité avec du lait végétal" ;
+                    ns1:name "Chocolat chaud fait maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Café latte aux épices et à la citrouille" ;
+                    ns1:name "Pumpkin spicy latte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Matcha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Retrouvez aussi sa version frappé !\r
+*possibilité avec du lait végétal""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/5e/d8/5ed8ac2e3314c.jpg> ;
+                    ns1:name "Café Caramel au beurre salé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Décaféiné" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Retrouvez aussi sa version frappé !\r
+*possibilité avec du lait végétal""" ;
+                    ns1:name "Café Vanille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Retrouvez aussi sa version frappé !\r
+*possibilité avec du lait végétal""" ;
+                    ns1:name "Café Chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Retrouvez aussi sa version frappé !\r
+*possibilité avec du lait végétal""" ;
+                    ns1:name "Café Fève de Tonka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "*possibilité avec du lait végétal" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/5e/d8/5ed8abf9622da.jpg> ;
+                    ns1:name "Cappuccino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Retrouvez aussi sa version frappé !\r
+*possibilité avec du lait végétal""" ;
+                    ns1:name "Matcha Latte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/5e/27/5e2720b6d3b34.jpg> ;
+                    ns1:name "Thé & Infusion Kusmi Tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/5e/d8/5ed8ac131faba.jpg> ;
+                    ns1:name "Double expresso" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Retrouvez aussi sa version frappé !\r
+*possibilité avec du lait végétal""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/5e/d8/5ed8ad054cc03.jpg> ;
+                    ns1:name "Chaï Latte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "*possibilité avec du lait végétal" ;
+                    ns1:name "Noisette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/5e/d8/5ed8abe381021.jpg> ;
+                    ns1:name "Café" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "Boissons Chaudes ☕" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Tarte amandine pomme poire" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Banana bread au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Brownies chocolat noix noisettes amandes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gâteau avec carottes et cannell" ;
+                    ns1:name "Carottes cake" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Financier chocolat noisettes sans gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cookies au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Fromage blanc de la région pasteurisé\r
+Nature, granola ou miel en supplément""" ;
+                    ns1:name "Fromage blanc" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Desserts 🍰" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Citron pressé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sirop Bigallet" ;
+                    ns1:name "Sirop" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fruits rouges" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/5e/d8/5ed8ab84d24ac.jpg> ;
+                    ns1:name "Thé Glacé Maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Limonade artisanale de la brasserie des cuves de Sassenage" ;
+                    ns1:name "Limonade citron gingembre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50 cl" ;
+                    ns1:name "Eau gazeuse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/5e/27/5e271f8772fe0.jpg> ;
+                    ns1:name "Limonade au citron de la Brasserie des Cuves de Sassenage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "37,5 cl" ;
+                    ns1:name "Bouteille de thé glacé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Eau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pamplemousse pressé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Comme une limonade mais à l'orange !" ;
+                    ns1:name "Limonade à l'Orange de la Brasserie des Cuves de Sassenage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/5e/d8/5ed8ab3502b6e.jpg> ;
+                    ns1:name "Orange pressé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Boissons Froides 🧃" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Renseignements sur www.babbocafe.lu" ;
+                    ns1:name "Café en grains ,paquet de 1 kg" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€33.00" ] ] ;
+            ns1:name "Café en grains 😋" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Biére IPA de la brasserie des cuves de Sassenage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Biére à la framboise de la brasserie des cuves de Sassenage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bière blonde de la Brasserie des cuves de Sassenage 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La Belle Noiseuse de la Brasserie des cuves de Sassenage" ;
+                    ns1:name "Bière aux noix de Grenoble 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bière blanche de la Brasserie des cuves de Sassenage 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Bières 🍺" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Riz,Lentilles,Chou rouge,Poireaux rôties,Avocat,Poires,Noix,sauce yaourt et vinaigrette" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/5e/d8/5ed8ac8ca8cbe.jpg> ;
+                    ns1:name "Poke Bowl 2 avec riz" ;
+                    ns1:nutrition "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Boulgour, Chou Chinois,Carottes roties,Champignons,Potimarron,Châtaignes,Houmous et vinaigrette 
+
+
+\r
+Boulgour,Chou Chinois ,Carottes Rôties ,Champignons sautés ,Potimarron rôti ,Châtaignes ,Houmous et Vinaigrette""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/5e/d8/5ed8aba416431.jpg> ;
+                    ns1:name "Poke Bowl 1 avec Boulgour" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ] ;
+            ns1:name "Poke Bowl 🍚" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain grillé ,Chèvre,Potimarron,Champignons,Poires ,Noix et Miel" ;
+                    ns1:name "Tartines" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un club pleins d’avocat entre 3 tranches de pain de mie complet et du cheddar fondu servi avec une salade" ;
+                    ns1:name "Club sandwich" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "Club sandwich & Tartines 🥪" ] .
+

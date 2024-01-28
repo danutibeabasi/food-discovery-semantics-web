@@ -1,0 +1,18 @@
+@prefix ns1: <http://schema.org/> .
+
+<#me> a ns1:Person ;
+    ns1:address <#address> ;
+    ns1:name "DAN" .
+
+<#seeks> a ns1:Demand ;
+    ns1:availableAtOrFrom <#geoMidpoint> ;
+    ns1:priceSpecification "29" .
+
+<#address> a ns1:PostalAddress ;
+    ns1:addressLocality "SAINT ETIENNE" ;
+    ns1:postalCode "42100" .
+
+<#geoMidpoint> a ns1:GeoCoordinates ;
+    ns1:latitude "2.453"^^ns1:Float ;
+    ns1:longitude "4.567"^^ns1:Float .
+

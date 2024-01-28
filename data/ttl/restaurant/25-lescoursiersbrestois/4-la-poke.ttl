@@ -1,0 +1,44 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/restaurants/4> a ns1:Restaurant ;
+    ns1:address <https://lescoursiersbrestois.coopcycle.org/api/addresses/24> ;
+    ns1:description """Chez "La poké Brest", on vous prépare d'authentiques Poké Bowls généreux, colorés, adaptés à votre quotidien et à vos besoins !\r
+\r
+Notre spécificité ? Nos pokés sont préparés devant vos yeux avec des produits frais reçus le matin-même.\r
+\r
+Et pour que le plaisir soit total, vous pourrez déguster vos pokés avec des desserts et des sauces entièrement « fait maison » !""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.83898e+01 ;
+            ns1:longitude -4.49093e+00 ] ;
+    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/restaurant_thumbnail/61/f5/61f5724c1d987.jpg> ;
+    ns1:name "La Poke" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:15" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:30" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:20" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://lescoursiersbrestois.coopcycle.org/en/restaurant/4-la-poke" ] ] ;
+    ns1:sameAs <https://lescoursiersbrestois.coopcycle.org/en/restaurant/4-la-poke> ;
+    ns1:url <https://lescoursiersbrestois.coopcycle.org/en/restaurant/4-la-poke> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/addresses/24> a ns1:PostalAddress ;
+    ns1:name "La Poke" ;
+    ns1:streetAddress "38 Rue de Lyon, 29200 Brest, France" ;
+    ns1:telephone "+33762171824" .
+

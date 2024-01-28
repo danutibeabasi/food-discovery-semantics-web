@@ -1,0 +1,41 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://robinfood.coopcycle.org/api/restaurants/46> a ns1:Restaurant ;
+    ns1:address <https://robinfood.coopcycle.org/api/addresses/8132> ;
+    ns1:description "**_Assapora l'eccellenza dei nostri Smash Burger artigianali! Da Smash Lab by Alex Burger, ti offriamo l'esperienza culinaria definitiva. I nostri hamburgers sono preparati al momento, utilizzando solo ingredienti freschi e di alta qualità._**" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.376695e+01 ;
+            ns1:longitude 1.128331e+01 ] ;
+    ns1:image <https://robinfood.coopcycle.org/media/cache/restaurant_thumbnail/64/81/6481f9c8dcb43.png> ;
+    ns1:name "Smash Lab by Alex Burger" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:50" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:50" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "it" ;
+                    ns1:urlTemplate "https://robinfood.coopcycle.org/en/restaurant/46-smash-lab-by-alex-burger" ] ] ;
+    ns1:sameAs <https://robinfood.coopcycle.org/en/restaurant/46-smash-lab-by-alex-burger> ;
+    ns1:url <https://robinfood.coopcycle.org/en/restaurant/46-smash-lab-by-alex-burger> .
+
+<https://robinfood.coopcycle.org/api/addresses/8132> a ns1:PostalAddress ;
+    ns1:name "Smash Lab by Alex Burger" ;
+    ns1:streetAddress "Via Quintino Sella, 17, Firenze, FI, Italia" ;
+    ns1:telephone "+393911843246" .
+

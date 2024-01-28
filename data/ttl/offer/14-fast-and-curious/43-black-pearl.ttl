@@ -1,0 +1,274 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://fast-and-curious.coopcycle.org/api/restaurants/43> ns1:hasMenu <https://fast-and-curious.coopcycle.org/en/restaurant/43-black-pearl#menu> .
+
+<https://fast-and-curious.coopcycle.org/en/restaurant/43-black-pearl#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Roquette, toast de saumon et fromage frais, demi avocat, oeuf sur le plat, sésame" ;
+                    ns1:name "La Salmon Bowl" ;
+                    ns1:nutrition "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Roquette, toasts de sarrasin au chèvre frais, confits d'oignons, tomates, noix, miel" ;
+                    ns1:name "La Cheese Bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ] ;
+            ns1:name "Salades" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Accompagnée de menthe fraîche et d'une infusion maison à la fleur d'hibiscus, légèrement sucrée à l'érythritol (édulcorant naturel IG bas)" ;
+                    ns1:name "La salade de Fruits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sorbet à la pomme verte, Calvados, basilic" ;
+                    ns1:name "Trou Normand" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Autres desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Cidre artisanal doux" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vin rouge, blanc ou rosé au choix" ;
+                    ns1:name "Bouteille de Vin 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Cidre artisanal Brut" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Bière artisanale et régionale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Alcools BIO" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Cappuccino bonbon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Latte Macchiato" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cappuccino caramel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Chocolat chaud" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Déca allongé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Café au lait" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Déca court" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Expresso" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Noisette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cappuccino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Café allongé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "Boissons chaudes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Base 100% blé noir et sel de Guérande\r
+Patate douce, fondue de poireaux, oignons, sauce paprika fumé, roquette""" ;
+                    ns1:name "La Douce Patate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Base 100% blé noir et sel de Guérande\r
+Saumon fumé, crème de cajou, citron, basilic, roquette""" ;
+                    ns1:name "La Saumon" ;
+                    ns1:nutrition "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Base 100% blé noir et sel de Guérande\r
+Emmental, saucisse bouchère artisanale fumée, crème légèrement moutardée à l'ancienne, ciboulette, roquette""" ;
+                    ns1:name "La Hot Dog" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Base 100% blé noir et sel de Guérande\r
+Emmental, Saint nectaire AOP, chèvre frais, noix, roquette""" ;
+                    ns1:name "La 3 fromages" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "La raclette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Base 100% blé noir et sel de Guérande\r
+Oeuf miroir, saint nectaire, jambon de pays(gluten) ou jambon blanc ou dinde Halall , roquette""" ;
+                    ns1:name "La Complète" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Base 100% blé noir et sel de Guérande\r
+Oeuf miroir, épinard, crème de chèvre frais, olives, roquette""" ;
+                    ns1:name "La Popeye" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Base 100% blé noir et sel de guérande\r
+Emmental, jambon blanc  ( ou dinde Halall), roquette""" ;
+                    ns1:name "La simple" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.60" ] ] ;
+            ns1:name "Les Galettes (Base 100% blé noir et sel de Guérande)" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Coca" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "35cl" ;
+                    ns1:name "Jus d'orange préssées" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jus de pomme Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Limonade artisanale peu sucrée" ;
+                    ns1:name "Limonade Citron - citron vert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Eau pétillante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Limonade artisanale peu sucrée" ;
+                    ns1:name "Limonade Pêche-abricot" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ice Tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Eau plate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Limonade artisanale peu sucrée" ;
+                    ns1:name "Limonade Fraise - Framboise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Poire, chocolat maison, boule de glace à la vanille (mise à part)" ;
+                    ns1:name "Belle Hélène" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Beurre et sucre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fraise ou abricot à préciser en commentaire" ;
+                    ns1:name "Confiture Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poêlée de pommes, sucre, flambé au Calvados" ;
+                    ns1:name "Flambée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Chocolat banane" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.25" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chocolat maison, chantilly, chamallows, smarties, éclats de spéculos croquants" ;
+                    ns1:name "Chocolat Bonbons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Nutella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crème de marron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Beurre, sucre, citron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sucre, citron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Nutella, banane" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.25" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poêlée de pommes, caramel beurre salé, boule de glace à la vanille (mise à part)" ;
+                    ns1:name "Pomme Caramel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Caramel au beurre salé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sucre" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Nutella, spéculos croquant" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.25" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chocolat pâtissier supérieur" ;
+                    ns1:name "Chocolat maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sirop d'érable" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Miel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ] ;
+            ns1:name "Les Crêpes sucrées" ] .
+

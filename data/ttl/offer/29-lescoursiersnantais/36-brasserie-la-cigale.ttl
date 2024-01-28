@@ -1,0 +1,209 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lescoursiersnantais.coopcycle.org/api/restaurants/36> ns1:hasMenu <https://lescoursiersnantais.coopcycle.org/en/restaurant/36-brasserie-la-cigale#menu> .
+
+<https://lescoursiersnantais.coopcycle.org/en/restaurant/36-brasserie-la-cigale#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5f/aa/5faa88316a48f.jpg> ;
+                    ns1:name "2019  Cheverny - Domaine du Salvard - Delaille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5f/c1/5fc124da7899a.jpg> ;
+                    ns1:name "2018  Saint Peray - Les Pins - B. Grippa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5f/aa/5faa90235ef67.jpg> ;
+                    ns1:name "2019  Corse Figari - Clos Canarelli - Y. Canarelli (Blanc)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€29.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5f/c1/5fc12457f03e3.jpg> ;
+                    ns1:name "2018  Muscadet Domaine de Bellevue - Sèvre & Maine - Jérôme Bretaudeau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5f/c1/5fc12488bb5a1.jpg> ;
+                    ns1:name "2019  Pinot Blanc ’Mise du Printemps’ - Domaine Josmeyer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5f/aa/5faa8a05c7fe6.jpg> ;
+                    ns1:name "2017  Les Hauts de Smith Blanc - Pessac Leognan - Daniel et Florence Cathiard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€61.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5f/c1/5fc125002125f.jpg> ;
+                    ns1:name "2018  Pouilly Fuissé - Eric Forest" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€45.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5f/c1/5fc123965f6a5.jpg> ;
+                    ns1:name "2018  Petit Chablis - Stéphanie et Vincent Michelet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.60" ] ] ;
+            ns1:name "Les Blancs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/60/16/6016a7a1d8beb.jpeg> ;
+                    ns1:name "Velouté de courge des jardins de St Hilaire, effiloché de canard et châtaignes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/60/16/6016a7898e9c0.jpeg> ;
+                    ns1:name "Tarte fine de boudin noir « maison », confit d’oignons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "Les Entrées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5f/aa/5faa8f10e251b.jpg> ;
+                    ns1:name "2019  Corse Figari - Clos Canarelli - Y. Canarelli (Rosé)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€29.40" ] ] ;
+            ns1:name "Le Rosé" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5f/aa/5faa875438956.jpg> ;
+                    ns1:name "Billecart-Salmon Cuvée Brut Réserve" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€55.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5f/aa/5faa878ee9fef.jpg> ;
+                    ns1:name "Jacquesson 740" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€77.00" ] ] ;
+            ns1:name "Les Champagnes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Plat à la Carte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Dessert à la Carte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/60/22/602245e8d24d6.jpeg> ;
+                    ns1:name "L'offre Amoureuse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€130.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/60/22/602245c5e8947.jpeg> ;
+                    ns1:name "Menu de la Saint Valentin" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€45.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Entrée à la Carte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ] ;
+            ns1:name "La Saint Valentin" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/60/16/6016a759ec9fd.jpeg> ;
+                    ns1:name "Pomme des vergers de Vertou façon tatin, sablé breton" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/60/16/6016a7e4209d1.jpeg> ;
+                    ns1:name "Chou au chocolat grand cru Valrhona, cœur coulant" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Les Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Paleron de bœuf VBF braisé au vin rouge, carottes fanes au jus" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/60/16/6016a7c8b6b33.jpeg> ;
+                    ns1:name "Fregola Sarda au parmesan, crème de butternut Barbara, poêlée de champignons et chips de légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/60/16/6016a86f9dd96.jpeg> ;
+                    ns1:name "Noix de St Jacques de nos côtes à l’orange sanguine, endivettes et écrasé de patates douces sakura" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ] ;
+            ns1:name "Les Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5f/aa/5faa8a6fd8a7b.jpg> ;
+                    ns1:name "2019  Les Petits Pas aoc Languedoc - Domaine du Pas de l’Escalette - J. & P. Zernott" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5f/aa/5faa8aa89c9a1.jpg> ;
+                    ns1:name "2018  Côtes du Rhône - Mon Coeur -  Jean-Louis Chave Selection" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5f/c1/5fc125435a433.jpg> ;
+                    ns1:name "2019  Saumur Champigny - Domaine des Roches Neuves - T. Germain" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5f/aa/5faa8afb9edc8.jpg> ;
+                    ns1:name "2015  Château Mayne Lalande - Listrac - B. Lartigue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€34.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5f/c1/5fc1257282d17.jpg> ;
+                    ns1:name "2013  Clos de la Faille - Pinot noir - Domaine Albert Mann" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€60.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5f/aa/5faa8bceb7f7a.jpg> ;
+                    ns1:name "2015  Baron de Brane - Margaux - 2nd vin Château Brane de Cantenac" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€59.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5f/aa/5faa9124252ea.jpg> ;
+                    ns1:name "2017  Figari - Clos Canarelli - Y. Canarelli (Rouge)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€29.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5f/aa/5faa8b0f524b8.jpg> ;
+                    ns1:name "2016  Bourgogne Les 2 Terres - Thibault Liger Belair" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€31.00" ] ] ;
+            ns1:name "Les Rouges" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/60/16/6016a6c3a703d.jpeg> ;
+                    ns1:name "Menu du Vendredi 5 Février" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/60/16/6016a66cdf20c.jpeg> ;
+                    ns1:name "Menu du Jeudi 4 Février" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/60/16/6016a6f3360eb.jpeg> ;
+                    ns1:name "Menu du Samedi 6 Février" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ] ;
+            ns1:name "Menu du Jour" ] .
+

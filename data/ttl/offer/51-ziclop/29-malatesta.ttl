@@ -1,0 +1,106 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://ziclop.coopcycle.org/api/restaurants/29> ns1:hasMenu <https://ziclop.coopcycle.org/en/restaurant/29-malatesta#menu> .
+
+<https://ziclop.coopcycle.org/en/restaurant/29-malatesta#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Con dos salsas (Mayonesa normal y picante)" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/2c/632c324ca8d2f.jpeg> ;
+                    ns1:name "Chips Caseras" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Con dos salsas (Mayonesa miel y mostaza y mayonesa picante)" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/2c/632cb458600cd.jpeg> ;
+                    ns1:name "Fingers de Pollo Caseros" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ] ;
+            ns1:name "Para Picar" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/2c/632c900e1e240.jpeg> ;
+                    ns1:name "Berenjena, Tomate, Mozzarella y Parmesano Grana Padano." ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/1d/631dd8aaec48b.jpeg> ;
+                    ns1:name "Saltxitxa Fresca, Mozzarella, Scarmorza, Tomate y Aceite de Trufa" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/2c/632c32cbd9741.jpeg> ;
+                    ns1:name "Tomate, Mozarella y Straciatella con un toque de aceite de albahaca" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella,  Straciatella, Grana Padano, Gorgonzola, Brie y Scarmorza" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/2c/632c2f2dd5fe2.jpeg> ;
+                    ns1:name "Seis Quesos" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Masa con cúrcuma." ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/2c/632c32efc646e.jpeg> ;
+                    ns1:name "Txampiñones, Tomate Cherry, Cebolla, Olivada y Alcaparras." ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/2c/632c329e4c186.jpeg> ;
+                    ns1:name "Jamón York, Tomate, Mozzarella y Straciatella con un toque de aceite de albahaca." ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Porción de Pizza" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Nuestro brownie es sin nueces." ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/2c/632c26081dec5.jpeg> ;
+                    ns1:name "Brownie" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Postres" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/2c/632c26cc57398.jpeg> ;
+                    ns1:name "Bola de Jamón y Parmesano" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Fritos" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Cola de km0. Hecha en Baiona." ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/1d/631dd849e2781.jpeg> ;
+                    ns1:name "Euskola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.25" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cerveza artesana New England Ipa." ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/2c/632c90c855a03.jpeg> ;
+                    ns1:name "Cerveza Malatesta Neipa" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Bebidas" ] .
+

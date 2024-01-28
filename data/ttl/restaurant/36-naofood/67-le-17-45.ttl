@@ -1,0 +1,43 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://naofood.coopcycle.org/api/restaurants/67> a ns1:Restaurant ;
+    ns1:address <https://naofood.coopcycle.org/api/addresses/44391> ;
+    ns1:bannerImage "https://naofood.coopcycle.org/media/cache/restaurant_banner/60/d8/60d8b8b62b6c9.jpg" ;
+    ns1:description """Le temple de l'apéro ! Venez composer votre planche apéro sur-mesure parmi + de 40 produits du terroirs. Charcuteries, fromages, crudités et accompagnements... il ne manque rien !\r
+Les commandes de planches sont accompagnées de pain de chez ArnoBoulangerie""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.72172e+01 ;
+            ns1:longitude -1.55323e+00 ] ;
+    ns1:image <https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/60/d8/60d8b8b62b6c9.jpg> ;
+    ns1:name "Le 17.45" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:00" ;
+            ns1:dayOfWeek "Sunday" ;
+            ns1:opens "18:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday" ;
+            ns1:opens "18:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:45" ;
+            ns1:dayOfWeek "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://naofood.coopcycle.org/en/restaurant/67-le-17-45" ] ] ;
+    ns1:sameAs <https://naofood.coopcycle.org/en/restaurant/67-le-17-45> ;
+    ns1:url <https://naofood.coopcycle.org/en/restaurant/67-le-17-45> .
+
+<https://naofood.coopcycle.org/api/addresses/44391> a ns1:PostalAddress ;
+    ns1:name "Le 17.45" ;
+    ns1:streetAddress "18 Rue de Briord, 44000 Nantes, France" ;
+    ns1:telephone "+33228494746" .
+

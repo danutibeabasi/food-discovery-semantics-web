@@ -1,0 +1,62 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://khora.berlin/en/restaurant/156-khora-s-last-restaurant> ns1:hasMenu <https://khora.berlin/en/restaurant/156-khora-s-last-restaurant#menu> .
+
+<https://khora.berlin/en/restaurant/156-khora-s-last-restaurant#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """It seems so long since a bunch of Deliveroo couriers were dreaming about an independent food delivery service. And so many things happened in the past 3 years during which Khora was born, grew and lived. Heated discussions and cold nights delivering, top floors and nice tips, lockdown times and hangouts after work. And so much more! What we experienced and learned in this time is impossible to put into words. We now, with heavy hearts, decided that it is time to stop.
+\r
+Under current circumstances we are not able to go on and give ourselves fair and healthy working conditions. Which has always been the real goal of the whole thing.
+\r
+We want to thank all of our customers for the trust you gave us, it means really a lot to us. It was not always the easiest process to order from us, but you kept doing it. We like to think you did it cause you shared our idea of a self organised alternative in food delivery, and we can never thank you enough for your loyalty.
+\r
+From the 27.06 we will cease operations.
+\r
+The support we have received for this project gives us hope that there is a space for something like Khora. If that should be the case, we hope that the experience and knowledge we have gained can support future initiatives. We now know that the most beautiful ideas of equality and cooperation can overcome huge adversities. At least for a while.
+\r
+Once again, to all those who have supported us: THANK YOU! It’s been a great ride!
+
+
+
+\r
+KHORA Food Delivery Collective""" ;
+                    ns1:name "Love Letter" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Es scheint eine Ewigkeit her zu sein, dass ein paar ehemalige Deliveroo-Kurier:innen davon träumten, einen unabhängigen Essenslieferdienst zu eröffnen. So viel ist in den letzten 3 Jahren passiert, in denen Khora entstand, wuchs und lebte. Hitzige Diskussionen, eiskalte Nächte, unzählige Treppen in die obersten Stockwerke, unerwartete Trinkgelder, Lockdowns und Feierabendtreffen nach der Arbeit.
+\r
+Und so vieles mehr!
+\r
+Was wir in dieser Zeit erlebt und gelernt haben, lässt sich nicht in Worte fassen.
+\r
+Doch schweren Herzens haben wir nun beschlossen, dass es Zeit ist aufzuhören.
+\r
+Unter den derzeitigen Umständen sind wir nicht in der Lage weiterzumachen und uns faire und gesunde Arbeitsbedingungen zu schaffen, was immer das eigentliche Ziel des ganzen Unterfangens war.
+
+
+\r
+Wir möchten uns bei all unseren Kund:innen und Restaurant-Parntern:innen für das uns entgegengebrachte Vertrauen bedanken, das bedeutet uns unglaublich viel! 
+\r
+Es war nicht immer einfach bei uns zu bestellen, trotzdem habt ihr es immer wieder getan.
+\r
+Wir glauben, weil auch ihr unsere Idee einer selbstorganisierten Alternative bei der Essenslieferung geteilt habt und wir können euch nicht genug für eure Treue danken.
+\r
+Ab dem 27.06. werden wir unseren Betrieb einstellen.
+\r
+Die Unterstützung, die wir für dieses Projekt erhalten haben, lässt uns hoffen, dass es weiterhin Platz für so etwas wie Khora gibt.
+\r
+Sollte dies der Fall sein, hoffen wir, dass die Erfahrungen und Erkenntnisse, die wir gewonnen haben, zukünftige Initiativen unterstützen können.
+
+
+\r
+Und noch einmal: An alle, die uns unterstützt haben: DANKESCHÖN! \r
+Es war eine großartige Reise! 
+\r
+KHORA Food Delivery Collective""" ;
+                    ns1:name "Liebesbrief" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ] ;
+            ns1:name "Messages - Nachrichten" ] .
+

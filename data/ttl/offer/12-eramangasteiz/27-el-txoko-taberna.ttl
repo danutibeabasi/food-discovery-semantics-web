@@ -1,0 +1,327 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/27> ns1:hasMenu <https://eramangasteiz.coopcycle.org/en/restaurant/27-el-txoko-taberna#menu> .
+
+<https://eramangasteiz.coopcycle.org/en/restaurant/27-el-txoko-taberna#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Ración extra de tortillas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "¡Casero! No hay otra manera de hacerlo" ;
+                    ns1:name "Guacamole" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ] ;
+            ns1:name "Extras" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Chesse Cake de Cajeta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tarta chocolatísima" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Red Velver" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Torrija" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Postre de la casa" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "4 Tortilla de maíz fritas rellenas de  Pollo con lechuga crema agria, salsa verde y queso fresco" ;
+                    ns1:name "Flautas de pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 Tortillas de maíz fritas rellenas de Res con lechuga crema agria, salsa verde y queso fresco" ;
+                    ns1:name "Flautas de res" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tortilla de maíz frita rellena acompañada de lechuga y crema agria" ;
+                    ns1:name "Flautas de langostinos y chutney de mango en maíz azul" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ] ;
+            ns1:name "Flautas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:name "Kas Limón" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Coca-Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:name "Kas Naraja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "Bebidas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Modelo especial" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "XX" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Desesperados" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sol" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pacífico" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Negra modelo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Cervezas mexicanas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Hechas con harina de trigo" ;
+                    ns1:name "Sincronizadas de jamón y queso" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Hechas con harina de trigo" ;
+                    ns1:name "Sincronizadas de jamón, queso y champiñones" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Hechas con harina de trigo" ;
+                    ns1:name "Sincronizadas de jamón, queso y aguacate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ] ;
+            ns1:name "Sincronizadas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "2 Unidades" ;
+                    ns1:name "Quesadillas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ] ;
+            ns1:name "Quesadilla" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "El Burrito esta elaborado con tortilla de Trigo de !!36 cm!!" ;
+                    ns1:name "Burrito al pastor" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Burrito desmechada" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Burrito de carnitas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "El Burrito esta elaborado con tortilla de Trigo de !!36 cm!!" ;
+                    ns1:name "Burrito cochinita pibil" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Burrito tinga de pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Burrito de chilorio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Burrito vegana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "Burritos" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "2 uni. rellenos de Bonito" ;
+                    ns1:name "Jalapeños" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Tlacoyos (2 por ración)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Tequeños con Guasacaca" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 Unidad" ;
+                    ns1:name "Empanada" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Tequeños" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Ceviche Acapulqueño" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Copa de ceviche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base de masa de maíz rellena de frijoles, pollo, lechuga, cebolla, crema agria y Chile Chipotle" ;
+                    ns1:name "SOPES (2 por ración)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tortilla de harina de Trigo, Carne al Pastor, Queso fundido, Piña, cilantro y cebolla." ;
+                    ns1:name "GRINGA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 Langostinos en Tempura acompañados de Arroz Rojo y Salsa Diabla!!" ;
+                    ns1:name "Langostinos a la Diabla" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ] ;
+            ns1:name "Entrantes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "lata 33.cl" ;
+                    ns1:name "Cerveza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jarritos mango" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Verdejo \"Castello de Medina\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Jarritos tamarindo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bot. tinto Rioja Alavesa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tarta de Tres Leches" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Mousse de Chocolate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jarritos toronja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jarritos guayaba" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Moscato" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bot. crianza Valserrano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ] ;
+            ns1:name "Bebidas mexicanas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Tacos vegana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tacos al pastor" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tacos de chilorio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "El Taco está elaborado con tortilla de maíz hecha a mano (3 tacos por orden)" ;
+                    ns1:name "Tacos cochinila pibil" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tacos de carnitas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tacos desmechada" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tacos tinga de pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.70" ] ] ;
+            ns1:name "Tacos" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Enchiladas roja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Enchiladas verde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Enchiladas vegana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Enchiladas emmoladas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Enchiladas poblanas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Especialidad rellena generalmente de pollo que se prepara con tortillas de maíz untadas con salsa de chile y gratinadas" ;
+                    ns1:name "Enchiladas divorciada" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ] ;
+            ns1:name "Enchilada" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Elaborados en tortilla de maíz natural, queso Cheddar y Picadillo" ;
+                    ns1:name "Nachos con carne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Nachos veganos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Nachos con todo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Nachos con Guacamole" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ] ;
+            ns1:name "Nachos" ] .
+

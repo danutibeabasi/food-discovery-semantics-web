@@ -1,0 +1,446 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://ziclop.coopcycle.org/api/restaurants/26> ns1:hasMenu <https://ziclop.coopcycle.org/en/restaurant/26-luna-de-estambul#menu> .
+
+<https://ziclop.coopcycle.org/en/restaurant/26-luna-de-estambul#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Tarta de Queso" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tarta de Chocolate con Galleta" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/61/f0/61f04b0471046.jpeg> ;
+                    ns1:name "Kadayif" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Kunefe" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/61/f0/61f04794be76c.jpeg> ;
+                    ns1:name "Baklava" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ] ;
+            ns1:name "Dulces orientales" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Patatas con salsa brava y mayonesa" ;
+                    ns1:name "Patatas Bravas" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Patatas fritas, ketchup, mayonesa y cebolla" ;
+                    ns1:name "Patatas Fritas Especial" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Patatas fritas, ketchup, mayonesa y cebolla" ;
+                    ns1:name "Patatas Fritas Grande Especial" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Patatas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella y orégano" ;
+                    ns1:name "Pizza Margarita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, atún, cebolla y maíz" ;
+                    ns1:name "Pizza Atún" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, pechuga de pollo, pimiento y huevo" ;
+                    ns1:name "Pizza Caprichosa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarrella, kebap de ternera y champiñones" ;
+                    ns1:name "Pizza Döner Kebap" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, salami y orégano" ;
+                    ns1:name "Pizza Salami" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarrella, champiñones, carne de pollo, pimientos y cebolla" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/61/f0/61f049ed9ae1f.jpeg> ;
+                    ns1:name "Pizza Turkuaz" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarrella y champiñones" ;
+                    ns1:name "Pizza Funki" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, pimientos, olivas, cebolla y maíz" ;
+                    ns1:name "Pizza Vegetal" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Carne de ternera, queso, lechuga, tomate y cebolla" ;
+                    ns1:name "Hamburguesa Completa" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, queso turco, queso de cabra y queso azul" ;
+                    ns1:name "Pizza 4 quesos" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ] ;
+            ns1:name "Pizzas y Hamburguesas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Ensalada de Pollo" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/61/f0/61f04971f1538.jpeg> ;
+                    ns1:name "Ensalada con Nueces" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/61/f0/61f04927e33d9.jpeg> ;
+                    ns1:name "Hummus" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Con queso" ;
+                    ns1:name "Empanadillas de Cigarrillos" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ensalada de Atún" ;
+                    ns1:nutrition "Eggs",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Falafel,empanadillas de cigarrillos, patatas, Icli Köfte" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/61/f0/61f048ebcef99.jpeg> ;
+                    ns1:name "Combo para picar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/61/f2/61f2a1aeefb2a.jpeg> ;
+                    ns1:name "Icli Köfte" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Sarmale con Carne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/61/f0/61f04aa6924bf.jpeg> ;
+                    ns1:name "Yaprak Sarmasi" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ensalada de Feta" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ensalada Verde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Sabores Orientales para Compartir" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Brocheta de cordero con arroz y ensalada" ;
+                    ns1:name "Kuzu Şiş Kebap" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Döner carne de pollo o ternera, arroz, ensalada y salsa" ;
+                    ns1:name "Plato Kebap" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Falafel, patatas fritas ensalada y salsa" ;
+                    ns1:name "Plato Falafel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Carne kebap pollo o ternera con queso gratinada, patatas y lechuga" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/61/f0/61f06ca13b555.jpeg> ;
+                    ns1:name "Plato Kap Salon" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Entrecot con patatas" ;
+                    ns1:name "Plato Entrecot" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Döner carne yogur, salsa de tomate a la plancha" ;
+                    ns1:name "Iskender Kebap" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Alitas de pollo con ensalada, patatas o arroz" ;
+                    ns1:name "Alitas de Pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "¼ de Pollo Asado con Patatas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Plato de carne grill, especial con tomate asado, pimientos y pan" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/61/f0/61f04a618c197.jpeg> ;
+                    ns1:name "Plato Turkuaz" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chuleta de cordera con arroz y ensalada" ;
+                    ns1:name "Plato Costilla" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Kepab de pollo o ternera con verduras y patatas fritas" ;
+                    ns1:name "Plato Kebap Especial" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Albóndigas a la parrilla, patatas fritas, ensalada y salsa" ;
+                    ns1:name "Plato Köfte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ] ;
+            ns1:name "Delicias Turcas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Dürum Kepab , patatas fritas y bebidas" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/61/f0/61f065e819c7e.jpeg> ;
+                    ns1:name "Menú Dürum Kebap" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan dürum con pinchos de pollo, ensalada y salsa" ;
+                    ns1:name "Dürum Tavuk Şiş" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan dürum con pinchos de cordero, ensalada y salsa" ;
+                    ns1:name "Dürum Şiş" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan dürun con falafel, ensalada, feta y salsa" ;
+                    ns1:name "Dürum Falafel Feta" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan dürum con carne de pollo o ternera, ensalada y salsa" ;
+                    ns1:name "Dürum Kebap" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan dürum con carne de pollo o ternera, ensalada, feta y salsa" ;
+                    ns1:name "Dürum Adana" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan dürum con carne de pollo o ternera, ensalada maíz y salsa" ;
+                    ns1:name "Dürum Kebap Maiz" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ensalada y salsa" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/62/24/6224afacb4e55.jpeg> ;
+                    ns1:name "Lahmacun Pizza Turca" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan dürum con falafel, ensalada y salsa" ;
+                    ns1:name "Dürum Falafel" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan dürum con carne de pollo o ternera, ensalada y salsa" ;
+                    ns1:name "Dürum Kebap Feta" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Carne de pollo o ternera, ensalada y salsa" ;
+                    ns1:name "Lahmacun con Kebap" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Dürum de Besiktas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pan turco con carne de pollo o ternera, ensalada y salsa" ;
+                    ns1:name "Döner Kebap" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan turco con falafel, ensalada y salsa" ;
+                    ns1:name "Döner Vegetal" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan turco con falafel, ensalada y salsa" ;
+                    ns1:name "Döner Falafel" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan turco con albóndigas alargadas, ensalada y salsa" ;
+                    ns1:name "Döner Kebab Köfte" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan turco con carne de pollo o ternera, ensalada maíz y salsa" ;
+                    ns1:name "Döner Kebap Maïz" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan turco con carne de pollo o ternera, ensalada, piña y salsa" ;
+                    ns1:name "Döner Kebap Hawaï" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan turco con carne de pollo o ternera, ensalada, feta y salsa" ;
+                    ns1:name "Döner Kebap Feta" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pan turco con queso, ensalada feta y salsa" ;
+                    ns1:name "Döner Falafel Feta" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Döner kebap, patatas fritas y bebidas" ;
+                    ns1:name "Menú Döner Kebap" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ] ;
+            ns1:name "Döner de Kadikoy" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Aquarius" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Nestea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ayran" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Zumo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Coca Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Tonica" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Agua Grande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Agua" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Agua con Gas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Fanta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Gaseosa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Biter Kas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Sprite" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.90" ] ] ;
+            ns1:name "Bebidas" ] .
+

@@ -1,0 +1,348 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://niort.coopcycle.org/api/restaurants/12> ns1:hasMenu <https://niort.coopcycle.org/en/restaurant/12-pizza-energie#menu> .
+
+<https://niort.coopcycle.org/en/restaurant/12-pizza-energie#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomate, champignons, fromage, lardons." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5fc85c5938.jpeg> ;
+                    ns1:name "Paysanne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base blanche, pommes de terre, fromage, lardons, oignons, reblochon." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b522d8ad91e.jpeg> ;
+                    ns1:name "Dauphinoise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fromage, oignons, chorizo, merguez, poivrons." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5fd6388cec.jpeg> ;
+                    ns1:name "Sicilienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, champignons, jambon, fromage." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5fd09b1813.jpeg> ;
+                    ns1:name "Reine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, champignons, jambon, fromage, oeuf." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5fd2965dec.jpeg> ;
+                    ns1:name "Royale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, jambon, fromage, jambon sec, lardons." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5227e78504.jpeg> ;
+                    ns1:name "Charcutière" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base tomate, jambon, fromage, 2 condiments au choix" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/d0/60d08b7a24173.jpeg> ;
+                    ns1:name "Jambon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base crème, pommes de terre, jambon, fromage à raclette et 2 condiments au choix." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5fd4751f34.jpeg> ;
+                    ns1:name "Savoyarde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fromage, chorizo, oeuf, poivrons." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5fdf50bb9a.jpeg> ;
+                    ns1:name "Toscane" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, jambon, fromage, champignons, forestiers." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5f8afce56c.jpeg> ;
+                    ns1:name "Forestière" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, champignons, jambon, fromage, poivrons, coeurs d’artichauts." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5fceab2567.jpeg> ;
+                    ns1:name "Quatre Saisons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ] ;
+            ns1:name "Pizzas Charcutières" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, fromage, vos ingrédients et 2 condiments gratuits au choix." ;
+                    ns1:name "Pizza à composer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ] ;
+            ns1:name "Composez votre pizza" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fromage, pommes de terre, poulet, reblochon." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5fcab45b85.jpeg> ;
+                    ns1:name "Poulet Gourmande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fromage, viande de kebab, oignons, tomates fraîches." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5f9c65da32.jpeg> ;
+                    ns1:name "Kebab Energie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fromage, magret de canard." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5fd82ce712.jpeg> ;
+                    ns1:name "Suprême" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, oignons, pommes de terre, bœuf haché, fromage." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5fba2edb07.jpeg> ;
+                    ns1:name "Parmentier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, champignons, fromage, poulet, curry, chorizo." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5fccaa0317.jpeg> ;
+                    ns1:name "Poulet Tikka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, champignons, oignons, bœuf, haché, fromage." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5218a68992.jpeg> ;
+                    ns1:name "Cannibale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base tomate, mozza, chorizo, merguez, piment rouge, piment vert" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/b8/61b8cc14b72b0.jpeg> ;
+                    ns1:name "La \"Piccante\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, poulet, champignons, œuf, fromage." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5f8904ca2e.jpeg> ;
+                    ns1:name "Fermière" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fromage, magret de canard, champignons forestiers." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5f8f6327f6.jpeg> ;
+                    ns1:name "Gersoise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ] ;
+            ns1:name "Pizzas viandes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomate, saumon fumé, fromage." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5fb8321084.jpeg> ;
+                    ns1:name "Norvégienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base blanche, saumon, pommes de terre, fromage, reblochon." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5fb4f00749.jpeg> ;
+                    ns1:name "Nordique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fromage, tomates fraîches, noix de St-Jacques." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5f79fac736.jpeg> ;
+                    ns1:name "Délicieuse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fromage, fruits de mer, thon." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5f8d47ca89.jpeg> ;
+                    ns1:name "Fruits de mer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, saumon fumé, thon, fromage, poivrons, cœurs d’artichauts." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5f7d7e02a7.jpeg> ;
+                    ns1:name "Energie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, thon, oignons, fromage, tomates fraîches." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5fdd80cf19.jpeg> ;
+                    ns1:name "Tonkinoise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fromage, anchois." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5fafcf1e72.jpeg> ;
+                    ns1:name "Napolitaine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, moules, oignons, fromage." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5faa808f27.jpeg> ;
+                    ns1:name "Marinière" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "Pizzas pêcheurs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Coulis, jambon, ananas, fromage." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5fdbe1924c.jpeg> ;
+                    ns1:name "Tahitienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Coulis, poulet, ananas, fromage." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b522bd2b7e0.jpeg> ;
+                    ns1:name "Créole" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Coulis, fromage, magret de canard, pêches." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5fda044083.jpeg> ;
+                    ns1:name "Suprême aux pêches" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base Blanche, fromage, chèvres, Miel" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/be/61bef48232bbd.jpeg> ;
+                    ns1:name "Chèvre Miel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "Pizzas sucrées salées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomate, champignons, fromage, poivrons, tomates fraîches, cœurs d’artichauts." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b52200b5731.jpeg> ;
+                    ns1:name "Capricieuse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fromage." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5fa00aff78.jpeg> ;
+                    ns1:name "Marguerite" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ] ;
+            ns1:name "Pizzas végétariennes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "100ml" ;
+                    ns1:name "Ben & Jerry's : Cookie Dough" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "100ml" ;
+                    ns1:name "Ben & Jerry's : Caramel Chew Chew" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "100ml" ;
+                    ns1:name "Glace Ben & Jerry's : Peanut butter cup" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Base Blanche, fromage, chèvres, Miel" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5229b7a2e3.jpeg> ;
+                    ns1:name "Chèvre Miel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base Blanche, fromage, pommes de terre, oignons rouge, viande hachée, cornichons aigre-doux, sauce Barbecue." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b52169356a6.jpeg> ;
+                    ns1:name "Pizza Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ] ;
+            ns1:name "Notre sélection pour vous" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Evian 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-cola Zéro 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière 5,9°" ;
+                    ns1:name "Desperados 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tropico : L'original 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière 8,0°" ;
+                    ns1:name "Amsterdam Navigator 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Oasis Tropical 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fanta Orange 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un Vin effervescent de Emilia-Romagna, Italie." ;
+                    ns1:name "Ceci 27 Opere Lambrusco Amabile" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière 8,6°" ;
+                    ns1:name "8.6 Bavaria 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-cola 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tropico : Tropical 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un Vin effervescent rosé de Emilia-Romagna, Italie." ;
+                    ns1:name "Ceci 27 Opere Lambrusco Rosé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5°" ;
+                    ns1:name "Heineken 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Flying Solo vin rosé IGP Pays d'Oc, 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Base tomate,  Mozarella, Roquefort, Chèvre, Reblochon et 2 condiments au choix." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b51c7603279.jpeg> ;
+                    ns1:name "4 fromages" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, jambon, fromage, tomates, fraîches, mozzarella" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b5facfaf2b3.jpeg> ;
+                    ns1:name "Mozzarelle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, champignons, jambon, fromage, chèvre." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b51dbf304b7.jpeg> ;
+                    ns1:name "Bergère" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, fromage, chèvre, reblochon" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/b5/60b51d3b3797c.jpeg> ;
+                    ns1:name "3 fromages" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "Pizzas fromagères" ] .
+

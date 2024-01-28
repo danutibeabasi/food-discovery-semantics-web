@@ -1,0 +1,469 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiers-stephanois.coopcycle.org/api/restaurants/27> ns1:hasMenu <https://coursiers-stephanois.coopcycle.org/en/restaurant/27-pokawa#menu> .
+
+<https://coursiers-stephanois.coopcycle.org/en/restaurant/27-pokawa#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, poulet rôti sauce teriyaki, fruit au choix, radis, concombre, carottes, avocat, edamame, chou rouge, graines de sésame. LIL : 398 kcal / MEDIUM : 558 kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/9c/609c0cf3bb961.jpeg> ;
+                    ns1:name "Poké Poulet rôti teriyaki" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, saumon frais, avocat, mangue fraiche, cebette thaï, graines de sésame. LIL : 378 kcal / MEDIUM : 566 kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/9c/609c01f07e8d7.jpeg> ;
+                    ns1:name "Le Chirashi Hawaien" ;
+                    ns1:nutrition "Fish",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, saumon frais, fruit au choix, avocat, edamame, carotte, radis, concombre, chou rouge et graines de sésame. LIL : 432 kcal / MEDIUM : 620 kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/9c/609c035acc031.jpeg> ;
+                    ns1:name "Poké Saumon" ;
+                    ns1:nutrition "Fish",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, saumon frais, avocat, cebette thaï, graines de sésame. LIL : 365 kcal / MEDIUM : 553 kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/9c/609c022fd08c3.jpeg> ;
+                    ns1:name "Le Chirashi Saumon Avocat" ;
+                    ns1:nutrition "Fish",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, thon mariné*, fruit au choix, radis, concombre, carottes, avocat, edamame, chou rouge, graines de sésame. *Sans OGM, riche en protéines et faible en calories. LIL: 381 kcal / MEDIUM : 526 kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/9c/609c0c523b51a.jpeg> ;
+                    ns1:name "Poké Thon Mariné" ;
+                    ns1:nutrition "Fish",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, saumon et thon mariné, fruit au choix, carotte, radis, concombre, chou rouge, avocat, edamame, graines de sésame. LIL : 407 kcal / MEDIUM : 573 kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/9c/609c02d4eb9b5.jpeg> ;
+                    ns1:name "Poké Super Protéiné" ;
+                    ns1:nutrition "Fish",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, saumon frais mariné, avocat, edamame, graines de sésame et cébette thaï. LIL : 401 kcal / MEDIUM : 589 kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/9c/609c027bf3ebc.jpeg> ;
+                    ns1:name "Green Chirashi 💚" ;
+                    ns1:nutrition "Fish",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, falafels bio*, fruit au choix, radis, carottes, avocat, edamame, chou rouge, graines de sésame. * Vegan, sans gluten, biologique et sans OGM. LIL: 461 kcal / MEDIUM : 672 kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/9c/609c0d271522b.jpeg> ;
+                    ns1:name "Poké Falafels (falafels BIO)" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, crevettes, avocat, fruit au choix, radis, carotte, concombre, chou rouge, edamame, graines de sésame. *Faible en calories LIL: 381 kcal / MEDIUM : 527 kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/9c/609c0ca83153c.jpeg> ;
+                    ns1:name "Poké Crevettes" ;
+                    ns1:nutrition "Crustaceans",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ] ;
+            ns1:name "Pokés signatures 🍚" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, chick'en végétal, tartare de légumes composé de mangue, concombre, oignons rouges et cacahuètes, piment jalapeños et cébette. La touche finale, notre sauce spicy secrète. Lil : 470Kcal - Med : 675Kcal - Big : 864Kcal Allergènes : Gluten, poisson, soja, sésame, sulfites, arachides" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/1d/641d7e034203d.jpeg> ;
+                    ns1:name "Spicy chirashi Chick'en Végétal" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, poulet, tartare de légumes composé de mangue, concombre, oignons rouges et cacahuètes, piment jalapeños et cébette. La touche finale, notre sauce spicy secrète. Lil : 470Kcal - Med : 675Kcal - Big : 864Kcal Allergènes : Gluten, poisson, soja, sésame, sulfites, arachides" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/1d/641d7d4dd24a3.jpeg> ;
+                    ns1:name "Spicy chirashi Poulet Teriyaki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, saumon, tartare de légumes composé de mangue, concombre, oignons rouges et cacahuètes, piment jalapeños et cébette. La touche finale, notre sauce spicy secrète. Lil : 470Kcal - Med : 675Kcal - Big : 864Kcal Allergènes : Gluten, poisson, soja, sésame, sulfites, arachides" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/1d/641d7cafccf61.jpeg> ;
+                    ns1:name "Spicy chirashi Saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix,  crevettes, tartare de légumes composé de mangue, concombre, oignons rouges et cacahuètes, piment jalapeños et cébette. La touche finale, notre sauce spicy secrète. Lil : 470Kcal - Med : 675Kcal - Big : 864Kcal Allergènes : Gluten, poisson, soja, sésame, sulfites, arachides" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/1d/641d7da49f50f.jpeg> ;
+                    ns1:name "Spicy chirashi Crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ] ;
+            ns1:name "SPICY CHIRASHI" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Ici c'est vous le chef ! Créez votre poké avec les ingrédients de votre choix\r
+/!\\ Présence d'allergènes selon vos choix /!\\""" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/9c/609c018a1bfc3.jpeg> ;
+                    ns1:name "Poké Création" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ] ;
+            ns1:name "Poké Création 👩‍🍳" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Un bubble tea en petite bouteille au thé vert avec des billes passion, des nata de coco et du sirop à la mangue et à la passion. Se boit frais ! 🧊 Format : 250 ML 156 kcal (visuel non contractuel)" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/5b/645bf544d15e3.jpeg> ;
+                    ns1:name "LIL Bubble Tea Passion & Coco 🥥" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un bubble tea en petite bouteille au thé vert avec des billes passion, du fruit de la passion frais et du sirop à la mangue et à la passion. Se boit frais ! 🧊 Format : 250 ML 158 kcal (visuel non contractuel)" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/5b/645bf40783dc5.jpeg> ;
+                    ns1:name "LIL Bubble Tea Mangue & Passion 🥭" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un bubble tea en petite bouteille au thé vert avec des billes de citron et du sirop au citron vert et litchi. Se boit frais ! 🧊 Allergènes : Sulfites Format : 250 ML 128kcal (visuel non contractuel)" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/5b/645bf5222bb58.jpeg> ;
+                    ns1:name "LIL Bubble Tea Citron vert & Litchi 🍋" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ] ;
+            ns1:name "BUBBLE TEA" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Ici c'est vous le chef ! Créez votre sweet bowl fruité & gourmand en choisissant votre base, 2 toppings, 2 fruits et un twist ! Retrouvez le fichier des allergènes en caisse." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/5b/645bfa003162f.jpeg> ;
+                    ns1:name "Sweet bowl Création" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un bowl gourmand et fruité dans lequel on retrouve du granola aux éclats de chocolat, des graines de courge, de la noix de coco, de la grenade, une framboise, à personnaliser avec une base et un fruit supplémentaire au choix ! Retrouvez le fichier des allergènes en caisse." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/5b/645bf73ea4ed8.jpeg> ;
+                    ns1:name "Original Sweet Bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un dessert composé d'une base au choix et de granola aux éclats de chocolat ! Retrouvez le fichier des allergènes en caisse." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/5b/645bf61139b68.jpeg> ;
+                    ns1:name "Smart Sweet Bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ] ;
+            ns1:name "Healthy Bowls 🍍" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/3a/653a2480c4af8.jpeg> ;
+                    ns1:name "Smoothie Pink Acaï" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un smoothie fait maison aux saveurs exotiques grâce à notre mangue, ananas et fruit de la passion frais ! 162kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/5b/645bf2f16596c.jpeg> ;
+                    ns1:name "Smoothie Yellow Passion" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/5b/645bf3182452e.jpeg> ;
+                    ns1:name "Smoothie Green KIWI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ] ;
+            ns1:name "Nos Smoothies" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Le ramen healthy d'Hawaï ! Dans notre bouillon végétarien, retrouvez des nouilles, des carottes teriyaki, des champignons marinés, du radis red meat, des edamames, des haricots verts, du sésame et de la cébette thaï et ajoutez la protéine et le topping de votre choix. 580 kcal Allergènes : Soja, Sésame, Blé (Crustacé si Crevettes)" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/3a/653a271493d43.jpeg> ;
+                    ns1:name "Saimin ♨️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Faîtes une pause chez nos voisins japonais avec ce hot poké sauce teriyaki plein de bons légumes. Taille medium, base au choix, aiguillette végétales, edamame, aubergine miso, butternut rôti, carottes teriyaki. Son petit plus ? Le topping au choix ! Entre 504 et 557 kcal suivant la base. Allergènes : soja, gluten, sésame, sulfites" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/3a/653a2ac3f295b.jpeg> ;
+                    ns1:name "Teriyaki Hot Poké Chick'en Végétal ♨️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Faîtes une pause chez nos voisins japonais avec ce hot poké sauce teriyaki plein de bons légumes. Taille medium, base au choix, pavé de saumon, edamame, aubergine miso, butternut rôti, carottes teriyaki. Son petit plus ? Le topping au choix ! Entre 591 et 648 kcal suivant la base. Allergènes : soja, gluten, sésame, poisson, sulfites" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/3a/653a2be714ba8.jpeg> ;
+                    ns1:name "Teriyaki Hot Poké Saumon ♨️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Voyage des papilles assuré avec ce hot poké aux mille saveurs. Taille et base au choix, poulet, ananas caramélisé rôti, cacahuètes, cébette thaï, oignons frits, citron vert, le tout arrosé d'une sauce saté à la cacahuète. Son petit plus ? La coriande en option. LIL : 403 kcal - MED : 606 kcal - BIG : 861 kcal Allergènes : Arachides, gluten" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/3a/653a290c6d7a4.jpeg> ;
+                    ns1:name "Exotic Hot Poké 🍍" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Faîtes une pause chez nos voisins japonais avec ce hot poké sauce teriyaki plein de bons légumes. Taille medium, base au choix, crevettes, edamame, aubergine miso, butternut rôti, carottes teriyaki. Son petit plus ? Le topping au choix ! Entre 429 et 485 kcal suivant la base. Allergènes : soja, gluten, sésame, crustacés, sulfites" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/3a/653a2c1f8d30e.jpeg> ;
+                    ns1:name "Teriyaki Hot Poké Crevettes ♨️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Faîtes une pause chez nos voisins japonais avec ce hot poké sauce teriyaki plein de bons légumes. Taille medium, base au choix, poulet teriyaki, edamame, aubergine miso, butternut rôti, carottes teriyaki. Son petit plus ? Le topping au choix ! Entre 494 et 551 kcal suivant la base. Allergènes : soja, gluten, sésame, sulfites" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/3a/653a2a2e37fef.jpeg> ;
+                    ns1:name "Teriyaki Hot Poké Poulet ♨️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ] ;
+            ns1:name "GAMME CHAUDE" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Base de riz blanc, saumon, avocat, cream cheese, cébette thai et graines de sésame. Un mélange JUSTE parfait ! 450 Kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/63/85/63850a41bccae.jpeg> ;
+                    ns1:name "Mini Salmon Bowl" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Falafels de pois chiche (x5) + Tzatziki. Le side parfait à partager ! À déguster chaud ! \" Oeufs, gluten Oeufs, lait, soja falafels : 284 Kcal tzaziki : 40,2 Kcal Total : 324,2 Kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/1d/641d831068580.jpeg> ;
+                    ns1:name "FALAFELS & TZATZIKI ♨️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base de riz blanc, thon, avocat, cream cheese, cébette thai et graines de sésame. Un mélange JUSTE parfait ! 284Kcal Allergènes : Poisson, lait, soja, sésame, sulfites, gluten" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/1d/641d844fec746.jpeg> ;
+                    ns1:name "Mini-Tuna Bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vous hésitez entre les gyozas veggie et poulet ? Notre box est votre solution ! Pour la boîte de 5 gyozas, vous dégusterez 3 gyozas poulet et 2 gyozas veggie. Dans notre boîte de 8, c'est moitié - moitié ! Allergènes : Gluten, soja, sésame" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/63/85/6385069578768.jpeg> ;
+                    ns1:name "Box de gyozas mixtes ♨️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pois, chou, soja, carotte et radis blanc. Toujours un délice mais en version veggie (x5 ou x8) ! 133Kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/a8/61a8c40031137.jpeg> ;
+                    ns1:name "Gyozas 5 Légumes" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Crustaceans",
+                        "Eggs",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une salade goûteuse et légère qui vous fera voyager les papilles ! 385 Kcal Allergène : sésame (Ne pas recongeler)" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/63/85/638503c9c7d6f.jpeg> ;
+                    ns1:name "Salade d’algues wakamé ❄️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Régalez-vous avec notre tartare de légumes composé de concombre, mangue, oignons rouges, cacahuète, cébette thai et graines de sésame. Un mélange JUSTE parfait ! 143Kcal Allergènes : Sésame, arachides" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/1d/641d83d45eaa1.jpeg> ;
+                    ns1:name "Mini-Veggie Bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Délicieux raviolis japonais au poulet et aux légumes. À déguster chaud ! 5 pièces 196 Kcal / 8 pièces 314 Kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/9c/609c102f87eb8.jpeg> ;
+                    ns1:name "Gyozas Poulet Légumes" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "Sides 🍢" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/9c/609c00fa1dbc3.jpeg> ;
+                    ns1:name "Formule Poké + Boisson + Dessert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/63/85/638514fb0a596.jpeg> ;
+                    ns1:name "FORMULE Poké + Side" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une box faite sur mesure pour nos minis-aventuriers ! 🔎 Nous avons trouvé la formule parfaite pour les régaler, au menu : un Mini Poké Poulet, une boisson et un dessert. Et pour prolonger l'aventure: un Livre Mini-Monde ou un Kit Plantation 🌱" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/a8/61a8c183d1f0c.jpeg> ;
+                    ns1:name "Poka Box 🎒" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/9c/609c00c16f74e.jpeg> ;
+                    ns1:name "Formule Poké + Boisson" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ] ;
+            ns1:name "Formules 🍱" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "By La Fabrique Cookie Les pépites de chocolat au lait fondent délicieusement en bouche. Une valeur sûre ! 500 Kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/9c/609c13b712e7a.jpeg> ;
+                    ns1:name "Cookie BIO au chocolat au lait" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chocolate lover ❤️ ce moelleux est fait pour vous ! Et nous avons qu’une chose à vous dire : REGALEZ-VOUS ! À déguster tiède pour plus de plaisir 418 Kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/9c/609c12b94f450.jpeg> ;
+                    ns1:name "Moelleux au chocolat" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Craquez pour nos super cakes au citron ou marbré, fabriqués en France avec des oeufs bio et français, tout comme la farine et le sucre, français eux aussi ! Allergènes : Lait, gluten, œufs Calories : citron : 279 kcal / marbré : 249 kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/63/84/6384fa3a2824d.jpeg> ;
+                    ns1:name "Cake Super Moelleux" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Notre salade de fruits à l'ananas, variété extra sweet pour des extra saveurs ! 82 kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/3a/653a25693c4bb.jpeg> ;
+                    ns1:name "Ananas Ninja 🍍" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cette salade de fruits 100% mangue va vous faire fondre. 95 kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/3a/653a25c6567d4.jpeg> ;
+                    ns1:name "Mango Ninja 🥭" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/63/85/6385003c5edf9.jpeg> ;
+                    ns1:name "Cheesecake" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Aussi addictive que le jeu ! Notre salade de fruits exotiques vous apporte une touche de fraicheur avec ses beaux morceaux de mangue fraîche et d'ananas. 🥭 77 Kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/a8/61a8c11c5cff5.jpeg> ;
+                    ns1:name "Fruit Ninja 🥭" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Du lait de coco, des perles de chia et du coulis à la framboise : le dessert parfait pour finir votre escapade hawaïenne ! 353 Kcal Allergènes : fruits à coques, sulfites" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/1d/641d822dba2f9.jpeg> ;
+                    ns1:name "Pudding vegan & coulis framboise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "By La Fabrique Cookie Un cookie à la fois craquant et fondant. Les pépites de caramel se mêlent au côté iodé du sel de Guérande... à se damner ! 464 Kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/9c/609c13f04ab3f.jpeg> ;
+                    ns1:name "Cookie BIO au caramel d'Isigny au sel de Guérande" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Peanuts",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ] ;
+            ns1:name "Desserts 🍪" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Étonnant, addictif et délicieux. Que du rêve dans cette boisson fruitée ! A déguster au bord de la piscine ou sur une plage... 330ml - 82,5 Kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/a8/61a8c45ae1ea7.jpeg> ;
+                    ns1:name "Lemonaid fruit de la passion BIO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/63/85/638501bac8650.jpeg> ;
+                    ns1:name "Evian" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jus de fruits fraîchement pressés et stabilisé par haute pression à froid pour conserver tous les bienfaits ! Pomme, citron et touche de menthe pour un jus étonnamment frais. 67 Kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/1d/641d7f62717c5.jpeg> ;
+                    ns1:name "Jus Pomme, Citron & Menthe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/9c/609c1522047a7.jpeg> ;
+                    ns1:name "Lemonaid citron vert BIO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Notre ami américain, version light taste pour des calories qui s'envolent !" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/3a/653a229922b33.jpeg> ;
+                    ns1:name "Coca Light" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jus de fruits fraîchement pressés et stabilisé par haute pression à froid pour conserver tous les bienfaits ! Pomme, fruits rouges, grenade et raisin pour un jus très fruité. 51 Kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/1d/641d7fbf68425.jpeg> ;
+                    ns1:name "Jus Pomme & Fruits Rouges" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une subtile combinaison d’ingrédients restituant le goût de Coca-Cola avec zéro sucres, de quoi vous faire plaisir sans vous priver… 330ml - 0 Kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/9c/609c1589c637b.jpeg> ;
+                    ns1:name "Coca-cola zéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une version stimulante au pur jus de gingembre et de citron. Frissons garantis ! 330ml - 79 Kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/a8/61a8c49da1f22.jpeg> ;
+                    ns1:name "Lemonaid Ginger BIO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une boisson aux jus de fruits exotiques bio, pour une touche fruitée légère. 20cL." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/3a/653a23952688a.jpeg> ;
+                    ns1:name "Honest Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jus de fruits fraîchement pressés et stabilisé par haute pression à froid pour conserver tous les bienfaits ! Pomme, mangue et passion pour un jus très fruité. 51 Kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/1d/641d8055336b8.jpeg> ;
+                    ns1:name "Jus Pomme , mangue , passion" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Réveillez votre énergie naturelle avec le thé glacé Ice Fruit de Wandertea au parfum fruité et léger. Idéal pour se rafraichir ! 250ml - 0 Kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/a8/61a8c4d5835c5.jpeg> ;
+                    ns1:name "Thé glacé Wandertea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Eau de coco bio naturellement rafraichissante, de quoi rester frais toute la journée !" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/a8/61a8c3c6be198.jpeg> ;
+                    ns1:name "Eau de Coco BIO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "330 ml - 138,6 Kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/9c/609c15a9d6826.jpeg> ;
+                    ns1:name "Coca-cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Découvrez notre super citronnade maison infusée à la menthe avec une pointe de gingembre. Pourquoi faire compliqué quand on peut faire bon ? 250ml - 53 Kcal" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/9c/609c15605b962.jpeg> ;
+                    ns1:name "Citronnade maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ] ;
+            ns1:name "Boissons 🧃" ] .
+

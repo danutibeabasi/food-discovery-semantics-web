@@ -1,0 +1,131 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://niort.coopcycle.org/api/restaurants/6> ns1:hasMenu <https://niort.coopcycle.org/en/restaurant/6-douc-heure-du-maroc#menu> .
+
+<https://niort.coopcycle.org/en/restaurant/6-douc-heure-du-maroc#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Coca-Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "20cl" ;
+                    ns1:name "Jus d'abricot Pago" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "25cl" ;
+                    ns1:name "Ice tea pêche Lipton" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50cl" ;
+                    ns1:name "Vittel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Perrier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "20 cl" ;
+                    ns1:name "Jus d'ananas Pago" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50cl" ;
+                    ns1:name "San Pellegrino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "vin marocain. Rosé, fruité, 37.5 cl" ;
+                    ns1:name "Zouina gris" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "vin marocain. gris, fruité, 37.5 cl" ;
+                    ns1:name "Zouina rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vin marocain. gris, 37,5 cl." ;
+                    ns1:name "Boulaouane gris" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vin marocain. Rouge, 37,5 cl." ;
+                    ns1:name "Boulaouane rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "25cl" ;
+                    ns1:name "Bière Leffe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Vins et bières" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Au choix selon disponibilité : corne de gazelle, makroute, zlabia, baklawa, laklouka, coeur, laila, briouate...\r
+demandez nous pour les allergènes""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/8d/608d6019a3af5.jpeg> ;
+                    ns1:name "5 gâteaux marocains" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Au choix selon disponibilité : corne de gazelle, makroute, zlabia, baklawa, laklouka, coeur, laila, briouate...\r
+ demandez nous les allergènes au besoin""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/89/60899c9349cad.jpeg> ;
+                    ns1:name "1 gâteau marocain" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.10" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Pastilla : Feuilleté marocain au poulet, amandes et oeufs, saupoudré de sucre glace et de cannelle. Accompagné d'une salade marocaine. \r
+Briouats : triangle de brick farci au poulet et oeufs . Accompagné de salade marocaine.""" ;
+                    ns1:name "Pastilla  au poulet" ;
+                    ns1:nutrition "Eggs",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Couscous marocain du jour  \"agneau, bœuf ou poulet selon les jours, voir page Facebook\" plus 1 merguez,  servi avec de la semoule, des légumes, d'oignons et raisins confits ." ;
+                    ns1:name "Couscous  marocain" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vous le trouverez chaque semaine sur notre site FB en événement. Merci d'avance pour votre visite. https://www.facebook.com/douc.heure.du.maroc" ;
+                    ns1:name "Où trouver le menu du jour?" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Semoule, légumes et 3 merguez" ;
+                    ns1:name "Couscous Merguez" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "couscous végétarien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tajine du jour fait de légumes ou garniture sucrée selon les jours, servi avec de la semoule et une salade marocaine." ;
+                    ns1:name "Tajine végétarien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Couscous avec 2 viandes + 1 merguez . Les viandes ( poulet, bœuf, agneau) varient en fonction du menu du jour." ;
+                    ns1:name "couscous 2 viandes +merguez" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Tajine marocain du jour "1 viande avec garniture selon le menu  du jour sur le lien facebook", servi avec une salade de légumes à la marocaine et un peu de semoule.\r
+Attention selon les garnitures, il peut y avoir des fruits à coques, du sésame ou autre allergènes. En cas de doute, appelez-nous.""" ;
+                    ns1:name "Tajine marocain" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ] ;
+            ns1:name "plats" ] .
+

@@ -1,0 +1,44 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://khora.berlin/api/restaurants/39> a ns1:Restaurant ;
+    ns1:address <https://khora.berlin/api/addresses/2031> ;
+    ns1:description "Burger & Hot Dogs & Crêpes alles Super Deluxe in Friedrichshain!" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 5.251337e+01 ;
+            ns1:longitude 1.346263e+01 ] ;
+    ns1:image <https://khora.berlin/media/cache/restaurant_thumbnail/61/9b/619b889f14d02.jpg> ;
+    ns1:name "Voudookitchen" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:40" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "14:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:10" ;
+            ns1:dayOfWeek "Saturday",
+                "Sunday" ;
+            ns1:opens "17:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:10" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "17:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "de" ;
+                    ns1:urlTemplate "https://khora.berlin/en/restaurant/39-voudookitchen" ] ] ;
+    ns1:sameAs <https://khora.berlin/en/restaurant/39-voudookitchen> ;
+    ns1:url <https://khora.berlin/en/restaurant/39-voudookitchen> .
+
+<https://khora.berlin/api/addresses/2031> a ns1:PostalAddress ;
+    ns1:name "Voudookitchen" ;
+    ns1:streetAddress "Scharnweberstraße 32, 10247 Berlin, Deutschland" ;
+    ns1:telephone "+493023933595" .
+

@@ -1,0 +1,42 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://khora.berlin/api/restaurants/185> a ns1:Restaurant ;
+    ns1:address <https://khora.berlin/api/addresses/69595> ;
+    ns1:description """Flavors and ingredients from Thailand, Vietnam, Korea and Japan are combined with brunch classics like eggs benedict, french toast, pancakes and many more.\r
+\r
+We are sisters and best friends. Not only do we complement each other with our different characters but also we often know what the other is thinking without even communicating. This can make things easier or even more complicated, but this is family business.\r
+\r
+Our love for food comes from our skilled mother. Her way to show love was by spoiling us with her delicious meals. So our menu is strongly inspired by our roots, our beloved mother, our heritage and our life in Berlin Neukölln. For our mother eating meant a lot more than just to eat. It was a moment of sharing and caring, a moment of laughing, telling stories, coming together as a family or with friends. \r
+\r
+I am the older sister - my two sons are named Yakup and Melih. By putting both names together we have come up with the great name for our project „yame“ numnums.\r
+\r
+We work with high quality products and we try to do everything from scratch when possible. Yame is not our first culinary adventure and it won't be the last one.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 5.24811e+01 ;
+            ns1:longitude 1.342647e+01 ] ;
+    ns1:image <https://khora.berlin/media/cache/restaurant_thumbnail/60/ac/60acbb84c9175.jpeg> ;
+    ns1:name "YaMe NumNums" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:40" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "17:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "de" ;
+                    ns1:urlTemplate "https://khora.berlin/en/restaurant/185-yame-numnums" ] ] ;
+    ns1:sameAs <https://khora.berlin/en/restaurant/185-yame-numnums> ;
+    ns1:url <https://khora.berlin/en/restaurant/185-yame-numnums> .
+
+<https://khora.berlin/api/addresses/69595> a ns1:PostalAddress ;
+    ns1:name "YaMe NumNums" ;
+    ns1:streetAddress "Flughafenstraße 46, 12053 Berlin, Deutschland" ;
+    ns1:telephone "+4917673558654" .
+

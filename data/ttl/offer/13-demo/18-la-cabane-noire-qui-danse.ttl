@@ -1,0 +1,72 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://demo.coopcycle.org/api/restaurants/18> ns1:hasMenu <https://demo.coopcycle.org/en/restaurant/18-la-cabane-noire-qui-danse#menu> .
+
+<https://demo.coopcycle.org/en/restaurant/18-la-cabane-noire-qui-danse#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Pickles en salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.26" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crudités à l'huile d'olive" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.31" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jambon cru en salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pickles à l'huile d'olive" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.07" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tomates fraîches en salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.11" ] ] ;
+            ns1:name "Entrées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Tarte au café" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.68" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Charlotte aux pépites de chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.54" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Moelleux à la rhubarbe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.06" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Gâteau à la rhubarbe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crêpe au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.89" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Escargots au beurre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.08" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Escargots aux carottes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.94" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pommes de terre aux carottes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.17" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Aubergines rôti·e·s aux poivrons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.34" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Poulet mi-cuit·e·s au gros sel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.99" ] ] ;
+            ns1:name "Plats" ] .
+

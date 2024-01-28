@@ -1,0 +1,355 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/70> ns1:hasMenu <https://eramangasteiz.coopcycle.org/en/restaurant/70-himalaya-tandoori#menu> .
+
+<https://eramangasteiz.coopcycle.org/en/restaurant/70-himalaya-tandoori#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tallarines fritos con cebolla, jengibre, ajo, tomate, col y cilantro fresco con especias de Himalaya" ;
+                    ns1:name "Chowmein Vegetal" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pollo marinado con yogur, crema especial de la casa, ajo, jengibre, harina de almendras asado en horno tandoori" ;
+                    ns1:name "Pollo Malai Tikka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "ESPECIALIDADES DE LA CASA AL HORNO Y TANDOORI" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Champiñones cocinados con cebolla, ajo, jengibre, tomate y especias de Nepal" ;
+                    ns1:name "Mushroom Bhaji" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Queso blanco casero cocinado con espinacas y especias" ;
+                    ns1:name "Palak Paneer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Patata y coliflor cocinada con tomate fresco, cebolla, cilantro y especias delicadas" ;
+                    ns1:name "Aloo gobi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Garbanzos cocinados con cebolla, comino, cilantro fresca, especias con sabrosa y agria salsa" ;
+                    ns1:name "Chana Masala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Suave creoso curry de lentejas negras con hierbas  especias" ;
+                    ns1:name "Dal Makhani" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Verduras de temporada condimentada y cocinada en salsa curry" ;
+                    ns1:name "Mix vegetable curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lentejas amarillas cocinadas con comino, cebolla, ajo, tomate, cilantro fresca, hierbas y especias de Himalaya" ;
+                    ns1:name "Tadka Dal" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Espinacas y patatas cocinadas con especias aromáticas" ;
+                    ns1:name "Saag Aloo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ] ;
+            ns1:name "CURRY Y PLATOS VEGETARIANOS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Pollo nuggets con patatas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pollo Korma con arroz Basmati" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pollo mango con arroz basmati" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "MENÚS PARA NIÑOS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Selección de pollo, cordero, langostino, y seekh kebab marinado con yogur, jengibre, ajo, hierbas y especias de Nepal" ;
+                    ns1:name "Himalaya especial mix grill" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Muslo de pollo marinado con yogur, jengibre, ajo, hierbas y especias de Nepal" ;
+                    ns1:name "Pollo Tandoori" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Langostino marinado con yogur, jengibre, ajo, hierbas y especias de Nepal" ;
+                    ns1:name "Lagostinos Tandoori" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ] ;
+            ns1:name "AL HORNO TANDOORI ESPECIAL" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Lambrusco" ;
+                    ns1:name "La Cacciatora Rosado" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crianza Labastida Rioja" ;
+                    ns1:name "Solaguen Tinto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Moscato" ;
+                    ns1:name "Con Luciano Blanco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Volldam" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Labastida (Rioja)" ;
+                    ns1:name "Solaguen Blanco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Labastida Rioja" ;
+                    ns1:name "Solaguen Rosado" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Bebidas Alcoholicas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Arroz Pilau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Arroz frito con champiñones" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Arroz con huevo frito" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Arroz Basmati" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "ARROZ" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Verdura Biryani" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Cordero Biryani" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pollo Biryani" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ] ;
+            ns1:name "PLATOS BIRYANI" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pollo asado marinado en jengibre, ajos, tomate, pimientos de Sichuan con aceite de mostaza - 10 piezas" ;
+                    ns1:name "Pollo choila" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Empanadilla de carne picada en vapor con especias y hierbas del Himalaya" ;
+                    ns1:name "Himalaya Momo 6 piezas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Empanadilla de carne picada cocido con cebolla, pimienta, ajos, jengibre con salsa chile suave - 5 piezas" ;
+                    ns1:name "C Momo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "ENTRANTES TIPICAS DE NEPAL" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Cremoso batido de yogur natural" ;
+                    ns1:name "Sweet lassi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Harina de trigo refinada, solido de leche grasa vegetal comestible, aciete de girasol, salvado de arroz, soja, palma y sésamo" ;
+                    ns1:name "Gulab Jamun" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Helado de pistachioo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Helado de mango" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Yogur batido con mango" ;
+                    ns1:name "Mango lassi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "POSTRES DE LA CASA" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Coca Cola Zero" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Kas Limón" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Nestea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Kas Naranja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Aquarius" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Keller" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Coca Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.80" ] ] ;
+            ns1:name "Bebidas Np-alcoholicas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Empanadilla de carne" ;
+                    ns1:name "Samosa de carne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pintxos de carne picada con hierbas y especias al horno tandoori" ;
+                    ns1:name "Seekh kebab" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Verduras de la temporada rebozada en harina de garbanzo y especias" ;
+                    ns1:name "Pakora verduras" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cebolla bhaji, aloo tikki, pollo pakora y seekh kebab" ;
+                    ns1:name "Entrante mixto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pollo cocinado con cebolla, tomate, pimientos y especias del Nepal y servido con pan integral frito" ;
+                    ns1:name "Pollo Puri" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Empanadilla de verduras" ;
+                    ns1:name "Samosa de verduras" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cebolla frita rebozada en harina de garbanzo y especias" ;
+                    ns1:name "Cebolla bhaji" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.99" ] ] ;
+            ns1:name "ENTRANTES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Cocinado con jengibre, ajo fresco, cilantro, pimiento rojo y verde, cebolla, tomate, especias, hierbas y salsa estilo nepalí" ;
+                    ns1:name "Chilly Pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Plato picante del Himalaya cocinado con ajo, jengibre, coco, tomate y limón" ;
+                    ns1:name "Madras Merluza (picante)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un sabroso plato cocinado con cebolla, pimiento y tomate fresco" ;
+                    ns1:name "Bhuna Pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pollo deshuesado preparado con salsa de tomate, mantequilla y nata fresca con especias suaves" ;
+                    ns1:name "Pollo a la mantequilla" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cocinado con patata, ajo, jengibre, tomate, cilantro y chile en una salsa muy picante" ;
+                    ns1:name "Vindaloo Pollo (muy picante!)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lentejas con comino entero, jengibre, ajo, especias y un toque de salsa de tomate" ;
+                    ns1:name "Dansak Pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mezcla de cebolla troceada, pimiento rojo y verde, ajo, jengibre, tomate y semillas de cilantro en una salsa espesa" ;
+                    ns1:name "Karahi Pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Platos cocinados en mantequilla con almendras, salsa de tomate, y nata fresca" ;
+                    ns1:name "Tikka Masala Pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Platos cocinados con pimientos, cebolla, chile verde, cilantro y especias picantes" ;
+                    ns1:name "Jalfrezi Merluza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Platos preparados con coco y frutos secos en una muy suave y cremosa salsa" ;
+                    ns1:name "Korma Pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Platos preparados con jengibre, pimiento, cebolla, cilantro fresco y especias de Balti" ;
+                    ns1:name "Balti Merluza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cocinado con salsa cremosa de mango y especias suaves" ;
+                    ns1:name "Mango Pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry tradicional cocinado con hierbas y especias de Himalaya" ;
+                    ns1:name "Tradicional Curry Pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ] ;
+            ns1:name "PLATOS ESPECIALES HIMALAYA" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Sopa de pollo con especias de Nepal y nata" ;
+                    ns1:name "Sopa de pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Yogur con pepino, tomate, cebolla, cilantro, comino frito y sal" ;
+                    ns1:name "Raita mixta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sopa de lentejas suavemente especiada de Nepal" ;
+                    ns1:name "Sopa de lentejas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "APERTIVOS Y SOPAS" ] .
+

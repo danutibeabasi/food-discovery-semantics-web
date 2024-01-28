@@ -1,0 +1,79 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://feelavelo.coopcycle.org/api/restaurants/7> ns1:hasMenu <https://feelavelo.coopcycle.org/en/restaurant/7-pesk#menu> .
+
+<https://feelavelo.coopcycle.org/en/restaurant/7-pesk#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Riz, thon mariné, sauce soja, mangue, avocat, carottes, coriandre, oignons frits" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/bb/5ebbf35adf104.jpg> ;
+                    ns1:name "Bol Thon" ;
+                    ns1:nutrition "Fish",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lentille&quinoa, pois maraîchers, fromage blanc, ciboulette, chou rouge, boulette menthe courgette, ananas et baie de goji" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/bb/5ebbf63c2fd29.jpg> ;
+                    ns1:name "Bol Veggie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Quinoa&lentille, tartare de saumon, chou rouge, féta, mangue, coriandre, oignons frits" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/bb/5ebbf4318ac5f.JPG> ;
+                    ns1:name "Bol Saumon" ;
+                    ns1:nutrition "Fish",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Quinoa et riz, poulet sauce saté, fèves, brocolis, champignons et noix de cajou." ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/bb/5ebbf73368deb.jpg> ;
+                    ns1:name "Bol Poulet Saté" ;
+                    ns1:nutrition "Eggs",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ] ;
+            ns1:name "Bols" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/bb/5ebbf7d918cb7.JPG> ;
+                    ns1:name "Crème mascarpone, caramel et spéculoos" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tartelette au chocolat, cranberry & noix" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fromage blanc, miel et muesli aux noix & raisins secs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/bb/5ebbf8239b2b5.JPG> ;
+                    ns1:name "Compotée de pommes et poires, palet breton" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.30" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Breizh Cola 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lormelet ROUGE, gamay, Val de Loire 2018 75CL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Limonade artisanale 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lormelet BLANC, sauvignon, Val de Loire 2018 75CL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ] ;
+            ns1:name "Boissons" ] .
+

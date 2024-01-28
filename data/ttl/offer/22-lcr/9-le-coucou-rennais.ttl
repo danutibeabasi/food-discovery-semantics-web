@@ -1,0 +1,113 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lcr.coopcycle.org/api/restaurants/9> ns1:hasMenu <https://lcr.coopcycle.org/en/restaurant/9-le-coucou-rennais#menu> .
+
+<https://lcr.coopcycle.org/en/restaurant/9-le-coucou-rennais#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Le cheese cake" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Le fromage blanc" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "gateau au chococolat vegan - avec fruits secs" ;
+                    ns1:name "Fudge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Le pain perdu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Crudités de saison, pommes de terre sautés persillade, pain artisanal" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/3d/623ddb56f1e3b.jpeg> ;
+                    ns1:name "La salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Confit de cidre, pommes de terre sautées persillade OU frites maison, crudités de saison, pain artisanal, sauce a l'ail, sauce mayo, sarrasin, taboulet" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/3d/623dda932aaa0.jpeg> ;
+                    ns1:name "La complète" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pain artisanal, tome fermière, confit d'oignons, crudités de saison, sauce à l'ail, sauce mayo,\r
+=> avec frites maison""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/3d/623dd99f5d460.jpeg> ;
+                    ns1:name "Le burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Frites maison ou pommes de terre persillade et mayonnaise maison" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/3d/623ddb2fc2472.jpeg> ;
+                    ns1:name "Le p'tit Rennais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain artisanal, crudités de saison, confit de cidre, et mayonnaise maison" ;
+                    ns1:name "Le sandwich" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ] ;
+            ns1:name "Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Houmous" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Rouleaux de fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Falafel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Assiette de saison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Entrées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Crudités de saison, falafel, steak lentilles corail, taboulet Zenon, frites, rouleau de fromage" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/3d/623ddbd527c45.jpeg> ;
+                    ns1:name "Coco Mezze" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crudités de saison, houmous, taboulet Zenon, sauce vegan" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/3d/623ddc96050fd.jpeg> ;
+                    ns1:name "Vegan wrap" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crudités de saison, sauce blanche, falafels, sauce à l'ail" ;
+                    ns1:name "Wrap Falafel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Houmous, crudités de saison, dinde fermière, sauce à l’ail" ;
+                    ns1:name "Wrap de dinde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crudités de saison, frites maison, 2 falafels, 1 rouleau de fromage, sauce à l'ail" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/62/3d/623ddb89ecc21.jpeg> ;
+                    ns1:name "Zenon veggie box" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ] ;
+            ns1:name "Saveurs du Liban" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Frites Maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Frites" ] .
+

@@ -1,0 +1,226 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://robinfood.coopcycle.org/api/restaurants/24> ns1:hasMenu <https://robinfood.coopcycle.org/en/restaurant/24-simbiosi#menu> .
+
+<https://robinfood.coopcycle.org/en/restaurant/24-simbiosi#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Succo mela bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Cola Bio Zero" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Succo pesca bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Succo pera bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Aranciata Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Cola Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Succo ananas bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Succo albicocca bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Bevande analcoliche" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Glera 100%" ;
+                    ns1:name "Prosecco BIO Galileo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sangiovese 100%" ;
+                    ns1:name "Rosè Desio BIO 'Podere di Marcialla'" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vermentino 100%" ;
+                    ns1:name "Vermentino BIO 'Ginori Lisci'" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Trebbiano 100%" ;
+                    ns1:name "Chiaro di Luna BIO 'La Ginestra'" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Passerina 100%" ;
+                    ns1:name "Passerina BIO 'Cantina Torri'" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vinificato in anfora (Trebbiano toscano 100%)" ;
+                    ns1:name "Dandi BIODINAMICO 'La Ginestra'" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.00" ] ] ;
+            ns1:name "Vini bianchi" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Montepulciano 100%" ;
+                    ns1:name "Montepulciano d'Abruzzo BIO 'Cantina Torri'" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€27.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sangiovese 100%" ;
+                    ns1:name "Rosso di Montalcino BIO 'Fornacella'" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cabernet sauvignon 50%, Merlot 50%" ;
+                    ns1:name "Bolgheri BIO Scirè 'Ceralti'" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€27.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Merlot 100%" ;
+                    ns1:name "Campordigno BIO 'Ginori Lisci'" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sangiovese 100%" ;
+                    ns1:name "Chianti BIO 'La Fraschetta'" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ] ;
+            ns1:name "Vini rossi" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bordo ripieno di ricotta, pomodoro bio. In uscita: pomodorini, basilico, mozzarella di bufala ed origano" ;
+                    ns1:name "Sorpresa caprese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sugo di pomodoro bio 'fatto da noi', basilico e mozzarella di bufala" ;
+                    ns1:name "Margherita buonissima" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Funghi porcini, porchetta e mozzarella bio. In uscita: pecorino" ;
+                    ns1:name "Porchetta e porcini" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Verdure di stagione, pomodorini, olive taggiasche, mozzarella bio ed origano" ;
+                    ns1:name "Verdure" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Uno strato di pomodoro bio, pomodorini, basilico, mozzarella di bufala ed origano" ;
+                    ns1:name "Regina margherita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella blu di vacca. In uscita: marmellata di fichi e crudo artigianale toscano" ;
+                    ns1:name "Pizza e Fichi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pomodoro bio, pomodorini, basilico, olive taggiasche aglio ed origano" ;
+                    ns1:name "La nostra marinara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pancetta, blu di vacca, mozzarella bio. In uscita: stracciatella, basilico ed origano" ;
+                    ns1:name "Pancetta blu di vacca" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pomodoro bio e 'nduja. In uscita: stracciatella, basilico ed origano" ;
+                    ns1:name "Burrata e 'nduja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pomodoro bio, mozzarella bio e basilico fresco" ;
+                    ns1:name "Margherita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crema di tartufo, funghi champignon, salsiccia e mozzarella bio" ;
+                    ns1:name "Salsiccia e tartufo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pomodoro bio, salamino piccante artigianale e mozzarella bio" ;
+                    ns1:name "Salamino piccante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pomodoro bio, basilico, mozzarella di bufala. In uscita: crudo artigianale toscano" ;
+                    ns1:name "Crudo e Bufala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pomodoro bio, salamino piccante artigianale, 'nduja, basilico e mozzarella bio. In uscita: olio piccante" ;
+                    ns1:name "Ognissanti" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pomodoro bio, frutto del cappero, olive taggiasche. In uscita: basilico, stracciatella ed alici del Mediterraneo" ;
+                    ns1:name "Bella Napoli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crema di tartufo e mozzarella bio. In uscita: finocchiona, pecorino, e mosto d'uva" ;
+                    ns1:name "Pizza del Chianti" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "Pizze" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Birrificio La mì Birra" ;
+                    ns1:name "La mì Tipa - IPA 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petrognola" ;
+                    ns1:name "Marron - affumicata alle castagne 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Piccolo Birrificio Clandestino" ;
+                    ns1:name "Awanagana Gluten Free 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Birrificio La mì Birra" ;
+                    ns1:name "La mì Firenze - Lager cruda 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Birrificio la mi Birra" ;
+                    ns1:name "La mi Nora - Weiss 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Birrificio 'Mosto Dolce' - Apa" ;
+                    ns1:name "Apa Francesco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petrognola" ;
+                    ns1:name "Montefiore - Bianca al farro 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Birrificio La mi birra" ;
+                    ns1:name "La mi Rossa 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "Birre" ] .
+

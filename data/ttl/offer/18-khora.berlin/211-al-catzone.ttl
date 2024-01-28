@@ -1,0 +1,111 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://khora.berlin/en/restaurant/211-al-catzone> ns1:hasMenu <https://khora.berlin/en/restaurant/211-al-catzone#menu> .
+
+<https://khora.berlin/en/restaurant/211-al-catzone#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Neapolitan fluffy fried puff Pizza with traditional neapolitan genovese and redyellow datterini sauce (Bergförmige, frittierte Puff Pizza mit traditionell neapolitanisch deftiger Genovese und rotgelber datterini Sauce)" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/62/8f/628f4bf572d48.jpeg> ;
+                    ns1:name "Montanare" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Traditional neapolitan rusk with homemade cashew morarella, datterini tomatoes, selvatic rucola and extra virgin oil (Traditionell neapolitanischer Zwieback mit hausgemachtem Cashew Mozarella, detterini Tomaten, nativem Olivenöl und Rucola)" ;
+                    ns1:name "Fresella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bowl of green nocellara olives (Schälchen grüne nocellara Oliven)" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/62/8f/628f4b7d409ae.jpeg> ;
+                    ns1:name "Olives" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Antipasti" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """white creme base, fried sausages, homemade cashew mozzarella, homemade potatoe chips\r
+(weiße leichte Creme Basis, frittierte vegane Würstchen, hausgemachter Cashew Mozzarella, hausgemachte Kartoffel-Chips)""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/62/8f/628f4cb77e7d1.jpeg> ;
+                    ns1:name "Helmut" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "fried eggplants, base of san marzano tomatoes, homemade cashew mozzarella, homemade grana vegano, basil, extra virgin olive oil (Basis aus San Marzano Tomaten, hausgemachter Cashew Mozzarella, frittierte Auberginen, hausgemachter Parmesan, Basilikum, natives Olivenöl extra)" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/62/8f/628f4dad65c65.jpeg> ;
+                    ns1:name "Billie" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """creme of courgette base, fried courgette, homemade peppermint pesto, lemon cest,\r
+extra virgon olive oil (Creme aus Zucchini Basis, frittierte Zucchini, hausgemachtes Minzpesto, Zitronenzesten, natives Olivenöl extra)""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/62/8f/628f4dcff01d5.jpeg> ;
+                    ns1:name "Hamilton" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "san marzano tomato base, homemade cashew mozzarella, homemade grana vegano, basil, extra virgin olive oil (San Marzano Tomaten Basis, hausgemachter Cashew Mozzarella, hausgemachter Parmesan, Basilikum, natives Olivenöl extra)" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/62/8b/628babad2f814.jpeg> ;
+                    ns1:name "Lizzo (Margherita)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """homemade bellpepper creme base, black Taggiasca olives, fried capers, extra virgin olive oil\r
+(hausgemachte gelbe Paprika Creme Basis, schwarze Taggiasca Oliven, frittierte Kapern, natives Olivenöl extra)""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/62/8f/628f4e398db93.jpeg> ;
+                    ns1:name "Joaquin" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """base of Piennolo DOP cherry tomatoes from Naples, vuna, Tropea onions from Kalabria,\r
+homemade cashew mozzarella, basil, extra virgin olive oil (Basis aus Piennolo DOP Cherry Tomaten aus Neapel, Thunvisch, Tropea Zwiebeln aus Kalabrien, hausgemachter Cashew Mozzarella, Basilikum, natives Olivenöl extra)""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/62/8f/628f48627d724.jpeg> ;
+                    ns1:name "Bruce (Tonno)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "base of san marzano tomatoes, yellow datterini tomatoes, fried capers, garlic, oregano, extra virgin olive oil (Basis aus San Marzano Tomaten, gelbe Datterini Tomaten, frittierte Kapern, Knoblauch, Oregano, natives Olivenöl extra)" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/62/8f/628f4d787949f.jpeg> ;
+                    ns1:name "Ruby (Marinara)" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "white creme base, homemade neapolitan salsiccia sausage, friarielli (wild Italian broccolo), garlic, extra virgin olive oil (weiße leichte Creme Basis, hausgemachte neapolitanische Salsiccia Wurst, Friarielli (wilder italienischer Brokkoli), Knoblauch, natives Olivenöl extra)" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/62/8f/628f4df0db92a.jpeg> ;
+                    ns1:name "Pino" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "homemade creme base from violet potatoes, homemade cashew mozzarella, Wildbrokkoli from Paternopoli, black Taggiasca olives, garlic, fresh chili, extra virgin olive oil (hausgemachte Creme Basis aus violetten Kartoffeln, hausgemachter Cashew Mozzarella, Wildbrokkoli aus Paternopoli, schwarze Taggiasca Oliven, Knoblauch, frische Chili, natives Olivenöl extra)" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/62/8f/628f4c200f97e.jpeg> ;
+                    ns1:name "Violetta" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ] ;
+            ns1:name "Pizza" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Calzone filled with hazelnut creme, pistachio nut bits, powdered sugar - Share Me\r
+(Calzone gefüllt mit Nuss Nougat creme, Pistazienstückchen, Puderzucker - zum Teilen""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/62/8f/628f4cde1f673.jpeg> ;
+                    ns1:name "Al Calzone" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "Dessert" ] .
+

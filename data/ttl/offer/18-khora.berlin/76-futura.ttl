@@ -1,0 +1,287 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://khora.berlin/en/restaurant/76-futura> ns1:hasMenu <https://khora.berlin/en/restaurant/76-futura#menu> .
+
+<https://khora.berlin/en/restaurant/76-futura#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Baiserhaube Meringe Lemon Curd Mürbeteig" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/9b/619b864d3c835.jpeg> ;
+                    ns1:name "ZITRONENTARTE  MIT ZITRONEN CREME UND MERINGE" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Kakaopulver Mascarpone Creme Kaffee Biscuit" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/ab/5eab3c2fef3f6.jpg> ;
+                    ns1:name "TIRAMISU" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Peanuts",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """San Marzano Tomaten DOP, Fiordilatte dei Monti Lattari DOP, Neapoletanische Salami,\r
+frisches Basilikum, Olivenöl extra vergine""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/9b/619b8548a0c01.jpeg> ;
+                    ns1:name "PIZZA SALAME" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "San Marzano Tomaten DOP, frisches Gemüse(je nach Jahreszeit), schwarze Oliven,Salina Kapern, Lauch, Petersilien, f r i s c h e s Ba s i l i k u m , O l i v e n ö l e x t r a v e r g i n e" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/9b/619b8619c53b0.jpeg> ;
+                    ns1:name "PIZZA VEGANA" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Geschälte gelbe Tomaten, Gorgonzola DOP, leicht scharfer geräucherter Scamorza Käse, Primosale Peperoncino Käse, Mozzarella di Bufala DOP, frisches Basilikum, Olivenöl extra vergine" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/9b/619b82631c0b9.jpeg> ;
+                    ns1:name "PIZZA 4 FORMAGGI" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """San Marzano Tomaten DOP, frische Datteltomaten, Burrata, schwarze Oliven, Sizilianische\r
+Anchovis, Knoblauch, Origano, frisches Basilikum, Olivenöl extra vergine""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/9b/619b85ac63691.jpeg> ;
+                    ns1:name "Pizza Sud" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Geschälte gelbe Tomaten, Mozzarella di Bufala DOP, leicht scharfe Ventricina Salami,\r
+frisches Basilikum, Olivenöl extra vergine""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/9b/619b84493dd41.jpeg> ;
+                    ns1:name "PIZZA PICCANTE" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "K l e i n e g e l b e C o r b a r i n o T o m a t e n, geräucheter Provola, Pfeffer, Basilikum, Olivenöl extra vergine" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/9b/619b84db5394c.jpeg> ;
+                    ns1:name "PIZZA PROVOLA & PEPE" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "PIZZA TRüFFEL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Kleine grüne Corbarino Tomaten, Fiordilatte deiMonti Lattari DOP, Büffel mozzarella Thunfischfilets aus dem Mittelmeer, P e c o r i n o R o m a n o D O P, rote Zwiebeln aus Tropea,Sellerie, Basilikum, Olivenöl extra vergine" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/9b/619b83f30e55d.jpeg> ;
+                    ns1:name "PIZZA MEDITERRANEA" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Rote Datteltomaten, Culatello-Schinken, Mozzarella di Bufala DOP, Pecorino Romano DOP,\r
+Rucola, Olivenöl extra vergine""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/9b/619b82c67f5d4.jpeg> ;
+                    ns1:name "PIZZA FRESCA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """San Marzano Tomaten DOP, Fiordilatte dei Monti Lattari DOP, frisches Basilikum, Olivenöl\r
+extra vergine""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/ab/5eab3949e0176.jpg> ;
+                    ns1:name "PIZZA MARGHERITA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """San Marzano Tomaten DOP, Fiordilatte dei Monti Lattari DOP, geräucherter Kochschinken,\r
+Neapoletanische Salami, Austernseitlinge, frisches Basilikum, Olivenöl extra vergine""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/ab/5eab389b08126.jpg> ;
+                    ns1:name "PIZZA CAPRICCIOSA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Rote San Marzano Tomaten Soße DOP, Mozzarella di Bufala DOP, Provolone del Monaco DOP, frisches Basilikum, Olivenöl extra vergine" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/ab/5eab38c2afc57.jpg> ;
+                    ns1:name "PIZZA MARGHERITA Futura" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.20" ] ] ;
+            ns1:name "Pizza" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "0.5" ;
+                    ns1:name "Benediktiner Weissbier (Alkoholfrei)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "(Lager naturtrüb) 0,33 l" ;
+                    ns1:name "Ichnusa non filtrata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33" ;
+                    ns1:name "König Pilsner (Alkoholfrei)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "BIER" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "13% (Italien, Kampanien) 0,75 l" ;
+                    ns1:name "Weisswein Fiano di Avellino DOCG 2018 Borgodangelo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "11,5% (Italien, Venetien) 0,75 l" ;
+                    ns1:name "Schaumwein  Prosecco Millesimato DOC Conca D’Oro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "14% (Italien, Kampanien) 0,75 l" ;
+                    ns1:name "Rotwein Aglianico Campi Taurasini DOC 2015 Borgodangelo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "12% (Italien, Abruzzen) 0,75 l" ;
+                    ns1:name "Weisswein Pecorino Colline Pescaresi IGT 2017 La Valentina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "12,5% (Italien, Lombardei) 0,75 l" ;
+                    ns1:name "Schaumwein  Franciacorta Cuvée Brut DOCG Lantieri" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€42.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "13,5% (Italien, Apulien) 0,75 l" ;
+                    ns1:name "Rotwein Negroamaro IGP 2015 (bio) Tenuta Viglione" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "14% (Italien, Toskana) 0,75 l" ;
+                    ns1:name "Rotwein Chianti classico DOCG 2016 Castello di Radda" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "13,5% (Italien, Kampanien) 0,75 l" ;
+                    ns1:name "Rosewein Irpinia Rosato DOC 2019 Borgodangelo (100% Aglianico)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "13% (Italien, Kampanien) 0,75 l" ;
+                    ns1:name "Weisswein Greco di Tufo DOCG 2017 Borgodangelo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ] ;
+            ns1:name "WEINE" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "ohne Kohlensäure 0,75 l" ;
+                    ns1:name "Monaco Mineralwasser" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,21" ;
+                    ns1:name "Coca Cola Zero" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,275 l" ;
+                    ns1:name "Chinotto Polara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,275 l" ;
+                    ns1:name "Zitronenlimonade Polara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "ohne Kohlensäure 0,25 l" ;
+                    ns1:name "Monaco Mineralwasser" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,275 l" ;
+                    ns1:name "Cedrata Polara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,21" ;
+                    ns1:name "Coca Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,275 l" ;
+                    ns1:name "Orangenlimonade Polara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Kohlensäure 0,25 l" ;
+                    ns1:name "Monaco Mineralwasser" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,275 l" ;
+                    ns1:name "Blutorangenlimonade Polara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Kohlensäure 0,75 l" ;
+                    ns1:name "Monaco Mineralwasser" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ] ;
+            ns1:name "ALKOHOLFREIE GETRÀNKE" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Burrata, Datteltomaten, Sizilianische Anchovis, Gemischter Salat (je nach Jahreszeit),\r
+rote Tropea-Zwiebeln, Karotten, schwarze Oliven, Salina Kapern, Origano, frisches Basilikum, Olivenöl extra vergine""" ;
+                    ns1:name "MEDITERRANEAN SALAD BOWL mit Burrata, Zitronen dressing (2,4,6) & Origano Pizza Brot" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Milk",
+                        "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Hausgemachtes knackiges Brot, Mozzarella di Bufala DOP, Thunfischfilets aus dem Mittelmeer, frische Datteltomaten, rote Tropea-Zwiebeln, Knoblauch,Origano, frisches Basilikum, Olivenöl extra vergine" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/9b/619b816e8a7a9.jpeg> ;
+                    ns1:name "FRESELLA Tonno&Bufala" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Burrata, Hausgemachtes knackiges Brot, Datteltomaten, rote Tropea-Zwiebeln, Knoblauch,\r
+frisches Basilikum, Origano, Olivenöl extra vergine""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/ab/5eab387a3ed4d.jpg> ;
+                    ns1:name "FRESELLA Burrata" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "Vorspeisen" ] .
+

@@ -1,0 +1,595 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://cyclome.coopcycle.org/api/restaurants/44> ns1:hasMenu <https://cyclome.coopcycle.org/en/restaurant/44-patisserie-chocolaterie-pavone#menu> .
+
+<https://cyclome.coopcycle.org/en/restaurant/44-patisserie-chocolaterie-pavone#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Billes de céréales enrobées de chocolat noir de grands crus de 71%.
+\r
+Boites de 150 grammes.
+\r
+A savourer ou à offrir.""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/7d/657d6b8d26a6e.jpeg> ;
+                    ns1:name "Billes soufflées chocolat noir" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Sapin de noël Pavone en chocolat noir 71% de grands crus\r
+Les décorations du sapin :
+\r
+Abricot moelleux\r
+Cranberries\r
+Noisettes\r
+Amandes\r
+Pistaches
+
+\r
+Sapin de 180 grammes au total.""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/7c/657cd4c8c8c69.jpeg> ;
+                    ns1:name "Sapin En Chocolat Garni" ;
+                    ns1:nutrition "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Ourson de noël Pavone en chocolat noir 71% de grands crus\r
+Les garniture de l’ourson :
+\r
+Billes soufflées (noir 71%)\r
+Noisettes (noir 71%)
+
+\r
+Ourson de 180 grammes au total.""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/7c/657cd5289f9d7.jpeg> ;
+                    ns1:name "Ourson De Noël En Chocolat" ;
+                    ns1:nutrition "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Père noël Pavone en chocolat noir 71% de grands crus garni\r
+Garniture :\r
+Billes soufflé (noir 71%)\r
+Noisettes (noir 71%)\r
+Rocher noisettes\r
+Père noël de 295 grammes au total.""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/7d/657d69f67e5ed.jpeg> ;
+                    ns1:name "Père noël en chocolat garni" ;
+                    ns1:nutrition "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€29.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Amandes enrobées de chocolat noir 71% de grands crus. 
+\r
+Boites de 200 grammes.
+\r
+A savourer ou à offrir.""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/7d/657d6c6dc3846.jpeg> ;
+                    ns1:name "Amandes enrobées de chocolat noir 71%" ;
+                    ns1:nutrition "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ] ;
+            ns1:name "Chocolats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Pâte sucrée au sucre de fleur de coco bio\r
+Crème d’amandes \r
+Gelée citron vert et gingembre\r
+Crémeux citron vert et gingembre""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f598b87b22.jpeg> ;
+                    ns1:name "Tarte Citron vert & gingembre" ;
+                    ns1:nutrition "Lupin",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€35.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Un Feuilletage à la farine semi complète Bio et local\r
+Une frangipane aux amandes entières fraîchement mixé et aux œufs plein air\r
+Un juste équilibre entre sucre de fleur de coco et sucre d’écorce de bouleau.""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/93/65931e0f7cc30.jpeg> ;
+                    ns1:name "Galette à la frangipane 6 personnes" ;
+                    ns1:nutrition "Eggs",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pâte feuilletée à la farine semi complète bio\r
+Flan à la vanille de Madagascar\r
+Praliné amandes vanille grillée\r
+Disponible en boutique à la part, disponible sur commande uniquement en format 4/6 parts.""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/7c/657cc585d8afa.jpeg> ;
+                    ns1:name "Le flaon de Pavone" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pâte sucrée au sucre de fleur de coco bio\r
+Biscuit moelleux noisettes\r
+Compotée granny Smith « cru et cuite »\r
+Ganache montée à la vanille de Madagascar\r
+Brunoise de granny Smith & aneth""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f59a7bccf0.jpeg> ;
+                    ns1:name "Tarte Granny Smith & noisettes" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€31.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pâte sucrée au sucre de fleur de coco bio\r
+Crème d’amandes chocolat et grué de cacao\r
+Crémeux chocolat 75% pure origine Sao tomé\r
+Mousse chocolat noir 71% Vietnam et Madagascar""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f57a85cb42.jpeg> ;
+                    ns1:name "Tarte 100% chocolat" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€29.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pâte sucrée au sucre de fleur de coco bio\r
+Crème d’amandes aux sésames noir bio\r
+Crémeux yuzu\r
+Ganache montée yuzu\r
+Praliné sésame noir grillé bio""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f5ae841cc0.jpeg> ;
+                    ns1:name "Tarte Yuzu & sésame noir" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€33.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pâte sucrée au sucre de fleur de coco bio \r
+Crème d’amandes aux zestes de citron jaune\r
+Crémeux citron jaune \r
+Meringue sans sucre « sucre de bouleau »\r
+Coulis citron & basilic frais""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f59519dc7b.jpeg> ;
+                    ns1:name "Tarte Citron meringuée" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€29.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Un Feuilletage à la farine semi complète Bio et local\r
+Une frangipane aux amandes entières fraîchement mixé et aux œufs plein air\r
+Un juste équilibre entre sucre de fleur de coco et sucre d’écorce de bouleau.\r
+Un chocolat noir à 75% de grands crus""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/93/65931e8d1b5da.jpeg> ;
+                    ns1:name "Galette Frangipane & chocolat 6 personnes" ;
+                    ns1:nutrition "Eggs",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """« Sans farine blanche et sans sucre raffiné »\r
+Pâte sucrée au sucre de fleur de coco bio\r
+Crème d’amandes \r
+Crémeux citron vert\r
+Brunoise d’ananas fraîche vanillée \r
+Mousse noix de coco\r
+(100% végétal et sans gluten)""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f58a0727ca.jpeg> ;
+                    ns1:name "Tarte Ananas – Noix de coco – Citron vert" ;
+                    ns1:nutrition "Lupin",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€35.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pâte sucrée au sucre de fleur de coco bio\r
+Crémeux chocolat 75% pure origine Sao tomé\r
+Praliné amandes et noisettes fleur de sel\r
+Ganache montée 75% pure origine cuba""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f58d51fe9d.jpeg> ;
+                    ns1:name "Tarte Chocolat & praliné" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€31.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pâte sucrée au sucre de fleur de coco bio\r
+Crème d’amandes chocolat pure origine Venezuela \r
+Praliné amandes et noisettes fleur de sel\r
+Mousse chocolat noir 71% Vietnam et Madagascar\r
+(100% végétal et sans gluten)""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f58f43a61f.jpeg> ;
+                    ns1:name "Tarte Chocolat & praliné Vegan" ;
+                    ns1:nutrition "Lupin",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€35.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pâte sucrée au sucre de fleur de coco bio\r
+Biscuit à la poudre de vanille pure de Madagascar\r
+Crémeux vanille de Madagascar « infusion 48h »\r
+Mousse vanille de Madagascar""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f585b81d46.jpeg> ;
+                    ns1:name "Tarte 100% vanille" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€31.90" ] ] ;
+            ns1:name "Tartes 6 parts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Moelleux chocolat 85%\r
+Crémeux chocolat 75% pure origine Sao tomé\r
+Enrobage chocolat et grué de cacao""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f574f93074.jpeg> ;
+                    ns1:name "Pavonissime 100% chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Moelleux citron \r
+Crème de noisettes\r
+Enrobage pavot grillé\r
+Sans huile et sans beurre""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f577a85e8f.jpeg> ;
+                    ns1:name "Pavonissime Citron pavot & noisettes" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Moelleux à la poudre de vanille pure de Madagascar\r
+& Huile d’olive bio\r
+Praliné amandes à la vanille grillée\r
+Crémeux vanille de Madagascar « infusion 48h »\r
+Enrobage kasha « sarrasin grillé »\r
+Sans beurre""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f576343195.jpeg> ;
+                    ns1:name "Pavonissime 100% vanille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ] ;
+            ns1:name "Pavonissimes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Farines :\r
+Orge mondé\r
+Lupin\r
+Petit épeautre complet\r
+Sucres :\r
+Sucre de bouleau\r
+Sucre de fleur de coco\r
+-30% de beurre\r
+Chocolat pure origine cuba 75%\r
+Noisettes française « Domaine des kaolins »\r
+Œufs bio""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/7c/657cce7213451.jpeg> ;
+                    ns1:name "Cookies Chocolat noisettes" ;
+                    ns1:nutrition "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Farines :\r
+Lupin\r
+Sarrazin\r
+Sucres :\r
+Sucre de bouleau\r
+Sucre de fleur de coco\r
+-30% de beurre\r
+Chocolat Nicolas Berger pure origine au sucre de bouleau\r
+Cacahuètes bio\r
+Œufs bio""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/7c/657ccec10f7db.jpeg> ;
+                    ns1:name "Cookies Cacahuètes citron vert - Sans gluten" ;
+                    ns1:nutrition "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ] ;
+            ns1:name "Autre entremets" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Noisettes du Piémont IGP\r
+Chocolat noir 71% (Vietnam et Madagascar)\r
+Huile de noisette\r
+Fleur de sel\r
+Beurre de cacao\r
+Poids : 200 grammes
+\r
+68% de noisettes, 1% d’huile de noisettes, et 20% de sucre issu directement des fruits… N’en dîtes pas plus, vous êtes chez Pavone, et quand nous faisons une pâte à tartiner, elle se doit d’être excellente, et excellente…""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/7c/657ccd8038602.jpeg> ;
+                    ns1:name "Pâte à tartiner Noisettes du Piémont & Chocolat" ;
+                    ns1:nutrition "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Noisettes du Piémont\r
+Sucre issu de fruits\r
+Poids : 200 grammes\r
+La noisette et la fleur de sel se marient dans une danse parfaite de saveurs, créant une pâte à tartiner qui rend chaque petit déjeuner ou goûter mémorable.
+\r
+Chez Pavone, elle se compose de noisettes du Piémont, de fructose issue de fruit, et d’huile de noisette. Et c’est tout.""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/7c/657ccd045894d.jpeg> ;
+                    ns1:name "Pâte à tartiner Noisettes du Piémont & Fleur de Sel" ;
+                    ns1:nutrition "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Cacahuètes\r
+Sucre issu des fruits\r
+Huile d’arachide ( huilerie de blot)\r
+Fleur de sel\r
+Chocolat au lait au sucre de bouleau\r
+Poids : 200 grammes
+\r
+La pâte à tartiner cacahuète et chocolat noir est un mariage savoureux entre la richesse des cacahuètes grillées et l’intensité du chocolat noir. Elle offre une texture crémeuse et une saveur équilibrée entre le sucré et le salé. Parfaite pour tartiner ou déguster à la cuillère, cette pâte à tartiner est un délice pour les amateurs de cacahuètes et de chocolat noir. Une expérience gourmande à chaque bouchée.""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/7c/657cccae17bb0.jpeg> ;
+                    ns1:name "Pâte à tartiner Cacahuètes & Chocolat" ;
+                    ns1:nutrition "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Amandes Marcona\r
+Sucre issu de fruits\r
+Vanille\r
+Poids : 200 grammes
+\r
+L’amande apporte une texture crémeuse et onctueuse tandis que la vanille ajoute subtilité et longueur en bouche.""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/7c/657ccc88c8e9f.jpeg> ;
+                    ns1:name "Pâte à tartiner Amandes & Vanille Grillée" ;
+                    ns1:nutrition "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ] ;
+            ns1:name "Pâte à tartiner" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Pâte sucrée au sucre de fleur de coco bio\r
+Crème d’amandes aux sésames noir bio\r
+Crémeux yuzu\r
+Ganache montée yuzu\r
+Praliné sésame noir grillé bio""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f5b037cdd0.jpeg> ;
+                    ns1:name "Tarte Yuzu & sésame noir" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pâte sucrée au sucre de fleur de coco bio\r
+Biscuit moelleux noisettes\r
+Compotée granny Smith « cru et cuite »\r
+Ganache montée à la vanille de Madagascar\r
+Brunoise de granny Smith & aneth""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f59c0a9f18.jpeg> ;
+                    ns1:name "Tarte Granny Smith & noisettes" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pâte sucrée au sucre de fleur de coco bio\r
+Crème d’amandes chocolat et grué de cacao\r
+Crémeux chocolat 75% pure origine Sao tomé\r
+Mousse chocolat noir 71% Vietnam et Madagascar""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f579114b54.jpeg> ;
+                    ns1:name "Tarte 100% chocolat" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pâte sucrée au sucre de fleur de coco bio\r
+Crème d’amandes \r
+Crémeux citron vert\r
+Brunoise d’ananas fraîche vanillée \r
+Mousse noix de coco\r
+(100% végétal et sans gluten)""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f588a7fe5a.jpeg> ;
+                    ns1:name "Tarte Ananas – Noix de coco – Citron vert" ;
+                    ns1:nutrition "Lupin",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pâte sucrée au sucre de fleur de coco bio\r
+Crème d’amandes \r
+Gelée citron vert et gingembre\r
+Crémeux citron vert et gingembre\r
+(100% végétal et sans gluten)""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f59716ed90.jpeg> ;
+                    ns1:name "Tarte Citron vert & gingembre" ;
+                    ns1:nutrition "Lupin",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pâte sucrée au sucre de fleur de coco bio\r
+Crème d’amandes chocolat pure origine Venezuela \r
+Praliné amandes et noisettes fleur de sel\r
+Mousse chocolat noir 71% Vietnam et Madagascar\r
+(100% végétal et sans gluten)""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f591502eaa.jpeg> ;
+                    ns1:name "Tarte Chocolat & praliné Vegan" ;
+                    ns1:nutrition "Lupin",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pâte sucrée au sucre de fleur de coco bio\r
+Crémeux chocolat 75% pure origine Sao tomé\r
+Praliné amandes et noisettes fleur de sel\r
+Ganache montée 75% pure origine cuba""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f58bd716ea.jpeg> ;
+                    ns1:name "Tarte Chocolat & praliné" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Un Feuilletage à la farine semi complète Bio et local\r
+Une frangipane aux amandes entières fraîchement mixé et aux œufs plein air\r
+Un juste équilibre entre sucre de fleur de coco et sucre d’écorce de bouleau.\r
+Un chocolat noir à 75% de grands crus""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/93/65931e5c88bed.jpeg> ;
+                    ns1:name "Galette Frangipane & chocolat 4 personnes" ;
+                    ns1:nutrition "Eggs",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pâte sucrée au sucre de fleur de coco bio \r
+Crème d’amandes aux zestes de citron jaune\r
+Crémeux citron jaune \r
+Meringue sans sucre « sucre de bouleau »\r
+Coulis citron & basilic frais""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f593612211.jpeg> ;
+                    ns1:name "Tarte Citron meringuée" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Un Feuilletage à la farine semi complète Bio et local\r
+Une frangipane aux amandes entières fraîchement mixé et aux œufs plein air\r
+Un juste équilibre entre sucre de fleur de coco et sucre d’écorce de bouleau.""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/93/65931d1d3f107.jpeg> ;
+                    ns1:name "Galette à la frangipane 4 personnes" ;
+                    ns1:nutrition "Eggs",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pâte sucrée au sucre de fleur de coco bio\r
+Biscuit à la poudre de vanille pure de Madagascar\r
+Crémeux vanille de Madagascar « infusion 48h »\r
+Mousse vanille de Madagascar""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f587228418.jpeg> ;
+                    ns1:name "Tarte 100% vanille" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.20" ] ] ;
+            ns1:name "Tartes 4 parts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Pâte sucrée au sucre de fleur de coco bio\r
+Crème d’amandes \r
+Crémeux citron vert\r
+Brunoise d’ananas fraîche vanillée \r
+Mousse noix de coco\r
+(100% végétal et sans gluten)""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f5a19a93e8.jpeg> ;
+                    ns1:name "Tartelette Ananas - Noix de coco – Citron vert" ;
+                    ns1:nutrition "Lupin",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pâte sucrée au sucre de fleur de coco bio\r
+Crème d’amandes \r
+Gelée citron vert et gingembre\r
+Crémeux citron vert et gingembre""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f5a8ac0b04.jpeg> ;
+                    ns1:name "Tartelette Citron vert & gingembre" ;
+                    ns1:nutrition "Lupin",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pâte sucrée au sucre de fleur de coco bio\r
+Biscuit moelleux noisettes\r
+Compotée granny Smith « cru et cuite »\r
+Ganache montée à la vanille de Madagascar\r
+Brunoise de granny Smith & aneth""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f5aa89811c.jpeg> ;
+                    ns1:name "Tartelette Granny Smith & noisettes" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pâte sucrée au sucre de fleur de coco bio\r
+Crème d’amandes aux sésames noir bio\r
+Crémeux yuzu\r
+Ganache montée yuzu\r
+Praliné sésame noir grillé bio""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f5ac67b2bb.jpeg> ;
+                    ns1:name "Tartelette Yuzu & sésame noir" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pâte sucrée au sucre de fleur de coco bio\r
+Crème d’amandes chocolat pure origine Venezuela \r
+Praliné amandes et noisettes fleur de sel\r
+Mousse chocolat noir 71% Vietnam et Madagascar\r
+(100% végétal et sans gluten)""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f5a5379a92.jpeg> ;
+                    ns1:name "Tartelette chocolat & praliné Vegan" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pâte sucrée au sucre de fleur de coco bio\r
+Biscuit à la poudre de vanille pure de Madagascar\r
+Crémeux vanille de Madagascar « infusion 48h »\r
+Mousse vanille de Madagascar""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f59fe92e3f.jpeg> ;
+                    ns1:name "Tartelette 100% vanille" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Crème d’amandes aux zestes de citron jaune\r
+Crémeux citron jaune \r
+Meringue sans sucre « sucre de bouleau »\r
+Coulis citron & basilic frais""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f5a6cd3784.jpeg> ;
+                    ns1:name "Tartelette Citron meringuée" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.45" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pâte sucrée au sucre de fleur de coco bio\r
+Crème d’amandes chocolat et grué de cacao\r
+Crémeux chocolat 75% pure origine Sao tomé\r
+Mousse chocolat noir 71% Vietnam et Madagascar""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f59e3863ca.jpeg> ;
+                    ns1:name "Tartelette 100% chocolat" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.45" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pâte sucrée au sucre de fleur de coco bio\r
+Crémeux chocolat 75% pure origine Sao tomé\r
+Praliné amandes et noisettes fleur de sel\r
+Ganache montée 75% pure origine cuba""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/65/5f/655f5a36d5ade.jpeg> ;
+                    ns1:name "Tartelette Chocolat & praliné" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ] ;
+            ns1:name "Tartelettes" ] .
+

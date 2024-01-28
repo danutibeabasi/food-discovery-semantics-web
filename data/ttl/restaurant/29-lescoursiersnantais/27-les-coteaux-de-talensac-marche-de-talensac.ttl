@@ -1,0 +1,34 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lescoursiersnantais.coopcycle.org/api/restaurants/27> a ns1:Winery ;
+    ns1:address <https://lescoursiersnantais.coopcycle.org/api/addresses/1062> ;
+    ns1:bannerImage "https://lescoursiersnantais.coopcycle.org/placeholder/restaurant_banner/placeholders/kE1xKr2K5W6X.jpg" ;
+    ns1:description "Cave a vin au coeur du marché de talensac !" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.722114e+01 ;
+            ns1:longitude -1.556285e+00 ] ;
+    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/restaurant_thumbnail/5e/b6/5eb6b646aa635.PNG> ;
+    ns1:name "Les Côteaux de Talensac - Marché de Talensac" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "09:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://lescoursiersnantais.coopcycle.org/en/restaurant/27-les-coteaux-de-talensac-marche-de-talensac" ] ] ;
+    ns1:sameAs <https://lescoursiersnantais.coopcycle.org/en/restaurant/27-les-coteaux-de-talensac-marche-de-talensac> ;
+    ns1:url <https://lescoursiersnantais.coopcycle.org/en/restaurant/27-les-coteaux-de-talensac-marche-de-talensac> .
+
+<https://lescoursiersnantais.coopcycle.org/api/addresses/1062> a ns1:PostalAddress ;
+    ns1:name "Les Côteaux de Talensac - Marché de Talensac" ;
+    ns1:streetAddress "Rue Talensac, Nantes, France" ;
+    ns1:telephone "+33240480006" .
+

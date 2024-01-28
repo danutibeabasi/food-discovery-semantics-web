@@ -1,0 +1,55 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://coursiersmontpellier.coopcycle.org/api/restaurants/8> a ns1:Restaurant ;
+    ns1:address <https://coursiersmontpellier.coopcycle.org/api/addresses/285> ;
+    ns1:bannerImage "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_banner/65/6d/656dbd3b58694.png" ;
+    ns1:description """## La Puja - Un Voyage Culinaire en Inde et à Maurice\r
+\r
+Bienvenue à La Puja, où l'Inde et l'île de Maurice se rejoignent pour vous offrir une expérience gastronomique unique. Notre restaurant est un véritable voyage culinaire, mettant en valeur les saveurs authentiques de ces deux destinations exotiques.\r
+\r
+### Notre Menu\r
+\r
+- **Délices Indiens** : Plongez dans l'arôme envoûtant de la cuisine indienne avec nos plats tandoori, currys parfumés et biryanis savoureux.\r
+\r
+- **Saveurs de l'Île Maurice** : Découvrez les délices de l'île Maurice avec nos plats de fruits de mer, vindaye, et rougaille qui évoquent le goût de l'océan.\r
+\r
+- **Créations Fusion** : Notre menu propose également des créations fusion qui marient habilement les ingrédients et les techniques de ces deux cultures uniques.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.361512e+01 ;
+            ns1:longitude 3.877214e+00 ] ;
+    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_thumbnail/65/46/6546a72b7a5e5.png> ;
+    ns1:name "Le Puja / Cuisine Indienne et Mauricienne 🍲" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:40" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:40" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:45" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://coursiersmontpellier.coopcycle.org/en/restaurant/8-le-puja-cuisine-indienne-et-mauricienne" ] ] ;
+    ns1:sameAs <https://coursiersmontpellier.coopcycle.org/en/restaurant/8-le-puja-cuisine-indienne-et-mauricienne> ;
+    ns1:url <https://coursiersmontpellier.coopcycle.org/en/restaurant/8-le-puja-cuisine-indienne-et-mauricienne> .
+
+<https://coursiersmontpellier.coopcycle.org/api/addresses/285> a ns1:PostalAddress ;
+    ns1:name "Le Puja / Cuisine Indienne et Mauricienne 🍲" ;
+    ns1:streetAddress "3 Rue Ferdinand Fabre, Montpellier, France" ;
+    ns1:telephone "+33430108357" .
+

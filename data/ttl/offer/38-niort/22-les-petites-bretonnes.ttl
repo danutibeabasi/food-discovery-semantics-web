@@ -1,0 +1,191 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://niort.coopcycle.org/api/restaurants/22> ns1:hasMenu <https://niort.coopcycle.org/en/restaurant/22-les-petites-bretonnes#menu> .
+
+<https://niort.coopcycle.org/en/restaurant/22-les-petites-bretonnes#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """assortiments de mini crêpes, sucre, nutella, confiture à la fraise de Plougastel, caramel beurre salé,\r
+A partager… ou pas !""" ;
+                    ns1:name "CRÊPES PARTY Petite version (6 crêpes)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """assortiments de mini crêpes, sucre, nutella, confiture à la fraise de Plougastel, caramel beurre salé,\r
+à partager… ou pas !""" ;
+                    ns1:name "CRÊPES PARTY Grande version (12 crêpes)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ] ;
+            ns1:name "CRÊPES PARTY" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Crême fraiche ciboulette, Emincé de jambon,\r
+Poêlee de champignons, Chèvre chaud""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/4d/614d55e2e9be3.jpeg> ;
+                    ns1:name "LA GALETTE DE LA PATRONNE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Steak haché 125g, Œuf miroir, Concassé de tomates,\r
+Emmental, Sauce tartare maison""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/4d/614d5509111d6.jpeg> ;
+                    ns1:name "LA GALETTE DU PATRON" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saucisse de porc roulée dans une galette de sarrasin confit d'oignons, crème moutarde à l'ancienne" ;
+                    ns1:name "LA FAMEUSE GALETTE SAUCISSE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ] ;
+            ns1:name "LES INCONTOURNABLES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Assiettes de légumes croquants" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Assiette de pommes grenailles" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Assiette de salade verte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ] ;
+            ns1:name "LES ACCOMPAGNEMENTS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "CIDRE DOUX SEHEDIC BIO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "CIDRE FRUITE COAT ALBRET" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "CIDRE BRUT SEHEDIC BIO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "CIDRE Demi Sec COAT ALBRET" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "CIDRE BRUT COAT ALBRET" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "CIDRE DEMI SEC SEHEDIC BIO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ] ;
+            ns1:name "CIDRES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/4d/614d5366cad40.jpeg> ;
+                    ns1:name "SUCRÉ SALÉ" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/4d/614d52676de9c.jpeg> ;
+                    ns1:name "ESTIVALE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Andouille de Guéméné Label, confit d’oignons, Œuf miroir, Crème moutarde à l’ancienne" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/51/61512b9f05e51.jpeg> ;
+                    ns1:name "GUÉMENÉ" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Reblochon, Jambon Serrano, Lard grillé, Pommes de terre grenailles" ;
+                    ns1:name "LA SAVOYARDE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bleu d'Auvergne, Entrammes, Miel, Noix" ;
+                    ns1:name "LA FROMAGERE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ] ;
+            ns1:name "LES GOURMANDES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Galette Jambon Emmental" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Galette Jambon, Œuf miroir, Emmental, Concassé de tomates" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/4e/614e9476e0725.jpeg> ;
+                    ns1:name "Galette Jambon, Oeuf miroir, Emmental" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Galette Jambon, Oeuf miroir, Cheddar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Œuf miroir, Poêlée de champignons, Concassé de tomates, Légumes croquants" ;
+                    ns1:name "La Végétarienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Galette du Marché Uniquement le Midi sauf Samedi et Jours Fériés" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Galette Jambon, Oeuf miroir, Emmental, Champignons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poêlée de champignons, Concassé de tomates, Légumes croquants" ;
+                    ns1:name "La Végan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/61/4d/614d4d6ce7c61.jpeg> ;
+                    ns1:name "Galette Emmental, Chèvre, Miel, Lard grillé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ] ;
+            ns1:name "NOS GALETTES DE BLE NOIR" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Crêpe Confiture à la fraise de Plougastel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crêpe Chocolat Maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crêpe la double beurre sucre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crêpe Caramel beurre salé maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crêpe Beurre sucre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crêpe au Sucre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crêpe Miel - Citron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crêpe Crème de Marrons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crêpe Nutella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "LES CRÊPES AU FROMENT" ] .
+

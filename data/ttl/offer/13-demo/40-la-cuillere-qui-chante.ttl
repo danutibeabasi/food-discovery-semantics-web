@@ -1,0 +1,89 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://demo.coopcycle.org/api/restaurants/40> ns1:hasMenu <https://demo.coopcycle.org/en/restaurant/40-la-cuillere-qui-chante#menu> .
+
+<https://demo.coopcycle.org/en/restaurant/40-la-cuillere-qui-chante#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Courgettes aux carottes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.02" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Escargots farci·e·s aux poivrons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.69" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/5f/cd/5fcd32f9cd396.jpeg> ;
+                    ns1:name "Boeuf poêlé·e·s au vin rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/62/a9/62a9a04320f70.jpeg> ;
+                    ns1:name "Tomates à la crème" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.26" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Grenouilles rôti·e·s à la crème" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.77" ] ] ;
+            ns1:name "Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Clafoutis au café" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.51" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Crêpe aux fruits confits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.69" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Crêpe aux fruits confits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Gâteau aux figues" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.36" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://demo.coopcycle.org/media/cache/product_thumbnail/62/a9/62a99ffdb144c.jpeg> ;
+                    ns1:name "Clafoutis au café" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.97" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Jambon cru au naturel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.79" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jambon cru à l'huile d'olive" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.83" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Crudités en salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.38" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pickles en salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "entrée" ;
+                    ns1:name "l'entrée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Crudités à l'huile d'olive" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.48" ] ] ;
+            ns1:name "Entrées" ] .
+

@@ -1,0 +1,44 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://fast-and-curious.coopcycle.org/api/restaurants/8> a ns1:Restaurant ;
+    ns1:address <https://fast-and-curious.coopcycle.org/api/addresses/8> ;
+    ns1:description """L’Asian Kitchen surfe sur le concept de la street food asiatique avec un accès rapide, simple et convivial.\r
+C’est comme une cantine. Deux grandes tables hautes permettent d’y manger à coté d’inconnus ou en groupe.  Du bois de palettes en support d’éclairage et un  très beau graphe au mur comme un trompe l’œil vers une street food d’Asie, donnent une atmosphère bien citadine et cosmopolite.\r
+Le choix de la formule est court et bon marché. Il est composé de 5 plats principaux. La cuisine est d’origine vietnamienne et thaï. On consomme sur place ou à emporter.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.9494e+01 ;
+            ns1:longitude 1.10948e-01 ] ;
+    ns1:image <https://fast-and-curious.coopcycle.org/media/cache/restaurant_thumbnail/60/a3/60a3de13083f9.jpg> ;
+    ns1:name "Asian Kitchen" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:40" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:20" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://fast-and-curious.coopcycle.org/en/restaurant/8-asian-kitchen" ] ] ;
+    ns1:sameAs <https://fast-and-curious.coopcycle.org/en/restaurant/8-asian-kitchen> ;
+    ns1:url <https://fast-and-curious.coopcycle.org/en/restaurant/8-asian-kitchen> .
+
+<https://fast-and-curious.coopcycle.org/api/addresses/8> a ns1:PostalAddress ;
+    ns1:name "Asian Kitchen" ;
+    ns1:streetAddress "11 Rue Jules Lecesne, 76600 Le Havre, France" ;
+    ns1:telephone "+33277152210" .
+

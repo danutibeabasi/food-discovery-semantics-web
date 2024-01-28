@@ -1,0 +1,295 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://sicklo.coopcycle.org/api/restaurants/87> ns1:hasMenu <https://sicklo.coopcycle.org/en/restaurant/87-adelaide-cookies#menu> .
+
+<https://sicklo.coopcycle.org/en/restaurant/87-adelaide-cookies#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """2x Cranberries chocolat au lait, 2x Fraise chocolat au lait, 2x banane chocolat noir, 2x orange chocolat noir,\r
+2x poire chocolat noir, 2x citron chocolat blanc, 2x abricot chocolat blanc, 2x citron pavot""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/59/615954fbb5d8b.jpeg> ;
+                    ns1:name "Coffret Les Fruités" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """2x gingembre chocolat noir, 2x piment d’espelette chocolat noir, 2x Chartreuse noix myrtilles, 2x Figue et rose, 2x Nounours, \r
+2x M&M’s, 2x Cacahuètes caramélisées, 2x Raisins noix cannelle muscade""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/59/615955fb077a4.jpeg> ;
+                    ns1:name "Coffret cookies Signature" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Peanuts",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """2x 3 chocolats, 2x pépites de chocolat noir, 2x noix chocolat noir, 2x M&M’s, 2x noisettes chocolat au lait,  2x chocolat au lait, \r
+2x pécan chocolat blanc, 2x citron chocolat blanc,""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/54/6154252998698.jpeg> ;
+                    ns1:name "Coffret Trois Chocolats" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """2x tout chocolat, 2x pépites de chocolat noir, 2x noix chocolat noir, 2x amandes chocolat noir, 2x orange chocolat noir, \r
+2x gingembre chocolat noir, 2x café chocolat noir, 2x banane chocolat noir""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/59/6159540c7f2a5.jpeg> ;
+                    ns1:name "Coffret 100% Chocolat noir" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ] ;
+            ns1:name "Coffret de 16 cookies 🍪" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Fraise, papaye, banane, cerise" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/59/61595e64aa53f.jpeg> ;
+                    ns1:name "Melbourne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Banane, coco, ananas" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/59/61595d8493c15.jpeg> ;
+                    ns1:name "Brisbane" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mangue, ananas, citron, passion" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/59/61595e3838cf9.jpeg> ;
+                    ns1:name "Gold Coast" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mangue, carotte, wiki, banane, goyave" ;
+                    ns1:name "Ayers rock" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Banane, mangue, Chou Kale citronnelle" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/59/61595e151447d.jpeg> ;
+                    ns1:name "Canberra" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mangue, melon, fraise, citron" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/59/61595ea3e0b78.jpeg> ;
+                    ns1:name "Sydney" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Banane, Groseilles, Framboises" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/59/61595c642346c.jpeg> ;
+                    ns1:name "Adélaide" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Smoothies ou Milkshakes: c’est vous qui choisissez !!!⭐" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Thé fumé. Originaire du Fujian, le Lapsang Souchong est le grand classique des thés fumés. Un thé très agréable pour accompagner un déjeuner salé.
+\r
+Sachet mousseline pour 200 ml\r
+Laissez infuser 4 mn à 90°C""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/60/61603ab62f635.jpeg> ;
+                    ns1:name "Thé fumé Lapsang Souchong BIO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Mélange de thé blanc Pai Mu Tan et de thé vert Mao Feng agrémenté de morceaux d’ananas, de mangue, de papaye et d’orange confits, groseilles, cerises et aromatisé à la pêche et au litchi. Il n’y pas de fumée sans feu, goût fruité garanti !
+\r
+Sachet mousseline pour 200ml\r
+Laissez infuser 3 mn à 80°C""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/60/61603a7c20a64.jpeg> ;
+                    ns1:name "Thé blanc du dragon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Thé à la marocaine. Thé vert Gunpowder agrémenté de menthe au parfum intense.
+\r
+Sachet mousseline pour 200 ml\r
+Laissez infuser 3 mn à 85°C""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/60/61603ae78bd4f.jpeg> ;
+                    ns1:name "Thé vert à la menthe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Mélange de thés noirs accompagné de thé vert parfumés à l’orange et à la mangue épicée à la cardamome et agrémentés de pétales de rose et d’une touche de piment. Un thé plein de promesses.
+\r
+Sachet mousseline pour 200 ml\r
+Laissez infuser 4 mn à 90°C""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/60/61603acf30b10.jpeg> ;
+                    ns1:name "Thé noir Crépuscule d'Orient" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Thé blanc Pai Mu Tan parfumé à la citronnelle et agrémenté d’écorces de citron et de morceaux de gingembre.
+\r
+Sachet mousseline pour 200 ml\r
+Laissez infuser 3 min à 80°""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/60/61603a979d1c1.jpeg> ;
+                    ns1:name "Thé blanc gingembre citron Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Ce thé à la bergamote vous apportera une belle rondeur en bouche. C’est un de nos plus gros succès.
+\r
+Sachet mousseline pour 200 ml\r
+Laissez infuser 4 mn à 90°C""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/60/61603a27e6f0e.jpeg> ;
+                    ns1:name "Earl Grey Fleurs bleues" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Thé noir du Népal produit à la frontière entre le Népal et la région du Darjeeling en Inde. Cueilli avec beaucoup de soin aux premiers jours du printemps. On retrouve des pousses dorées, des notes fleuries mais aussi de la rondeur du cacao.
+\r
+Sachet mousseline pour 200ml\r
+Laissez  infuser 4 à 5 mn à 90°C""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/60/6160397e9155c.jpeg> ;
+                    ns1:name "Darjeeling: Thé noir de l'Himalaya" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Mélange de thé vert et de Oolong parfumé aux baies de sureau, groseille, cassis, framboise et fraise. Agrémenté de morceaux de fruits.
+\r
+Sachet mousseline pour 200 ml\r
+Laissez infuser 3 min à 80°""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/59/61596cea615ca.jpeg> ;
+                    ns1:name "Thé vert Magie Noire" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Rooibos vert parfumé aux fruits rouges, avec morceaux de cassis, myrtilles, fraise et cerise.
+\r
+Sachet mousseline pour 200 ml\r
+Laissez infuser 5 mn à 90°C""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/60/61603a5a27eaf.jpeg> ;
+                    ns1:name "Rooibos vert Fruits Rouges BIO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Thé vert produit dans la province du Hunan dans la région de Guzhang. Il est récolté seulement au printemps, on retrouve des feuilles fines aux pointes blanches. L’infusion est d’une couleur jaune vert clair avec un goût agréable de châtaigne.
+\r
+Sachet mousseline pour 200ml\r
+Laissez infuser 3 à 4 min à 85°""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/59/6159722c47aee.jpeg> ;
+                    ns1:name "Thé vert Guzhang Mao Jian" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ] ;
+            ns1:name "Sachets de Thé à infuser quand vous le souhaitez 🍵" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/54/615458481155b.jpeg> ;
+                    ns1:name "La salade complète d’Adelaide" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/54/615414151c678.jpeg> ;
+                    ns1:name "Le Bagel + La salade d’Adélaide" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "A composer soi-même" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/54/615412e90b0cf.jpeg> ;
+                    ns1:name "Le Bagel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Le coin salé 🥯" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Eau de source gazeuse, 50 cl" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/59/6159644b49c70.jpeg> ;
+                    ns1:name "Eau gazeuse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bouteille 50 cl" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/59/61596403de70e.jpeg> ;
+                    ns1:name "Coca Cola Zéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Eau de source, 50 cl" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/59/61596468438e8.jpeg> ;
+                    ns1:name "Eau plate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bouteille 50 cl" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/59/615963cda2e22.jpeg> ;
+                    ns1:name "Coca Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Brasserie du Habert, 33cl\r
+Elle présente une belle note maltée et une amertume marquée. 6% alcool. Amertume marquée""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/59/61596173ba39b.jpeg> ;
+                    ns1:name "L’IPA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Brasserie du Habert, 33 cl\r
+Entre blonde et blanche, elle bénéficie d’un apport de feuilles de verveines à l’ébullition, ce qui lui confère des arômes floraux et fruités. 5% alcool. Amertume faible""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/59/615961461752c.jpeg> ;
+                    ns1:name "La Blonche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bouteille 50 cl" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/59/61596488e23fb.jpeg> ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ] ;
+            ns1:name "Les autres boissons 🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Fabriquée en France, 100% bio, 33 cl" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/53/615384990ed17.jpeg> ;
+                    ns1:name "L’infusion pétillante menthe douce" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fabriquée en France, 100% bio, 33 cl" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/53/6153838f46621.jpeg> ;
+                    ns1:name "L’Infusion pétillante au basilic" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """A base de cerise, cassis, myrtille, lavande, camomille et verveine\r
+Fabriqué en France, 100% biologique, 33cl""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/53/61537642dd82f.jpeg> ;
+                    ns1:name "La Potion relaxante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """A base de citron, sauge, pomme, carotte et sureau\r
+Fabriquée en France, 100% biologique, 33 cl""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/53/61537cc2ae877.jpeg> ;
+                    ns1:name "La Potion détoxifiante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """A base de citron, mirabelle, argousier, romarin, thym et menthe poivrée\r
+Fabriquée en France, 100% biologique, 33cl""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/53/615382408cea6.jpeg> ;
+                    ns1:name "La Potion énergisante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Boissons Symples: infusions glacées bio & françaises🍹" ] .
+

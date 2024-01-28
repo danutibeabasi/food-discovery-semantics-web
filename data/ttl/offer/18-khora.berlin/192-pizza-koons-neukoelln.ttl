@@ -1,0 +1,428 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://khora.berlin/en/restaurant/192-pizza-koons-neukoelln> ns1:hasMenu <https://khora.berlin/en/restaurant/192-pizza-koons-neukoelln#menu> .
+
+<https://khora.berlin/en/restaurant/192-pizza-koons-neukoelln#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "mit Tomatensauce, Fior di latte Mozzarella, Kochschinken und Champignons" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c3/61c318a477f66.jpeg> ;
+                    ns1:name "Calzone Classico" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Fior di Latte Mozzarella und saisonalem Gemüse" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c3/61c318ee39afd.jpeg> ;
+                    ns1:name "Calzone Vegetarino" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ] ;
+            ns1:name "Calzone" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomatensauce, Knoblauch & Oregano" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c3/61c3233071aa6.jpeg> ;
+                    ns1:name "Marinara" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomatensauce, Mozzarella Fior di Latte & Basilikum" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c3/61c322f93073d.jpeg> ;
+                    ns1:name "Margherita" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomatensauce, Bio-Büffelmozzarella & Basilikum" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c3/61c3181c518d2.jpeg> ;
+                    ns1:name "Bufala" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.30" ] ] ;
+            ns1:name "Pizza Classic" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "0,7l" ;
+                    ns1:name "Selters - Leise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,3l" ;
+                    ns1:name "Selters - Laut" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,3l" ;
+                    ns1:name "Selters - Leise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,7l" ;
+                    ns1:name "Selters - Laut" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Wasser" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "mit Champignons, pikanter Salami, Bresaola, Parmesan und Walnüssen" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c4/61c484748ba66.jpeg> ;
+                    ns1:name "Pizza Rosse Valtellina" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Büffelmozzarella, Bresaola, Parmesan und Basilikum" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c4/61c458720ffbf.jpeg> ;
+                    ns1:name "Pizza Rosse Deliziosa" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Meeresfrüchten, Knoblauch und Pesto" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c4/61c482ee10aa6.jpeg> ;
+                    ns1:name "Pizza Rosse Frutti di Mare" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Crustaceans",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Sardellen, Oliven und Kapern, ohne Fior di Latte" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c3/61c32f791ab98.jpeg> ;
+                    ns1:name "Pizza Napoli" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Radicchio, Tiroler Speck, Walnüssen, Ziegenkäse und Honig" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c4/61c48271a1a89.jpeg> ;
+                    ns1:name "Pizza Rosse Caprino" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Black Tiger Scampi, Rucola und Kirschtomaten" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c4/61c483f867673.jpeg> ;
+                    ns1:name "Pizza Rosse Scampi" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Crustaceans",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Thunfisch und Zwiebeln" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c4/61c4842c3c5b4.jpeg> ;
+                    ns1:name "Pizza Rosse Tonno und Cipolla" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Champingnons und Rosmarin" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c3/61c32fbaf2bcf.jpeg> ;
+                    ns1:name "Pizza Funghi und Rosmarino" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit pikanter Salami, Zwiebeln, Kirschtomaten und scharfen Jalapenos" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c4/61c4835227409.jpeg> ;
+                    ns1:name "Pizza Rosse il Bacio Del Diavolo (scharf)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit gegrilltem Gemüse" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c4/61c484bb2d641.jpeg> ;
+                    ns1:name "Pizza Rosse Vegetariana" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Parmaschinken, Champignons, Rucola und Parmesan" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c4/61c48386040f4.jpeg> ;
+                    ns1:name "Pizza Rosse Prataiola" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Kirschtomaten und Rucola" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c4/61c483c8365c9.jpeg> ;
+                    ns1:name "Pizza Rosse Primavera" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "Pizza Rosse" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "0,375l" ;
+                    ns1:name "Petirrojo Reserva Chardonnay" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,7l" ;
+                    ns1:name "Petirrojo Reserva Cabernet Sauvignon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,375l" ;
+                    ns1:name "Petirrojo Reserva Cabernet Sauvignon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,7l" ;
+                    ns1:name "Petirrojo Reserva Chardonnay" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Wein" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "mit Mozzarella Fior di Latte , Friarielli Napolitani (wilder Brokkoli aus Campanien), Italienische Salsicciawurst" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c4/61c48506a338f.jpeg> ;
+                    ns1:name "Pizza Salsiccia e Friarell" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Tomatensauce, Mozzarella Fior di Latte, Salami Napoli, Basilikum, Chili Flocken, Bio Honig" ;
+                    ns1:name "Pizza Spicy Honey" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit gegrillter Aubergine, Fior di Latte Mozzarella und Parmesan" ;
+                    ns1:name "Pizza Melanzane" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.20" ] ] ;
+            ns1:name "Pizza Speciale" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c3/61c323a56a511.jpeg> ;
+                    ns1:name "Panna Cotta" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c5/61c5c84b6ac9b.jpeg> ;
+                    ns1:name "Tiramisu" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ] ;
+            ns1:name "Dolci" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "mit geräucheterm Lachs" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c3/61c325b094efd.jpeg> ;
+                    ns1:name "Pizza Bianche Salmone und Spinat" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Gorgonzola, Mascarpone, Ziegenkäse und Parmesan" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c3/61c323f75ac83.jpeg> ;
+                    ns1:name "Pizza Bianche 5 Formaggi" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Gorgonzola, Birnen und Walnüssen" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c3/61c3254d32312.jpeg> ;
+                    ns1:name "Pizza Bianche Pere" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Gorgonzola und Spinat" ;
+                    ns1:name "Pizza Bianche Gorgonzola und Spinat" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.80" ] ] ;
+            ns1:name "Pizza Bianche" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "mit Rinderhackfleisch und Bolognesesauce" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c3/61c322ba586eb.jpeg> ;
+                    ns1:name "Lasagne" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.20" ] ] ;
+            ns1:name "Lasagne" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """mit gemischtem Salat, frischem Ziegenkäse und gegrilltem Gemüse\r
+Wahl aus: mit Essig und Öl oder ohne Dressing.""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c3/61c31ba3b7dce.jpeg> ;
+                    ns1:name "Insalata Caprino" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """mit gemischtem Salat, Oliven, Kirschtomaten und Mozzarella\r
+Wahl aus: mit Essig und Öl oder ohne Dressing.""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c3/61c3214ce789c.jpeg> ;
+                    ns1:name "Insalata della Casa" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """mit Tomaten, roten Zwiebeln, Kapern und Rucola\r
+Wahl aus: mit Essig und Öl oder ohne Dressing.""" ;
+                    ns1:name "Insalata di Pomodori Cipolle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """mit gemischtem Salat, Thunfisch und Kirschtomaten\r
+Wahl aus: mit Essig und Öl oder ohne Dressing.""" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c3/61c32265388d1.jpeg> ;
+                    ns1:name "Insalata Tonno" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.20" ] ] ;
+            ns1:name "Salate" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "Fritz Limo Zitronenlimonade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "Fritz Kola - Zuckerfrei" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,5l" ;
+                    ns1:name "Fritz Kola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "Fritz Mate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,5l" ;
+                    ns1:name "Fritz Spritz Bio Apfelsaftschorle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "Fritz Spritz Bio Traubensaftschorle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "Fritz Spritz Bio Apfelsaftschorle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "Fritz Kola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "Fritz Spritz Bio Rhabarbersaftschorle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "Fritz Limo Orangenlimonade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ] ;
+            ns1:name "Soft Drinks" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "Clausthalter Alkoholfrei" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "Peroni" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,5l" ;
+                    ns1:name "Berliner Pilsner" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,5l" ;
+                    ns1:name "Allgäuer Büble Hell" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Bier" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c3/61c317bf3251b.jpeg> ;
+                    ns1:name "Antipasto Misto Vegetariano (2 Personen)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit grünen und schwarzen Oliven, Zitrone und Oregano" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c3/61c3236895696.jpeg> ;
+                    ns1:name "Oliven" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c3/61c31c8ad1a3c.jpeg> ;
+                    ns1:name "Antipasto Italiano Misto (2 Personen)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Rindercarpaccio mit Rucola, Champignons, Parmesan und leichter Zitronensauce" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c3/61c31d12cac1e.jpeg> ;
+                    ns1:name "Carpaccio di Manzo con Rucola e Grana" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Büffelmozzarella mit Tomaten und Basilikum" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/c3/61c31b2a981e2.jpeg> ;
+                    ns1:name "Insalata Caprese" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ] ;
+            ns1:name "Antipasti" ] .
+

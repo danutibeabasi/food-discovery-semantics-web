@@ -1,0 +1,127 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://la-cocotte.coopcycle.org/api/restaurants/34> ns1:hasMenu <https://la-cocotte.coopcycle.org/en/restaurant/34-sembilan-toulon#menu> .
+
+<https://la-cocotte.coopcycle.org/en/restaurant/34-sembilan-toulon#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Poulet satay, sauce piment - cacahuètes et légumes croquants enroulés dans un naan à la vache qui rit." ;
+                    ns1:name "Taco naan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ] ;
+            ns1:name "Sandwichs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "San Pellegrino 25cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Limonade Tropical (mangue-coco)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/62/10/6210d89280de1.jpeg> ;
+                    ns1:name "Limonade menthe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boisson fermentée au gingembre (sans alcool)" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/62/10/6210de489cd28.jpeg> ;
+                    ns1:name "Limonade au gingembre (Ginger beer)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Limonade citron vert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Limonade framboise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Boisson" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Crevettes cuites dans une crème de lait concentré non sucré et de crème de noix de coco, et accompagné de riz thaï." ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/60/6060cc13d09a0.jpeg> ;
+                    ns1:name "Crevettes Buttermilk" ;
+                    ns1:nutrition "Crustaceans",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz sauté aux épices et aux légumes très parfumé" ;
+                    ns1:name "Nasi Goreng" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet pané cuit dans une sauce aigre-douce maison avec oignons caramélisés et poivrons confits, accompagné de riz thaï." ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/60/6060cc58ebda9.jpeg> ;
+                    ns1:name "Poulet sauce aigre-douce" ;
+                    ns1:nutrition "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet mariné à la citronnelle, au cumin et au curcuma, cuit dans le miel et servi avec du riz et une sauce à la cacahuète et au piment rouge." ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/60/6060cd3f4d3b5.jpeg> ;
+                    ns1:name "Satay de poulet" ;
+                    ns1:nutrition "Peanuts",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet pané cuit dans une crème de lait concentré non sucré et de crème de noix de coco, et accompagné de riz thaï." ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/60/6060cc36e4ef2.jpeg> ;
+                    ns1:name "Poulet Buttermilk" ;
+                    ns1:nutrition "Crustaceans",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/95/6195111d09b20.jpeg> ;
+                    ns1:name "Laksa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Naan farci à la pâte à tartiner de noisette" ;
+                    ns1:name "Naan à la pâte à tartiner de noisette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 mochis glacés, parfum au choix" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/60/60/6060cb8cbf77b.jpeg> ;
+                    ns1:name "Mochi glacé artisanal" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Naan cannelle / sucre roux" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Naan fait maison farci au fromage de chèvre et au miel" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/36/61364886459a4.jpeg> ;
+                    ns1:name "Naan chèvre-miel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Naan Ail - Coriandre - Vache qui Rit" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Naan fait maison" ;
+                    ns1:name "Naan nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Naan fait maison farci à la Vache qui Rit" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/36/613646fe20dfa.jpeg> ;
+                    ns1:name "Naan à la Vache qui Rit" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Naans / Galettes indiennes" ] .
+

@@ -1,0 +1,20 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lescoursiersbrestois.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "fr" ;
+                    ns1:addressLocality "Brest" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 4.839039e+01 ;
+                    ns1:longitude -4.486076e+00 ] ] ;
+    ns1:description "Les Coursiers Brestois aims to develop a collective and cooperative delivery service in the Brest metropolis, using only bicycles as a means of delivery and as a working tool. Our project aims to create a cooperative of bike delivery drivers, founded and co-managed by the drivers themselves."@en,
+        "Les Coursiers Brestois visent à développer un service de livraisons collectif et coopératif de proximité sur la métropole de Brest, utilisant exclusivement le vélo comme moyen de livraison et comme outil de travail. Notre projet a vocation à créer une coopérative de livreurs à vélo, fondée et co-gérée par les livreurs eux-mêmes."@fr ;
+    ns1:name "Les Coursiers Brestois" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:sameAs <https://www.facebook.com/lescoursiersbrestois/> ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://lescoursiersbrestois.coopcycle.org> .
+

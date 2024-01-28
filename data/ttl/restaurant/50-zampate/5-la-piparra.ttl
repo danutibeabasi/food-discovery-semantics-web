@@ -1,0 +1,49 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://zampate.coopcycle.org/api/restaurants/5> a ns1:Restaurant ;
+    ns1:address <https://zampate.coopcycle.org/api/addresses/5> ;
+    ns1:description """La Piparra es un Bar-cafetería vegano que ofrece comida casera con ingredientes de calidad.\r
+Entre semana preparan para la hora de comer  un plato combinado y un plato de cuchara que cambia cada día, y su menú tiene una selección de bocadillos, ensaladas y raciones, todo 100% vegetal\r
+Si tú (o alguien para el que estás pidiendo la comida) tiene una alergia o intolerancia a algún alimento, llámanos o indícalo en los comentarios""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.165724e+01 ;
+            ns1:longitude -8.844413e-01 ] ;
+    ns1:image <https://zampate.coopcycle.org/media/cache/restaurant_thumbnail/63/b8/63b87f22770df.jpg> ;
+    ns1:name "La Piparra" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:00" ;
+            ns1:dayOfWeek "Thursday" ;
+            ns1:opens "12:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday" ;
+            ns1:opens "13:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "23:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday" ;
+            ns1:opens "20:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "12.50" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.50" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "es" ;
+                    ns1:urlTemplate "https://zampate.coopcycle.org/en/restaurant/5-la-piparra" ] ] ;
+    ns1:sameAs <https://zampate.coopcycle.org/en/restaurant/5-la-piparra> ;
+    ns1:url <https://zampate.coopcycle.org/en/restaurant/5-la-piparra> .
+
+<https://zampate.coopcycle.org/api/addresses/5> a ns1:PostalAddress ;
+    ns1:name "La Piparra" ;
+    ns1:streetAddress "Calle de los Predicadores, 39, 50003 Zaragoza, España" ;
+    ns1:telephone "+34876161987" .
+

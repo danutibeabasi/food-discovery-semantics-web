@@ -1,0 +1,428 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://a2roo.coopcycle.org/api/restaurants/30> ns1:hasMenu <https://a2roo.coopcycle.org/en/restaurant/30-le-sommatino#menu> .
+
+<https://a2roo.coopcycle.org/en/restaurant/30-le-sommatino#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Crème, mozzarella râpée, saucisses fumées, pomme de terre, oignons, cancoillotte à l'ail, épices italiennes" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/b6/60b6556515173.jpeg> ;
+                    ns1:name "Fiarelli" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "crème, mozzarella râpée, jambon de Parme, spianata, chèvre, poivrons, épices italiennes" ;
+                    ns1:name "Salvatore" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, mozzarella râpée, lardons, pomme de terre, saucisse fumée, raclette" ;
+                    ns1:name "La Campagnarde" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, champignons, mozzarella râpée, jambon, persillade, œuf" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/b8/60b8ee33e38e1.jpeg> ;
+                    ns1:name "Calzone Verde" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, champignons, mozzarella râpée, jambon, St Marcelin, épices italiennes" ;
+                    ns1:name "Luna" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, jambon, chèvre, Gorgonzola, spianata, épices italiennes" ;
+                    ns1:name "Anna" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, mozzarella râpée, jambon blanc, fromage à raclette, oignons, pomme de terre" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/b6/60b651f3de5e1.jpeg> ;
+                    ns1:name "La Savoyarde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, oignons, mozzarella râpée, chèvre, miel, épices italiennes" ;
+                    ns1:name "Chèvre Miel" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce crème d'Epoisses, mozzarella râpée, jambon blanc, oignons, pomme de terre, Epoisses" ;
+                    ns1:name "L'Epoisses" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ] ;
+            ns1:name "PIZZAS (base crème)" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Agnelotti tomates/aubergines, agnelotti aux cèpes et Panciotti aux asperges mascarpone" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/b8/60b8f49701992.jpeg> ;
+                    ns1:name "Trio de pâtes farcies artisanales ( à l'huile de truffes maison)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.00" ] ] ;
+            ns1:name "Pâtes farcies artisanales" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Escalope de veau panée" ;
+                    ns1:name "La Milanaise et ses linguine à la Bolognaise" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Caponata Sicilienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Aubergine à la parmigiana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pain burger \"artisanal\", pesto, tomates fraîches, mesclun, oignons, coppa, steak haché ( charolais), St Marcelin" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/b6/60b64f1f02981.jpeg> ;
+                    ns1:name "Burger Luna, frites" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pain burger \"artisanal\", crème de truffe, tomates fraîches, mortadelle,  steak haché, ( Charolais), gorgonzola, oignons rouges, mesclun" ;
+                    ns1:name "Burger Sommatino, frites" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ] ;
+            ns1:name "Les plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Vin rouge italien (Chianti déclassé)" ;
+                    ns1:name "Dogajolo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vin rouge pétillant" ;
+                    ns1:name "Lambrusco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ] ;
+            ns1:name "Vins Rouges" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pâtes au poulpe" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/aa/61aa573b3402a.jpeg> ;
+                    ns1:name "Pasta con polpo" ;
+                    ns1:nutrition "Crustaceans",
+                        "Eggs",
+                        "Fish",
+                        "Molluscs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "avec bolognaise, viande 100 % boeuf français et mortadelle DOP" ;
+                    ns1:name "Lasagnes maison" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâtes à la sauce bolognaise 100% boeuf" ;
+                    ns1:name "Linguine à la bolognaise" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâtes fraiches artisanales avec 9œufs/kg, pavé de saumon frais et saumon fumé, sauce Sommatino" ;
+                    ns1:name "Tagliatelles fraîches aux 2 saumons" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pâtes fraîches artisanales avec 9 œufs/kg, guanciale, pancetta, Pecorino et Parmigiano Reggiano, jaune d'œuf." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/b6/60b64e1dedbd6.jpeg> ;
+                    ns1:name "Tagliatelles fraîches à la carbonara" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ] ;
+            ns1:name "Pasta" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Moscato d'Asti" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ] ;
+            ns1:name "Vins Blancs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Coca cola 1,25L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Eau minérale plate San benedetto 65cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Eau minérale gazeuse San Benedetto 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Coca Zéro 1,25L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Boissons sans alcool" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomate, jambon, mozzarella râpée, champignons, pecorino" ;
+                    ns1:name "Regina" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella fior di latte, jambon de Parme, spianata, mozzarella fraîche, poivrons, olives, épices italiennes," ;
+                    ns1:name "Capri" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème de truffe noire, mozzarella fraîche, copeaux de pecorino, champignons, tomates confites, jambon Speck, roquette" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/b8/60b8efaa398dc.jpeg> ;
+                    ns1:name "La Tartufo ( pizza à la truffe)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pizza 5 fromages sans tomate: mozzarella râpée, pecorino, chèvre, Gorgonzola, Taleggio" ;
+                    ns1:name "Bianca" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella râpée, viande hachée ( charolaise), poivrons, oignons, olives, merguez, épices italiennes" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/b6/60b654aea37c8.jpeg> ;
+                    ns1:name "Texane" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella râpée, champignons, fruits de mer, persillade, crème, œuf" ;
+                    ns1:name "Marina" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Crustaceans",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella râpée, jambon" ;
+                    ns1:name "Romaine" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella râpée, pecorino, chèvre, Gorgonzola, Taleggio" ;
+                    ns1:name "5 fromages" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella râpée, champignons, jambon, œuf" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/b6/60b655ab121f6.jpeg> ;
+                    ns1:name "Calzone" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tapenade de poivrons, mozzarella râpée, tomates confites, champignons, oignons, poivrons, artichauts confits, olives, épices italiennes, roquette" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/b8/60b8ee973ac96.jpeg> ;
+                    ns1:name "4 saisons peperone" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella râpée, anchois, olives" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/b6/60b6543fc733b.jpeg> ;
+                    ns1:name "Napolitaine" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella râpée, jambon de parme, Taleggio, chèvres, poivrons, épices italiennes" ;
+                    ns1:name "Padre" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella râpée, champignons, poivrons, chèvre, miel, olives,  épices italiennes" ;
+                    ns1:name "Sucrée salée" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella râpée, champignons, spianata, œuf, olives, crème, épices italiennes" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/b8/60b8ef366002e.jpeg> ;
+                    ns1:name "Di Milano" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella râpée, tomates séchées, pecorino, jambon de parme, mortadelle, mozzarella di bufala, câpres à queue, crème de balsamique, roquette" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/b8/60b8f436a6f2d.jpeg> ;
+                    ns1:name "La Mama" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomates, anchois, câpres à queue, olives" ;
+                    ns1:name "Sicilienne" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tapenade d'artichauts basilic, mozzarella râpée, tomates confites, champignons, oignons, poivrons, artichauts confits, olives, épices italiennes, roquette" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/b6/60b654003ce39.jpeg> ;
+                    ns1:name "4 saisons Carciofo" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella râpée, merguez, lardons, spianata, champignons, crème, œuf, olives, épices italiennes" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/b6/60b65658d63fb.jpeg> ;
+                    ns1:name "Pizza dello Chef" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella râpée, jambon blanc, champignons, poivrons, chèvre, Taleggio, épices italiennes" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/b6/60b64d5014908.jpeg> ;
+                    ns1:name "Rosita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella râpée, lardons, pomme de terre, crème, œuf, épices italiennes" ;
+                    ns1:name "Val d'Aoste" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella fior di latte, aubergines, copeaux de pécorino, olives noires, Parmigiano reggiano" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/aa/61aa53c579345.jpeg> ;
+                    ns1:name "Sommatino" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomates fraîches, mozzarella fior di latte, saumon fumé, pesto, mozzarella râpée, citron, roquette" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/b8/60b8eca7e59ed.jpeg> ;
+                    ns1:name "Salmone" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella râpée, champignons, jambon, crème, œuf" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/60/b6/60b6552632e22.jpeg> ;
+                    ns1:name "Aperta" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella fior di latte, olives, pecorino" ;
+                    ns1:name "Margherita" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "Pizzas ( base tomate )" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Tiramisu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/aa/61aa586adbfed.jpeg> ;
+                    ns1:name "Torta della Nonna" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/61/aa/61aa595f233e1.jpeg> ;
+                    ns1:name "Bacio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Boules de risotto frit safranée à la sauce bolognaise, petits pois et mozzarella avec sauce napolitaine" ;
+                    ns1:name "Arancini al ragù" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crevettes papillon, saumon fumé, asperges vertes, noix de St Jacques pétoncles" ;
+                    ns1:name "Insalata Marina" ;
+                    ns1:nutrition "Crustaceans",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pain focaccia, pesto, tomate, mozzarella, huile d'olive basilic, saumon fumé, Parmigiano Reggiaro.\r
+Le tout gratiné au four""" ;
+                    ns1:name "Focaccia con salmone affumicato" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ] ;
+            ns1:name "ENTRÉES" ] .
+

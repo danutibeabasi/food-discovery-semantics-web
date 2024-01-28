@@ -1,0 +1,56 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://khora.berlin/api/restaurants/174> a ns1:Restaurant ;
+    ns1:address <https://khora.berlin/api/addresses/58014> ;
+    ns1:description "Spätzlevariationen, Maultaschen, Salate & Suppen" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 5.25126e+01 ;
+            ns1:longitude 1.344583e+01 ] ;
+    ns1:image <https://khora.berlin/media/cache/restaurant_thumbnail/60/57/60573e3080cd6.jpg> ;
+    ns1:name "Spätzlemacher" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:40" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "12:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "20:40" ;
+            ns1:dayOfWeek "Sunday" ;
+            ns1:opens "17:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:40" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "17:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:40" ;
+            ns1:dayOfWeek "Saturday" ;
+            ns1:opens "17:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "20.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "4.00" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "de" ;
+                    ns1:urlTemplate "https://khora.berlin/en/restaurant/174-spaetzlemacher" ] ] ;
+    ns1:sameAs <https://khora.berlin/en/restaurant/174-spaetzlemacher> ;
+    ns1:url <https://khora.berlin/en/restaurant/174-spaetzlemacher> .
+
+<https://khora.berlin/api/addresses/58014> a ns1:PostalAddress ;
+    ns1:name "Spätzlemacher" ;
+    ns1:streetAddress "Marchlewskistraße 57, 10243 Berlin, Deutschland" ;
+    ns1:telephone "+493031486426" .
+

@@ -1,0 +1,89 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://dinan.coopcycle.org/api/restaurants/4> ns1:hasMenu <https://dinan.coopcycle.org/en/restaurant/4-le-local#menu> .
+
+<https://dinan.coopcycle.org/en/restaurant/4-le-local#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Jambon local et emmental" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/44/6344382b53d36.jpeg> ;
+                    ns1:name "Croque local (pain sarrasin)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "tomme fermière et légumes du moment (100% local)" ;
+                    ns1:name "Croque local végé (pain sarrasin)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Croque" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Poulet, mayonnaise, légumes marinés, salade, citron vert, sauce sriracha" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/44/634438c627cbc.jpeg> ;
+                    ns1:name "Sandwich Banh-Mi (Pain sarrasin)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Sandwich" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "sans huile de palme" ;
+                    ns1:name "crêpe pâte à tartiner" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "crêpe beurre sucre" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "caramel fait maison" ;
+                    ns1:name "crêpe caramel beurre salé" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "crêpe sucre" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Crêpe" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Moelleux chocolat/sarrasin" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Dessert" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Jambon, oeuf, fromage" ;
+                    ns1:name "Galette complète" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "emmental" ;
+                    ns1:name "Galette fromage" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomme fermière et légumes du moment" ;
+                    ns1:name "Galette Végétarienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "jambon local + emmental" ;
+                    ns1:name "Galette jambon, fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Galette Blé noir" ] .
+

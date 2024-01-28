@@ -1,0 +1,20 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cyclome.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "fr" ;
+                    ns1:addressLocality "Clermont-Ferrand" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 4.577721e+01 ;
+                    ns1:longitude 3.08252e+00 ] ] ;
+    ns1:description "Your ecological and ethical delivery service in Clermont-Ferrand."@en,
+        "Votre service de livraison éthique et écologique à Clermont-Ferrand."@fr ;
+    ns1:name "CYCLOME" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:sameAs <https://www.facebook.com/cyclome.coop> ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://cyclome.coopcycle.org> .
+

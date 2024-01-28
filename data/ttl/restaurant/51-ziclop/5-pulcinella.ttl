@@ -1,0 +1,36 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ziclop.coopcycle.org/api/restaurants/5> a ns1:Restaurant ;
+    ns1:address <https://ziclop.coopcycle.org/api/addresses/14> ;
+    ns1:description "Lugar de comida italiana, pizzas y derivados /// Italiarra janari-lekua, pizzak eta deribatuak" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.28157e+01 ;
+            ns1:longitude -1.645406e+00 ] ;
+    ns1:image <https://ziclop.coopcycle.org/media/cache/restaurant_thumbnail/63/12/6312571cd318f.png> ;
+    ns1:name "Pulcinella" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday" ;
+            ns1:opens "19:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:20" ;
+            ns1:dayOfWeek "Saturday",
+                "Thursday" ;
+            ns1:opens "13:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "es" ;
+                    ns1:urlTemplate "https://ziclop.coopcycle.org/en/restaurant/5-pulcinella" ] ] ;
+    ns1:sameAs <https://ziclop.coopcycle.org/en/restaurant/5-pulcinella> ;
+    ns1:url <https://ziclop.coopcycle.org/en/restaurant/5-pulcinella> .
+
+<https://ziclop.coopcycle.org/api/addresses/14> a ns1:PostalAddress ;
+    ns1:name "Pulcinella" ;
+    ns1:streetAddress "Calle de San Miguel, 22, 31001 Pamplona, España" ;
+    ns1:telephone "+34948222023" .
+

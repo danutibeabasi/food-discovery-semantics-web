@@ -1,0 +1,123 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://a2roo.coopcycle.org/api/restaurants/71> ns1:hasMenu <https://a2roo.coopcycle.org/en/restaurant/71-apero-and-co#menu> .
+
+<https://a2roo.coopcycle.org/en/restaurant/71-apero-and-co#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33cL - 8°" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/64/07/64073122589b5.jpeg> ;
+                    ns1:name "Chouffe Cherry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cL - 10,7°" ;
+                    ns1:name "Bush Triple" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cL 8,5°" ;
+                    ns1:name "Pêche Mel'Bush" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cL 8°" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/64/07/6407308a5cb63.jpeg> ;
+                    ns1:name "Barbar au miel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75cL - 8,5°" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/64/07/64072fa40ef9c.jpeg> ;
+                    ns1:name "Lupulus Blonde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cL - 8°" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/64/07/6407319024c5d.jpeg> ;
+                    ns1:name "Chouffe Blonde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "LES BIÈRES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Poulet, poivrons marinés, concombre, mâche, Comté" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/64/0f/640f2b86d98b5.jpeg> ;
+                    ns1:name "Le Gaston" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Rosette, beurre, cornichons" ;
+                    ns1:name "Le Gaspard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jambon cru, pesto, tomates marinées, pétales de Parmesan" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/64/0f/640f2c2c18729.jpeg> ;
+                    ns1:name "Le Louisette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jambon à l'os, beurre salé, Comté, cornichons" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/64/0f/640f304864620.jpeg> ;
+                    ns1:name "Le Marcel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Rôti de porc, moutarde au cassis, mâche, carottes marinées" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/64/0f/640f2a8ff2506.jpeg> ;
+                    ns1:name "Le Albert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brillat Savarin, noix, miel aux truffes, roquette" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/64/0f/640f2bf9bad2e.jpeg> ;
+                    ns1:name "Le Jeanine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon fumé, citron confit, pousses d'épinard, aneth, guacamole" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/64/0f/640f2abf1d06f.jpeg> ;
+                    ns1:name "Le Constant" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ] ;
+            ns1:name "LES SANDWICHS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Coca Cola 33 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "San Pellegrino citron 50cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Thé glacé 33cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "LES BOISSONS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "3 variétés au choix" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/64/07/64072cd544272.jpeg> ;
+                    ns1:name "Cornet de saucisson" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "POUR L'APÉRO" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Duo de fromages, sélection de charcuteries. Servie avec des pommes de terre cuites.
+\r
+Plusieurs formats en fonction du nombre de convives""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/64/07/64072c5ac3922.jpeg> ;
+                    ns1:name "Box Raclette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sélection de charcuteries, fromages et gourmandises. Plusieurs formules selon le nombre de convives" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/64/07/64072c8196db1.jpeg> ;
+                    ns1:name "Box Apéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ] ;
+            ns1:name "LES BOX" ] .
+

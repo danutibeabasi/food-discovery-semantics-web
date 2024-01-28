@@ -1,0 +1,120 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://fast-and-curious.coopcycle.org/api/restaurants/35> ns1:hasMenu <https://fast-and-curious.coopcycle.org/en/restaurant/35-les-lions#menu> .
+
+<https://fast-and-curious.coopcycle.org/en/restaurant/35-les-lions#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Fleurs d'hibiscus" ;
+                    ns1:name "Jus de bissap 25 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fleurs d'hibiscus" ;
+                    ns1:name "Jus de bissap 1L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jus de gingembre 25 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jus de gingembre 1L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Banana split" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Salade de fruit frais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Mangue melba" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Thieri yaourt" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Végétarien" ;
+                    ns1:name "Banane plantain (Alloco)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Samoussa végétarien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Samoussa poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chausson fourré au thon" ;
+                    ns1:name "Pastels thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet ou crevette" ;
+                    ns1:name "Nems" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chausson fourré à la viande hachée" ;
+                    ns1:name "Pastels viande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ] ;
+            ns1:name "Entrées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salade, banane plantain, attiéké" ;
+                    ns1:name "Plat végétarien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Thiéboudiène" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Gambas sautées" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce à base d'arachide" ;
+                    ns1:name "Mafé veau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet au citron, olives et oignons" ;
+                    ns1:name "Yassa poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Poisson braisé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce à base d'arachide, carotte et pomme de terre" ;
+                    ns1:name "Mafé végétarien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce à base d'arachide" ;
+                    ns1:name "Mafé poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Thiébou Guinar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ] ;
+            ns1:name "Plats" ] .
+

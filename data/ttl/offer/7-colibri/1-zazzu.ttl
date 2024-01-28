@@ -1,0 +1,112 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://colibri.coopcycle.org/api/restaurants/1> ns1:hasMenu <https://colibri.coopcycle.org/en/restaurant/1-zazzu#menu> .
+
+<https://colibri.coopcycle.org/en/restaurant/1-zazzu#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Menabrea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Nastro Azzurro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Birre" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Cantina Le lune" ;
+                    ns1:name "Piedirosso del Vesuvio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cantine Lonardo" ;
+                    ns1:name "Taurasi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€40.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cantine Lonardo" ;
+                    ns1:name "Aglianico Irpina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.00" ] ] ;
+            ns1:name "Vini Rossi" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Cantina del Taburno" ;
+                    ns1:name "Falanghina extra-dry Folius Spumante Brut" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ] ;
+            ns1:name "Bollicine" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Polpette di pesce azzurro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/5a/635aa15c085ac.jpeg> ;
+                    ns1:name "Timballo di riso con verdure di stagione e provola di Agerola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/5a/635aa248c9190.jpeg> ;
+                    ns1:name "Polpette salsiccia e friarielli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Alici indorate e al forno" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Bocconcini di salsiccia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Con verdure di stagione in base alla disponibilità" ;
+                    ns1:name "Gâteau di patate vegetariano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "Menù del Martedì" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Limonata, chinotto, gassosa, melograno, aranciata" ;
+                    ns1:name "Bibita analcolica biologica Galvanina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Baladini Analcolici" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Bevande" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Cantina Mazzella" ;
+                    ns1:name "Biancolella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fiano di Avellino Colli di Lapio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.00" ] ] ;
+            ns1:name "Vini Bianchi" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "3 pezzi, freselle integrali con verdure di stagione e Alici di Cetara" ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/59/6359587dbc34c.jpeg> ;
+                    ns1:name "Fresella del giorno di Mare" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 pezzi, freselle integrali con verdure di stagione" ;
+                    ns1:name "Fresella del giorno Vegana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 pezzi, freselle integrali con verdure di stagione e latticini" ;
+                    ns1:name "Fresella del giorno Vegetariana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "Freselle" ] .
+

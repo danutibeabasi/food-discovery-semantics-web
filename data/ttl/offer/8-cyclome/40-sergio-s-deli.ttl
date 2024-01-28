@@ -1,0 +1,118 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://cyclome.coopcycle.org/api/restaurants/40> ns1:hasMenu <https://cyclome.coopcycle.org/en/restaurant/40-sergio-s-deli#menu> .
+
+<https://cyclome.coopcycle.org/en/restaurant/40-sergio-s-deli#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Volaille façon milanaise maison, vodka sauce maison, mozzarella di bufala, pesto verde maison.\r
+Accompagné d'un side et d'un soft au choix.""" ;
+                    ns1:name "Menu Chicken Parm" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Volaille façon milanaise maison, sauce césar maison, salade romaine, copeaux de parmesan AOP.\r
+Accompagné d'un side et d'une boisson au choix.""" ;
+                    ns1:name "Menu Chicken Caesar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Boulettes de boeuf maison, sauce marinara maison, provolone piccante, parmesan, basilic, sauce piquante by 589 Bay en option.\r
+Accompagné d'un side et d'un soft au choix.""" ;
+                    ns1:name "Menu Meatball Marinara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Menu Sergio's" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Halloumi mariné maison, poivrons confits maison, salade roquette, pickles de granny smith maison, vinaigrette de noix, sauce myrtille by 589 Bay.\r
+Accompagné d'un side et d'un soft au choix.""" ;
+                    ns1:name "Menu Vondas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ] ;
+            ns1:name "Menus" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Homiz Pale Ale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Peroni" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Drinks (alcool)" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Sergio's" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Boulettes de boeuf maison, sauce marinara maison, provolone piccante, parmesan, basilic.\r
+Sauce piquante by 589 Bay en option.""" ;
+                    ns1:name "Meatball Marinara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Volaille façon milanaise maison, vodka sauce maison, mozzarella di bufala, pesto verde maison." ;
+                    ns1:name "Chicken Parm" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Volaille façon milanaise maison, sauce césar maison, salade romaine, copeaux de parmesan AOP." ;
+                    ns1:name "Chicken Caesar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Halloumi mariné maison, poivrons confits maison, salade roquette, pickles de granny smith maison, vinaigrette de noix, sauce myrtille by 589 Bay" ;
+                    ns1:name "Vondas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Sandwichs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Dessert" ;
+                    ns1:name "Balcony Mix Max" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "San Pellegrino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ice Tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola Zéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Canada Dry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Kombucha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Softs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Coleslaw" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Chips Pipers" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Sides" ] .
+

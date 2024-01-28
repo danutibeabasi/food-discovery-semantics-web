@@ -1,0 +1,221 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://naofood.coopcycle.org/api/restaurants/148> ns1:hasMenu <https://naofood.coopcycle.org/en/restaurant/148-lazzarone#menu> .
+
+<https://naofood.coopcycle.org/en/restaurant/148-lazzarone#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Sec, intense et puissant, au notes animales tout en équilibre sur de beaux tanins" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534bba4d3d8.jpeg> ;
+                    ns1:name "Chianti Classico BIO DOCG 750 ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sec, gouleyant, révélant des parfums de violette et litchis entremêlés de notes d’eau-de-vie de cerises" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534c51cfd73.jpeg> ;
+                    ns1:name "Johe Aleatico Primitivo BIO (rouge) 750 ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sec sur des bulles fines, au nez c’est une explosion de fruits, mélange de raisins et pommes" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534cd120b0b.jpeg> ;
+                    ns1:name "Prosecco DOC Extra Brut 750 ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "D’une couleur éclatante de grenadine, qui se retrouve en bouche avec beaucoup de fraîcheur" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534cbfd0586.jpeg> ;
+                    ns1:name "Primitivo IGP Puglia (rosé) 750 ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ] ;
+            ns1:name "Wines" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534cac5db46.jpeg> ;
+                    ns1:name "Orange de ribeira DOP bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534bd621115.jpeg> ;
+                    ns1:name "Cola italien bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534d8f5add4.jpeg> ;
+                    ns1:name "Thé Bio Pêche Melon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534c2fca10e.jpeg> ;
+                    ns1:name "Gazzosa (limonade) bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534c74d2077.jpeg> ;
+                    ns1:name "Mandarine Tardivo di Ciaculli IGP bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Soft Drinks" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bière italienne ambrée 33cl. Double malt non pasteurisé" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534d059399d.jpeg> ;
+                    ns1:name "Red Ale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière italienne IPA 33cl. Double malt non pasteurisé" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534c40bfbc3.jpeg> ;
+                    ns1:name "IPA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.30" ] ] ;
+            ns1:name "Birra" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Lemonemisu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """L’INDÉMODABLE \r
+(Sans alcool)""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534d9e80c52.jpeg> ;
+                    ns1:name "Tiramisu" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Dolci" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomate jaune, mozza fior di latte di Agerola, jambon cru des Abruzzes, confiture de tomate San Marzano, caciocavallo Silano DOP, basilic et huile d’olive EV" ;
+                    ns1:name "Gialli" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate bio napolitaine, mozza fior di latte fumée, aubergine rôties maison, tomates cerises semi séchées, ricotta salata rapé, basilic et huile d’olive EV" ;
+                    ns1:name "Alla Norma" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ricotta, fior di latte di Agerola, gorgonzola AOC et scamorza fumée" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534c1e1cf28.jpeg> ;
+                    ns1:name "Fab Four" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomates bio napolitaine, tomates cerises datterino, olives taggiasche, câpres, anchois de cetara, origan et huile d'olive infusé à l'ail." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534bfbb9fc4.jpeg> ;
+                    ns1:name "Crazy Marinara" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomates bio napolitaine, mozza fior di latte di Agerola, pecorino romano, basilic et huile d'olive EV" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/63/e2/63e2dee33f347.jpeg> ;
+                    ns1:name "Margherita" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomates bio napolitaine, mozza fior di latte di Agerola, champignons bruns, jambon blanc aux herbes, persil plat et huile d’olive EV" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534cde490dd.jpeg> ;
+                    ns1:name "Queen" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate bio napolitaine, mozza fior di latte fumée, basilic, huile d’olive EV et poivre du moulin" ;
+                    ns1:name "Provola e pepe" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ricotta, mozza fior di latte di Agerola, mortadelle à la pistache IGP, pesto de pistache, éclats de pistache et stracciatella." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534c9d12000.jpeg> ;
+                    ns1:name "Mortadella e pistachio" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate bio napolitaine, fior di latte di Agerola, tomates cerises semi séchées, caciocavallo Silano DOP, basilic et huile d’olive EV" ;
+                    ns1:name "Lazzarone" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534d7bec0a0.jpeg> ;
+                    ns1:name "Tartufo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomates bio napolitaine, basilic, huile d'olive EV et pecorino romano." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534be72df2f.jpeg> ;
+                    ns1:name "Cosacca" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomates bio napolitaine, origan, basilic et huile d'olive infusé à l'ail." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534c8f20283.jpeg> ;
+                    ns1:name "Marinara" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomates bio napolitaine, mozza fior di latte di Agerola, spianata piquante, ‘nduja, basilic et huile d’olive EV" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534d237ad67.jpeg> ;
+                    ns1:name "Red hot chili peppers" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ] ;
+            ns1:name "Pizze" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65534c0c2025b.jpeg> ;
+                    ns1:name "Cuore di burrata al tartufo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Stracciatella des Pouilles, confiture de tomates San Marzano, olives Taggiasche et origan" ;
+                    ns1:name "Cuore di burrata confettura e oliva" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Burratina des Pouilles, tomates cerises datterino, basilic et huile d’olive EV" ;
+                    ns1:name "Burrata Caprese" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Assiette de jambon cru des Abruzzes et mortadelle à la pistache IGP" ;
+                    ns1:name "Piatto di salumi" ;
+                    ns1:nutrition "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Stracciatella des Pouilles, pesto de pistache et pistaches concassées" ;
+                    ns1:name "Cuore di burrata pistachio" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ] ;
+            ns1:name "Starters" ] .
+

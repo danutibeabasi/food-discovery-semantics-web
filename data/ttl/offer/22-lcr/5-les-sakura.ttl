@@ -1,0 +1,361 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lcr.coopcycle.org/api/restaurants/5> ns1:hasMenu <https://lcr.coopcycle.org/en/restaurant/5-les-sakura#menu> .
+
+<https://lcr.coopcycle.org/en/restaurant/5-les-sakura#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Uniquement bento
+
+\r
+AGE TORI YASAI AMAZU : Poulet frit mariné avec sauté de légumes, sauce aigre-douce épaisse.""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/61/6561e10b8719c.jpeg> ;
+                    ns1:name "Bento du moment" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Côte de porc désossé, pané et frit
+\r
+💚 Disponible en contenant consigné""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/5e/655e5df20b38f.jpeg> ;
+                    ns1:name "Bento Côte de porc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Poulet frit mariné à la japonaise et sauce au choix.
+\r
+💚 Disponible en contenant consigné""" ;
+                    ns1:name "Donburi Chicken Tatsuta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Poulet frit mariné à la japonaise et sauce au choix.
+\r
+💚 Disponible en contenant consigné""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/5e/655e5dc980273.jpeg> ;
+                    ns1:name "Bento Chicken tatsuta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Côte de porc désossé, pané et frit
+\r
+💚 Disponible en contenant consigné""" ;
+                    ns1:name "Donburi Côte de Porc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ] ;
+            ns1:name "Viande" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Cheesecake au sésame noir" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/33/653386f1007d7.jpeg> ;
+                    ns1:name "Dessert Maison - Cheesecake (sans cuisson) au sésame noir" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pate Mochi (à base de riz) garnis de crème (lait de soja) de sésame noir.\r
+Dessert épicerie.\r
+Produit décongelée.\r
+Dessert froid.""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/5e/655e5ee156ddb.jpeg> ;
+                    ns1:name "Dessert Épicerie -  Kurogoma Cream Daifuku" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Dessert épicerie. Petite gaufre fourrée de « Azuki » en forme de daurade (un poisson porte-bonheur). Produit décongelée. Dessert chaud." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/5e/655e5f38944cc.jpeg> ;
+                    ns1:name "Dessert Épicerie -  Taiyaki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pate Mochi (à base de riz) garnis de crème (lait de soja) de thé vert Matcha.\r
+Dessert épicerie.\r
+Produit décongelée.\r
+Dessert froid.""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/5e/655e5f0b22698.jpeg> ;
+                    ns1:name "Dessert Épicerie - Matcha Cream Daifuku" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tarte au chocolat Mactha" ;
+                    ns1:name "Dessert Maison - Tarte au chocolat Mactha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/5e/655e5e78e69a4.jpeg> ;
+                    ns1:name "Dessert Épicerie - Kuri Cream Daifuku" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ] ;
+            ns1:name "Dessert" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Donburi végétarien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "TOFU TERIYAKI MISO MAYO : Tofu bio “ Monsieur Suzu” frit avec sauce Teriyaki miso et mayonnaise." ;
+                    ns1:name "Bento Végétarien" ;
+                    ns1:nutrition "Eggs",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.20" ] ] ;
+            ns1:name "Végétarien" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Plat chaud.
+\r
+💚 Disponible en contenant consigné""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/5e/655e5e1f2ecd6.jpeg> ;
+                    ns1:name "Bento Curry japonais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Plat Chaud.
+\r
+💚 Disponible en contenant consigné""" ;
+                    ns1:name "Donburi Curry Japonais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.80" ] ] ;
+            ns1:name "Curry japonais" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/5e/655e5b39886ce.jpeg> ;
+                    ns1:name "Acc - Harusame Salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz nature chaud.
+\r
+💚 Disponible en contenant consigné""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/5e/655e5c02b5496.jpeg> ;
+                    ns1:name "Acc - Riz Nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Poulet frit mariné à  la japonaise.\r
+4 pièces
+\r
+💚 Disponible en contenant consigné""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/5e/655e5ad57f47a.jpeg> ;
+                    ns1:name "Acc - Chicken Tatsuta" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Salade, légumes et nouilles ramen avec sauce sésame.\r
+Plat froid.
+\r
+💚 Disponible en contenant consigné""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/5e/655e5be67cbbf.jpeg> ;
+                    ns1:name "Acc - Ramen Salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré froid.
+\r
+💚 Disponible en contenant consigné""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/5e/655e5c44bb499.jpeg> ;
+                    ns1:name "Acc - Riz vinaigré" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Soupe mise chaude.
+\r
+💚 Disponible en contenant consigné""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/5e/655e5c9bd8d41.jpeg> ;
+                    ns1:name "Acc - Soupe Miso" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Aubergines frites marinées au bouillon de dashi, gingembre et katsuobushi ( bonite séchée de Makurazaki en Bretagne)
+\r
+💚 Disponible en contenant consigné""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/5e/655e5bb005c5b.jpeg> ;
+                    ns1:name "Acc - Nasu Agebitashi" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Les fèves de soja
+\r
+💚 Disponible en contenant consigné""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/5e/655e5b0b07f6d.jpeg> ;
+                    ns1:name "Acc - Edamame" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Poche de tofu frit, garnis de riz vinaigré.
+\r
+💚 Disponible en contenant consigné""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/5e/655e5b9613951.jpeg> ;
+                    ns1:name "Acc - Inari Sushi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.60" ] ] ;
+            ns1:name "Accompagnement" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Éco-bag:\r
+Revenez avec ce sac au restaurant pour vous voir offrir une soupe miso pour chaque Bento ou Donburi commander a emporter ou en Click&Collect.""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/89/60892a0fc06e9.jpeg> ;
+                    ns1:name "Sac Réutilisable" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Baguettes & Serviette." ;
+                    ns1:name "Baguette & Serviette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.10" ] ] ;
+            ns1:name "Eco-Geste" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Haut de gamme Tokubetsu junmai saké de Tanka Shouzojou
+\r
+Ce saké spécial « Junmai Shirasagi no Shiro » établit un équilibre rare entre la douceur de l'acidité et l'umami.
+\r
+Idéal pour accompagner les oursins frais.""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/72/61727bfc6dfe9.jpeg> ;
+                    ns1:name "Nihonshu  - Château Shirasagi 720ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€45.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Le saké pétillant MIO proposé ici contient 5% d'alcool et se compose d'eau gazéifiée et de saké pur. Ce saké pétillant est plus doux que le saké classique et pourra se boire soit en dessert, soit à l'apéritif. Il a un goût sucré et on devine des arômes de fruits qui font sa spécificité." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/72/61727d315448f.jpeg> ;
+                    ns1:name "Nihonshu - Mio 300ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Arômes de prune et de pruneau secs, d’amandes fraîches et de zestes d’orange. Cet umeshu rare à base de saké se distingue par une acidité franche qui le rend très plaisant à boire" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/72/61727e0f95e70.jpeg> ;
+                    ns1:name "Nihonshu - Taiko-Bai Umeshu 720ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€49.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Aragoshi signifie «grossièrement pressé». Les contenants Aragoshi Umeshu 21% de nectar de prune fraîchement pressé en volume. Il conserve la pulpe naturelle et la douceur des prunes \"ume\" spécialement sélectionnées et lavées à la main. L'un des vins de prune les plus fins et les plus distinctifs produits aujourd'hui." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/72/61727fc858864.jpeg> ;
+                    ns1:name "Nihonshu - Aragoshi Umeshu 720 ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€49.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Dassai 45 est le produit d'entrée au monde Dassai. Comme pour l'ensemble de leurs sakés, le crédo d'excellence de la marque est essentiel !Utilisant du riz Yamada-Nishiki (le plus qualitatif des riz à saké) poli jusqu’à atteindre 45% de son volume originel, Dassai 45 présente une délicieuse douceur et de magnifiques arômes fruités. Compagnon idéal de tous types de mets, ce saké riche, structuré et puissant accompagnera élégamment les viandes blanches et autres volailles.\r
+Profil : Fruité, frais. Poire, raisin, ananas, châtaigne, pastèque, riz soufflé, abricot.""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/72/61727c40dec33.jpeg> ;
+                    ns1:name "Nihonshu - Dassai 300ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "A base d’alcool brassé et non pas distillé, cette cuvée est une liqueur très douce, peu forte en alcool et presque crémeuse, dans laquelle s’exprime toute la texture et la fraîcheur acidulée du yuzu." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/72/61727e982c6e7.jpeg> ;
+                    ns1:name "Nihonshu - Umenoyado Yuzushu 720ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€49.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une harmonie entre saké japonais et yuzu, cette liqueur est faite de saké de la maison Tosa et du jus de yuzu cultivé dans la région de Kochi-Reihoku, récolté entre fin d’octobre et début de novembre, pendant la période où le yuzu garde encore sa fraîcheur d’acidité avant son mûrissement complet. Avec sa richesse du saké japonais et sa fraîcheur de yuzu aigre-doux, c’est une liqueur pas trop sucrée, bien frais qui est idéale pour l'apéritif." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/61/72/61727ce47f716.jpeg> ;
+                    ns1:name "Nihonshu - Keigetsu Yuzu Saké 300 ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ] ;
+            ns1:name "Alcool Japonais d’exception" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Tartare de saumon + riz vinaigré.
+\r
+Saumon Zuké (tartare de saumon mariné maison et yuzu kosho : condiment au yuzu et piment ) 
+\r
+Aburi Saumon (saumon mi-cuit)
+\r
+💚 Disponible en contenant consigné""" ;
+                    ns1:name "Donburi Tartare de Saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.25" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/5e/655e5e4ab5636.jpeg> ;
+                    ns1:name "Bento Tartare de saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.40" ] ] ;
+            ns1:name "Poisson" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bière Sapporo" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/4a/604a0e57a70c4.jpeg> ;
+                    ns1:name "Bière Sapporo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/5e/655e63154ee89.jpeg> ;
+                    ns1:name "Boissons Froide - Thé froid Oolong" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/5e/655e6145e564e.jpeg> ;
+                    ns1:name "Boissons Froide - Coca-Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/5e/655e617832342.jpeg> ;
+                    ns1:name "Boissons Froide -  Cristaline" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/5e/655e61bb483ca.jpeg> ;
+                    ns1:name "Boissons Froide -  Jus de pomme" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/5e/655e61f099f86.jpeg> ;
+                    ns1:name "Boissons Froide - Lipton ice tea thé vert menthe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière Asahi" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/4a/604a0e01a9fbc.jpeg> ;
+                    ns1:name "Bière Asahi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/5e/655e615b66873.jpeg> ;
+                    ns1:name "Boissons Froide -  Coca-Cola Zéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/5e/655e62a63dfae.jpeg> ;
+                    ns1:name "Boissons Froide - Ramune" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/5e/655e62e6cd76a.jpeg> ;
+                    ns1:name "Boissons Froide - Thé froid Sencha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/5e/655e619089839.jpeg> ;
+                    ns1:name "Boissons Froide -  Fanta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/5e/655e61181b876.jpeg> ;
+                    ns1:name "Boissons Froide -  Badoit Pétillant" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/5e/655e61d90834b.jpeg> ;
+                    ns1:name "Boissons Froide -  lipton ice tea pêche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière Kirin" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/4a/604a0e2137174.jpeg> ;
+                    ns1:name "Bière Kirin" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/5e/655e62c42d00f.jpeg> ;
+                    ns1:name "Boissons Froide - Thé froid Hojicha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.10" ] ] ;
+            ns1:name "Boisson" ] .
+

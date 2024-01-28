@@ -1,0 +1,40 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://feelavelo.coopcycle.org/api/restaurants/10> a ns1:Restaurant ;
+    ns1:address <https://feelavelo.coopcycle.org/api/addresses/145> ;
+    ns1:description "Vente à emporter de bocaux, tartes, wraps et desserts de saison, 100% fait maison , à retirer sur place ou livrés sur commande" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.773182e+01 ;
+            ns1:longitude -3.372901e+00 ] ;
+    ns1:image <https://feelavelo.coopcycle.org/media/cache/restaurant_thumbnail/5f/85/5f8593cc7f7b8.jpg> ;
+    ns1:name "Camp de base TARA" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "17:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "09:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "30.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.00" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://feelavelo.coopcycle.org/en/restaurant/10-camp-de-base-tara" ] ] ;
+    ns1:sameAs <https://feelavelo.coopcycle.org/en/restaurant/10-camp-de-base-tara> ;
+    ns1:url <https://feelavelo.coopcycle.org/en/restaurant/10-camp-de-base-tara> .
+
+<https://feelavelo.coopcycle.org/api/addresses/145> a ns1:PostalAddress ;
+    ns1:name "Camp de base TARA" ;
+    ns1:streetAddress "10 Rue Raymond Rallier du Baty, Lorient, France" ;
+    ns1:telephone "+33297509163" .
+

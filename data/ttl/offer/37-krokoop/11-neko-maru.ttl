@@ -1,0 +1,162 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://krokoop.coopcycle.org/api/restaurants/11> ns1:hasMenu <https://krokoop.coopcycle.org/en/restaurant/11-neko-maru#menu> .
+
+<https://krokoop.coopcycle.org/en/restaurant/11-neko-maru#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/59/63594ec76443c.jpeg> ;
+                    ns1:name "Ramune goût prune" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Soda japonais goût melon" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/59/63594ea35a309.jpeg> ;
+                    ns1:name "Ramune goût melon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/c9/63c9580472da8.jpeg> ;
+                    ns1:name "Ramune goût fraise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/93/659315a344b0f.jpeg> ;
+                    ns1:name "La Petite Bouteille de Saké" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Saké Spritz Yuzu x Pêche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/59/63594ef0478ca.jpeg> ;
+                    ns1:name "Ramune goût thé matcha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/93/6593154e151da.jpeg> ;
+                    ns1:name "Bière Kirin 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/c9/63c95863ed669.jpeg> ;
+                    ns1:name "Ramune goût pastèque" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cocktail en bouteille à base de saké, pure jus de yuzu et zeste de yuzu" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/93/659319439cea8.jpeg> ;
+                    ns1:name "Saké Spritz Yuzu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Soda japonais" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/59/63594e857481b.jpeg> ;
+                    ns1:name "Ramune classique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/c9/63c957daeace6.jpeg> ;
+                    ns1:name "Ramune goût yuzu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cocktail en bouteille à base de saké, pure jus de yuzu et zeste de yuzu et de prune" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/93/6593198d35016.jpeg> ;
+                    ns1:name "Saké Spritz Yuzu x Prune" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/c9/63c95821427d2.jpeg> ;
+                    ns1:name "Ramune goût lychee" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Ramen à base d'un bouillon à l'oignon, crème fraîche, nouilles fraîches, pomme de terre, sauté de champignon et fromage frondu" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/93/6593184495db7.jpeg> ;
+                    ns1:name "Le Tartiflette Végé 🧀 💚" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ramen à base de notre bouillon (porc, poulet) version pimenté, crème fraîche, tranches de porc mariné, 1 demi œuf mi-cuit mariné, cébette, naruto & nouilles fraîches" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/93/65931700b9a7f.jpeg> ;
+                    ns1:name "Le Spicy 🌶️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Demie-portion du Ramen Classique, bouillon de porc, nouilles fraîches, cébette, poireau, tranches de porc mariné, 1 demi oeuf mi-cuit mariné et naruto" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/93/659316ae4fce1.jpeg> ;
+                    ns1:name "Le Kid's Ramen" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ramen à base d'un bouillon végé pimenté, nouilles fraîches, cébette, demi-oeuf mi-cuit mariné et sauté de shiitake" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/93/659317c8158ed.jpeg> ;
+                    ns1:name "Le Spicy Végé 🌶️ 💚" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ramen à base d'un bouillon végé, nouilles fraîches, cébette, demi-oeuf mi-cuit mariné et sauté de shiitake" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/93/659316499fda1.jpeg> ;
+                    ns1:name "Le Classique Végé 💚" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ramen à base d'un bouillon à l'oignon, crème fraîche, nouilles fraîches, pomme de terre, poitrine de porc fumée et fromage frondu" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/93/65931883d633e.jpeg> ;
+                    ns1:name "Le Tartiflette 🧀" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ramen à base de notre bouillon (porc, poulet), tranches de porc mariné, 1 demi œuf mi-cuit mariné, cébette, naruto & nouilles fraîches" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/93/659314b6cc73c.jpeg> ;
+                    ns1:name "Le Classique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ] ;
+            ns1:name "Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/61/65617f0f21812.jpeg> ;
+                    ns1:name "Dorayaki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Dessert japonais, pâte de riz fourrée à la pâte d’haricot" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/4a/634a78794b99c.jpeg> ;
+                    ns1:name "Daifuku" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/64/b1/64b187a81d4f5.jpeg> ;
+                    ns1:name "Cookie au matcha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Le Crumble" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Dessert" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/d1/62d144312867a.jpeg> ;
+                    ns1:name "5 Gyoza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 irrésistibles poulet marinés et frits" ;
+                    ns1:name "Les Poulets Karaage x3" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "La Salade de chou" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Accompagnements" ] .
+

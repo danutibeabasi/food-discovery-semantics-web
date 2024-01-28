@@ -1,0 +1,411 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://robinfood.coopcycle.org/api/restaurants/6> ns1:hasMenu <https://robinfood.coopcycle.org/en/restaurant/6-santo-falafel-cibo-siriano-vegano#menu> .
+
+<https://robinfood.coopcycle.org/en/restaurant/6-santo-falafel-cibo-siriano-vegano#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Succo al tamarindo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Acqua frizzante 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Succo al mango" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca Cola 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Acqua naturale 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Succo arancia ed ananas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Succo Soursop (Guanàbana)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Bevande analcoliche" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfd8bc12524.jpeg> ;
+                    ns1:name "Insalata di barbabietola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pomodori, bulgur, menta, erba cipollina, prezzemolo, cipolle rosse, limone, olio d'oliva, salsa di melograno" ;
+                    ns1:name "Tabbouleh" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pane croccante, cetriolo, lattuga, pomodoro, ravanello, cavolo rosso, prezzemolo, limone, olio d’oliva, salsa di melograno" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfd5de436ff.jpeg> ;
+                    ns1:name "Fattoush" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "Salad Bowls" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Lenticchie rosse, cipolle fritte, ceci, olio d'oliva" ;
+                    ns1:name "Zuppa di lenticchie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfddc0841f8.jpeg> ;
+                    ns1:name "Zuppa di verdure" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "Zuppe" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pasta fillo, burro vegetale, mandorle, zucchero, acqua di rose, acqua di fiori" ;
+                    ns1:name "Baklava alle mandorle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pasta fillo, pistacchio, burro vegetale, acqua di rose, acqua di fiori, zucchero" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfd9492ef9a.jpeg> ;
+                    ns1:name "Kanafeh al pistacchio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pasta fillo, burro vegetale, pistacchio, zucchero, acqua di rose, acqua di rose, acqua di fiori" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfd50c8ab8f.jpeg> ;
+                    ns1:name "Baklava al pistacchio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pasta fillo, datteri, burro vegetale, acqua di rose, acqua di fiori, zucchero" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfd92cba7dd.jpeg> ;
+                    ns1:name "Kanafeh ai datteri" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pasta fillo, burro vegetale, noci, zucchero, acqua di rose, acqua di fiori" ;
+                    ns1:name "Baklava alle noci" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Dolci fatti in casa" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Calzone fatto in casa con melanzane, olio d'oliva, pomodori, cipolla, ceci" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfdd2f44da7.jpeg> ;
+                    ns1:name "Sfiha mousaka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Focaccia fatta in casa con salsa muhammara (piccante)" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfd976ab105.jpeg> ;
+                    ns1:name "Man’ouche muhammara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfdd0fbfa72.jpeg> ;
+                    ns1:name "Sfiha alle zucchine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfdd51c3b6b.jpeg> ;
+                    ns1:name "Sfiha patata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Calzone fatto in casa con spinaci, olio d’oliva, cipolla, ceci" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfdcef73d74.jpeg> ;
+                    ns1:name "Sfiha agli spinaci" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Focaccia fatta in casa con za’atar (mix di spezie)" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfd994d64f7.jpeg> ;
+                    ns1:name "Man’ouche za’atar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Le nostre focacce" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Cavolfiore fritto, salsa tahini, insalata fattoush, hummus, hummus barbabietola, babaganoush" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfd54c44fbd.jpeg> ;
+                    ns1:name "Cavolfiore" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 falafel, salsa tahini" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfd5bdb47cb.jpeg> ;
+                    ns1:name "Falafel bouquet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pitas di falafel, patatine fritte, salsa tahini" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfd598166e0.jpeg> ;
+                    ns1:name "Entrados" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 falafel, insalata fattoush, hummus, hummus avocado, babaganoush" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfd52a142a0.jpeg> ;
+                    ns1:name "Balania" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riso basmati, lenticchie, cipolle caramellate" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfd9ca6bc74.jpeg> ;
+                    ns1:name "Mujaddara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mujaddara, 3 kibbeh, insalata fattoush, hummus, hummus avocado, babaganoush, patatine fritte" ;
+                    ns1:name "Palmira" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "10 falafel, salsa tahini e hummus" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfda96d49aa.jpeg> ;
+                    ns1:name "Piatto di falafel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Melanzane fritte, insalata tabbouleh, hummus, hummus avocado, babaganoush" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfdc5e4448b.jpeg> ;
+                    ns1:name "Sabich" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 falafel, 3 involtini di foglia di vite, insalata tabbouleh, hummus, hummus barbabietola, babaganoush" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfd498cf41b.jpeg> ;
+                    ns1:name "Babilonia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfd7271356b.jpeg> ;
+                    ns1:name "Hummus e verdure crude" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ] ;
+            ns1:name "Piatti tradizionali" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "3 polpette fatte con bulgur, menta e cipolla, farcite con spinaci e cipolla" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfdc1c389cd.jpeg> ;
+                    ns1:name "Polpette kibbeh" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crema di ceci con tahini, limone, olio d’oliva, peperoni cotti al forno" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfd7c30441b.jpeg> ;
+                    ns1:name "Hummus peperoni al forno" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Olio d’oliva, aglio, limone, amido di mais" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfd570403e7.jpeg> ;
+                    ns1:name "Crema all’aglio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crema di ceci con tahini, olio d’oliva e limone" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfd63a772ae.jpeg> ;
+                    ns1:name "Hummus" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfd7f61f210.jpeg> ;
+                    ns1:name "Hummus pesto al pistacchio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pane arabo" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfdb67066cb.jpeg> ;
+                    ns1:name "Pita fatta in casa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crema di ceci con tahini, limone, olio d’oliva, salsa muhammara. Piccante" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfd822c944c.jpeg> ;
+                    ns1:name "Hummus piccante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Biologiche. Accompagnate con una salsa a scelta" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfda726c132.jpeg> ;
+                    ns1:name "Patatine fritte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crema di ceci con tahini, olio d’oliva, limone e avocado" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfd6b0c9510.jpeg> ;
+                    ns1:name "Hummus avocado" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crema di ceci con tahini, olio d’oliva, limone e barbabietola" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfd6cb59a55.jpeg> ;
+                    ns1:name "Hummus barbabietola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfd8dac9960.jpeg> ;
+                    ns1:name "Involtini di foglie di vite" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfd7947de0b.jpeg> ;
+                    ns1:name "Hummus olive nere" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crema di melanzane arrostita, tahini, olio d’oliva, limone, aglio" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfd47340bfe.jpeg> ;
+                    ns1:name "Babaganoush" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfd89000448.jpeg> ;
+                    ns1:name "Hummus zucca al forno" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfda5221958.jpeg> ;
+                    ns1:name "Patatine dolci fritte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crema di peperoni rossi, peperoncini arrostiti, olio d’oliva e melassa di melograno. Piccante" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfd9b16d579.jpeg> ;
+                    ns1:name "Muhammara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crema di ceci con tahini, limone, olio d’oliva, pomodori secchi" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfd85e23f59.jpeg> ;
+                    ns1:name "Hummus pomodorini secchi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crema di ceci con tahini, limone, olio d’oliva, scorze di limone" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfd75986aba.jpeg> ;
+                    ns1:name "Hummus limone" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Antipasti Meze" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Vino rosso Montepulciano d'Abruzzo 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€27.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Vino rosso Syrah 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€27.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Vino rosso Sangiovese 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€27.00" ] ] ;
+            ns1:name "Vini rossi" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Vino bianco Pecorino 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Vino bianco Passerina 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Vino bianco Vermentino 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ] ;
+            ns1:name "Vini bianchi" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Melanzane, insalata, salsa tahini" ;
+                    ns1:name "Pita Sabich" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cavolfiore, insalata, salsa tahini" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfdae4cea11.jpeg> ;
+                    ns1:name "Pita Cavolfiore" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Man’ouche za’atar, falafel, pomodori, cetriolo, salsa tahini, menta" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfdb42bb8c1.jpeg> ;
+                    ns1:name "Pita Falafel Za'atar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Man’ouche za’atar, pomodori, cetriolo, salsa tahini, menta" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfdb82e516a.jpeg> ;
+                    ns1:name "Pita Insalata Za'atar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Patatine fritte, insalata, crema all’aglio, salsa tahini" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfdbb3bc5bf.jpeg> ;
+                    ns1:name "Pita Patata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Zucchine, insalata, salsa tahini" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfdbcc76b6c.jpeg> ;
+                    ns1:name "Pita Zucchine Verdi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Falafel, insalata, salsa tahini, menta" ;
+                    ns1:image <https://robinfood.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfdaff7a69b.jpeg> ;
+                    ns1:name "Pita Falafel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "Pitas Wraps" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Birra Bio Vegana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vol. 5%" ;
+                    ns1:name "Beck's 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vol. 5%" ;
+                    ns1:name "Heineken 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vol. 4,7%" ;
+                    ns1:name "Ichnusa 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vol. 4,6%" ;
+                    ns1:name "Corona Extra 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Birre" ] .
+

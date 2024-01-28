@@ -1,0 +1,33 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://coursiersmontpellier.coopcycle.org/api/restaurants/122> a ns1:Restaurant ;
+    ns1:address <https://coursiersmontpellier.coopcycle.org/api/addresses/30807> ;
+    ns1:bannerImage "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_banner/65/6e/656e10c6e822f.jpg" ;
+    ns1:description "La Table des Poètes est une cantine gourmande, locavore où l'on prépare une cuisine à base de produits bio et bon. Épicurien doté d’une solide expérience professionnelle, Thomas Réa compose à l’instinct une cuisine du marché inventive. Profitez des différentes compositions quotidiennes pour vos déjeuners et faites vous livrer ou que vous soyez." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.36049e+01 ;
+            ns1:longitude 3.869e+00 ] ;
+    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_thumbnail/63/bd/63bdeae4a0f0a.png> ;
+    ns1:name "La Table Des Poètes 🍴🇨🇵" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:40" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://coursiersmontpellier.coopcycle.org/en/restaurant/122-la-table-des-poetes" ] ] ;
+    ns1:sameAs <https://coursiersmontpellier.coopcycle.org/en/restaurant/122-la-table-des-poetes> ;
+    ns1:url <https://coursiersmontpellier.coopcycle.org/en/restaurant/122-la-table-des-poetes> .
+
+<https://coursiersmontpellier.coopcycle.org/api/addresses/30807> a ns1:PostalAddress ;
+    ns1:name "La Table Des Poètes 🍴🇨🇵" ;
+    ns1:streetAddress "2 Rue Desmazes, 34000 Montpellier, France" ;
+    ns1:telephone "+33499611959" .
+

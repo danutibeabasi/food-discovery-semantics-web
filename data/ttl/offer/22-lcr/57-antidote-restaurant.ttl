@@ -1,0 +1,186 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lcr.coopcycle.org/api/restaurants/57> ns1:hasMenu <https://lcr.coopcycle.org/en/restaurant/57-antidote-restaurant#menu> .
+
+<https://lcr.coopcycle.org/en/restaurant/57-antidote-restaurant#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Ez dago eskuragarri" ;
+                    ns1:name "Falafels + Shish Taouk + Halawet + boisson sans alcool offert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "21,90 €" ] ] ;
+            ns1:name "Menu Découverte ( entrée + plat + dessert ) + boisson sans alcool offert 21.90" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/45/65451ac2bf570.jpeg> ;
+                    ns1:name "Coca-Cola Zéro 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "3,50 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "thé glacé à la pêche" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/45/65451da4235cd.jpeg> ;
+                    ns1:name "Fuzetea 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "3,50 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/45/65451b18c01c2.jpeg> ;
+                    ns1:name "Orangina 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "3,50 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/45/65451ef9b1416.jpeg> ;
+                    ns1:name "Tonic \"la french\" 25cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "3,80 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/45/654520f55531e.jpeg> ;
+                    ns1:name "Ginger Beer \"la french\" 25cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "3,80 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/45/65451e60ebd4c.jpeg> ;
+                    ns1:name "Coca-Cola 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "3,50 €" ] ] ;
+            ns1:name "Boissons sans Alcool" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Ez dago eskuragarri" ;
+                    ns1:name "Halawet et jibn" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "6,00 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Version japonaise plus aéré & moelleux !" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/42/654225ca7315d.jpeg> ;
+                    ns1:name "Fluffy Cheesake" ;
+                    ns1:nutrition "Arrautzak" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "6,50 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Insert Kinder et éclats de Oréo." ;
+                    ns1:name "Mousse Chocolat" ;
+                    ns1:nutrition "Arrautzak" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "6,90 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "crumble pomme" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "6,20 €" ] ] ;
+            ns1:name "Dessert" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Ez dago eskuragarri" ;
+                    ns1:name "Brochette de poulet shish taouk + Halawet + Boisson sans alcool offert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "17,90 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ez dago eskuragarri" ;
+                    ns1:name "Falafels + brochette de poulet shish taouk + boisson sans alcool offert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "17,90 €" ] ] ;
+            ns1:name "Menu Découverte, entrée + plat OU plat + dessert ( boisson sans alcool offert) 17.90" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Brasserie Vieux Singe (35)" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/43/65439a3e8f589.jpeg> ;
+                    ns1:name "Nouveau Monde Pale Ale 33cl: 5°" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "6,50 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Microbrasserie AEROFAB (44)" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/43/65437f3736e0c.jpeg> ;
+                    ns1:name "AEROFAB Demani NEIPA 44cl:  6°" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "8,50 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ferme-Brasserie La Muette" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/43/65439a0613dfb.jpeg> ;
+                    ns1:name "Musse Blanche 33cl: 4.7°" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "6,00 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Microbrasserie AEROFAB (44)" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/43/65437e000d25a.jpeg> ;
+                    ns1:name "AEROFAB Mistral IPA 33cl: 6°" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "7,00 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "brasserie Vieu Singe (35)" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/43/65439aaa7aed7.jpeg> ;
+                    ns1:name "Vilaine Nymphes Pale Ale Nectaron 33cl: 5°" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "7,30 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Belgian Blond Beer" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/43/65439984984b9.jpeg> ;
+                    ns1:name "Cuvée des Trolls 33cl: 7°" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "6,50 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brasserie de Cornouaille (29)" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/43/65439a7edb35a.jpeg> ;
+                    ns1:name "Storlok session IPA 33cl: 3.5°" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "6,00 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière aromatisée à la téquila" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/43/654399c28e15f.jpeg> ;
+                    ns1:name "Desperados 33cl: 5.9°" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "6,00 €" ] ] ;
+            ns1:name "Bières" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Couscous aux Merguez végétales, semoule, pois chiches, carottes, navet, courgettes." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/43/654374cf0e325.jpeg> ;
+                    ns1:name "Couscous aux Merguez végétales." ;
+                    ns1:nutrition "Soja",
+                        "Zerealak glutena dute" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "16,90 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "dos de églefin pannée, sauce tartare et potatoes maison" ;
+                    ns1:name "Fish & chips" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "17,50 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ez dago eskuragarri" ;
+                    ns1:name "Brochette de poulet Shish Taouk et blé aux herbes et tomate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "14,90 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet du Général Tao: poulet frit enrobé dans une sauce sirupeuse sucrée. 16,90 Plat originaire du Hunan." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/43/65437208af8d4.jpeg> ;
+                    ns1:name "Poulet du Général Tao" ;
+                    ns1:nutrition "Sesamo haziak" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "16,90 €" ] ] ;
+            ns1:name "Plat" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/45/6545220a9d6a9.jpeg> ;
+                    ns1:name "Polenta frite + Poulet du général TAO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "20,90 €" ] ] ;
+            ns1:name "Menu Antidote ( entée + plat ) 20.90" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Velouté de butternut et châtaigne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "6,50 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Polenta frite et champignons persillés" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "7,00 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Coppa Corse, Rosette de Lyon, Prosciutto Italien, Serrano Espagnol, cornichon salade" ;
+                    ns1:name "Assortiment de charcuterie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "8,50 €" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ez dago eskuragarri" ;
+                    ns1:name "Falafels" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "6,00 €" ] ] ;
+            ns1:name "Entrée" ] .
+

@@ -1,0 +1,91 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://a2roo.coopcycle.org/api/restaurants/4> ns1:hasMenu <https://a2roo.coopcycle.org/en/restaurant/4-la-menuiserie#menu> .
+
+<https://a2roo.coopcycle.org/en/restaurant/4-la-menuiserie#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Cette semaine : (Allergènes)   \r
+- ENTREE : Pain de Mais Caviar de Betterave et Pesto Roquette (Gluten Lactose Fruits A Coque et Oeuf)\r
+- PLAT : Houmous Tiède, Pleurottes et sauce fromage Balnc ( Lactose, Gluten)\r
+- DESSERT : Butternut Cake ( Oeuf Lactose Gluten Fruits A Coque)\r
+-""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/3b/633bfcc0c45df.jpeg> ;
+                    ns1:name "Formule Entrée - Plat - Dessert, à réchauffer soi-même." ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Cette semaine : (Allergènes)   \r
+- ENTREE : Pain de Mais Caviar de Betterave et Pesto Roquette (Gluten Lactose Fruits A Coque et Oeuf)\r
+- PLAT : Houmous Tiède, Pleurottes et sauce fromage Balnc ( Lactose, Gluten)""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/3b/633bfca2b65ae.jpeg> ;
+                    ns1:name "Formule Entrée - Plat, à réchauffer soi-même" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sulphur dioxide and sulphites",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Cette semaine : (Allergènes)   \r
+- PLAT : Houmous Tiède, Pleurottes et sauce fromage Balnc ( Lactose, Gluten)\r
+- DESSERT : Butternut Cake ( Oeuf Lactose Gluten Fruits A Coque)""" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/3b/633bfd73cff80.jpeg> ;
+                    ns1:name "Formule Plat - Dessert, à réchauffer soi-même." ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ] ;
+            ns1:name "Les formules" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Crémant BRIGAND" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€33.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bourgogne Aligoté Bio Mauthier domaine des Cocottes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€36.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Beaujolais Village Romuald VALOT" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€36.00" ] ] ;
+            ns1:name "Vins" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Eau gazeuse Velleminfroy 50cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sans alcool" ;
+                    ns1:name "Ginger beer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jura Cola local" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Eau plate Velleminfroy 50 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Boissons sans alcool" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Cette carte vous permet de créditer 10 € de consignes sur votre compte Bocaux & Co, soit 1 menu Entrée - Plat - Dessert" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/3b/633b3bf7bf393.jpeg> ;
+                    ns1:name "Carte prépayée Bocaux & Co" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "Cartes prépayées Bocaux & Co" ] .
+

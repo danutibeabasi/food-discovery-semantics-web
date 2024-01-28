@@ -1,0 +1,235 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://naofood.coopcycle.org/api/restaurants/64> ns1:hasMenu <https://naofood.coopcycle.org/en/restaurant/64-calma#menu> .
+
+<https://naofood.coopcycle.org/en/restaurant/64-calma#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Composez votre box" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/64/656483444a6fc.jpeg> ;
+                    ns1:name "Box 12 Empanadas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€39.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Choisissez vos empanadas" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/64/656483ee7a1f6.jpeg> ;
+                    ns1:name "3 empanadas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Composez votre box" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/64/656483bc32c0c.jpeg> ;
+                    ns1:name "Box 9 Empanadas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€31.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Composez votre box" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/64/65648386a3a74.jpeg> ;
+                    ns1:name "Box 6 Empanadas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Choisissez vos  empanadas" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549f6e06c466.jpeg> ;
+                    ns1:name "2 empanadas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Trio salée et sucrée d'empanadas fait maison de la pâte à la farce :\r
+- Chili con soja\r
+- Légumes Locaux\r
+- Banane Choco""" ;
+                    ns1:name "Box VEGAN" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ] ;
+            ns1:name "Box d'empanadas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Sauce style chimichurri de saison piquante : Betterave, carotte, combawa, huile d'olive & piment" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549f8da6ab7c.jpeg> ;
+                    ns1:name "Sauce Chimichurri PIQUANTE de saison et fait avec amour" ;
+                    ns1:nutrition "Celery" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "A base de fromage blanc et ciboulette" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549f8cab9419.jpeg> ;
+                    ns1:name "Sauce Blanche super bonne :)" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.70" ] ] ;
+            ns1:name "Les sauces" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/6d/656dc714d3560.jpeg> ;
+                    ns1:name "Velouté de courge butternut, crumble à la fourme d'Ambert" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/6d/656dc6e5a2377.jpeg> ;
+                    ns1:name "Clémentine rôtie, jus épicé & tuile au grué de cacao" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/6d/656dc6a79de71.jpeg> ;
+                    ns1:name "Terrine de campagne maison, caviar de moutarde & mesclun de salade" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/6d/656dc66c0e5fc.jpeg> ;
+                    ns1:name "Gressins de pâte à choux, crème diplomate à la vanille & marron" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "A la carte" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549f838d804e.jpeg> ;
+                    ns1:name "Jus de pomme (Coteaux Nantais) 25cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/49/6549f78c2c4c6.jpeg> ;
+                    ns1:name "Breizh Cola 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4b/654b4b5905f53.jpeg> ;
+                    ns1:name "Bière Blizzard (Brasserie AERoFAB) 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4b/654b4b8b1ea79.jpeg> ;
+                    ns1:name "Bière Petite Brise (Brasserie AERoFAB) 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4b/654b4bdf3e120.jpeg> ;
+                    ns1:name "Jus de pomme & mangue  (Coteaux Nantais) 25cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Les boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Composez votre menu" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/64/65648526d9ee0.jpeg> ;
+                    ns1:name "CORTO (2 Empanadas + 1 entrée)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Composez votre menu" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/64/6564861b481a1.jpeg> ;
+                    ns1:name "LARGO (1 entrée + 2 Empanadas + 1 dessert)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Composez votre menu" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/64/656484b21b3fa.jpeg> ;
+                    ns1:name "CORTO (2 Empanadas + 1 dessert)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "Formules" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Dinde française - Raisins secs infusés au thé noir - Compotée d'oignons - Epices curry" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/64/65648555c2817.jpeg> ;
+                    ns1:name "DINDE CURRY" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Banane flambée au Rhum, chocolat" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/64/656482c699738.jpeg> ;
+                    ns1:name "BANANE - CHOCO" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crémeux à la Fourme d'Ambert AOC - Mozzarella" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/64/6564857f6a2d4.jpeg> ;
+                    ns1:name "DUO FROMAGES" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate maison - Mozzarella - Basilic frais" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/64/656486eb41f50.jpeg> ;
+                    ns1:name "TOMATE - MOZZARELLA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/64/656485acc8401.jpeg> ;
+                    ns1:name "Empanada hebdo : Dinde, sauce tomate épicé" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chèvre - Miel local - Ciboulette fraiche" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/64/6564845597c2a.jpeg> ;
+                    ns1:name "CHEVRE & MIEL" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poisson du marché - Epinards - Béchamel à la moutarde à l'ancienne" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/64/656486792f51a.jpeg> ;
+                    ns1:name "POISSON EPINARD" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Fish",
+                        "Milk",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jambon - Cantal jeune AOC - Moutarde de Dijon" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/64/656485e287dec.jpeg> ;
+                    ns1:name "JAMBON - CANTAL" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Butternut, carottes, panais, oignons & curry" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/64/656486517ea73.jpeg> ;
+                    ns1:name "LÉGUMES LOCAUX et de saison" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Protéines de soja - Sauce tomate maison - Haricots rouge - Maïs - Epices chili" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/64/656484804b469.jpeg> ;
+                    ns1:name "CHILI CON SOJA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bœuf français - Sauce tomate maison - Oignons - Œuf dur - Epices cajun" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/64/65648312146d2.jpeg> ;
+                    ns1:name "BOEUF CAJUN" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ] ;
+            ns1:name "Empanadas à l'unité" ] .
+

@@ -1,0 +1,355 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://zampate.coopcycle.org/api/restaurants/14> ns1:hasMenu <https://zampate.coopcycle.org/en/restaurant/14-barrio-sur#menu> .
+
+<https://zampate.coopcycle.org/en/restaurant/14-barrio-sur#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """burguer seitan, mix de brotes, cebolla tierna, 		\r
+tomate y salsa de lujo	,""" ;
+                    ns1:name "HAMBURGUESA DE SEITAN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """burguer champis, mix lechugas, cebolla 		\r
+tierna, salsa de ajo blanco""" ;
+                    ns1:name "HAMBURGUESA DE CHAMPIS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """carne mechada, cebolla morada y	\r
+cilantro picado.""" ;
+                    ns1:name "FAJITA DE CARNE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "olivada, tomate seco y queso raclette" ;
+                    ns1:name "BOCATA BARRIO SUR" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "HAMBURGUESA DE TOFU ALGAS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ] ;
+            ns1:name "BOCADILLOS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "ENSALADA DE INVIERNO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """berenjena, ajo aceite, tahina, limón y semillas		\r
+de amapola.""" ;
+                    ns1:name "BABAGANOUSH" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """espinacas, rúcula, nueces, tomatico seco, dá-		\r
+tiles, queso feta, sesamo y vinagreta de cebolla""" ;
+                    ns1:name "ENSALADA BARRIO SUR" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """corteza de trigo encima mezcla de huevo duro,		\r
+patata, atún y mayonesa""" ;
+                    ns1:name "PALOMA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """habas, orégano, menta, perejil, ajo, cayena		\r
+y limón""" ;
+                    ns1:name "BIGILLA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """garbanzos, tahina, pimentón dulce, comino,		\r
+limón y ajo.""" ;
+                    ns1:name "HUMMUS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """tomate seco, olivada, humus,  ajo aceite y 		\r
+ajonjoli negro""" ;
+                    ns1:name "SOBRASADA VEGANA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "CREMA DE CALABAZA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "SOPA DE CEBOLLA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "hummus, babaganoush y bigilla" ;
+                    ns1:name "TRÍO PARA UNTAR" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ] ;
+            ns1:name "PARA EMPEZAR" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "berenjena asada, tomate, orégano y queso" ;
+                    ns1:name "BERENJENAS AL HORNO" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "carne picada, tomate y verduritas" ;
+                    ns1:name "PICADILLO DE CARNE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """queso provolone, tomate, orégano	\r
+y hierbas provenzales""" ;
+                    ns1:name "PROVOLONE" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "champis y salsa de queso azul" ;
+                    ns1:name "CHAMPIS CON QUESO AZUL" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.10" ] ] ;
+            ns1:name "CAZUELAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "FRITZ BIO MANZANA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "FRITZ COLA (SIN AZUCAR)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "ZUMO DE MELOCOTÓN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "FRITZ BIO RUIBARBO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "FRITZ CAFE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "FRITZ CEREZA 2,80€" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "FRITZ MELON" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "ZUMO PIÑA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "ZUMO DE NARANJA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "ZUMO DE TOMATE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "FRIXEN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "FRITZ ESTEVIA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ] ;
+            ns1:name "REFRESCOS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "SIN GLUTEN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "CERVEZAS ARTESANAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "BORSAO TINTO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "ROZZULO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "K-NAIA VERDEJO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "AZZULO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ] ;
+            ns1:name "VINOS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """carne picada, puerro, cebolla,za-	\r
+nahoria, alubia roja, maíz, cilan-	\r
+tro y aguacate""" ;
+                    ns1:name "CHILI CON ARROZ" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """berenjena, cebolla, huevo, ajo,	\r
+perejil y pan rallado""" ;
+                    ns1:name "ALBONDIGAS DE BERENJENA Y SALSA DE LUJO" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """hojaldre, espinacas, cebolla, pa-	\r
+sas, queso feta y rallado""" ;
+                    ns1:name "QUICHE DE ESPINACAS" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "GALLETAS DE COLIFLOR" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "COUS-COUS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "QUINOA AL CURRY" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """hojaldre, ajetes, trigueros, setas,	\r
+huevos y rulo de cabra""" ;
+                    ns1:name "QUICHE DE AJETES Y TRIGUEROS" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.70" ] ] ;
+            ns1:name "PARA CONTINUAR" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """fideos, berenjena, tomate seco,	\r
+ajo aceite y raclette""" ;
+                    ns1:name "FIDEUA BARRIO SUR" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """fideos, cebolla, trigueros, cala-	\r
+bacín y alcachofas.""" ;
+                    ns1:name "FIDEUA DE VERDURAS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """fideos, mix de setas, champis, 	\r
+cebolla, ajo""" ;
+                    ns1:name "FIDEUA DE SETAS" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """fideos, carne picada, tomate	\r
+y verduritas""" ;
+                    ns1:name "FIEDUA DE CARNE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.30" ] ] ;
+            ns1:name "FIDEUAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "tarta de chocolate con mermelada de albaricoque" ;
+                    ns1:name "TARTA DE CHOCOLATE CON MERMELADA DE ALBARICOQUE" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tarta de queso con frutos de bosque" ;
+                    ns1:name "TARTA DE QUESO CON FRUTOS DEL BOSQUE" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.70" ] ] ;
+            ns1:name "POSTRES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """carne mechada (ternera, tomate, cebolla tierna,		\r
+zanahoria)y ajonjoli blanco y negro.""" ;
+                    ns1:name "PAPAS RELLENAS CON CARNE MECHADA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """patata asada con salsa de mojo, almendrajo		\r
+y queso azul""" ;
+                    ns1:name "PATATAS BARRIO SUR" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "patata asada con ajo aceite o all i oli" ;
+                    ns1:name "PAPAJOS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """crema de queso, mayonesa, mostaza, albahaca		\r
+albahaca y orégano""" ;
+                    ns1:name "PATATAS SALSA DE LUJO" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """pimiento verde, cilantro, aceite, ajo, vinagre		\r
+y comino""" ;
+                    ns1:name "PATATAS CON MOJO VERDE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """patatas asadas con queso azul, mozzarella		\r
+cheddar y emmental""" ;
+                    ns1:name "PAPAS 4 QUESOS" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ] ;
+            ns1:name "PATATICAS ASADAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "LATA AMSTEL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "LATA SIN TOSTADA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "CERVEZAS" ] .
+

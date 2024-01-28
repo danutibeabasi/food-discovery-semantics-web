@@ -1,0 +1,169 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://naofood.coopcycle.org/api/restaurants/80> ns1:hasMenu <https://naofood.coopcycle.org/en/restaurant/80-back-bay#menu> .
+
+<https://naofood.coopcycle.org/en/restaurant/80-back-bay#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Un burger sucré salé avec un mélange de 2 recettes iconiques de Back Bay !\r
+Oseras-tu le gouter?""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d15ba9ea02.jpeg> ;
+                    ns1:name "THE MISTERY BURGER" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d159ab0329.jpeg> ;
+                    ns1:name "SHRIMP PO BOY" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain burger, boeuf haché français, bacon caramélisé, oignons rouges, confit d’échalote, crème de cheddar, tomate, coeur de laitue, sauce tartare." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d15e986ed7.jpeg> ;
+                    ns1:name "BIG BACON CHEESEBURGER 🍔" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain burger, Blancs de poulet aux épices cajun, bacon caramélisé au sirop d’érable, coeurs de laitue, tomates, mayonnaise cajun" ;
+                    ns1:name "CHICKEN BLT BURGER" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Effiloché de porc maison cuisson 10h, mélange de choux, roquette, sauce barbecue" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1557626ff.jpeg> ;
+                    ns1:name "PULLED PORK" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Émincé de boeuf, poivrons et oignons caramélisés, cheddar fondu" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d153d5a068.jpeg> ;
+                    ns1:name "PHILLY CHEESE STEAK" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain bun brioché, viande française bœuf haché « smashé », cheddar fondu, cornichons, oignons rouge, salade iceberg, sauce burger" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d16413af57.jpeg> ;
+                    ns1:name "CLASSIC SMASH CHEESEBURGER" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ] ;
+            ns1:name "Buns" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d15ad3bcb2.jpeg> ;
+                    ns1:name "SPRITE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "LIMONADE FRUITS DE LA PASSION" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1661b52ba.jpeg> ;
+                    ns1:name "COCA CHERRY" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d14d15b25d.jpeg> ;
+                    ns1:name "EVIAN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "COCA-COLA ZERO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "COCA-COLA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "LIMONADE CITRON VERT" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "PERRIER" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ice Tea ou Fuze tea Pêche" ;
+                    ns1:name "ICE TEA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ] ;
+            ns1:name "Drinks" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Halloumi grillé, poivrons, chou rouge, tomates, roquette, mayonnaise oignons rouge ciboulette citron." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d164e5d2df.jpeg> ;
+                    ns1:name "CLUB VEGGIE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curé nantais, cheddar fondu, confiture de cerises, coeurs de laitue" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d15153d9f1.jpeg> ;
+                    ns1:name "GRILLED CHEESE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Blancs de poulet aux épices cajun, bacon caramélisé au sirop d’érable, coeurs de laitue, tomates, mayonnaise cajun" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d162a23e48.jpeg> ;
+                    ns1:name "CHICKEN BLT" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ventrèche de thon 🐟, tomates 🍅, mélange de choux 🥬 , oignons frits, mayonnaise oignons rouge, ciboulette, citron 🍋, roquette" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d15d845f3b.jpeg> ;
+                    ns1:name "TUNA CLUB" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ] ;
+            ns1:name "Clubs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "SANS BACON" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d14f1a3842.jpeg> ;
+                    ns1:name "FRITES CHEDDAR" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petite salade vinaigrette maison" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d156e785b4.jpeg> ;
+                    ns1:name "SALADE (Accompagnement)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Frites maison, cheddar fondu, et bacon caramélisé au sirop d'érable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1527712a6.jpeg> ;
+                    ns1:name "LOADED FRIES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Découpés tous les matins au restaurant, double bain de cuisson" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d15032d185.jpeg> ;
+                    ns1:name "FRITES MAISON" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Epices Cajuns (mélanges d'épices paprika, origan, piment ...)" ;
+                    ns1:name "FRITES CAJUNS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ] ;
+            ns1:name "Sides" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d16076ecba.jpeg> ;
+                    ns1:name "BUN ou CLUB ou SALAD + SIDE	+ BOISSON" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d15f7a05d4.jpeg> ;
+                    ns1:name "BUN ou CLUB ou SALAD + SIDE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ] ;
+            ns1:name "Formules" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Cheesecake maison en verrine, avec oréo et spéculos concacés" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d161ab628f.jpeg> ;
+                    ns1:name "CHEESECAKE MAISON" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ] ;
+            ns1:name "Desserts" ] .
+

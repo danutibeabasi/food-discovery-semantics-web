@@ -1,0 +1,20 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://coursiersbordelais.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "fr" ;
+                    ns1:addressLocality "Bordeaux" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 4.486383e+01 ;
+                    ns1:longitude -6.561812e-01 ] ] ;
+    ns1:description "<p>Coursiers Bordelais is a worker owned-coop, founded in November 2017 by three couriers that wanted to create an ethical alternative to the platforms for which they were working. After one year of activity we were able to gain the employee status. Today we are five !</p><p>We are mostly delivering all kind of goods by cargo and cargo-bikes. We are also cultural mediators for the Bordeaux municipality, by meeting people in the streets with our cargo-bike stamped \"kiosque culture\". We are always proud to replace trucks by carrying heavy loads on our cargo bikes. Our customers are often impressed we can transport that much !</p>"@en,
+        "<p>Coursiers Bordelais est une coopérative créée en novembre 2017 par trois coursiers qui voulaient créer une alternative éthique aux plateformes de livraison pour lesquelles ils ont travaillés. Nous avons pu nous salarier au bout d’un an et aujourd’hui nous sommes cinq coursiers aux commandes d’une flotte de cinq vélos cargos.</p><p>Notre activité principale est la livraison à vélo et vélo cargo de tout type d’objets. Nous sommes aussi médiateurs culturels pour la mairie de Bordeaux, en nous plaçant à la rencontre des gens avec notre vélo cargo floqué kiosque culture. Nous sommes toujours fiers de pouvoir remplacer un camion en prenant de lourdes/larges charges sur nos vélos, ce qui étonne souvent nos client.e.s qui n’imaginent pas la capacité de chargement d’un cargo.</p>"@fr ;
+    ns1:name "Les Coursiers Bordelais" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:sameAs <https://www.facebook.com/coursiersbordelais/> ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://coursiersbordelais.coopcycle.org> .
+

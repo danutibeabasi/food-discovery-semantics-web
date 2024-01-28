@@ -1,0 +1,44 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://sicklo.coopcycle.org/api/restaurants/110> a ns1:Restaurant ;
+    ns1:address <https://sicklo.coopcycle.org/api/addresses/45446> ;
+    ns1:bannerImage "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/6d/656daee7a61a3.jpg" ;
+    ns1:description "LeBrizFaim vous propose de déguster de délicieux burgers, tacos et autres sandwichs sans attendre. Laissez-vous séduire par notre large choix de menu qu’il s’agisse de snacks gourmands ou de plats copieux pour une faim de loup. Petit plus, Lebrizfaim propose également des tacos végétariens ainsi qu’une cuisson au four, pour davantage de saveurs !" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.51873e+01 ;
+            ns1:longitude 5.7276e+00 ] ;
+    ns1:image <https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/62/28/6228a1db87c2b.jpg> ;
+    ns1:name "Promo ! 🔥 Tacos LeBrizFaim 🌯" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:30" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:45" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:45" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://sicklo.coopcycle.org/en/restaurant/110-promo-tacos-lebrizfaim" ] ] ;
+    ns1:sameAs <https://sicklo.coopcycle.org/en/restaurant/110-promo-tacos-lebrizfaim> ;
+    ns1:url <https://sicklo.coopcycle.org/en/restaurant/110-promo-tacos-lebrizfaim> .
+
+<https://sicklo.coopcycle.org/api/addresses/45446> a ns1:PostalAddress ;
+    ns1:name "Promo ! 🔥 Tacos LeBrizFaim 🌯" ;
+    ns1:streetAddress "24 Rue Lesdiguières, 38000 Grenoble, France" ;
+    ns1:telephone "+33953450348" .
+

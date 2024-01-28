@@ -1,0 +1,146 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://ziclop.coopcycle.org/api/restaurants/8> ns1:hasMenu <https://ziclop.coopcycle.org/en/restaurant/8-el-pollo-paulino#menu> .
+
+<https://ziclop.coopcycle.org/en/restaurant/8-el-pollo-paulino#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/eb/63eb7b3f9af7e.jpeg> ;
+                    ns1:name "Ración de empanada de pollo" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/eb/63eb81d4b0172.jpeg> ;
+                    ns1:name "Alitas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/eb/63eb824e97862.jpeg> ;
+                    ns1:name "Nuggets de pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lasagna de pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "Alrededor del pollo" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/eb/63eb80f490245.jpeg> ;
+                    ns1:name "Porción de tarta de zanahoria" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/eb/63eb7cb129cfd.jpeg> ;
+                    ns1:name "Brownie de chocolate (porción)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/eb/63eb80990236e.jpeg> ;
+                    ns1:name "Cookie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Tarta de queso para tres" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "Postres" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "MEDIO POLLO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/eb/63eb7fd276275.jpeg> ;
+                    ns1:name "POLLO ASADO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Asados" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Menú bocadillo + 1 acompañamiento" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Elige entre: cuarto, nuggets o alitas de pollo, acompañales de patatas o de ensalada" ;
+                    ns1:name "Plato principal + 1 complemento" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Plato principal + 1 acompañamiento+ brownie chocolate" ;
+                    ns1:name "Menú Infantil" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Elige entre un cuarto, nugget y alitas de pollo, vienen con patatas fritas y ensalada verde" ;
+                    ns1:name "Plato principal + 2 complementos" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "Menús" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Patata panadera" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 unidades" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/eb/63eb7f864ec73.jpeg> ;
+                    ns1:name "Croquetas caseras" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Platos" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Ensalada mixta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ensalada rusa" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Eggs",
+                        "Peanuts",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Deliciosa ensalada de pimientos del piquillo de Puente la Reina" ;
+                    ns1:name "Ensalada de pimientos del piquillo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Ensalada Encurtidos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Ensalada césar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Ensaladas" ] .
+

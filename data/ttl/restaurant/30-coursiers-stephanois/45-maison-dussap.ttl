@@ -1,0 +1,43 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://coursiers-stephanois.coopcycle.org/api/restaurants/45> a ns1:Restaurant ;
+    ns1:address <https://coursiers-stephanois.coopcycle.org/api/addresses/8050> ;
+    ns1:bannerImage "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_banner/65/98/65983a688b0f1.jpg" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.54343e+01 ;
+            ns1:longitude 4.38799e+00 ] ;
+    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560c9447d0b6.jpg> ;
+    ns1:name "Maison DUSSAP" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "19:00" ;
+            ns1:dayOfWeek "Tuesday",
+                "Wednesday" ;
+            ns1:opens "09:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday" ;
+            ns1:opens "09:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "13.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.50" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://coursiers-stephanois.coopcycle.org/en/restaurant/45-maison-dussap" ] ] ;
+    ns1:sameAs <https://coursiers-stephanois.coopcycle.org/en/restaurant/45-maison-dussap> ;
+    ns1:url <https://coursiers-stephanois.coopcycle.org/en/restaurant/45-maison-dussap> .
+
+<https://coursiers-stephanois.coopcycle.org/api/addresses/8050> a ns1:PostalAddress ;
+    ns1:name "Maison DUSSAP" ;
+    ns1:streetAddress "1 Cours Victor Hugo, 42000 Saint-Étienne, France" ;
+    ns1:telephone "+33788224788" .
+

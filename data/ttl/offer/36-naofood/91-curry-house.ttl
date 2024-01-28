@@ -1,0 +1,228 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://naofood.coopcycle.org/api/restaurants/91> ns1:hasMenu <https://naofood.coopcycle.org/en/restaurant/91-curry-house#menu> .
+
+<https://naofood.coopcycle.org/en/restaurant/91-curry-house#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Coca cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière indienne" ;
+                    ns1:name "King fisher" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "25 cl" ;
+                    ns1:name "Jus d'ananas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "25 cl" ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "25 cl" ;
+                    ns1:name "Jus d'orange" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Shweppes Tonic" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "25 cl" ;
+                    ns1:name "Jus de mangue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Coca cola zero" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Les boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Lassi mangue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Gulab Jamun" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Kheer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Lassi rose" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Les desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Curry de poulet à la sauce coco , garam masala, gingembre et des épices à la façon du Sud de l'Inde" ;
+                    ns1:name "Poulet Balti" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Originaire du Cashmire : curry aux tomates fraîches et au yaourt" ;
+                    ns1:name "Agneau Roghan Josh" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet cuit dans une sauce à base de crème, d'épices délicates et liées à la noix de cajou" ;
+                    ns1:name "Poulet Korma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Agneau cuisinés aux épices à la façon de Hyderabad,avec une fondue d'aubergines cuites longuement dans une sauce crémeuse et parfumée" ;
+                    ns1:name "Agneau Beigan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gambas cuites dans du lait de coco et accompagnés de poivrons. Origine: de la région du Goa au sud de l'Inde" ;
+                    ns1:name "Goan King Prawn Curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Boeuf Vindaloo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Boeuf Kerala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Spécialité du Punjab à base d'épinards finement relevés. Origine: de la région du Punjab au nord de l'Inde" ;
+                    ns1:name "Poulet Saag" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Specialité du Rajasthan : Poulet grillé et puis mijoté en sauce à base de crème et de beurre" ;
+                    ns1:name "Butter chicken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Originaire de la region de Pudukottai cuit avec des pommes de terre" ;
+                    ns1:name "Poulet chettinad" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de gigot d'agneau aux épinards , mélange d'épices et de coriandre. Origine de la région du Cashmire dans le nord de l'Inde" ;
+                    ns1:name "Agneau Saag" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Filets de poulet cuits au tandoor puis revenus dans une sauce onctueuse à la base de tomates fraîches et poivrons" ;
+                    ns1:name "Poulet Tikka Masala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ] ;
+            ns1:name "Les plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "pain à la farine de blé, cuit dans le four tandoor" ;
+                    ns1:name "Naan Nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Naan incrusté d'ail frais" ;
+                    ns1:name "Naan à l' Ail" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain à la farine cuit dans le four tandoor et farci , avant cuisson, de fromage" ;
+                    ns1:name "Naan au fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Naan farci à la purée de pommes de terre et de petits pois" ;
+                    ns1:name "Kulcha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Paratha aux oignons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Riz Pilaf du Cachemire" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Les accompagnements" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Gambas marinées servies sur son verdure" ;
+                    ns1:name "Salade Indienne aux gambas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lentilles cuisinées aux tomates et épices douces" ;
+                    ns1:name "Daal soupe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "feuillettés croustillants farcis aux légumes" ;
+                    ns1:name "Samoussa aux legumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "succulents morceaux de poulet marinés et cuits dans un four tandoor à la façon Punjab" ;
+                    ns1:name "Punjabi tikka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Raita Nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tikkas au poulet,aux gambas,au boeuf et assortiment de pakoras" ;
+                    ns1:name "Assiette du Maharadjah (pour 2)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignet ..." ;
+                    ns1:name "Assortiment de Pakoras" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Les entrées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Fromage accompagné de tendres petits pois" ;
+                    ns1:name "Matar Panir" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Légumes (tomates et pommes de terre) cuits avec une sauce délicieuse aux épinards" ;
+                    ns1:name "Saag Aloo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de légumes (petits pois, poivrons, tomates et pommes de terre) préparés à la crème de coco" ;
+                    ns1:name "Aloo Mutter" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fondue d'aubergines aux aromates et herbes fraîches" ;
+                    ns1:name "Baingan Bhurta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Plat du nord de l' Inde, style Moghlai , à base de champignons et de petits pois" ;
+                    ns1:name "Khumb Matar Masala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "Les plats végétariens" ] .
+

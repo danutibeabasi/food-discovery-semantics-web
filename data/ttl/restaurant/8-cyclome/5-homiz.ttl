@@ -1,0 +1,41 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cyclome.coopcycle.org/api/restaurants/5> a ns1:Restaurant ;
+    ns1:address <https://cyclome.coopcycle.org/api/addresses/199> ;
+    ns1:description "Pizzeria Clermontoise dans la tradition New Yorkaise !" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.57794e+01 ;
+            ns1:longitude 3.08385e+00 ] ;
+    ns1:image <https://cyclome.coopcycle.org/media/cache/restaurant_thumbnail/60/08/600852f91681b.jpg> ;
+    ns1:name "Homiz" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:45" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://cyclome.coopcycle.org/en/restaurant/5-homiz" ] ] ;
+    ns1:sameAs <https://cyclome.coopcycle.org/en/restaurant/5-homiz> ;
+    ns1:url <https://cyclome.coopcycle.org/en/restaurant/5-homiz> .
+
+<https://cyclome.coopcycle.org/api/addresses/199> a ns1:PostalAddress ;
+    ns1:name "Homiz" ;
+    ns1:streetAddress "16 Rue de la Boucherie, 63000 Clermont-Ferrand, France" ;
+    ns1:telephone "+33951384771" .
+

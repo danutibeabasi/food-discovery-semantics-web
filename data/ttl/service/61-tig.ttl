@@ -1,0 +1,20 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://tig.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "mx" ;
+                    ns1:addressLocality "Ciudad de México - TIG" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 1.943261e+01 ;
+                    ns1:longitude -9.913321e+01 ] ] ;
+    ns1:description "<p>TIG Bicimensajeria we are professionals in bicycle delivery since 2013 in Mexico City. #TIG deliver whatever you need quickly, efficiently and sustainably. </p>"@en,
+        "<p>TIG Bicimensajería somos profesionales de la entrega en bicicleta desde el 2013 en la Ciudad de México. #TIGentrega lo que sea que necesites de forma rápida, eficiente y sustentable.</p>"@es ;
+    ns1:name "TIG Bicimensajería" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:sameAs <https://www.facebook.com/tig.mx> ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://tig.coopcycle.org> .
+

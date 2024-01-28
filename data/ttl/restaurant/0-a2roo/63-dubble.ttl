@@ -1,0 +1,37 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://a2roo.coopcycle.org/api/restaurants/63> a ns1:Restaurant ;
+    ns1:address <https://a2roo.coopcycle.org/api/addresses/10509> ;
+    ns1:description """**EN CE MOMENT LIVRAISON OFFERTE AVEC LE CODE ETE2023**\r
+PROFITEZ-EN !\r
+\r
+Un déjeuner frais, sain, équilibré et gourmand, des produits frais préparés sur place.\r
+Des superfoods excellents pour la santé, des recettes originales, un très grand choix végétarien ou vegan.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.732659e+01 ;
+            ns1:longitude 5.039971e+00 ] ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/65/0d/650d45c7b48e4.png> ;
+    ns1:name "Dubble" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://a2roo.coopcycle.org/en/restaurant/63-dubble" ] ] ;
+    ns1:sameAs <https://a2roo.coopcycle.org/en/restaurant/63-dubble> ;
+    ns1:url <https://a2roo.coopcycle.org/en/restaurant/63-dubble> .
+
+<https://a2roo.coopcycle.org/api/addresses/10509> a ns1:PostalAddress ;
+    ns1:name "Dubble" ;
+    ns1:streetAddress "66 Rue Devosge, Dijon, France" ;
+    ns1:telephone "+33380689397" .
+

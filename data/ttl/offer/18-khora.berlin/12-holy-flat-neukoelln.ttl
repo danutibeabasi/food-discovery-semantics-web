@@ -1,0 +1,187 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://khora.berlin/en/restaurant/12-holy-flat-neukoelln> ns1:hasMenu <https://khora.berlin/en/restaurant/12-holy-flat-neukoelln#menu> .
+
+<https://khora.berlin/en/restaurant/12-holy-flat-neukoelln#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Sweetpotato Sticks" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/7d/5e7dbc9336d62.jpg> ;
+                    ns1:name "Sweetpotato Coconut Soup" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Hummus with Flatbread" ;
+                    ns1:name "Hummus Dip" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salat * Kirschtomaten * Gurken * Sonnenblumenkerne" ;
+                    ns1:name "Gemischter Salat" ;
+                    ns1:nutrition "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ] ;
+            ns1:name "Starter" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Avocado * Tomate * Frische Minze * Karamellisierte Haselnüsse * Trüffel-Aioli Sauce" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/7d/5e7dbbd1d66ed.jpg> ;
+                    ns1:name "Mr. White Flat" ;
+                    ns1:nutrition "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Frittierter Halloumi * Tomaten * Gurken * Salat * Frische Minze * Erdnuß Sauce" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/7d/5e7dba2beb0b9.jpg> ;
+                    ns1:name "Drive Me Nuts" ;
+                    ns1:nutrition "Mustard",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Schwarze Bohnen * Naturreis * Guacamole * Süßkartoffel-Sticks * Sour Cream * Salat * Koriander" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/7d/5e7dbc4dd920e.jpg> ;
+                    ns1:name "South of the Wall Flat" ;
+                    ns1:nutrition "Milk",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gegrillter Kürbis und Zucchini * Kirschtomaten * Hummus * Salat" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/7d/5e7dbc2b57b77.jpg> ;
+                    ns1:name "Run Veggie Run" ;
+                    ns1:nutrition "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.20" ] ] ;
+            ns1:name "Flats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/b1/61b1e575425a0.jpeg> ;
+                    ns1:name "Chocolate Brownie" ;
+                    ns1:nutrition "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/b1/61b1e545dd071.jpeg> ;
+                    ns1:name "Double Chocolate Cookie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Sweets" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Gegrillter Kürbis, Paprika, Zucchini * Hummus * Quinoa Taboule * Kichererbsen * Kirschtomaten * Sonnenblumenkerne * Salat" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/7d/5e7dbb70571b4.jpg> ;
+                    ns1:name "Holy Bowl" ;
+                    ns1:nutrition "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Kokos-Naturreis * Marinierter Tofu * Champignons * Eingelegter Rotkohl * Thai-Style Karotten und Gurken * Kokos-Erdnuss Dressing * Koriander" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/7d/5e7db9e45ba41.jpg> ;
+                    ns1:name "Coco Bowl" ;
+                    ns1:nutrition "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Shakshuka * Weißkäse * Babyspinat * Quinoa Tabbouleh * Kichererbsen * Pochiertes Ei * Koriander" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/b1/61b1e3ef85350.jpeg> ;
+                    ns1:name "Shaka Bowl" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Schwarze Bohnen * Brauner Reis * Guacamole * Knusprige Tacos * Pico de Gallo * Mais * Chipotle Aioli * Koriander" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/b1/61b1e449be877.jpeg> ;
+                    ns1:name "Fiesta Bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Rote Bete – Quinoa Mix * Avocado * Hüttenkäse * Gurken * Kirschtomaten * Salat * Walnüsse" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/7d/5e7dbbfda53ff.jpg> ;
+                    ns1:name "Red Bowl" ;
+                    ns1:nutrition "Milk",
+                        "Mustard",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Schwarze Bohnen * Naturreis * Guacamole * Süßkartoffel-Sticks * Pochiertes Ei * Sour Cream * Salat * Koriander" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/5e/7d/5e7dbcc97ed84.jpg> ;
+                    ns1:name "Viva Bowl" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ] ;
+            ns1:name "Bowls" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Fountain of Youth Kokoswasser" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Proviant Ingwer Zitrone" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Kombucha Ginger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Berliner Berg Pale Ale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Proviant Apfelschorle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Berliner Berg Lager" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Proviant Rhabarberschorle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Drinks" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Extra Avocado" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Extra Poached Egg" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Extra Tofu" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Extra Halloumi" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Gegrillte Champignons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Extras" ] .
+

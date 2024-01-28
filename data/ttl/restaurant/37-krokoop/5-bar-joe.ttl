@@ -1,0 +1,50 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://krokoop.coopcycle.org/api/restaurants/5> a ns1:Restaurant ;
+    ns1:address <https://krokoop.coopcycle.org/api/addresses/37> ;
+    ns1:description """Le Bar Joe est un monument, un phare … disons même plus : une corne d’abondance installée en plein boulevard.\r
+\r
+\r
+Point névralgique des fêtes Nîmoises, il est l’un des établissements qu’on ne présente plus tant il peut être sollicité pour célébrer les plus grands évènements de la ville.\r
+\r
+Quand viennent les Férias, les rassemblements sportifs, autant que chaque autres soirées que passe un bon nîmois, on peut compter sur son équipe bien solide pour vous régaler à base de généreux burgers et autres gourmandises, sans oublier l’apéro !\r
+\r
+Alors on trinque, on mange, on rigole aussi, et on commande !""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.38374e+01 ;
+            ns1:longitude 4.35609e+00 ] ;
+    ns1:image <https://krokoop.coopcycle.org/media/cache/restaurant_thumbnail/65/49/65498dbedd21a.png> ;
+    ns1:name "BAR JOE" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://krokoop.coopcycle.org/en/restaurant/5-bar-joe" ] ] ;
+    ns1:sameAs <https://krokoop.coopcycle.org/en/restaurant/5-bar-joe> ;
+    ns1:url <https://krokoop.coopcycle.org/en/restaurant/5-bar-joe> .
+
+<https://krokoop.coopcycle.org/api/addresses/37> a ns1:PostalAddress ;
+    ns1:name "BAR JOE" ;
+    ns1:streetAddress "44 Boulevard Victor Hugo, 30000 Nîmes, France" ;
+    ns1:telephone "+33951147973" .
+

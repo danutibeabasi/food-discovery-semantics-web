@@ -1,0 +1,20 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://beefast.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "fr" ;
+                    ns1:addressLocality "Amiens" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 4.989407e+01 ;
+                    ns1:longitude 2.295753e+00 ] ] ;
+    ns1:description "An express and eco-responsible delivery solution for envelopes and parcels in Amiens."@en,
+        "Une solution de livraison express et éco-responsable de plis et colis sur Amiens Métropole."@fr ;
+    ns1:name "Beefast" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:sameAs <https://www.facebook.com/beefast.fr/> ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://beefast.coopcycle.org> .
+

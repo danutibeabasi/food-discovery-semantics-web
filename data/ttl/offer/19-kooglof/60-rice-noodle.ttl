@@ -1,0 +1,99 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://kooglof.coopcycle.org/api/restaurants/60> ns1:hasMenu <https://kooglof.coopcycle.org/en/restaurant/60-rice-noodle#menu> .
+
+<https://kooglof.coopcycle.org/en/restaurant/60-rice-noodle#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Portion généreuse de 640g ⭐
+\r
+Filet de poulet pané avec riz japonais""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/22/6322dd9d2fae1.jpeg> ;
+                    ns1:name "KATSU CURRY MAXI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Nouilles sautées \r
+Choix entre poulet/boeuf/végé""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd2a3677bdd.jpeg> ;
+                    ns1:name "MI XAO MAXI (nouilles sautés)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Portion généreuse de 600g ⭐
+\r
+Salade vermicelles \r
+Choix entre poulet/boeuf/végé""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/fb/61fb9dbff3716.jpeg> ;
+                    ns1:name "BO BUN MAXI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Portion généreuse de 700g ⭐
+\r
+Pâtes de riz sautés poulet + crevettes""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd288304ab9.jpeg> ;
+                    ns1:name "PAD THAI MAXI (pâte de riz sauté)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Portion généreuse de 700 g ⭐
+\r
+Riz sauté poulet + crevettes""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd28df48f11.jpeg> ;
+                    ns1:name "COM THAI MAXI (riz sauté)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.80" ] ] ;
+            ns1:name "PLATS ⭐" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Livraison gratuite 🎉
+\r
+*Produit informatif""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/62/16/62164513034a8.jpeg> ;
+                    ns1:name "Offres 🏷️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Commandez avant 11h15 pour une livraison avant 12h15 le jour même ou précommandez pour un autre jour !
+\r
+Produit informaitf*""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/39/6339b2c491568.jpeg> ;
+                    ns1:name "Précommandes ⏳" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ] ;
+            ns1:name "Nous garantissons une livraison avant 12h dans la majorité des cas ! 🚴" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Ha Kao" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Poulet ou légumes
+\r
+5 unités""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd28024819c.jpeg> ;
+                    ns1:name "Nems" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignets de crevettes" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/61/fd/61fd254b3c03d.jpeg> ;
+                    ns1:name "Torpedo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Encas 👍" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "50cl" ;
+                    ns1:name "Eau Gazeuse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50cl" ;
+                    ns1:name "eau plate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Boissons 🥤" ] .
+

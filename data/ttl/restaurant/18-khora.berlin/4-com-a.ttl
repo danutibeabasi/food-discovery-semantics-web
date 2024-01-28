@@ -1,0 +1,46 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://khora.berlin/api/restaurants/4> a ns1:Restaurant ;
+    ns1:address <https://khora.berlin/api/addresses/8> ;
+    ns1:description "Cơm Á - Sushi, thailändische und vietnamesische Gerichte" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 5.250025e+01 ;
+            ns1:longitude 1.34223e+01 ] ;
+    ns1:image <https://khora.berlin/media/cache/restaurant_thumbnail/5e/49/5e494af7b084b.jpg> ;
+    ns1:name "Com A" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:40" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "12:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:40" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "17:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:40" ;
+            ns1:dayOfWeek "Saturday",
+                "Sunday" ;
+            ns1:opens "17:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "de" ;
+                    ns1:urlTemplate "https://khora.berlin/en/restaurant/4-com-a" ] ] ;
+    ns1:sameAs <https://khora.berlin/en/restaurant/4-com-a> ;
+    ns1:url <https://khora.berlin/en/restaurant/4-com-a> .
+
+<https://khora.berlin/api/addresses/8> a ns1:PostalAddress ;
+    ns1:name "Com A" ;
+    ns1:streetAddress "Oranienstraße 191, 10999 Berlin, Deutschland" ;
+    ns1:telephone "+493091512659" .
+

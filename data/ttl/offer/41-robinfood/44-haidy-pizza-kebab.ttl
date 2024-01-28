@@ -1,0 +1,237 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://robinfood.coopcycle.org/api/restaurants/44> ns1:hasMenu <https://robinfood.coopcycle.org/en/restaurant/44-haidy-pizza-kebab#menu> .
+
+<https://robinfood.coopcycle.org/en/restaurant/44-haidy-pizza-kebab#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Piadina Shish Kebab di Pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pomodoro, insalate, patatine fritte, cipolla, kebab e salse" ;
+                    ns1:name "Piadina Kebab" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "con pomodoro, insalata, prosciutto cotto, mozzarella o fontina e salsa di funghi" ;
+                    ns1:name "Piadina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pomodoro, rucola, mozzarella di bufala, speck e salsa piccante" ;
+                    ns1:name "Piadina con Mozzarella di Bufala e Speck" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Piadine" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "pomodoro, mozzarella, cipolla, kebab, pomodoro fresco e salsa piccante" ;
+                    ns1:name "Pizza Cipolle e Kebab" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pomodoro, mozzarella e salsiccia" ;
+                    ns1:name "Salsiccia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pomodoro, mozzarella e stracchino" ;
+                    ns1:name "Stracchino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pomodoro, mozzarella e carne di vitello o di tacchino" ;
+                    ns1:name "Pizza Kebab" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pomodoro, mozzarella, tonno e cipolla" ;
+                    ns1:name "Tonno e Cipolla" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pomodoro, mozzarella, funghi e prosciutto cotto" ;
+                    ns1:name "Prosciutto e Funghi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pomodoro, mozzarella e wurstel" ;
+                    ns1:name "Wurstel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pomodoro, mozzarella, grana, pecorino e gorgonzola" ;
+                    ns1:name "Quattro Formaggi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pomodoro, mozzarella, stracchino e kebab" ;
+                    ns1:name "Pizza Stracchino Kebab" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pomodoro, mozzarella, prosciutto e capperi" ;
+                    ns1:name "Napoli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pomodoro, mozzarella e prosciutto" ;
+                    ns1:name "Prosciutto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pomodoro e mozzarella" ;
+                    ns1:name "Margherita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pomodoro, mozzarella, carciofi, olive, funghi e prosciutto" ;
+                    ns1:name "Quattro Stagioni" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pomodoro, mozzarella, zucchine, grana, melanzane e peperoni" ;
+                    ns1:name "Vegetariana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "Pizze" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Acqua Frizzante 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Acqua Frizzante 1,5L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "in lattina" ;
+                    ns1:name "Tè al Limone" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Acqua Naturale 1,5L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "in lattina" ;
+                    ns1:name "Lemonsoda" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "in lattina" ;
+                    ns1:name "Orangesoda" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "in lattina" ;
+                    ns1:name "Tè alla Pesca" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "in lattina" ;
+                    ns1:name "Coca Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Acqua Naturale 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "in lattina" ;
+                    ns1:name "Fanta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Bevande analcoliche" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "un panino a scelta e bibita in lattina a scelta" ;
+                    ns1:name "Menù Haidy Panino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "Menù" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "insalata, tonno, olive, cipolla, pomodori e cetrioli" ;
+                    ns1:name "Insalata di Tonno" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Insalate" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Birra" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Birre" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Nutella calda" ;
+                    ns1:name "Piadina Nutella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Dolci" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Shish Kebab di Pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "verdura mista, riso, patatine fritte, salse e carne a richiesta" ;
+                    ns1:name "Piatto Misto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "polpette speziate mediorientali" ;
+                    ns1:name "Shish Kebab di Kofta Macinata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "piatto di falafel con verdure miste e salse" ;
+                    ns1:name "Piatto Falafel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "kebab con verdure, salsa a scelta e olive" ;
+                    ns1:name "Piatto Kebab e Verdure" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "kebab, patatine fritte, riso, pomodoro, cipolla, insalata e salse" ;
+                    ns1:name "Piatto Kebab con Riso" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Piatti" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "kebab con aggiunta di falafel" ;
+                    ns1:name "Panino Boby" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pomodori, rucola, mozzarella di bufala, prosciutto crudo e salsa rosa" ;
+                    ns1:name "Panino con Mozzarella di Bufala e Prosciutto Crudo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pomodoro, insalata, fontina, prosciutto cotto e salsa ai funghi" ;
+                    ns1:name "Panino Francescano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "falafel, pomodoro, insalata, patatine fritte e salse" ;
+                    ns1:name "Panino Falafel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pomodoro, cipolla, insalate, patatine fritte, kebab, salse e peperoni a richiesta" ;
+                    ns1:name "Panino Kebab" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "stracchino, kebab e rucola" ;
+                    ns1:name "Panino Stracchino Kebab" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Panini" ] .
+

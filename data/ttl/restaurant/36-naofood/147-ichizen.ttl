@@ -1,0 +1,40 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://naofood.coopcycle.org/api/restaurants/147> a ns1:Restaurant ;
+    ns1:address <https://naofood.coopcycle.org/api/addresses/101018> ;
+    ns1:bannerImage "https://naofood.coopcycle.org/media/cache/restaurant_banner/63/f0/63f0e6ee99d34.jpg" ;
+    ns1:description "Ichizen vous propose un panel de Donburi pour découvrir ou se replonger dans la culture Nippone. Notre spécialité: Le Katsu Don, le plus populaire des Donburi ! Ici tout est frais et fait maison." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.721326e+01 ;
+            ns1:longitude -1.546293e+00 ] ;
+    ns1:image <https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/63/f0/63f0e6ee99d34.jpg> ;
+    ns1:name "Ichizen" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:45" ;
+            ns1:dayOfWeek "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:45" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:45" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://naofood.coopcycle.org/en/restaurant/147-ichizen" ] ] ;
+    ns1:sameAs <https://naofood.coopcycle.org/en/restaurant/147-ichizen> ;
+    ns1:url <https://naofood.coopcycle.org/en/restaurant/147-ichizen> .
+
+<https://naofood.coopcycle.org/api/addresses/101018> a ns1:PostalAddress ;
+    ns1:name "Ichizen" ;
+    ns1:streetAddress "11 Rue Fouré, Nantes, France" ;
+    ns1:telephone "+33251820570" .
+

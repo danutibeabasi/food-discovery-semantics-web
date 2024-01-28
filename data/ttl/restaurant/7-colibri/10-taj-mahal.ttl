@@ -1,0 +1,42 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://colibri.coopcycle.org/api/restaurants/10> a ns1:Restaurant ;
+    ns1:address <https://colibri.coopcycle.org/api/addresses/106> ;
+    ns1:description "Ristorante Indiano" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.083995e+01 ;
+            ns1:longitude 1.425501e+01 ] ;
+    ns1:image <https://colibri.coopcycle.org/media/cache/restaurant_thumbnail/63/c1/63c1a704e9562.jpg> ;
+    ns1:name "Taj Mahal" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:30" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "19:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:30" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "00:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "it" ;
+                    ns1:urlTemplate "https://colibri.coopcycle.org/en/restaurant/10-taj-mahal" ] ] ;
+    ns1:sameAs <https://colibri.coopcycle.org/en/restaurant/10-taj-mahal> ;
+    ns1:url <https://colibri.coopcycle.org/en/restaurant/10-taj-mahal> .
+
+<https://colibri.coopcycle.org/api/addresses/106> a ns1:PostalAddress ;
+    ns1:name "Taj Mahal" ;
+    ns1:streetAddress "Piazza Francese, 29/30, Napoli NA, Italia" ;
+    ns1:telephone "+3908119910274" .
+

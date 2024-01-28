@@ -1,0 +1,42 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://sicklo.coopcycle.org/api/restaurants/34> a ns1:Restaurant ;
+    ns1:address <https://sicklo.coopcycle.org/api/addresses/3642> ;
+    ns1:bannerImage "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/6d/656db9932f41f.png" ;
+    ns1:description """PULLED ME, C’EST LA SOMME DES INFLUENCES STREET FOOD DE NOS PAYS PRÉFÉRÉS... où vous mangerez gourmand et rapidement: FAST GOOD\r
+\r
+Ici, chaque produit est soigneusement sélectionné, puis cuisiné pour vous offrir le meilleur dans un sandwich\r
+Pour chaque recette, des viandes cuites longuement, fumées et effilochées pour des sandwichs gourmands & savoureux.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.519011e+01 ;
+            ns1:longitude 5.71659e+00 ] ;
+    ns1:image <https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/61/a8/61a8e02e70064.jpg> ;
+    ns1:name "Pulled Me 🥪" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:20" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:30" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday" ;
+            ns1:opens "18:45" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://sicklo.coopcycle.org/en/restaurant/34-pulled-me" ] ] ;
+    ns1:sameAs <https://sicklo.coopcycle.org/en/restaurant/34-pulled-me> ;
+    ns1:url <https://sicklo.coopcycle.org/en/restaurant/34-pulled-me> .
+
+<https://sicklo.coopcycle.org/api/addresses/3642> a ns1:PostalAddress ;
+    ns1:name "Pulled Me 🥪" ;
+    ns1:streetAddress "48 Avenue Alsace Lorraine, Grenoble, France" ;
+    ns1:telephone "+33981620979" .
+

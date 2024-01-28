@@ -1,0 +1,468 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://cyclome.coopcycle.org/api/restaurants/13> ns1:hasMenu <https://cyclome.coopcycle.org/en/restaurant/13-pokawa#menu> .
+
+<https://cyclome.coopcycle.org/en/restaurant/13-pokawa#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salade de mangue fraiche faite avec amour 💛 66 Kcal" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/45/6045578b602f6.jpeg> ;
+                    ns1:name "Excellente mangue fraichement coupée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "ait de coco, perles de chia, une touche de sirop d'agave et coulis de fruits de la passion fraiches, parfait pour finir votre escapade hawaïenne ! 245 Kcal" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/62/33/623310eca2fde.jpeg> ;
+                    ns1:name "Pudding vegan au lait de coco perles de chia" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Aussi addictive que le jeu ! Notre salade de fruits exotiques vous apporte une touche de fraicheur avec ses beaux morceaux de mangue fraîche et d’ananas." ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/62/33/62331255224bb.jpeg> ;
+                    ns1:name "Fruit Ninja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fabriqué en France avec des œufs bio et français, tout comme la farine et le sucre, français eux aussi!" ;
+                    ns1:name "Cake marbré chocolat" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fabriqué en France avec des œufs bio et français, tout comme la farine et le sucre, français eux aussi." ;
+                    ns1:name "Cake au citron" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chocolate lover ❤️ ce moelleux est fait pour vous ! Et nous avons qu’une chose à vous dire : REGALEZ-VOUS ! À déguster tiède pour plus de plaisir 418 Kcal" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/45/60455886a7577.jpeg> ;
+                    ns1:name "Moelleux au chocolat" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cheesecake et son coulis de framboises. Miam Miam, une touche onctueuse et sucrée pour finir en beauté. 330 Kcal" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/61/aa/61aa6cbfc7c33.jpeg> ;
+                    ns1:name "Cheesecake" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "by La Fabrique Cookie : Un cookie à la fois craquant et fondant. Les pépites de caramel se mêlent au côté iodé du sel de Guérande... à se damner ! 464 Kcal" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/45/6045566f2fb73.jpeg> ;
+                    ns1:name "Cookie BIO au caramel d'Isigny au sel de Guérande" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Peanuts",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade d’ananas fraîchement coupé. Votre allié DETOX ! 55 Kcal" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/45/604555374a1af.jpeg> ;
+                    ns1:name "Ananas plein de soleil" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "by La Fabrique Cookie : Les pépites de chocolat au lait fondent délicieusement en bouche. Une valeur sûre ! 500 Kcal" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/45/604556803e622.jpeg> ;
+                    ns1:name "Cookie BIO au chocolat au lait" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une compotée de myrtille et cassis, surmonté d’un délicat crumble bien croustillant!" ;
+                    ns1:name "Crumble myrtille cassis" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Un bowl chaud avec du riz, un beau pavé de saumon, des aubergines miso, du butternut rôti, des pickles d’oignons rouges, des haricots verts, des edamames et des carottes teriyaki, le tout accompagné d’une sauce crémeuse au choix. On vous le conseille avec le mélange de sésames umami." ;
+                    ns1:name "HOT BOWL SAUMON 🐠" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un ramen healthy originaire d’Hawaï avec des aiguillettes végétales, un bouillon végétarien, des noodles, des carottes teriyaki, des champignons marinés et rôtis, du radis red meat, des edamames, des haricots verts, du sésame et de la cébette thaï. Pour le rendre pimenté, essayez-le avec les épices shichimi (attention, ça pique !)" ;
+                    ns1:name "SAIMIN CHICK’EN VÉGÉTAL" ;
+                    ns1:nutrition "Crustaceans",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Le ramen healthy originaire d’Hawaï ! Dans notre bouillon végétarien, retrouvez du poulet, des noodles, des carottes teriyaki, des champignons marinés et rôtis, du radis red meat, des edamames, des haricots verts, du sésame et de la cebette thaï." ;
+                    ns1:name "SAIMIN POULET 🐓" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un ramen healthy originaire d’Hawaï avec un bouillon végétarien, des gyozas au poulet, des noodles, des carottes teriyaki, des champignons marinés et rôtis, du radis red meat, des edamames, des haricots verts, du sésame et de la cébette thaï. A essayer avec le mélange de sésames umami." ;
+                    ns1:name "SAIMIN GYOZAS AU POULET 🥟" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un bowl chaud avec du riz, du poulet sauce saté, des haricots verts, de l’ananas et du butternut rôtis, des carottes teriyaki, des edamames, du houmous de betterave parfumé au sésame et de la ciboulette." ;
+                    ns1:name "HOT BOWL POULET SAUCE SATÉ 🐓" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un ramen healthy originaire d’Hawaï avec un bouillon végétarien, des gyozas aux légumes, des noodles, des carottes teriyaki, des champignons marinés et rôtis, du radis red meat, des edamames, des haricots verts, du sésame et de la cebette thaï. Encore meilleur avec le mélange de sésames umami." ;
+                    ns1:name "SAIMIN GYOZAS AUX LÉGUMES 🥕" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Le ramen healthy originaire d’Hawaï ! Dans notre bouillon végétarien, retrouvez des crevettes, des noodles, des carottes teriyaki, des champignons marinés et rôtis, du radis red meat, des edamames, des haricots verts, du sésame et de la cebette thaï." ;
+                    ns1:name "SAIMIN CREVETTES 🍤" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Crustaceans",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ] ;
+            ns1:name "GAMMES CHAUDES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Régalez-vous avec notre tartare de légumes composé de concombre, mangue, oignons rouges, cacahuète, cébette thai et graines de sésame. Un mélange JUSTE parfait !" ;
+                    ns1:name "MINI-VEGGIE BOWL" ;
+                    ns1:nutrition "Peanuts",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pois, chou, soja, carotte et radis blanc. Toujours un délice mais en version veggie (x5 ou x8) !" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/62/32/623217480ccc7.jpeg> ;
+                    ns1:name "Gyozas aux légumes" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Crustaceans",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Du brocolis, du chou kâle et une touche de crème, avec le topping de votre choix. La préférée des sportifs!" ;
+                    ns1:name "Soupawa brocoli et chou Kâle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Falafels* de pois chiche bio. Le side parfait à partager ! À déguster chaud *Vegan, sans gluten, biologique. 241 Kcal" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/45/604556b99fb4b.jpeg> ;
+                    ns1:name "Falafels de pois chiche bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "De la carotte, du lait de coco, quelques zestes de citron vert et de la coriandre, avec le topping de votre choix." ;
+                    ns1:name "Soupawa carotte et coco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base de riz blanc, thon, avocat, cream cheese, cébette thai et graines de sésame. Un mélange JUSTE parfait !" ;
+                    ns1:name "MINI-TUNA BOWL" ;
+                    ns1:nutrition "Fish",
+                        "Milk",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/45/6045583f582eb.jpeg> ;
+                    ns1:name "Mini Salmon Avocado Bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Délicieux raviolis japonais au poulet et aux légumes. À déguster chaud ! 5 pièces 196 Kcal / 8 pièces 314 Kcal" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/45/6045574eaa8de.jpeg> ;
+                    ns1:name "Gyozas poulet légumes" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pour un plein de vitamines ! Le wakamé est un très bon allié pour booster votre système immunitaire. 385 Kcal" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/45/60455a36f4102.jpeg> ;
+                    ns1:name "Salade d’algues wakamé" ;
+                    ns1:nutrition "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ] ;
+            ns1:name "Sides" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Ici c'est vous le chef ! Créez votre poké avec les ingrédients de votre choix
+\r
+/!\\ Présence d'allergènes selon vos choix /!\\""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/45/604559a907268.jpeg> ;
+                    ns1:name "Poké Création" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ] ;
+            ns1:name "Votre Poké à personnaliser" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Fromage blanc allégé, banane, framboise, grenade, coco râpée, graines de courge, granola énergétique. Riche en vitamines et en fibres, le power bowl est un mix idéal pour les sportifs ! Mini : 143 kcal / Regular : 252 kcal" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/45/60455974b611f.jpeg> ;
+                    ns1:name "Power Bowl" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pulpe d’acai amazonienne Bio, banane, grenades, graines de courge, coco râpée, le tout mélangé au super granola Catherine Kluger. Un bol parfait pour vous apporter une énergie diffuse toute la journée !" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/62/33/623311a660013.jpeg> ;
+                    ns1:name "Açai BOWL" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ] ;
+            ns1:name "Healthy Bowls Bio" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, saumon et thon mariné, fruit au choix, carotte, radis, concombre, chou rouge, avocat, edamame, graines de sésame. LIL : 407 kcal / BIG : 573 kcal" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/45/60455934412cb.jpeg> ;
+                    ns1:name "Poké Super Protéiné" ;
+                    ns1:nutrition "Fish",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, chick’en végétal, tartare de légumes composé de mangue, concombre, oignons rouges et cacahuètes, piment jalapeño et cébette. La touche finale, notre sauce spicy secrète." ;
+                    ns1:name "SPICY CHIRASHI CHICK’EN VÉGÉTAL" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, thon mariné*, fruit au choix, radis, concombre, carottes, avocat, edamame, chou rouge, graines de sésame. *Sans OGM, riche en protéines et faible en calories. LIL: 381 kcal / BIG : 526 kcal" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/45/60455945e2900.jpeg> ;
+                    ns1:name "Poké Thon Mariné" ;
+                    ns1:nutrition "Fish",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, saumon frais, avocat, mangue fraiche, cebette thaï, graines de sésame. LIL : 378 kcal / BIG : 566 kcal" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/45/604557b919a15.jpeg> ;
+                    ns1:name "Le Chirashi Hawaien" ;
+                    ns1:nutrition "Fish",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, saumon frais, fruit au choix, avocat, edamame, carotte, radis, concombre, chou rouge et graines de sésame. LIL : 432 kcal / BIG : 620 kcal" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/45/6045590ded02f.jpeg> ;
+                    ns1:name "Poké Saumon" ;
+                    ns1:nutrition "Fish",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, crevettes, tartare de légumes composé de mangue, concombre, oignons rouges et cacahuètes, piment jalapeño et cébette. La touche finale, notre sauce spicy secrète." ;
+                    ns1:name "SPICY CHIRASHI CREVETTES" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, saumon frais mariné, avocat, edamame, graines de sésame et cébette thaï. LIL : 401 kcal / Big : 589 kcal" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/45/6045573703d84.jpeg> ;
+                    ns1:name "Green Lover" ;
+                    ns1:nutrition "Fish",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, thon, tartare de légumes composé de mangue, concombre, oignons rouges et cacahuètes, piment jalapeño et cébette. La touche finale, notre sauce spicy secrète." ;
+                    ns1:name "SPICY CHIRASHI THON" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, poulêt rôti, tartare de légumes composé de mangue, concombre, oignons rouges et cacahuètes, piment jalapeño et cébette. La touche finale, notre sauce spicy secrète." ;
+                    ns1:name "SPICY CHIRASHI POULET RÔTI" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, poulet rôti sauce teriyaki, fruit au choix, radis, concombre, carottes, avocat, edamame, chou rouge, graines de sésame. LIL : 398 kcal / BIG : 558 kcal" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/45/604558f75b2b5.jpeg> ;
+                    ns1:name "Poké Poulet rôti teriyaki" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, falafels bio*, fruit au choix, radis, carottes, avocat, edamame, chou rouge, graines de sésame. * Vegan, sans gluten, biologique et sans OGM. LIL: 461 kcal / BIG : 672 kcal" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/45/604558e77eede.jpeg> ;
+                    ns1:name "Poké Falafels (falafels bio)" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, saumon frais, avocat, cebette thaï, graines de sésame. LIL : 365 kcal / BIG : 553 kcal" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/45/604557cd764cc.jpeg> ;
+                    ns1:name "Le Chirashi Saumon Avocat" ;
+                    ns1:nutrition "Fish",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, saumon, tartare de légumes composé de mangue, concombre, oignons rouges et cacahuètes, piment jalapeño et cébette. La touche finale, notre sauce spicy secrète." ;
+                    ns1:name "SPICY CHIRASHI SAUMON" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base au choix, crevettes, avocat, fruit au choix, radis, carotte, concombre, chou rouge, edamame, graines de sésame. *Faible en calories LIL: 381 kcal / BIG : 527 kcal" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/45/604559bc91fc8.jpeg> ;
+                    ns1:name "Poké Crevettes" ;
+                    ns1:nutrition "Crustaceans",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ] ;
+            ns1:name "Pokés Signature" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/45/604556ea09bd4.jpeg> ;
+                    ns1:name "Formulé Poké + Boisson" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/45/60455703ea57c.jpeg> ;
+                    ns1:name "Formule Poké + Boisson + Dessert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ] ;
+            ns1:name "Formules" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Un vrai soda BIO naturel et rafraichissant avec du citron vert et une pointe de sucre de canne ! Le rêve non ? 330ml - 89,1 Kcal" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/45/604557e8d2a59.jpeg> ;
+                    ns1:name "Lemonaid citron vert BIO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Réveillez votre énergie naturelle avec le thé glacé maison au parfum fruité et léger. Idéal pour se rafraichir !" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/62/33/6233131815528.jpeg> ;
+                    ns1:name "Thé glacé Maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "On vous a déjà dit qu'il fallait boire 2 litres d'eau par jour ? 500ml" ;
+                    ns1:name "Volvic" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une version stimulante au pur jus de gingembre et de citron. Frissons garantis ! 330ml - 79 Kcal" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/45/6045580c32ed1.jpeg> ;
+                    ns1:name "Lemonaid Ginger BIO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Découvrez notre super citronnade maison infusée à la menthe avec une pointe de gingembre. Pourquoi faire compliqué quand on peu faire bon ? 300ml - 40 Kcal" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/45/6045560ce674f.jpeg> ;
+                    ns1:name "Citronnade maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Étonnant, addictif et délicieux. Que du rêve dans cette boisson fruitée ! A déguster au bord de la piscine ou sur une plage... 330ml - 82,5 Kcal" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/45/604557fbe22f7.jpeg> ;
+                    ns1:name "Lemonaid fruit de la passion BIO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Eau de coco bio naturellement rafraichissante, de quoi rester frais toute la journée !" ;
+                    ns1:name "Eau de Coco Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jus de fruits fraîchement pressés et stabilisé par haute pression à froid pour conserver tous les bienfaits ! Pomme, mangue et passion pour un jus très exotique." ;
+                    ns1:name "JUS POMME & FRUITS EXOTIQUES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Notre ami américain, original et rafraichissant depuis 1886 ! 330 ml - 138,6 Kcal" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/45/60455625dfffb.jpeg> ;
+                    ns1:name "Coca-cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une subtile combinaison d’ingrédients restituant le goût de Coca-Cola avec zéro sucres, de quoi vous faire plaisir sans vous priver… 330ml - 0 Kcal" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/45/60455642e1fd7.jpeg> ;
+                    ns1:name "Coca-Cola zéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jus de fruits fraîchement pressés et stabilisé par haute pression à froid pour conserver tous les bienfaits ! Pomme, citron et touche de menthe pour un jus étonnamment frais." ;
+                    ns1:name "JUS POMME CITRON & MENTHE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jus de fruits fraîchement pressés et stabilisé par haute pression à froid pour conserver tous les bienfaits ! Pomme, fruits rouges, grenade et raisin pour un jus très fruité." ;
+                    ns1:name "JUS POMME & FRUITS ROUGES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une eau gazeuse à boire tous les jours, par tous. 500ml" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/60/45/604555749ddf3.jpeg> ;
+                    ns1:name "Badoit" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ] ;
+            ns1:name "Boissons" ] .
+

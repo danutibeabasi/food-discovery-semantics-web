@@ -1,0 +1,134 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lcr.coopcycle.org/api/restaurants/34> ns1:hasMenu <https://lcr.coopcycle.org/en/restaurant/34-banco#menu> .
+
+<https://lcr.coopcycle.org/en/restaurant/34-banco#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Bière Blanche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brasserie d'Émeraude à la Richardais" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/18/631877ed5319d.jpeg> ;
+                    ns1:name "Bière Rousse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brasserie d'Emeraude à la Richardais" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/ec/63ecfd135c4ce.jpeg> ;
+                    ns1:name "Bière Blonde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Nourriture Liquide" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Cookies chocolat noir et fleur de sel" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/18/63187873d848a.jpeg> ;
+                    ns1:name "Cookies" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fleur de sel & crème fraiche, le tout fait avec amour et passion." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/90/6390be23b0a01.jpeg> ;
+                    ns1:name "Fondant au Chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/18/631878320c5df.jpeg> ;
+                    ns1:name "Breizh Cola Zéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/18/63187ae77ba4a.jpeg> ;
+                    ns1:name "Plancoët Plate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/18/63187ac23ae59.jpeg> ;
+                    ns1:name "Plancoët fines bulles" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/18/6318780f9da2d.jpeg> ;
+                    ns1:name "Breizh Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/18/63187b113fe75.jpeg> ;
+                    ns1:name "Thé Glacé Maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Boissons non alcoolisées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Dans un potato bun, 2 pattys de boeuf (vbf) smashés, Morbier AOP, homemade Relish, Sauce burger maison, laitue et oignons rouges." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/09/6509a09eb8316.jpeg> ;
+                    ns1:name "Chicago Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain au levain, beurre persillé, jambon artisanal de la charcuterie de Vincennes, béchamel, brillat savarrin truffé." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/63/18/631879132bc95.jpeg> ;
+                    ns1:name "Croque truffé" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Potato Bun, Patty de boeuf (vbf) smashé, Cheddar Vintage, original sauce maison, oignons rouges, laitue ciselée & pickles" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/e6/64e677c474f4b.jpeg> ;
+                    ns1:name "Og Smash Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Compotée d'oignons au vin blanc, tomme de savoie et emmental AOP fraichement râpé du jour." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/09/6509a15c564d3.jpeg> ;
+                    ns1:name "Super Banco" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain au levain, potimarron roti au miel, raclette fumée, noix torréfiées & pickles d'oignons rouges." ;
+                    ns1:name "Tout Schuss" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Potato Bun, effiloché de canard du sud-ouest, spicy mayo à la sauce martin, tomme du caussenard (brebis), \r
+oignons frits, laitue ciselée & pickles maison.""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/09/6509a0636c8c6.jpeg> ;
+                    ns1:name "Pulled Duck Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Potato Bun, Double Patty de boeuf (vbf) smashé, bacon caramélisé au sirop d’érable, Cheddar vintage, sauce burger maison,  laitue ciselé, oignons rouges & pickles" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/09/6509a0e8e6845.jpeg> ;
+                    ns1:name "Bacon Smash Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ] ;
+            ns1:name "Street Food & Grilled Cheese" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Change au fil des saisons" ;
+                    ns1:name "Velouté de saison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un max de plaisir" ;
+                    ns1:name "Frites supplément morbier fondu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Frites maison en double cuisson servi avec notre spéciale sauce maison !" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/e6/64e67a243ba55.jpeg> ;
+                    ns1:name "Frites Maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Accompagnements" ] .
+

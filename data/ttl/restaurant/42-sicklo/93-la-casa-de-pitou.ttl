@@ -1,0 +1,34 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://sicklo.coopcycle.org/api/restaurants/93> a ns1:Restaurant ;
+    ns1:address <https://sicklo.coopcycle.org/api/addresses/38249> ;
+    ns1:bannerImage "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/6d/656dc50b012d6.jpg" ;
+    ns1:description "Venez découvrir une cuisine familiale maison, des formules à l'ardoise avec tous les jours : Un plat viande, un plat végétarien , le tout accompagné de légumes et/ou féculents mais aussi une variété de quiches et tartes maisons, soupes, paninis, salades... sans oublier nos délicieux desserts !" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.51908e+01 ;
+            ns1:longitude 5.71013e+00 ] ;
+    ns1:image <https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/64/3f/643fff1a60f7f.jpg> ;
+    ns1:name "La Casa de Pitou 🥗" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:15" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://sicklo.coopcycle.org/en/restaurant/93-la-casa-de-pitou" ] ] ;
+    ns1:sameAs <https://sicklo.coopcycle.org/en/restaurant/93-la-casa-de-pitou> ;
+    ns1:url <https://sicklo.coopcycle.org/en/restaurant/93-la-casa-de-pitou> .
+
+<https://sicklo.coopcycle.org/api/addresses/38249> a ns1:PostalAddress ;
+    ns1:name "La Casa de Pitou 🥗" ;
+    ns1:streetAddress "9 Rue du Vercors, 38000 Grenoble, France" ;
+    ns1:telephone "+33476490738" .
+

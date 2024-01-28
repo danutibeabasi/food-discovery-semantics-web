@@ -1,0 +1,36 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://le-rayon-vert.coopcycle.org/api/restaurants/14> ns1:hasMenu <https://le-rayon-vert.coopcycle.org/en/restaurant/14-de-sel-et-d-ardoise#menu> .
+
+<https://le-rayon-vert.coopcycle.org/en/restaurant/14-de-sel-et-d-ardoise#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Accompagné de petit épeautre" ;
+                    ns1:name "Sot l’y laisse de dinde en blanquette, artichauts et fenouil à la sauge" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Accompagné de petit épeautre\r
+dont 6€ de consignes""" ;
+                    ns1:name "Boulettes de boeuf façon chili con carne au paprika fumé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "dont 3 euros de consigne" ;
+                    ns1:name "Minestrone aux légumes d'été" ;
+                    ns1:nutrition "Celery" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """accompagnés de deux portions de petit épeautre \r
+Dont 6euros de consigne""" ;
+                    ns1:image <https://le-rayon-vert.coopcycle.org/media/cache/product_thumbnail/60/f9/60f9e2b201784.jpeg> ;
+                    ns1:name "Bourguignon pour deux personnes" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€30.00" ] ] ;
+            ns1:name "Plats en bocaux" ] .
+

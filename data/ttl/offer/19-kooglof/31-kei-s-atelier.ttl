@@ -1,0 +1,164 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://kooglof.coopcycle.org/api/restaurants/31> ns1:hasMenu <https://kooglof.coopcycle.org/en/restaurant/31-kei-s-atelier#menu> .
+
+<https://kooglof.coopcycle.org/en/restaurant/31-kei-s-atelier#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "200g" ;
+                    ns1:name "Riz coréen nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Galettes de kimchi 3pcs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Jumeok-bap" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Raviolis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "choux fermenté épicé coréen, portion de 140g" ;
+                    ns1:name "Kimchi fait maison 140g" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "choux fermenté épicé coréen, portion de 600g" ;
+                    ns1:name "Kimchi fait maison 600g" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Samgak-Kimbap" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Petites Faims 🥬" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Ho Du Gwaja 4pcs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Bung-Eo-Pang 1pcs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mochi coréen : gâteaux de riz gluant fourré à la pâte de haricot rouge avec sésame noir" ;
+                    ns1:name "Chap-ssal-tteok (mochi) 1p" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Nos Desserts 🍮" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "500ml" ;
+                    ns1:name "Boisson coréenne à la prune verte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "230 ml" ;
+                    ns1:name "Boisson coréenne à la cannelle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "330ml" ;
+                    ns1:name "Coca" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Boisson infusion barbe de maïs violet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "500ml" ;
+                    ns1:name "Jus d'Aloé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "230ml" ;
+                    ns1:name "Boisson coréenne à la poire" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Boisson coréenne au riz" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Ginger beer (soda au gingembre)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Nos Boissons 🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Riz, patates douces, courgettes, fèves edamame + au choix raviolis de légumes (2 pcs) ou brochettes de poulet (3 pcs), beignets (4 pièces)" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/19/6319e78da1193.jpeg> ;
+                    ns1:name "Dosirak (lunch box)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/19/6319e7a81c055.jpeg> ;
+                    ns1:name "Dosirak Japchae" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/19/6319e657915ec.jpeg> ;
+                    ns1:name "Bibimbap au boeuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Maki coréen : concombre, carotte, omelette, radis vinaigré, chou blanc mariné sauce soja)" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/19/6319e7df9c551.jpeg> ;
+                    ns1:name "Kimbap" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Dosirak Tteok-galbi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/19/6319e7bee0067.jpeg> ;
+                    ns1:name "Dosirak Tofu-kangjeong" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz, poulet épicé, concombre, carotte, champignon, courgette, radis croquant, oeuf" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/19/6319e66a9256d.jpeg> ;
+                    ns1:name "Bibimbap au poulet épicé" ;
+                    ns1:nutrition "Eggs",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz, concombre, carotte, champignon, courgette, radis croquant, oeuf" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/19/6319e772d9e8b.jpeg> ;
+                    ns1:name "Bibimbap aux légumes et tofu" ;
+                    ns1:nutrition "Eggs",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ] ;
+            ns1:name "Nos Plats 🥣" ] .
+

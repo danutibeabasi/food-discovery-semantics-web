@@ -1,0 +1,597 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://beefast.coopcycle.org/api/restaurants/28> ns1:hasMenu <https://beefast.coopcycle.org/en/restaurant/28-la-mamma-mia#menu> .
+
+<https://beefast.coopcycle.org/en/restaurant/28-la-mamma-mia#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "pâtes fraîches farcies" ;
+                    ns1:name "Tortellini ricotta epinard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Delizia aubergines" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâtes fraîches farcies" ;
+                    ns1:name "Tortellone Ricotta - Truffe noire" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Ravioli Cacio e pepe (pécorino et poivre noir)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Quadrone cèpes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Tortellone parmesan et speck" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Quadrone à la citrouille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pates fraiches aux oeufs - Strozzapretti" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Tagliatelle fraiches aux oeufs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâtes fraîches farcies" ;
+                    ns1:name "Tortellone au Saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Saccotino à la viande de veau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Saccottino au jambon cru" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.80" ] ] ;
+            ns1:name "Pasta" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, crème fraiche, noix, grana, roquette" ;
+                    ns1:name "Rosea Alle Noci" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozarelle, saucisse piquante, olives noires, artichaut, piment frais, poivron, basilic" ;
+                    ns1:name "SPACCAFEGATO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, crevettes, courgettes, roquette, tomates cerises" ;
+                    ns1:name "Sfiziosa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, scamorza fumée, roquette, speck, citrouille grillée, basilic" ;
+                    ns1:name "ZUCCA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, burrata nature ou fumée ou truffée, tomates cerises" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/61/fe/61fe488460edb.jpeg> ;
+                    ns1:name "Burrata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, aubergines, jambon cru italien, roquette" ;
+                    ns1:name "Siciliana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, fromage de chèvre, noix, roquette, miel" ;
+                    ns1:name "Chèvre Doux" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella di bufala, tomates cerises, basilic" ;
+                    ns1:name "Bufala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, jambon cru italien, roquette" ;
+                    ns1:name "Deliziosa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, jambon cuit, ricotta, champignons, grana, basilic" ;
+                    ns1:name "ITALIA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, pancetta, chicorée rouge, tomates cerises" ;
+                    ns1:name "Mamma Mia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, scamorza fumée, jambon cru italien, roquette" ;
+                    ns1:name "Tirolese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, tomates cerises, roquette, grana, jambon cru italien" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/61/fe/61fe480a1e77b.jpeg> ;
+                    ns1:name "Primavera" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, aubergines, courgettes, artichauts, ricotta" ;
+                    ns1:name "Ortolana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, artichaut grillé, burrata nature 125gr, olives noires, tomates cerises, basilic" ;
+                    ns1:name "CARCIOFO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, scamorza fumée, citrouille grillée, olives noires, saucisse toscane au fenouil, basilic" ;
+                    ns1:name "CUCUZZA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ] ;
+            ns1:name "Pizze speciali della casa" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "75cl" ;
+                    ns1:name "Lacryma Christi rosé (Campania)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75cl" ;
+                    ns1:name "Primitivo rosé (Puglia)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75cl" ;
+                    ns1:name "Lambrusco demi sec rosé (Émilia romagna)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75cl" ;
+                    ns1:name "Bardolino rosé (Veneto)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.50" ] ] ;
+            ns1:name "Vini Rosati" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, saumon fumé, pomme de terre / roquette, tomates séchées" ;
+                    ns1:name "Calzone Salmone" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, jambon cuit italien, champignons / roquette" ;
+                    ns1:name "Calzone tradizionale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, champignons, 'nduja / roquette, tomates cerises" ;
+                    ns1:name "Calzone 'Nduja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, chèvre, gorgonzola / roquette et grana" ;
+                    ns1:name "Calzone formaggi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, scarmoza fumée, champignons / Roquette, speck" ;
+                    ns1:name "Calzone trentino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, saucisse, champignon, oignon rouge / Roquette, olives noires" ;
+                    ns1:name "Calzone Calabria" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, jambon cuit italien, champignons / roquette, jambon cru italien" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/61/fe/61fe48bb00519.jpeg> ;
+                    ns1:name "Calzone de la Mamma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ] ;
+            ns1:name "Calzone" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Tiramisu classico" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ricotta - oranges confites - chocolat e tpistache" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/61/fe/61fe42b5ef404.jpeg> ;
+                    ns1:name "Cannoli Pistache" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ricotta - oranges confites et chocolat" ;
+                    ns1:name "Cannoli siciliens" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Baba Mignons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tiramisu Mamma Mia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pistache ou Amerana" ;
+                    ns1:name "Panna Cotta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chocolat, limoncello, orange, fraise, caramel ou café" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/61/fe/61fe435002edd.jpeg> ;
+                    ns1:name "Panna Cotta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella, champignons, mozzarella di bufala 125gr, tomates cerises, huile de truffe, crème de truffe bianchetto 3%, jambon cru italien, basilc" ;
+                    ns1:name "TRUFFE BLANCHE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella, pomme de terre, saucisse fraîche, artichauts, tomates cerises" ;
+                    ns1:name "Golosa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella, fromage de chèvre, grana, speck, roquette" ;
+                    ns1:name "Monte Bianco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella, asperges vertes, saumon fumé, tomates cerises, burrata nature 125gr" ;
+                    ns1:name "CHEF" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella, pomme de terre, jambon cuit italien, crème fraîche, noix de muscade" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/61/fe/61fe491bee16f.jpeg> ;
+                    ns1:name "Patata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella, asperges vertes, tomates cerises, mozza di bufala 125gr, parmesan, basilic" ;
+                    ns1:name "ASPARAGI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella, pomme de terre, crème fraiche, tomates cerises, saumon fumé" ;
+                    ns1:name "SALMONE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella, champignons, fromage de chevre, saucisse fraîche, oignons rouges, persil" ;
+                    ns1:name "Pizzo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella, Jambon cru italien, roquette, Mozzarella di Bufala, crème de truffe noire 1%, roquette, tomates cerises" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/61/fe/61fe49b4583bf.jpeg> ;
+                    ns1:name "Tartufo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella, gorgonzola, saucisse fraîche, chicorée rouge, noix, tomates cerises" ;
+                    ns1:name "Lombardia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella, pesto basilic, tomates cerises, jambon cru italien, grana" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/61/fe/61fe49f919c64.jpeg> ;
+                    ns1:name "Genovese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ] ;
+            ns1:name "Pizze Bianche" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, basilic" ;
+                    ns1:name "Margherita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, saucisse fraîche, champignons, persil, piment" ;
+                    ns1:name "Calabrese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, jambon cuit italien, champignons, artichaut, olives noires" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/61/fe/61fe47931615a.jpeg> ;
+                    ns1:name "4 Stagioni" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, saucisse piquante, olives noires" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/61/fe/61fe4a529cd7a.jpeg> ;
+                    ns1:name "Diavola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, jambon cuit, ricotta, tomates cerises, basilic" ;
+                    ns1:name "Ricotta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, champignons, scamorza fumée, jambon speck italien" ;
+                    ns1:name "Boscaiola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, pomme de terre, aubergines, courgettes, poivrons, tomates cerises" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/61/fe/61fe46d3a81f2.jpeg> ;
+                    ns1:name "Végétarienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, thon, oignon rouge, oregan" ;
+                    ns1:name "Tonno" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, jambon cuit italien, artichauts, olives vertes" ;
+                    ns1:name "Capricciosa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, champignons, jambon speck italien" ;
+                    ns1:name "Speck" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, gorgonzola, chèvre, grana" ;
+                    ns1:name "4 Formaggi rossa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, champignons, jambon cuit italien" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/61/fe/61fe43ac487ad.jpeg> ;
+                    ns1:name "Prosciutto e funghi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, anchois, oregan, olives noires, capres" ;
+                    ns1:name "Marinera" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, jambon cuit italien" ;
+                    ns1:name "Cardinale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, Jambon cru italien, tomates cerises" ;
+                    ns1:name "Parma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ] ;
+            ns1:name "Pizze Tradizionale" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Charcuterie" ;
+                    ns1:name "Assiette de charcuterie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/61/fe/61fe420769abe.jpeg> ;
+                    ns1:name "Assiette mixte fromages et charcuteries" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Salade tomate et burrata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "À Partager" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Coca Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "25cl" ;
+                    ns1:name "Limonata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Coca-Cola Zéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "25cl" ;
+                    ns1:name "Chinotto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Sprite" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Perrier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "25cl" ;
+                    ns1:name "Jus de fruit" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Fanta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Thé froid pêche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "25cl" ;
+                    ns1:name "Arancia Rossa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Boissons sans alcool" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Nastro Azzuro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Moretti" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "35.5cl" ;
+                    ns1:name "Corona" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Bières" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "75cl" ;
+                    ns1:name "Negro Amaro Rouge (Puglia)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75cl" ;
+                    ns1:name "Lambrusco rouge doux (Émilia Romagna)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75cl" ;
+                    ns1:name "Primitivo di Manduria" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€29.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75cl" ;
+                    ns1:name "Montepulciano d'Abruzzo (Abruzzo)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75cl" ;
+                    ns1:name "Primitivo (Puglia)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75cl" ;
+                    ns1:name "Chianti (Toscane)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€27.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "37.50cl" ;
+                    ns1:name "Chianti - 37.50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "37.50cl" ;
+                    ns1:name "Montepulciano - 37.50 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75cl" ;
+                    ns1:name "Nero d'avola (Sicilia)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75cl" ;
+                    ns1:name "Bardolino rouge (Veneto)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75cl" ;
+                    ns1:name "Lacryma Christi rouge (Campania)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ] ;
+            ns1:name "Vini Rossi" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "75cl" ;
+                    ns1:name "Moscato d'Asti" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75cl" ;
+                    ns1:name "Inzolia (Sicilia)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75cl" ;
+                    ns1:name "Prosecco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75cl" ;
+                    ns1:name "Lacryma Christi blanc (Campania)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75cl" ;
+                    ns1:name "Orvieto Classico (Ombria)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.50" ] ] ;
+            ns1:name "Vini Bianchi" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salade, tomates cerises, crevettes, thon, oignons, courgettes grillés, tomates séchées, mozza di bufala" ;
+                    ns1:name "Insalata Napoli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Salade, tomates et mozzarella di Bufala Tartufo 1%, 125gr" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, champignons, roquette, noix, tomates cerises, chèvre, miel, gorgonzola, tomates séchées" ;
+                    ns1:name "Insalata Pompei" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Salade, tomates et mozzarella di Bufala 125gr" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, mozzarella, tomates cerises, artichauts grillés, fruits de câpres, olives, tomates séchées, grana" ;
+                    ns1:name "Insalata Firenze" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, légumes grillés, fruits de câpres, tomates cerises, olives, jambon cru italien, mozzarella di bufala" ;
+                    ns1:name "Insalata Roma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, gorgonzola, noix, jambon speck, grana, olives, crème de vinaigre balsamique" ;
+                    ns1:name "Insalata Milano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, mozzarella, tomates cerises, pancetta, chicorée rouge, scarmoza fumée mozzarella di bufala" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/61/fe/61fe427355585.jpeg> ;
+                    ns1:name "Insalata Palermo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.80" ] ] ;
+            ns1:name "Insalate" ] .
+

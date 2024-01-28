@@ -1,0 +1,45 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/48> a ns1:Restaurant ;
+    ns1:address <https://eramangasteiz.coopcycle.org/api/addresses/58645> ;
+    ns1:bannerImage "https://eramangasteiz.coopcycle.org/media/cache/restaurant_banner/65/6d/656dc04b2be40308700728.jpg" ;
+    ns1:description "Comida tradicional, de calidad y con un toque muy personal." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.284702e+01 ;
+            ns1:longitude -2.672289e+00 ] ;
+    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/restaurant_thumbnail/61/49/61498d9c68555.jpg> ;
+    ns1:name "Arkupe" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:31" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "12:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "23:15" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Wednesday" ;
+            ns1:opens "20:05" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:45" ;
+            ns1:dayOfWeek "Saturday" ;
+            ns1:opens "20:05" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "es" ;
+                    ns1:urlTemplate "https://eramangasteiz.coopcycle.org/en/restaurant/48-arkupe" ] ] ;
+    ns1:sameAs <https://eramangasteiz.coopcycle.org/en/restaurant/48-arkupe> ;
+    ns1:url <https://eramangasteiz.coopcycle.org/en/restaurant/48-arkupe> .
+
+<https://eramangasteiz.coopcycle.org/api/addresses/58645> a ns1:PostalAddress ;
+    ns1:name "Arkupe" ;
+    ns1:streetAddress "Mateo Benigno de Moraza Kalea, 13, Vitoria-Gasteiz, España" ;
+    ns1:telephone "+34945230080" .
+

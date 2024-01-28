@@ -1,0 +1,203 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://sicklo.coopcycle.org/api/restaurants/34> ns1:hasMenu <https://sicklo.coopcycle.org/en/restaurant/34-pulled-me#menu> .
+
+<https://sicklo.coopcycle.org/en/restaurant/34-pulled-me#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/41/604103c95933b.jpeg> ;
+                    ns1:name "Citronnade maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/41/604100b69e385.jpeg> ;
+                    ns1:name "Thé glacé maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière bouteille 33 cl
+\r
+Bières artisanales Goodwin brassée au cœur de l’Oisans en Isère""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/41/604106471ef61.jpeg> ;
+                    ns1:name "Goodwin Wheatbeer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca cola Zéro 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca Cola 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Evian" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Perrier 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Goodwin Amber Ale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Goodwin Blond" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière bouteille 33 cl
+\r
+Bières artisanales Goodwin brassée au cœur de l’Oisans en Isère""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/41/6041061575f45.jpeg> ;
+                    ns1:name "Goodwin IPA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jus de fruit BIO Margerie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ] ;
+            ns1:name "Boissons 🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Pain ciabatta artisanal\r
+Pastrami de veau : poitrine de veau marinée aux épices (poivre/coriandre/fenouil/graine de moutarde) fumée et tranchée finement.\r
+Sauce tonnato (mayonnaise au thon et citron)\r
+Coleslaw""" ;
+                    ns1:name "Space Oddity \"The Pastrami Sandwich\"" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Mustard",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pain ciabatta artisanal\r
+Épaule de cochon marinée aux épices cajun, fumée et effilochée\r
+Sauce barbecue maison\r
+Coleslaw""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/41/6041093152655.jpeg> ;
+                    ns1:name "Ziggy Pig : \"The Pulled Pork sandwich\"" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Mustard",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade de quinoa sauce au yaourt, Coleslaw, Falafels aux herbes fraiches, toum (Aioli libanaise)" ;
+                    ns1:name "Highway to Hell" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pain ciabatta artisanal\r
+Mortadelle\r
+Straciatella\r
+Pesto\r
+Coleslaw""" ;
+                    ns1:name "Felicita" ;
+                    ns1:nutrition "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ] ;
+            ns1:name "Sandwichs seuls et plats 🥪" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "au sésame et coriandre" ;
+                    ns1:name "Salade de chou" ;
+                    ns1:nutrition "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Portion de frites maison supplémentaire" ;
+                    ns1:name "Sachet de frites maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Sides 🍟" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Pain ciabatta artisanal\r
+Pastrami de veau : poitrine de veau marinée aux épices (poivre/coriandre/fenouil/graine de moutarde) fumée et tranchée finement.\r
+Sauce tonnato (mayonnaise au thon et citron)\r
+Coleslaw\r
+Sides et boissons compris""" ;
+                    ns1:name "MENU Space Oddity \"The Pastrami Sandwich\"" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Mustard",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pain Ciabatta artisanal\r
+Falafels aux herbes fraiches\r
+Mayonnaise fumée\r
+Coleslaw\r
+Sides et boissons compris""" ;
+                    ns1:name "MENU Marcia Baila : \"The Veggie Sandwich\"" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pain ciabatta artisanal\r
+Mortadelle\r
+Straciatella\r
+Pesto\r
+Coleslaw\r
+Sides\r
+Sides et boissons compris""" ;
+                    ns1:name "MENU Felicita" ;
+                    ns1:nutrition "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pain ciabatta artisanal\r
+Épaule de cochon marinée aux épices cajun, fumée et effilochée\r
+Sauce barbecue maison\r
+Coleslaw\r
+Sides et boissons compris""" ;
+                    ns1:name "MENU Ziggy Pig : \"The Pulled Pork sandwich\"" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "Menus 🥪🍟🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Brownie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fruits de saison, sirop verveine et badiane" ;
+                    ns1:name "Salade de fruits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/41/604105804170b.jpeg> ;
+                    ns1:name "Cookie au chocolat" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/60/41/6041084cc2f9b.jpeg> ;
+                    ns1:name "Marbré, glaçage chocolat noisettes" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Desserts  🍪" ] .
+

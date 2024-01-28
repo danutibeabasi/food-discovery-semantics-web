@@ -1,0 +1,382 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://niort.coopcycle.org/api/restaurants/7> ns1:hasMenu <https://niort.coopcycle.org/en/restaurant/7-la-dolce-vita#menu> .
+
+<https://niort.coopcycle.org/en/restaurant/7-la-dolce-vita#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomate,mozzarella,thon,poivrons frais grillés,olives,persillade,origan" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/c8/60c8698ee237d.jpeg> ;
+                    ns1:name "MAMMA MIA PIZZA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.20" ] ] ;
+            ns1:name "Al Pesce (poisson)" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomate,mozzarella,jambon,champignons de Paris,œuf élevage origan" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/c8/60c86c08ccb73.jpeg> ;
+                    ns1:name "REGINA PIZZA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate,mozzarella,champignons de Paris,artichauts,caprons,jambon.anchois,origan" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/c8/60c859e5cd976.jpeg> ;
+                    ns1:name "4 STAGIONI PIZZA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate,mozzarella,jambon,œuf élevage,origan" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/c8/60c85bdda6042.jpeg> ;
+                    ns1:name "CLASSICA PIZZA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base tomate, mozzarella, jambon blanc, olives" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/c8/60c85aad8fa80.jpeg> ;
+                    ns1:name "BAMBINO PIZZA (PIZZA ENFANT JUSQU A 10 ANS RÉVOLUS)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/c8/60c86a31edb2e.jpeg> ;
+                    ns1:name "PARMA PIZZA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate,mozzarella,anchois,caprons,olives,origan" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/c8/60c86a066d07d.jpeg> ;
+                    ns1:name "NAPOLETANA PIZZA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate,mozzarella,gorgonzola,grana padano,ricotta,origan" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/a8/60a8fb7f5ce05.jpeg> ;
+                    ns1:name "4 FORMAGGI PIZZA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "base tomate, mozzarella, basilic frais, huile d'olive" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/c8/60c869b9b2cde.jpeg> ;
+                    ns1:name "MARGHERITA VERACE PIZZA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate,mozzarella jambon,origan" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/c8/60c86bec0b777.jpeg> ;
+                    ns1:name "PROSCIUTO PIZZA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate,mozzarella,jambon,œuf élevage, olives,origan" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/c8/60c85b9d006b7.jpeg> ;
+                    ns1:name "CALZONE PIZZA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ] ;
+            ns1:name "Le Classiche" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Pizza base crème, Grana Padano, Tomates cocktail, Truite fûmée*, oeufs de truite* et roquette\r
+(Produits français)""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/70/6570bc9b1c282.jpeg> ;
+                    ns1:name "PIZZA TROTA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.80" ] ] ;
+            ns1:name "NOVITA" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/4e/634e710f5b165.jpeg> ;
+                    ns1:name "TIRAMISU" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.20" ] ] ;
+            ns1:name "DOLCE" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pâte à pizza cuite à l’huile d’olive,grana padano,origan" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/c8/60c8679268543.jpeg> ;
+                    ns1:name "FOCACCIA BIANCA PIZZA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base pesto d’artichauts (sauce mixée artichauts, amandes, basilic, H. Olive), Mozzarella di Bufala*, Tomates séchées, Artichauts alla Romana, Olives Taggiasche et roquette" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/58/6358366522f4e.jpeg> ;
+                    ns1:name "LA CARCIOFI PIZZA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base pesto d’artichauts (sauce mixée artichauts, amandes, basilic, H. Olive), Tomates séchées, Artichauts alla Romana, Olives Taggiasche et roquette" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/58/63583691ddfd9.jpeg> ;
+                    ns1:name "LA CARCIOFI PIZZA (VERSION VEGANE)" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella di bufala, champignons de Paris, coeurs d'artichauts, olives Taggiasche, tomates séchées, origan." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/58/635836c943ac0.jpeg> ;
+                    ns1:name "L'ORTOLANA  PIZZA (VERDURA NOUVELLE VERSION)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, Champignons de Paris, Cœurs d’artichauts, Olives Taggiasche, Tomates séchées, origan." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/58/635836f7425a6.jpeg> ;
+                    ns1:name "L'ORTOLANA VEGANE (VERDURA VERSION VEGANE)" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/7a/647a374f1c978.jpeg> ;
+                    ns1:name "VERDURA ESTIVA (AUX LEGUMES DE L'ETE)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème,mozzarella,fromage de chèvre,miel,roquette,origan" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/c8/60c8683602180.jpeg> ;
+                    ns1:name "LA CAPRA PIZZA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, assortiment de champignons frais (champignons de Paris, Pleurotes, shiitake), huile de Truffe, origan" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/c8/60c85b6f23505.jpeg> ;
+                    ns1:name "BOSCAIOLA PIZZA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate,mozzarella,champignons de Paris,poivrons frais grillés, cœurs d’artichauts,caprons,origan" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/c8/60c867b6e8e72.jpeg> ;
+                    ns1:name "GIGI PIZZA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.20" ] ] ;
+            ns1:name "Le Vegetariane" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomate,mozzarella,roquette,grana padano,huile d’olive,vinaigre balsamique blanc,jambon de parme DOP" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/c8/60c8671d85dc7.jpeg> ;
+                    ns1:name "DIETETICA PARME PIZZA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate,mozzarella di Buffala,tomates cocktail confites,oignons jaunes,coppa" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/c8/60c86c2b16154.jpeg> ;
+                    ns1:name "RUSTICA PIZZA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate,mozzarella,gorgonzola,piments frais,salami piquant,origan" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/c8/60c86859238be.jpeg> ;
+                    ns1:name "LA DOLCE VITA PIZZA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate,tapenade d’olives maison ,roquette,grana padano,et speck des montagne,origan" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/c8/60c868c5571be.jpeg> ;
+                    ns1:name "LEGGERA PIZZA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate,mozzarella,jambon blanc,chèvre,salami piquant cuit,olives,origan" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/4e/634e70df8adde.jpeg> ;
+                    ns1:name "GIULIANO PIZZA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base bolognaise (sauce cèleri, catottes, oignons, tomate, viande de boeuf et veau),lardons,mozzarella,fromage de chèvre,œuf élevage,origan" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/c8/60c86dedc7c7d.jpeg> ;
+                    ns1:name "MATTEO PIZZA" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate,mozzarella,roquette ,grana padano ,huile d’olive,vinaigre balsamique blanc,salami piquant" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/c8/60c8673e4fd86.jpeg> ;
+                    ns1:name "DIETETICA SALAMI PIQUANT" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ] ;
+            ns1:name "Le Creative" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Salade multi-feuille, dinde panée, tomates cocktail, croûtons,\r
+Oeufs durs, copeaux de Grana Padano et sauce César\r
+(mayonnaise, balsamique, échalotoes, ciboulette).""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/41/64419afa5b764.jpeg> ;
+                    ns1:name "INSALATA CAESAR (salade César)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Assiette de charcuterie variées,\r
+(coppa, spianata calabraise, speck des montagnes et Gnocco fritto)""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/4e/634e7822ec07b.jpeg> ;
+                    ns1:name "PIATTO DI AFFETTATI MISTI - CHARCUTERIE" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Crème au thon (miettes de thon, anchois, \r
+câpres, H.O, jus de citron) et ses tranches de Pain.\r
+Crostini au beurre de Truffe, Speck, \r
+Champignons et Noix""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/1d/651dc2bbc6346.jpeg> ;
+                    ns1:name "ANTIPASTI TERRA E MARE" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.20" ] ] ;
+            ns1:name "ANTIPASTI" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Base crème,pommes de terre,confiture d’oignons rouges maison ,provolone,lardons,origan" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/c8/60c8689fd1390.jpeg> ;
+                    ns1:name "L’ALPINA PIZZA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pâte à pizza cuite à l’huile d’olive,grana padano,origan,\r
+Servie avec roquette,copeaux de grana padano,huile d’olive,vinaigre balsamique blanc et coppa""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/c8/60c868ea77451.jpeg> ;
+                    ns1:name "L’ESTIVA COPPA PIZZA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pâte à pizza cuite à l’huile d’olives,grana padano,origan,\r
+Servie avec roquette,copeaux de grana padano,huile d’olive,vinaigre balsamique blanc,origan et jambon de parme DOP""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/c8/60c8690a5ddd1.jpeg> ;
+                    ns1:name "L’ESTIVA  PARME PIZZA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base crème,mozzarella,jambon blanc,gorgonzola,ricotta,grana padano,origan" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/c8/60c869dd79183.jpeg> ;
+                    ns1:name "MAYA PIZZA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pâte à pizza cuite à l’huile d’olive,grana padano, origan,\r
+Servie avec roquette,huile d’olive,vinaigre balsamique blanc,copeaux de grana padano et salami piquant""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/c8/60c869522266e.jpeg> ;
+                    ns1:name "L’ESTIVA SALAMI PIQUANTE PIZZA" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.20" ] ] ;
+            ns1:name "Le Bianche (base pizza crème ou base blanche et sans tomate)" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pâtes avec Sauce  finement mixée à base de basilic frais,pignons de pin, grana padano ,huile d’olive" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/c8/60c86b7f4b30a.jpeg> ;
+                    ns1:name "RIGATONI AL PESTO ALLA GENOVESE" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâtes fraîches (farçies ricotta et champignons), sauce tomate de San Marzano, crème, Pleurotes*, Shiitake* et Champignons de Paris*(assortiment de champignons français frais) et chips de Pain." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/1d/651dc93316f25.jpeg> ;
+                    ns1:name "TORTELLONI AI FUNGHI PORCINI" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâtes à la sauce tomate de San Marzano, Oignons rouges, salami piquant, vin blanc." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/41/644199c35edd9.jpeg> ;
+                    ns1:name "PENNE ALLA SPIANATA PIQUANTE" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ballotins de pâtes fraîches aux 4 fromages et sauce grana Padano" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/7a/647a3cf4116a1.jpeg> ;
+                    ns1:name "FAGOTTINI 4 FORMAGGI ALLA CREMA DI GRANA PADANO" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâtes avec sauce œufs frais, grana padano et guanciale (joue de porc), poivre du moulin" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/7a/647a3d47b57d5.jpeg> ;
+                    ns1:name "RIGATONI ALLA CARBONARA « VERACE »" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce à base de viandes de bœuf et veau hachés,brunoise d’oignons,carottes,céleri,tomate,vin rouge,lait" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/c8/60c86c7c475dd.jpeg> ;
+                    ns1:name "SPAGHETTI BOLOGNESE VERACE" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.70" ] ] ;
+            ns1:name "PASTA" ] .
+

@@ -1,0 +1,164 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/122> ns1:hasMenu <https://eramangasteiz.coopcycle.org/en/restaurant/122-asador-don-pollo#menu> .
+
+<https://eramangasteiz.coopcycle.org/en/restaurant/122-asador-don-pollo#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Ensaladilla Rusa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ensalada \"Don Pollo\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ración" ;
+                    ns1:name "Aliño para ensalada" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ensalada \"maní\" con txaka y huevos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ensalada mixta de atun" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.60" ] ] ;
+            ns1:name "Ensaladas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "1/2 Pollo asado XL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.80" ] ] ;
+            ns1:name "Asados" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Coca Cola Zero 1 L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola Zero Azúcar botella 2L." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola Sabor Original botella 1L." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola Sabor Original lata 330ml." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cerveza Heineken lata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola Sabor Original botella 2L." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola Zero Azúcar lata 330ml." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola botella 500 ml." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Agua (50 Cl.)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Aquarius Limón botella 500ml." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Agua (1.5 Lt.)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ] ;
+            ns1:name "Bebidas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Arroz con Leche Casero" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.60" ] ] ;
+            ns1:name "Postres" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Salsa Alioli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ketchup" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Salsa Brava" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Mayonesa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ] ;
+            ns1:name "Salsas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Patatas Bravas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Patatas Ali Oli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ] ;
+            ns1:name "Patatas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Merluza Rebozada o en salsa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Boquerones  en tempura" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.80" ] ] ;
+            ns1:name "Pescados" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Patatas Fritas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Croquetas caseras de jamón, pollo o bacalao (6 unidades)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.70" ] ] ;
+            ns1:name "Top Ventas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "8 Unidades" ;
+                    ns1:name "Alitas de pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Arroz Basmati con Pollo y Verduras" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Macarrones boloñesa con salchichas frescas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lomo con Pimientos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ración" ;
+                    ns1:name "Paella Valenciana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pechuga de pollo empanada" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.40" ] ] ;
+            ns1:name "Raciones" ] .
+

@@ -1,0 +1,18 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://sicklo.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "fr" ;
+                    ns1:addressLocality "Grenoble" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 4.519624e+01 ;
+                    ns1:longitude 5.730347e+00 ] ] ;
+    ns1:description "<p>La plupart des protagonistes du projet S!cklo sont des livreur.se.s à vélo confirmé.e.s et/ou des mécanicien.ne.s vélo. Français.es ou étranger.ère.s, travailleur.se.s des plateformes ou non, nous nous sommes retrouvé.e.s autour de la volonté de nous réapproprier notre travail. Depuis, nous expérimentons la création d’entreprise à neuf, pas une mince histoire mais déjà riche en apprentissages. Nous déposons dans les jours à venir les statuts de notre association qui a vocation à se transformer en SCOP sous peu.</p><p>De multiples options s’offrent à nous, mais nous souhaitons commencer par deux activités principales : <ul><li>Un atelier de réparation de vélos, qui aura aussi pour fonction d’être notre bureau.</li><li>La livraison de repas de restaurant à domicile et en entreprise.</li></ul>Nous souhaitons autant que faire se peut collaborer avec des restaurateur.rice.s partageant nos valeurs sur la métropole grenobloise.</p>"@fr ;
+    ns1:name "S!cklo" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://sicklo.coopcycle.org> .
+

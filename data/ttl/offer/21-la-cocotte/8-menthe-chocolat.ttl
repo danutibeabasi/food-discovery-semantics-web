@@ -1,0 +1,165 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://la-cocotte.coopcycle.org/api/restaurants/8> ns1:hasMenu <https://la-cocotte.coopcycle.org/en/restaurant/8-menthe-chocolat#menu> .
+
+<https://la-cocotte.coopcycle.org/en/restaurant/8-menthe-chocolat#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Au gré des envies du chef, tarte poire chocolat, tatin aux pommes, poire pommes, amandes..." ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/bc/61bca40fc549d.jpeg> ;
+                    ns1:name "Tarte dessert du jour" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un cookie purée de cacahuètes et pépites de chocolat, frais tous les jours." ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/bc/61bca4dce689d.jpeg> ;
+                    ns1:name "Cookie" ;
+                    ns1:nutrition "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Au MC, les viennoiseries sont 100% maison, nous réalisons nous-même la pâte feuilletée avec passion et patience, à tester !" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/bc/61bca51a77e3c.jpeg> ;
+                    ns1:name "Pain au chocolat maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un cannelé maison aux arômes de vanille." ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/bc/61bca29f238ea.jpeg> ;
+                    ns1:name "Cannelé maison" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Au MC, les viennoiseries sont 100% maison, nous réalisons nous-même la pâte feuilletée avec passion et patience, à tester !" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/bc/61bca54906a75.jpeg> ;
+                    ns1:name "Croissant maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Surprise du chef, gâteau chocolat, amande, fruits... Au gré des produits de saison et des envies du chef" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/bc/61bca5864bd9f.jpeg> ;
+                    ns1:name "Gâteau du jour" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Douceurs et desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/bc/61bc872e7ef7a.jpeg> ;
+                    ns1:name "Limonade citron bio 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "(4.5°) - Loin d'être si amère, nez vivifiant et citronné, rafraîchissante avec une certaine subtilité aromatique." ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/bc/61bc84c910d5e.jpeg> ;
+                    ns1:name "Bière de la Rade - L'Amer à Boire 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/bc/61bc4a7aacffc.jpeg> ;
+                    ns1:name "Coca cola zéro 25cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "(4.5°) - Blanche, rafraîchissante, notes de citron et de coriandre." ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/bc/61bc83cf4627e.jpeg> ;
+                    ns1:name "Bière de la Rade - La Daurade 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/bc/61bc868d082b1.jpeg> ;
+                    ns1:name "Jus d'orange Bio Papillon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "(5.5°) - American Amber Ale, complexe, aromatique et équilibrée grâce à un Dry Hopping généreux. Ses malts amènent des notes de caramel et de biscuit." ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/bc/61bc84e299636.jpeg> ;
+                    ns1:name "Bière de la Rade - La Rascasse 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fabrication artisanale" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/bc/61bc85e698e68.jpeg> ;
+                    ns1:name "Jus de pomme Bio Charles Papillon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fabrication artisanale" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/bc/61bc85ac506f1.jpeg> ;
+                    ns1:name "Jus de pêche Bio Charles Papillon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fabrication artisanale" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/bc/61bc86224c56f.jpeg> ;
+                    ns1:name "Jus de tomate Bio Charles Papillon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fabrication artisanale" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/bc/61bc864bdf9ef.jpeg> ;
+                    ns1:name "Jus de poire Bio Charles Papillon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tensai Tea" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/bc/61bc86fdb0ee3.jpeg> ;
+                    ns1:name "Thé vert glacé citron et fleur de sureau, bio 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "(5.5°) - Un blend de 3 variétés de houblons bio qui apporte un bel équilibre aromatique entre notes fruitées et florales." ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/bc/61bc8502e068c.jpeg> ;
+                    ns1:name "Bière Gallia - Follamour Lager 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fabrication artisanale" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/bc/61bc853deecf5.jpeg> ;
+                    ns1:name "Jus d'abricot Bio Charles Papillon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thé glacé Tensai Tea en bouteille en verre." ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/bc/61bc86aff0079.jpeg> ;
+                    ns1:name "Thé glacé blanc myrtille bio 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tous les jours, le chef vous propose une part de tarte salée qui varie tous les jours (légumes de saison...)" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/bc/61bca35591af1.jpeg> ;
+                    ns1:name "Tarte salée du jour" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chaque semaine, le chef vous propose un plat (couscous, gratin, pâtes, cakes...) au gré de ses recettes." ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/bc/61bca3b368df9.jpeg> ;
+                    ns1:name "Plat de la semaine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Samedi et dimanche uniquement\r
+Le brunch comprend :\r
+3 pancakes avec sirop d'érable ou sauce chocolat (à préciser) et salade de fruits.\r
+Un cub houmous ou une part de tarte salée (à préciser)\r
+Un cannelé \r
+Un jus d'orange ou jus de pomme""" ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/bc/61bca44ddba03.jpeg> ;
+                    ns1:name "Brunch" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain grillé, houmous, Tomatine et confit d'oignons maison, salade verte." ;
+                    ns1:image <https://la-cocotte.coopcycle.org/media/cache/product_thumbnail/61/bc/61bca3797e886.jpeg> ;
+                    ns1:name "Club Houmous" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "Plats" ] .
+

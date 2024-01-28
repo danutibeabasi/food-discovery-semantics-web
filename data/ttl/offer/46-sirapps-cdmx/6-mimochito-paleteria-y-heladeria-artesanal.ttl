@@ -1,0 +1,122 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://sirapps-cdmx.coopcycle.org/api/restaurants/6> ns1:hasMenu <https://sirapps-cdmx.coopcycle.org/en/restaurant/6-mimochito-paleteria-y-heladeria-artesanal#menu> .
+
+<https://sirapps-cdmx.coopcycle.org/en/restaurant/6-mimochito-paleteria-y-heladeria-artesanal#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Paleta de crema de 85grs con Mazapán de Cacahuate sin colorantes, saborizantes o grasas añadidas" ;
+                    ns1:name "PALETA DE CREMA DE MAZAPAN" ;
+                    ns1:nutrition "Milk",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Paleta de crema de 85grs con Aguacate Hass natural, sin colorantes, saborizantes o grasas añadidas" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/0c/620c3610c9e19.jpeg> ;
+                    ns1:name "PALETA DE CREMA DE AGUACATE" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Paleta de crema de 85grs con Fresa Natural, sin colorantes, saborizantes o grasas añadidas" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/0c/620c378af1cfb.jpeg> ;
+                    ns1:name "PALETA DE FRESAS CON CREMA" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Paleta de crema de 85grs con Cocoa de Alta Calidad sin colorantes, saborizantes o grasas añadidas" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/0c/620c36630c105.jpeg> ;
+                    ns1:name "PALETA DE CREMA DE CHOCOLATE" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Paleta de crema de 85grs con Elote Dulce sin colorantes, saborizantes o grasas añadidas" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/0c/620c36fa225a3.jpeg> ;
+                    ns1:name "PALETA DE CREMA DE ELOTE" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/0c/620c38d400c68.jpeg> ;
+                    ns1:name "PALETA DE CREMA DE QUESO CON ZARZAMORA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$22.00" ] ] ;
+            ns1:name "Paleta de Crema" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Paleta de Agua de 85grs con Pulpa Natural de Mango marmoleada con Chamoy. Sin colorantes o saborizantes añadidos" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/0c/620c3a6910c3d.jpeg> ;
+                    ns1:name "PALETA DE MANGO CON CHAMOY" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Paleta de agua de 85grs con Jugo de Limón Natural, sin colorantes o saborizantes" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/0c/620c382a8b761.jpeg> ;
+                    ns1:name "PALETA DE LIMON" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Paleta de agua de 85grs con Pulpa Natural de Zapote, sin colorantes o saborizantes añadidos" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/0c/620c39f07b073.jpeg> ;
+                    ns1:name "PALETA DE ZAPOTE" ;
+                    ns1:nutrition "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/0c/620c3ae9069fd.jpeg> ;
+                    ns1:name "PALETA DE FRESA DE AGUA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$17.00" ] ] ;
+            ns1:name "Paleta de Agua" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "1LT de Nieve Base agua con Pulpa Natural de Mango. Libre de colorantes, saborizantes o grasas añadidas" ;
+                    ns1:name "NIEVE ARTESANAL DE MANGO NATURAL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$75.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1lt Nieve de base agua con jugo de limon natural. Libre de saborizantes, colorantes añadidos y grasas" ;
+                    ns1:name "NIEVE ARTESANAL DE JUGO DE LIMON" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$75.00" ] ] ;
+            ns1:name "Nieve" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Prueba 1" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1Lt de Helado de crema con Fresa natural, libre de colorantes, saborizantes o grasas vegetales añadidas" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/08/620828c2a4c77.jpeg> ;
+                    ns1:name "HELADO DE CREMA DE FRESA" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$160.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1lt de Helado de crema de mazapán de cacahuate sin colorantes, saborizantes o grasas vegetales añadidas" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/0c/620c3d2696714.jpeg> ;
+                    ns1:name "HELADO DE CREMA DE MAZAPAN" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$160.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 Litro de Helado de Crema de Queso libre de colorantes, saborizantes o grasas vegetales" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/07/6207268d64b91.jpeg> ;
+                    ns1:name "HELADO DE CREMA DE QUESO" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$160.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Litro de Helado de cocoa con crema sin saborizantes, colorantes o grasas vegetales" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/07/620722f61f9ff.jpeg> ;
+                    ns1:name "HELADO DE CREMA DE CHOCOLATE" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$160.00" ] ] ;
+            ns1:name "Helado" ] .
+

@@ -1,0 +1,184 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://zampate.coopcycle.org/api/restaurants/3> ns1:hasMenu <https://zampate.coopcycle.org/en/restaurant/3-malteadora#menu> .
+
+<https://zampate.coopcycle.org/en/restaurant/3-malteadora#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Brownie de cerveza negra y chocolate" ;
+                    ns1:name "Brownie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/76/5f765b48cf749.jpg> ;
+                    ns1:name "Tarta Casera de Queso XXL" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "Postres" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/76/5f765d7c3b748.jpg> ;
+                    ns1:name "Patatas Fritas a las 3 Salsas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chili de carne a la cerveza negra, queso, guacamole" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/76/5f76f4135f032.jpg> ;
+                    ns1:name "Nachos \"La Malteadora\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mejor croqueta elaborada con alimentos de Aragón 2020" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/76/5f76f6ceabd7d.jpg> ;
+                    ns1:name "Croqueta Casera \"Aragonesa\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Croqueta Casera de Jamón" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/77/5f7752165dbf3.jpg> ;
+                    ns1:name "Torreznos de Soria" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Para Picar" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Negra estilo Porter" ;
+                    ns1:name "Cerveza Porter" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cerveza roja estilo Irish Red" ;
+                    ns1:name "Cerveza Gummy Beer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Cerveza Amelie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cerveza Belga de diferentes cerveceras" ;
+                    ns1:name "Cerveza Belga" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cerveza Nanny State Brewdog sin alcohol 33 cl." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1/2 litro Cerveza rubia estilo American Pale Ale" ;
+                    ns1:name "Cerveza American Pale Ale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Golden Ale 1/2 litro" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/79/5f79a251836d3.jpg> ;
+                    ns1:name "Cerveza Lilya" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Botella 500ml cerveza trigo sin filtrar" ;
+                    ns1:name "Cerveza Trigo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Cervezas Artesanas Malteadora" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Burrito de brisket a baja Tª, salsa bbq blanca, pico de gallo, lechuga y cebolla morada encurtida." ;
+                    ns1:name "Brewdonkey Smoke" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Burrito con longaniza, cebolla caramelizada, mayonesa de trufa, puerro frito y lechuga" ;
+                    ns1:name "Brewdonkey Lardero" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/76/5f765e5012d55.jpg> ;
+                    ns1:name "Codillo de Cerdo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Costillar carnoso de cerdo a la BBQ con patatas fritas" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/77/5f774fb09bf24.jpg> ;
+                    ns1:name "Costillar Carnoso de Cerdo" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Burrito de tofu adobado y frito, guacamole, mojo rojo, alcaparras, lechuga y puerro frito" ;
+                    ns1:name "Brewdonkey Vegano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ] ;
+            ns1:name "Del Pub" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pide nuestras salsas artesanas para acompañar cualquier plato" ;
+                    ns1:name "Salsas Caseras" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ] ;
+            ns1:name "Salsas Caseras" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "200grs de carne de vaca, costillar a la barbacoa agridulce, cebolla pochada en mantequilla y maiz" ;
+                    ns1:name "Costiburguer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lechuga, tomate confitado, cebolla morada, cheddar." ;
+                    ns1:name "Clásica" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "200gr de carne de vaca Irish Angus, cheddar ahumado, cebolla confitada y salsa de queso Cahills Porter" ;
+                    ns1:name "Irish Angus Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "200 grs. de carne de vaca madurada 45 días, codillo desmigado, bacón crujiente y cheddar ahumado. Con salsa bull." ;
+                    ns1:name "Piggy Back" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Crustaceans",
+                        "Eggs",
+                        "Fish",
+                        "Milk",
+                        "Molluscs",
+                        "Mustard",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "salsa trufa y hongos, cheddar, rúcula y huevo frito." ;
+                    ns1:name "Trufata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsa bbq, bacón parrilla, rúcula, cheddar ahumado y cebolla frita." ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/79/5f799b808f324.jpg> ;
+                    ns1:name "BBQ" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jalapeños, pico de gallo, queso gouda chili, salsa chipotle y cebolla frita." ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/79/5f799cb761386.jpg> ;
+                    ns1:name "Hot Spicy" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ] ;
+            ns1:name "Hamburguesas a la Brasa" ] .
+

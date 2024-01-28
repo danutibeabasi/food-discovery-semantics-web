@@ -1,0 +1,20 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ziclop.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "es" ;
+                    ns1:addressLocality "Pamplona/Iruña" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 4.282708e+01 ;
+                    ns1:longitude -1.64647e+00 ] ] ;
+    ns1:description "Ethical and local delivery"@en,
+        "Reparto ético y local"@es ;
+    ns1:name "Ziclo-P" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:sameAs <https://www.facebook.com/Ziclo-P-109987504633550> ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://ziclop.coopcycle.org> .
+

@@ -1,0 +1,46 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/28> a ns1:Restaurant ;
+    ns1:address <https://eramangasteiz.coopcycle.org/api/addresses/2082> ;
+    ns1:bannerImage "https://eramangasteiz.coopcycle.org/media/cache/restaurant_banner/65/6d/656dbd3a867ef602605203.jpg" ;
+    ns1:description "Pizzas, calzones, fritos, lasagne, ensaladas y dulces italianos a domicilio. Échale un vistazo a nuestra carta!" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.284786e+01 ;
+            ns1:longitude -2.669381e+00 ] ;
+    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/restaurant_thumbnail/63/88/6388eedfe426c.jpg> ;
+    ns1:name "Dottor Pizza" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "23:05" ;
+            ns1:dayOfWeek "Sunday",
+                "Tuesday" ;
+            ns1:opens "19:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "16:00" ;
+            ns1:dayOfWeek "Saturday",
+                "Sunday" ;
+            ns1:opens "13:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "23:59" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday" ;
+            ns1:opens "19:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "23:30" ;
+            ns1:dayOfWeek "Thursday",
+                "Wednesday" ;
+            ns1:opens "19:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "es" ;
+                    ns1:urlTemplate "https://eramangasteiz.coopcycle.org/en/restaurant/28-dottor-pizza" ] ] ;
+    ns1:sameAs <https://eramangasteiz.coopcycle.org/en/restaurant/28-dottor-pizza> ;
+    ns1:url <https://eramangasteiz.coopcycle.org/en/restaurant/28-dottor-pizza> .
+
+<https://eramangasteiz.coopcycle.org/api/addresses/2082> a ns1:PostalAddress ;
+    ns1:name "Dottor Pizza" ;
+    ns1:streetAddress "Nueva Fuera Kalea, 13, 01001 Gasteiz, Araba, España" ;
+    ns1:telephone "+34622215803" .
+

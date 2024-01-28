@@ -1,0 +1,51 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://zampate.coopcycle.org/api/restaurants/10> a ns1:Restaurant ;
+    ns1:address <https://zampate.coopcycle.org/api/addresses/2224> ;
+    ns1:description """Somos un restaurante sin dogmas ni complejos. \r
+Nuestra misión traer algo de Belleza al mundo.\r
+Nuestra intención, no tanto convencerte, más bien seducirte.  \r
+Nuestro deseo compartir esta experiencia contigo.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.164011e+01 ;
+            ns1:longitude -8.968991e-01 ] ;
+    ns1:image <https://zampate.coopcycle.org/media/cache/restaurant_thumbnail/63/b8/63b87d7395107.JPG> ;
+    ns1:name "Baobab" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday" ;
+            ns1:opens "13:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "23:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday" ;
+            ns1:opens "20:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:00" ;
+            ns1:dayOfWeek "Thursday" ;
+            ns1:opens "13:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "12.50" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.50" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "es" ;
+                    ns1:urlTemplate "https://zampate.coopcycle.org/en/restaurant/10-baobab" ] ] ;
+    ns1:sameAs <https://zampate.coopcycle.org/en/restaurant/10-baobab> ;
+    ns1:url <https://zampate.coopcycle.org/en/restaurant/10-baobab> .
+
+<https://zampate.coopcycle.org/api/addresses/2224> a ns1:PostalAddress ;
+    ns1:name "Baobab" ;
+    ns1:streetAddress "Calle del Arzobispo Apaolaza, 10, Zaragoza, España" ;
+    ns1:telephone "+34976359011" .
+

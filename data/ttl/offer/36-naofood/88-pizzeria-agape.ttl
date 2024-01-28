@@ -1,0 +1,435 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://naofood.coopcycle.org/api/restaurants/88> ns1:hasMenu <https://naofood.coopcycle.org/en/restaurant/88-pizzeria-agape#menu> .
+
+<https://naofood.coopcycle.org/en/restaurant/88-pizzeria-agape#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Fromage blanc fermier de la ferme des 7 Chemins, sucré et accompagné d'un compotée de pommes. Une pépite!!" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d17f8f0dff.jpeg> ;
+                    ns1:name "Bocal fermier Bio" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1c547aaca.jpeg> ;
+                    ns1:name "🍦Pot de crème glacée au COOKIE 🍪" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "120 mL. L’incomparable crème glacée au caramel beurre salée de la Ferme bio du Blanc Glacé située à Sucé sur Erdre" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1c2413673.jpeg> ;
+                    ns1:name "🍨Pot de crème glacée au caramel beurre salé🍦" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1c0b45d71.jpeg> ;
+                    ns1:name "Pot de crème glacée à la vanille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """120 mL.\r
+Le savoureux sorbet à la framboise de la ferme du Blanc Glacé située à Sucé sur Erdre""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1c701f3f9.jpeg> ;
+                    ns1:name "🍦Pot de sorbet à la FRAMBOISE  🍨" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Dessert bio" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1a6e5ef68.jpeg> ;
+                    ns1:name "La JAVA, salade bio végétale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ] ;
+            ns1:name "Salade Bio" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33 cL - élaborée de manière artisanale à partir de plantes françaises" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d193612b68.jpeg> ;
+                    ns1:name "☘️Infusion froide détoxifiante et légèrement pétillante - Sauge, sureau et pomme" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Sans colorant - Sans conservateur. \r
+Ingrédients: jus de pommes bio multivariétal, eau, CO2""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1cb91f996.jpeg> ;
+                    ns1:name "Soda \"Schorle\" pomme" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """25 cL Biodynamique\r
+Producteur: les coteaux nantais""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1a3545bed.jpeg> ;
+                    ns1:name "🍇Jus de raisin🍇" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """33 cL\r
+Très faible en calories, aucun sucre ajouté""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1caa9cae8.jpeg> ;
+                    ns1:name "Soda \"Schorle\" groseille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """25 cL Biodynamique\r
+Producteur: les coteaux nantais""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d19607f246.jpeg> ;
+                    ns1:name "🍏Jus de pomme 🍎" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cL" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1ccaa5907.jpeg> ;
+                    ns1:name "Soda \"Schorle rhubarbe\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """25 cL Biodynamique\r
+Producteur: les coteaux nantais""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1a552d739.jpeg> ;
+                    ns1:name "🍎Jus pomme poire🍐" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cL - élaborée de manière artisanale à partir de plantes françaises" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d194f0f81d.jpeg> ;
+                    ns1:name "🍀Infusion froide relaxante - Verveine, lavande et cerise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Boissons sans alcool BIO" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Une petite PIZZA et un bol de SALADE de saison. 
+\r
+Tomate  - Tomme de la Ferme de Grand Lieu - Fromage crémeux de la ferme de Grand Lieu- coppa (dites-vous qu'avant cette coppa là, vous n'avez jamais mangé de coppa) de la ferme du bois Suzin""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1b950c860.jpeg> ;
+                    ns1:name "PETITE GOGAILLE ET BOL DE SALADE" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate - Tomme de la ferme de Grand Lieu - Saucisse au muscadet de la ferme du Bois Suzin - Fines lamelles de champignons bruns - salade de saison" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1b3f38aec.jpeg> ;
+                    ns1:name "PETITE BOMBANCE ET SALADE DE SAISON" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Peanuts",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Une petite PIZZA et un bol de SALADE\r
+Tomate  - Tomme de la ferme des 7 chemins - Bleu de la ferme de Belchamp - Luminois (fromage crémeux délicieux!) de la ferme de Grand Lieu""" ;
+                    ns1:name "PETITE RIBOULDINGUE ET SALADE" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Tomates - Tomme de la ferme des 7 Chemins - Salade de saison\r
+Elle pourrait être notre margharita mais on a remplacé le fromage de bufflone par de la tomme de pie noire bretonne au goût incomparable!!""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1b185b246.jpeg> ;
+                    ns1:name "PETITE AGAPES ET SALADE DE SAISON" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Une petite PIZZA et un bol de SALADE de saison
+\r
+Tomate - Mozzarella de Rougé (44) - L'incomparable Chorizo de la Ferme du Bois Suzin - Gwell poivré""" ;
+                    ns1:name "PETITE BOMBE ET SALADE DE SAISON" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Une petite PIZZA et un bol de SALADE de saison
+\r
+Tomates  - Tomme de la Ferme de Grand Lieu - Le magnifique jambon blanc de la ferme du Bois Suzin""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1bb2664e8.jpeg> ;
+                    ns1:name "PETITE GOGUETTE ET SALADE DE SAISON" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ] ;
+            ns1:name "Formule déjeuner: petite pizza + bol de salade" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Notre pizza VEGAN. Base panais  - Graines de tournesol -   - pointe de trempette de mogettes poivrée (notre delicieuse recette de houmous de mogettes) - pickles de chou rouge et de radis noir - salade de saison" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/2f/652fe831e67f2.jpeg> ;
+                    ns1:name "🌼 Bamboche 🌸" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1bc3ee3e3.jpeg> ;
+                    ns1:name "🧀Pizza du Dimanche soir🧀:LA LOIRE-ATLANCHEESE 🧀🧀" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Une recette généreuse qui change toutes les semaines/\r
+Tomate| Raclette  de la ferme de Belchamp🧀|Camembert de Rougé 🧀| Poitrine fumée et saucisse au muscadet du Bois Suzin 🐷🐷|  Pickles d'oignons rouges""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/70/6570c46bd05e3.jpeg> ;
+                    ns1:name "PIZZA DU MOMENT" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base carotte  |Tomme de Grandlieu | Pickles de radis noir | champignons bruns | graines de courges" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1c7facd3b.jpeg> ;
+                    ns1:name "⭐️Ribote⭐️" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Si le paradis existe, assurément on y sert cette pizza: \" Base carotte , Camembert de Rougé | fromage bleu de la ferme de Belchamp |boudin noir   de la ferme du Bois Suzin | pickles d'oignons rouges" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d18d20468b.jpeg> ;
+                    ns1:name "🍅🧀Gala🐷" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Milk",
+                        "Mustard",
+                        "Peanuts",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ] ;
+            ns1:name "☀️🍁Pizzas de saison BIO❄️🌺" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomate  - Tomme et fromage crémeux de la Ferme de Grand Lieu  - poitrine fumée de la ferme du Bois Suzin" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d18eaa3695.jpeg> ;
+                    ns1:name "🐷Gogaille🧀" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Crustaceans",
+                        "Milk",
+                        "Mustard",
+                        "Peanuts",
+                        "Sulphur dioxide and sulphites",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate  - Tomme de Grandlieu- L'incomparable Chorizo de la Ferme du Bois Suzin - Gwell poivré- salade de saison" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/00/650084249c4dd.jpeg> ;
+                    ns1:name "🔥Bombe🔥" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomates  - Tomme de la ferme des 7 Chemins - Salade de saison  Elle pourrait être notre margharita mais on a remplacé le fromage de bufflone par de la tomme de pie noire bretonne au goût incomparable!!" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d16bcead2e.jpeg> ;
+                    ns1:name "🍅 Agapes 🧀" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "UN VRAI MONUMENT A LA GlOIRE DES FROMAGES LOCAUX: Tomate  - Tomme de la ferme des 7 chemins - Bleu de la ferme de Belchamp - Luminois (fromage crémeux délicieux!) de la ferme de Grand Lieu" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1c93805df.jpeg> ;
+                    ns1:name "🧀🧀Ribouldingue🧀🧀" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomates - Tomme de la Ferme de Grand Lieu - Le magnifique jambon blanc de la ferme du Bois Suzin - champignon brun" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d18fc0c135.jpeg> ;
+                    ns1:name "🐷Goguette🐷" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Peanuts",
+                        "Sulphur dioxide and sulphites",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate | Raclette de la ferme de Belchamp | Saucisse au muscadet de la ferme de Belchamp" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/53/65537ad18add9.jpeg> ;
+                    ns1:name "Régalade" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate  - Tomme de la ferme de Grand Lieu - Saucisse au muscadet de la ferme du Bois Suzin - Gwell poivré  - salade de saison" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d18830d7bc.jpeg> ;
+                    ns1:name "🐖Bombance🐖" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Mustard",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate | Raclette de la Ferme de Belchamp | Pickles d'oignons rouges" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/56/65562fa55980e.jpeg> ;
+                    ns1:name "Gueuleton" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ] ;
+            ns1:name "🍅 Pizzas permanentes BIO 🍅" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "AOP Muscadet Sèvre et Maine sur Lie en Biodynamie" ;
+                    ns1:name "La LOUVETERIE de Jo Landron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Rouge - Sans Aucun Intrant Ni Sulfite - pinot noir, cabernet franc et négrette\r
+Idéal pour accompagner les pizzas riches en fromages et charcuteries""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d18a3d5301.jpeg> ;
+                    ns1:name "🍷Clos des chataigniers🍷" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€29.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Rouge - Biodynamie -Cabernet franc, syrah, grenache, fer servadou\r
+Plus qu'un vin rouge, un poème, une surprise. Idéal en apéritif ou pour accompagner les pizzas riches en charcuterie""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1922bf10e.jpeg> ;
+                    ns1:name "🍷Hurluberlu🍷" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Le Grolleau Gris en macération!  Voici une nouvelle déclinaison de ce beau cépage du Pays de Retz.
+\r
+Une robe rose aux reflets légèrement orangés. Vin trouble pour une mâche maximale\r
+Arômes de rose, pamplemousse, cerise griotte confite et bergamotte.\r
+Une attaque en rondeur sur le fruit rouge, notamment la pastèque, suivie de petits amers qui accompagnent une finale persistante. Le nez est ouvert mais le vin peut mériter un carafage avant dégustation.\r
+A servir pas trop frais autour des 11°C avec une pizza pleine de fromages!""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d18c2f3dcb.jpeg> ;
+                    ns1:name "ERYTHRA: Vin ORANGE BIO du Domaine des Hautes-Noëlles (44) IGP Val de Loire" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€39.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Méthode traditionnelle par Landron Chartier - Vin de France bio - Folle blanche, gamay et pinot noir - Quand on a gouté à cette fine bulle, on a du mal à imaginer un apéritif sans elle" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1a90397db.jpeg> ;
+                    ns1:name "Natürlich 🍾" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€29.00" ] ] ;
+            ns1:name "Vins BIODYNAMIQUES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """33 cL de la brasserie Tête Haute \r
+Œil : notre PALE ALE est une bière dorée presque ambrée avec de beaux reflets cuivrés, elle est limpide et sa mousse ivoire est abondante et assez persistante.
+\r
+Nez : au nez on retrouve des arômes herbacés et résineux mais également des notes fruitées telles que l’abricot, ou encore la pêche blanche.
+\r
+Bouche : en bouche on retrouve le côté fruité et résineux, l’amertume est intense et persistante.
+\r
+Bien équilibrée et légèrement chauffante, elle devrait ravir les amateurs du style IPA.
+\r
+Idéale avec nos recettes Agapes, Goguette et Ribote.""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d16f9cc33a.jpeg> ;
+                    ns1:name "🍺 Bière PALE ALE🍺" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière ambrée 33 cL de la Brasserie Nantaise Tête Haute.\r
+Oeil : l'Amber Ale est une bière ambrée de style américain.\r
+Sa robe cuivrée est limpide, elle est surmontée au service par une fine mousse beige .
+\r
+Nez : on perçoit des notes de cacao, de caramel, de miel, mais aussi quelques notes résineuses.\r
+Viennent ensuite des notes céréalières tel que le pain grillé ou la croûte d’un pain de campagne.
+\r
+Bouche : le côté céréalier du malt s’accorde en finesse avec le côté herbacé du houblon. Sa pétillance est fine, délicate.\r
+Le houblon nous amène une fine amertume, sans pour autant être trop présente.\r
+C’est une bière équilibrée avec du corps et une belle persistance en bouche.
+\r
+Idéale avec nos recettes Bombance - Bombe - Ribouldingue - Gogaille et Gala""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d16e071967.jpeg> ;
+                    ns1:name "🍺Bière Amber Ale🍺" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière Blanche 33 cL de la Brasserie Nantaise Tête Haute\r
+Œil : la Wheat beer est une bière blanche de style américain.
+\r
+Sa robe jaune claire légèrement voilée est surmontée au service d’une fine mousse blanche.
+\r
+Nez : des notes fruitées et épicées apportées par le gingembre, les graines de coriandre et l’écorce d’orange.
+\r
+Bouche : en bouche les notes fruitées et épicées se conjuguent aux notes maltées.
+\r
+Les saveurs légèrement acidulées amenées par le blé en font une bière particulièrement rafraîchissante.
+\r
+Idéale avec notre recette bamboche!""" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/4d/654d17dc7965c.jpeg> ;
+                    ns1:name "🍺BIère Wheat🍺" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Bieres BIO" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """RIBOULDINGUE: N VRAI MONUMENT A LA GlOIRE DES FROMAGES LOCAUX: Tomate - Tomme de la ferme des 7 chemins - Bleu de la ferme de Belchamp - Luminois (fromage crémeux délicieux!) de la ferme de Grand Lieu - Chèvre frais de la ferme des Bêles de Ronces \r
+POT DE GLACE FERMIERE AU CARAMEL BEURRE SALE: 120 mL. L’incomparable crème glacée au caramel beurre salée de la Ferme bio du Blanc Glacé située à Sucé sur Erdre""" ;
+                    ns1:name "1 PIZZA RIBOULDINGUE + 1 POT DE GLACE FERMIERE AU CARAMEL BEURRE SALE" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """RIBOULDINGUE: UN VRAI MONUMENT A LA GlOIRE DES FROMAGES LOCAUX: Tomate - Tomme de la ferme des 7 chemins - Bleu de la ferme de Belchamp - Luminois (fromage crémeux délicieux!) de la ferme de Grand Lieu - Chèvre frais de la ferme des Bêles de Ronces \r
+ FROMAGE BLANC: Fromage blanc fermier de la ferme des 7 Chemins, sucré et accompagné d'un coulis des meilleures fraises du monde. Une pépite!!""" ;
+                    ns1:name "1 PIZZA RIBOULDINGUE + 1 COULIS DE FROMAGE BLANC A LA COMPOTE DE POMME" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """RIBOULDINGUE: UN VRAI MONUMENT A LA GlOIRE DES FROMAGES LOCAUX: Tomate  - Tomme de la ferme des 7 chemins - Bleu de la ferme de Belchamp - Luminois (fromage crémeux délicieux!) de la ferme de Grand Lieu - Chèvre frais de la ferme des Bêles de Ronces \r
+POT DE GLACE FERMIERE A LA VANILLE: 120 mL. La meilleure glace à la vanille du monde produite à la Ferme bio du Blanc Glacé située à Sucé sur Erdre""" ;
+                    ns1:name "1 PIZZA RIBOULDINGUE + 1 POT DE GLACE FERMIERE A LA VANILLE" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """RIBOULDINGUE: UN VRAI MONUMENT A LA GlOIRE DES FROMAGES LOCAUX: Tomate  - Tomme de la ferme des 7 chemins - Bleu de la ferme de Belchamp - Luminois (fromage crémeux délicieux!) de la ferme de Grand Lieu - Chèvre frais de la ferme des Bêles de Ronces \r
+POT DE GLACE FERMIERE A LA FRAMBOISE: 120 mL. Le délicieux sorbet à la framboise de la Ferme bio du Blanc Glacé située à Sucé sur Erdre""" ;
+                    ns1:name "1 PIZZA RIBOULDINGUE + 1 POT DE GLACE FERMIERE A LA FRAMBOISE" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ] ;
+            ns1:name "Menu pizza + dessert au choix" ] .
+

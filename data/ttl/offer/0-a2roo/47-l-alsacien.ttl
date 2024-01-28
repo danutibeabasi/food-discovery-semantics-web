@@ -1,0 +1,194 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://a2roo.coopcycle.org/api/restaurants/47> ns1:hasMenu <https://a2roo.coopcycle.org/en/restaurant/47-l-alsacien#menu> .
+
+<https://a2roo.coopcycle.org/en/restaurant/47-l-alsacien#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Demandez à l’Alsacien." ;
+                    ns1:name "FLAMMEKUECHE SUCRÉE DU MOMENT." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "FLAMMEKUECHE BANANE CHOCOLAT" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/04/6204eeb2e0cf1.jpeg> ;
+                    ns1:name "FLAMMEKUECHE POMME CANNELLE" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/04/6204eed30ccfb.jpeg> ;
+                    ns1:name "POMME CASSONADE" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ] ;
+            ns1:name "Flammekueches sucrées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Choisissez parmi 3 types d'assortiments" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/02/6202857aaaf7b.jpeg> ;
+                    ns1:name "PLANCHE POUR +" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Choisissez parmi 3 types d'assortiments" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/02/62028566a7cb1.jpeg> ;
+                    ns1:name "PLANCHE POUR 2" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ] ;
+            ns1:name "Les planches" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Crème fraîche, oignons, chou à choucroute d’Alsace, munster,  cumin." ;
+                    ns1:name "PIKACHOUCROUTE" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème fraîche, oignons, lardons fumés, pommes, chèvre et miel." ;
+                    ns1:name "SOLIDAIRE" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème fraîche, oignons, lardons fumés, emmental." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/04/6204edd1d5391.jpeg> ;
+                    ns1:name "GRATINÉE" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème fraîche, oignons, lardons fumés, munster." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/04/6204ee0718675.jpeg> ;
+                    ns1:name "MUNSTER" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème fraîche, oignons caramélisés, magret de canard fermier  d’Alsace, tomates, emmental." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/04/6204ed56cc373.jpeg> ;
+                    ns1:name "COMMISSAIRE MAGRET" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème fraîche, oignons, aubergines grillées, courgettes, tomates, sauce pesto ail des ours, herbes fraîches" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/04/6204ef8cdc405.jpeg> ;
+                    ns1:name "VEGGIE MERCURY" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème fraîche, oignons, lardons fumés, champignons frais." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/04/6204ed8d26850.jpeg> ;
+                    ns1:name "FORESTIÈRE" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème fraîche, oignons, lardons fumés." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/04/6204ee355ba64.jpeg> ;
+                    ns1:name "LA TRADITIONNELLE" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème de soja, oignons caramélisés, tofu fumé mariné au citron  et tamari, herbes fraîches" ;
+                    ns1:name "RENAULT VEGAN" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ] ;
+            ns1:name "Flammekueches à partager" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salade verte, cervelas, emmental, oignons, cornichons, œufs durs" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/04/6204ee8098d22.jpeg> ;
+                    ns1:name "PETITE SALADE ALSACIENNE" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Véritables Saucisses de Strasbourg et sa salade de pomme  de terre." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/04/6204f1355f6e1.jpeg> ;
+                    ns1:name "KNACK KNACK ON HEAVENS DOOR" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade verte, toasts au munster, et légumes frais" ;
+                    ns1:name "PETITE SALADE COMPOSÉE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Made in Alsace." ;
+                    ns1:name "PÂTÉ EN CROUTE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ] ;
+            ns1:name "Entrées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "JUS DE FRUITS (25 cl)." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "APFELSCHORLE (33 cl)." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/08/62083efe8768e.jpeg> ;
+                    ns1:name "CAROLA ROUGE 1L PETILLANTE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/08/62083e74796d4.jpeg> ;
+                    ns1:name "COCA-COLA ZÉRO (33 cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/08/62083ee628b93.jpeg> ;
+                    ns1:name "CAROLA VERTE 50cL PETILLANTE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "LEMONAID (33 cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/08/62083e399b0b7.jpeg> ;
+                    ns1:name "CAROLA BLEUE 50cL PLATE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fair Trade et Bio, mettez vous au parfum!" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/08/62083eb8c184f.jpeg> ;
+                    ns1:name "CHARITEA (33 cl)." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/08/62083e5922b06.jpeg> ;
+                    ns1:name "COCA-COLA (33 cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "FRITZ DU MOMENT" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Les softs" ] .
+

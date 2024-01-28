@@ -1,0 +1,19 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://tlok.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "mx" ;
+                    ns1:addressLocality "Ciudad de México - Tlok" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 1.941979e+01 ;
+                    ns1:longitude -9.911167e+01 ] ] ;
+    ns1:name "TLOK" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:sameAs <https://www.facebook.com/TlokMess/>,
+        <https://www.instagram.com/tlok.mess/?hl=fr> ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://tlok.coopcycle.org> .
+

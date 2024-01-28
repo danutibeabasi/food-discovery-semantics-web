@@ -1,0 +1,18 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://feelavelo.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "fr" ;
+                    ns1:addressLocality "Lorient" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 4.774825e+01 ;
+                    ns1:longitude -3.370245e+00 ] ] ;
+    ns1:description "Une entreprise solidaire du Pays de Lorient qui emploie des coursiers à vélo, une branche de l’entreprise solidaire Optim-ism, les paniers de légumes bio. Avec vous elle souhaite participer à la transition écologique en utilisant un moyen de transport pratique et non-polluant pour vos livraisons en agglomération. Les vélos, biporteurs, triporteurs s’adaptent à vos besoins pour vous livrer chez vous ou chez vos clients, des repas, des fleurs, des courriers, des courses, avec souplesse, fiabilité et réactivité."@fr ;
+    ns1:name "Feel à Vélo" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://feelavelo.coopcycle.org> .
+

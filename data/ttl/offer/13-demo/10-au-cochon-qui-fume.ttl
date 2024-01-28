@@ -1,0 +1,59 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://demo.coopcycle.org/api/restaurants/10> ns1:hasMenu <https://demo.coopcycle.org/en/restaurant/10-au-cochon-qui-fume#menu> .
+
+<https://demo.coopcycle.org/en/restaurant/10-au-cochon-qui-fume#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Grenouilles poêlé·e·s en sauce" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.11" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Du Cola de chez nous, pas des américains" ;
+                    ns1:name "Cola des Alpes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Boeuf à la crème" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Charlotte aux figues" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.68" ] ] ;
+            ns1:name "Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Poulet mi-cuit·e·s aux carottes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.59" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tarte aux fruits confits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.76" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Gâteau aux raisons secs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.31" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Tomates fraîches en salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.44" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jambon cru au naturel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.91" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Have some red wine in your cabbage soup to finish it (please make noise when you do)" ;
+                    ns1:name "Chabrol (soup)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crudités en salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.42" ] ] ;
+            ns1:name "Menu La course" ] .
+

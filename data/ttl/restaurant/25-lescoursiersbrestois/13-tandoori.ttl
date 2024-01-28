@@ -1,0 +1,37 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/restaurants/13> a ns1:Restaurant ;
+    ns1:address <https://lescoursiersbrestois.coopcycle.org/api/addresses/224> ;
+    ns1:description "Au Tandoori, vous ferez une belle rencontre, superbe : celle de la cuisine de notre chef aux nombreuses années d'expérience au Rajpoot Paris. En effet, au Tandoori, nous mettons un point d'honneur à vous fournir à la fois la qualité et la quantité, au travers de plats copieux et savoureux. Et ce, toujours à des prix raisonnables." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.839751e+01 ;
+            ns1:longitude -4.474738e+00 ] ;
+    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/restaurant_thumbnail/61/f4/61f4283b71e95.jpeg> ;
+    ns1:name "Tandoori" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:30" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Wednesday" ;
+            ns1:opens "18:10" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:30" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Wednesday" ;
+            ns1:opens "11:15" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://lescoursiersbrestois.coopcycle.org/en/restaurant/13-tandoori" ] ] ;
+    ns1:sameAs <https://lescoursiersbrestois.coopcycle.org/en/restaurant/13-tandoori> ;
+    ns1:url <https://lescoursiersbrestois.coopcycle.org/en/restaurant/13-tandoori> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/addresses/224> a ns1:PostalAddress ;
+    ns1:name "Tandoori" ;
+    ns1:streetAddress "171 Rue Jean Jaurès, 29200 Brest, France" ;
+    ns1:telephone "+33986521752" .
+

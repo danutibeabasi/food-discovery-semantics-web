@@ -1,0 +1,146 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiers-stephanois.coopcycle.org/api/restaurants/43> ns1:hasMenu <https://coursiers-stephanois.coopcycle.org/en/restaurant/43-le-comptoir-syrien#menu> .
+
+<https://coursiers-stephanois.coopcycle.org/en/restaurant/43-le-comptoir-syrien#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Halawét Eljébén" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pâtes feuilletées farcies aux pistaches" ;
+                    ns1:name "Baklawa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pommes de terre croustillantes en dés dans une sauce épicée à l'ail et à la coriandre." ;
+                    ns1:name "Patate harra" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 pièces aubergines farcies par un mélange de noix, d'ail et de piment rouge." ;
+                    ns1:name "Makdous" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Purée de pois chiches, crème de sésame, jus de citron et filet d'huile d'olive garni de pignons de pain." ;
+                    ns1:name "Hummus de Damas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fèves, tomate, oignon, persil, menthe, ail, citron, cumin et huile d'olive extra vierge." ;
+                    ns1:name "Fool" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Yaourt, menthe séchée, huile d'olive." ;
+                    ns1:name "Labné" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pätisseries de fromage ou d'épinards ou de poulet ." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/63/a5/63a5aa27e8988.jpeg> ;
+                    ns1:name "Samoussa (3 pcs)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boulettes de Burghul farcies de viande hachée, d'oignons, de noix et de pignons de pin." ;
+                    ns1:name "Kibeh ( 3 pcs)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boulettes de pois chiches mélangées à diverses épices et frites dans l'huile." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/ca/64ca83f9c1fdf.jpeg> ;
+                    ns1:name "Falafel (4 pcs)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Farcies de riz, persil, menthe, oignon, tomate, mélasse de grenade citron." ;
+                    ns1:name "Feuilles de vignes (4 pcs)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Frites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Houmous traditionnel garni de viande de veau" ;
+                    ns1:name "Hummus Blahmeh" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain syrien farci à la viande hachée au barbecue." ;
+                    ns1:name "Arayes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Purée de poivrons aux noix." ;
+                    ns1:name "Mouhamarah" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Purée de pois chiches, crème de sésame, jus de citron et filet d'huile d'olive." ;
+                    ns1:name "Hommos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Caviar d'aubergines, crème de sésame, jus de citron et filet d'huile d'olive." ;
+                    ns1:name "Moutabal" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Purée de pois chiches, crème de sésame, jus de citron, sauce grenade et filet d'huile d'olive." ;
+                    ns1:name "Hummus Beiruti" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 pièce par sachet." ;
+                    ns1:name "Pain syrien x5" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "Mezzés" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Eau Volvic" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Canettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Badoit" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Laitue, concombre, tomate, mâche, menthe, radis, Sumac, croûtons, citron et huile d'olive." ;
+                    ns1:name "Salade Fattoush" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ] ;
+            ns1:name "Salades" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "2 brochettes  (1 brochette poulet 1 brochette viande hache) accompagnées de 7 mezzés froids et chauds" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0f099c96dc.jpeg> ;
+                    ns1:name "Menu Découverte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 falafels, hommos, 1 feuille de vigne, Moutabal ou Babaghanouj et Fatoush ou salade Halloumi" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0f0546b38d.jpeg> ;
+                    ns1:name "Assiette Falafel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain syrien farci à la viande hachée grillée, servi avec salade au choix hummus, feuille de vigne, moutabal ou babaghanouj" ;
+                    ns1:name "Assiette Arayes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ] ;
+            ns1:name "Spécialités et Grillades" ] .
+

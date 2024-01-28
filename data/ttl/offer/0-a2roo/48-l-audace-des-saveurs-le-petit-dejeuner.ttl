@@ -1,0 +1,58 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://a2roo.coopcycle.org/api/restaurants/48> ns1:hasMenu <https://a2roo.coopcycle.org/en/restaurant/48-l-audace-des-saveurs-le-petit-dejeuner#menu> .
+
+<https://a2roo.coopcycle.org/en/restaurant/48-l-audace-des-saveurs-le-petit-dejeuner#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Café à faire réchauffer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Choisissez parmi 8 saveurs" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/14/6214abe62fe21.jpeg> ;
+                    ns1:name "Jus de fruits français" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "... et à boire" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/15/621503ba27baa.jpeg> ;
+                    ns1:name "Croissant au chocolat" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fromage blanc confiture framboise" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/15/62150384b475e.jpeg> ;
+                    ns1:name "Croissant aux amandes" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/14/6214ac86583ed.jpeg> ;
+                    ns1:name "Salade de fruits frais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/14/6214ab87404cf.jpeg> ;
+                    ns1:name "Pain au chocolat" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/14/6214ab65d5771.jpeg> ;
+                    ns1:name "Croissant" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.10" ] ] ;
+            ns1:name "Viennoiseries" ] .
+

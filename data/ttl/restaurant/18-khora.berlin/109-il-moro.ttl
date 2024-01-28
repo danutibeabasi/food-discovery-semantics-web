@@ -1,0 +1,37 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://khora.berlin/api/restaurants/109> a ns1:Restaurant ;
+    ns1:address <https://khora.berlin/api/addresses/24616> ;
+    ns1:description "Cucina Popolare" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 5.250887e+01 ;
+            ns1:longitude 1.345967e+01 ] ;
+    ns1:image <https://khora.berlin/media/cache/restaurant_thumbnail/5f/98/5f9800809280e.jpg> ;
+    ns1:name "Il Moro" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:40" ;
+            ns1:dayOfWeek "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:40" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday" ;
+            ns1:opens "17:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "de" ;
+                    ns1:urlTemplate "https://khora.berlin/en/restaurant/109-il-moro" ] ] ;
+    ns1:sameAs <https://khora.berlin/en/restaurant/109-il-moro> ;
+    ns1:url <https://khora.berlin/en/restaurant/109-il-moro> .
+
+<https://khora.berlin/api/addresses/24616> a ns1:PostalAddress ;
+    ns1:name "Il Moro" ;
+    ns1:streetAddress "Wühlischstraße 39A, 10245 Berlin, Deutschland" ;
+    ns1:telephone "+493098438045" .
+

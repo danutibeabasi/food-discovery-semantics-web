@@ -1,0 +1,21 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lcr.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "fr" ;
+                    ns1:addressLocality "Rennes" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 4.811178e+01 ;
+                    ns1:longitude -1.68026e+00 ] ] ;
+    ns1:description "« Les Coursiers Rennais » is a non-profit organization founded in June 2020, whose purpose is the recognition and defense of the profession of bike messenger."@en,
+        "Lʼassociation « Les Coursiers Rennais » est un collectif loi 1901 fondé en juin 2020, qui a pour objet la reconnaissance et la défense du métier de livreur à vélo."@fr ;
+    ns1:name "Les Coursiers Rennais" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:sameAs <https://www.facebook.com/lescoursiersrennais/>,
+        <https://www.instagram.com/lescoursiersrennais/> ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://lcr.coopcycle.org> .
+

@@ -1,0 +1,273 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://naofood.coopcycle.org/api/restaurants/156> ns1:hasMenu <https://naofood.coopcycle.org/en/restaurant/156-smash-falafel-by-yafel#menu> .
+
+<https://naofood.coopcycle.org/en/restaurant/156-smash-falafel-by-yafel#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Sauce Chili-thaï (Vegan) 🌱" ;
+                    ns1:name "Sauce Chili-thaï (Vegan) 🌱" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce Sweet Barbecue (Vegan) 🌱" ;
+                    ns1:name "Sauce Sweet Barbecue (Vegan) 🌱" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce Mayonnaise" ;
+                    ns1:name "Sauce Mayonnaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.25" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "San Pellegrino - Citron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce Tartare" ;
+                    ns1:name "Sauce Tartare" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce Moutarde-miel" ;
+                    ns1:name "Sauce Moutarde-miel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce Ketchup" ;
+                    ns1:name "Sauce Ketchup" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.25" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce Carot'coco 🏠  (Vegan)🌱" ;
+                    ns1:name "Sauce Carot'coco 🏠  (Vegan)🌱" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce Blanche 🏠" ;
+                    ns1:name "Sauce Blanche 🏠" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce Burger 🏠 (Vegan) 🌱" ;
+                    ns1:name "Sauce Burger 🏠 (Vegan) 🌱" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ] ;
+            ns1:name "Sauces" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Frites de patate douce" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/81/6581cdaa2463f.jpeg> ;
+                    ns1:name "Frites de patate douce" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Coleslaw" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/82/6582d90fb7114.jpeg> ;
+                    ns1:name "Coleslaw" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Frites de pommes de terre" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/82/6582d979e8970.jpeg> ;
+                    ns1:name "Frites de pommes de terre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 Falafels &  1 sauce au choix" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/82/6582d9c0657bf.jpeg> ;
+                    ns1:name "3 Falafels & sauce" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 Oignons rings" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/82/6582e3504e0c0.jpeg> ;
+                    ns1:name "6 Oignons rings" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ] ;
+            ns1:name "Accompagnements 🍟" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tiramisu - Speculoos" ;
+                    ns1:name "Tiramisu - Speculoos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cookie - Chocolat blanc & framboises 🍪" ;
+                    ns1:name "Cookie - Chocolat blanc & framboises 🍪" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pudding Chia - Vegan 🌱" ;
+                    ns1:name "Pudding Chia - Vegan 🌱" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fromage blanc - Caramel & Granola" ;
+                    ns1:name "Fromage blanc - Caramel & Granola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cookie - Chocolat au lait 🍪" ;
+                    ns1:name "Cookie - Chocolat au lait 🍪" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ] ;
+            ns1:name "Desserts 🍪" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain aux graines, houmous de tomates séchées, salade, tomates, steak de falafel smashé, emmental fondu, oignons rings et sauce bbq." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/82/6582e0b2b5411.jpeg> ;
+                    ns1:name "Red Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain aux graines, falafel smashé, faux-mage fondu, salade, tomates, oignons,  pickles de cornichons et sauce burger" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/82/6582e300a4223.jpeg> ;
+                    ns1:name "SMASH Burger - VEGAN 🌱" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain aux graines, sauce chili-thaï 🌶️ , salade, tomates, steak de falafel smashé, faux-mage fondu, oignons rings, oignons frits et pickles de cornichon." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/81/6581cd11efa25.jpeg> ;
+                    ns1:name "Chili Burger 🌶️ - VEGAN 🌱" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain aux graines, houmous de tomates séchées, salade, tomates, steak de falafel smashé, faux-mage fondu, oignons rings et sauce bbq." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/82/6582e27786e80.jpeg> ;
+                    ns1:name "Red Burger - VEGAN 🌱" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain aux graines, sauce chili-thaï 🌶️ , salade, tomates, steak de falafel smashé, emmental fondu, oignons rings, oignons frits et pickles de cornichon." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/81/6581ccbd3e603.jpeg> ;
+                    ns1:name "Chili Burger 🌶️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain aux graines,  salade, coleslaw, steak de falafel smashé, chèvre, miel, noix et sauce moutarde miel" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/81/6581cc57a0d63.jpeg> ;
+                    ns1:name "Chèvre & miel Burger 🍯" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain aux graines, philadelphia, steak de falafel smashé, feta, salade, oignons, concombre, coleslaw, sauce tartare et persil frais." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/82/6582e06b707a7.jpeg> ;
+                    ns1:name "Philly Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain aux graines, falafel smashé, emmental fondu, salade, tomates, oignons,  pickles de cornichons et sauce burger" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/82/6582e2c93feb6.jpeg> ;
+                    ns1:name "SMASH Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ] ;
+            ns1:name "Nos Burgers 🍔" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain aux graines,  salade, coleslaw, steak de falafel smashé, chèvre, miel, noix et sauce moutarde miel" ;
+                    ns1:name "Menu Chèvre & miel Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain aux graines, sauce chili-thaï 🌶️, salade, tomates, steak de falafel smashé, emmental fondu, oignons rings, oignons frits et pickles de cornichon." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/82/6582dc6710134.jpeg> ;
+                    ns1:name "Menu Chili Burger 🌶️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain aux graines, sauce chili-thaï 🌶️ , salade, tomates, steak de falafel smashé, faux-mage fondu, oignons rings, oignons frits et pickles de cornichon." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/82/6582de6386f80.jpeg> ;
+                    ns1:name "Menu Chili Burger 🌶️ - VEGAN 🌱" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain aux graines, falafel smashé, faux-mage fondu, salade, tomates, oignons,  pickles de cornichons et sauce burger" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/82/6582e02209627.jpeg> ;
+                    ns1:name "Menu SMASH Burger - VEGAN 🌱" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain aux graines, philadelphia, steak de falafel smashé, feta, salade, oignons, concombre, coleslaw, sauce tartare et persil frais." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/82/6582debce0d82.jpeg> ;
+                    ns1:name "Menu Philly Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain aux graines, falafel smashé, emmental fondu, salade, tomates, oignons,  pickles de cornichons et sauce burger" ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/82/6582dfdc75003.jpeg> ;
+                    ns1:name "Menu SMASH Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain aux graines, houmous de tomates séchées, salade, tomates, steak de falafel smashé, emmental fondu, oignons rings et sauce bbq." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/82/6582def600f0f.jpeg> ;
+                    ns1:name "Menu Red Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain aux graines, houmous de tomates séchées, salade, tomates, steak de falafel smashé, faux-mage fondu, oignons rings et sauce bbq." ;
+                    ns1:image <https://naofood.coopcycle.org/media/cache/product_thumbnail/65/82/6582df998b5c3.jpeg> ;
+                    ns1:name "Menu Red Burger - VEGAN 🌱" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ] ;
+            ns1:name "Menus  🍔🍟" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Fuze tea - Pêche intense" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "25 cl" ;
+                    ns1:name "Habitus Stimulus - BIO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Breizh cola Zéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "25 cl" ;
+                    ns1:name "Habitus Détox - BIO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "25 cl" ;
+                    ns1:name "Tropicana - Pomme" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Breizh cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50 cl" ;
+                    ns1:name "Cristaline pétillante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Fuze tea - Thé vert Citron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "San Pellegrino - Orange & Grenade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "25 cl" ;
+                    ns1:name "Tropicana - Orange" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50 cl" ;
+                    ns1:name "Vittel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Boissons 🧃" ] .
+

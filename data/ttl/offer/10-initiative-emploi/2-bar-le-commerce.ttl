@@ -1,0 +1,596 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://initiative-emploi.coopcycle.org/api/restaurants/2> ns1:hasMenu <https://initiative-emploi.coopcycle.org/en/restaurant/2-bar-le-commerce#menu> .
+
+<https://initiative-emploi.coopcycle.org/en/restaurant/2-bar-le-commerce#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "NA3-Riz thaï gluant" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "NA2-Riz sauté thaï" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "NA4-Nouilles sautées thaï" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "NA1-Riz blanc thaï parfumé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Nos accompagnements" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "PT3-Poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "PT2-Boeuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "PT4-Tofu et légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "PT1-Crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ] ;
+            ns1:name "Pad thaï" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "1 boule" ;
+                    ns1:name "ND7-Glace" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "avec une boule de glace" ;
+                    ns1:name "ND6-Nems au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "au lait de coco et mangue fraîche" ;
+                    ns1:name "ND1-Riz gluant" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 pièces" ;
+                    ns1:name "ND3-Litchis au sirop" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "au lait de coco avec ananas" ;
+                    ns1:name "ND5-Trois couleurs de tapioca" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 boules" ;
+                    ns1:name "ND7-Glace" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "ND4-Tranche de manque ou ananas frais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 boules" ;
+                    ns1:name "ND7-Glace" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Chantilly" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "ND2-Flan thaï" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ] ;
+            ns1:name "Nos desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Emincé de bœuf sauté au wok av0ce feuilles de basilic thaï\r
+Peu épicé""" ;
+                    ns1:name "NP5-Kapaô Neua" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauté aux noix de cajou" ;
+                    ns1:name "NP3-Emincé de crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Emincé de poulet sauté au wok avec feuilles de basilic thaï\r
+Peu épicé""" ;
+                    ns1:name "NP4-Kapaô Kai" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauté aux noix de cajou" ;
+                    ns1:name "NP2-Emincé de bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Emincé de canard sauté au wok avec feuilles de basilic thaï\r
+Peu épicé""" ;
+                    ns1:name "NP6-Kapaô Ped" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Emincé de crevettes sauté au wok avec feuilles de basilic thaï\r
+Peu épicé""" ;
+                    ns1:name "NP7-Kapaô Khung" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet sauté avec sauce aigre-douce" ;
+                    ns1:name "NP8-Pad Periywan kai" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "bœuf sauté avec sauce aigre-douce" ;
+                    ns1:name "NP9-Pad Periywan Kai" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crevettes sautées avec sauce aigre-douce" ;
+                    ns1:name "NP10-Pad Periywan Khung" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauté aux noix de cajou" ;
+                    ns1:name "NP1-Emincé de poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ] ;
+            ns1:name "Nos plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Menu plat + dessert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Menu entrée + plat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Menu entrée + plat + dessert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.90" ] ] ;
+            ns1:name "Les menus" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "NS3-Nouilles sautées poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "NS6-Tofu sauté aux légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "NS2-Nouilles sautées bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "NS1-Nouilles sautées crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "NS5-Mixte de légumes sautés" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "NS4-Nouilles sautées tofu et légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ] ;
+            ns1:name "Khao Pad" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "A la citronnelle" ;
+                    ns1:name "S5-Salade d'ananas et de crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade de tartare de saumon, jus de citron et herbes" ;
+                    ns1:name "S8-Lap Saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Très épicé" ;
+                    ns1:name "S1-Salade de papaye" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Salade de poulet grillé à la citronnelle\r
+Epicé""" ;
+                    ns1:name "S6-Lap Kai" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Tartare de bœuf salade à la citronnelle\r
+Très épicé""" ;
+                    ns1:name "S3-Lap Nuaue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Salade de bœuf grillé à la citronnelle\r
+Epicé""" ;
+                    ns1:name "S2-Yam Nuae" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Salade de crevettes à la thaï\r
+Peu épicé""" ;
+                    ns1:name "S9-Yam Sapparod Khung" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Salade de canard grillé à la citronnelle\r
+Epicé""" ;
+                    ns1:name "S7-Lap Ped" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "A la citronnelle" ;
+                    ns1:name "S4-Salade de mangues et de crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Salade de crevettes crues marinées, services avec de la sauce piquante\r
+Très épicé""" ;
+                    ns1:name "S10-Carpaccio Crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ] ;
+            ns1:name "Salades" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "PS6-Poulet au caramel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vermicelles de riz, crevettes, nems et salade" ;
+                    ns1:name "PS3-Bobun crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vermicelles de riz, poulet, nems et salade" ;
+                    ns1:name "PS1-Bobun Poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vermicelles de riz, bœuf, nems et salade" ;
+                    ns1:name "PS2-Bobun Bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bœuf sauté façon thaï, riz à la tomate et œuf à cheval" ;
+                    ns1:name "PS4-Loc Lac Bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "à la citronnelle" ;
+                    ns1:name "PS5-Cuisse de poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ] ;
+            ns1:name "Plats spéciaux" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "4 pièces" ;
+                    ns1:name "E6-Samoussas Bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 pièces" ;
+                    ns1:name "E4-Nems Crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Assortiment 10 pièces \r
+Pour 2 personnes""" ;
+                    ns1:name "E7-Le plateau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 pièces" ;
+                    ns1:name "E1-Nems Poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 pièces" ;
+                    ns1:name "E3-Nems légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 pièces" ;
+                    ns1:name "E2-Nems porc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 pièces" ;
+                    ns1:name "E5-Tempura crevette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ] ;
+            ns1:name "Entrées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Soupe de crevettes au lait de coco, et galanga Thaïlandais\r
+Peu épicé""" ;
+                    ns1:name "SO3-Tom Khaa Khung" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """A la citronnelle, parfumée et épicée\r
+Epicé""" ;
+                    ns1:name "SO5-Soupe de tofu et légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Soupe de poulet au lait de coco, galanga thaï\r
+Peu épicé""" ;
+                    ns1:name "SO4-Tom Khaa Kai" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Raviolis aux crevettes à la vapeur\r
+4 pièces""" ;
+                    ns1:name "E9-Ha Kao" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 pièces" ;
+                    ns1:name "E13-Brochettes de poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Aumonières farcies au poulet\r
+4 pièces""" ;
+                    ns1:name "E10-Thung tong" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Saucisses de porc cuisinées au Gingembre et à la citronnelle\r
+10 pièces""" ;
+                    ns1:name "E12-Saucisses Thaï" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Au lait de coco, galanga thaï\r
+Epicé""" ;
+                    ns1:name "SO6-Soupe de tofu et légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """4 pièces\r
+Brochettes de porc à la vapeur""" ;
+                    ns1:name "E8-Siumai" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 pièces" ;
+                    ns1:name "E11-Gyoza Poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "10 pièces" ;
+                    ns1:name "E13A-Brochettes de poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Soupe de poulet à la citronnelle, parfumée et épicée\r
+Epicé""" ;
+                    ns1:name "SO2-Tom Yam Kai" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Soupe de crevettes à la citronnelle, parfumée et épicée\r
+Epicé""" ;
+                    ns1:name "SO1-Tom Yam Kung" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ] ;
+            ns1:name "Entrées spécialités" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Soupe de poulet à la citronnelle, parfumé et épicée\r
+Epicé""" ;
+                    ns1:name "SO2-Tom Yam Kai" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """A la citronnelle, parfumée et épicée\r
+Epicé""" ;
+                    ns1:name "SO5-Soupe de tofu et légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Soupe de crevettes à la citronnelle, parfumée et épicée\r
+Epicé""" ;
+                    ns1:name "SO1-Tom Yam Kung" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Au lait de coco, galanga thaï\r
+Epicé""" ;
+                    ns1:name "SO6-Soupe de tofu et légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Soupe de pâte de riz au bœuf" ;
+                    ns1:name "SO8-Pho Bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Soupe de crevettes au lait de coco, et galanga Thaïlandais\r
+Epicé""" ;
+                    ns1:name "SO3-Tom Khaa Khung" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Soupe de raviolis aux crevettes, servies avec des nouilles" ;
+                    ns1:name "SO7-Raviolis crevettes et nouilles" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Soupe de poulet au lait de coco, galanga thaï" ;
+                    ns1:name "SO4-Tom Khaa Kai" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ] ;
+            ns1:name "Soupes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """au curry vert\r
+Epicé""" ;
+                    ns1:name "N5-Emincé de boeuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "au curry vert" ;
+                    ns1:name "N7-Tofu et légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """au curry vert\r
+Epicé""" ;
+                    ns1:name "N4-Emincé de crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "à la sauce tamarin" ;
+                    ns1:name "N2-Poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "N6-Emincé de poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "à la sauce tamarin" ;
+                    ns1:name "N3-Crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "à la sauce tamarin" ;
+                    ns1:name "N1-Canard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ] ;
+            ns1:name "Neua Krata" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Entier(e) à la vapeur sauce thaï" ;
+                    ns1:name "PO5-Bar ou daurade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "au curry rouge" ;
+                    ns1:name "PO3-Gambas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Entier(e) frit(e), sauce aigre-douce" ;
+                    ns1:name "PO4-Bar ou daurade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauté à l'ail thaï" ;
+                    ns1:name "PO2-Gambas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "sauté au basilic" ;
+                    ns1:name "PO1-Frit de cabillaud" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ] ;
+            ns1:name "Nos poissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "RS3-Au poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "RS4-Aux légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "RS1-Aux crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "RS2-Au bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "au curry jaune" ;
+                    ns1:name "RS5-A l'ananas et crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ] ;
+            ns1:name "Riz sauté" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Bœuf en sauce de massaman, crème de coco, avec ses pommes de terre\r
+Peu épicé""" ;
+                    ns1:name "KD2-Massaman bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Crevettes à la sauce curry panang et à la crème de coco avec pousses de bambou, poivrons et longs haricots\r
+Epîcé""" ;
+                    ns1:name "PC3-Panang curry rouge crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bœuf à la sauce curry panang et à la crème de coco avec pousses de bambou, poivrons et longs haricots\r
+Epicé""" ;
+                    ns1:name "PC2-Panang curry rouge bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Poulet en sauce de curry massaman, crème de coco, avec ses pommes de terre\r
+Peu épicé""" ;
+                    ns1:name "KD1-Massaman Poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Poulet à la sauce au curry panang et à la crème de coco avec pousses de bambou, poivron et longs haricots\r
+Epicé""" ;
+                    ns1:name "PC1-Panang curry rouge poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Agneau en sauce de curry massaman, crème de coco, avec ses pommes de terre\r
+Peu épicé""" ;
+                    ns1:name "KD3-Massaman l'agneau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ] ;
+            ns1:name "Keng Dang" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "au curry rouge" ;
+                    ns1:name "K1-Emincé de crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Filet de bœuf mariné et grillé sauce épicée\r
+Très épicé""" ;
+                    ns1:name "K5-Larmes du tigre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """au curry rouge\r
+Epicé""" ;
+                    ns1:name "K2-Emincé de bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """au curry rouge\r
+Epicé""" ;
+                    ns1:name "K3-Emincé de poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """au curry rouge\r
+Epicé""" ;
+                    ns1:name "K4-Tofu et légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ] ;
+            ns1:name "Keng Kiewwan" ] .
+

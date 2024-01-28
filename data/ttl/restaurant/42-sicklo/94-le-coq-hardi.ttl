@@ -1,0 +1,44 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://sicklo.coopcycle.org/api/restaurants/94> a ns1:Restaurant ;
+    ns1:address <https://sicklo.coopcycle.org/api/addresses/38724> ;
+    ns1:bannerImage "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/6d/656dbe92c4f6a.jpeg" ;
+    ns1:description "Brasserie, Restaurant, cuisine traditionnelle ,burgers.  Institution depuis 1934, le Coq Hardi vous propose une véritable cuisine de brasserie." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.51905e+01 ;
+            ns1:longitude 5.72516e+00 ] ;
+    ns1:image <https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/62/0d/620d044136513.jpg> ;
+    ns1:name "Le Coq Hardi ​🐓" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:45" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:45" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:45" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://sicklo.coopcycle.org/en/restaurant/94-le-coq-hardi" ] ] ;
+    ns1:sameAs <https://sicklo.coopcycle.org/en/restaurant/94-le-coq-hardi> ;
+    ns1:url <https://sicklo.coopcycle.org/en/restaurant/94-le-coq-hardi> .
+
+<https://sicklo.coopcycle.org/api/addresses/38724> a ns1:PostalAddress ;
+    ns1:name "Le Coq Hardi ​🐓" ;
+    ns1:streetAddress "19 Rue de Belgrade, 38000 Grenoble, France" ;
+    ns1:telephone "+33476438022" .
+

@@ -1,0 +1,79 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://niort.coopcycle.org/api/restaurants/32> ns1:hasMenu <https://niort.coopcycle.org/en/restaurant/32-le-bocal-gourmand-by-cedric#menu> .
+
+<https://niort.coopcycle.org/en/restaurant/32-le-bocal-gourmand-by-cedric#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/b0/64b008aa98d40.jpeg> ;
+                    ns1:name "Panna cotta vanille et coulis de mangue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/4b/654ba0b688054.jpeg> ;
+                    ns1:name "Compotée pomme poire noisettes caramélisées" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/62/c5/62c5b765cdb90.jpeg> ;
+                    ns1:name "Moelleux au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """QUANTITÉ DISPONIBLE : 3\r
+Ingrédients : butternut, pomme de terre, oignons, ail, lait de coco, sel et poivre\r
+Allergènes :\r
+Poids net : 160 gr\r
+À conserver au froid. Après ouverture, conserver à 4°C maximum et consommer rapidement""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/19/6419d1af40bc5.jpeg> ;
+                    ns1:name "Velouté de butternut au lait de coco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ] ;
+            ns1:name "Entrées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Lasagnes aux légumes d'automne (végétarien)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """QUANTITÉ DISPONIBLE : 2\r
+Ingrédients : sauté de dinde (origine France), champignons de paris, carottes, mélange de céréales, oignon, beurre, farine, crème, jaune d'oeuf, laurier, persil, sel et poivre\r
+Allergènes : lactose, gluten, oeuf\r
+Poids net : 280 g\r
+À conserver au froid. Après ouverture, conserver à 4°C maximum et consommer rapidement""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/86/638611d0db5ab.jpeg> ;
+                    ns1:name "Blanquette de dinde à l'ancienne et mélange de céréales" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """QUANTITÉ DISPONIBLE : 2\r
+Ingrédients : quasi de veau (origine France), pomme de terre, champignons shiitake, foie gras, crème, beurre, ail, persil, cognac, fond de veau, fécule de maïs, sel et poivre\r
+Allergènes : lactose, sulfites\r
+Poids net : 280 g\r
+À conserver au froid. Après ouverture, conserver à 4°C maximum et consommer rapidement""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/7c/657cb4331b6aa.jpeg> ;
+                    ns1:name "Quasi de veau, sauce foie gras, pomme de terre et shïtake persillade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """QUANTITÉ DISPONIBLE : 2\r
+Ingrédients : noix de St Jacques, linguine, gambas, palourdes, carotte, fenouil, ail, échalote, crème, vin blanc, piment d'Espelette, sel et poivre
+\r
+Allergènes : lactose, crustacé, poisson, gluten, sulfite
+\r
+Poids net : 280 g
+\r
+À conserver au froid. Après ouverture, conserver à 4°C maximum et consommer rapidement.\r
+À réchauffer 2 min au micro-onde ou 20 min dans un bain-marie""" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/79/6579cc0a75d49.jpeg> ;
+                    ns1:name "Linguine aux  Saint Jacques et gambas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.30" ] ] ;
+            ns1:name "Plats" ] .
+

@@ -1,0 +1,20 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://dinan.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "fr" ;
+                    ns1:addressLocality "Dinan" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 4.845402e+01 ;
+                    ns1:longitude -2.04615e+00 ] ] ;
+    ns1:description "Ecological and sustainable delivery solution in Dinan."@en,
+        "Solution de livraison écologique et durable sur Dinan."@fr ;
+    ns1:name "Les Coursiers Dinannais" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:sameAs <https://www.facebook.com/LesCoursiersDinannais/> ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://dinan.coopcycle.org> .
+

@@ -1,0 +1,43 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://sicklo.coopcycle.org/api/restaurants/134> a ns1:Restaurant ;
+    ns1:address <https://sicklo.coopcycle.org/api/addresses/58150> ;
+    ns1:bannerImage "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/6d/656d9ae2495a1650193972.jpg" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.518825e+01 ;
+            ns1:longitude 5.729106e+00 ] ;
+    ns1:image <https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/63/1c/631c5b3d3e08a.jpg> ;
+    ns1:name "Bangkok Pad Thaï 🥡" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:45" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:30" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://sicklo.coopcycle.org/en/restaurant/134-bangkok-pad-thai" ] ] ;
+    ns1:sameAs <https://sicklo.coopcycle.org/en/restaurant/134-bangkok-pad-thai> ;
+    ns1:url <https://sicklo.coopcycle.org/en/restaurant/134-bangkok-pad-thai> .
+
+<https://sicklo.coopcycle.org/api/addresses/58150> a ns1:PostalAddress ;
+    ns1:name "Bangkok Pad Thaï 🥡" ;
+    ns1:streetAddress "11 Rue de la Liberté, Grenoble, France" ;
+    ns1:telephone "+33970969280" .
+

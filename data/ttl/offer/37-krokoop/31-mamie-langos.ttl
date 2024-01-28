@@ -1,0 +1,170 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://krokoop.coopcycle.org/api/restaurants/31> ns1:hasMenu <https://krokoop.coopcycle.org/en/restaurant/31-mamie-langos#menu> .
+
+<https://krokoop.coopcycle.org/en/restaurant/31-mamie-langos#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """IGP Pays d'OC 2022\r
+Vin fruité et gourmand, le fruit et la rondeur du grenache avec de la souplesse. ( 50% Grenache 50% cinsault)""" ;
+                    ns1:name "Vin Rosé 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """IGP Pays d'OC " Viognier" 2022\r
+Vin fruité et sec, frais et désaltérant (100% Viognier)""" ;
+                    ns1:name "Vin Blanc 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Vin Rouge 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ] ;
+            ns1:name "Vin Domaine de Saliès" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Truite française fumée, crème aneth aux concombre, oeuf lompe, pickles de légumes, brunoise de pommes et herbes fraîches" ;
+                    ns1:name "Langos de la semaine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ] ;
+            ns1:name "Produits de la semaine" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Salade Nimoise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Salade Speck" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.99" ] ] ;
+            ns1:name "Salades" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Eau Gazeuse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ice-Tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Eau Plate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sprite" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola Light" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salades de saison." ;
+                    ns1:name "Salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Portion de frites." ;
+                    ns1:name "Frites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Accompagnements" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Langos confiture pêche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain frit, Chocolat noisette maison." ;
+                    ns1:name "La Gourmande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain frit, Sucre & Citron" ;
+                    ns1:name "La Sucrée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pommes rôtie,noix et caramel beurre salé maison" ;
+                    ns1:name "Langos Caramel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Langos creme de marron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Langos confiture abricot" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Langos Sucrées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Petites saucisses Roumaines avec frites maison. \r
+(Conseil : à déguster avec une bière)""" ;
+                    ns1:name "MICI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ] ;
+            ns1:name "Spécialité Roumaine" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Bière Blonde Bio \"La jonte\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bière IPA \"La Jonte\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bière Blanche Bio \"La Jonte\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "Bières" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain frit, Crème, Huile d'ail, Fromage râpé, Herbes fraiches." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/2d/652d0829c5b0a.jpeg> ;
+                    ns1:name "L'Original" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain frit, Échine de porc mariné aux épices (cuisson 8 heures), Crème d'herbe, Pickles de légume." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/2d/652d0a498be00.jpeg> ;
+                    ns1:name "L'Éffiloché" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pain frit, Légumes de saison. \r
+Plus de détails sur notre compte Instagram @mamielangos30""" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/2d/652d965719902.jpeg> ;
+                    ns1:name "La Végétale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/2d/652d0bc3d6363.jpeg> ;
+                    ns1:name "La Nîmoise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain frit, Jambon Speck, Tomates séchées, Ail, Persil, Parmesan, Réduction balsamique." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/65/2d/652d0be279cff.jpeg> ;
+                    ns1:name "La Speck" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "Langos Salées" ] .
+

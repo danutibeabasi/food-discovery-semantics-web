@@ -1,0 +1,135 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://beefast.coopcycle.org/api/restaurants/23> ns1:hasMenu <https://beefast.coopcycle.org/en/restaurant/23-la-manufacture#menu> .
+
+<https://beefast.coopcycle.org/en/restaurant/23-la-manufacture#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Les 6 avec sauce incluse et frites maison" ;
+                    ns1:name "6 Nuggets" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Les 9 sauce incluse et frites maison" ;
+                    ns1:name "9 Nuggets" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Frites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Tex Mex" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "50cl" ;
+                    ns1:name "San Pellegrino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50cl" ;
+                    ns1:name "Cristaline" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière Bouteille" ;
+                    ns1:name "Goudale grand cru 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pepsi Max" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Goudale I.P.A 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière bouteille" ;
+                    ns1:name "Triple karmeliet 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pepsi Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière bouteille" ;
+                    ns1:name "Rince cochon 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Penne à la carbonara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet, carottes, champignons, sauce cremeuse blanquette, servi frites fraiches" ;
+                    ns1:name "Blanquette de poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi avec frites et sauce tartare maison." ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/60/d4/60d44bd5295c9.jpeg> ;
+                    ns1:name "Fish & Chips" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Plat typique du nord de la France: mijoté de bœuf aux oignons cuit dans de la bière brune.Servi avec frites maison" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/60/d4/60d44ba684d32.jpeg> ;
+                    ns1:name "Carbonade flamande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ] ;
+            ns1:name "Brasserie" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Moelleux au chocolat maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Buns artisanal, salade, tomates, sauce cocktail maison, pickles, oignons confits, steak haché et Cheddar Galloway. Servi avec frites maison." ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/60/d4/60d44a218c167.jpeg> ;
+                    ns1:name "Burger Manufacture" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Buns artisanal, roquette, tomates séchées, Gorgonzola, poitrine fumée grillée, steak haché et sauce pesto maison. Servi avec frites maison." ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/60/d4/60d449d76466f.jpeg> ;
+                    ns1:name "Burger Giovanni" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Buns artisanal, steak haché, tomates, bacon, fromage à raclette et sauce au poivre maison. Servi avec frites maison." ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/60/d4/60d44a39d6b5b.jpeg> ;
+                    ns1:name "Burger René" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Buns artisanal, roquette, tomates, poulet mariné par nos soins, Cheddar Galloway et sauce mayonnaise revisitée maison. Servi avec frites maison." ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/60/d4/60d449f9b8e1b.jpeg> ;
+                    ns1:name "Burger Kali" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Buns artisanal, tomates, salade, steak haché, cheddar Galloway, oignons confits, bacon, sauce cocktail maison. Servi avec frites maison." ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/60/d4/60d449946b28c.jpeg> ;
+                    ns1:name "Burger Bacon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Buns artisanal, salade, tomates, pickles, oignons confits, Cheddar Galloway, steak végétal \"haricots rouges, mais, tomates, poivrons rouges\" et sauce cocktail maison. Servi avec frites maison." ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/60/d4/60d44a70d0a6f.jpeg> ;
+                    ns1:name "Burger végétarien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Buns artisanal, salade, tomates, pickles, maroilles,steak haché, poitrine fumée, oignons confits et sauce barbecue maison. Servi avec frites maison." ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/60/d4/60d44a57e76ca.jpeg> ;
+                    ns1:name "Burger Raoul" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ] ;
+            ns1:name "Burgers" ] .
+

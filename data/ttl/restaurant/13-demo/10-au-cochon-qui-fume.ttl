@@ -1,0 +1,45 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://demo.coopcycle.org/api/restaurants/10> a ns1:Restaurant ;
+    ns1:address <https://demo.coopcycle.org/api/addresses/60> ;
+    ns1:bannerImage "https://demo.coopcycle.org/placeholder/restaurant_banner/placeholders/9mKkZgydj3zR.jpg" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.883691e+01 ;
+            ns1:longitude 2.356649e+00 ] ;
+    ns1:image <https://demo.coopcycle.org/img/cuisine/default.jpg> ;
+    ns1:name "Au cochon qui fume" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "17:15" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "09:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "19:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://demo.coopcycle.org/en/restaurant/10-au-cochon-qui-fume" ] ] ;
+    ns1:sameAs <https://demo.coopcycle.org/en/restaurant/10-au-cochon-qui-fume> ;
+    ns1:url <https://demo.coopcycle.org/en/restaurant/10-au-cochon-qui-fume> .
+
+<https://demo.coopcycle.org/api/addresses/60> a ns1:PostalAddress ;
+    ns1:name "Au cochon qui fume" ;
+    ns1:streetAddress "Rue Pirandello 10, 75013 Paris" ;
+    ns1:telephone "+33891817134" .
+

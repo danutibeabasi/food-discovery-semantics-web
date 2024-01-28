@@ -1,0 +1,54 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://coursiersmontpellier.coopcycle.org/api/restaurants/97> a ns1:Restaurant ;
+    ns1:address <https://coursiersmontpellier.coopcycle.org/api/addresses/13786> ;
+    ns1:bannerImage "https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_banner/65/6d/656dbdf3013cd.png" ;
+    ns1:description """# Bienvenue chez SHAM BOURAK 🇸🇾🌯\r
+\r
+Découvrez la richesse de la cuisine syrienne au cœur de Montpellier. Chez SHAM BOURAK, chaque plat est une célébration des saveurs authentiques du Moyen-Orient.\r
+\r
+## Notre Menu 🍽️\r
+- **Mezzés** : Assortiment de petites bouchées méditerranéennes pour éveiller vos papilles.\r
+- **Bourak** : Nos fameux bouraks sont une invitation au voyage, croustillants et généreusement garnis.\r
+- **Grillades** : Savourez la finesse de nos grillades, mariages parfait entre épices et grillades.\r
+- **Desserts Orientaux** : Terminez votre repas sur une note sucrée avec nos pâtisseries traditionnelles.\r
+\r
+Nous nous réjouissons de vous accueillir et de partager avec vous un moment gourmand et convivial !""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.36208e+01 ;
+            ns1:longitude 3.87292e+00 ] ;
+    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/restaurant_thumbnail/65/46/6546a7bc42334.png> ;
+    ns1:name "SHAM BOURAK 🇸🇾🌯" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:40" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday" ;
+            ns1:opens "18:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:40" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://coursiersmontpellier.coopcycle.org/en/restaurant/97-sham-bourak" ] ] ;
+    ns1:sameAs <https://coursiersmontpellier.coopcycle.org/en/restaurant/97-sham-bourak> ;
+    ns1:url <https://coursiersmontpellier.coopcycle.org/en/restaurant/97-sham-bourak> .
+
+<https://coursiersmontpellier.coopcycle.org/api/addresses/13786> a ns1:PostalAddress ;
+    ns1:name "SHAM BOURAK 🇸🇾🌯" ;
+    ns1:streetAddress "74 Rue du Faubourg Boutonnet, 34090 Montpellier, France" ;
+    ns1:telephone "+33983668747" .
+

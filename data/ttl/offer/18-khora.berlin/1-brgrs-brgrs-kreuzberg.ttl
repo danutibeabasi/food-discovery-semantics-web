@@ -1,0 +1,223 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://khora.berlin/en/restaurant/1-brgrs-brgrs-kreuzberg> ns1:hasMenu <https://khora.berlin/en/restaurant/1-brgrs-brgrs-kreuzberg#menu> .
+
+<https://khora.berlin/en/restaurant/1-brgrs-brgrs-kreuzberg#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Gösser Natur Radler 0,5l" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Störtebecker Bio Kellerbier 0,5l" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Bio Lammsbräu 0,33l" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bayreuther Hell 0,5l" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Störtebecker Bio Freibier 0,5l" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Berliner Kindl 0,5l" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ] ;
+            ns1:name "Bier" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Glutenfree Bun / Glutenfreier Bun" ;
+                    ns1:name "GLUTENFREE BUN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Real Irish Cheddar from Ireland" ;
+                    ns1:name "IRISH CHEDDAR" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ] ;
+            ns1:name "EXTRAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Bio Proviant Orange 0,33l" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "SPRITE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "COCA COLA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "COCA COLA LIGHT" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bio Proviant Rhabarber 0,33l" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bio Proviant Apfelschorle 0,33l" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "COCA COLA ZERO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bio Proviant Zitrone Ingwer 0,33l" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "FANTA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.70" ] ] ;
+            ns1:name "Soft-Drinks" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Bio Bun, frische Bio Gurke, rote Zwiebeln, Saisonsalat, Radiesschensprossen, Sweet Chili Peanut\r
+Crunch, Bio Veggie Patty, Hausgemachte Mayo""" ;
+                    ns1:name "Bio Sprout Veggie Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bio Brot, Bio Beef, Saisonsalat, Ketchup, Senf, rote Zwiebeln, Gewürzgurken, hausgemachte Mayo,\r
+irischer Cheddar""" ;
+                    ns1:name "Cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bio-Brot, Bio Beef, BurgersBurgers-Soße, Saisonsalat, rote Zwiebeln, Gewürzgurken, Bacon,\r
+Uckermärkisches Bio-Spiegelei, irischer Cheddar, Schmorzwiebeln, hausgemachte Mayo""" ;
+                    ns1:name "Brgrs Brgrs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """mit Bio Beef, hausgemachter Whiskey-BBQ-Sauce, Schmorzwiebeln, frischem Meerrettich, irischem\r
+Cheddar und karamellisiertem Maple-Bacon""" ;
+                    ns1:name "Maple Bacon BBQ" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bio Brot, Bio Beef, Saisonsalat, BBQ Salsa, rote Zwiebeln, Jalapeños, Chiliflocken, irischer Cheddar,\r
+Knoblauch-Mayo""" ;
+                    ns1:name "Chili Cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bio Brot, Bio Beef, Saisonsalat, Ketchup, Senf, rote Zwiebeln, Gewürzgurken, hausgemachte Mayo" ;
+                    ns1:name "Classic" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bio Bun, Basilikum-Mayo, Rote Zwiebeln, Salat, Bacon, gegrillte Aubergine & Zucchini, Mozzarella,\r
+Pesto Rosso""" ;
+                    ns1:name "Bella Italia" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """250g Bio Beef, Double Irish Cheddar, Bio Brot, Saisonsalat, Ketchup, Senf, rote Zwiebeln, Gewürzgurken,\r
+hausgemachte Mayo""" ;
+                    ns1:name "Double Cheese Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bio Bun, Ketchup, Rote Zwiebeln, Doppelt Bacon, Doppelt irischer Cheddar, 2 Bio Spiegeleier aus der\r
+Uckermark""" ;
+                    ns1:name "Breakfast Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Handgemachter Bio Patty aus karamellisierten Erdnüssen, Haferflocken, Wurzelgemüse der Saison,\r
+orientalischen Gewürzen, Senf und Paprika""" ;
+                    ns1:name "Bio Veggie Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bio Brot, Bio Beef, Saisonsalat, Ketchup, Senf, rote Zwiebeln, Gewürzgurken, Bacon, hausgemachte\r
+Mayo""" ;
+                    ns1:name "Bacon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """mit Haferflocken, veganem Patty bestehend aus Bio-Wurzelgemüse, gebrannten Erdnüssen, orientalischen\r
+Gewürzen, Senf, roter und gelber Bio Paprika, Lollo Bionda, und hausgemachter Tomaten Salsa.""" ;
+                    ns1:name "Homemade Bio Vegan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Dark Beer Honey Boom" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ] ;
+            ns1:name "Burgers" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Ketchup" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Homemade Knoblauch-Mayo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Homemade Basilikum-Mayo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sweet Chilli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Sweet Apple BBQ" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Homemade Limetten-Creme-Fraiche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "hausgemachte Tomatenmarinara mit italienischen Gewürzen, Zitrone und einem Hauch Knoblauch·" ;
+                    ns1:name "Homemade Marinara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Homemade BBQ-Salsa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Homemade Mayo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Homemade BBQ-Salsa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ] ;
+            ns1:name "Saucen - Dips" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Fries eben." ;
+                    ns1:name "Fries" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sweet Potatoes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ] ;
+            ns1:name "Sides" ] .
+

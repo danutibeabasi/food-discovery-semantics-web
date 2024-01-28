@@ -1,0 +1,135 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiersbordelais.coopcycle.org/api/restaurants/28> ns1:hasMenu <https://coursiersbordelais.coopcycle.org/en/restaurant/28-deli-bretzel#menu> .
+
+<https://coursiersbordelais.coopcycle.org/en/restaurant/28-deli-bretzel#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Un format plus petit, idéal pour les buffets !" ;
+                    ns1:image <https://coursiersbordelais.coopcycle.org/media/cache/product_thumbnail/61/75/617541bd4d626.jpeg> ;
+                    ns1:name "BOX 10 PETITS EMMENTAL" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un format plus petit, idéal pour les buffets !" ;
+                    ns1:name "BOX 10 PETITS EMMENTAL LARDONS" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "BOX 10 PETITS CHEVRE MIEL" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "BOX 10 PETITS EMMENTAL & CHORIZO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un format plus petit, idéal pour les buffets !" ;
+                    ns1:name "BOX 10 PETITS FLEUR DE SEL" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "BOX CLASSIQUES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "BOX 4 BRIOCHES ROULEES CANNELLE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "BOX 10 BRETZELS CHOCOLAT BLANC" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 AU CHOCOLAT AU LAIT ET 5 AU CHOCOLAT BLANC" ;
+                    ns1:image <https://coursiersbordelais.coopcycle.org/media/cache/product_thumbnail/62/0e/620e3f79a0155.jpeg> ;
+                    ns1:name "BOX 10 BRETZELS CHOCOLAT ASSORTIMENT" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "BOX 10 SUCRE VANILLE" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "BOX 10 BRETZELS CHOCOLAT LAIT" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ] ;
+            ns1:name "BOX SUCREES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "10 petits bretzels salés au cheddar : 3 cheddar bacon grillé / 3 cheddar chorizo / 2 cheddar ail & fines herbes / 2 cheddar oignons frits" ;
+                    ns1:image <https://coursiersbordelais.coopcycle.org/media/cache/product_thumbnail/62/0e/620e3af616818.jpeg> ;
+                    ns1:name "BOX CHEDDAR LOVER" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 emmental & cheddar et 5 emmental lardons" ;
+                    ns1:name "BOX MIXTE" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "BOX D'HIVER" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ] ;
+            ns1:name "BOX ASSORTIMENTS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "BRETZEL FLEUR DE SEL" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersbordelais.coopcycle.org/media/cache/product_thumbnail/61/75/6175450fee545.jpeg> ;
+                    ns1:name "BRETZEL EMMENTAL LARDONS" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "BRETZEL EMMENTAL" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiersbordelais.coopcycle.org/media/cache/product_thumbnail/61/75/617545946da50.jpeg> ;
+                    ns1:name "BRETZEL CHEVRE MIEL" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "BRETZEL EMMENTAL CHORIZO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "BRETZEL MOZZARELLA PESTO" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "BRETZELS" ] .
+

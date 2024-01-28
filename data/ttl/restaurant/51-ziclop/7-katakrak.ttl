@@ -1,0 +1,38 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ziclop.coopcycle.org/api/restaurants/7> a ns1:Restaurant ;
+    ns1:address <https://ziclop.coopcycle.org/api/addresses/26> ;
+    ns1:description """Produktu ekologikoak eta garaikoak. Gertuko baratzekin, etxaldeekin eta mahastizainekin dugu harremana. Elikadura subirautzarekin, ekonomia sozial eraldatzailearekin eta ongi jateko tokiekin zirkuitu bat osatzen dugu. \r
+\r
+Productos ecológicos y de temporada. Huertas, granjas y bodegas cercanas. Somos parte de un circuito de pequeñas apuestas por la soberanía alimentaria, la economía alternativa y el buen comer.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.281752e+01 ;
+            ns1:longitude -1.648044e+00 ] ;
+    ns1:image <https://ziclop.coopcycle.org/media/cache/restaurant_thumbnail/62/6f/626f9b8580d9e.jpeg> ;
+    ns1:name "Katakrak" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:30" ;
+            ns1:dayOfWeek "Thursday",
+                "Wednesday" ;
+            ns1:opens "13:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday" ;
+            ns1:opens "20:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "es" ;
+                    ns1:urlTemplate "https://ziclop.coopcycle.org/en/restaurant/7-katakrak" ] ] ;
+    ns1:sameAs <https://ziclop.coopcycle.org/en/restaurant/7-katakrak> ;
+    ns1:url <https://ziclop.coopcycle.org/en/restaurant/7-katakrak> .
+
+<https://ziclop.coopcycle.org/api/addresses/26> a ns1:PostalAddress ;
+    ns1:name "Katakrak" ;
+    ns1:streetAddress "Calle Mayor, 54, 31001 Pamplona, España" ;
+    ns1:telephone "+34948225520" .
+

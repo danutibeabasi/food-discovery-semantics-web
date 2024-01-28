@@ -1,0 +1,194 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://beefast.coopcycle.org/api/restaurants/13> ns1:hasMenu <https://beefast.coopcycle.org/en/restaurant/13-l-adresse#menu> .
+
+<https://beefast.coopcycle.org/en/restaurant/13-l-adresse#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "3 Fromages / Pesto Verde / Cêpes / Crème d’ail / Crème / Pomodoro" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/60/1e/601e7c028c9f4.jpeg> ;
+                    ns1:name "Gnocchis sauce au choix" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cerneaux de noix, jambon de parme, copeaux de parmesan" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/60/1e/601e7ddd0d919.jpeg> ;
+                    ns1:name "Tagliatelles gorgonzola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/60/1e/601e7ebcb9327.jpeg> ;
+                    ns1:name "Tagliatelles aux noix de St Jacques" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 Fromages / Pesto Verde / Cêpes / Crème d’ail / Crème / Pomodoro" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/60/1e/601e7ed20e5f1.jpeg> ;
+                    ns1:name "Tagliatelles sauce au choix" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ] ;
+            ns1:name "Les Pâtes Bio" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pesto verde, saumon fumé, crevette" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/60/68/60683f115e0b0.jpeg> ;
+                    ns1:name "Bruschetta saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, Tomate, pignons de pin, tomates confites, coppa, san daniele, parmesan" ;
+                    ns1:name "Salade Italienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, tomate, toasts au chèvre, cerneaux de noix" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/60/1e/601e7f29c62d0.jpeg> ;
+                    ns1:name "Salade chèvre chaud" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ] ;
+            ns1:name "Les Salades 🥗" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/60/1e/601e7b5e05e75.jpeg> ;
+                    ns1:name "Risotto aux cèpes et truffe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Risotto aux cèpes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Risotto aux noix de St Jacques et au Safran" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.00" ] ] ;
+            ns1:name "Les Risottos" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozarella, blanc de volaille, oignon, poivron, chorizo, scarmozza" ;
+                    ns1:name "L’adresse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozarella, anchois, câpres, olives" ;
+                    ns1:name "Napolitaine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mascarpone, parme, mozzarella, salade" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/60/1e/601e7e26acbb4.jpeg> ;
+                    ns1:name "Pizza Italienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème fraiche, saumon frais, mozzarella, saumon fumé, citron" ;
+                    ns1:name "Pizza aux deux saumons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozarella, jambon, lardons, salame piquante, champignons frais, oeuf, olives" ;
+                    ns1:name "Royale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème fraiche, mozzarella, gorgonzola, chèvre, parmesan, origan" ;
+                    ns1:name "Quatre Fromages" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, Mozzarella, lardons, jambon, champignon frais, oeuf, origan" ;
+                    ns1:name "Paysane" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/60/1e/601e7e74c9d79.jpeg> ;
+                    ns1:name "San Daniele" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base blanche, mozzarella, saumon frais, St Jacques, poivrons, pesto" ;
+                    ns1:name "Pizza Del Marre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozarella, olives, origan, pesto" ;
+                    ns1:name "Margherita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozarella, jambon, champignon frais" ;
+                    ns1:name "Reine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozarella, champignon frais, poivron, oignons, tomate fraîche" ;
+                    ns1:name "Quatre saisons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozarella, merguez, poivron, olives, oeuf" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/60/1e/601e7cb7422e9.jpeg> ;
+                    ns1:name "Orientale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozarella, merguez, salame piquante, poivron, oeuf, origan" ;
+                    ns1:name "Vesuvio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème fraiche, mozzarella, gorgonzola, chèvre, parmesan, origan, Scarmoza" ;
+                    ns1:name "Cinq Fromages" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozarella, champignon frais, jambon, oeuf" ;
+                    ns1:name "Calzone (La soufflée)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Citron bio confit au gingembre et chapelure aux spéculoos et noix de pécan" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/63/61/6361745a460b0.jpeg> ;
+                    ns1:name "Spaghettis à la crème d'ail fumée" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.00" ] ] ;
+            ns1:name "Les Pizzas 🍕" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Coca Cola zéro (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Coca Cola (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Nero tavola terre sicilienne Vin Rouge (75cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€30.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Rosato del Veneti vin rosé (75cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Montepulciano d’Abruzzo vin rouge (75cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "San pellegrino (50cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Fuze tea pêche (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ] ;
+            ns1:name "Boissons" ] .
+

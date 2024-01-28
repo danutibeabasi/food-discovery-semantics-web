@@ -1,0 +1,44 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://sicklo.coopcycle.org/api/restaurants/72> a ns1:Restaurant ;
+    ns1:address <https://sicklo.coopcycle.org/api/addresses/28685> ;
+    ns1:bannerImage "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/6d/656dc5c030608.jpg" ;
+    ns1:description "Pizzas romaines à la part  certifiées biologiques, végétariennes (options véganes et/ou sans gluten) aux légumes de saison exclusivement. Information cruciale : Les pizzas sont livrées à température ambiante, nous vous suggérons donc fortement une fois la livraison réceptionnée, de mettre les pizzas à 200°C pendant au moins 5 minutes pour une meilleure croustillance (d'après une expertise auprès d'un cabinet de conseil indépendant le facteur plaisir est multiplié par 1,9 environ). Les parts se conservent sans problème le lendemain, le surlendemain voire sur des durées supérieures, en les stockant au frigo. Bonne dégustation et n'hésitez pas à nous mettre un super avis sur les réseaux, ou à nous faire un retour par mail pour que nous puissions nous améliorer." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.518704e+01 ;
+            ns1:longitude 5.712345e+00 ] ;
+    ns1:image <https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/64/3f/643ffd36cfec1.jpg> ;
+    ns1:name "Dragonne Pizza 🍕" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "20:00" ;
+            ns1:dayOfWeek "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:55" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:40" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "20:00" ;
+            ns1:dayOfWeek "Friday" ;
+            ns1:opens "18:55" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://sicklo.coopcycle.org/en/restaurant/72-dragonne-pizza" ] ] ;
+    ns1:sameAs <https://sicklo.coopcycle.org/en/restaurant/72-dragonne-pizza> ;
+    ns1:url <https://sicklo.coopcycle.org/en/restaurant/72-dragonne-pizza> .
+
+<https://sicklo.coopcycle.org/api/addresses/28685> a ns1:PostalAddress ;
+    ns1:name "Dragonne Pizza 🍕" ;
+    ns1:streetAddress "34 Rue Abbé Grégoire, 38000 Grenoble, France" ;
+    ns1:telephone "+33972616833" .
+

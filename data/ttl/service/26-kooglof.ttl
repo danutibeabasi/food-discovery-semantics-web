@@ -1,0 +1,20 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://kooglof.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "fr" ;
+                    ns1:addressLocality "Strasbourg" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 4.85833e+01 ;
+                    ns1:longitude 7.75e+00 ] ] ;
+    ns1:description "Livraison éco-locale, 100% strasbourgeoise !"@fr ;
+    ns1:name "Kooglof" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:sameAs <https://www.facebook.com/kooglof/>,
+        <https://www.instagram.com/kooglof_livraison/> ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://kooglof.coopcycle.org> .
+

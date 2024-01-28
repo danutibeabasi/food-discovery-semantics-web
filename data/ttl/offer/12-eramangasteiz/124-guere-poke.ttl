@@ -1,0 +1,173 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/124> ns1:hasMenu <https://eramangasteiz.coopcycle.org/en/restaurant/124-guere-poke#menu> .
+
+<https://eramangasteiz.coopcycle.org/en/restaurant/124-guere-poke#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Mucha Kombucha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cocacola Zero" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Agua" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cerveza 0% BOGA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "Bebidas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Cerveza Sin Gluten BOGA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cerveza La Salve" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "Bebidas Alcoholicas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Quinoa, heura, tofu, aguacate, cebolla roja, jengibre encurtido, tomate del país, almendra y salsa euskoriental." ;
+                    ns1:name "Ortua" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.35" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Quinoa, base ligera de hummus, heura, tofu, tomate del país, cebolla roja, aguacate, sésamo y salsa soja crítica." ;
+                    ns1:name "Lurra" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.35" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Arroz, salmón, atún Alakrana, cebolla roja, zanahoria, mango, cebolla frita y salsa miel mostaza." ;
+                    ns1:name "Itsasoa" ;
+                    ns1:nutrition "Fish",
+                        "Milk",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.35" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Arroz, atún Alakrana, heura, pepino, zanahoria, aguacate, wakame, cebolla frita y salsa de soja roja" ;
+                    ns1:name "Indartsu" ;
+                    ns1:nutrition "Fish",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.35" ] ] ;
+            ns1:name "Pokes KM .0" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Bacalao con pìmientos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Quinoa y lechuga de caserío, salmón ahumado Keia, tomate del país, cebolla, aceituna negra, zanahoria, cebolla frita, sésamo y salsa miel mostaza." ;
+                    ns1:name "Salmón costa vasca" ;
+                    ns1:nutrition "Fish",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lechuga de caserío, atún Echebastar, piparritas, anchoa Arroyabe, huevitos de codorniz, pepinillo, aceituna picada, cebolla frita, sésamo y salsa vinagreta." ;
+                    ns1:name "Gilda" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Fish",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Arroz, bonito Arroyabe, cebolla roja, patata cocida con pimentón de la Vera, pimiento verde y rojo, cebolla frita, sésamo y salsa euskoriental." ;
+                    ns1:name "Marmitako" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Pokes Gourmet" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Cookie de chocolate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Palmera multicereal" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Palmera de chocolate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Donutx Fit&Goxo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cookie de granola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.90" ] ] ;
+            ns1:name "Postres" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Base de arroz o quinoa, lechuga de caserío, ternera marinada, maíz, aceituna negra, queso fundido, salsa miel mostaza y picante suave." ;
+                    ns1:name "Txahala marinada" ;
+                    ns1:nutrition "Milk",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base de arroz o quinoa, lechuga de caserío, pollo picante, pimiento verde, cebolla, maíz, queso fundido, salsa euskoriental y miel mostaza." ;
+                    ns1:name "Pollo picante" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Mustard",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base de arroz o quinoa, lechuga de caserío, cordero desmigado, cebolla, pimiento rojo asado, queso fundido, salsa teriyaki y picante suave." ;
+                    ns1:name "Cordero" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base de arroz o quinoa, lechuga de caserío, txerri al horno, cebolla, pepinillo, queso fundido, salsa miel mostaza y teriyaki." ;
+                    ns1:name "Txerri al horno" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Mustard",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Hot Poke" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Guacamole casero con tomate, cebolla roja y lima, con nachos de maíz para dipear." ;
+                    ns1:name "Guacamole y Natxotalo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Hummus de garbanzo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Entrantes" ] .
+

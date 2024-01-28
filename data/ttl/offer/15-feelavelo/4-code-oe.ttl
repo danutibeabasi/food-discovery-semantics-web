@@ -1,0 +1,281 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://feelavelo.coopcycle.org/api/restaurants/4> ns1:hasMenu <https://feelavelo.coopcycle.org/en/restaurant/4-code-oe#menu> .
+
+<https://feelavelo.coopcycle.org/en/restaurant/4-code-oe#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "L'eau phare de Bretagne + bouteille consignée 1€" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/e1/5ee1100578701.jpg> ;
+                    ns1:name "Plancoët fines bulles (50cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "L'Apothicaire, Clohars-Carnoët" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/b4/5fb4f6db68249.jpg> ;
+                    ns1:name "Cidre 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boisson à base de thé fermenté, naturellement pétillante et faible en sucre. Il contient des antioxydants et des acides organiques. Choisissez votre parfum !" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/fd/5ffdcf3a20dd0.jpeg> ;
+                    ns1:name "Kombucha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pomme, banane, basilic" ;
+                    ns1:name "Jus du moment" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Limonade au gingembre, sans alcool" ;
+                    ns1:name "Ginger beer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "L'Apothicaire · Clohars Carnoët 29" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5d/a4/5da4eb834ac1c.jpg> ;
+                    ns1:name "Jus de pomme" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Boissons fraîches" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/62/4a/624ab7adea6ec.jpeg> ;
+                    ns1:name "Thé noir Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sans théine, au bon goût mentholé, super local ! (Jardin Partagé de Keryado, Lorient 56)" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5d/a4/5da4f31a5c534.jpg> ;
+                    ns1:name "Thé de Keryado" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nature (La Compagnie d'Oriant)" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/62/4a/624ab9763ed2f.jpeg> ;
+                    ns1:name "Rooibos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/62/4a/624ab91961fd4.jpeg> ;
+                    ns1:name "Thé vert Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Thés & infusions" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Chèvre des Trois Bergers, concassée de tomates, aubergine grillée\r
+Trois triangles de pain grillé : régulièrement, une nouvelle recette !""" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/62/27/622711b742ce1.jpeg> ;
+                    ns1:name "Grilled cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Plat et soupe du jour disponible à partir de 11h30 !" ;
+                    ns1:name "À venir..." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ] ;
+            ns1:name "Salé" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """250g \r
+Chocolat noir, et lait, cacao\r
+Noisettes, huile de tournesol, sucre blond""" ;
+                    ns1:name "Pâte à tartiner maison" ;
+                    ns1:nutrition "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """À offrir et déguster sur place dès la réouverture de Code Ø ! \r
+[entrée + plat + dessert]""" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/cf/5fcf659d8afdc.jpg> ;
+                    ns1:name "Bon cadeau \"DÉJEUNER\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """24h frais/ 12h chaud\r
+Sans BPA \r
+Plusieurs motifs disponibles""" ;
+                    ns1:name "Gourde isotherme à motifs CHILLY'S 500ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€29.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Cup en bambou recyclé CODE Ø\r
+Plusieurs couleurs et motifs disponibles""" ;
+                    ns1:name "Ecoffee cup 400ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pot de 400g (Noisettes, amandes, flocons d'avoine, quinoa, huile de tournesol, miel)" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/b6/5fb6558f532e3.jpeg> ;
+                    ns1:name "GRANOLA" ;
+                    ns1:nutrition "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pour vivre autrement le Morbihan !\r
+Astuces, adresses en faveur du climat  Edition 2021\r
+"ClimActions je m'engage\"""" ;
+                    ns1:name "Le guide l'Ecolocal" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thé de Keryado : plante locale de type calament, légèrement mentholée pour une infusion sans théine, stimulant intellectuel." ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/c7/5fc76e5806ce3.jpeg> ;
+                    ns1:name "THÉ DE KERYADO vrac" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """24h frais / 12h chaud \r
+Sans BPA \r
+Plusieurs couleurs disponibles""" ;
+                    ns1:name "Gourde isotherme unie 500ml CHILLY'S" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """CUP en bambou recyclé CODE Ø\r
+Plusieurs couleurs et motifs disponible""" ;
+                    ns1:name "Ecoffee cup 250ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """L'emblématique carrot cake de Code Ø ou cheescake citron, tarte chocolat, tarte citron meringuée... sur commande la veille pour le lendemain !\r
+*** UNIQUEMENT EN CLICK&COLLECT *** Apporter votre contenant, merci ! ***""" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/9c/5f9c5b5f0d8f6.jpg> ;
+                    ns1:name "GÂTEAU ENTIER" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€30.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "À offrir et déguster sur place dès la réouverture de Code Ø un dimanche de brunch !" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/cf/5fcf653c0f824.jpeg> ;
+                    ns1:name "Bon cadeau \"BRUNCH\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vous ajoutez juste le vin rouge, et vous avez tout ce qu'il faut dans une bouteille pour faire un litre de vin chaud ! À offrir ou à s'offrir 👌" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/aa/5faa8e2d09877.jpeg> ;
+                    ns1:name "KIT VIN CHAUD" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Cuillère, couteau, fourchette, et paille en bambou de développement durable \r
+Produits naturels et réutilisables\r
+Goupillon à paille inclus \r
+Lavage à la main \r
+"Joli Monde\"""" ;
+                    ns1:name "Set de couverts Zéro déchet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """CUP en bambou recyclé CODE Ø\r
+Plusieurs couleurs et motifs disponibles""" ;
+                    ns1:name "Ecoffee cup 340ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "BOUTIQUE" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Lait + sirop maison de thé noir aux épices + mousse de lait (Nevannen . Pont Scorff 56) * Option lait végétal + 0,5€" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/a8/5ea843b7500f6.jpg> ;
+                    ns1:name "Chai Latte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lait épicé au curcuma et gingembre, miel + mousse de lait (Nevannen . Pont Scorff 56) * Option lait végétal + 0,5€" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/61/de/61de87784eafb.jpeg> ;
+                    ns1:name "Golden latte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chocolat chaud maison au lait fermier (Nevannen, Pont-Scorff 56) * Option lait végétal" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/e1/5ee10f6574d73.jpg> ;
+                    ns1:name "Chocolat chaud maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Boissons chaudes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Expresso (Café d'Oriant) + petite mousse de lait fermier (Nevannen, Pont-Scorff 56) + petit pot en verre consigné 1€" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5d/a4/5da4ebd284d71.jpg> ;
+                    ns1:name "Macchiato" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Café d'Oriant + petit pot en verre consigné 0,5€" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5d/a4/5da4eb37f3ebc.jpg> ;
+                    ns1:name "Expresso" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un shot d'expresso (Café d'Oriant) + chocolat chaud maison au lait fermier (Nevannen, Pont-Scorff 56) * Option lait végétal + 0,5€" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/e7/5ee7921e83d8f.jpg> ;
+                    ns1:name "Moccaccino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Deux shots d'expresso (Café d'Oriant) + fine mousse de lait fermier (Nevannen, Pont-Scorff 56) * Option lait végétal + 0,5€" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5d/a4/5da4f180c3b42.jpg> ;
+                    ns1:name "Flat white" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Café d'Oriant + petit pot en verre consigné 1€" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5d/a4/5da4dfd68a4d6.jpg> ;
+                    ns1:name "Double expresso" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un shot d'expresso (Café d'Oriant) + lait + fine mousse de lait fermier (Nevannen, Pont-Scorff 56) * Option lait végétal + 0,5€" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5d/a4/5da4ec6e0c27f.jpg> ;
+                    ns1:name "Cappuccino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lait + un shot d'expresso (Café d'Oriant) + mousse de lait fermier (Nevannen, Pont-Scorff 56) * Option lait végétal + 0,5€" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5d/a4/5da4ed023ed4b.jpg> ;
+                    ns1:name "Latte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Café allongé (Café d'Oriant) + petit pot en verre consigné 1€" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5d/a4/5da496aa43baf.jpg> ;
+                    ns1:name "Americano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "Cafés" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Fromage blanc de chèvre, pommes caramelisees (consigne 1€)" ;
+                    ns1:name "Dessert du jour" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Muffin au miel" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5d/9b/5d9b0c0a93c84.jpg> ;
+                    ns1:name "Muffin" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "chocolat - amande - noisette" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5d/9b/5d9b0ba78d408.jpg> ;
+                    ns1:name "Cookie Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/e7/5ee793011da82.jpg> ;
+                    ns1:name "Carrot cake" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cake banane / chocolat" ;
+                    ns1:name "Cake du jour" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Sucré" ] .
+

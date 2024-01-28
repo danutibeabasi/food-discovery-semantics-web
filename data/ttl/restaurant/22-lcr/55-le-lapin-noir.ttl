@@ -1,0 +1,45 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lcr.coopcycle.org/api/restaurants/55> a ns1:Restaurant ;
+    ns1:address <https://lcr.coopcycle.org/api/addresses/43281> ;
+    ns1:bannerImage "https://lcr.coopcycle.org/media/cache/restaurant_banner/65/6e/656e4de72964d.png" ;
+    ns1:description """🤌Cuisine maison et végétale\r
+🍔🌱 Burgers / frites / Buddha bowling""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.811095e+01 ;
+            ns1:longitude -1.677497e+00 ] ;
+    ns1:image <https://lcr.coopcycle.org/media/cache/restaurant_thumbnail/65/11/6511ebed978cb.jpg> ;
+    ns1:name "Le Lapin Noir" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:40" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "19:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:45" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:55" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://lcr.coopcycle.org/en/restaurant/55-le-lapin-noir" ] ] ;
+    ns1:sameAs <https://lcr.coopcycle.org/en/restaurant/55-le-lapin-noir> ;
+    ns1:url <https://lcr.coopcycle.org/en/restaurant/55-le-lapin-noir> .
+
+<https://lcr.coopcycle.org/api/addresses/43281> a ns1:PostalAddress ;
+    ns1:name "Le Lapin Noir" ;
+    ns1:streetAddress "2 Rue du Vau Saint-Germain, Rennes, France" ;
+    ns1:telephone "+33603827414" .
+

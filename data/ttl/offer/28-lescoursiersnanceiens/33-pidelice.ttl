@@ -1,0 +1,221 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lescoursiersnanceiens.coopcycle.org/api/restaurants/33> ns1:hasMenu <https://lescoursiersnanceiens.coopcycle.org/en/restaurant/33-pidelice#menu> .
+
+<https://lescoursiersnanceiens.coopcycle.org/en/restaurant/33-pidelice#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Un riz à couper le souffle ! Aubergine farcie d'une préparation de viande hachée et de légumes. Accompagné d’une salade sensationnelle." ;
+                    ns1:image <https://lescoursiersnanceiens.coopcycle.org/media/cache/product_thumbnail/61/41/6141cc340c341.jpeg> ;
+                    ns1:name "Jenna l'aubergine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un riz à couper le souffle toujours ! Courgette cette fois, farcie d'une préparation de viande hachée et de légumes. Accompagné d’une salade sensationnelle." ;
+                    ns1:image <https://lescoursiersnanceiens.coopcycle.org/media/cache/product_thumbnail/61/41/6141cc5ab5082.jpeg> ;
+                    ns1:name "Doudou la Courgette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ] ;
+            ns1:name "Les plats de Mama" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Poulet, crème, poivrons, curry, ras el hanout et mozarella Senteurs indiennes… Un voyage gustatif en orient. Un snack pidélicieux à base de poulet rôti garni de ses lamelles de poivron mariné au curry et Ras El Hanout… Mozzarella et une exquise sauce à la crème assaisonnée." ;
+                    ns1:image <https://lescoursiersnanceiens.coopcycle.org/media/cache/product_thumbnail/61/41/6141ca906dce7.jpeg> ;
+                    ns1:name "Bérenger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella, féta, chèvre, miel, noix, thym. Une recette délicieuse aux saveurs sucrées-salées… Ce Pidélice végétarien ravira vos papilles avec ses trois fromages, Mozzarella, fêta et chèvre, des éclats de noix fraîches, du thym et une savoureuse sauce au miel…" ;
+                    ns1:image <https://lescoursiersnanceiens.coopcycle.org/media/cache/product_thumbnail/61/41/6141c8b4ddaf1.jpeg> ;
+                    ns1:name "Céline" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Aubergine, courgette, poivrons, tomate, oignon rouge, persil, mozzarella Tia est craquante et si douce… C’est une délicieuse recette végétarienne d’un panier de légumes préparés avec attention pour le plaisir de vos papilles." ;
+                    ns1:image <https://lescoursiersnanceiens.coopcycle.org/media/cache/product_thumbnail/61/41/6141c881544e4.jpeg> ;
+                    ns1:name "Tia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Préparation viande hachée, cheddar, tomate, oignon, sauce burger maison Sans doutes l’un de nos Pidélices les plus appréciés. Contribution à notre carte d’un de nos premiers Pidélicieux, le petit Luke, 11 ans. De la viande de boeuf hachée et assaisonnée avec soin,, du cheddar frais, des tomates et oignons frits… Le tout accompagné d’une délicieuse sauce burger faite maison." ;
+                    ns1:image <https://lescoursiersnanceiens.coopcycle.org/media/cache/product_thumbnail/61/41/6141c854347bc.jpeg> ;
+                    ns1:name "Luke" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella, féta, fromage de kasar, chèvre Vous avez dit fromage ? Alex s’en charge ! Tu prends un fromage italien, un fromage grec, un fromage turc et un fromage français. Le tout dans votre pâte magique." ;
+                    ns1:image <https://lescoursiersnanceiens.coopcycle.org/media/cache/product_thumbnail/61/41/6141ca114a792.jpeg> ;
+                    ns1:name "Alex" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozarella, féta, saumon fumé, citron, aneth. Deniz est une charmante collation qui a ni plus ni moins décidé de s’installer à la carte… Ce pidélice à la pâte croustillante et moelleuse recèle de véritables surprises pour vos papilles. Saumon fumé assaisonné de citron et d’aneth, généreusement garni de crème, de Mozzarella et de fêta." ;
+                    ns1:image <https://lescoursiersnanceiens.coopcycle.org/media/cache/product_thumbnail/61/41/6141c9b653e4b.jpeg> ;
+                    ns1:name "Deniz" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Pidélices" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Mousse au chocolat maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lait bio, coulis de framboise ou coulis de mangue Un petit plaisir équilibré… Un onctueux yaourt maison, au lait bio, accompagné d’un savoureux coulis de framboise ou de mangue…" ;
+                    ns1:image <https://lescoursiersnanceiens.coopcycle.org/media/cache/product_thumbnail/61/41/6141cdf1bcc3e.jpeg> ;
+                    ns1:name "Yaourt Maison Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Farine bio, chocolat, éclats de noix. Une part d’un délicieux gâteau fait maison, à base de farine bio, chocolat et éclats de noix… Un moelleux et un fondant incomparables." ;
+                    ns1:image <https://lescoursiersnanceiens.coopcycle.org/media/cache/product_thumbnail/61/41/6141cdc4cd676.jpeg> ;
+                    ns1:name "Choconoir-noix" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Oasis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersnanceiens.coopcycle.org/media/cache/product_thumbnail/61/41/6141ce5c03b35.jpeg> ;
+                    ns1:name "Thé glacé maison pêche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Eau minéral Evian" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Thé glacé maison passion" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Thé glacé maison cassis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Galvanina Bio Orange Sanguine 35cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Galvanina Bio Cola 35cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Thé glacé maison cassis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Galvanina Bio Limonade 35cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Eau pétillante Perrier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Galvanina Bio Gingembre 35cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Thé glacé maison Fleur de sureau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Thé glacé maison passion" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Galvanina Bio Citronnade 35cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Thé glacé maison Violette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Galvanina Bio Pamplemousse Rose 35cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Goûtez notre incontournable soupe de lentille recette maman !" ;
+                    ns1:image <https://lescoursiersnanceiens.coopcycle.org/media/cache/product_thumbnail/61/41/6141ccdc6b512.jpeg> ;
+                    ns1:name "Soupe lentille corail recette maman" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Salade & Soupidélices" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Saucisse de bœuf, mozzarella, féta, olive verte. Un incontournable aux saveurs traditionnelles… Le Sultan, comme son nom l’indique est inspiré des recettes traditionnelles mêlant différentes saveurs du bassin méditerranéen… La saucisse traditionnelle Suçuk à la viande de boeuf, garnie d’olives vertes et accompagné de mozzarella et de feta." ;
+                    ns1:image <https://lescoursiersnanceiens.coopcycle.org/media/cache/product_thumbnail/61/41/6141cb7e5da0f.jpeg> ;
+                    ns1:name "Sultan authentique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Aubergine, courgette, poivrons, tomate, oignon rouge, persil, mozzarella" ;
+                    ns1:image <https://lescoursiersnanceiens.coopcycle.org/media/cache/product_thumbnail/61/41/6141cbb9d579b.jpeg> ;
+                    ns1:name "Tia authentique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella, féta, persil, paprika. Un pidélice plaisir, pour nos amis végétariens. Une recette délicieuse et toute en simplicité… Mozzarella, fêta, du persil frais… Le tout saupoudré de papryka…" ;
+                    ns1:image <https://lescoursiersnanceiens.coopcycle.org/media/cache/product_thumbnail/61/41/6141cb1a84cd9.jpeg> ;
+                    ns1:name "Martin authentique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet, crème, poivrons, curry, ras el hanout et mozarella. Senteurs indiennes… Un voyage gustatif en orient. Un snack pidélicieux à base de poulet rôti garni de ses lamelles de poivron mariné au curry et Ras El Hanout… Mozzarella et une exquise sauce à la crème assaisonnée." ;
+                    ns1:image <https://lescoursiersnanceiens.coopcycle.org/media/cache/product_thumbnail/61/41/6141cae4717ad.jpeg> ;
+                    ns1:name "Bérenger authentique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Pidélices Authentiques" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Communément appelé le Lahmacun, la légende dit qu’il est l’ancêtre de la pizza. Les ingrédients sont finement hachés et dosés pour rejoindre une finesse de pâte qui croustille plus encore. Rajoutez persil et oignon, puis du citron, wrappez et appréciez celui qu’on appelle aussi la pizza turque." ;
+                    ns1:image <https://lescoursiersnanceiens.coopcycle.org/media/cache/product_thumbnail/61/41/6141cbfcefc95.jpeg> ;
+                    ns1:name "Le Pidé Pidz" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ] ;
+            ns1:name "Pidés Pidz" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Boulgour et sa sauce blanche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Riz pilaf et sa sauce blanche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Aubergine grillée au four, yaourt, ail" ;
+                    ns1:name "Aubergine au yaourt" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, concombre, oignon rouge, poivron, persil" ;
+                    ns1:name "Salade bergère" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Combo de légumes assaisonnées finement hachées (tomate, poivron, oignon rouge, persil)" ;
+                    ns1:image <https://lescoursiersnanceiens.coopcycle.org/media/cache/product_thumbnail/61/41/6141cda66567f.jpeg> ;
+                    ns1:name "Ezmé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Il sera une des entrées préparée à base d’un onctueux yaourt, de concombre bio ainsi que de fines herbes." ;
+                    ns1:image <https://lescoursiersnanceiens.coopcycle.org/media/cache/product_thumbnail/61/41/6141cd84374ec.jpeg> ;
+                    ns1:name "Tzatziki (Cacik)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Accompagnements" ] .
+

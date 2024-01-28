@@ -1,0 +1,51 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://naofood.coopcycle.org/api/restaurants/93> a ns1:Restaurant ;
+    ns1:address <https://naofood.coopcycle.org/api/addresses/61648> ;
+    ns1:bannerImage "https://naofood.coopcycle.org/media/cache/restaurant_banner/61/d1/61d194d21890f.jpg" ;
+    ns1:description "Your favorite Korean food in town ! Dakoo propose des plats, des finger food et des boissons issus de la street food coréenne. Nos plats sont fait maison et cuisinés par notre cheffe, Yeongun !" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.72134e+01 ;
+            ns1:longitude -1.55337e+00 ] ;
+    ns1:image <https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/61/d1/61d194d21890f.jpg> ;
+    ns1:name "DAKOO" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:45" ;
+            ns1:dayOfWeek "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:55" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:45" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:55" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:15" ;
+            ns1:dayOfWeek "Sunday" ;
+            ns1:opens "18:55" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday" ;
+            ns1:opens "18:55" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://naofood.coopcycle.org/en/restaurant/93-dakoo" ] ] ;
+    ns1:sameAs <https://naofood.coopcycle.org/en/restaurant/93-dakoo> ;
+    ns1:url <https://naofood.coopcycle.org/en/restaurant/93-dakoo> .
+
+<https://naofood.coopcycle.org/api/addresses/61648> a ns1:PostalAddress ;
+    ns1:name "DAKOO" ;
+    ns1:streetAddress "17 Rue Bon Secours, 44000 Nantes, France" ;
+    ns1:telephone "+33272021596" .
+

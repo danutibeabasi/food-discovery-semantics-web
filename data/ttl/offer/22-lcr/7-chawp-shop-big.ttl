@@ -1,0 +1,178 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lcr.coopcycle.org/api/restaurants/7> ns1:hasMenu <https://lcr.coopcycle.org/en/restaurant/7-chawp-shop-big#menu> .
+
+<https://lcr.coopcycle.org/en/restaurant/7-chawp-shop-big#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Billes de tapioca au lait de coco" ;
+                    ns1:name "Mama Coco 🥥" ;
+                    ns1:nutrition "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz gluant au lait de coco sucré, carpaccio de fruits, espuma de lait de coco et graines de sésame grillées" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/41/604122710d1f2.jpeg> ;
+                    ns1:name "Rice Coco 🍚" ;
+                    ns1:nutrition "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Pana Cotta Thaï ☕️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ] ;
+            ns1:name "Sucré" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Nouilles de riz larges, broccolis, sauce soja à l’ail, viande au choix
+\r
+💚 Disponible en contenant consigné""" ;
+                    ns1:name "Phad See Ew 🍜" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Notre version du Bo Bun : Salade, vermicelles de riz, pousses de soja, sauce curry citronnelle, concombre, cacahuètes, menthe, nems
+\r
+💚 Disponible en contenant consigné""" ;
+                    ns1:name "Chawp Bun 🥗" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Fish",
+                        "Milk",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/41/60411f25e9df2.jpeg> ;
+                    ns1:name "Kaeng Kari 🥘 🌶" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Plat traditionnel thaïlandais à base de nouilles de riz, pousses de soja, oeuf brouillé, sauce tamarin, oignons frits, ciboulette, coriandre, cacahuètes grillées et citron vert
+\r
+💚 Disponible en contenant consigné""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/41/60411db697a3e.jpeg> ;
+                    ns1:name "Phad Thaï 🍜" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Fish",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ] ;
+            ns1:name "Les salés" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/8f/608ffc9da8c40.jpeg> ;
+                    ns1:name "Evian 40 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/8f/608ffbe178207.jpeg> ;
+                    ns1:name "Jus de coco 33 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/8f/608ffc272c495.jpeg> ;
+                    ns1:name "Ginger beer 33 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/8f/608ffab727f85.jpeg> ;
+                    ns1:name "Jus de mangoustan 33 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/8f/608ffb15adef3.jpeg> ;
+                    ns1:name "Jus de grenade 33 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/92/60926a092b71f.jpeg> ;
+                    ns1:name "jus de tamarin 33 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Sans Alcool" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Raviolis farcis aux légumes et tofu, cuisson vapeur puis grillé à la plancha avec une sauce maison (x4)" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/41/60411e8b4f717.jpeg> ;
+                    ns1:name "Gyozas 🥟" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Riz gluant" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade épicée thaï de carottes, oeuf dur, mayo sriracha, cacahuètes" ;
+                    ns1:name "Oeuf mayo" ;
+                    ns1:nutrition "Eggs",
+                        "Fish",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Bao Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nouilles de blé sautées à la sauce soja" ;
+                    ns1:name "Nouilles" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petit riz sauté à l'oeuf bio" ;
+                    ns1:name "Riz sauté" ;
+                    ns1:nutrition "Eggs",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nems aux légumes (x3) avec sauce nem maison" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/41/604121c71c6f8.jpeg> ;
+                    ns1:name "Nems 🥡" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Milk",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz nature" ;
+                    ns1:name "Riz" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Patates" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ] ;
+            ns1:name "Les petits salés" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bière blonde thaïlandaise" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/92/60927eb336b15.jpeg> ;
+                    ns1:name "Singha 33 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière blonde chinoise" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/60/8f/608ffe4e2a7c1.jpeg> ;
+                    ns1:name "Tsingtao 33 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Alcool" ] .
+

@@ -1,0 +1,214 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://ziclop.coopcycle.org/api/restaurants/34> ns1:hasMenu <https://ziclop.coopcycle.org/en/restaurant/34-ezpala-taberna#menu> .
+
+<https://ziclop.coopcycle.org/en/restaurant/34-ezpala-taberna#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Tortillitas de camaron // Ganba-patak" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Fingers pollo // Behatzak pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Patatas bravas alioli // Bravas patata aliolia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Mini rollitos de primavera // Udaberriko erroiluak" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tipula eraztunak // Aritos de cebolla" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ensalada de semana // Asteko entsalada" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Rabas alioli // Txipiroi eraztunak alioli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jalapeños rellenos queso // Gazta beteak jalapeñoak" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "Para Picar // Merienda Egiteko" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Panini con peperoni y con base de mozarella, tomate triturado y oregano // Panini pepperoni eta mozzarella oinarriarekin, tomate birrindua eta oreganoa" ;
+                    ns1:name "Panini peperoni // Pepperoni ogitartekoak" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Panini de jamon york y txampis con base de mozarella, tomate triturado y oregano // York urdaiazpikoa eta txampis panini mozarella oinarriarekin, tomate birrindua eta oreganoarekin" ;
+                    ns1:name "Jamon york txampis // Yorkeko urdaiazpiko txampiak" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Panini de queso de cabra con jamon y nueces con base de mozarella, tomate triturado y oregano // Ahuntz gazta panini urdaiazpiko eta intxaurrekin mozzarella, tomate birrindua eta oreganoan oinarrituta" ;
+                    ns1:name "Panini cabra // Panini ahuntza" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Panini de mozarella di bufala fresca y pesto con base de mozarella, tomate triturado y oregano // Buffalo mozzarella freskoa eta pesto panini mozzarella oinarriarekin, tomate birrindua eta oreganoarekin" ;
+                    ns1:name "Capresse" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "Paninis // Paniniak" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Hamburguesa de txuleton de potro con mahonesa, lechuga, tomate, queso, cebolla crujiente. Acompañado de patatas fritas // Foal txuleta hanburgesa maionesa, letxuga, tomatea, gazta, tipula kurruskaria. Patata frijituekin lagunduta" ;
+                    ns1:name "Potro" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Hamburguesa de zanahoria con mahonesa, lechuga, tomate, queso, cebolla crujiente. Acompañado de patatas fritas. // Azenario hanburgesa maionesa, letxuga, tomatea, gazta, tipula kurruskaria. Patata frijituekin lagunduta." ;
+                    ns1:name "Zanahoria // Azenarioa" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Hamburguesa de vaca con panceta, huevo frito y queso . Acompañado de patatas fritas. // Behi hanburgesa hirugiharra, arrautza frijitua eta gazta. Patata frijituekin." ;
+                    ns1:name "Burger especial // Hanburgesa berezia" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Hamburguesa de vaca con mahonesa, lechuga, tomate, queso, cebolla crujiente. Acompañado de patatas fritas // Behi hanburgesa maionesa, letxuga, tomatea, gazta, tipula kurruskaria. Patata frijituekin lagunduta" ;
+                    ns1:name "Vaca // Behia" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Hamburguesa de costillas de cerdo a baja temperatura, desilachadas con salsa barbacoa. Acompañado de patatas fritas // Tenperatura baxuko txerri saiheskia hanburgesa, barbakoa saltsarekin birrindua. Patata frijituekin lagunduta" ;
+                    ns1:name "Pulled Pork // Tiratutako Txerrikia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ] ;
+            ns1:name "Hamburguesas // Hanburgesak" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "COCA COLA LATA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "CERVEZA MAHOU SIN GLUTEN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "RED BULL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "BATIDO CHOCOLATE KAIKU" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "CERVEZA SAN MIGUEL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "AQUARIUS NARANJA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "AQUARIUS LIMON" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Trigo 50 cl" ;
+                    ns1:name "CERVEZA ERDINGER" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Hazy Double IPA" ;
+                    ns1:name "CERVEZA MITIKA DEBRU ARTESANA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "COCA COLA ZERO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "BIO SOLAN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "NESTEA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Agua, MALTA, lúpulo y levadura. SIN GLUTEN" ;
+                    ns1:name "CERVEZA ARTESANAL LAGER INDAR GORRI" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "BEBIDAS // EDARIAK" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Jamon asado tximitxurri // Urdaiazpiko tximitxurri errea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bocadillo de lomo, jamon, pimiento verde y berenjena  // Solomo, urdaiazpiko, piper berdea eta berenjena ogitartekoa" ;
+                    ns1:name "Bocadillo de lomo // Solomo ogitartekoa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bocadillo de rabas alioli // Txipiroi eraztunak alioli" ;
+                    ns1:nutrition "Crustaceans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pechuga de pollo con cebolla crujiente, pimiento verde y salsa roquefort // Oilasko bularkia tipula kurruskariarekin, piper berdearekin eta Roquefort saltsarekin" ;
+                    ns1:name "Menetri // Ministroa" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pechuga panceta alioli y queso // Bacon bularkia aioli eta gaztarekin" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Txistorra con pimiento verde // Txistorra piper berdearekin" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Bocadillos // Ogirarteko beroak" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Brochetas de pollo marinadas acompañadas con salsa de yogurt // Oilasko pintxo marinatuak jogurt saltsarekin lagunduta" ;
+                    ns1:name "Brocheta de pollo al curry // Oilasko curry pintxoa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Brocheta de cordero con chimichurri // Arkume brotxeta chimichurriarekin" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ] ;
+            ns1:name "Brochetas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Tarta de zanahoria // Azenario tarta" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Queso con membrillo // Irasagarra gazta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Postres // Postreak" ] .
+

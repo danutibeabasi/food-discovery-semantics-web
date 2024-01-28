@@ -1,0 +1,40 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://coursiersbordelais.coopcycle.org/api/restaurants/28> a ns1:Restaurant ;
+    ns1:address <https://coursiersbordelais.coopcycle.org/api/addresses/15450> ;
+    ns1:description "Entre Strasbourg & New-York, découvrez DELI BRETZEL, à Bordeaux, un comptoir à bretzels, restaurant & coffee-shop !" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.48325e+01 ;
+            ns1:longitude -5.71536e-01 ] ;
+    ns1:image <https://coursiersbordelais.coopcycle.org/media/cache/restaurant_thumbnail/61/9e/619e07a853684.jpeg> ;
+    ns1:name "DELI BRETZEL" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "16:00" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Wednesday" ;
+            ns1:opens "10:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "17:00" ;
+            ns1:dayOfWeek "Saturday" ;
+            ns1:opens "11:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:00" ;
+            ns1:dayOfWeek "Monday",
+                "Tuesday" ;
+            ns1:opens "09:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://coursiersbordelais.coopcycle.org/en/restaurant/28-deli-bretzel" ] ] ;
+    ns1:sameAs <https://coursiersbordelais.coopcycle.org/en/restaurant/28-deli-bretzel> ;
+    ns1:url <https://coursiersbordelais.coopcycle.org/en/restaurant/28-deli-bretzel> .
+
+<https://coursiersbordelais.coopcycle.org/api/addresses/15450> a ns1:PostalAddress ;
+    ns1:name "DELI BRETZEL" ;
+    ns1:streetAddress "9 Rue des Augustins, 33000 Bordeaux, France" ;
+    ns1:telephone "+33557967427" .
+

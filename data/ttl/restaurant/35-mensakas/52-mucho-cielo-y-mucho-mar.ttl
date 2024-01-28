@@ -1,0 +1,44 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://mensakas.coopcycle.org/api/restaurants/52> a ns1:Restaurant ;
+    ns1:address <https://mensakas.coopcycle.org/api/addresses/3143> ;
+    ns1:description """Bar de tapas pensadas para compartir, especialidades Uruguayas y mediterràneas. \r
+Comida casera.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.137607e+01 ;
+            ns1:longitude 2.137871e+00 ] ;
+    ns1:image <https://mensakas.coopcycle.org/media/cache/restaurant_thumbnail/60/77/60775693b3d7c.jpg> ;
+    ns1:name "Mucho Cielo y Mucho Mar" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "23:00" ;
+            ns1:dayOfWeek "Friday" ;
+            ns1:opens "20:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:15" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Wednesday" ;
+            ns1:opens "13:45" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "16.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.50" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "es" ;
+                    ns1:urlTemplate "https://mensakas.coopcycle.org/en/restaurant/52-mucho-cielo-y-mucho-mar" ] ] ;
+    ns1:sameAs <https://mensakas.coopcycle.org/en/restaurant/52-mucho-cielo-y-mucho-mar> ;
+    ns1:url <https://mensakas.coopcycle.org/en/restaurant/52-mucho-cielo-y-mucho-mar> .
+
+<https://mensakas.coopcycle.org/api/addresses/3143> a ns1:PostalAddress ;
+    ns1:name "Mucho Cielo y Mucho Mar" ;
+    ns1:streetAddress "Carrer de Salou 12, 08014 Barcelona, España" ;
+    ns1:telephone "+34631220870" .
+

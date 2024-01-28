@@ -1,0 +1,507 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/restaurants/13> ns1:hasMenu <https://lescoursiersbrestois.coopcycle.org/en/restaurant/13-tandoori#menu> .
+
+<https://lescoursiersbrestois.coopcycle.org/en/restaurant/13-tandoori#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Bière indienne 33 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Heineken 25 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Desperados 33 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "Bières" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Poulet désossé grillé au tandoor, servi en sauce avec des épices fraîches + portion de riz" ;
+                    ns1:name "Poulet Tikka Massala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet grillé au tandoor puis cuisiné au beurre & tomates + portion de riz" ;
+                    ns1:name "Butter Chicken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux de poulet désossés marinés à la sauce curry + portion de riz" ;
+                    ns1:name "Poulet Curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet cuits avec des lentilles et épices + portion de riz" ;
+                    ns1:name "Poulet Daal" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de poulet cuit avec piment vert + portion de riz" ;
+                    ns1:name "Poulet Chili" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceau de poulet avec aubergines grillées aux et épices + portion de riz" ;
+                    ns1:name "Poulet Baingan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de poulet piquant mélangé avec des pommes de terre, massala & coriandre + portion de riz" ;
+                    ns1:name "Poulet Vindaloo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de poulet, raisins secs, amandes, noix de cajou + portion de riz" ;
+                    ns1:name "Poulet Shahi Korma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux de poulet cuisinés aux épices et avec des poivrons + portion de riz" ;
+                    ns1:name "Poulet Jalfrezi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de poulet aux épinard + portion de riz" ;
+                    ns1:name "Poulet Palak" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ] ;
+            ns1:name "Plats au poulet" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Curry d'agneau aux épinards + portion de riz" ;
+                    ns1:name "Agneau Palak" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "morçeaux d agneau cuisinés avec des aubergines cuits au four et épices +riz" ;
+                    ns1:name "Agneau Baignan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux d’agneau désossé marinés à la sauce curry + portion de riz" ;
+                    ns1:name "Agneau Curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry d’agneau aux amandes, noix de cajoux, pistaches, raisins secs + portion de riz" ;
+                    ns1:name "Agneau Shahi Korma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boulettes d’agneau marinés à la sauce curry + portion de riz" ;
+                    ns1:name "Kofta Curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Agneau désossé, tomates, beurre, grillé au tandoor ( four indien ) et mariné avec sauce Massala + portion de riz" ;
+                    ns1:name "Agneau Tikka Massala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry d’agneau piquant mélangé avec des pommes de terre + portion de riz" ;
+                    ns1:name "Agneau Vindaloo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry d'agneau cuit avec piment vert + portion de riz" ;
+                    ns1:name "Agneau Chili" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux d’agneau cuits aux épices avec poivrons + portion de riz" ;
+                    ns1:name "Agneau Jalfrezi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Agneau marinés au gingembre, ail, coriandre et sauce achar + portion de riz" ;
+                    ns1:name "Agneau Achar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ] ;
+            ns1:name "Plats à l’agneau" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pâtisserie maison fait avec du lait en poudre, noix de coco, amandes" ;
+                    ns1:name "Gulaab jamun" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Semoule, lait, cardamone et noix coco" ;
+                    ns1:name "Gâteau de semoule" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bœuf aux amandes, pistaches, raisins secs, noix de cajou et lait de coco + portion de riz" ;
+                    ns1:name "Bœuf Korma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux de bœuf cuisinés au beurre, épices, gingembre et tomates fraîches + portion de riz" ;
+                    ns1:name "Bœuf karahi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux de bœuf avec une sauce massala, tomates et épices parfumées + portion de riz" ;
+                    ns1:name "Bœuf Massala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boulettes de viande hachée avec fromage mijoté à la sauce curry + portion de riz" ;
+                    ns1:name "Kofta Tandoori" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ] ;
+            ns1:name "Plats au bœuf" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pâte levée aux pommes de terre, oignons & herbes fraîches" ;
+                    ns1:name "Aloo Nan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâte levée, farine" ;
+                    ns1:name "Nan nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâte levée au fromage" ;
+                    ns1:name "Cheese Nan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâte levée à l’ail & aux herbes" ;
+                    ns1:name "Garlic Nan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâte levée au piment vert" ;
+                    ns1:name "Chili Nan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain au fromage farci à la viande hachée" ;
+                    ns1:name "Keema cheese nan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâte non levée, farine complète" ;
+                    ns1:name "Chapatti" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ] ;
+            ns1:name "Nans" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Hauts Medoc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75 cL" ;
+                    ns1:name "Tavel, vin rosé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75 cL" ;
+                    ns1:name "Chinon rosé, vin rosé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75 cL" ;
+                    ns1:name "Bordeaux AOC, vin rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75 cL" ;
+                    ns1:name "Côtes de Provence, vin rosé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75 cL" ;
+                    ns1:name "Vin indien Grover, vin rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€30.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75 cL" ;
+                    ns1:name "Brouilly (Henry Fessy), vin rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€27.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Saumur Champigny 37,5 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75 cL" ;
+                    ns1:name "Chardonnay, vin blanc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75 cL" ;
+                    ns1:name "Pouilly fumé, vin blanc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€27.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75 cL" ;
+                    ns1:name "Côtes du Rhône, vin rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75 cL" ;
+                    ns1:name "Chinon AOC, vin rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75 cL" ;
+                    ns1:name "Gamay, vin rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75 cL" ;
+                    ns1:name "Saumur Champigny, vin rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Côtes du Rhônes 37,5 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "Vins" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Caviar d’aubergines grillé au tandoor ( four indien ) mariné avec sauce massala et herbes fraîches + portion de riz" ;
+                    ns1:name "Baïngan Bharta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petits pois mariné sauce massala et épices, fromage avec portion de riz" ;
+                    ns1:name "Matar Paneer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de pommes de terre cuisiné avec des épices gingembre + riz" ;
+                    ns1:name "Aloo Curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Épinards hachés mariné avec sauce massala et crême fraiche ainsi que fromage + portion de riz" ;
+                    ns1:name "Palak Paneer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Choux-fleurs cuits et pommes de terre et des épices le tout mariné sauce massala + portion de riz" ;
+                    ns1:name "Aloo Gobi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Épinards cuits et pommes de terre , des épices le tout mariné avec de sauce massala et crême fraiche + portion de riz" ;
+                    ns1:name "Aloo Palak" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Épinards cuits et Daal( lentilles) , des épices le tout mariné avec de sauce massala et crême fraiche + portion de riz" ;
+                    ns1:name "Daal Palak" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lentilles indiennes concassées et sauce massala , gingembre coriandre frais + portion de riz" ;
+                    ns1:name "Dal Makhani" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "BARQUETTE DE RIZ EN SUPPLEMENT" ;
+                    ns1:name "SUPPLEMENT RIZ" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Plats végétariens" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Goût original" ;
+                    ns1:name "Coca-Cola 33 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Fanta 33 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Option" ;
+                    ns1:name "Lassi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Ice-tea 33 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Délicieux jus de mangue indien" ;
+                    ns1:name "Jus de mangue Maaza 33 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Orangina 33 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Softs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "morçeaux de poulet grillés au four mijoités avec le riz petits pois et fruits secs" ;
+                    ns1:name "Biryani Tikka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz préparé avec des légumes et des épices avec aussi noix de cajou amande et raisin sec" ;
+                    ns1:name "Légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz préparé avec de l’agneau petits pois et des épices avec raisin amande et noix de cajou" ;
+                    ns1:name "Agneau Biryianis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz préparé avec des crevettes et des épices avec raisin amande et noix de cajou" ;
+                    ns1:name "Crevettes Biryianis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz préparé avec du poulet, petits pois ainsi que des épices avec raisin amande et noix de cajou" ;
+                    ns1:name "Poulet Biryianis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz préparé avec du boeuf, petits pois ainsi que des épices avec raisin amande et noix de cajou" ;
+                    ns1:name "Boeuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mélange d'agneau, de bœuf, de poulets et de crevettes petits pois avec raisin amande et noix de cajou aux épices variées cuits avec du riz" ;
+                    ns1:name "Royal biryiani" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ] ;
+            ns1:name "Biryianis" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Morceaux de saumon aux amandes, crème fraîche, raisins secs noix de cajou amandes + portion de riz" ;
+                    ns1:name "Saumon Shahi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gambas grillée au tandor sauce avec noix de cajou raisin sec amande + portion de riz" ;
+                    ns1:name "Gambas Shahi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de crevettes, crème fraîche, raisins secs, noix de coco + portion de riz" ;
+                    ns1:name "Crevettes Shahi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gambas grillées au four traditionnel marinées avec sauce massala + portion de riz" ;
+                    ns1:name "Gambas Massala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Curry de crevettes relevé avec une sauce gingembre, coriandre fraîche + portion de riz" ;
+                    ns1:name "Crevettes Madras" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Morceaux de saumon cuisinés au four indien et mariné avec une sauce massala+ portion de riz" ;
+                    ns1:name "Saumon Massala" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ] ;
+            ns1:name "Fruits de mer" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Brochette de poulet désossée marinées avec des épices, du fromage et de la crème + portion de riz" ;
+                    ns1:name "Reshmi Tikka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mélange de morceaux de poulet, d’agneau, sheesh kebab & mix pakora" ;
+                    ns1:name "Tandoori Mix ( 2 personnes )" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cuisse de poulet marinée et cuite et grillée au Tandoor" ;
+                    ns1:name "Poulet Tandoori" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Grillades" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Beignets d'aubergine à la farine de pois chiche" ;
+                    ns1:name "Pakora d'aubergine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Soupe à base de lentilles avec des épices" ;
+                    ns1:name "Soupe aux lentilles" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crevettes marinées aux épices & à la mangue" ;
+                    ns1:name "Moghal crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brochette de gigot haché aux herbes fraiches cuit au tandoor" ;
+                    ns1:name "Sheesh kebab" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, concombre, tomates, thon, olives" ;
+                    ns1:name "Salade maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignets de légumes" ;
+                    ns1:name "Mix Pakora" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignets de crevettes légèrement épicés" ;
+                    ns1:name "Rajasthani crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Concombre, tomate, yaourt avec cumin" ;
+                    ns1:name "Raita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignet frit, farci aux légumes" ;
+                    ns1:name "Samossa Légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Feuilletés de viandes hachées et épices indiennes" ;
+                    ns1:name "Samossa Keema" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignets de pomme de terre avec farine de pois chiche" ;
+                    ns1:name "Aloo Pakora" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade avec crevettes tomates concombre" ;
+                    ns1:name "Salade de crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignets d'oignon à la farine de pois chiche" ;
+                    ns1:name "Oignon Bhaja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "Entrées" ] .
+

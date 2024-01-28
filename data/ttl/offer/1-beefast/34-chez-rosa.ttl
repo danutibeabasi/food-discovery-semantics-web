@@ -1,0 +1,355 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://beefast.coopcycle.org/api/restaurants/34> ns1:hasMenu <https://beefast.coopcycle.org/en/restaurant/34-chez-rosa#menu> .
+
+<https://beefast.coopcycle.org/en/restaurant/34-chez-rosa#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, jambon, burrata, roquette, tomates cerises, origan" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/63/72/6372283ede688.jpeg> ;
+                    ns1:name "Burrata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella, champignons de Paris, jambon, origan" ;
+                    ns1:name "Reine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella, gorgonzola, taleggio, chèvre, origan" ;
+                    ns1:name "Teresa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "sauce tomate, mozza, champignons, artichaut, chorizo, oignon, œuf, origan" ;
+                    ns1:name "Nando" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce Tomate, Mozzarella, Poulet au piment, Poivrons, Oignons, Tomates cerises" ;
+                    ns1:name "Pizza Basquaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella, poivrons, oignons rouges, spinata, chorizo, saucisse, piment, origan" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/63/72/6372282e04bf6.jpeg> ;
+                    ns1:name "Calabraise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bolognaise maison, mozzarella, champignons de Paris, roquette, copeaux de parmesan, origan" ;
+                    ns1:name "Bolognaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella, aubergines, courgettes, oignons, tomates confites, artichauts, basilic" ;
+                    ns1:name "Paolo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella, chèvre de Canaples, tomate confites, miel, œuf, origan" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/63/72/637228198c5b6.jpeg> ;
+                    ns1:name "Canaples" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella, bresaola, roquette, copeaux de parmesan, origan" ;
+                    ns1:name "Lino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella, câpres, olives, anchois, oignons, tomates confites, origan" ;
+                    ns1:name "Massimo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, olives, mozzarella, artichaut, coppa, copeaux de parmesan, pesto" ;
+                    ns1:name "Graziella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella, jambon, champignons de Paris, oeuf" ;
+                    ns1:name "Calzone" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella, basilic" ;
+                    ns1:name "Margherita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "sauce tomate, mozzarella, champignons de Paris, jambon, oeuf, saucisse, chorizo, oignons, origan" ;
+                    ns1:name "Pizza chef" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, spinata, chevre de canaples , courgette, origan" ;
+                    ns1:name "Spinata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella, crevettes, champignon de Paris, oignons, pesto, pousses d’épinard" ;
+                    ns1:name "Rosa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella di buffala, basilic" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/63/72/6372285fd41ec.jpeg> ;
+                    ns1:name "Maria" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella, mortadelle, burrata, pistaches, pesto" ;
+                    ns1:name "Mortadelle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, mozzarella, jambon de Parme, roquette, tomate cerise, origan" ;
+                    ns1:name "Jessica" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomate, mozzarella, jambon, origan" ;
+                    ns1:name "Roma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Pizzas Base Tomate 🍅" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tiramisu au café et au marsala." ;
+                    ns1:name "Tiramisu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Panettone classico milan 1kg 100 d'Italie, un régal pour les fêtes de fin d'année." ;
+                    ns1:name "panettone classico 1kg 100" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "calzone sucré au nocciolata bio et Banane." ;
+                    ns1:name "calzone nocciolata banane" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Brownie au chocolat et noisettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Dessert 🍰" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bières Artisanales 33cl" ;
+                    ns1:name "Charles & Vianney Ambré" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bières Artisanales 33cl" ;
+                    ns1:name "Charles & Vianney (Blonde triple)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bières Artisanales 33cl" ;
+                    ns1:name "Charles & Vianney IPA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bières Artisanales 33cl" ;
+                    ns1:name "Charles & Vianney Blanche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Moretti 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Bières 🍺" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Accompagnée de sa foccacia, tomates cerises, fleur de sel et huile d’olive extra vierge" ;
+                    ns1:name "Burrata Ta-Ta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Notre assiette de jambon de Parme, un produit d’exception" ;
+                    ns1:name "Di Parma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ] ;
+            ns1:name "Planches apéritives" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "50cl" ;
+                    ns1:name "Eau Gazeuze" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1L" ;
+                    ns1:name "Eau Gazeuze" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50cl" ;
+                    ns1:name "Eau Plate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1L" ;
+                    ns1:name "Eau Plate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl Coca Italien" ;
+                    ns1:name "Mole Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Ice Tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Coca-Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Base pâte à pizza Origan, Huile d'olive, Roquette, Mozzarella Di Buffala, Concombre, Pesto, Jambon de Parme, Parmesan, Tomates cerises, Olives" ;
+                    ns1:name "Salade Pizza Rosa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "roquette, tomates cerises, toast de chèvre de canaples, miel, oeufs et jambon de Parme" ;
+                    ns1:name "salade de chèvre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ] ;
+            ns1:name "salade" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Champagne Castelnau réserve" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€59.00" ] ] ;
+            ns1:name "Champagne 🍾" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Lambrusco rosato" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Nero d'Avola bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vino Rosato" ;
+                    ns1:name "Bordolino Chiaretto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vino Rossi" ;
+                    ns1:name "Chianti : Toscano Melini" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vino Bianco" ;
+                    ns1:name "Chardonnay biologico" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vino Rossi" ;
+                    ns1:name "Valle d'oro Montepulciano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lambrusco amabile" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vino Rosato" ;
+                    ns1:name "Pinot Grigio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.50" ] ] ;
+            ns1:name "Vins 🍷" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Linguines Tomate, Burrata, Jambon de Parme" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "crème, ricotta, citron, aneth, pousses d'épinards, tomates cerises, saumon fumé" ;
+                    ns1:name "Linguines saumon fumé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "crème de truffe, jambon blanc truffé, champignons et parmesan" ;
+                    ns1:name "Linguine à la truffe blanche d'été" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pesto, burrata, tomates cerises et jambon de Parme" ;
+                    ns1:name "Linguine au pesto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ] ;
+            ns1:name "Linguines Fraîches 🍝" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Lasagne bolognaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain maison, pesto maison, mozzarella di Buffala, jambon de Parme, roquette, oignons rouges et tomates confites." ;
+                    ns1:name "sandwich Italien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Crème, Mozzarella, Courgettes, Gorgonzola, Chorizo, Tomates confites, Origan" ;
+                    ns1:name "Enzo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, Mozzarella, Champignons de Paris, Jambon, emmental, Origan" ;
+                    ns1:name "Picarde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, Mozzarella, Pancetta, Oeuf, Parmesan, Roquette, Origan" ;
+                    ns1:name "Carbo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème de Truffe, Mozzarella, Jambon truffé, champignons de Paris, Copeaux de Parmesan" ;
+                    ns1:name "Truffe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ricotta, Mortadelle, roquette, copeaux de Parmesan, Origan" ;
+                    ns1:name "Federico" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, Mozzarella, Saumon Fumé, Aneth, Citron, Pousse d'épinard, Origan" ;
+                    ns1:name "Loulou" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, Pancetta, Champignons, Talegio, Oignons Ruges, Pomme de terre, Scamorza" ;
+                    ns1:name "Pizza Alpini" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, Mozzarella, Pesto, Champignons de Paris, Poulet, Courgette, Estragon" ;
+                    ns1:name "Camilia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "base crème, mozzarella,  speck, scarmoza, pommes de terre, champignons" ;
+                    ns1:name "pizza Fumé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, Mozzarella, Gorgonzola, Jambon de Parme, Roquette, Copeaux de Parmesan, Tomates cerise, Origan" ;
+                    ns1:image <https://beefast.coopcycle.org/media/cache/product_thumbnail/63/72/6372284ed5f71.jpeg> ;
+                    ns1:name "Giuliano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ] ;
+            ns1:name "Pizzas Blanches" ] .
+

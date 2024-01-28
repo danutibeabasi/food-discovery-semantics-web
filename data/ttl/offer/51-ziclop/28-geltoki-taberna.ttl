@@ -1,0 +1,144 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://ziclop.coopcycle.org/api/restaurants/28> ns1:hasMenu <https://ziclop.coopcycle.org/en/restaurant/28-geltoki-taberna#menu> .
+
+<https://ziclop.coopcycle.org/en/restaurant/28-geltoki-taberna#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Errusiar entsalada ekologikoa, bakailoa eta etxean marinatutako kantauriko antxoekin// Ensaladilla rusa ecológica con bacalao y anchoas del Cantábrico marinadas en casa." ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/62/86/628681d985e5e.jpeg> ;
+                    ns1:name "La Baztanesa" ;
+                    ns1:nutrition "Eggs",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Txerri xolomo tako mexikarrak, beganesa eta pipermin ozpin-olioarekin (3uni).\r
+Tacos mexicanos de lomo de cerdo con veganesa y vinagreta de piparras (3ud).""" ;
+                    ns1:name "La Roncalesa" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Aribeko Trigo Limpioko txahal ekologico eta pipermin ozpin-olio natxoak // Nachos con ternera ecológica de Trigo Limpio de Aribe y vinagreta de piparras." ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/62/86/62867fa751384.jpeg> ;
+                    ns1:name "La Salacenca" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Patata bixiak // Patatas Bravas" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/62/86/6286813c0e75f.jpeg> ;
+                    ns1:name "La Villavesa" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Erronkariko gazta, rikotta, sagar erre saltsa eta intxaur entsalada// Ensalada de queso del Roncal, ricotta, salsa de manzana asada y nueces." ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/62/86/628680b7cce8c.jpeg> ;
+                    ns1:name "La Veloz Sanguesina" ;
+                    ns1:nutrition "Milk",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "Zizkamizkaz // Para Picar" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bulgur hanburguesa,barazki salteatuak beganesarekin // Hamburguesa de Bulgur con lechuga, verduras salteadas y veganesa." ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/62/86/6286590c75b9a.jpeg> ;
+                    ns1:name "La Lumbierina" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Aribeko txahal ekologiko hanburgesa, litxua Erronkariko gazta eta pipermin ozpin-olioarekin// Hamburguesa de ternera ecológica de Aribe con lechuga, queso del Roncal y vinagreta de piparras." ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/62/86/6286598143ec6.jpeg> ;
+                    ns1:name "La Estellesa" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Ahate hanburgesa, sagar saltsa eta tipula bigunduarekin.\r
+Hamburguesa de pato con salsa de manzana y cebolla caramelizada.""" ;
+                    ns1:name "La Tafallesa" ;
+                    ns1:nutrition "Eggs",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ] ;
+            ns1:name "Ekoburgers" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tarta de queso / Gazta tarta" ;
+                    ns1:name "Sakana" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bidezko merkataritzako brownie beganoa, intxaursaltsa eta esnegainarekin.\r
+Brownie vegano de comercio justo con intxaursaltsa y nata.""" ;
+                    ns1:name "Erribera" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Postreak // Postres" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Txerri saiheski errea, soja saltsarekin// Costillas de cerdo asada con salsa de soja." ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/62/86/62867e9e1b881.jpeg> ;
+                    ns1:name "La Pamplonesa" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Barazki ekologiko, patata eta curry samosak.\r
+Samosa de verduras ecologicas, patata y curry.""" ;
+                    ns1:name "La Mugiroarra" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "Platerak // Platos" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Aribeko txahal ekologiko bolatxo ogitartekoa, Erronkariko gazta, tipula saltsa eta perrexil olioarekin// Bocadillo de albóndigas de ternera ecológica de Aribe con queso del roncal, salsa de cebolla, aceite de perejil." ;
+                    ns1:name "La Montañesa" ;
+                    ns1:nutrition "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sasoiko barazki eta ziza salteatu ogitartekoa soja saltsarekin // Bocadillo de verduras de temporada y setas variadas salteadas con salsa de soja" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/62/86/62867dcf21b3f.jpeg> ;
+                    ns1:name "La Berianesa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bakailao ketua, etxean marinatutako Kantauriko antxoak, piperminak eta maionesa ogitartekoa // Bocadillo de bacalao ahumado, anchoas del Cantábrico marinadas en casa, piparras y mayonesa" ;
+                    ns1:name "Rio Irati" ;
+                    ns1:nutrition "Eggs",
+                        "Fish",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Patata tortilla ekologiko ogitartekoa // Bocadillo de tortilla de patatas ecológicas." ;
+                    ns1:name "La Conda" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Hirugiar, piper berde, Erronkariko gazta eta tumaka ogitartekoa // Bocadillo de panceta, pimiento verde, queso del Roncal en Pan Tumaca" ;
+                    ns1:name "La Ulzamarra" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "Bokatak // Bocadillos" ] .
+

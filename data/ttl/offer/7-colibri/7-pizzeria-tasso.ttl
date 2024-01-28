@@ -1,0 +1,594 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://colibri.coopcycle.org/api/restaurants/7> ns1:hasMenu <https://colibri.coopcycle.org/en/restaurant/7-pizzeria-tasso#menu> .
+
+<https://colibri.coopcycle.org/en/restaurant/7-pizzeria-tasso#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "N'Artigiana (66 cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Birre Artigianali" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Insalata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Zucchine alla scapece" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Parmigiana di melanzane" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Melenzane a funghetto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Melenzane sott'olio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Scarole" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Funghi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Peperoni" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Friarielli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Contorni" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Würstel, patatine fritte, Provola, Mozzarella, olio EVO e basilico." ;
+                    ns1:name "Pizza Bianca WP" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Würstel di pollo, Mozzarella Fiordilatte d'Agerola, patatine fritte e olio extravergine d'oliva." ;
+                    ns1:name "Pizza Bianca Wurstel e Patatine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Panna, prosciutto cotto e mais, Mozzarella e basilico." ;
+                    ns1:name "Pizza Bianca Mimosa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Verdure di stagione, Mozzarella, scaglie di Formaggio, basilico e olio EVO." ;
+                    ns1:name "Pizza Bianca Ortolana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Peperoni ,salsiccia e provola, basilico, olio evo." ;
+                    ns1:name "Pizza Bianca Salsiccia e Peperoni" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crudo, rucola, Mozzarella, basilico, olio EVO e scaglie di Formaggio." ;
+                    ns1:name "Pizza Bianca CRS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Kabab, patatine fritte e Provola." ;
+                    ns1:name "Pizza Bianca Kebab" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pizza Bianca" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella, Emmental, Svizzero, Gorgonzola e olio EVO." ;
+                    ns1:name "Pizza Bianca 4 Formaggi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ricotta, prosciutto cotto, salame, funghi, Provola, basilico, olio e Formaggio." ;
+                    ns1:name "Pizza Bianca Montebianco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Prosciutto cotto, Mozzarella, crocché fritto, basilo e olio EVO." ;
+                    ns1:name "Pizza Bianca Crocchè" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella Fiordilatte, olio extravergine d'oliva e all'uscita speck, rucola e scaglie di Grana." ;
+                    ns1:name "Pizza Bianca Speck, Rucola e Scaglie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Panna, prosciutto cotto, funghi, Mozzarella e basilico." ;
+                    ns1:name "Pizza Bianca Chef" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ] ;
+            ns1:name "Pizze bianche" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Fiordilatte, pomodorini, olio EVO e basilico." ;
+                    ns1:name "Pizza al Filetto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fiordilatte, pomodorini, cicoli, basilico e olio EVO." ;
+                    ns1:name "Pizza al Filetto Cicolina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella di Bufala, pomodorini, olio EvO e basilico." ;
+                    ns1:name "Pizza al Filetto DOC" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ] ;
+            ns1:name "Pizze al Filetto" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Ricotta, cicoli ,  fior di latte, pomodoro, pepe" ;
+                    ns1:name "Ripieno con cicoli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Scarola, provola." ;
+                    ns1:name "Ripieno con Scarole" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ricotta, p.cotto, fior di latte, pomodoro, pepe." ;
+                    ns1:name "Ripieno al Cotto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ricotta, salame, fior di latte, pomodoro, pepe." ;
+                    ns1:name "Ripieno al Salame" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Soffritto, provola." ;
+                    ns1:name "Ripieno con Soffritto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsiccia, friarielli, provola." ;
+                    ns1:name "Ripieno Salsiccia e Friarielli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ] ;
+            ns1:name "Ripieni al Forno" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Montanara alla Genovese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crocchè Grande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Patatine con Würstel e Provola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Montanara con Ragù" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Arancini Carbonara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Arancino Cacio e Pepe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Straccetti di pasta fritta con pomodorini, rucola, Provola e scaglie di Grana." ;
+                    ns1:name "Straccetti Salati" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Polenta fritta con Pecorino Romano e ciccioli napoletani." ;
+                    ns1:name "Scagnuozzi Napoletani (5 Pezzi)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Frittatina Classica" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Frittatina alla Nerano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Chips" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Patatine Fritte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crocché, Mozzarella in carrozza, scagliozzi napoletani, arancini, frittatine e zeppoline." ;
+                    ns1:name "Mista Tasso (10 Pezzi)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Montanara crema di Pistacchi e Mortadella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Frittura" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Pizza Rossa Diavola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pomodoro, Mozzarella, acciughe, olio EVO e basilico." ;
+                    ns1:name "Pizza Rossa Romana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pomodoro, Fiordilatte, basilico e olio EVO." ;
+                    ns1:name "Pizza Rossa Margherita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pomodoro, olio EVO e scaglie di Formaggio." ;
+                    ns1:name "Pizza Rossa Cosacca" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pomodoro, Mozzarella di Bufala, Formaggio, basilico e olio EVO." ;
+                    ns1:name "Pizza Rossa Bufalina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pomodoro, origano, aglio e olio EVO." ;
+                    ns1:name "Pizza Rossa Marinara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pomodoro, aglio, origano e acciughe, olio EVO e basilico." ;
+                    ns1:name "Pizza Rossa Napoletana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pomodoro, Provola, basilico, Formaggio e olio EVO." ;
+                    ns1:name "Pizza Rossa Margherita con Provola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pomodoro, funghi, prosciutto cotto, carciofi, olive, Mozzarella e basilico." ;
+                    ns1:name "Pizza Rossa Capricciosa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "Pizze rosse" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Crema si pistacchio, Provola, basilico, olio EVO e all'uscita mortadella e granella di pistacchio." ;
+                    ns1:name "Pizza Speciale Pistacchio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sugo alla genovese ,provola ,olio evo, all'uscita scaglie di grana." ;
+                    ns1:name "Pizza speciale Genovese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pesto di basilico, pomodorini, Provola e olio EVO." ;
+                    ns1:name "Pizza Speciale Pesto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pesto di basilico, Provola, datterini gialli, salsiccia e Formaggio." ;
+                    ns1:name "Pizza Speciale Aniello Falcone" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Philadelphia, Provola e salame milanese." ;
+                    ns1:name "Pizza Speciale Milanese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ragù napoletano, Ricotta, polpettine fritte, Provola, basilico e olio EVO." ;
+                    ns1:name "Pizza Speciale Lasagna" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fonduta di Pecorino Romano, pepe, Provola e all'uscita scaglie di Parmigiano." ;
+                    ns1:name "Pizza Speciale Cacio e Pepe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gorgonzola, Provola e speck." ;
+                    ns1:name "Pizza Speciale Speck 2.0" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Provola, friarielli e polpette al ragù." ;
+                    ns1:image <https://colibri.coopcycle.org/media/cache/product_thumbnail/63/58/63588275b76ac.jpeg> ;
+                    ns1:name "Pizza Speciale Tasso 175" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Parmigiana di melenzane, polpettine fritte, Provola e olio EVO." ;
+                    ns1:name "Pizza Speciale Domenicale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crema di tartufo, salsiccia, funghi e Provola." ;
+                    ns1:name "Pizza Speciale Tartufa" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fonduta di Provolone del Monaco homemade, zucchine fritte, Provola e all'uscita speck e scaglie di Parmigiano." ;
+                    ns1:name "Pizza Speciale Nerano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crema di zucca homamade, salsiccia, Provola e olio EVO." ;
+                    ns1:name "Pizza Speciale Zucca" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crema di patate viola, Provola e all'uscita pancetta e scaglie di Formaggio." ;
+                    ns1:name "Pizza Speciale Top 2.0" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Con pomodorini gialli." ;
+                    ns1:name "Pizza Speciale Margherita Gialla" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Impasto aperto nel pangrattato, crocché cotto in forno, Provola, porchetta di Ariccia all'uscita e fonduta di Provola." ;
+                    ns1:name "Pizza Speciale 3.0" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Datterini gialli, datterini rossi, Provola, basilo, Formaggio e olio EVO." ;
+                    ns1:name "Pizza Speciale Bis Pomodorina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crema di salmone, zucchine e Provola." ;
+                    ns1:name "Pizza Speciale Mare Mare" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nduja calabrese, Provola, salame piccante, Provola, pomodorini, olive nere e olio EVO." ;
+                    ns1:name "Pizza Speciale Calabrese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ] ;
+            ns1:name "Pizze speciali" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Vino Avellino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "VINI" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Nastro Azzurro (33 cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Peroni (33 cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ] ;
+            ns1:name "Birre" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Straccetti Fritti con Nutella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Palline Fritte con Nutella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Focaccia con Nutella e Zucchero a Velo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Dolci" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Polpette a ragù,friarielli,provola." ;
+                    ns1:name "Saltimbocca Tasso 175" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Parmigiana di melanzane, polpette fritte e Provola." ;
+                    ns1:name "Saltimbocca Domenicale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Hamburger, patatine fritte e Provola." ;
+                    ns1:name "Saltimbocca Americano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Porchetta,friarielli,provola." ;
+                    ns1:name "Saltimbocca Pork" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Wurstel, patatine fritte, provola" ;
+                    ns1:name "Saltimbocca Würstel e Patatine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Kebab, Provola e patatine fritte." ;
+                    ns1:name "Saltimbocca Kebab" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Melenzane al funghetto, salsiccia e Provola." ;
+                    ns1:name "Saltimbocca Siciliano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Verdure fresche di giornata e Provola." ;
+                    ns1:name "Saltimbocca Vegeteriano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsiccia, peperoni e Provola." ;
+                    ns1:name "Saltimbocca Peperoni" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ] ;
+            ns1:name "Saltimbocca" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Fiordilatte, verdure fresche di stagione, all'uscita pomodorini rucola scaglie di Parmigiano e olio EVO." ;
+                    ns1:name "Tronchetto alle Verdure" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fiordilatte, all'uscita pomodorini crudo rucola e scaglie di Parmigianano e olio EVO." ;
+                    ns1:name "Tronchetto CRS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fiordilatte, Svizzero, Gorgonzola, Emmental, all'uscita pomodirini, rucola e scaglie di Parmigiano." ;
+                    ns1:name "Tronchetto 4 Formaggi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ] ;
+            ns1:name "Tronchetti" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Soffritto, provola." ;
+                    ns1:name "Ripieno con Soffritto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ricotta,cicoli,fior di latte,pomodoro,pepe." ;
+                    ns1:name "Ripieno con cicoli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ricotta, salame, fior di latte, pomodoro, pepe." ;
+                    ns1:name "Ripieno al Salame" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salsiccia, friarielli, provola." ;
+                    ns1:name "Ripieno Salsiccia e Friarielli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Scarola, provola." ;
+                    ns1:name "Ripieno con Scarole" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ricotta, p.cotto, fior di latte, pomodoro, pepe." ;
+                    ns1:name "Ripieno al Cotto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ] ;
+            ns1:name "Pizze fritte" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Scarpariello" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Nerano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Linguine con Gamberoni" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ragù" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bolognese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pasta e Patate con Provola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Siciliana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ziti alla genovese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "Primi" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Scaloppina al vino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Corazza alla Genovese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Cotoletta di Pollo fritta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Salsiccia alla brace" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Polpette di scottona al ragù" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Gamberoni alla brace" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Polpette di scottona al fritte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Scaloppina al limone" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ] ;
+            ns1:name "Secondi" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Pepsi (1.5 L)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Acqua Naturale (50 cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fanta Lattina 330ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola Lattina 330 ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Acqua Frizzante (50 cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sprite Lattina 330 ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola Zero Lattina 330 ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ] ;
+            ns1:name "Bevande" ] .
+

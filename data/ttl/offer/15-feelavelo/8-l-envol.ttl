@@ -1,0 +1,286 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://feelavelo.coopcycle.org/api/restaurants/8> ns1:hasMenu <https://feelavelo.coopcycle.org/en/restaurant/8-l-envol#menu> .
+
+<https://feelavelo.coopcycle.org/en/restaurant/8-l-envol#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Likenn Nature\r
+Conditionnement : 250 g""" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/bf/5ebf7af93f5be.jpg> ;
+                    ns1:name "Pâtes Italiano-Bretonne Nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pesto Vegan de courgettes Bio." ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/bc/5ebc4eb20e1ef.jpg> ;
+                    ns1:name "Pesto Vegan bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Likenn au basilic \r
+250 g""" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/bf/5ebf7a13dece2.jpg> ;
+                    ns1:name "Pâtes Italiano-Bretonne au basilic" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème d'artichaut 100g" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/bc/5ebc4e66b3809.jpg> ;
+                    ns1:name "Crème d'artichaut bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Terrine de campagne à la mangue bio 90g" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/bc/5ebc4ed65ff6b.jpg> ;
+                    ns1:name "Terrine de campagne à la mangue bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Likenn aux tomates \r
+Conditionnement : 250 g""" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/bf/5ebf7a7b588a8.jpg> ;
+                    ns1:name "Pâtes Italiano-Bretonne aux tomates" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ketchup de betteraves bio aux épices cajun" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/bc/5ebc4e8882f22.jpg> ;
+                    ns1:name "Ketchup de betteraves bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Epicerie fine côté terre" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salade Mesclun, œufs, Mozzarella, Pesto vert, vinaigrette, Pickles, légumes, graines" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/60/1e/601eed7a8ba8c.jpeg> ;
+                    ns1:name "Salade de L'ENVOL Végétarienne Mozza oeufs" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade Mesclun, Thon, Mozzarella, Pesto vert, vinaigrette, Pickles, légumes, graines" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/60/1e/601efb9ed13ab.jpeg> ;
+                    ns1:name "Salade de L'ENVOL Thon Mozza" ;
+                    ns1:nutrition "Eggs",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Entrée / Plat / Dessert du jour" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/60/bc/60bc833c0afcc.jpeg> ;
+                    ns1:name "Entrée / Plat / Dessert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Et Toujours beaucoup de surprises dans l’assiette
+\r
+ Lundi :            \r
+                                  Le Pot au feu  \r
+Légumes de saison / Pdt rôties / Bœuf / Sauce tartare
+\r
+ Mardi et Mercredi :  \r
+                                     Les Lasagnes végé\r
+Légumes de saison/ Sauce tomate/ sauce curcuma ou sauce Gorgonzola 
+\r
+Jeudi et Vendredi: \r
+                                 La Caponata d’hiver / Poisson\r
+Poisson / Riz / la Caponata légumes coupés en petits rubis""" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/ad/5ead9037091ab.jpg> ;
+                    ns1:name "Le Plat du jour bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pâtes artisanales, sauce tomate italienne, légumes, mozzarella di bufala, parmesan  \r
++ 3 € bocal consigné""" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/ad/5ead939b1a266.jpg> ;
+                    ns1:name "La Pasta sauce italienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ] ;
+            ns1:name "Les plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Le meilleur et l'unique hydromel. A offrir, a faire découvrir. \r
+Un chouchenn complexe et riche de sensations. Il est élaboré en assemblage après plusieurs années de maturation en fûts de bois de chène.\r
+Médaille d’Argent au Concours Général Agricole 2020 !\r
+Élaboré de façon 100% artisanale à Dinard (Ille-et-Vilaine)""" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/a1/5fa122c305f91.jpg> ;
+                    ns1:name "Le Dragon Rouge Chouchen Vieux" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Jus de pomme Bio Granini\r
+25cl""" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/b9/5eb982f2b9110.jpg> ;
+                    ns1:name "Jus de pomme Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Jus multifruits Bio Granini\r
+25 cl""" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/bf/5ebf793c6f05e.jpg> ;
+                    ns1:name "Jus multifruits bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Jus de tomate Bio Granini\r
+25 cl""" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/b9/5eb98e294809f.jpg> ;
+                    ns1:name "Jus de tomate Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ti Lo Cidre houblonné 33cl" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/a1/5fa1213f5fcc4.jpg> ;
+                    ns1:name "Ti Lo Cidre houblonné" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Languedoc, Corbières \r
+75 cl\r
+Belle robe rubis, soutenue, aux reflets violacés. Le nez, très intense et frais est dominé par des notes de petits fruits rouges (framboise).""" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/bf/5ebf764b72fbd.jpg> ;
+                    ns1:name "Bouteille de Vin Rouge Bio Les Pipelettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Eau minérale naturelle plate Plancoët 0,5L" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/b9/5eb9843cf31cd.png> ;
+                    ns1:name "Eau minérale naturelle plate Plancoët 0,5L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Eau minérale naturelle plate Plancoët 1L" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/b9/5eb984700c1fe.png> ;
+                    ns1:name "Eau minérale naturelle plate Plancoët 1L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cidre Galipette Bio 33cl" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/b9/5eb98631d7e5b.png> ;
+                    ns1:name "Cidre Galipette Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Le Cerdon accompagera vos apéritifs ainsi que vos desserts.\r
+Le Cerdon est élaboré selon une méthode ancestrale.\r
+(8% Volume d'alcool) 75 cl\r
+Méthode Ancestrale""" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/bf/5ebf78913a49b.jpg> ;
+                    ns1:name "Bouteille de Cerdon Bio Robe Framboise pétillant inoubliable" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Le NEKTARUZ n’est pas un chouchenn au sens strict car il est né de la fermentation lente de miels et de fruits rouges ! le résultat est très différents des hydromels, mais quel résultat !\r
+Après cette fermentation suit une longue maturation de 2 années sur lie pendant laquelle la fusion des puissants parfums des différents composants se réalise. Un assemblage délicat termine sa vie en cave. Des notes de vieux porto … et une grande longueur en bouche.\r
+le NEKTARUZ se consomme très frais, voire glacé, en apéritif ou fin de repas.""" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5f/a1/5fa123b89287a.png> ;
+                    ns1:name "Le Vieux Porto Breton Le Chouchen NEKTARUZ" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière Dremmwel blonde bio \r
+25 cl""" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/b9/5eb9808768da2.jpg> ;
+                    ns1:name "Bière Dremmwel blonde bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Rafraîchissement" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Gaspacho bio betterave orange\r
+Le potager de Babette 250ml""" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/b9/5eb988061a43b.jpg> ;
+                    ns1:name "Le Gaspacho bio betterave orange bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Le Gaspacho bio carotte coriandre\r
+Le potager de Babette 250ml""" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/b9/5eb9889f62ba0.jpg> ;
+                    ns1:name "Le Gaspacho bio carotte coriandre bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Tomate Basilic 250 ml\r
+Le Potager de Babette""" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/ad/5ead9e1cbb93e.png> ;
+                    ns1:name "Le Gaspacho Tomate Basilic bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Carotte Coco 250 ml \r
+Le Potager de Babette""" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/ad/5ead998f2266c.png> ;
+                    ns1:name "La soupe Carotte Coco bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Les plaisirs salés" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Part de gâteau au chocolat (Poudre d'amande) avec un nappage noisette" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/ad/5ead9e5c26e5c.JPG> ;
+                    ns1:name "La gourmandise au chocolat bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Potisserie Le Tiramisu, véritable recette italienne. Vendu en pot individuel" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/60/28/602825482f380.jpeg> ;
+                    ns1:name "Potisserie Le tiramisu" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Les plaisirs sucrés" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Laitue de mer 30g" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/bc/5ebc4a5f1f1f4.JPG> ;
+                    ns1:name "Laitue de mer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Persil de la mer 50g" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/bc/5ebc4a8dabd1e.JPG> ;
+                    ns1:name "Persil de la mer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tartare aux algues 90g" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/bc/5ebc4bc07450e.JPG> ;
+                    ns1:name "Tartare aux algues" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Wakamé 30g" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/bc/5ebc4be3e23e7.JPG> ;
+                    ns1:name "Wakamé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Soupe 3 poissons aux algues 500ml" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/bc/5ebc4ba001026.JPG> ;
+                    ns1:name "Soupe 3 poissons aux algues" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Préparation Court Bouillon marin 100g" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/bc/5ebc49d6bef71.JPG> ;
+                    ns1:name "Court Bouillon marin" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Haricots verts marins 458 ml" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/bc/5ebc4a125b3ab.JPG> ;
+                    ns1:name "Haricots verts marin" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salicorne au naturel 370 ml" ;
+                    ns1:image <https://feelavelo.coopcycle.org/media/cache/product_thumbnail/5e/bc/5ebc4b46c482e.JPG> ;
+                    ns1:name "Salicorne au naturel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Epicerie fine sur les algues" ] .
+

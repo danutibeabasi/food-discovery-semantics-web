@@ -1,0 +1,556 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiers-stephanois.coopcycle.org/api/restaurants/9> ns1:hasMenu <https://coursiers-stephanois.coopcycle.org/en/restaurant/9-tsing-tao#menu> .
+
+<https://coursiers-stephanois.coopcycle.org/en/restaurant/9-tsing-tao#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "10 sushi saumon" ;
+                    ns1:name "M11 Menu délices" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "9 sashimi, 4 sushi, 6 maki saumon" ;
+                    ns1:name "M7 Menu délices" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "12 california saumon avocat, 6 california thon avocat" ;
+                    ns1:name "M4 Menu délices" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignets poulet + 1 riz blanc" ;
+                    ns1:name "M13 Menu délices" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 california saumon avocat, 6 maki saumon, 2 sushi saumon, 4 sashimi saumon" ;
+                    ns1:name "M5 Menu délices" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "15 sashimi assortiment + 1 riz blanc" ;
+                    ns1:name "M1 Menu délices" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 sushi assortiment, 6 maki saumon" ;
+                    ns1:name "M6 Meu délices" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 california saumon avocat, 6 maki saumon, 6 maki thon" ;
+                    ns1:name "M3 Menu délices" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "12 maki saumon, 6 maki thon" ;
+                    ns1:name "M9 Menu délices" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "10 sushi assortiment" ;
+                    ns1:name "M12 Menu délices" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 maki avocat, 6 maki concombre, 6 maki radis marinés" ;
+                    ns1:name "M10 Menu délices" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "9 sashimi saumon, 6 california saumon avocat" ;
+                    ns1:name "M8 Menu délices" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "20 sashimi assortiment + 1 riz blanc" ;
+                    ns1:name "M2 Menu délices" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.50" ] ] ;
+            ns1:name "Menus délices" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Tsing- Tao" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Bières" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Servi par 6 pièces" ;
+                    ns1:name "50- Saumon avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi par 6 pièces" ;
+                    ns1:name "51- Saumon fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi par 6 pièces" ;
+                    ns1:name "48- Avocat fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi par 6 pièces" ;
+                    ns1:name "49- Surimi avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "California oignon frit" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Servi par 6 pièces" ;
+                    ns1:name "54- Surimi fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi par 6 pièces" ;
+                    ns1:name "55- Saumon fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi par 6 pièces" ;
+                    ns1:name "52- Las Vegas (6 pièces)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi par 6 pièces" ;
+                    ns1:name "53- Avocat fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Neige Rolls" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """20 sushi assortiment, 24 sashimi assortiment, 12 maki saumon, 12 maki thon, 6 california tempura crevette, 6 california saumon avocat, 6 california thon avocat, 6 california saumon fromage, 6 california saumon avocat fromage.\r
+4 soupes + 4 salades + 4 riz blanc""" ;
+                    ns1:name "Menu plateau 2" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€96.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """10 sashimi assortiment, 4 sushi assortiment, 12 maki assortiment, 8 brochettes (2 bœuf, 2 poulet, 2 saumon, 2 gambas).\r
+2 soupes + 2 salades + 2 riz blanc""" ;
+                    ns1:name "Menu bateau 2" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€46.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """20 sashimi assortiment, 10 sushi assortiment, 6 maki saumon, 6 california saumon avocat.\r
+2 soupes + 2 salades + 2 riz blanc""" ;
+                    ns1:name "Menu bateau 1" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€48.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """24 sashimi assortiment, 16 sushi assortiment, 24 california saumon avocat.\r
+4 soupes + 4 salades + 4 riz blanc""" ;
+                    ns1:name "Menu plateau 1" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€78.00" ] ] ;
+            ns1:name "Menus Bateaux" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "B3 Menu Brochette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 brochettes : 4 boulettes de poulet, 4 bœuf au fromage" ;
+                    ns1:name "B1 Menu brochette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 brochettes : 1 boulettes de poulet, 1 bœuf, 1 poulet, 2 fromage" ;
+                    ns1:name "B2 Menu brochette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 brochettes : 2 saumon, 2 thon, 2 St-Jacques, 2 gambas" ;
+                    ns1:name "B5 Menu Brochette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 brochettes : 5 bœufs au fromage" ;
+                    ns1:name "B4 Menu Brochette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 brochettes : saumon" ;
+                    ns1:name "B6 Menu Brochette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ] ;
+            ns1:name "Menus Brochettes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "3 sashimi saumon, 6 california saumon avocat, 2 brochettes boeuf fromage, 3 gyoza frits, salade wakamé, radis marinés, riz blanc" ;
+                    ns1:name "Bento 5" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 tempura crevette,3 gaozy frit, riz blanc, salade wakamé, radis marinés" ;
+                    ns1:name "Bento 2" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon caramélisé, 3 gyoza frits, salade wakamé, radis marinés, riz blanc" ;
+                    ns1:name "Bento 1" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignets de poulet, 3 gyoza frits, salade wakamé, radis marinés, riz blanc" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/05/6505b80b22832.jpeg> ;
+                    ns1:name "Bento 3" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 sashimi saumon, 3 sushi saumon, 2 brochette bœuf fromage, 3 gyoza frits, salade wakamé, radis marinés, riz blanc" ;
+                    ns1:name "Bento 4" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.90" ] ] ;
+            ns1:name "Bento" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "28- Thon (5 pièces)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "26- Saumon (5pièces)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "29- Thon (10 pièces)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "31- Daurade (10 pièces)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "27- Saumon (10 pièces)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "32- Assortiment (10 pièces)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "30- Daurade (5 pièces)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ] ;
+            ns1:name "Sashimi" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Salade de fruits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces" ;
+                    ns1:name "Perles de coco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Lychee au sirop" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces" ;
+                    ns1:name "Mochi the vert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Gâteau chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Sushi servi par 2 pièces" ;
+                    ns1:name "19- Saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sushi servi par 2 pièces" ;
+                    ns1:name "22- Daurade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sushi servi par 2 pièces" ;
+                    ns1:name "21 Thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sushi servi par 2 pièces" ;
+                    ns1:name "20- Saumon fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sushi servi par 2 pièces" ;
+                    ns1:name "23- Crevette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sushi servi par 2 pièces" ;
+                    ns1:name "24- Œufs de saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sushi servi par 2 pièces" ;
+                    ns1:name "25- Avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Sushis (2 pièces)" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Coca Zéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Coca Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jus d'abricot" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "jus d'orange" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Lipton Ice tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jus de litchi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jus d'ananas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "4 pièces" ;
+                    ns1:name "6- Nêms au poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 pièces" ;
+                    ns1:name "10- Crevettes aux potatoes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "E1 Riz cantonais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "5- Riz vinaigré" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 pièces" ;
+                    ns1:name "7- Gyoza au poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "2- Salade chou" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 pièces" ;
+                    ns1:name "8- Tempura crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "4- Riz blanc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "1- Soupe miso" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pièces" ;
+                    ns1:name "9- Anneau calamar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "3- Salade algues" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 pièces" ;
+                    ns1:name "7A- Gyoza frits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Entrées et accompagnements" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "75 cl" ;
+                    ns1:name "Côtes-du-rhône (rouge)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75 cl" ;
+                    ns1:name "Chardonnay (blanc)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.80" ] ] ;
+            ns1:name "Vins" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Servi par 2 pièces" ;
+                    ns1:name "16- Thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "18- Saint-Jacques" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi par 2 pièces" ;
+                    ns1:name "12- Poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi par 2 pièces" ;
+                    ns1:name "13- Bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi par 2 pièces" ;
+                    ns1:name "17- Gambas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi par 2 pièces" ;
+                    ns1:name "15- Saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi par 2 pièces" ;
+                    ns1:name "14- Boeuf au fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi par 2 pièces" ;
+                    ns1:name "11- Boulettes de poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ] ;
+            ns1:name "Brochettes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Servi par 6 pièces" ;
+                    ns1:name "41- Surimi fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi par 6 pièces" ;
+                    ns1:name "40- Avocat fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi par 6 pièces" ;
+                    ns1:name "43- Thon avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi par 6 pièces" ;
+                    ns1:name "46- Tempura avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi par 6 pièces" ;
+                    ns1:name "44- Saumon fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi par 6 pièces" ;
+                    ns1:name "47- Beignets california" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi par 6 pièces" ;
+                    ns1:name "42- Saumon avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi par 6 pièces" ;
+                    ns1:name "45- Saumon avocat fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "California" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "2 plats au choix + 1 soupe + 1 salade." ;
+                    ns1:name "Menu composé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ] ;
+            ns1:name "Menu composé" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Servi par 6 pièces" ;
+                    ns1:name "38- Radis marinés" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi par 6 pièces" ;
+                    ns1:name "33- Saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi par 8 piece" ;
+                    ns1:name "39- Futomaki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi par 6 pièces" ;
+                    ns1:name "37- Avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi par 6 pièces" ;
+                    ns1:name "34- Saumon cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi par 6 pièces" ;
+                    ns1:name "35- Thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Servi par 6 pièces" ;
+                    ns1:name "36- Fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Maki" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tranches de poisson cru sur un bol de riz vinaigré, servi avec 1 soupe, 1 salade." ;
+                    ns1:name "C3 Chirachi assortis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tranches de poisson cru sur un bol de riz vinaigré, servi avec 1 soupe, 1 salade." ;
+                    ns1:name "C2 Chirachi thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tranches de poisson cru sur un bol de riz vinaigré, servi avec 1 soupe, 1 salade." ;
+                    ns1:name "C1 Chirashi saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ] ;
+            ns1:name "Menus chirashis" ] .
+

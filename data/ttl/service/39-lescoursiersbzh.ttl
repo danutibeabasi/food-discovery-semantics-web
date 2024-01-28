@@ -1,0 +1,20 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lescoursiersbzh.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "fr" ;
+                    ns1:addressLocality "Quimper" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 4.799595e+01 ;
+                    ns1:longitude -4.09992e+00 ] ] ;
+    ns1:description "Les Coursiers BZH is a local, cooperative and ecological delivery service. Join us!"@en,
+        "Les Coursiers BZH sont un service de livraison local, coopératif et écologique. Rejoignez nous !"@fr ;
+    ns1:name "Breizh Vélo - Quimper" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:sameAs <https://www.facebook.com/breizhvelo.fr> ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://lescoursiersbzh.coopcycle.org> .
+

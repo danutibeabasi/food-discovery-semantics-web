@@ -1,0 +1,45 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://fast-and-curious.coopcycle.org/api/restaurants/37> a ns1:Restaurant ;
+    ns1:address <https://fast-and-curious.coopcycle.org/api/addresses/1792> ;
+    ns1:description "Le Bouchon Normand c'est du fait maison! spécialiste de la cuisine traditionnelle Française et des Burgers" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.94912e+01 ;
+            ns1:longitude 1.04264e-01 ] ;
+    ns1:image <https://fast-and-curious.coopcycle.org/media/cache/restaurant_thumbnail/61/47/61476d2cc8bcb.jpg> ;
+    ns1:name "Bouchon Normand" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:15" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:45" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:45" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://fast-and-curious.coopcycle.org/en/restaurant/37-bouchon-normand" ] ] ;
+    ns1:sameAs <https://fast-and-curious.coopcycle.org/en/restaurant/37-bouchon-normand> ;
+    ns1:url <https://fast-and-curious.coopcycle.org/en/restaurant/37-bouchon-normand> .
+
+<https://fast-and-curious.coopcycle.org/api/addresses/1792> a ns1:PostalAddress ;
+    ns1:name "Bouchon Normand" ;
+    ns1:streetAddress "77 Rue Louis Brindeau, 76600 Le Havre, France" ;
+    ns1:telephone "+33952152373" .
+

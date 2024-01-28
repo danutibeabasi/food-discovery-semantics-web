@@ -1,0 +1,19 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lescoliporteursnz.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "fr" ;
+                    ns1:addressLocality "Saint Nazaire" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 4.72735e+01 ;
+                    ns1:longitude -2.213848e+00 ] ] ;
+    ns1:name "Les Coliporteurs Nazairiens" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:sameAs <https://www.facebook.com/lescoliporteursnz/>,
+        <https://www.instagram.com/lescoliporteursnz/?hl=fr> ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://lescoliporteursnz.coopcycle.org> .
+

@@ -1,0 +1,52 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://beefast.coopcycle.org/api/restaurants/31> a ns1:Restaurant ;
+    ns1:address <https://beefast.coopcycle.org/api/addresses/2930> ;
+    ns1:description "Chez Via Pizza, nous nous inspirons de la tradition italienne, tout en rajoutant le bon goût à la Française, en vous proposant par exemple la pizza Regina (reine), une invention bien de chez nous. Notre carte en un subtil mélange de ces deux cultures pour le plaisir des grandes et des petites faims." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.98939e+01 ;
+            ns1:longitude 2.29834e+00 ] ;
+    ns1:image <https://beefast.coopcycle.org/media/cache/restaurant_thumbnail/62/4b/624b439d98d71.jpg> ;
+    ns1:name "Via Pizza" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:15" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday" ;
+            ns1:opens "19:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:45" ;
+            ns1:dayOfWeek "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "19:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:30" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "12:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "12.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.50" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://beefast.coopcycle.org/en/restaurant/31-via-pizza" ] ] ;
+    ns1:sameAs <https://beefast.coopcycle.org/en/restaurant/31-via-pizza> ;
+    ns1:url <https://beefast.coopcycle.org/en/restaurant/31-via-pizza> .
+
+<https://beefast.coopcycle.org/api/addresses/2930> a ns1:PostalAddress ;
+    ns1:name "Via Pizza" ;
+    ns1:streetAddress "5 Rue des Sergents, 80000 Amiens, France" ;
+    ns1:telephone "+33322918300" .
+

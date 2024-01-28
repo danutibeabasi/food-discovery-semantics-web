@@ -1,0 +1,40 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://samo.coopcycle.org/api/restaurants/4> ns1:hasMenu <https://samo.coopcycle.org/en/restaurant/4-le-bistro-du-marche#menu> .
+
+<https://samo.coopcycle.org/en/restaurant/4-le-bistro-du-marche#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "gourmant, à garnir." ;
+                    ns1:image <https://samo.coopcycle.org/media/cache/product_thumbnail/60/96/609677de1b534.jpeg> ;
+                    ns1:name "Beignet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pancakes fraichement préparés avec amour" ;
+                    ns1:image <https://samo.coopcycle.org/media/cache/product_thumbnail/60/8d/608d7ac07843e.jpeg> ;
+                    ns1:name "3 Pancakes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "à garnir au choix" ;
+                    ns1:image <https://samo.coopcycle.org/media/cache/product_thumbnail/60/96/609678071ad84.jpeg> ;
+                    ns1:name "Crêpe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "La carte" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Une orange pressée et une boisson chaude, un plaisir sucré,\r
+un croque BDM jambon fromage ou aux fromages, du coleslaw et une belle omelette aux lardons ou au fromage.""" ;
+                    ns1:image <https://samo.coopcycle.org/media/cache/product_thumbnail/60/84/60842fb04f3a5.jpeg> ;
+                    ns1:name "Brunch du Marché" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "10 crêpes natures faites avec amour" ;
+                    ns1:name "Boîte à Crêpes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ] ;
+            ns1:name "Formules" ] .
+

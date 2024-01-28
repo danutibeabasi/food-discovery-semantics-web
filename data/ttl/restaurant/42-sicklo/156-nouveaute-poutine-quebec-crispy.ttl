@@ -1,0 +1,44 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://sicklo.coopcycle.org/api/restaurants/156> a ns1:Restaurant ;
+    ns1:address <https://sicklo.coopcycle.org/api/addresses/95199> ;
+    ns1:bannerImage "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/97/6597ca38c563d.jpg" ;
+    ns1:description "Poutine Québec, c'est probablement le meilleur endroit pour venir manger des poutines faites à base de frites maison sur Grenoble. Viens découvrir nos plats préparés à la commande dans un cadre décontracté. Parmi nos spécialités québecoises, tu trouveras de savoureuses poutines tartiflettes et poutines montagnardes. Tous nos plats sont fait à base de produits frais et préparés avec attention, ce qui leur donnent des saveurs qui vont te régaler. A bientôt chez Poutine Québec ! (crispy)" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.518999e+01 ;
+            ns1:longitude 5.728382e+00 ] ;
+    ns1:image <https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/65/97/6597c9fe06f5a.jpg> ;
+    ns1:name "Nouveauté ! Poutine QUEBEC - (crispy)" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:45" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:50" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:45" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://sicklo.coopcycle.org/en/restaurant/156-nouveaute-poutine-quebec-crispy" ] ] ;
+    ns1:sameAs <https://sicklo.coopcycle.org/en/restaurant/156-nouveaute-poutine-quebec-crispy> ;
+    ns1:url <https://sicklo.coopcycle.org/en/restaurant/156-nouveaute-poutine-quebec-crispy> .
+
+<https://sicklo.coopcycle.org/api/addresses/95199> a ns1:PostalAddress ;
+    ns1:name "Nouveauté ! Poutine QUEBEC - (crispy)" ;
+    ns1:streetAddress "11 Rue Raoul Blanchard, 38000 Grenoble, France" ;
+    ns1:telephone "+33476250321" .
+

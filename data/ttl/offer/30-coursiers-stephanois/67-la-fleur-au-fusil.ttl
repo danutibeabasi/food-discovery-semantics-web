@@ -1,0 +1,18 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiers-stephanois.coopcycle.org/api/restaurants/67> ns1:hasMenu <https://coursiers-stephanois.coopcycle.org/en/restaurant/67-la-fleur-au-fusil#menu> .
+
+<https://coursiers-stephanois.coopcycle.org/en/restaurant/67-la-fleur-au-fusil#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "SANDWICH JAMBON/BEURRE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "SANDWICH VÉGÉTARIEN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "Sandwichs" ] .
+

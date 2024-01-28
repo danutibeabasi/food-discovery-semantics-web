@@ -1,0 +1,19 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://coursiers-stephanois.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "fr" ;
+                    ns1:addressLocality "Saint-Étienne" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 4.543681e+01 ;
+                    ns1:longitude 4.386622e+00 ] ] ;
+    ns1:description "<p>Fondé par un trio de coursiers expérimentés, nous avons pour vocation de créer et développer une structure permettant d'assurer des contrats et des conditions de travail socialement et éthiquement acceptable pour les coursier.ère.s uberisé.es de Saint-Étienne. Tous nos efforts sont voués à fournir une solution logistique rapide, écologique, économique et locale aux acteur.ices économiques et administratifs stéphanois.es.</p>"@fr ;
+    ns1:name "Les Coursiers Stéphanois" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:sameAs <https://www.facebook.com/coursiersstephanois> ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://coursiers-stephanois.coopcycle.org> .
+

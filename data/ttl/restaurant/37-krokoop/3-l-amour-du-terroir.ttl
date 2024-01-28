@@ -1,0 +1,37 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://krokoop.coopcycle.org/api/restaurants/3> a ns1:Restaurant ;
+    ns1:address <https://krokoop.coopcycle.org/api/addresses/5> ;
+    ns1:description """L'Amour du Terroir est un établissement porté par deux passionnés de gastronomie française et plus précisément des spécialités venues tout droit du Sud-Ouest !\r
+\r
+Vous y retrouverez des produits authentiques & labellisés qui vous feront raffoler les papilles.\r
+\r
+De la rôtisserie à la charcuterie, du fromage aux apéritifs finement sélectionnés, tout y est préparé pour vous faire voyager dans les saveurs culinaires du pays de Cyrano.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.3837e+01 ;
+            ns1:longitude 4.35953e+00 ] ;
+    ns1:image <https://krokoop.coopcycle.org/media/cache/restaurant_thumbnail/65/49/654993a9ea27e.png> ;
+    ns1:name "L'AMOUR DU TERROIR" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://krokoop.coopcycle.org/en/restaurant/3-l-amour-du-terroir" ] ] ;
+    ns1:sameAs <https://krokoop.coopcycle.org/en/restaurant/3-l-amour-du-terroir> ;
+    ns1:url <https://krokoop.coopcycle.org/en/restaurant/3-l-amour-du-terroir> .
+
+<https://krokoop.coopcycle.org/api/addresses/5> a ns1:PostalAddress ;
+    ns1:name "L'AMOUR DU TERROIR" ;
+    ns1:streetAddress "2 Plan de l'Aspic, 30000 Nîmes, France" ;
+    ns1:telephone "+33411719491" .
+

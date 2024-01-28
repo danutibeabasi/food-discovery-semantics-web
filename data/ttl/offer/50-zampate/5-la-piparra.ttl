@@ -1,0 +1,211 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://zampate.coopcycle.org/api/restaurants/5> ns1:hasMenu <https://zampate.coopcycle.org/en/restaurant/5-la-piparra#menu> .
+
+<https://zampate.coopcycle.org/en/restaurant/5-la-piparra#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tostada de pan de hogaza con queso de anacardos, pepino y ahumado de zanahoria" ;
+                    ns1:name "Tostada de ahumado de zanahoria" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lechuga, tomate, cebolla, espárrago, aguacate y mayonesa en pan tostado" ;
+                    ns1:name "Sandwich Vegetal" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ] ;
+            ns1:name "Tostadas y sandwich" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/99/5f99541fe8175.jpg> ;
+                    ns1:name "Chorizo vegetal" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/99/5f9953f297e89.jpg> ;
+                    ns1:name "Ahumado de zanahoria" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Productos caseros" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tomate, pepino, cebolla, olivas y “feta” de anacardos" ;
+                    ns1:name "Griega" ;
+                    ns1:nutrition "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lechuga, manzana, nueces y pasas con salsa de sésamo" ;
+                    ns1:name "Waldorf" ;
+                    ns1:nutrition "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.40" ] ] ;
+            ns1:name "Ensaladas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Dulce Marroquí de frutos secos" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/60/0a/600aa634312cf.jpeg> ;
+                    ns1:name "Gherba de nueces (x2)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Quesada" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pastel de chocolate con crema de galleta" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/98/5f981969c52e3.jpg> ;
+                    ns1:name "Pastel de chocolate con crema de galleta" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Postres caseros" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Según temporada" ;
+                    ns1:name "Migas con Verduras" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Patatas fritas con pimiento verde y taquitos de chorizo vegetal casero" ;
+                    ns1:name "Patatas con Pimientos y Chorizo" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Croquetas de garbanzo con salsa de tahini" ;
+                    ns1:name "Falafel" ;
+                    ns1:nutrition "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Patatas fritas con 4 tipos de mayonesa: alioli, cilantro, ajo negro y siracha" ;
+                    ns1:name "Patatas con Salsas" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Raciones" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Chorizo vegetal casero, cebolla caramelizada, queso de anacardo, rúcula y alioli" ;
+                    ns1:name "Chorizo y Queso" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Filete de proteína de legumbre a la plancha, pimiento asado, cebolla pochada, tomate y alioli" ;
+                    ns1:name "Pepito" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Patatas fritas, lechuga, tomate, cebolla, mayonesa y salsa picante harissa" ;
+                    ns1:name "Patatas fritas" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Seta de cardo empanada, pimiento asado, lechuga, tomate, cebolla y alioli" ;
+                    ns1:name "Seta de Cardo" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.30" ] ] ;
+            ns1:name "Bocadillos" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/98/5f98203d4f4b5.jpg> ;
+                    ns1:name "Zumo Melocotón- Uva" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/98/5f9819af311c2.jpg> ;
+                    ns1:name "Refrescos Whole Earth Cranberry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/98/5f981cf145da6.jpg> ;
+                    ns1:name "Refrescos Whole Earth Limón" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/98/5f981d2d018cf.jpg> ;
+                    ns1:name "Refrescos Whole Earth Manzana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/98/5f981bd4772de.jpg> ;
+                    ns1:name "Refrescos Whole Earth Jengibre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Agua" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/98/5f9817a02d63c.jpg> ;
+                    ns1:name "Limonada" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/98/5f981e818a3f4.jpg> ;
+                    ns1:name "Sidra Gallega Maeloc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/98/5f981fcf5b27f.jpg> ;
+                    ns1:name "Zumo de Manzana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/98/5f98200de598e.jpg> ;
+                    ns1:name "Zumo de Pera" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/98/5f9817ddd4640.jpg> ;
+                    ns1:name "Mosto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Refresco de cola con azúcar de comercio justo" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/98/5f98174c6e2e1.jpg> ;
+                    ns1:name "Frixen Cola 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/98/5f981dd63f0f8.jpg> ;
+                    ns1:name "Refrescos Whole Earth Sauco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/5f/98/5f981d837a66a.jpg> ;
+                    ns1:name "Refrescos Whole Earth Naranja-Limon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Refresco de limón con azúcar de comercio justo" ;
+                    ns1:name "Frixen Limón 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.70" ] ] ;
+            ns1:name "Bebidas" ] .
+

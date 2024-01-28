@@ -1,0 +1,247 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://khora.berlin/en/restaurant/140-vineria-del-este> ns1:hasMenu <https://khora.berlin/en/restaurant/140-vineria-del-este#menu> .
+
+<https://khora.berlin/en/restaurant/140-vineria-del-este#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Rose 0.75 L. Rebsorten: 100% Tempranillo" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/60/53/60539a12eff41.jpeg> ;
+                    ns1:name "Bujanda Rosé 2019 - D.O. Rioja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ] ;
+            ns1:name "Rose" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Weißwein - 0,75 L. Rebsorten: 100% Sauvignon Blanc" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/60/52/60524de4aced5.jpeg> ;
+                    ns1:name "Blanco Nieva Sauvignon Blanc  2019 - D.O. Rueda" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Weisswein - 0,75 L. Rebsorten: 100% Albarinho" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/60/53/60539c8d83757.jpeg> ;
+                    ns1:name "Vanidade 2019 - D.O.Rías Baixas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Weißwein - 0,75 L. Rebsorten: Viura" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/60/53/605399f081dfd.jpeg> ;
+                    ns1:name "Bujanda Blanco 2019 - D.O. Rioja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ] ;
+            ns1:name "Weißweine" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Rotwein - 0,75 L" ;
+                    ns1:name "Gazaga Lezaun Tempranillo-Cabernet Sauvignon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Rotwein - 0,75 L. Rebsorten: Graciano 65%, Tempranillo 35%. 12 Monate lang gereift. Navarra- und französische Eiche." ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/60/77/607723f5222fb.jpeg> ;
+                    ns1:name "Lezaun Crianza Tempranillo-Graciano 2017 - D.O. Navarra" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Rotwein - 0,75 L. Rebsorten: 100% Tempranillo. 8 Monaten Französische Eichenfässer" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/60/53/60539bdc04ef6.jpeg> ;
+                    ns1:name "Nuestro 2018 - D.O. Ribera del Duero" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Rotwein - 0,75 L. Rebsorten: 100% Tempranillo.  Hergestellt auf 100% natürliche Weise, ohne Zusatz von Sulfiten" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/60/77/6077231424534.jpeg> ;
+                    ns1:name "Lezaun Tempranillo 0,0 - 2020 - D.O. Navarra" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Rotwein - 0,75 L" ;
+                    ns1:name "Viña Bujanda tinto D.O. Rioja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ] ;
+            ns1:name "Rotweine" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pils Bier - 0,33 L." ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/60/52/6052546458461.jpeg> ;
+                    ns1:name "Estrella de Galicia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ] ;
+            ns1:name "Bier" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/60/52/605253a35eb84.jpeg> ;
+                    ns1:name "Croquetas caseras - Tageskroketten mit Waldpilze" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Grüner Spargel gegrillt, Manchego Käse, Thymianöl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Frische Dorade Filet (um 200g), Romescu Sauce, Olivada" ;
+                    ns1:nutrition "Fish",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/60/52/605237f766293.jpeg> ;
+                    ns1:name "Croquetas caseras - Tageskroketten mit Serrano Schinken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/db/61db1614628fb.jpeg> ;
+                    ns1:name "Chipirones frescos a la plancha Frische Kleine Tintenfische von der Grillplatte - klein" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/db/61db14bdc48a2.jpeg> ;
+                    ns1:name "Albóndigas de espinacas - Spinatbällchen, gorgonzola sauce" ;
+                    ns1:nutrition "Milk",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Traditionelle Gericht aus Rind und Schweinefleisch Bio Fleisch" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/60/52/60523820e8465.jpeg> ;
+                    ns1:name "Albóndigas de carne en salsa - Bio Hackfleischbällchen in Tomaten - Basilikum Jus" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/60/52/60523c0438108.jpeg> ;
+                    ns1:name "Chipirones frescos a la plancha Frische Kleine Tintenfische von der Grillplatte - Groß" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Argentinisches Steakhüfte, Bärlauch Chimichurri, Kartoffel, Salat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/db/61db16d235139.jpeg> ;
+                    ns1:name "Riesen Garnelen, Wildfang, gegrillt 3 St." ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ] ;
+            ns1:name "Wochenkarte" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/62/68/62682f8697322.jpeg> ;
+                    ns1:name "Ensalada mixta - Mix Salat Klein" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/db/61db175225679.jpeg> ;
+                    ns1:name "Plato mixto: Schinken, Wurst, Käse, Oliven - Groß" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/f0/61f026cede90a.jpeg> ;
+                    ns1:name "Champignones al ajillo – Champignons mit Olivenöl und Knoblauch gebraten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/60/53/605391835441e.jpeg> ;
+                    ns1:name "Alcaparras - Kapern" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/60/52/605243403d77d.jpeg> ;
+                    ns1:name "Getrocknete Tomaten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "also beiden Sossen" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/60/52/60524d055adef.jpeg> ;
+                    ns1:name "Patatas Bravas con All i Oli" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/60/52/60524d9b484af.jpeg> ;
+                    ns1:name "Ciruelas con bacon – Pflaumen in Speckmantel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/60/52/605240d9eba38.jpeg> ;
+                    ns1:name "Oliven" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/60/52/605244b621ad6.jpeg> ;
+                    ns1:name "Boquerones en vinagre – Sardellen Filets in Olivenöl und Knoblauch eigelegt" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/f0/61f027d0946c1.jpeg> ;
+                    ns1:name "Plato de queso españoles – Spanisches Käse Platte Groß" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/f0/61f02713b7f5e.jpeg> ;
+                    ns1:name "Plato de queso españoles – Spanisches Käse Platte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/62/68/62682ff479ec6.jpeg> ;
+                    ns1:name "Ensalada mixta - Mix Salat Groß" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/60/52/6052406736dae.jpeg> ;
+                    ns1:name "Tortilla de patatas – Spanisches Kartoffeln Omelette" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/db/61db17e1e92c7.jpeg> ;
+                    ns1:name "Queso de cabra y miel con chili – Ziegenkäse Bällchen, Karamelliseirte Zwiebel, Chili Honig" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/60/52/60524cabe4a9a.jpeg> ;
+                    ns1:name "Chorizo picante frito – Scharfe Paprikawurst gebraten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/60/52/60524b8553288.jpeg> ;
+                    ns1:name "Plato mixto: Schinken, Wurst, Käse, Oliven - Klein" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/60/52/60524d5a8e946.jpeg> ;
+                    ns1:name "Patatas Bravas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/60/52/6052552d80092.jpeg> ;
+                    ns1:name "Chivito – Rindersteak aus Uruguay gegrillt mit Schinken und Käse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/62/68/6268304b4f30a.jpeg> ;
+                    ns1:name "All i Oli mit Brot" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/db/61db182ad67f0.jpeg> ;
+                    ns1:name "Jamón Serrano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Patatas con Ali i Oli" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ] ;
+            ns1:name "Unsere Klassiker / Tapas" ] .
+

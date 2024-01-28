@@ -1,0 +1,41 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://sicklo.coopcycle.org/api/restaurants/17> a ns1:Restaurant ;
+    ns1:address <https://sicklo.coopcycle.org/api/addresses/486> ;
+    ns1:bannerImage "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/6d/656dc28f99e29.png" ;
+    ns1:description """L'Atelier - Café, Gâteaux & Boulot \r
+\r
+Des bowls pleins de légumes de saisons et au maximum locaux\r
+Un club sandwich à l’avocat et au cheddar\r
+Des soupes aux lègumes de saisons\r
+\r
+Choix de pâtisseries gourmandes, sans gluten et parfois même vegan !""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.51894e+01 ;
+            ns1:longitude 5.728078e+00 ] ;
+    ns1:image <https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/64/3f/643ffb835677b.jpg> ;
+    ns1:name "L'Atelier CGB 🌱" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:40" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://sicklo.coopcycle.org/en/restaurant/17-l-atelier-cgb" ] ] ;
+    ns1:sameAs <https://sicklo.coopcycle.org/en/restaurant/17-l-atelier-cgb> ;
+    ns1:url <https://sicklo.coopcycle.org/en/restaurant/17-l-atelier-cgb> .
+
+<https://sicklo.coopcycle.org/api/addresses/486> a ns1:PostalAddress ;
+    ns1:name "L'Atelier CGB 🌱" ;
+    ns1:streetAddress "24 Rue Saint-Jacques, Grenoble, France" ;
+    ns1:telephone "+33476001465" .
+

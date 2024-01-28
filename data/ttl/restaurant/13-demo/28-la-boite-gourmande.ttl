@@ -1,0 +1,58 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://demo.coopcycle.org/api/restaurants/28> a ns1:Restaurant ;
+    ns1:address <https://demo.coopcycle.org/api/addresses/78> ;
+    ns1:bannerImage "https://demo.coopcycle.org/placeholder/restaurant_banner/placeholders/La2NE0VlQmYD.jpg" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.888087e+01 ;
+            ns1:longitude 2.380762e+00 ] ;
+    ns1:image <https://demo.coopcycle.org/img/cuisine/default.jpg> ;
+    ns1:name "La boîte gourmande" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "00:45" ;
+            ns1:dayOfWeek "Saturday",
+                "Sunday" ;
+            ns1:opens "20:15" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "23:30" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "20:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:30" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "10:15" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:00" ;
+            ns1:dayOfWeek "Saturday",
+                "Sunday" ;
+            ns1:opens "09:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "15.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.50" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://demo.coopcycle.org/en/restaurant/28-la-boite-gourmande" ] ] ;
+    ns1:sameAs <https://demo.coopcycle.org/en/restaurant/28-la-boite-gourmande> ;
+    ns1:url <https://demo.coopcycle.org/en/restaurant/28-la-boite-gourmande> .
+
+<https://demo.coopcycle.org/api/addresses/78> a ns1:PostalAddress ;
+    ns1:name "La boîte gourmande" ;
+    ns1:streetAddress "Rue Manin 2 c, 75019 Paris" ;
+    ns1:telephone "+33322846843" .
+

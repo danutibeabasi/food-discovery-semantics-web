@@ -1,0 +1,274 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/restaurants/4> ns1:hasMenu <https://lescoursiersbrestois.coopcycle.org/en/restaurant/4-la-poke#menu> .
+
+<https://lescoursiersbrestois.coopcycle.org/en/restaurant/4-la-poke#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "1 poke bowl, 1 dessert et 1 boisson au choix." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0e6b7b88a8.jpeg> ;
+                    ns1:name "Menu Poke signature + Boisson + Dessert maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 base, 1 protéine, 5 ingrédients, 1 topping et 1 sauce au choix. Servi avec 1 dessert et 1 boisson au choix." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0e628c0fba.jpeg> ;
+                    ns1:name "Menu Poké à composer + Boisson + Dessert maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 poke bowl et 1 boisson au choix." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0e678d2577.jpeg> ;
+                    ns1:name "Menu Poke signature + boisson" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 base, 1 protéine, 5 ingrédients, 1 topping et 1 sauce au choix. Servi avec 1 boisson au choix." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0e5c067a56.jpeg> ;
+                    ns1:name "Menu Poké à composer + boisson" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ] ;
+            ns1:name "FORMULES 🥗🥤🍰" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0e07a8673c.jpeg> ;
+                    ns1:name "Bière Brestoise Bio \"Tropical bliss\" - 5.0°" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0e0ddbe6dc.jpeg> ;
+                    ns1:name "Bière IPA \"Captain Baril\" - 6.5°" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0e051e592a.jpeg> ;
+                    ns1:name "Bière Brestoise Bio \"La Timbrée\" - 3.2°" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bière Brestoise Bio \"Baril white\" - 4.9°" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ] ;
+            ns1:name "BOISSONS ALCOOLISEES 🍺" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0ea48c5b50.jpeg> ;
+                    ns1:name "Soupe d'hiver au potimarron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ] ;
+            ns1:name "LA SOUPE DU CHEF 🥣" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salade de mangue et d'ananas pour une touche de fraicheur en fin de repas" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0e2bb10b3c.jpeg> ;
+                    ns1:name "Duo Mangue-Ananas fraichement coupé !" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nul besoin de le présenter, un dessert à consommer sans modération !" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/90/6390869bea359.jpeg> ;
+                    ns1:name "Moelleux au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Le fameux dessert New-Yorkais revisité façon \"La Poke\" Une base de spéculos, un mélange fromage blanc - cream cheese sublimé par un nappage à la mangue. Notre best-seller !" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/90/639082b4e089d.jpeg> ;
+                    ns1:name "Cheesecake Mangue Vanille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fromage blanc onctueux, granola maison sur un mélange de confiture figue/fraise !" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/90/639083c583c2b.jpeg> ;
+                    ns1:name "Fromage blanc et son granola maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0e767b4a19.jpeg> ;
+                    ns1:name "Perles du Japon au lait de coco et coulis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ] ;
+            ns1:name "DESSERTS 100% FAITS MAISON 🍫" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "1 base, 1 protéine, 5 ingrédients, 1 topping et 1 sauce au choix." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0e2835a5ae.jpeg> ;
+                    ns1:name "Compose ton poke" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ] ;
+            ns1:name "POKE A COMPOSER SOI-MEME 🌈" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Houmous Libanais fait maison en pot de 240ml" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/90/63908479cad24.jpeg> ;
+                    ns1:name "Houmous Libanais maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mélange d'algues Coréennes mariné dans de l'huile de sésame pour un petit goût fumé ! Rassurez-vous, on ne les a pas ramassées sur la plage du Moulin Blanc 😂" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0e91b4a3e2.jpeg> ;
+                    ns1:name "Salade d'algues wakamé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une salade de fèves de soja qui permet d'avoir un apport en fer d'origine végétale aussi important que la viande !" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0e9461b897.jpeg> ;
+                    ns1:name "Salade d'edamame" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 Raviolis Japonais fourrés au poulet et aux légumes ! Servis avec la sauce de votre choix." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/90/639084418682a.jpeg> ;
+                    ns1:name "Gyozas au poulet & légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "ACCOMPAGNEMENTS 🥢" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Base de riz vinaigré, Avocat, Mangue fraiche, Saumon mariné, sauce et topping au choix" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/90/639082fedb129.jpeg> ;
+                    ns1:name "Chirashi Hawaïen" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Base de riz vinaigré, Avocat, Cream cheese, Saumon mariné, sauce et topping au choix" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/90/6390820787f68.jpeg> ;
+                    ns1:name "Chirashi fromager" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz vinaigré, Gyozas au poulet & légumes, Mangue, Guacamole, Cream cheese, Tomates cerises, Oignons rouges" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/91/6391c91cbc909.jpeg> ;
+                    ns1:name "Poke Gyozas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz vinaigré, Saumon mariné, Avocat, Mangue ou Ananas, Edamame, Chou rouge, Concombre." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0e855f35d3.jpeg> ;
+                    ns1:name "Poke saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz vinaigré, saumon et thon marinés, avocat, mangue, edamame, tomates cerise, radis." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0e893e4d11.jpeg> ;
+                    ns1:name "Poke super protéiné" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz vinaigré, Crevettes snackées, Mangue ou ananas, Edamame, Chou rouge, Tomates cerise, Feta." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0e7928b499.jpeg> ;
+                    ns1:name "Poke crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz vinaigré, Thon mariné, Avocat, Mangue ou Ananas, Fèves Edamame, Tzatziki Grec, Tomates cerise." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/90/63908fdb82d75.jpeg> ;
+                    ns1:name "Poke thon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz vinaigré, poulet au paprika, patate douce, fèves edamame, Pickles d'oignons rouges, Chèvre frais, Avocat" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/90/63908e2abdeda.jpeg> ;
+                    ns1:name "Poke poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ] ;
+            ns1:name "POKES SIGNATURES 🥑" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "50 cl." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0e96315ae9.jpeg> ;
+                    ns1:name "San Pellegrino 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0e244176d6.jpeg> ;
+                    ns1:name "Coca Cola zéro 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0e4f340f47.jpeg> ;
+                    ns1:name "Limonata San Pellegrino 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0e73055277.jpeg> ;
+                    ns1:name "Pago Tropical 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un mélange de citron BIO et d'eau finement pétillante ! 100% naturel, sans arômes ni conservateurs. - Produit à Nantes -" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0e9a071eac.jpeg> ;
+                    ns1:name "Schorle \"Citron\" BIO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un mélange de rhubarbe bio et d'eau finement pétillante ! 100% naturel, sans arômes ni conservateurs. - Produit à Nantes -" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0ea16f0116.jpeg> ;
+                    ns1:name "Schorle \"Rhubarbe Pimpante\" BIO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50 cl." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0ea6e416d3.jpeg> ;
+                    ns1:name "Vittel 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/90/639070ff33b4c.jpeg> ;
+                    ns1:name "LOKKI KOMBUCHA - Hibiscus, Rose Timur" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un mélange d'oranges bio et d'eau finement pétillante ! 100% naturel, sans arômes ni conservateurs. - Produit à Nantes -" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0e9cbc941d.jpeg> ;
+                    ns1:name "Schorle \"Orange\" Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/90/639084e81a2fc.jpeg> ;
+                    ns1:name "May tea Pêche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un mélange de pommes bio et d'eau finement pétillante ! 100% naturel, sans arômes ni conservateurs. - Produit à Nantes -" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0e9ef75cd3.jpeg> ;
+                    ns1:name "Schorle \"Pomme\" BIO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/90/6390816aedf44.jpeg> ;
+                    ns1:name "Aranciata rossa San Pellegrino 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0e22c7da33.jpeg> ;
+                    ns1:name "Coca cola 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une mélange de cassis bio et d'eau finement pétillante ! 100% naturel, sans arômes ni conservateurs. - Produit à Nantes -" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0e98ab4dbc.jpeg> ;
+                    ns1:name "Schorle \"Cassis truculent\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0e729d95a2.jpeg> ;
+                    ns1:name "Pago Orange 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/61/b0/61b0e711c1c7e.jpeg> ;
+                    ns1:name "Pago ACE 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ] ;
+            ns1:name "BOISSONS SANS ALCOOL 🥤" ] .
+

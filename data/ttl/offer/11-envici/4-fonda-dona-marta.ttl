@@ -1,0 +1,29 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://envici.coopcycle.org/api/restaurants/4> ns1:hasMenu <https://envici.coopcycle.org/en/restaurant/4-fonda-dona-marta#menu> .
+
+<https://envici.coopcycle.org/en/restaurant/4-fonda-dona-marta#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "AGUACATE, JITOMATE, CEBOLLA, LIMON, CHILE." ;
+                    ns1:image <https://envici.coopcycle.org/media/cache/product_thumbnail/61/8e/618e93b690cc3.jpeg> ;
+                    ns1:name "GUACAMOLE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$70.00" ] ] ;
+            ns1:name "ENTRADAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "TORTILLA FRITA, PAPA, CREMA, QUESO, SALSA." ;
+                    ns1:name "TACOS DORADOS DE PAPA" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$95.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "PESCADO, BROCOLI, ZANAHORIAS, SEMILLA DE GIRASOL" ;
+                    ns1:image <https://envici.coopcycle.org/media/cache/product_thumbnail/61/8e/618e96ff1d550.jpeg> ;
+                    ns1:name "PESCADO C/ VERDURAS" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$175.00" ] ] ;
+            ns1:name "PLATOS FUERTES" ] .
+

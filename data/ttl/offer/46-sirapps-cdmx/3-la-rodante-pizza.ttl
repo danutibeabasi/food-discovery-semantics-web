@@ -1,0 +1,165 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://sirapps-cdmx.coopcycle.org/api/restaurants/3> ns1:hasMenu <https://sirapps-cdmx.coopcycle.org/en/restaurant/3-la-rodante-pizza#menu> .
+
+<https://sirapps-cdmx.coopcycle.org/en/restaurant/3-la-rodante-pizza#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Chorizo pamplona, salami, pepperoni y aceitunas mixtas.\r
+Grande 40cm diámetro.""" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/2a/622a5279d073d.jpeg> ;
+                    ns1:name "Carnes Frías" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$200.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Queso base, provolone, azul y parmesano.\r
+Grande 40cm diámetro.""" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/2a/622a54bb3b683.jpeg> ;
+                    ns1:name "4 Quesos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$230.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Jitomate, queso de cabra, aceitunas negras y albahaca fresca.\r
+Grande 40cm diámetro""" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/2a/622a538add042.jpeg> ;
+                    ns1:name "Capresse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$200.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Higo, queso de cabra y jamón serrano.\r
+Grande 40cm diámetro.""" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/2a/622a543b3f36b.jpeg> ;
+                    ns1:name "Breva" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$220.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Queso de papa, berenjena, champiñón, pimiento morrón y cebolla.\r
+Grande 40cm diámetro.""" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/2a/622a50b2c6b43.jpeg> ;
+                    ns1:name "Vegana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$200.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """berenjena, champiñon, pimiento morrón y cebolla.\r
+Grande 40cm diámetro.""" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/2a/622a4a4da908c.jpeg> ;
+                    ns1:name "Vegetariana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$200.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Jamón y piña fresca.\r
+Grande 40cm diámetro.""" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/2a/622a47b35a66a.jpeg> ;
+                    ns1:name "Hawaiana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$180.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Salsa de dátil, arándano y chipotle seco, jamón serrano.\r
+Grande 40cm diámetro.""" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/2a/622a53f44131f.jpeg> ;
+                    ns1:name "Serrana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$220.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pepperoni con aceitunas o champiñones.\r
+Grande 40cm diámetro.""" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/2a/622a48911a61a.jpeg> ;
+                    ns1:name "Pepperoni" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$180.00" ] ] ;
+            ns1:name "Pizza Grande" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Galletas de maicena rellenas de dulce de leche y rodeadas de coco." ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/2a/622a7b55f35b4.jpeg> ;
+                    ns1:name "Alfajor de Maicena" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$35.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Alfajor de Limón" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$35.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/2a/622a7cf12fd62.jpeg> ;
+                    ns1:name "Gelatina de Baily`s" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$30.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/2a/622a7b8734ca0.jpeg> ;
+                    ns1:name "Alfajor de Matcha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$35.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/2a/622a7cb2e7cd8.jpeg> ;
+                    ns1:name "Alfajor de Chocolate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$35.00" ] ] ;
+            ns1:name "Postres" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Jitomate, queso de cabra, aceitunas negras y albahaca fresca.\r
+Chica 26cm diámetro.""" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/2a/622a73ac0f96e.jpeg> ;
+                    ns1:name "Capresse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$110.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Chorizo pamplona, salami, pepperoni y aceitunas mixtas\r
+Chica 26cm diámetro""" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/2a/622a742eb5f8b.jpeg> ;
+                    ns1:name "CarnesFrías" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$110.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Berenjena, champiñón, pimiento morrón y cebolla." ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/2a/622a581a0eeff.jpeg> ;
+                    ns1:name "Vegetariana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$110.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pepperoni con aceitunas o champiñones,\r
+Chica 26cm diámetro.""" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/2a/622a578151131.jpeg> ;
+                    ns1:name "Pepperoni" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$95.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Queso de papa, berenjena, champiñón, pimiento morrón, cebolla, jitomate, aceitunas.\r
+Chica 26cm diámetro.""" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/2a/622a73f97b0d5.jpeg> ;
+                    ns1:name "Vegana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$110.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Queso base, provolone, azul y parmesano.\r
+Chica 26cm diámetro.""" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/2a/622a749927616.jpeg> ;
+                    ns1:name "4 Quesos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$125.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Salsa de dátil, arándano y chipotle seco, jamón serrano.\r
+Chica 26cm diámetro.""" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/2a/622a74d196adc.jpeg> ;
+                    ns1:name "Serrana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$120.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Jamón y piña fresca.\r
+Chica 26cm diametro.""" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/2a/622a557872a0c.jpeg> ;
+                    ns1:name "Hawaiana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$95.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Higo, queso de cabra, jamón serrano.\r
+Chica 26cm diámetro.""" ;
+                    ns1:image <https://sirapps-cdmx.coopcycle.org/media/cache/product_thumbnail/62/2a/622a74654e912.jpeg> ;
+                    ns1:name "Breva" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "MX$120.00" ] ] ;
+            ns1:name "Pizza Chica" ] .
+

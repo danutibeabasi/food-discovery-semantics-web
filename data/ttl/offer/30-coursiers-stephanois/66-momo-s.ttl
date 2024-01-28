@@ -1,0 +1,181 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiers-stephanois.coopcycle.org/api/restaurants/66> ns1:hasMenu <https://coursiers-stephanois.coopcycle.org/en/restaurant/66-momo-s#menu> .
+
+<https://coursiers-stephanois.coopcycle.org/en/restaurant/66-momo-s#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Gambelle blanche, manu blonde, quinarelle ambrée, cafi IPA" ;
+                    ns1:name "Bières bouteilles Brasserie stéphanoise 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lindemans Pêcheresse 25 cl fruitées, XX Bitter IPA, Tripel karmeliet blonde triple, Orval Trappiste Ambrée" ;
+                    ns1:name "Bières bouteilles Belges 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Bières bouteilles" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Uniquement la semaine. 1 gaufre salée ou 1 gaufre burger + 1 gaufre sucrée au choix" ;
+                    ns1:name "Formule midi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ] ;
+            ns1:name "Formules midi" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Blanc de poulet fermier mariné, fourme d’Ambert, tomates, croûtons" ;
+                    ns1:name "Viviane" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jambon blanc fermier, emmental, oeuf au plat, tomates, croûtons" ;
+                    ns1:name "Bernadette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon fumé, guacamole, chantilly de fromage frais citronnée à l’aneth, tomates, croûtons" ;
+                    ns1:name "Chantal" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "Salades composées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Râpée de pomme de terre, fourme d’Ambert, salade, tomate, oignons, cornichons, sauce cocktail légèrement épicée" ;
+                    ns1:name "Momo's végé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Blanc de poulet fermier mariné, chèvre, salade, oignons frits, sauce tartare" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/b9/64b9000c0190b.jpeg> ;
+                    ns1:name "Toto's" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boeuf du boucher, raclette, lard fumé fermier, oignons rissolés, sauce au poivre" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/b9/64b90035c8dd3.jpeg> ;
+                    ns1:name "Fanti's" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boeuf du boucher, fourme d’Ambert, salade, tomate, oignons, cornichons, sauce cocktail légèrement épicée" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/b8/64b8ffd4182ff.jpeg> ;
+                    ns1:name "Momo's" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boeuf du boucher, emmental, salade, tomate, sauce pomme frite" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/b9/64b90053cba57.jpeg> ;
+                    ns1:name "Deni's" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "Gaufres burgers" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Blanc de poulet fermier mariné, fourme d’Ambert" ;
+                    ns1:name "Coquette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon fumé, guacamole, chantilly de fromage frais citronnée à l’aneth" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/b8/64b8ffec945de.jpeg> ;
+                    ns1:name "Saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tomates cerises, chantilly fromage frais citronnée à l’aneth, guacamole" ;
+                    ns1:name "Végétarienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chèvre, miel" ;
+                    ns1:name "Biquette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jambon blanc fermier, mozzarella, emmental" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/b8/64b8ffbbe3644.jpeg> ;
+                    ns1:name "Croq Jambon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lard fumé fermier, raclette, oignons rissolés" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/b9/64b900868f462.jpeg> ;
+                    ns1:name "Raclette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "Gaufres salées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Gaufres liégoises au sucre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "- Nutella ou Chocolat noir fondu, Caramel beurre salé, Miel, Citron-sucre, Confitures de fraises, Myrtilles, Abricots, Châtaignes, Mûres ou Figues" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/b8/64b8ffa257296.jpeg> ;
+                    ns1:name "Gaufres liégoises gourmandes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "- Orange, pomme, abricot, ananas, fraise ou mangue" ;
+                    ns1:name "Jus de fruits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Eau plate, Cristaline 50 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Eau pétillante, Badoit 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "- Coca-cola, Coca zéro, Orangina, Ice Tea pêche, Limonade 33cl" ;
+                    ns1:name "Sodas 25 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Appie brut 33 cl" ;
+                    ns1:name "Cidre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Cidre" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "1 croq jambon ou 1 burger + 1 boisson + 1 gauffre sucrée" ;
+                    ns1:name "Formule enfants" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Formule enfants" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Steak haché de bœuf du boucher + salade mixte et râpées" ;
+                    ns1:name "Assiette stéphanoise💚" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "Assiette stéphanoise" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Légumes frais de saison" ;
+                    ns1:name "Soupe du chef" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette de pomme de terre" ;
+                    ns1:name "Râpée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade verte, tomates, carottes, oignons" ;
+                    ns1:name "Salade mixte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Accompagnements salés" ] .
+

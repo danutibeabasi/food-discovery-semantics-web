@@ -1,0 +1,42 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://khora.berlin/api/restaurants/156> a ns1:Restaurant ;
+    ns1:address <https://khora.berlin/api/addresses/39503> ;
+    ns1:description "Khora is closing, please check here for more detailed Information. Khora schließt, bitte entnehmen Sie hier weitere Informationen." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 5.250444e+01 ;
+            ns1:longitude 1.340887e+01 ] ;
+    ns1:image <https://khora.berlin/media/cache/restaurant_thumbnail/62/a6/62a6fe47ec4fc.png> ;
+    ns1:name "Khora's last restaurant" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "23:59" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "00:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "50.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.00" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "de" ;
+                    ns1:urlTemplate "https://khora.berlin/en/restaurant/156-khora-s-last-restaurant" ] ] ;
+    ns1:sameAs <https://khora.berlin/en/restaurant/156-khora-s-last-restaurant> ;
+    ns1:url <https://khora.berlin/en/restaurant/156-khora-s-last-restaurant> .
+
+<https://khora.berlin/api/addresses/39503> a ns1:PostalAddress ;
+    ns1:name "Khora's last restaurant" ;
+    ns1:streetAddress "Oranienstraße 66, 10969 Berlin, Deutschland" ;
+    ns1:telephone "+491759920141" .
+

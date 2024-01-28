@@ -1,0 +1,50 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://coursiers-stephanois.coopcycle.org/api/restaurants/34> a ns1:Restaurant ;
+    ns1:address <https://coursiers-stephanois.coopcycle.org/api/addresses/5316> ;
+    ns1:bannerImage "https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_banner/65/98/65983ae68d2ee.webp" ;
+    ns1:description "Nous vous proposons des recettes savoureuses et vitaminées à base d'ingrédients : 100 % naturels, 100 % fruits frais. Fait maison et pressés minutes, de nombreux plats sont végétarien ou végans." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.54359e+01 ;
+            ns1:longitude 4.38824e+00 ] ;
+    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/restaurant_thumbnail/65/60/6560c97e8c4cd.jpg> ;
+    ns1:name "GreenBae Box" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "20:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "19:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:30" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "15.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.50" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://coursiers-stephanois.coopcycle.org/en/restaurant/34-greenbae-box" ] ] ;
+    ns1:sameAs <https://coursiers-stephanois.coopcycle.org/en/restaurant/34-greenbae-box> ;
+    ns1:url <https://coursiers-stephanois.coopcycle.org/en/restaurant/34-greenbae-box> .
+
+<https://coursiers-stephanois.coopcycle.org/api/addresses/5316> a ns1:PostalAddress ;
+    ns1:name "GreenBae Box" ;
+    ns1:streetAddress "2 Rue José Frappa, 42000 Saint-Étienne, France" ;
+    ns1:telephone "+33769652143" .
+

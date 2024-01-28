@@ -1,0 +1,184 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://ziclop.coopcycle.org/api/restaurants/7> ns1:hasMenu <https://ziclop.coopcycle.org/en/restaurant/7-katakrak#menu> .
+
+<https://ziclop.coopcycle.org/en/restaurant/7-katakrak#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Ardo Beltza | Vino tinto" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/3e/633ea67c197e2.jpeg> ;
+                    ns1:name "Biurko Urtekoa | Biurko Joven" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/3e/633eabd25be2b.jpeg> ;
+                    ns1:name "Larraldea Sagardoa | Sidra Larraldea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ardo Txuria |  Vino blanco" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/3e/633ead9dafeba.jpeg> ;
+                    ns1:name "Ulibarri 2016 (Txakoli)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ardo Beltza | Vino tinto" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/3e/633ea806f0ff1.jpeg> ;
+                    ns1:name "Egiarte Crianza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ardo Txuria |  Vino blanco" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/3e/633ea625b4ecc.jpeg> ;
+                    ns1:name "Biurko Blanco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "Ardo ekologikoak / Vinos ecológicos" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Aukeratu zure hirukotea / Elige tu tresena" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/3e/633ea54b1c63d.jpeg> ;
+                    ns1:name "3 garagardo artisauen eskeintza / Lote de 3 cervezas artesanas" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ] ;
+            ns1:name "Edariak / Bebidas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Bertsio guztiek entsalada daramate \r
+Todas las versiones incluyen ensalada""" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/3e/633ea8e0d2f66.jpeg> ;
+                    ns1:name "Etxeko falafela / Falafel de la casa" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/3e/633eae743b176.jpeg> ;
+                    ns1:name "Baztango askotariko frijitu txikiak / Minifritos variados del Baztan" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Fish",
+                        "Milk",
+                        "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bertsio guztiek KTK mojoa daramate\r
+Todas las versiones incluyen el mojo KTK""" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/3e/633ead2ba2063.jpeg> ;
+                    ns1:name "Patata erreak (beti Katakrak mojoarekin eta hortik aurrera nahi duzuna) / Ración de papas asadas (con mojo KTK)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/3e/633ea2536e601.jpeg> ;
+                    ns1:name "Asteko entsalada/ Ensalada de la semana" ;
+                    ns1:nutrition "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "Klasikoak partekatzeko / Clásicos para compartir" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Barazki erreak, Jauregiako behi esnea eta oreganoa\r
+Verduritas asadas, queso de vaca de Jauriegia y orégano""" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/3e/633eac083ad06.jpeg> ;
+                    ns1:name "Macrogranjas NO!" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Urdaiazpiko iberikoa, tomatea eta oliba olioa\r
+Jamón ibérico, tomate y aceite de oliva""" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/3e/633ea9d4a3be8.jpeg> ;
+                    ns1:name "Ingobernable" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Oilasko frijitua, gazta, tipula, all-i-oli eta perrexil oilioa \r
+Pollo, queso, cebolla, all-i-oli y aceite al perejil""" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/3e/633eacf1b84ed.jpeg> ;
+                    ns1:name "Paro nacional" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Burualdea kubatar erara, hirugiharra, gazta eta ziapearekin\r
+Cabezada a la cubana con panceta, queso y mostaza""" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/3e/633ea6b3182b2.jpeg> ;
+                    ns1:name "Borborka" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "Cacarañas [Uxueko olio ogia | Pan de aceite de Ujué]" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/3e/633ea4c07184b.jpeg> ;
+                    ns1:name "Bakailao lasaña / Lasaña de bacalao" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/3e/633ea9ae0fa32.jpeg> ;
+                    ns1:name "Gumbo IRUÑEA NOLA?" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/3e/633eacb9a9d2a.jpeg> ;
+                    ns1:name "Oilasko izterra maurutar erara, patata frijituekin / Pollo moruno con patatas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Gutizi gaziak / Caprichos salados" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Bbq saltsarekin eta patata erreekin. Txahala, hirugiharra, tipula erdi egosia, gazta, tomatea, uraza eta kornixonak.\r
+Con salsa bbq y patatas asadas. Ternera, panceta, cebolla pochada, queso, tomate, lechuga y pepinillos.""" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/3e/633eaa3f27386.jpeg> ;
+                    ns1:name "Kontuz! Burguer" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Mojo KTK-rekin eta patata erreekin. Kakahuete, arroz eta arto hanburger beganoa, barazkiak, tomatea, uraza eta kornixonak.\r
+Con mojo KTK y patatas asadas. Hamburguesa vegana de arroz, cacahuete y maiz con verduritas, tomate, lechuga y pepinillos""" ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/60/d0/60d02230e1f76.jpeg> ;
+                    ns1:name "Aroztegia gelditu! Burguer" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "Hanburgerrak / Hamburguesas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/3e/633ea94662042.jpeg> ;
+                    ns1:name "Euskal pastela / Pastel vasco" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/3e/633ea77993736.jpeg> ;
+                    ns1:name "Brownie, txokolate beroa eta intxaurrak / Brownie con chocolate caliente y nueces" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://ziclop.coopcycle.org/media/cache/product_thumbnail/63/3e/633ea980e5a29.jpeg> ;
+                    ns1:name "Gazta tarta irasagar toffeearekin / Tarta de queso con toffee de membrillo" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Gutizi goxoak / Caprichos dulces" ] .
+

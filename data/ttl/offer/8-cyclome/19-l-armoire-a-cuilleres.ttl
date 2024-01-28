@@ -1,0 +1,216 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://cyclome.coopcycle.org/api/restaurants/19> ns1:hasMenu <https://cyclome.coopcycle.org/en/restaurant/19-l-armoire-a-cuilleres#menu> .
+
+<https://cyclome.coopcycle.org/en/restaurant/19-l-armoire-a-cuilleres#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Chocolat noir de couverture biologique et équitable.\r
+67% de cacao minimum, pur beurre de cacao""" ;
+                    ns1:name "Chocolat Tablette de Pâques noir BIO noix de pécan" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Chocolat de couverture lait.\r
+39% de cacao minimum, pur beurre de cacao\r
+Présence possible de fruits à coque et gluten.""" ;
+                    ns1:name "Chocolat Tablette de Pâques lait vanuari 39%" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Chocolat noir de couverture biologique et équitable.\r
+67% de cacao minimum, pur beurre de cacao""" ;
+                    ns1:name "Chocolat Tablette de Pâques noir BIO graines" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Chocolat Tablette Millesime" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Notre chocolat favori, du chocolat de couverture "bean-to-bar", fin et délicat, vendu en paquet de 310g.\r
+Avec un chocolat noir de qualité premium, les pâtisseries enchantent les papilles !\r
+D'une texture lisse et fluide, notre chocolat noir à 70% de cacao présente une intense saveur de cacao qui révèle de subtiles notes rondes et pleines. Légèrement amer, il est parfait pour réaliser des enrobages, des bonsbons chocolatés ou des glaçages. Les sachets de pastilles de minigrammes de chocolat s’utilisent facilement en pâtisserie. Ce format laisse plusieurs options : le chocolat fond rapidement et se travaille aisément ! Il crée des pépites savoureuses dans les gâteaux, décore aussi les muffins et autres cupcakes faits maison, et agrémente de ses subtiles saveurs les préparations dédiées aux desserts chocolatés. Nos mini pastilles en chocolat noir se prêtent à toutes les recettes. Nous, nous l'utilisons pour créer votre boisson préférée : le chocolat chaud intense !""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/61/65/61657a655600a.jpeg> ;
+                    ns1:name "Chocolat Vrac Noir" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Chocolat de couverture grand ivoire 33%.\r
+Pur beurre de cacao""" ;
+                    ns1:name "Chocolat Tablette de Pâques blanc grand ivoire 33%" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Chocolat noir de couverture biologique et équitable.\r
+67% de cacao minimum, pur beurre de cacao\r
+Présence possible de fruits à coque et gluten.""" ;
+                    ns1:name "Chocolat Tablette de Pâques Noir Bio 70%" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Notre chocolat favori, du chocolat de couverture "bean-to-bar", fin et délicat, vendu en paquet de 310g.\r
+D'une texture lisse et fluide, le chocolat Lait 39% de cacao présente une intense saveur de lait entier qui révèle de subtiles notes caramélisées et sucrée. Gourmand, il est parfait pour réaliser des enrobages, Les sachets de pastilles de minigrammes de chocolat au lait s’utilisent facilement en pâtisserie. Ce format laisse plusieurs options. Le chocolat au lait fond rapidement et se travaille aisément. Il crée des pépites savoureuses dans les gâteaux. Il décore aussi les muffins et autres cupcakes faits maison. Il agrémente de ses subtiles saveurs de lait les préparations dédiées aux desserts chocolatés !""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/61/65/61657a922da63.jpeg> ;
+                    ns1:name "Chocolat Vrac Lait" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chocolat noir MILLÉSIME \"bean-tobear\" très fin. 70g" ;
+                    ns1:name "Chocolat Tablette Grand Cru" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Les tablettes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Pour 4 à 5 personnes.\r
+Doux comme un nuage, il a le bon goût d’en avoir, du goût !\r
+Les fruits en décoration seront de saison.""" ;
+                    ns1:name "Petit Cheesecake au citron vert" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pour 4 personnes.\r
+A base de chocolat 70%, il est parfait en hiver ou en pour un gros goûter, avec son cœur coulant contrastant avec ses fruits secs croquants. Il est très généreux et saura vous convertir à la tentation !\r
+Contient des noisettes, des noix, des amandes entières.""" ;
+                    ns1:name "Brownie Petit" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pour 4 à 5 personnes.\r
+Doux comme un nuage, il a le bon goût d’en avoir, du goût !\r
+Les fruits en décoration seront de saison.""" ;
+                    ns1:name "Petit Cheesecake à la vanille" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pour 4 personnes.\r
+Langoureux comme un baiser en bouche, il saura vous combler de plaisir !\r
+C'est un gâteau mi-cuit, avec sa petite croûte sur le dessus, pour les becs-sucrés !\r
+A consommer en cas de coup dur sur son canap', en prévision d'un anniversaire avec ses amis, ou à déguster en famille le dimanche midi !""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/61/65/616579da561d3.jpeg> ;
+                    ns1:name "Petit Fondant au lait" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ] ;
+            ns1:name "Les Petiots" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """2 bouteilles de jus de pommes BIO 33cl\r
+1 brioche babka pour deux personnes\r
+1 sachet de sablés diamant\r
+1 sachet de granola BIO maison pour 2 personnes\r
+Pastilles de chocolat noir pour deux tasses de chocolat chaud\r
+Venez en pyjama et en pantoufles.\r
+Cuisiné en majeure partie avec les produits issus de nos producteurs locaux, et BIO.""" ;
+                    ns1:name "Box P'tit Déj' au lit" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Notre kit à Granola saura vous régaler sans sortir de chez vous ! La box comprend :\r
+Notre granola maison BIO aux trois chocolats et au miel de Haute-Loire\r
+Un petit sachet de noix de Grenoble caramélisées\r
+2 sachets de thé ou d'infusion BIO\r
+2 yaourts\r
+Le granola est, au contraire du muesli, cuit et croustillant. Il contient des flocons d'avoine, des fruits à coque et du chocolat.\r
+Pour deux personnes.""" ;
+                    ns1:name "Box Granola" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "Les box" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Pour 8 personnes.\r
+Il a du caractère mais pas l’amertume.\r
+L'impression d'une mousse au chocolat, mais cuite, avec sa croûte craquelée et son petit goût de "reviens-y".""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/61/67/61672acf61da0.jpeg> ;
+                    ns1:name "Fondant Noir Pointe de sel" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Doux comme un nuage, il a le bon goût d’en avoir, du goût !\r
+pour 10 à 12 personnes\r
+Les fruits en décoration seront de saison.""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/61/65/616578f49b998.jpeg> ;
+                    ns1:name "Grand Cheesecake au citron vert" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pour 8 personnes.\r
+Langoureux comme un baiser en bouche, il saura vous combler de plaisir !\r
+C'est un gâteau mi-cuit, avec sa petite croûte sur le dessus, pour les becs-sucrés !\r
+A consommer en cas de coup dur sur son canap', en prévision d'un anniversaire avec ses amis, ou à déguster en famille le dimanche midi !""" ;
+                    ns1:image <https://cyclome.coopcycle.org/media/cache/product_thumbnail/61/67/61672ab6a52b2.jpeg> ;
+                    ns1:name "Fondant Lait Caramel" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Doux comme un nuage, il a le bon goût d’en avoir, du goût !\r
+pour 10 à 12 personnes\r
+Les fruits en décoration seront de saison.""" ;
+                    ns1:name "Grand Cheesecake à la vanille" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Brownie pour 12 personnes\r
+A base de chocolat 70%, il est parfait en hiver ou en pour un gros goûter, avec son cœur coulant contrastant avec ses fruits secs croquants. Il est très généreux et saura vous convertir à la tentation !
+\r
+Contient des noisettes, des noix, des amandes entières.
+\r
+Tous nos gâteaux sont entièrement fait-maison, à partir de produits frais, et n’ont pas été congelés. Ils contiennent du lactose, du gluten, des œufs. N’hésitez pas à nous demander la liste des allergènes ou à nous écrire pour une commande spéciale.""" ;
+                    ns1:name "Brownie aux noisettes" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€30.00" ] ] ;
+            ns1:name "Nos Gâteaux" ] .
+

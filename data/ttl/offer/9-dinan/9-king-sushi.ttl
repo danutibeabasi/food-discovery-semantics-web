@@ -1,0 +1,315 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://dinan.coopcycle.org/api/restaurants/9> ns1:hasMenu <https://dinan.coopcycle.org/en/restaurant/9-king-sushi#menu> .
+
+<https://dinan.coopcycle.org/en/restaurant/9-king-sushi#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/bf/63bff0751ced7.jpeg> ;
+                    ns1:name "Eau gazeuse 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfece380167.jpeg> ;
+                    ns1:name "Limonade japonaise Thé vert 20cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfeef132b41.jpeg> ;
+                    ns1:name "Coca-cola zéro 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfec9206b2e.jpeg> ;
+                    ns1:name "Limonade japonaise nature 20cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfef9a130a1.jpeg> ;
+                    ns1:name "Eau plate 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfe9ea9d6b7.jpeg> ;
+                    ns1:name "Ice-tea 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfeb6fc04a1.jpeg> ;
+                    ns1:name "Schweppes agrumes 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/bf/63bfed254b72c.jpeg> ;
+                    ns1:name "Limonade japonaise Litchi 20cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/bf/63bf0d859ff16.jpeg> ;
+                    ns1:name "Coca cola 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "2 brochettes boeuf fromage + 2 brochettes poulet + 2 brochettes boulettes de poulet" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/bf/63bff8af2ff10.jpeg> ;
+                    ns1:name "Menu Brochettes" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 Makis concombre cheese + 8 Makis thon + 8 California rolls crevette avocat + 8 California rolls poulet crispy + 8 California rolls saumon cheese + 8 California rolls surimi avocat + 3 Nigiri sushi saumon + 3 Nigiri sushi thon + 2 Nigiri crevette" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/ca/63ca89312d020.jpeg> ;
+                    ns1:name "Menu Mix sushi XXL" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Crustaceans",
+                        "Eggs",
+                        "Fish",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€62.28" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 california rolls saumon avocat + 8 california rolls thon avocat" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/bf/63bff79a98d1c.jpeg> ;
+                    ns1:name "Menu Duo california" ;
+                    ns1:nutrition "Fish",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 makis avocat cheese + 8 california rolls veggie" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/bf/63bff7e4cb011.jpeg> ;
+                    ns1:name "Menu Duo veggie" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 california rolls saumon avocat + 8 california rolls thon avocat + 8 california rolls crevette avocat +8 california rolls poulet crispy" ;
+                    ns1:name "Menu California dreams" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Crustaceans",
+                        "Eggs",
+                        "Fish",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 makis saumon cheese + 8 makis thon + 8 california rolls crevette avocat + 8 california rolls poulet crispy" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/ca/63ca89c6532e3.jpeg> ;
+                    ns1:name "Menu Mix rolls" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Crustaceans",
+                        "Eggs",
+                        "Fish",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€27.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 Poke Bowl au choix +  1 boisson ou 1 dessert" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/ca/63ca8b027ec81.jpeg> ;
+                    ns1:name "Menu Poke Bowl" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Crustaceans",
+                        "Eggs",
+                        "Fish",
+                        "Milk",
+                        "Molluscs",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 makis saumon cheese + 8 makis thon" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/bf/63bff66976517.jpeg> ;
+                    ns1:name "Menu Duo makis" ;
+                    ns1:nutrition "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 duo california ou 1 duo maki ou 1 duo veggie + 1 accompagnement + 1 boisson soft" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/ca/63ca8b4357d3e.jpeg> ;
+                    ns1:name "Menu Sushi" ;
+                    ns1:nutrition "Fish",
+                        "Milk",
+                        "Sesame seeds",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 Burrito + 1 accompagnement + 1 boisson soft" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/bf/63bff96d21037.jpeg> ;
+                    ns1:name "Menu Burrito" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Crustaceans",
+                        "Eggs",
+                        "Fish",
+                        "Milk",
+                        "Molluscs",
+                        "Mustard",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 Makis saumon cheese + 8 Makis thon + 8 California rolls crevette avocat + 8 California poulet crispy + 3 Nigiri sushi saumon + 3 Nigiri sushi thon" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/ca/63ca845c5f6c4.jpeg> ;
+                    ns1:name "Menu Mix sushi" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Crustaceans",
+                        "Eggs",
+                        "Fish",
+                        "Milk",
+                        "Mustard",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€44.28" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 makis saumon cheese + 8 makis thon + 8 california rolls crevette avocat + 8 california rolls poulet crispy + 8 california rolls saumon crispy + 8 california rolls thon avocat + 8 california rolls veggie" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/ca/63ca8a442333d.jpeg> ;
+                    ns1:name "Menu Mix rolls XXL" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Crustaceans",
+                        "Eggs",
+                        "Fish",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€49.08" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 pièces sashimi saumon + 4 pièces de sashimi thon + 8 Makis saumon cheese + 8 Makis thon + 8 California rolls crevette avocat + 8 California rolls poulet crispy + 2 Nigiri sushi saumon + 2 Nigiri sushi thon" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/ca/63ca83ef929a8.jpeg> ;
+                    ns1:name "Menu Sushi-mi" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Crustaceans",
+                        "Eggs",
+                        "Fish",
+                        "Milk",
+                        "Mustard",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€52.68" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 Nigiri saumon + 2 Nigiri thon + 2 Nigiri crevette" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/ca/63ca82cceb4cf.jpeg> ;
+                    ns1:name "Menu Nigiri lover" ;
+                    ns1:nutrition "Crustaceans",
+                        "Fish",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.68" ] ] ;
+            ns1:name "Menus" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Riz vinaigré, Nutella et pralin" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/ca/63ca8b9d69b5e.jpeg> ;
+                    ns1:name "Maki Nutella" ;
+                    ns1:nutrition "Milk",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 pièces" ;
+                    ns1:name "Perles coco" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Crustaceans",
+                        "Eggs",
+                        "Fish",
+                        "Milk",
+                        "Molluscs",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.08" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces" ;
+                    ns1:name "Mochi Sésame blanc" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.08" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces" ;
+                    ns1:name "Mochi Cheesecake fraise" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.08" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz vinaigré, crème de spéculos et spéculos concassés" ;
+                    ns1:name "Maki Spéculos" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.08" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz vinaigré, caramel au beurre salé et sablé breton" ;
+                    ns1:name "Maki Caramel au beurre salé" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Crustaceans",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 pièces" ;
+                    ns1:name "Coconuts balls" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces" ;
+                    ns1:image <https://dinan.coopcycle.org/media/cache/product_thumbnail/63/ca/63ca8be09d5a4.jpeg> ;
+                    ns1:name "Mochi chocolat" ;
+                    ns1:nutrition "Milk",
+                        "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.08" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz vinaigré, Nutella, beurre de cacahuètes et éclats de M&M'S" ;
+                    ns1:name "Maki M&M'S" ;
+                    ns1:nutrition "Milk",
+                        "Peanuts",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.08" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz vinaigré, Nutella, caramel et éclats de daim" ;
+                    ns1:name "Maki Daim" ;
+                    ns1:nutrition "Milk",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.08" ] ] ;
+            ns1:name "Dessert" ] .
+

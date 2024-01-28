@@ -1,0 +1,133 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiers-stephanois.coopcycle.org/api/restaurants/60> ns1:hasMenu <https://coursiers-stephanois.coopcycle.org/en/restaurant/60-l-axolotl#menu> .
+
+<https://coursiers-stephanois.coopcycle.org/en/restaurant/60-l-axolotl#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "35,5 cl. Bière ambrée  4,7°." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/95/6595794297c51.jpeg> ;
+                    ns1:name "negra modelo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bouteille 1,2 L. Bière blonde, ou ambrée 4,5°." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/95/65957a8b1d588.jpeg> ;
+                    ns1:name "bière grand format" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "35,5 cl. Bière blonde type lager 4,5°." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/95/659592ed4558f.jpeg> ;
+                    ns1:name "Corona" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Bières mexicaines" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Chips tortilla maison, revenues dans une sauce verte au rouge, servi avec poulet, tomates, oignons, coriandre, crème et feta." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/95/65957832d80c1.jpeg> ;
+                    ns1:name "chilaquiles" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tortillas de maïs enroulées et frites, garnies de poulet, de la salade et de la crème. Servies avec écrasée d'haricots noirs." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/95/65957adf6a0a3.jpeg> ;
+                    ns1:name "Flautas (X4)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tortillas de maïs imbibée dans une sauce au piment séché. Servies avec poulet, crème, salade et fromage." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/95/659578a796ecc.jpeg> ;
+                    ns1:name "Enchiladas (X4)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mix de poivrons, champignons oignons et fromage. Servi avec 4 tortillas." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/95/659576a07e1ff.jpeg> ;
+                    ns1:name "Alambre Vegetariano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Dessert frais façon tiramisu avec crème au citron vert et biscuits à la vanille." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/95/6595779a7437d.jpeg> ;
+                    ns1:name "Carlota de limón" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Ecrasé d'haricots noirs, servis avec chips de tortillas." ;
+                    ns1:name "Frijoles refritos" ;
+                    ns1:nutrition "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tortillas de maïs frites, écrasé d'avocat, coriandre, oignons et tomates. Chips de tortillas." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/95/6595760722291.jpeg> ;
+                    ns1:name "Guacamole et totopos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "" ;
+                    ns1:name "Totopos en supplement" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tortilla de maïs croustillante servie avec des crevettes, oignons, coriandre, tomates et sauce style Ketchup." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/95/659576f7b1421.jpeg> ;
+                    ns1:name "Tostada de crevettes" ;
+                    ns1:nutrition "Crustaceans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "entrées et apéritifs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "veritable tortilla de maïs, garnie de viande de porc confit et effiloché. coriandre et oignons." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/95/659584661a225.jpeg> ;
+                    ns1:name "taco de carnitas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "veritable tortilla de maïs, garnie de viande de viande de bœuf, cuit lentement à la vapeur. coriandre, oignons." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/95/65958801e6e7c.jpeg> ;
+                    ns1:name "taco de res" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "veritable tortilla de maïs, garnie de viande de porc mariné dans une sauce au roucou. servi avec coriandre, oignons et lamelle d'ananas." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/95/6595829cf0520.jpeg> ;
+                    ns1:name "taco de pastor" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "veritable tortilla de maïs, garnie de viande de porc hachée, mariné aux piments doux séchés. Coriandre, oignons." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/95/659587d0eb31e.jpeg> ;
+                    ns1:name "taco de chorizo mexicain" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Filet de poisson selon arrivage, frit en beignet. Servi avec une salade de chou et sauce crémeuse." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/95/6595735d0b91f.jpeg> ;
+                    ns1:name "Tacos de pescado (x2)" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Mustard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "tacos" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Jus de fruit" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Soda" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "Boissons" ] .
+

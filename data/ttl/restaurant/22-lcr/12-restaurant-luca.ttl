@@ -1,0 +1,48 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lcr.coopcycle.org/api/restaurants/12> a ns1:Restaurant ;
+    ns1:address <https://lcr.coopcycle.org/api/addresses/830> ;
+    ns1:bannerImage "https://lcr.coopcycle.org/media/cache/restaurant_banner/65/6e/656e5a148e546.png" ;
+    ns1:description """Le temps d'un déjeuner ou dîner, laissez vous aller à la dolce vita \r
+\r
+L'équipe toute italienne, de calabre et sicile  vous propose des pâtes, assiettes de charcuteries et fromages italiens, quelques viandes et produits de la mer, pour terminer sur un dessert fait maison. \r
+\r
+Une belle sélection de vins en provenance de toute la botte, ravira les amateurs.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.81093e+01 ;
+            ns1:longitude -1.6833e+00 ] ;
+    ns1:image <https://lcr.coopcycle.org/media/cache/restaurant_thumbnail/60/9b/609bbce79e8fa.png> ;
+    ns1:name "Restaurant Luca" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:40" ;
+            ns1:dayOfWeek "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "19:10" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:30" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday" ;
+            ns1:opens "19:10" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://lcr.coopcycle.org/en/restaurant/12-restaurant-luca" ] ] ;
+    ns1:sameAs <https://lcr.coopcycle.org/en/restaurant/12-restaurant-luca> ;
+    ns1:url <https://lcr.coopcycle.org/en/restaurant/12-restaurant-luca> .
+
+<https://lcr.coopcycle.org/api/addresses/830> a ns1:PostalAddress ;
+    ns1:name "Restaurant Luca" ;
+    ns1:streetAddress "35 Rue de la Chalotais, 35000 Rennes, France" ;
+    ns1:telephone "+33299650077" .
+

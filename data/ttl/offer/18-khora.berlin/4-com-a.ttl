@@ -1,0 +1,764 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://khora.berlin/en/restaurant/4-com-a> ns1:hasMenu <https://khora.berlin/en/restaurant/4-com-a#menu> .
+
+<https://khora.berlin/en/restaurant/4-com-a#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "mit Kokosmilch, Wok-Gemüse, Wildkräutersalat und Com A Reis" ;
+                    ns1:name "Roter Curry mit Entenbrustfilet" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Kokosmilch, Hokkaido-Kürbis, Süßkartoffeln, Karotten, Wildkräutersalat und Com A Reis" ;
+                    ns1:name "Goldene Thai Curry mit Tofu" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Kokosmilch, Wok-Gemüse, Wildkräutersalat und Com A Reis" ;
+                    ns1:name "Roter Curry mit Hähnchenbrustfilet" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Kokosmilch, Wok-Gemüse, Wildkräutersalat und Com A Reis" ;
+                    ns1:name "Roter Curry mit Tofu" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Kokosmilch, Hokkaido-Kürbis, Süßkartoffeln, Karotten, Wildkräutersalat und Com A Reis" ;
+                    ns1:name "Goldene Thai Curry mit gegrilltem Hähnchen" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Kokosmilch, Hokkaido-Kürbis, Süßkartoffeln, Karotten, Wildkräutersalat und Com A Reis" ;
+                    ns1:name "Goldene Thai Curry mit Entenbrustfilet" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.90" ] ] ;
+            ns1:name "Com A Curry" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "1 Sake Chumaki, 1 Avocado Maki, 2 Sake Nigiri" ;
+                    ns1:name "Menü 1" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gebackene Rolle mit Lachs, 1 Kappa Maki, 2 Ebi Nigiri" ;
+                    ns1:name "Menü V" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 Avocado Maki, 1 Rucola Inside Out, 2 Nigiri Tofu" ;
+                    ns1:name "Menü 6 - Vegi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 Mango Maki, 1 California Inside Out, 3 Nigiri (Lachs, Thunfisch & Garnele)" ;
+                    ns1:name "Menü 2" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Überraschung!  Für eine Person." ;
+                    ns1:name "Chef's Choice Menu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nigiri (2 Lachs, 2 Thunfisch, 2 Tofu & 2 Hotategai) Maki (1 Oshinko, 1 Sake Chumaki) Inside Out (1 Salmon Skin, 1 Com A Rolls) 1 Gebackene Rolls New York" ;
+                    ns1:name "Menü 8 (für 2 Personen" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€51.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 Sake Inside Out, 1 Ebi Chumaki Garnelen, 4 Scheiben Thunfisch Sashimi" ;
+                    ns1:name "Menü 4" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 Tekka Chumaki, 1 California Maki, 1 Avocado Maki" ;
+                    ns1:name "Menü 3" ;
+                    ns1:nutrition "Eggs",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 Nigiri (Lachs, Thunfisch, Garnelen, Tofu & Aal) 1 Spicy Tuna Inside Out" ;
+                    ns1:name "Menü 7" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.90" ] ] ;
+            ns1:name "Com A Sushi Menüs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """"Alte Reben" QbA trocken, Weingut Künstler (Rheingau)\r
+Ausgeprägter Apfelduft mit nuancen von Quitte und reifer Grapefruit lebendiges Säurespiel, innige Verbindung von saftiger Fruchtfülle und rieslingtypischer Filgranität, gehaltvoller mineralischer Nachhall. \r
+0,75l""" ;
+                    ns1:name "Hochheimer Stielweg, Riesling" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€51.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Trocken, WG Weingarten - Baden\r
+Feinduftiger, jugendlicher Weissburgunder aus dem nördlichen Baden. \r
+Herzhaft und pikant mit langem Abgang.\r
+1l""" ;
+                    ns1:name "Weissburgunder QbA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Weingut Familie Rauen (Mosel)\r
+Der Wein ist eine Selektion aus verschiedenen parzellen mit knapp 50 Jahre alten Reben. Die Mitte Oktober ausschließlich händisch gelesenen Trauben spiegeln die von Devonschiefer geprägten Steillagen wider. Herrlich saftige, an pfirsch erinnernde Aromen mit kräutrigen nuancen, am Gaumen mit glasklarer Mineralität und perfekter Süße-Säure-Balance. \r
+0,75l""" ;
+                    ns1:name "\"Grauschiefer\" Riesling QbA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€27.90" ] ] ;
+            ns1:name "Weissweine" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "0,75l" ;
+                    ns1:name "Moet & Chandon Brut Imperial" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€97.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Extra Dry DOC Treviso "Insieme"\r
+0,75l""" ;
+                    ns1:name "Prosecco Spumante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€36.90" ] ] ;
+            ns1:name "Schaumwein" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "2 Stck. Thunfisch-Nigiri" ;
+                    ns1:name "Maguro Nigiri" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 Stck. Aal-Nigiri" ;
+                    ns1:name "Unagi Nigiri" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 Stck. Garnelen Nigiri" ;
+                    ns1:name "Ebi Nigiri" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 Stck. Nigiri mit flambiertem Thunfisch mit Mayo und Teriyaki" ;
+                    ns1:name "Aburi Tuna Nigiri" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 Stck. Seriola-Nigiri" ;
+                    ns1:name "Hamachi Nigiri" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lachs Nigiri" ;
+                    ns1:name "Sake Nigiri" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 Stck. Jakobsmuschel-Nigiri" ;
+                    ns1:name "Hotategai Nigiri" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 Stück Trogmuscheln Nigir" ;
+                    ns1:name "Hokigai Nigiri" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "flambierter Lachs mit Mayo und Teriyaki" ;
+                    ns1:name "Nigiri Aburi Salmon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tofutaschen" ;
+                    ns1:name "Inari Nigiri" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Nigiri" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Extra Soße" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Reisnudeln" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sushi Reis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Com A Reis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "Extra Beilagen" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """St. Émilion Grand Cru AOC (Bordeaux)\r
+Der "erste Wein" vom Château Jean Voisin ist ein beeindruckender Tropfen: Tiefdunkles Rubin im Glas, einnehmendes komplexes Bukett mit einer erdig-würzigen note und intensiven, an Brombeeren und Cassis erinnernden Aromen. \r
+Die eisenhaltigen Böden der besten lagen des Weinguts verleihen dem aus Merlot, Cabernet Sauvignon und Cabernet Franc gekelterten Bordeaux eine feine Mineralität. \r
+0,75l""" ;
+                    ns1:name "Château Jean Voisin \"ler Vin\", Cuvée Amédée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€51.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Salento Rosso, Conti Zecca (Apulien)\r
+Der primitivo, dessen name sich auf die frühe Reife der Traube bezieht, gehört zu den wichtigsten Rotweinsorten Apuliens. \r
+Der "Donna Marzia" glänzt mit einem vollmundigen Cabernet Sauvignon QbA trocken. \r
+0,75l""" ;
+                    ns1:name "\"Donna Marzia\" primitivo iGp" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€31.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """trocken, Weingut - Langenwalter\r
+Die handverlesenen Trauben des partiell in Barriques ausgebauten Weins stammen vornehmlich aus dem von sandigem Rheinkies geprägten Weisenheimer Goldberg. Intensives Bukett von Cassis, Schwarzkirsche und Schattenmorellen. Am Gaumen mit dem Cabernet-typischen paprika-touch. Schöne Tanninstruktur. Gute länge. \r
+0,75l""" ;
+                    ns1:name "Cabernet Sauvignon QbA (Pfalz)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€37.00" ] ] ;
+            ns1:name "Rotweine" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Argentinisches gegrilltes Entrecôte  serviert mit Reis, Mix Salat oder Wok-Gemüse und eine Soße nach Wahl" ;
+                    ns1:name "Argentinisches Entrecôte Grill" ;
+                    ns1:nutrition "Fish",
+                        "Molluscs",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "gegrilltes Hähnchenbrustfilet serviert mit Reis, Mix Salat oder Wok-Gemüse und einer Soße nach Wahl" ;
+                    ns1:name "Hähnchenbrustfilet Grill" ;
+                    ns1:nutrition "Fish",
+                        "Molluscs",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Argentinische gegrillte Rinderhüfte serviert mit Reis, Mix Salat oder Wok-Gemüse und eine Soße nach Wahl" ;
+                    ns1:name "Argentinische Rinderhüfte Grill" ;
+                    ns1:nutrition "Fish",
+                        "Molluscs",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "gegrilltes Lachsfilet serviert mit Reis, Mix Salat oder Wok-Gemüse und einer Soße nach Wahl" ;
+                    ns1:name "Lachsfilet Grill" ;
+                    ns1:nutrition "Fish",
+                        "Molluscs",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "gegrilltes Tunfisch medium serviert mit Reis, Mix Salat oder Wok-Gemüse und einer Soße nach Wahl" ;
+                    ns1:name "Thunfisch Medium Grill" ;
+                    ns1:nutrition "Fish",
+                        "Molluscs",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.90" ] ] ;
+            ns1:name "Com A Grill" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Kokos-Suppe mit Huhn, cherry Tomaten, Champignons und Okraschoten" ;
+                    ns1:name "Tom Kha Gai" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mit Lachs, Cherry Tomaten, Ananas, Champignons und Okraschoten" ;
+                    ns1:name "Fisch Suppe Sauer-Scharf" ;
+                    ns1:nutrition "Crustaceans",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mit Tofu, Wakame, Shitake Pilzen und Frühlingszwiebeln" ;
+                    ns1:name "Miso Suppe" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Traditionell Vietnamesischen Suppe mit Reisbandnudeln, kräftiger Brühe vom Huhn verfeinert mit Frühlingszwiebeln und Koriander" ;
+                    ns1:name "Pho mit geschwenkter Argentinischer Rinderhüfte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Traditionell Vietnamesischen Suppe mit Reisbandnudeln, kräftiger Brühe vom Huhn verfeinert mit Frühlingszwiebeln und Koriander" ;
+                    ns1:name "Pho mit Tofu" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Traditionell Vietnamesischen Suppe mit Reisbandnudeln, kräftiger Brühe vom Huhn verfeinert mit Frühlingszwiebeln und Koriander" ;
+                    ns1:name "Pho mit gegrilltem Hähnchenbrust" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ] ;
+            ns1:name "Suppen" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Radicchio, Eisbergsalat, Rucola, Cherry Tomaten, Sojasprossen, Erdnüssen, Olivenöl, Chili-Limetten Soße, Salsa-Roja und Guacamole" ;
+                    ns1:name "Glasnudel Salat - Garnelen Tempura" ;
+                    ns1:nutrition "Fish",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Reis, Salat Mix, Avocado, Gurke, Sakura Kresse, Sesam und Seetang" ;
+                    ns1:name "Poke Bowl -  gebratenem Lachs und Chili-Mayo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cremige Curry-Kokos Soße auf Reisbandnudeln, Wildkräuter Salat, Erdnüssen" ;
+                    ns1:name "Pho Tron - geschwenkte Rinderhüfte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cremige Curry-Kokos Soße auf Reisbandnudeln, Wildkräuter Salat, Erdnüssen" ;
+                    ns1:name "Pho Tron - Tempura Hähnchenbrustfilet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Reis, Salat Mix, Avocado, Gurke, Sakura Kresse, Sesam und Seetang" ;
+                    ns1:name "Poke Bowl - Spicy Thunfisch mit frischem Chilli" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Reis, Salat Mix, Avocado, Gurke, Sakura Kresse, Sesam und Seetang" ;
+                    ns1:name "Poke Bowl - Tofu und frische Ananas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Radicchio, Eisbergsalat, Rucola, Cherry Tomaten, Sojasprossen, Erdnüssen, Olivenöl, Chili-Limetten Soße, Salsa-Roja und Guacamole" ;
+                    ns1:name "Glasnudel Salat - Tofu" ;
+                    ns1:nutrition "Fish",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Reis, Salat Mix, Avocado, Gurke, Sakura Kresse, Sesam und Seetang" ;
+                    ns1:name "Poke Bowl - Lachs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Radicchio, Eisbergsalat, Rucola, Cherry Tomaten, Sojasprossen, Erdnüssen, Olivenöl, Chili-Limetten Soße, Salsa-Roja und Guacamole" ;
+                    ns1:name "Glasnudel Salat - gebratenem Lachs mit Dill" ;
+                    ns1:nutrition "Fish",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Reis, Salat Mix, Avocado, Gurke, Sakura Kresse, Sesam und Seetang" ;
+                    ns1:name "Poke Bowl - kurz geschwenktem Ribeye" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Radicchio, Eisbergsalat, Rucola, Cherry Tomaten, Sojasprossen, Erdnüssen, Olivenöl, Chili-Limetten Soße, Salsa-Roja und Guacamole" ;
+                    ns1:name "Glasnudel Salat - gegrilltem Hähnchenbrustfilet" ;
+                    ns1:nutrition "Fish",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cremige Curry-Kokos Soße auf Reisbandnudeln, Wildkräuter Salat, Erdnüssen" ;
+                    ns1:name "Pho Tron - Tofu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cremige Curry-Kokos Soße auf Reisbandnudeln, Wildkräuter Salat, Erdnüssen" ;
+                    ns1:name "Pho Tron - gebratenem Lachs mit Dill" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.50" ] ] ;
+            ns1:name "Poke Bowl" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "0,5l" ;
+                    ns1:name "Benediktiner Lagerbier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,5l" ;
+                    ns1:name "Paulaner Hefe Naturtrüb" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,5l" ;
+                    ns1:name "Paulaner Hefeweizen Alkoholfrei" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "Tiger Bier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.30" ] ] ;
+            ns1:name "Biere" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "Fritz-Limo Orangenlimonade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Fever Tree Mediterranean Tonic" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "Fritz-Limo Apfel-Kirsch-Holunderlimonade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "Fritz-Limo Melonenlimonade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,2l" ;
+                    ns1:name "Fever Tree Indian Tonic" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "Fritz-Kola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "Fritz-Kola Zuckerfrei" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,2l" ;
+                    ns1:name "Fever Tree Ginger Beer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "Fritz-Mate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Fever Tree Ginger Ale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Fritz-Spritz Bio-Rhabarbersaftschorle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ] ;
+            ns1:name "Erfrischungsgetränke" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Reispapierrollen mit Salat, Mango, Gurke, Minze, Reisnudeln" ;
+                    ns1:name "Goi Cuon - gegrilltem Hähnchen" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit japanischer Mayo" ;
+                    ns1:name "Süßkartoffel-Pommes" ;
+                    ns1:nutrition "Crustaceans",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Knackig mit Radiccio, Eisbergsalat, Rucola, Cherry Tomaten, Sojasprossen, Erdnüssen, Olivenöl, Chili-Limetten Soße, Salsa-Roja und Guacamole" ;
+                    ns1:name "Salat" ;
+                    ns1:nutrition "Fish",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Knackig mit Radiccio, Eisbergsalat, Rucola, Cherry Tomaten, Sojasprossen, Erdnüssen, Olivenöl, Chili-Limetten Soße, Salsa-Roja und Guacamole" ;
+                    ns1:name "Salat mit gegrilltem Hähnchenbrustfilet" ;
+                    ns1:nutrition "Fish",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Mit gehackten Garnelen, Salat, Erdnüsse und Süß-Sauer Sauce\r
+4 stück""" ;
+                    ns1:name "Frühlingsrolle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Knackig mit Radiccio, Eisbergsalat, Rucola, Cherry Tomaten, Sojasprossen, Erdnüssen, Olivenöl, Chili-Limetten Soße, Salsa-Roja und Guacamole" ;
+                    ns1:name "Salat mit geschwenkter Rinderhüfte" ;
+                    ns1:nutrition "Fish",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mit Soja-Basamico-Sesam Dressing, Guacamole, Salsa-Roja, Avocadostreifen, flambiertem Lachs Sashimi und Spicy Soße." ;
+                    ns1:name "Seetang Salat - Lachs" ;
+                    ns1:nutrition "Fish",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit japanischer Mayo" ;
+                    ns1:name "Süßkartoffel-Pommes - gegrilltem Hähnchenbrustfilet" ;
+                    ns1:nutrition "Crustaceans",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Reispapierrollen mit Salat, Mango, Gurke, Minze, Reisnudeln" ;
+                    ns1:name "Goi Cuon - Garnelen" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Knackig mit Radiccio, Eisbergsalat, Rucola, Cherry Tomaten, Sojasprossen, Erdnüssen, Olivenöl, Chili-Limetten Soße, Salsa-Roja und Guacamole" ;
+                    ns1:name "Salat mit Entenbrustfilet" ;
+                    ns1:nutrition "Fish",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Edamame mit Meersalz" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mit Soja-Basamico-Sesam Dressing, Guacamole, Salsa-Roja und Avocadostreifen" ;
+                    ns1:name "Seetang Salat - Avocado" ;
+                    ns1:nutrition "Fish",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Reispapierrollen mit Salat, Mango, Gurke, Minze, Reisnudeln" ;
+                    ns1:name "Goi Cuon - Garnelen Tempura" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit japanischer Mayo" ;
+                    ns1:name "Süßkartoffel-Pommes - Garnelen Tempura" ;
+                    ns1:nutrition "Crustaceans",
+                        "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Reispapierrollen mit Salat, Mango, Gurke, Minze, Reisnudeln" ;
+                    ns1:name "Goi Cuon - Tofu" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "Salate und kleine Speisen" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "8 Stck. Inside Out mit Gegrilltem Lachsbauch, Gurke, flambiertem Lachs und scharfer Soße" ;
+                    ns1:name "Com A Inside Out Rolls" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 Stück mit Frischkäse und Sesam" ;
+                    ns1:name "Avocado Inside Out" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 Stck. Inside Out mit Surimi, Avocado, Tobiko und Sesam" ;
+                    ns1:name "California Inside Out" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 Stûck Garnelen Tempura Inside Out mit Gurke, Sesam und Tobiko" ;
+                    ns1:name "Ebi Tempura Inside Out" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 Stck. mit Lachs, Avocado, Frischkäse, Tobiko und Sesam" ;
+                    ns1:name "Sake Inside Out" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 Stck. Inside Out mit Rucola, Gurke und Sesam" ;
+                    ns1:name "Rucola Inside Out" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 Stck. Inside Out mit gegrillter Lachshaut mit Gurke, Rucola, Sesam und Com A Soße" ;
+                    ns1:name "Salmonskin Inside Out" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 Stck. mit Gurke, Avocado, Schnittlauch und Thunfisch Tartar" ;
+                    ns1:name "Spicy Tuna Inside Out" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ] ;
+            ns1:name "Inside Out" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Gebackene Rolle mit Lachs, Avocado, Gurke, Frischkäse und Com A Soße - serviert mit Salsa-Roja und Guacamole" ;
+                    ns1:name "Ikasu Rolls" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gebackene Rolle mit Surimi, Tobiko, Avocado, Gurke und Com A Soße - serviert mit Salsa-Roja und Guacamole" ;
+                    ns1:name "New York Rolls" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gebackene Rolle mit Gemüse, belegt mit medium gegrilltem Thunfisch, Sashimi und Spicy Sauce. Serviert mit Salsa-Roja und Guacamole" ;
+                    ns1:name "Tuna Crunchy Roll" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Garnelen Tempura, Gurke, eingelegter Rettich, gegrillter Aal und Com A Soße - serviert mit Salsa-Roja und Guacamole" ;
+                    ns1:name "Black Tiger Rolls" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Crustaceans",
+                        "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ] ;
+            ns1:name "Sushi Specials" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Maki mit Gurke und Sesam" ;
+                    ns1:name "Kappa Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 Stck mit gegrilltem Aal, Gurke und Sesam" ;
+                    ns1:name "Unagi Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 Stck. mit Surimi, Avocado und Mayo" ;
+                    ns1:name "California Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 Stck. Maki mit Thunfisch, Schnittlauch und scharfer Soße" ;
+                    ns1:name "Tekka Chumaki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 Stck Maki mit Lachs, Avocado und Frischkäse" ;
+                    ns1:name "Sake Chumaki Lachs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 Stck. Maki mit Avocado und Sesam" ;
+                    ns1:name "Avocado Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 Stck Maki mit Garnelen, Gurke, Rucola  und Frischkäse" ;
+                    ns1:name "Ebi Chumaki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 Stck. Maki mit Mango und Sesam" ;
+                    ns1:name "Mango Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 Stck. Maki mit eingelegtem Rettich und Sesam" ;
+                    ns1:name "Shinko Maki" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ] ;
+            ns1:name "Maki" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "1l" ;
+                    ns1:name "Absolut Wodka Blue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€55.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,7l" ;
+                    ns1:name "Hennessy Fine de Cognac" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€55.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1l" ;
+                    ns1:name "Chivas Regel Scotch 18 Jahre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€120.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,5l" ;
+                    ns1:name "Nep Moi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€30.00" ] ] ;
+            ns1:name "Starke Stufe" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Tockener "easy to drink" Sake mit leichtem Körper. \r
+720ml""" ;
+                    ns1:name "Ichishima Tokubetsu Honjozo 14,9%" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€51.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Elegant vollmundig\r
+720ml""" ;
+                    ns1:name "Gekkeikan Daijinjo 15,5%" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€51.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """eleganter, trockener Sake\r
+300ml""" ;
+                    ns1:name "Masumi Karakuchi Gold 15%" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.90" ] ] ;
+            ns1:name "Sake" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Yellow fin Tuna" ;
+                    ns1:name "Tuna Sashimi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€23.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Schottischer Lachs" ;
+                    ns1:name "Sake Sashimi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Soja Yuzu Trüffel Sauce" ;
+                    ns1:name "Hamachi Sashimi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sashimi Mix" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€28.90" ] ] ;
+            ns1:name "Purer roher Fischgenuss" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Weingut Wagner-Stempel - Rheinhessen.\r
+Willig und schüchtem zugleich sind sich St. Laurent und Spätburgunder in diesem Cuvée in die Arme gefallen. Ein Wein mit entwaffnendem Fruchtspiel und Noten von Waldbeeren und Cassis. Schlanker und feiner Körper, bestens ausbalanciert. \r
+0,75l""" ;
+                    ns1:name "Riesling QbA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€37.00" ] ] ;
+            ns1:name "Rose" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "mit Honig und Erdnüssen" ;
+                    ns1:name "Gebackene Banane" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Desserts" ] .
+

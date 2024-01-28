@@ -1,0 +1,36 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://a2roo.coopcycle.org/api/restaurants/73> a ns1:Restaurant ;
+    ns1:address <https://a2roo.coopcycle.org/api/addresses/16092> ;
+    ns1:description """Tous les jours, nous confectionnons une cuisine maison, avec amour !\r
+\r
+Un engagement éco-responsable et anti-gaspi au quotidien.\r
+\r
+Le plaisir de vous servir, de partager un moment agréable et vous offrir bien plus qu’un sourire…""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.732148e+01 ;
+            ns1:longitude 5.037618e+00 ] ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/64/6f/646f0889852df.jpg> ;
+    ns1:name "Tex A Way" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Wednesday" ;
+            ns1:opens "12:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://a2roo.coopcycle.org/en/restaurant/73-tex-a-way" ] ] ;
+    ns1:sameAs <https://a2roo.coopcycle.org/en/restaurant/73-tex-a-way> ;
+    ns1:url <https://a2roo.coopcycle.org/en/restaurant/73-tex-a-way> .
+
+<https://a2roo.coopcycle.org/api/addresses/16092> a ns1:PostalAddress ;
+    ns1:name "Tex A Way" ;
+    ns1:streetAddress "19 Rue Bossuet, Dijon, France" ;
+    ns1:telephone "+33952215068" .
+

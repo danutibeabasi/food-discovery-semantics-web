@@ -1,0 +1,31 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lescoursiersnanceiens.coopcycle.org/api/restaurants/10> a ns1:Restaurant ;
+    ns1:address <https://lescoursiersnanceiens.coopcycle.org/api/addresses/22> ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.86859e+01 ;
+            ns1:longitude 6.18595e+00 ] ;
+    ns1:image <https://lescoursiersnanceiens.coopcycle.org/media/cache/restaurant_thumbnail/60/56/605638d70ce76.jfif> ;
+    ns1:name "Yom Thaï Food" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:15" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://lescoursiersnanceiens.coopcycle.org/en/restaurant/10-yom-thai-food" ] ] ;
+    ns1:sameAs <https://lescoursiersnanceiens.coopcycle.org/en/restaurant/10-yom-thai-food> ;
+    ns1:url <https://lescoursiersnanceiens.coopcycle.org/en/restaurant/10-yom-thai-food> .
+
+<https://lescoursiersnanceiens.coopcycle.org/api/addresses/22> a ns1:PostalAddress ;
+    ns1:name "Yom Thaï Food" ;
+    ns1:streetAddress "144 Rue Saint-Dizier, 54000 Nancy, France" ;
+    ns1:telephone "+33619340419" .
+

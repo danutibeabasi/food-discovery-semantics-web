@@ -1,0 +1,41 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://sicklo.coopcycle.org/api/restaurants/87> a ns1:Restaurant ;
+    ns1:address <https://sicklo.coopcycle.org/api/addresses/36349> ;
+    ns1:bannerImage "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/6d/656db4ffbeeb4.png" ;
+    ns1:description """C’est en 1989 qu’Adelaide Cookies voit le jour.\r
+Après un long voyage autour de l’Australie, la recette secrète dans la poche (du kangourou), les portes peuvent ouvrir!\r
+\r
+Des 8 variétés de cookies initiales, nous n’avons eu de cesse de chercher, créer, tester de nouvelles associations pour plus de plaisir… et aujourd’hui, pas moins de 40 recettes vous attendent!\r
+\r
+La cuisson régulière sur la journée vous assure la fraîcheur attendue et avec le choix du sans gluten et du végan, chacun trouvera son bonheur.\r
+ \r
+Découvrez l’autre goût du cookie… celui d’Adélaide Cookies !""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.51924e+01 ;
+            ns1:longitude 5.72988e+00 ] ;
+    ns1:image <https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/61/a6/61a648991c3c8.jpg> ;
+    ns1:name "Adelaide  Cookies 🍪" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:40" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://sicklo.coopcycle.org/en/restaurant/87-adelaide-cookies" ] ] ;
+    ns1:sameAs <https://sicklo.coopcycle.org/en/restaurant/87-adelaide-cookies> ;
+    ns1:url <https://sicklo.coopcycle.org/en/restaurant/87-adelaide-cookies> .
+
+<https://sicklo.coopcycle.org/api/addresses/36349> a ns1:PostalAddress ;
+    ns1:name "Adelaide  Cookies 🍪" ;
+    ns1:streetAddress "1 bis Rue Lafayette, 38000 Grenoble, France" ;
+    ns1:telephone "+33476548773" .
+

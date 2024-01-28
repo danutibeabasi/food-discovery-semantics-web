@@ -1,0 +1,270 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://robinfood.coopcycle.org/api/restaurants/42> ns1:hasMenu <https://robinfood.coopcycle.org/en/restaurant/42-crispy-chicken#menu> .
+
+<https://robinfood.coopcycle.org/en/restaurant/42-crispy-chicken#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "lattina" ;
+                    ns1:name "Sprite 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sprite 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "lattina" ;
+                    ns1:name "Coca Cola Zero 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Acqua naturale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "lattina" ;
+                    ns1:name "Thè alla pesca 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Thè alla pesca 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca Cola Zero 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Thè al limone 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Acqua frizzante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "lattina" ;
+                    ns1:name "Fanta 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fanta 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "lattina" ;
+                    ns1:name "Coca Cola 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "lattina" ;
+                    ns1:name "Thè al limone 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca Cola 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Bevande" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "doppio burger di manzo, doppio formaggio, pomodoro e insalata" ;
+                    ns1:name "Doppio cheeseburger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "filetto di pollo impanato, formaggio e una deliziosa frittella patate" ;
+                    ns1:name "Chicken royal burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Filetto di pollo grigliato, formaggio parmigiano, pomodoro, insalata e peperoni piccanti" ;
+                    ns1:name "Menu chicken parmigiano burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "burger vegetale, pomodoro e insalata vegan" ;
+                    ns1:name "Veggie burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "burger di manzo formaggio, parmigiano, pomodoro, insalata e peperoni piccanti" ;
+                    ns1:name "Mega beef parmigiano burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pomodoro, insalata, petto di pollo marinato al limone e grigliato con formaggio" ;
+                    ns1:name "Big chicken burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "filetto di pollo grigliato in marinatura tandoori, formaggio e insalata" ;
+                    ns1:name "Tikka burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "burger di manzo grande 113g, formaggio, pomodoro e insalata" ;
+                    ns1:name "Grande beef burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Triplo burger di manzo, triplo formaggio, pomodoro e insalata" ;
+                    ns1:name "Triplo cheeseburger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "filetto di pesce, formaggio e insalata" ;
+                    ns1:name "Fish burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ] ;
+            ns1:name "Hamburger" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "2 special chicken di nostra produzione, 2 patatine fritte, 4 chicken wings e 2 bibite 33cl a scelta" ;
+                    ns1:name "Menu special per coppia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "22 alette piccante, 4 porzioni di patate fritte e 1 bibita in bottiglia 1.5L" ;
+                    ns1:name "Menu alette piccante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 cheeseburger, 1 patatine fritte, 4 chicken popcorn e 1 bibita 33cl" ;
+                    ns1:name "Menu cheeseburger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "19 alette di pollo grigliate, 4 porzione di patate fritte e 1 bibita in bottiglia 1.5L a scelta" ;
+                    ns1:name "Menu alette di pollo grigliate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 pollo, 10 alette piccante, 4 porzioni di patate fritte e 1 bibita in bottiglia 1.5L a scelta" ;
+                    ns1:name "Menu pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.50" ] ] ;
+            ns1:name "Menù" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Piadina con pollo tikka, pomodoro e insalata" ;
+                    ns1:name "Tikka wrap" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Piadina con pollo, pomodoro e insalata" ;
+                    ns1:name "Chicken wrap" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ] ;
+            ns1:name "Wrap" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "insalata mista, 2 pollo tikka grigliato e mozzarella" ;
+                    ns1:name "Insalata con pollo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Insalata mista, tonno, pomodoro e mozzarella" ;
+                    ns1:name "Insalata con tonno" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Insalata mista con pomodori e mozzarella" ;
+                    ns1:name "Insalata mista" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.40" ] ] ;
+            ns1:name "Insalate" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "insalata, cipolla, pomodoro, crauti, yogurt, piccante, ketchup, maionese, patatine e una bibita scelta" ;
+                    ns1:name "Menu piatto kebab" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ] ;
+            ns1:name "Vaschette" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "baguette con filetto di pollo grigliato in marinatura tandoori, pomodoro e insalata" ;
+                    ns1:name "Tikka baguette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "baguette con filetto di pollo impanato, pomodoro e insalata" ;
+                    ns1:name "Chicken baguette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ] ;
+            ns1:name "Baguette" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "insalata, cipolla, pomodoro, crauti, yogurt, piccante, ketchup, maionese" ;
+                    ns1:name "Piadina con kebab" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "insalata, cipolla, pomodoro, crauti, yogurt, piccante, ketchup, maionese" ;
+                    ns1:name "Piadina con falafel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "insalata, cipolla, pomodoro, crauti, yogurt, piccante, ketchup, maionese, chicken tikka" ;
+                    ns1:name "Piadine con chicken tikka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Piadine" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Patate fritte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "anelli di cipolla impanati (6 pezzi)" ;
+                    ns1:name "Onion rings" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "striscette di pollo impanate (5 pezzi)" ;
+                    ns1:name "Chicken strips" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "patate a spirale speziate" ;
+                    ns1:name "Patate a spirale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "bastoncini di mozzarella in crosta croccante (6 pezzi)" ;
+                    ns1:name "Mozzarella sticks" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "spicchi di groviera in crosta croccante (6 pezzi)" ;
+                    ns1:name "Groviera wedges" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 pezzi grandi di pollo impanati" ;
+                    ns1:name "Chicken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "bocconcini di pollo impanati (6 pezzi)" ;
+                    ns1:name "Chicken nuggets" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 filetti di pollo grigliato in marinatura tandoori" ;
+                    ns1:name "Chicken tikka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 alette di pollo grigliate" ;
+                    ns1:name "Special grilled wings" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "bocconcini di formaggio camembert in crosta croccante" ;
+                    ns1:name "Camembert bites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ] ;
+            ns1:name "Fritti" ] .
+

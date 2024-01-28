@@ -1,0 +1,85 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiers-stephanois.coopcycle.org/api/restaurants/54> ns1:hasMenu <https://coursiers-stephanois.coopcycle.org/en/restaurant/54-munchies#menu> .
+
+<https://coursiers-stephanois.coopcycle.org/en/restaurant/54-munchies#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "FORMULE BIRRIA + FRITES + BOISSON" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "FORMULE FRIJOLES + FRITES + BOISSON" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "une portion de 3 tacos avec une frite et une boisson" ;
+                    ns1:name "FORMULE CARNITAS + FRITES + BOISSON" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.95" ] ] ;
+            ns1:name "FORMULES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """ÉCHINE DE PORC RÔTIE, CEBETTES, CORIANDRE, CITRON VERT, SALSA VERDE, TORTILLA DE BLÉ
+\r
+---\r
+SERVIS PAR 3""" ;
+                    ns1:name "3x TACOS CARNITAS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.35" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "TACOS VEGAN AUX HARICOTS NOIRS, PICO DE GALLO, CHOU ROUGE, FÊTA, MAÏS, SALSA VERDE" ;
+                    ns1:name "3 x TACOS FRIJOLES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """BOEUF EFFILOCHÉ EN SAUCE, PICO DE GALLO*, TORTILLA DE BLÉ\r
+* PICO DE GALLO : GARNITURE À BASE DE TOMATES, OIGNONS BLANCS, PIMENT, CORIANDRE, CITRON VERT\r
+---\r
+SERVIS PAR 3""" ;
+                    ns1:name "3x TACOS BIRRIA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "FRITES FRAÎCHES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Cannette 33cl" ;
+                    ns1:name "Perrier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cannette 33cl" ;
+                    ns1:name "San Pelegrino Limonata" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Bières 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cannette 33cl" ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bouteille 50cl" ;
+                    ns1:name "Évian" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cannette 33cl" ;
+                    ns1:name "Coca Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cannette 33cl" ;
+                    ns1:name "Fuze Tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ] ;
+            ns1:name "Boissons" ] .
+

@@ -1,0 +1,122 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://a2roo.coopcycle.org/api/restaurants/38> ns1:hasMenu <https://a2roo.coopcycle.org/en/restaurant/38-l-bout-d-la-rue#menu> .
+
+<https://a2roo.coopcycle.org/en/restaurant/38-l-bout-d-la-rue#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Une portion de frites belges" ;
+                    ns1:name "Supplément frites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "En supplément" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Servi avec frites" ;
+                    ns1:name "Le menu Kid" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ] ;
+            ns1:name "Pour les petits" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/e4/63e4f4fda24c6.jpeg> ;
+                    ns1:name "Bière blonde bio Houplon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/e4/63e4f58461f1a.jpeg> ;
+                    ns1:name "Bière Duvel Cashmere 33cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/e4/63e4f56131678.jpeg> ;
+                    ns1:name "Bière Duvel Tripe Hop Citra IPA 33cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/e4/63e4f592e3f79.jpeg> ;
+                    ns1:name "Coca Cola 33 cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/e4/63e4f5a0a694a.jpeg> ;
+                    ns1:name "Fuzetea Pêche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/63/e4/63e4f5d3089a7.jpeg> ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Sauce crème, lardons et croûtons aillés. Servi avec frites" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/58/625840493fc38.jpeg> ;
+                    ns1:name "Moules à la paysanne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce crème et ciboulette. Servi avec frites." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/58/625840568ecdb.jpeg> ;
+                    ns1:name "Moules à la poulette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce crème et comté. Servi avec frites." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/58/6258403080a1e.jpeg> ;
+                    ns1:name "Moules à la franc-comtoise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Huile d'olive et citron. Servi avec frites." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/58/6258408f15bc7.jpeg> ;
+                    ns1:name "Moules au citron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce crème et huile curry jaune maison. Servi avec frites." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/58/625840b8412cc.jpeg> ;
+                    ns1:name "Moules au curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vin blanc, oignons, échalotes et persil. Servi avec frites." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/58/62584119f0d1d.jpeg> ;
+                    ns1:name "Moules marinières" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "sauce crème epoisse \"Berthaut\" servi avec frites" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/58/6258406494d8a.jpeg> ;
+                    ns1:name "Moules à l'epoisse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce crème, curry vert, gingembre et coriandre. Servi avec frites." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/58/6258412011617.jpeg> ;
+                    ns1:name "Moules Thaï" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce crème et roquefort. Servi avec frites." ;
+                    ns1:name "Moules au roquefort" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce crème, moutarde à l'ancienne et estragon. Servi avec frites." ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/58/62584112dee41.jpeg> ;
+                    ns1:name "Moules \"L'Bout d'la Rue\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://a2roo.coopcycle.org/media/cache/product_thumbnail/62/58/6258410c3665f.jpeg> ;
+                    ns1:name "Moules aux piments" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ] ;
+            ns1:name "Les Moules" ] .
+

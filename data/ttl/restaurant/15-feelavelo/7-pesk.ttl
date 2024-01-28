@@ -1,0 +1,40 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://feelavelo.coopcycle.org/api/restaurants/7> a ns1:Restaurant ;
+    ns1:address <https://feelavelo.coopcycle.org/api/addresses/136> ;
+    ns1:description "poké bowl" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.773484e+01 ;
+            ns1:longitude -3.365386e+00 ] ;
+    ns1:image <https://feelavelo.coopcycle.org/media/cache/restaurant_thumbnail/5e/a9/5ea93ee87a79a.jpg> ;
+    ns1:name "Pesk" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "25.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.50" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://feelavelo.coopcycle.org/en/restaurant/7-pesk" ] ] ;
+    ns1:sameAs <https://feelavelo.coopcycle.org/en/restaurant/7-pesk> ;
+    ns1:url <https://feelavelo.coopcycle.org/en/restaurant/7-pesk> .
+
+<https://feelavelo.coopcycle.org/api/addresses/136> a ns1:PostalAddress ;
+    ns1:name "Pesk" ;
+    ns1:streetAddress "20 Avenue de la Perrière, Lorient, France" ;
+    ns1:telephone "+33971362474" .
+

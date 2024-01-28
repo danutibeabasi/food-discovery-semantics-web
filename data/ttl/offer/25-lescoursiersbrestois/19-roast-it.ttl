@@ -1,0 +1,388 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/restaurants/19> ns1:hasMenu <https://lescoursiersbrestois.coopcycle.org/en/restaurant/19-roast-it#menu> .
+
+<https://lescoursiersbrestois.coopcycle.org/en/restaurant/19-roast-it#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Portion de frites Sauce au choix" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f86b8bad236.jpeg> ;
+                    ns1:name "Frites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ratatouille cuisinée, pour 1 personne" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f87f6404b7a.jpeg> ;
+                    ns1:name "Ratatouille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pommes de terres rôties" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f87ee36d73f.jpeg> ;
+                    ns1:name "Pommes de terre grenaille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Accompagnements" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain baguette, Effiloché de poulet de Janzé, Chorizo, Fromage de chèvre fondu, Salade, Sauce mayonnaise épicée" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f86e2782cd4.jpeg> ;
+                    ns1:name "La Catalane" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain baguette, Jambonneau rôti, Salade, Pickles de concombre, Oignons frits, Sauce ketchup et moutarde" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f86eb77776d.jpeg> ;
+                    ns1:name "La Jambon'Hot" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain baguette, Effiloché de poulet de Janzé, Pomme rosti, Raclette fondue, Salade, Tomates, Sauce béarnaise" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f86d5eecd78.jpeg> ;
+                    ns1:name "La Béarnaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain baguette, Effiloché de poulet de Janzé, Camembert fondu, Pomme rosti, Salade, Sauce mousquetaire" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f8700211ffd.jpeg> ;
+                    ns1:name "La Normande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ] ;
+            ns1:name "Roast Baguettes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/03/620303df14362.jpeg> ;
+                    ns1:name "Orangina 1.5L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/03/620302e87d67a.jpeg> ;
+                    ns1:name "Schweppes Agrum’ 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/03/620302912613d.jpeg> ;
+                    ns1:name "Orangina 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/03/620303ab3853c.jpeg> ;
+                    ns1:name "Pepsi Cola 1.5L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f86c215a5b4.jpeg> ;
+                    ns1:name "Ice Tea pêche 1.5L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/03/62030378558d3.jpeg> ;
+                    ns1:name "Plancoët 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/03/620302bb3f423.jpeg> ;
+                    ns1:name "Pepsi Max 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/03/6203025f90f56.jpeg> ;
+                    ns1:name "Pepsi Cola 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain viennois artisanal, Effiloché de poulet de Janzé, Pomme rosti, Raclette fondue, Salade, Tomates, Sauce béarnaise" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f875315c1ea.jpeg> ;
+                    ns1:name "Le Rustique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain viennois artisanal, Effiloché de poulet de Janzé, Chorizo, Cheddar rouge fondu, Salade, Tomates, Sauce épicée" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f874903ebba.jpeg> ;
+                    ns1:name "Le Piquant" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain viennois artisanal, Effiloché de poulet de Janzé, Camembert fondu, Pomme rosti, Salade, Sauce mousquetaire" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f8726360375.jpeg> ;
+                    ns1:name "Le France" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain viennois artisanal, Effiloché de poulet de Janzé, Cheddar rouge fondu, Salade, Oignons rosés de Roscoff AOP, Tomates, Sauce poivre" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f876027ae71.jpeg> ;
+                    ns1:name "L’Intense" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain viennois artisanal, Effiloché de poulet de Janzé, Cheddar rouge fondu, Pickles de concombre, Sauce ketchup et moutarde" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f87118ea1cd.jpeg> ;
+                    ns1:name "L'Authentique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain viennois artisanal, Effiloché de poulet de Janzé , Pomme rosti, Fromage de chèvre fondu, Salade, Tomates, Sauce miel de chez Emeric et moutarde" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f873ca14359.jpeg> ;
+                    ns1:name "Le Mielleux" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Composez vous même votre burger selon vos goûts" ;
+                    ns1:name "Burger personnalisé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Roast Burgers" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Vin rosé 75cl" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/02/6202eabb03c38.jpeg> ;
+                    ns1:name "Petites Balades rosé 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/02/6202eb29c7156.jpeg> ;
+                    ns1:name "Bière blonde Leffe 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f86bdad3822.jpeg> ;
+                    ns1:name "Heineken 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cidre traditionnel 100% pur jus, élaboré au Manoir du Quinquis" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f867e99c841.jpeg> ;
+                    ns1:name "Cidre Manoir du Kinkiz 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vin rouge 75cl" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/02/6202eaf2f3f10.jpeg> ;
+                    ns1:name "Petites Balades rouge 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f86a5df2417.jpeg> ;
+                    ns1:name "Desperados 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ] ;
+            ns1:name "Vin et Bière" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "1 baguette La Normande, 1 accompagnement, 1 boisson 33cl ou eau" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f879145bdc3.jpeg> ;
+                    ns1:name "Menu La Normande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 baguette La Béarnaise, 1 accompagnement, 1 boisson 33cl ou eau" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f877cd58473.jpeg> ;
+                    ns1:name "Menu La Béarnaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 baguette La Catalane, 1 accompagnement, 1 boisson 33cl ou eau" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f8784b3db91.jpeg> ;
+                    ns1:name "Menu La Catalane" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 baguette La Jambon'Hot, 1 accompagnement, 1 boisson 33cl ou eau" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f878ba37206.jpeg> ;
+                    ns1:name "Menu La Jambon'Hot" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ] ;
+            ns1:name "Menus Baguettes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Barre glacée Mars" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/02/6202e86f8da49.jpeg> ;
+                    ns1:name "Mars glacé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/02/6202e8a15a72a.jpeg> ;
+                    ns1:name "Muffin Double Chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f86ad9c3ef7.jpeg> ;
+                    ns1:name "Donut sucré" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Barre glacée Snickers" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/02/6202e83fc4894.jpeg> ;
+                    ns1:name "Snickers glacé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/02/6202e8c908f07.jpeg> ;
+                    ns1:name "Moelleux au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ben & Jerry's Chocolate Fudge Brownie Crème glacée Chocolat avec des morceaux de Brownies" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f867302b114.jpeg> ;
+                    ns1:name "Chocolate Fudge Brownie 465ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ben & Jerry's Cookie Dough Crème Glacée Vanille avec des Morceaux de Pâte à Cookie aux Pépites de Chocolat et des inclusions cacaotées" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f868d779f97.jpeg> ;
+                    ns1:name "Cookie Dough 465ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f868409adf5.jpeg> ;
+                    ns1:name "Compote de pomme" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ben & Jerry's Vanilla Pecan Blondie Crème glacée Vanille, sauce au Caramel salé, morceaux de noix de pécan caramélisés et de gâteau fondant" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/02/6202e7a8e25d7.jpeg> ;
+                    ns1:name "Vanilla Pecan Blondie 465ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ] ;
+            ns1:name "Desserts et Glaces" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Poulet label rouge de Janzé, élevé en plein air, sans traitement antibiotique et rôti chez Roast It !" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f87e844d6a2.jpeg> ;
+                    ns1:name "Poulet de Janzé rôti" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saucisse traditionnelle de chez Gilbert Marc" ;
+                    ns1:name "Saucisse nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jambonneau de porc rôti, pour 2 personnes" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/02/6202ed8b3c08c.jpeg> ;
+                    ns1:name "Jambonneau rôti" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Demi Poulet label rouge de Janzé, élevé en plein air, sans traitement antibiotique et rôti chez Roast It !" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f869f48fffb.jpeg> ;
+                    ns1:name "Demi Poulet de Janzé rôti" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ] ;
+            ns1:name "La Rôtisserie" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Saucisse traditionnelle de chez Gilbert Marc, riz ou pommes de terre grenailles, ratatouille, ciboulette, oignons frits. Sauce au choix" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f8718db4c1f.jpeg> ;
+                    ns1:name "Le Brestois" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Effiloché de poulet de Janzé, riz ou pommes de terre grenailles, ratatouille, ciboulette, oignons frits. Sauce au choix" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f872e0eb010.jpeg> ;
+                    ns1:name "Le Janzéen" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tranches de jambonneau, riz ou pommes de terre grenailles, ratatouille, ciboulette, oignons frits. Sauce au choix" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/03/6203a03b4605d.jpeg> ;
+                    ns1:name "Le Jambon'Bowl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ] ;
+            ns1:name "Roast Bowls" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "1 burger L'Authentique, 1 accompagnement, 1 boisson 33cl ou eau" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f8797301ada.jpeg> ;
+                    ns1:name "Menu L'Authentique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 burger Le France, 1 accompagnement, 1 boisson 33cl ou eau" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f87a601e4ac.jpeg> ;
+                    ns1:name "Menu Le France" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Menu enfant avec au choix : 1 petit cheese au poulet, Frites ou pdt grenaille ou tomates cerise, 1 compote ou 1 donut, 1 petite boisson, 1 surprise" ;
+                    ns1:name "Menu Petit Poussin" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 burger L'Intense, 1 accompagnement, 1 boisson 33cl ou eau" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f87d3e65418.jpeg> ;
+                    ns1:name "Menu L’Intense" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 burger Le Piquant, 1 accompagnement, 1 boisson 33cl ou eau" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f87b500483d.jpeg> ;
+                    ns1:name "Menu Le Piquant" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 burger Le Rustique, 1 accompagnement, 1 boisson 33cl ou eau" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f87c99e4bac.jpeg> ;
+                    ns1:name "Menu Le Rustique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 burger Le Mielleux, 1 accompagnement, 1 boisson 33cl ou eau" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f87af21193b.jpeg> ;
+                    ns1:name "Menu Le Mielleux" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ] ;
+            ns1:name "Menus Burgers" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "6 bouchées camembert" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f86604b1421.jpeg> ;
+                    ns1:name "Bouchées camembert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 bouchées au fromage fondu et piment" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f866dfe4249.jpeg> ;
+                    ns1:name "Chili Cheese Nuggets" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6 beignets d’oignon\r
+6 bouchées camembert\r
+3 chili cheese nuggets\r
+3 mozza sticks\r
+15 mini rösti \r
+avec 1 sauce au choix""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f87df5e5cf0.jpeg> ;
+                    ns1:name "Panier Apéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 bâtonnets de Mozzarella" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f8828c0701f.jpeg> ;
+                    ns1:name "Mozzarella sticks" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ] ;
+            ns1:name "Tapas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Feuilles de chêne rouge, effiloché de poulet de Janzé, bouchées camembert, tomates cerises, ciboulette" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/f8/63f86f5289c75.jpeg> ;
+                    ns1:name "La Méconnue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Feuilles de chêne rouge, effiloché de poulet de Janzé, raclette, oignons rosés de Roscoff AOP, tomates cerises" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/03/6203a0973ba3f.jpeg> ;
+                    ns1:name "La Montagnarde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 salade au choix 1 boisson 33cl ou eau" ;
+                    ns1:name "Menu salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ] ;
+            ns1:name "Salades" ] .
+

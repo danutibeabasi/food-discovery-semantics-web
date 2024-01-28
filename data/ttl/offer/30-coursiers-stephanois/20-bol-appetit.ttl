@@ -1,0 +1,440 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiers-stephanois.coopcycle.org/api/restaurants/20> ns1:hasMenu <https://coursiers-stephanois.coopcycle.org/en/restaurant/20-bol-appetit#menu> .
+
+<https://coursiers-stephanois.coopcycle.org/en/restaurant/20-bol-appetit#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Crème de soja enrobée de farine de riz et coco" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/65/6065eaea69268.jpeg> ;
+                    ns1:name "Délices de perle de coco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coupelle de nougat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/65/6065ebbc7f587.jpeg> ;
+                    ns1:name "4 nems banane et chocolat Weiss" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/65/6065eb43ce434.jpeg> ;
+                    ns1:name "Moelleux au chocolat Weiss" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lychee (litchi), goyave, papaye, fruits frais, ananas" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/65/6065ed8ed7c8a.jpeg> ;
+                    ns1:name "Salade de fruits exotiques" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/65/6065eac270479.jpeg> ;
+                    ns1:name "Crêpe au gingembre confit et chocolat Weiss" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ] ;
+            ns1:name "Les desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Vermicelles de riz, crudités, morceaux de nems aux crevettes, herbes exotiques, crevettes à la citronnelle." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/65/6065e9a9ebbc2.jpeg> ;
+                    ns1:name "Le bo bun aux crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vermicelles de riz, crudités, morceaux de nems aux crevettes, herbes exotiques, noix de ST JACQUES  avec corail sautées à la citronnelle ail." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/3f/653f9cb7f02b1.jpeg> ;
+                    ns1:name "Le bo bun Saint-Jacques" ;
+                    ns1:nutrition "Crustaceans",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/f9/64f9c04a47295.jpeg> ;
+                    ns1:name "Le bo bun au bœuf sauté, à la citronnelle et à l'ail" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/f9/64f9bfaf260c9.jpeg> ;
+                    ns1:name "Le bo bun au poisson sauté, à la citronnelle, à l'ail et au curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/f9/64f9befcbdf22.jpeg> ;
+                    ns1:name "Le bo bun au tofu sauté, à la citronnelle, à l'ail et au curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Viande au choix, accompagnée de vermicelles de riz, crudités, morceaux nems crevettes + 1 gros nem porc ou poulet 1 gambas à l'ail et citronnelle, herbes exotiques, le tout sauté à la citronnelle ail." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/65/6065ea1e9d30e.jpeg> ;
+                    ns1:name "Le bo bun royal" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/f9/64f9bf601a6a1.jpeg> ;
+                    ns1:name "Le bo bun au poulet sauté, à la citronnelle et à l'ail" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vermicelles de riz, crudités, morceaux nems crevettes, herbes exotiques, calamars sautés à la citronnelle ail ." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/a9/60a93cb8b8267.jpeg> ;
+                    ns1:name "Le bo bun calamar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ] ;
+            ns1:name "Le Bo bun" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Plat relevé. Accompagné de légumes frais et riz thaï, sauce maison" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/3f/653f9c572c9c0.jpeg> ;
+                    ns1:name "Citronnelle et curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Plat relevé" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/f9/64f9b9aa22781.jpeg> ;
+                    ns1:name "Saté (crevettes, cacahuètes, épices exotiques)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Plat relevé" ;
+                    ns1:name "Gingembre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/3f/653f9bbb6297a.jpeg> ;
+                    ns1:name "Basilic thaï à la tomate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Avec légumes du moment et riz thaï, plat relevé mais ne pique pas." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/70/607057db804c8.jpeg> ;
+                    ns1:name "5 épices (poivre, badiane, cannelle, clous de girofle, fenouil)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ] ;
+            ns1:name "Woks poulet ou bœuf, sauce au choix" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Coca-cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/65/6065ee6b5da5b.jpeg> ;
+                    ns1:name "Sprite" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Coca-cola zéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/65/6065eb177738f.jpeg> ;
+                    ns1:name "Jus de coco avec morceaux" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "25 cl" ;
+                    ns1:name "FuzeTea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Porc mariné au Char siu, sucré-salé, sur lit de salades et tomates + riz thaï nature + 1 sauce nem" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/6f/606f09dbbeb34.jpeg> ;
+                    ns1:name "Porc au Char Siu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une salade exotique avec : 7 minis nems aux crevettes, 1 nem au porc et 1 au poulet, 1 beignet de crevette et poulet, 2 samoussas bœuf/thon, 1 wonton frit, 1 saucre aigre douce et 1 sauce nem." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/f9/64f9d8911c455.jpeg> ;
+                    ns1:name "Assortiment Délice" ;
+                    ns1:nutrition "Crustaceans",
+                        "Eggs",
+                        "Molluscs",
+                        "Peanuts",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lamelles de boeuf sautées avec sauce exotique, salade et tomates, accompagné de riz thaï." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/f9/64f9d6b517d2f.jpeg> ;
+                    ns1:name "Bœuf loc lac" ;
+                    ns1:nutrition "Crustaceans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce Nipponne au saké et riz blanc" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/f9/64f9d81d1786e.jpeg> ;
+                    ns1:name "Magret de canard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.90" ] ] ;
+            ns1:name "Les spécialités" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Une entrée  + Le Bol'appétit (riz avec supplément)" ;
+                    ns1:name "Menu Entrée + plat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Le bol'appétit (riz avec supplément) + un dessert au choix" ;
+                    ns1:name "Menu Plat + dessert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une entrée au choix + Le Bol'appétit (riz avec supplément) + Un dessert au choix" ;
+                    ns1:name "Menu Entrée + plat + dessert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.50" ] ] ;
+            ns1:name "Menus" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bière chinoise 33 cl, 4,5°" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/65/6065e85e7e51a.jpeg> ;
+                    ns1:name "Tsingtao" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/65/6065e8084b5a2.jpeg> ;
+                    ns1:name "Saïgon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière thaïlandaise 33cl, 6°" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/65/6065e8353bb1f.jpeg> ;
+                    ns1:name "Singha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Bières" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Fruits de mer, soja, poivrons, céleri, oignons, épis de mais et sauce citronnelle à l'ail, accompagné de nouilles." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/f9/64f9cedeeac26.jpeg> ;
+                    ns1:name "Bol hai san" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poisson du jour, soja, poivrons, cèleri, oignons, épis de mais et sauce citronnelle à l'ail, accompagné de nouilles." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/f9/64f9d0cc2ba41.jpeg> ;
+                    ns1:name "Bol con ca" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Viande de porc, champignons, choux, champignons noirs, oignons, épis de mais et sauce barbecue, accompagnée de nouilles." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/65/6065ea6d9bd07.jpeg> ;
+                    ns1:name "Bol heo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Volaille, poivrons, choux, cèleri, oignons, épis de mais et sauce curry accompagnée de nouilles" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/65/6065ea471b890.jpeg> ;
+                    ns1:name "Bol ga" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Calamars, soja, poivrons, céleri, oignons, épis de mais et sauce saté, accompagné de nouilles." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/f9/64f9d0fa23c67.jpeg> ;
+                    ns1:name "Bol con muc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Viande de bœuf, soja, bambou, champignons noirs, oignons, épis de mais et sauce saté, accompagnée de nouilles" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/f9/64f9d03736ad6.jpeg> ;
+                    ns1:name "Bol con bo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.10" ] ] ;
+            ns1:name "Bol" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Anneaux de tubes de calamars relevés au saté * (à base de crevettes, cacahuètes, divers épices exotiques) + légumes du moment et riz blanc \r
+Plat relevé + mais ne pique pas.""" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/70/6070578a149b4.jpeg> ;
+                    ns1:name "Wok de calamars (saté)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Accompagné de légumes frais et riz thaï, sauce maison" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/65/6065edf518315.jpeg> ;
+                    ns1:name "Wok de crevettes (sauce aigre douce)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Accompagné de légumes frais et riz thaï, sauce maison" ;
+                    ns1:name "Wok de cocktail fruits de mer (sauce à la citronnelle)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ] ;
+            ns1:name "Les woks de la mer" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "A base de vermicelles de riz, salade, soja, carottes rappées, menthe, + concombre pour celui du Tofu" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/65/6065ed58c077e.jpeg> ;
+                    ns1:name "1 rouleau de printemps" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/64/ff/64ff11afe71c8.jpeg> ;
+                    ns1:name "10 accras de morue" ;
+                    ns1:nutrition "Crustaceans",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crevettes et viande. Hors menu" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/3f/653f9d9f260e1.jpeg> ;
+                    ns1:name "3 croustillants beignets" ;
+                    ns1:nutrition "Crustaceans",
+                        "Eggs",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/65/6065edcf28d69.jpeg> ;
+                    ns1:name "12 samoussas au thon" ;
+                    ns1:nutrition "Eggs",
+                        "Fish",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ravioles au porc et crevette" ;
+                    ns1:name "4 wontons vapeurs" ;
+                    ns1:nutrition "Eggs",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/65/6065e95503f06.jpeg> ;
+                    ns1:name "15 minis nems crevette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/65/6065eb95bd724.jpeg> ;
+                    ns1:name "3 suprêmes nems au poulet" ;
+                    ns1:nutrition "Eggs",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/65/6065edb23017c.jpeg> ;
+                    ns1:name "12 samoussas au bœuf" ;
+                    ns1:nutrition "Eggs",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/3f/653f9f83973d5.jpeg> ;
+                    ns1:name "9 suprêmes nems au poulet" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "4 chicken wings tex mex" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/65/6065ec362fe94.jpeg> ;
+                    ns1:name "Nouilles Chinoises" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/3f/653f9e89d68e9.jpeg> ;
+                    ns1:name "4 samoussas au bœuf" ;
+                    ns1:nutrition "Eggs",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/65/6065ec73de973.jpeg> ;
+                    ns1:name "Riz cantonnais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/3f/653f9f2c1d34d.jpeg> ;
+                    ns1:name "3 suprêmes nems au porc" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/3f/653f9f5b887aa.jpeg> ;
+                    ns1:name "9 suprêmes nems au porc" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/3f/653f9eb2532da.jpeg> ;
+                    ns1:name "4 samoussas au thon" ;
+                    ns1:nutrition "Crustaceans",
+                        "Eggs",
+                        "Fish",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/03/6503073f37c04.jpeg> ;
+                    ns1:name "6 Beignet de Calamars" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/65/6065ec9a07fed.jpeg> ;
+                    ns1:name "Riz thaï nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ravioles au porc et crevette" ;
+                    ns1:name "4 wontons frits" ;
+                    ns1:nutrition "Crustaceans",
+                        "Eggs",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Hors menu" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/3f/653f9e2031144.jpeg> ;
+                    ns1:name "6 brochettes de bœuf au saté" ;
+                    ns1:nutrition "Crustaceans",
+                        "Molluscs",
+                        "Peanuts",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crevettes et viande. Hors menu" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/65/3f/653f9dd8d4477.jpeg> ;
+                    ns1:name "9 croustillants beignets" ;
+                    ns1:nutrition "Crustaceans",
+                        "Eggs",
+                        "Peanuts",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "12 chicken wings tex mex" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Taro, manioc, carottes, champignon noir, champignon parfumé" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/65/6065ebe6a7cac.jpeg> ;
+                    ns1:name "4 Nems végétariens" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Hampe de bœuf mariné au saté (crevettes, cacahuètes, divers épices exotiques, légèrement relevé)+ 1 sauce aigre douce." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/60/6f/606f091c48aa4.jpeg> ;
+                    ns1:name "3 brochettes de bœuf au saté" ;
+                    ns1:nutrition "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.60" ] ] ;
+            ns1:name "Les entrées" ] .
+

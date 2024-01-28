@@ -1,0 +1,58 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://demo.coopcycle.org/api/restaurants/11> a ns1:FastFoodRestaurant ;
+    ns1:address <https://demo.coopcycle.org/api/addresses/61> ;
+    ns1:bannerImage "https://demo.coopcycle.org/placeholder/restaurant_banner/placeholders/jrxnZjNZWVzm.jpg" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.885672e+01 ;
+            ns1:longitude 2.360141e+00 ] ;
+    ns1:image <https://demo.coopcycle.org/img/cuisine/default.jpg> ;
+    ns1:name "L'île rouge qui danse" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:15" ;
+            ns1:dayOfWeek "Saturday",
+                "Sunday" ;
+            ns1:opens "09:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "00:15" ;
+            ns1:dayOfWeek "Saturday",
+                "Sunday" ;
+            ns1:opens "19:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:15" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "10:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "23:15" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "19:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "15.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.50" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://demo.coopcycle.org/en/restaurant/11-l-ile-rouge-qui-danse" ] ] ;
+    ns1:sameAs <https://demo.coopcycle.org/en/restaurant/11-l-ile-rouge-qui-danse> ;
+    ns1:url <https://demo.coopcycle.org/en/restaurant/11-l-ile-rouge-qui-danse> .
+
+<https://demo.coopcycle.org/api/addresses/61> a ns1:PostalAddress ;
+    ns1:name "L'île rouge qui danse" ;
+    ns1:streetAddress "Rue des Rosiers 5 bis, 75004 Paris" ;
+    ns1:telephone "+33411908922" .
+

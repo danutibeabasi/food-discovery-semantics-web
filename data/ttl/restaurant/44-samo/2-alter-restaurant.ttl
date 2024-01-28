@@ -1,0 +1,46 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://samo.coopcycle.org/api/restaurants/2> a ns1:Restaurant ;
+    ns1:address <https://samo.coopcycle.org/api/addresses/7> ;
+    ns1:bannerImage "https://samo.coopcycle.org/placeholder/restaurant_banner/placeholders/DVmk8qVJvnMO.jpg" ;
+    ns1:description """Bio, Circuit court, Local, Solidaire... Régalons-nous autrement !\r
+\r
+Des produits bio, de saison, issus de producteurs locaux, artisanaux et engagés. Des plats consignés plutôt que du plastique.\r
+\r
+Responsabilités sociale et environnementale certifiées : agrément Entreprise d'Insertion et label Ecotable de niveau 3. Et tout est fait maison avec un menu qui change chaque lundi !""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.87937e+01 ;
+            ns1:longitude 2.49596e+00 ] ;
+    ns1:image <https://samo.coopcycle.org/media/cache/restaurant_thumbnail/60/a1/60a14accbca11.jpg> ;
+    ns1:name "Alter restaurant" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "19:30" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "12:30" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://samo.coopcycle.org/en/restaurant/2-alter-restaurant" ] ] ;
+    ns1:sameAs <https://samo.coopcycle.org/en/restaurant/2-alter-restaurant> ;
+    ns1:url <https://samo.coopcycle.org/en/restaurant/2-alter-restaurant> .
+
+<https://samo.coopcycle.org/api/addresses/7> a ns1:PostalAddress ;
+    ns1:name "Alter restaurant" ;
+    ns1:streetAddress "15 Place de Rimini, 94100 Saint-Maur-des-Fossés, France" ;
+    ns1:telephone "+33148767045" .
+

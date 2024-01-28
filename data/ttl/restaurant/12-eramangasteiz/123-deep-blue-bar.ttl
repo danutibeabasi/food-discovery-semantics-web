@@ -1,0 +1,41 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/123> a ns1:Restaurant ;
+    ns1:address <https://eramangasteiz.coopcycle.org/api/addresses/222682> ;
+    ns1:bannerImage "https://eramangasteiz.coopcycle.org/media/cache/restaurant_banner/65/6d/656db84332731707873835.jpg" ;
+    ns1:description """¡Bienvenidos a Deep Blue Bar! El nuevo bar de burgers en el barrio de Zabalgana 🍔💙 <br>\r
+Un espacio con mucha variedad gastronómica, platos únicos y pintxos hechos con la especialidad de la casa""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.284288e+01 ;
+            ns1:longitude -2.699545e+00 ] ;
+    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/restaurant_thumbnail/64/b6/64b6776ecb234.jpeg> ;
+    ns1:name "Deep Blue Bar" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "23:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "19:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:30" ;
+            ns1:dayOfWeek "Saturday",
+                "Sunday" ;
+            ns1:opens "12:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "es" ;
+                    ns1:urlTemplate "https://eramangasteiz.coopcycle.org/en/restaurant/123-deep-blue-bar" ] ] ;
+    ns1:sameAs <https://eramangasteiz.coopcycle.org/en/restaurant/123-deep-blue-bar> ;
+    ns1:url <https://eramangasteiz.coopcycle.org/en/restaurant/123-deep-blue-bar> .
+
+<https://eramangasteiz.coopcycle.org/api/addresses/222682> a ns1:PostalAddress ;
+    ns1:name "Deep Blue Bar" ;
+    ns1:streetAddress "Avenida de la Ilustración, 48, Vitoria-Gasteiz, España" ;
+    ns1:telephone "+34620820156" .
+

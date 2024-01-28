@@ -1,0 +1,280 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://sicklo.coopcycle.org/api/restaurants/152> ns1:hasMenu <https://sicklo.coopcycle.org/en/restaurant/152-le-gourmet#menu> .
+
+<https://sicklo.coopcycle.org/en/restaurant/152-le-gourmet#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Ingrédients : 
+\r
+Pommes de terre 37%, bœuf 32%, lait, aubergines 8%, tomates, oignon, eau, basilic, huile d’olive et tournesol, graines de fenouil, fécule de pommes de terre, beurre (lactose), sel poivre\r
+- CONSIGNE DU BOCAL INCLU -\r
+Peut contenir du Gluten""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a62219984.jpeg> ;
+                    ns1:name "Mitonné de bœuf et sa purée" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Ingrédients : 
+\r
+Bœuf 29%, eau, épinard 13%, tomate, feuille à lasagnes (farine de blé, oeuf), carottes, oignons, crème, fromage, basilic, ail, fécule de pdt, huile d’olive, sel, sucre.\r
+- CONSIGNE DU BOCAL INCLU -\r
+Allergène : lactose, oeuf, gluten""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a5db20a7c.jpeg> ;
+                    ns1:name "Lasagne pur bœuf aux épinards" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Pois chiche 29.82%, courgette 17.20%,lait de coco 14.91%, aubergine 14.91%, carotte 11.47%, raison sec (sulfite) 8.60%, jus de citron 2.29%, bouillon de légumes (céleri) 0.69%, sel, badiane et poivre\r
+- CONSIGNE DU BOCAL INCLU -""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a89315ddf.jpeg> ;
+                    ns1:name "Tajine végé de pois chiche" ;
+                    ns1:nutrition "Celery" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a688cc6a3.jpeg> ;
+                    ns1:name "Parmentier de patate douce au canard confit" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Ingrédients : 
+\r
+Pommes de terre 40 %, bœuf 23%, eau, lait, vin rouge, oignons, beurre, cacao, carottes, huile de tournesol, fécule de pdt, sel, laurier, poivre, baie de genièvre\r
+- CONSIGNE DU BOCAL INCLU -\r
+Allergène : lactose, baie de genièvre""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a384d88b2.jpeg> ;
+                    ns1:name "Estouffade de bœuf et sa purée" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Ingrédients :
+\r
+Eau, poulet 31%, riz de Camargue complet BIO 19%, olive 10%, huile d’olive, bouillon de volaille (fécule, sucre, levure, chicorée, oignons, poivre, laurier, thym, vin blanc, paprika, romarin), sel, estragon
+\r
+Peut contenir : lait, oeuf, céleri, gluten, sulfites""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a8d3d4a64.jpeg> ;
+                    ns1:name "Tendre de poulet aux olives et riz complet" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a74d68132.jpeg> ;
+                    ns1:name "Poulet au Saint Marcellin et aux noix" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Ingrédients : 
+\r
+Bouillon de volaille (fécule, sucre, poulet, levure, oignon, poivre, laurier, thym, vin blanc, paprika, romarin), poulet 24%, riz noir 14%, lait de coco, eau, crème (lactose), poireaux 3%, oignons, citron, sel.\r
+- CONSIGNE DU BOCAL INCLU -\r
+Peut contenir des traces de gluten et sulfites.""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a78299794.jpeg> ;
+                    ns1:name "Poulet aux poireaux et riz noir" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Ingrédients : 
+\r
+Sauté de veau FR 58.82%, patate douce 29.41%, miel 5.39%, sauce soja 4.41%, sel, purée de gingembre, purée de citronnelle et poivre\r
+- CONSIGNE DU BOCAL INCLU -""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a98f17c3c.jpeg> ;
+                    ns1:name "Veau au caramel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Ingrédients : 
+\r
+Crème (lactose) 34.25%, truite (poisson) 27.40%, riz long 20.55%, oignon 6.85%, eau 6.85%, vin blanc (sulfite) 1.37%, aneth 0.91%, jus de citron 0.91%, sel et poivre\r
+- CONSIGNE DU BOCAL INCLU -""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a7f92bc61.jpeg> ;
+                    ns1:name "Risotto à la truite" ;
+                    ns1:nutrition "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Ingrédients :
+\r
+Eau 31.77%, sauté de poulet FR 27.45%, carotte 11.77%, poireau 11.77%, crème fraiche (lactose) 5.49%, oignon 3.14%, huile d’olive 2.43%, amidon de maïs 1.96%, bouillon de volaille (céleri) 0.78%, sel, ail et poivre.\r
+- CONSIGNE DU BOCAL INCLU -""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a7a408c3c.jpeg> ;
+                    ns1:name "Poulet sauce suprême" ;
+                    ns1:nutrition "Celery",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Ingrédients :
+\r
+Eau 46.42%, riz rond 24.78%, Shiitakés de Champiloop 11.52%, crème (lactose) 7.78%, oignon, vin blanc (sulfite) 1.92%, jus de citron 1.15%, huile d’olive 1.15%, bouillon de légumes (céleri) 0.77%, sel et poivre\r
+- CONSIGNE DU BOCAL INCLU -""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a82de9563.jpeg> ;
+                    ns1:name "Risotto végé aux shiitakés de champiloop" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ] ;
+            ns1:name "Les plats🍲" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a5f99cd80.jpeg> ;
+                    ns1:name "Limonade - Brasserie des cuves 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Ingrédients :
+\r
+Eau minérale naturelle avec adjonction de gaz carbonique. La pétillance de Badoit Verte dans sa bouteille en verre est renforcée au gaz de la source.""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a2fc4ef7a.jpeg> ;
+                    ns1:name "Badoit" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Ingrédients :\r
+Eau de Source.\r
+Cristalline vous offre une eau de source plate de qualité faiblement minéralisée avec un goût léger. Elle est captée dans une source au plus proche de chez vous.""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a359f3353.jpeg> ;
+                    ns1:name "Cristaline" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a95b4bcdb.jpeg> ;
+                    ns1:name "Tonic artisanal - Brasserie des cuves" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La ferme bio Margerie propose son pur jus de pomme coing aux fruits issus de l’agriculture biologique et fabriqué artisanalement." ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a6eeaad69.jpeg> ;
+                    ns1:name "Pomme coing - Jus artisanal - Origine France" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La Sacrébulle Cola vous offre une palette de saveurs caramélisées, épicées et légèrement citronnées. Ce Cola vous est proposé sans caféine et à la teneur en sucre abaissé." ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a32a41384.jpeg> ;
+                    ns1:name "Cola artisanal - Brasserie des cuves" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La ferme bio Margerie propose son pur jus de pomme et d’abricot à base de fruits issus de l’agriculture biologique et fabriqué artisanalement." ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a6af80b06.jpeg> ;
+                    ns1:name "Pomme Abricot - Jus artisanal - Origine France" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """100% pur jus obtenu par simple pression des fruits, pasteurisé, sans aucune adjonction.
+\r
+Ce jus est non clarifié de façon à préserver les qualités des fruits.""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a7cee962d.jpeg> ;
+                    ns1:name "Raisin - Jus artisanal Bio - Origine France" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a5b180457.jpeg> ;
+                    ns1:name "Ginger Ale - Brasserie des cuves" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La ferme bio Margerie propose son pur jus de pomme cassis à base de fruits issus de l’agriculture biologique et fabriqué artisanalement." ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a6d1786ea.jpeg> ;
+                    ns1:name "Pomme cassis - Jus artisanal - Origine France" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La ferme bio Margerie propose son pur jus de pomme à base de fruits issus de l’agriculture biologique et fabriqué artisanalement." ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a71957d51.jpeg> ;
+                    ns1:name "Pomme - Jus artisanal - Origine France" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La Sacrébulle Orange est, tout comme sa grande sœur, la sacrébulle citron, née de nos souvenirs d’enfance. Moins sucrée que les sodas industriels, elle vous apportera un plaisir à partager en famille ou entre amis." ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a65587c50.jpeg> ;
+                    ns1:name "Orangeade - Brasserie des cuves" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.30" ] ] ;
+            ns1:name "Les boissons soft🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """INGRÉDIENTS :
+\r
+Eau, malt d’orge, houblons, levure
+\r
+Bière blanche avec de vrais morceaux de Bavière…\r
+Ses montagnes, ses jambons fumés et sa bière qui\r
+coule à flots autant que la pluie.""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a56b5e468.jpeg> ;
+                    ns1:name "Furieuse Furtive - 4,5% ALC. VOL. | BLANCHE" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a3af3ef9c.jpeg> ;
+                    ns1:name "Furieuse Furie - 5% ALC. VOL. | BLONDE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Vin de pays d’OC – IGP
+\r
+Produit de France""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a9c0c993c.jpeg> ;
+                    ns1:name "Vin blanc - 187ml - 12.5%" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """INGRÉDIENTS :
+\r
+Eau, malt d’orge, houblons, levure
+\r
+Bière ambrée qui ravira tous les amateurs de goût.\r
+Du malt torréfié à foison, du houblon aux bons\r
+arômes de fruits mûrs et d’épices.""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a585bcc54.jpeg> ;
+                    ns1:name "Furieuse Futée - 6% ALC. VOL. | AMBRÉE" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Vin de pays d’OC – IGP
+\r
+Produit de France""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a9fa59f5e.jpeg> ;
+                    ns1:name "Vin rouge - 187ml - 12.5%" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Vin de pays d’OC – IGP
+\r
+Produit de France""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a9dbf24ac.jpeg> ;
+                    ns1:name "Vin rosé - 187ml - 12.5%" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.40" ] ] ;
+            ns1:name "Les boissons alcoolisées🍺" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Ingrédients : 
+\r
+Eau, petit épeautre BIO 27% (gluten), poivrons, tomates, jus de citron, échalottes, menthe, huile d’olive, huile de tournesol, basilic, sel\r
+- CONSIGNE DU BOCAL INCLU -""" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/65/11/6511a8661b6b7.jpeg> ;
+                    ns1:name "Taboulé de petit épeautre Bio" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ] ;
+            ns1:name "Les entrées🌱" ] .
+

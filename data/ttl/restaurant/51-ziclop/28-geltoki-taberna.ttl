@@ -1,0 +1,30 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://ziclop.coopcycle.org/api/restaurants/28> a ns1:Restaurant ;
+    ns1:address <https://ziclop.coopcycle.org/api/addresses/5778> ;
+    ns1:description "Geltoki Tabernan elikaduran jartzen dugu arreta, zer jaten dugun eta zer ondorio dituen guretzat eta bizi garen lurrarentzat. // En Geltoki Taberna ponemos el foco en la alimentación, en qué comemos y en qué consecuencias tiene para nosotras y para la tierra que habitamos" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.281328e+01 ;
+            ns1:longitude -1.645066e+00 ] ;
+    ns1:image <https://ziclop.coopcycle.org/media/cache/restaurant_thumbnail/63/12/63124483317e8.png> ;
+    ns1:name "Geltoki Taberna" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday" ;
+            ns1:opens "20:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "es" ;
+                    ns1:urlTemplate "https://ziclop.coopcycle.org/en/restaurant/28-geltoki-taberna" ] ] ;
+    ns1:sameAs <https://ziclop.coopcycle.org/en/restaurant/28-geltoki-taberna> ;
+    ns1:url <https://ziclop.coopcycle.org/en/restaurant/28-geltoki-taberna> .
+
+<https://ziclop.coopcycle.org/api/addresses/5778> a ns1:PostalAddress ;
+    ns1:name "Geltoki Taberna" ;
+    ns1:streetAddress "Avenida Conde Oliveto, 6, Pamplona, España" ;
+    ns1:telephone "+34948988274" .
+

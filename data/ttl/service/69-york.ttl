@@ -1,0 +1,20 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://york.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "gb" ;
+                    ns1:addressLocality "York" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 5.395539e+01 ;
+                    ns1:longitude -1.090357e+00 ] ] ;
+    ns1:description "<p>York Collective was formed as a response to the gig-economy, and unaccountable multinational corporations. We do not see you as just another number, we want to develop valuable and long-term relationships with York businesses and customers.<br><br>Choose whether you use our app or website to book, manage, and track your orders. Our platform enables shops and restaurants to take orders with minimal fuss and expense. We offer a timely, cost effective and professional service, dedicated to your satisfaction.<br><br>As a member of a worldwide federation of cooperatives, social responsibility is at our core. We won’t compromise on delivering you an ethical, environmentally friendly and convenient service.</p>"@en ;
+    ns1:name "York Collective" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:sameAs <https://www.facebook.com/yorkcollective>,
+        <https://www.instagram.com/yorkcollective/> ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://york.coopcycle.org> .
+

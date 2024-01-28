@@ -1,0 +1,20 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://fast-and-curious.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "fr" ;
+                    ns1:addressLocality "Le Havre" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 4.949259e+01 ;
+                    ns1:longitude 1.065e-01 ] ] ;
+    ns1:description "Curiosity leads to gluttony!"@en,
+        "La curiosité mène à la gourmandise !"@fr ;
+    ns1:name "Fast and Curious" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:sameAs <https://www.facebook.com/Fast-and-curious-103028378475922> ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://fast-and-curious.coopcycle.org> .
+

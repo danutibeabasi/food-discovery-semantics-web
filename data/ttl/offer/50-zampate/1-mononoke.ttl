@@ -1,0 +1,333 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://zampate.coopcycle.org/api/restaurants/1> ns1:hasMenu <https://zampate.coopcycle.org/en/restaurant/1-mononoke#menu> .
+
+<https://zampate.coopcycle.org/en/restaurant/1-mononoke#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Fritz-spritz Melon y Miel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "200cl" ;
+                    ns1:name "Frixen Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Fritz-spritz Cereza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fritz-spritz Naranja" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Fritz-spritz Ruibarbo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fritz-spritz Cola Sin Azúcar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fritz-spritz Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ambar 0,0 Sin Gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bebida con gas sueca de sabor Pera con 4,5% de Alcohol. Muy refrescante , perfecta para tomar con hielo" ;
+                    ns1:image <https://zampate.coopcycle.org/media/cache/product_thumbnail/60/9e/609e8783d3e7e.jpeg> ;
+                    ns1:name "Sidra Kopparberg Pera 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bebida con gas de origen sueco sabor fresa y lima con 4,5%. Muy refrescante perfecta para beber con hielo." ;
+                    ns1:name "Sidra Kopparberg Fresa&Lima 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bebida con gas sueca de sabor Frutos Rojos con 5,3% de Alcohol. Muy refrescante , perfecta para tomar con hielo" ;
+                    ns1:name "Sidra Kopparberg Frutos Rojos  50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fritz-spritz Manzana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Grúa American IPA Sin Gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fritz-spritz Limon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lager" ;
+                    ns1:name "Virgen Sin Gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Bebidas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Pepperoni" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Calabacín, berenjena, cebolla, champiñones y salsa Romescu" ;
+                    ns1:name "Verduras" ;
+                    ns1:nutrition "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "con cebolla y pimientos" ;
+                    ns1:name "Bacon Y Queso De Cabra" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "con jamón serrano, champiñones, piparras y queso curado" ;
+                    ns1:name "Jamón Serrano" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "con cebolla, bacon y salsa barbacoa" ;
+                    ns1:name "Carne Picada “Sloppy”" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "con tomate cherry, cebolla morada, pimiento verde y queso curado de Mahón" ;
+                    ns1:name "Vegetariana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Anchoas, cebolla morada, olivas negras, tomate laminado y queso Cabrales" ;
+                    ns1:name "Anchoas" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jamón De York, Champiñones Y Bacon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "con cebolla, pimiento verde y tomate cherry" ;
+                    ns1:name "Trucha Salmonada" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "con cebolla morada, champiñón y pimiento verde" ;
+                    ns1:name "Olivas Negras" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Pimientos Y Jalapeño" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "salsa carbonara, cebolla, champiñón y bacon" ;
+                    ns1:name "Carbonara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Salchichas Y Bacon" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "con pimientos verdes, cebolla caramelizada, tomate cherry y salsa barbacoa" ;
+                    ns1:name "Queso De Cabra" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "con cebolla caramelizada, rúcula y Provolone" ;
+                    ns1:name "Jamón De Pato" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "con queso cheddar, cebolla y jalapeño" ;
+                    ns1:name "Chili De Carne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Panceta adobada, pimiento rojo asado, cebolla morada, salsa de Sriracha y queso curado" ;
+                    ns1:name "Space Warriors" ;
+                    ns1:nutrition "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "con cebolla y queso curado de Mahón" ;
+                    ns1:name "Ragout De Toro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "con cebolla caramelizada" ;
+                    ns1:name "Longaniza y Morcilla" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "4 Quesos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ] ;
+            ns1:name "Pizzas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Nachos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Con salsa BBQ casera y mahonesa de siracha." ;
+                    ns1:name "Bacanal de Salchichas" ;
+                    ns1:nutrition "Milk",
+                        "Mustard",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "Para Compartir" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Tarta Plátano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tarta De Queso Casera Con Mermelada De Fresa." ;
+                    ns1:nutrition "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Toblerone." ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Peanuts",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Caramelo, chocolate y arroz inflado" ;
+                    ns1:name "Tarta Daim" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Peanuts",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tiramisu Casero" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Postres" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "salsa carbonara, cebolla, champiñón,  bacon y pollo" ;
+                    ns1:name "Chicken Carbonara" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Atún, bacon, olivas negras y cebolla" ;
+                    ns1:name "Atún y Bacon" ;
+                    ns1:nutrition "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Panceta Italiana, cebolla caramelizada, sobrasada y auténtico queso Parmesano." ;
+                    ns1:name "Beast Panceta Italiana" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Atún, olivas negras, cebolla y champiñón." ;
+                    ns1:name "Clásica Atún" ;
+                    ns1:nutrition "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Cebolla caramelizada, rúcula, panceta curada, tomates cherrys, burratina y pesto rojo (piñones, albahaca y tomate seco)\r
+Puedes pedir: opción vegetariana) - Cambio de panceta por olivas negras.""" ;
+                    ns1:name "Burrata Roja \"Pizza Fest\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chistorra, p. verde, cebolla y queso azul" ;
+                    ns1:name "Chistorra" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "- OFERTA MEDIODÍA - 2 pizzas : 22€" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lascas de Toffu marinado en soja, cebolla morada, pimiento rojo con mayonesa de shricaha y mango (opción vegana)" ;
+                    ns1:name "Space Warrior Toffu" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Burrata, calabaza asada, champiñón,  queso de cabra, cebolla caramelo y mayonesa de curry" ;
+                    ns1:name "Burrata Sleepy Hollow" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 quesos, cebolla caramelizada y bacon ahumado." ;
+                    ns1:name "4 quesos Bacon" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Carne picada \"Sloopy\" con cebolla, bacon, pollo y salsa barbacoa" ;
+                    ns1:name "Super Sloppy" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "OFERTAS" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "con rúcula, cebolla caramelizada, cheddar y mayonesa de wasabi" ;
+                    ns1:name "Rabo de Toro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Vegano" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Panceta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "con rúcula, rábanos encurtidos, cebolla y queso cheddar con jalapeño" ;
+                    ns1:name "T. Chilli con Carne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "con rúcula, pico de gallo, rábanos encurtidos, cebolla morada y mayonesa siracha" ;
+                    ns1:name "Pibil" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Tacos" ] .
+

@@ -1,0 +1,448 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://niort.coopcycle.org/api/restaurants/37> ns1:hasMenu <https://niort.coopcycle.org/en/restaurant/37-nuage-croquant#menu> .
+
+<https://niort.coopcycle.org/en/restaurant/37-nuage-croquant#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526ba955a208.jpeg> ;
+                    ns1:name "Côteaux du layon La Mirifique Domaine de la Guillaumerie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€27.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Domaine Thierry ARNAULT - 75cl" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526ba068bcb8.jpeg> ;
+                    ns1:name "Anjou blanc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Domaine Thierry ARNAULT - 75cl" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526ba248d9ba.jpeg> ;
+                    ns1:name "Anjou rosé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Domaine Thierry ARNAULT - 75cl" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526ba3e471c8.jpeg> ;
+                    ns1:name "Anjou rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526bca57f680.jpeg> ;
+                    ns1:name "Saumur Brut rosé Thierry Arnault" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526ba7721dcc.jpeg> ;
+                    ns1:name "Champagne Jamart Réserve Brut" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€39.00" ] ] ;
+            ns1:name "Notre sélection de vins" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/80/6580c7da51044.jpeg> ;
+                    ns1:name "Bûchette \"Mont Blanc\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/5e/655e17130c68a.jpeg> ;
+                    ns1:name "Tartelette façon cheesecake, confit et crémeux mangue passion, cheesecake Main de Bouddha, meringue baies roses" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/80/6580c88cbbb41.jpeg> ;
+                    ns1:name "Paris-Brest, crème pralinée à l'ancienne et caramel au beurre salé" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/80/6580c807030ae.jpeg> ;
+                    ns1:name "Bûchette \"Promenade en sous bois\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/80/6580c7b208774.jpeg> ;
+                    ns1:name "Bûchette \"Douceur noisette du Piémont\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526ac332f972.jpeg> ;
+                    ns1:name "Gourmandise végétale noix de coco et chocolat noir (vegan / végétarien)" ;
+                    ns1:nutrition "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526aaff44b74.jpeg> ;
+                    ns1:name "Illusion d'un citron, crémeux et marmelade citron, mousse Dulcey et macadamia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/80/6580c82ae3656.jpeg> ;
+                    ns1:name "Bûchette \"Subtile vanille\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526aa0da6d8a.jpeg> ;
+                    ns1:name "Baba au rhum brun, gelée exotique, kiwi et ganache montée vanille citron vert" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526aa8016d2c.jpeg> ;
+                    ns1:name "Brownie" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/80/6580c85ce79f9.jpeg> ;
+                    ns1:name "Forêt-noire, génoise cacao, mousse chocolat noir Manjari 64%, confit griotte, chantilly mascarpone vanille" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Notre offre sucrée" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526b01c2f194.jpeg> ;
+                    ns1:name "Tête de Mule blonde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Blonde 33cl" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/15/6515870e511ca.jpeg> ;
+                    ns1:name "Chamoise « Sauvage »" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sans alcool 33cl" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/15/6515851ba9149.jpeg> ;
+                    ns1:name "Chamoise « Abstinente »" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "IPA 33cl" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/15/651586e373a99.jpeg> ;
+                    ns1:name "Chamoise « Céleste »" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Blanche 33cl" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/15/6515859785105.jpeg> ;
+                    ns1:name "Chamoise « Agile »" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526aff79c321.jpeg> ;
+                    ns1:name "Tête de Mule ambrée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière d’hiver 33cl" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/5e/655e17e281978.jpeg> ;
+                    ns1:name "Chamoise « Chaleureuse »" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526b03aa1511.jpeg> ;
+                    ns1:name "Tête de Mule triple" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Nos bières artisanales" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/46/65465754c8cf9.jpeg> ;
+                    ns1:name "Crumble de merlu aux légumes de saison, sauce veloutée de fumet de poisson au curcuma" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/41/6541157e8d77f.jpeg> ;
+                    ns1:name "Méli mélo de falafels chauds, pois chiches et vinaigrette à la pulpe de betterave et thym de Neuville" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526ab80d81a9.jpeg> ;
+                    ns1:name "Croque Monsieur façon raclette, pommes de terre, fromage au lair cru et chiffonnade de jambon cru" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/65/6565fbc5c9621.jpeg> ;
+                    ns1:name "Quiche au saumon frais d'Islande et tombée d'épinards" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/65/6565fc4728678.jpeg> ;
+                    ns1:name "Œufs cocotte (Bio) et fregola sarda façon carbonara, crème de parmesan et lard fumé" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "Notre offre salée" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "La bullerie d'Oléron - 33cl" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/15/65158771ed3e8.jpeg> ;
+                    ns1:name "Cola artisanal" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Maison Meneau - 25cl" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526ad2466408.jpeg> ;
+                    ns1:name "Jus de fruit Bio Pomme" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Maison Meneau - 25cl" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526ac688da4a.jpeg> ;
+                    ns1:name "Jus de fruit Bio Abricot" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Maison Meneau - 25cl" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526ac929466f.jpeg> ;
+                    ns1:name "Jus de fruit Bio Ananas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La bullerie d'Oléron - 33cl" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526ad591c8fb.jpeg> ;
+                    ns1:name "Limonade artisanale Mojito" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La boissonnerie - 25cl" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526bc2d2148d.jpeg> ;
+                    ns1:name "Jus de fruit Bio Orange" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La bullerie d'Oléron - 33cl" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526adc5c59dd.jpeg> ;
+                    ns1:name "Limonade artisanale Pêche blanche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La boissonnerie - 25cl" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526bc72ef8b4.jpeg> ;
+                    ns1:name "Jus de fruit Bio Tomate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Maison Meneau - 25cl" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526acfd1997d.jpeg> ;
+                    ns1:name "Jus de fruit Bio Pamplemousse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526ba59ec34c.jpeg> ;
+                    ns1:name "Badoit" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La bullerie d'Oléron - 33cl" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526ad9e75697.jpeg> ;
+                    ns1:name "Limonade artisanale Nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "25cl" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526bab49060c.jpeg> ;
+                    ns1:name "Evian" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La bullerie d'Oléron - 33cl" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526b05d83a3c.jpeg> ;
+                    ns1:name "Thé froid artisanal à la pêche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Nos boissons artisanales" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Conserverie de l’Ile d’Yeu - 100g" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/15/6515403d2b7ac.jpeg> ;
+                    ns1:name "Tartinables - Maquereaux a la salicorne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Conserverie de l’Ile d’Yeu - 100g" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526af36114ca.jpeg> ;
+                    ns1:name "Tartinables - Moules au curry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "100% naturel - Esprit sous-bois - 100g" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/4a/654a1f2d30a57.jpeg> ;
+                    ns1:name "Pignons de cèdre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Conserverie de l’Ile d’Yeu - 100g" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/15/65153f5b09310.jpeg> ;
+                    ns1:name "Tartinables - Thonoïade aux olives noires" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Conserverie de l’Ile d’Yeu - 100g" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/15/65153cf84f1de.jpeg> ;
+                    ns1:name "Tartinables - Thon au basilic" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Girolles de France extra, ail des ours d'Auvergne et gnocchetti Sardes artisanaux - Esprit sous-bois - 160g" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/4a/654a1f04aaf3f.jpeg> ;
+                    ns1:name "Gnocchetti - Girolles et ail des ours" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "NEMROD - 100g" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/4a/654a1e78e9d79.jpeg> ;
+                    ns1:name "Cerf sauvage au morilles" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Caviar Baerii prestige et caviar osciètre" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/4a/654a2399a731a.jpeg> ;
+                    ns1:name "Coffret caviar - STURIA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€85.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "STURIA - 15g" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/4a/654a22a599c03.jpeg> ;
+                    ns1:name "Caviar Osciètre - 15g" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€33.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cèpes d'Auvergne extra et riz Carnaroli - Esprit sous-bois - 300g" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/4a/654a1f4a32a91.jpeg> ;
+                    ns1:name "Risotto aux cèpes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526b0852c439.jpeg> ;
+                    ns1:name "Toasts grillés 150g - Conserverie de l’Ile d’Yeu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mousserons d'Auvergne, citron de Sicile et riz Carnaroli - Esprit sous-bois - 300g" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/4a/654a1f6421b88.jpeg> ;
+                    ns1:name "Risotto citron - mousserons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sanglier sauvage - NEMROD - 380g" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/4a/654a1d422a330.jpeg> ;
+                    ns1:name "Bolognaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Conserverie de l’Ile d’Yeu - 100g" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526af58b1002.jpeg> ;
+                    ns1:name "Tartinables - Taponade de foie lotte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "NEMROD - 100g" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/4a/654a1e9bac15d.jpeg> ;
+                    ns1:name "Chevreuil sauvage - Figues & pain d'épices" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cerf sauvage - NEMROD - 380g" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/4a/654a1eb71865c.jpeg> ;
+                    ns1:name "Chili con carne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vegan - Esprit sous-bois - 20g" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/4a/654a1c6482f3c.jpeg> ;
+                    ns1:name "Ail des ours" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "STURIA - 90g" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/4a/654a1fd092495.jpeg> ;
+                    ns1:name "Tarama au caviar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526ae74e8531.jpeg> ;
+                    ns1:name "Sardines à l'huile d'olive millésimée - Conserverie de l’Ile d’Yeu 115 GR" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "STURIA - 30g" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/4a/654a1e47ba03b.jpeg> ;
+                    ns1:name "Caviar Baerii Prestige - 30g" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€95.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "NEMROD - 100g" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/4a/654a1f9b4ffa6.jpeg> ;
+                    ns1:name "Sanglier sauvage - Poires & liqueur de châtaignes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Esprit sous-bois - 314g" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/4a/654a1edd97f66.jpeg> ;
+                    ns1:name "Demi-cèpes bouchons extra (France)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "STURIA - 15g" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/4a/654a1e042d0b8.jpeg> ;
+                    ns1:name "Caviar Baerii Prestige - 15g" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€48.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "NEMROD - 100g" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/4a/654a1f832d33a.jpeg> ;
+                    ns1:name "Sanglier sauvage au Gewurztraminer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Conserverie de l’Ile d’Yeu - 100g" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/26/6526af0eec397.jpeg> ;
+                    ns1:name "Tartinables - Merlu au chorizo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "STURIA - 490g" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/65/4a/654a1fb3587f4.jpeg> ;
+                    ns1:name "Soupe d'esturgeon Osciètre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Nos produits d'épicerie" ] .
+

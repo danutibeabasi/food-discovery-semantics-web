@@ -1,0 +1,236 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://krokoop.coopcycle.org/api/restaurants/5> ns1:hasMenu <https://krokoop.coopcycle.org/en/restaurant/5-bar-joe#menu> .
+
+<https://krokoop.coopcycle.org/en/restaurant/5-bar-joe#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Sauce Onion Relish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "20 ml." ;
+                    ns1:name "Sauce Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "10 ml." ;
+                    ns1:name "2 Sticks Ketchup" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "7 ml." ;
+                    ns1:name "2 Sticks Barbecue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "10 ml." ;
+                    ns1:name "2 Sticks Mayonnaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "7 ml." ;
+                    ns1:name "2 Sticks Moutarde de Dijon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.10" ] ] ;
+            ns1:name "Sauces" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "filets de poulet panés , accompagnés de frites fraiches" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/86/6386c0a2385fd.jpeg> ;
+                    ns1:name "Nuggets n'chips" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bucket de poulet panés x 10" ;
+                    ns1:name "Chicken Bucket" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bucket de sticks mozzarella x10" ;
+                    ns1:name "Mozza Bucket" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Panier de frites fraiches" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/86/6386c0fe0290f.jpeg> ;
+                    ns1:name "Frites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nachos et sauce cheddar" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/86/6386be998447d.jpeg> ;
+                    ns1:name "Nachos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/86/6386bfb3e8b52.jpeg> ;
+                    ns1:name "Fish n'chips" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "Les Paniers" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/86/6386c16df410a.jpeg> ;
+                    ns1:name "Salade César Chicken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Salade César Mozza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Salades" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "25cl" ;
+                    ns1:name "RedBull" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Pepsi max" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Ice tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Perrier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50cl" ;
+                    ns1:name "Vittel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Pepsi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "7 up" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Steak haché 150grammes façon bouchère , chèvre , miel , bacon fumé ,salade et sauce burger. Servi avec frites" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/86/6386be0e3e818.jpeg> ;
+                    ns1:name "Burger Le Parisien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Steak haché 150grammes façon bouchère , cheddar , bacon fumé ,salade , sauce burger et moutarde yellow . Servi avec frites." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/86/6386bc493528e.jpeg> ;
+                    ns1:name "Burger Le Bar Joe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Burger of the Week" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Steak haché 150grammes façon bouchère , raclette , bacon fumé ,salade et sauce burger  . Servi avec frites." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/86/6386be4f6626c.jpeg> ;
+                    ns1:name "Burger Le Montagnard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "poulets panés , cheddar , salade , sauce curry . Servi avec frites." ;
+                    ns1:name "Burger Le Cricket" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Steak haché 150 grammes façon bouchère, Fourme d'Ambert, Oignons caramélisés au vin rouge, Salade et Sauce Burger. \r
+Servi avec frites.""" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/86/6386bdcb3bb57.jpeg> ;
+                    ns1:name "Burger Le Robert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Burgers" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/c9/63c971aa07750.jpeg> ;
+                    ns1:name "Ben & Jerry's Cookie Doughy" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/c9/63c9725fc28e4.jpeg> ;
+                    ns1:name "Ben & Jerry's Caramel Chew Chew" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/c9/63c971e51f1f1.jpeg> ;
+                    ns1:name "Ben & Jerry's Chocolat Fudge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Crèmes glacées Ben & Jerry's" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "75cl" ;
+                    ns1:name "Blanc Viogner/Sauvignon-Saint Dezery" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Cubanisto" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Bud" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75cl" ;
+                    ns1:name "Rosé-Cinsault-Saint Dézéry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Desperados" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "75cl" ;
+                    ns1:name "Blanc Moelleux Chateau Valcombe Folle et douce" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Corona" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Bières & vins" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/86/6386c23095d0e.jpeg> ;
+                    ns1:name "Brownie au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Cookie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Desserts" ] .
+

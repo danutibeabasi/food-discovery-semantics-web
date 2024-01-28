@@ -1,0 +1,291 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://kooglof.coopcycle.org/api/restaurants/64> ns1:hasMenu <https://kooglof.coopcycle.org/en/restaurant/64-dubble-food#menu> .
+
+<https://kooglof.coopcycle.org/en/restaurant/64-dubble-food#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Lemonaid citron vert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Dubble drink Gimber 25cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fantasma: tisane bio fraîche ayurvédique gingembre, cardamome" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/0f/650f3f4068af1.jpeg> ;
+                    ns1:name "Drink Detox Chic des Plantes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Vaivai" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Aloe Vera" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Vittel 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/0f/650f3edabe3c2.jpeg> ;
+                    ns1:name "Drink Sobacha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 jus mix de fruits" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/0f/650f43ce032ec.jpeg> ;
+                    ns1:name "Jus mix 25cl 🌱 vegan du jour" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/1c/641cb70c55b78.jpeg> ;
+                    ns1:name "Citronnade maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Charitea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "San Pellegrino 50cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/0f/650f2edd7d077.jpeg> ;
+                    ns1:name "Jus d'orange 25cl 🌱 vegan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Jus & Boissons 🧃" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "saumon, avocat, concombre, oignons rouges, riz, sésame noir" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/1b/641b555da5d46.jpeg> ;
+                    ns1:name "Poke Bowl Classique Saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/1c/641cbf1d11b30.jpeg> ;
+                    ns1:name "Mini poke bowl classique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ] ;
+            ns1:name "Poke Bowls  🌺" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tartare de saumon à la japonaise, chou chinois, cebette." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/0f/650f418785a9d.jpeg> ;
+                    ns1:name "Petite salade tartare" ;
+                    ns1:nutrition "Fish",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lentilles aux herbes fraîches, grenade" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/0f/650f412fe83be.jpeg> ;
+                    ns1:name "Petite salade lentilles" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet à l’estragon, sucrine" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/0f/650f415cefa1d.jpeg> ;
+                    ns1:name "Petite salade poulet" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Carotte râpées au citron vert et coriandre" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/0f/650f40fe24d89.jpeg> ;
+                    ns1:name "Petite salade carotte" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ] ;
+            ns1:name "Dubble+ 👌" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/96/6596e7dcab0ce.jpeg> ;
+                    ns1:name "Salad Bowls Asia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/0f/650f3384dc9e8.jpeg> ;
+                    ns1:name "Salad Bowl XL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/96/6596e9079fcbe.jpeg> ;
+                    ns1:name "Salad Bowl riz et épeautre 🥦 végétarien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/0f/650f3692b339d.jpeg> ;
+                    ns1:name "Salade Bowl Nordic" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/0f/650f378ece2cb.jpeg> ;
+                    ns1:name "Salad Bowl Légumineuses" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.70" ] ] ;
+            ns1:name "Salad Bowls 🥗" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/0f/650f3c09250fe.jpeg> ;
+                    ns1:name "Cookie signature choco noisette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/0f/650f3892923d4.jpeg> ;
+                    ns1:name "Cookies maison du jour" ;
+                    ns1:nutrition "Eggs",
+                        "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/0f/650f3ba8603da.jpeg> ;
+                    ns1:name "Cookie signature pomme" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Yaourt grec à la banane, purée d’acaï, pollen d’abeille, baie de goji" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/0f/650f3cfe468f9.jpeg> ;
+                    ns1:name "Beauty bowl" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "yaourt grec, granola maison" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/1c/641cbb15ca354.jpeg> ;
+                    ns1:name "Yaourt grec, granola maison 🥦 végétarien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/97/65971812819a7.jpeg> ;
+                    ns1:name "Skyr et poires pochées" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/1c/641cbe3f5a361.jpeg> ;
+                    ns1:name "Le Superfood Dessert Dubble 🥦 végétarien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Porridge banane et sirop de dattes" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/97/659718c054aae.jpeg> ;
+                    ns1:name "Porridge banane 🌱 vegan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Yaourt grec, marmelade d’orange, Sarrazin caramélisé" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/97/6597174072129.jpeg> ;
+                    ns1:name "Yaourt grec et marmelade d’orange" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/0f/650f318016399.jpeg> ;
+                    ns1:name "Salade de fruits de saison🌱vegan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/0f/650f3b2bdad8c.jpeg> ;
+                    ns1:name "Cookie signature choco cranberry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/62/61/62616386a0178.jpeg> ;
+                    ns1:name "Crumble maison du jour" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/0f/650f3b6b73c3f.jpeg> ;
+                    ns1:name "Cookie signature choco Kasha" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/0f/650f3bd4c31da.jpeg> ;
+                    ns1:name "Cookie signature sesame" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Gâteau maison du jour" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Desserts & Superfood 🍪🥝🍰" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Pour toute commande passée avant 10h30, livraison avant 12h ! Vous avez votre pause dej plus tard ? D'autres créneaux sont également disponibles 🚴
+\r
+Produit informatif*""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/39/6339b5a199819.jpeg> ;
+                    ns1:name "Précommandes ⏳" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """➡️ Chez vous ou au bureau ! Livraison à partir de 2,90 euros 🎉
+\r
+*Produit informatif""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/39/6339b5c28bd7d.jpeg> ;
+                    ns1:name "Offres 🏷️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Avec Kooglof au Bureau, les produits sont livrés froids et/ou conditionnés pour une remise en température ⚠️" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/63/59/635906239c299.jpeg> ;
+                    ns1:name "Livraison 🚴‍♂️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ] ;
+            ns1:name "Fonctionnement 🚴" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "jambon, beurre, emmental" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/62/61/62616451394a6.jpeg> ;
+                    ns1:name "Toasté Signature Ham & Cheese" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chaque jour une recette différente de wrap toasté! Contactez votre restaurant pour en savoir plus." ;
+                    ns1:name "Wrap Toasté du jour" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Purée d’avocat au citron vert et piment, avocat et sésame noir" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/0f/650f42998e168.jpeg> ;
+                    ns1:name "Lovavocado" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "Wraps  et toastés 🌯🍱" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "soupe du jour" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/65/0f/650f34e02c10e.jpeg> ;
+                    ns1:name "Soupe du jour 🌱 vegan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ] ;
+            ns1:name "Soupes & Gaspacho 🧡" ] .
+

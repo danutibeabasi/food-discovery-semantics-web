@@ -1,0 +1,49 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://naofood.coopcycle.org/api/restaurants/96> a ns1:Restaurant ;
+    ns1:address <https://naofood.coopcycle.org/api/addresses/65819> ;
+    ns1:bannerImage "https://naofood.coopcycle.org/media/cache/restaurant_banner/65/36/6536745f2cf87.jpg" ;
+    ns1:description "2ème Tiktak, Gare Nord : 26 Bd de Stalingrad, 44000 Nantes" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.72157e+01 ;
+            ns1:longitude -1.55545e+00 ] ;
+    ns1:image <https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/65/36/6536745f2cf87.jpg> ;
+    ns1:name "TIKTAK" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:45" ;
+            ns1:dayOfWeek "Monday",
+                "Sunday",
+                "Thursday",
+                "Wednesday" ;
+            ns1:opens "18:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:45" ;
+            ns1:dayOfWeek "Monday",
+                "Thursday",
+                "Wednesday" ;
+            ns1:opens "12:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday" ;
+            ns1:opens "12:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday" ;
+            ns1:opens "18:30" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://naofood.coopcycle.org/en/restaurant/96-tiktak" ] ] ;
+    ns1:sameAs <https://naofood.coopcycle.org/en/restaurant/96-tiktak> ;
+    ns1:url <https://naofood.coopcycle.org/en/restaurant/96-tiktak> .
+
+<https://naofood.coopcycle.org/api/addresses/65819> a ns1:PostalAddress ;
+    ns1:name "TIKTAK" ;
+    ns1:streetAddress "9 Rue des Halles, 44000 Nantes" ;
+    ns1:telephone "+33255098984" .
+

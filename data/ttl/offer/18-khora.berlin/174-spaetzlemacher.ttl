@@ -1,0 +1,393 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://khora.berlin/en/restaurant/174-spaetzlemacher> ns1:hasMenu <https://khora.berlin/en/restaurant/174-spaetzlemacher#menu> .
+
+<https://khora.berlin/en/restaurant/174-spaetzlemacher#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "150ml" ;
+                    ns1:name "Florida Eis - Mandelkrokant" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Florida Eis - Spekulatius" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Florida Eis Familienbecher - Mandelkrokant" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "500ml" ;
+                    ns1:name "Florida Eis Familienbecher - Mango (Vegan)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "500ml" ;
+                    ns1:name "Florida Eis Familenbecher - Pistazie" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "150ml" ;
+                    ns1:name "Florida Eis - Cookie" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "500ml" ;
+                    ns1:name "Florida Eis Familienbecher - Waldmeister (Vegan)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "500ml" ;
+                    ns1:name "Florida Eis Familienbecher - Cherry Chocolate Chip" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "500ml" ;
+                    ns1:name "Florida Eis Familienbecher - Cookie" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "500ml" ;
+                    ns1:name "Florida Eis Familienbecher - Erdnuss Toffee" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "150ml" ;
+                    ns1:name "Florida Eis - Vanille & Caramel" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "500ml" ;
+                    ns1:name "Florida Eis Familienbecher - Haselnuss" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "150ml" ;
+                    ns1:name "Florida Eis - Vanille & Haselnuss" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Florida Eis Familienbecher - Erdbeere (Vegan)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "500ml" ;
+                    ns1:name "Florida Eis Familienbecher - Banan Milkcream" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "500ml" ;
+                    ns1:name "Florida Eis Familienbecher - Chocolate" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Florida Eis Himbeere & Zitrone (Vegan)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "150ml" ;
+                    ns1:name "Floria Eis - Vanille & Erdbeere" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "150ml" ;
+                    ns1:name "Florida Eis - Vanille & Heidelbeere" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "150ml" ;
+                    ns1:name "Florida Eis - Vanille & Chocolate" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "500ml" ;
+                    ns1:name "Florida Eis Familienbecher - Vanille" ;
+                    ns1:nutrition "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Zuckerschnee" ;
+                    ns1:name "Schokobrownie" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "500ml" ;
+                    ns1:name "Florida Eis Familienbecher - Stracciatella" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "Desserts & Eis" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "mit fruchtig-scharfem Sauerkraut, gebackenem Speck, Crème Fraìche und Chili" ;
+                    ns1:name "Kraut-Spätzle" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Röstzwiebeln, Kirschtomaten, gehackter Petersilie und würzigem Emmentaler" ;
+                    ns1:name "Käse-Spätzle" ;
+                    ns1:nutrition "Eggs",
+                        "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit rotem Linseneintopf, Mangowürfeln, Petersilie, Chili und Mandeln" ;
+                    ns1:name "Grüne Kräuter-Spätzle" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mit Buttterschmelze und Parmesan" ;
+                    ns1:name "Kinder-Spätzle" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit klassischen Spätzle, Paprika, Petersilie, Mandeln, Chili und Crème Fraìche" ;
+                    ns1:name "Zimt-Gulasch" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Soybeans",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.60" ] ] ;
+            ns1:name "Spätzlevariationen" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "0,75l" ;
+                    ns1:name "Weißwein (I Muri Apulien)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Rothaus Hefeweizen" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lübzer Naturradler" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Hausgemachter Glühwein 1,0l" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "Tannezäpfle Bier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,75l" ;
+                    ns1:name "Rotwein (I Muri Primitivo Apulien)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.80" ] ] ;
+            ns1:name "Getränke Alkoholisch" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "Fritz Spritz Bio Traubenschorle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fritz Kola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "Fritz Kola ohne Zucker" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "Tannzäpfle Bier Alkoholfrei" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "Fritz Limo Apfel-Kirsch-Holunder" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "Fritz Spritz Bio Rhababerschorle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "Fritz Limo Zitrone" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "Fritz Spritz Bio Apfelschorle" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "0,33l" ;
+                    ns1:name "Fritz Limo Orange" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ] ;
+            ns1:name "Getränke Alkoholfrei" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "mit Crème fraîche, Parmesan & Kartoffelsalat" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/0a/610a87b57182c.jpeg> ;
+                    ns1:name "Klassisch schwäbische Maultaschen" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Knoblauch-Sauce, Röstzwiebeln & Kartoffelsalat" ;
+                    ns1:name "Vegane Maultaschen" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.20" ] ] ;
+            ns1:name "Maultaschen" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Quiche Spinat-Gorgonzola & Walnuss" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit Kerbelcroûtons" ;
+                    ns1:name "Bunter Mischsalat (VEGAN)" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bunter Mischsalat mit hausgemachtem Dressing" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/0a/610a88bc70e81.jpeg> ;
+                    ns1:name "Großer Salat mit veganen Maultaschen & Mandeln (Vegan)" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bunter Mischsalat mit hasugemachtem Dressing" ;
+                    ns1:name "Großer Salat mit Schafskäse, Oliven & Peperoni" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Quiche Lorraine & Creme fraiche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bunter Mischsalat mit hausgemachtem Dressing" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/0a/610a88961d1ce.jpeg> ;
+                    ns1:name "Großer Salat mit Maultaschen & Parmesan" ;
+                    ns1:nutrition "Celery",
+                        "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit frischer Petersilie" ;
+                    ns1:name "Schwäbischer Kartoffelsalat" ;
+                    ns1:nutrition "Celery",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit frischer Petersilie" ;
+                    ns1:name "Rote Linsensuppe" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit frischer Petersilie" ;
+                    ns1:name "Karotten-Orangen-Suppe (vegan)" ;
+                    ns1:nutrition "Celery",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Kartoffelcremesuppe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "mit geplatzten Tomaten und Petersilie" ;
+                    ns1:image <https://khora.berlin/media/cache/product_thumbnail/61/0a/610a8845c9af4.jpeg> ;
+                    ns1:name "Gemüsebouillon" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ] ;
+            ns1:name "Suppen & Salate" ] .
+

@@ -1,0 +1,31 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lescoursiersnanceiens.coopcycle.org/api/restaurants/37> a ns1:Restaurant ;
+    ns1:address <https://lescoursiersnanceiens.coopcycle.org/api/addresses/1231> ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.86923e+01 ;
+            ns1:longitude 6.18147e+00 ] ;
+    ns1:image <https://lescoursiersnanceiens.coopcycle.org/media/cache/restaurant_thumbnail/61/e8/61e8147156713.jpeg> ;
+    ns1:name "Sèves" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "18:00" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "09:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://lescoursiersnanceiens.coopcycle.org/en/restaurant/37-seves" ] ] ;
+    ns1:sameAs <https://lescoursiersnanceiens.coopcycle.org/en/restaurant/37-seves> ;
+    ns1:url <https://lescoursiersnanceiens.coopcycle.org/en/restaurant/37-seves> .
+
+<https://lescoursiersnanceiens.coopcycle.org/api/addresses/1231> a ns1:PostalAddress ;
+    ns1:name "Sèves" ;
+    ns1:streetAddress "5 Rue Saint-Dizier, 54000 Nancy, France" ;
+    ns1:telephone "+33767473731" .
+

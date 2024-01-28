@@ -1,0 +1,49 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/47> a ns1:Restaurant ;
+    ns1:address <https://eramangasteiz.coopcycle.org/api/addresses/58395> ;
+    ns1:bannerImage "https://eramangasteiz.coopcycle.org/media/cache/restaurant_banner/65/6d/656dc032c1f83479495201.jpg" ;
+    ns1:description """# Te sentirás como en Perú\r
+*Expertos en cocina tradicional peruana*""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.285836e+01 ;
+            ns1:longitude -2.673891e+00 ] ;
+    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/restaurant_thumbnail/61/61/6161637f6459c.jpg> ;
+    ns1:name "Quinoa" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "16:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday" ;
+            ns1:opens "12:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "16:00" ;
+            ns1:dayOfWeek "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "12:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:45" ;
+            ns1:dayOfWeek "Thursday",
+                "Wednesday" ;
+            ns1:opens "19:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "23:45" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday" ;
+            ns1:opens "19:35" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "es" ;
+                    ns1:urlTemplate "https://eramangasteiz.coopcycle.org/en/restaurant/47-quinoa" ] ] ;
+    ns1:sameAs <https://eramangasteiz.coopcycle.org/en/restaurant/47-quinoa> ;
+    ns1:url <https://eramangasteiz.coopcycle.org/en/restaurant/47-quinoa> .
+
+<https://eramangasteiz.coopcycle.org/api/addresses/58395> a ns1:PostalAddress ;
+    ns1:name "Quinoa" ;
+    ns1:streetAddress "Arriagako Atea Kalea, 41, 01012 Gasteiz, Araba, Spain" ;
+    ns1:telephone "+34945316528" .
+

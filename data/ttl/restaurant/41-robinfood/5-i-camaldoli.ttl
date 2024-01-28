@@ -1,0 +1,42 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://robinfood.coopcycle.org/api/restaurants/5> a ns1:Restaurant ;
+    ns1:address <https://robinfood.coopcycle.org/api/addresses/19> ;
+    ns1:description "_**Pizzeria con farine del Molino Grifoni.**_" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.37763e+01 ;
+            ns1:longitude 1.12541e+01 ] ;
+    ns1:image <https://robinfood.coopcycle.org/media/cache/restaurant_thumbnail/61/88/6188046e2f6e3.jpg> ;
+    ns1:name "I Camaldoli" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "12:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:50" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "it" ;
+                    ns1:urlTemplate "https://robinfood.coopcycle.org/en/restaurant/5-i-camaldoli" ] ] ;
+    ns1:sameAs <https://robinfood.coopcycle.org/en/restaurant/5-i-camaldoli> ;
+    ns1:url <https://robinfood.coopcycle.org/en/restaurant/5-i-camaldoli> .
+
+<https://robinfood.coopcycle.org/api/addresses/19> a ns1:PostalAddress ;
+    ns1:name "I Camaldoli" ;
+    ns1:streetAddress "Piazza del Mercato Centrale 14 R, 50123 Firenze, Italia" ;
+    ns1:telephone "+39055268407" .
+

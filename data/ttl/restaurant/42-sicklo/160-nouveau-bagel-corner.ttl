@@ -1,0 +1,44 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://sicklo.coopcycle.org/api/restaurants/160> a ns1:Restaurant ;
+    ns1:address <https://sicklo.coopcycle.org/api/addresses/95981> ;
+    ns1:bannerImage "https://sicklo.coopcycle.org/media/cache/restaurant_banner/65/73/657327dc566d1.jpg" ;
+    ns1:description "Bagel Corner est la première enseigne à introduire en France le bagel de qualité et plus récemment le donut en adoptant une démarche éco-responsable." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.519155e+01 ;
+            ns1:longitude 5.72767e+00 ] ;
+    ns1:image <https://sicklo.coopcycle.org/media/cache/restaurant_thumbnail/65/79/6579db3bbcd8f.jpg> ;
+    ns1:name "NOUVEAU 🔥 BAGEL CORNER 🥯" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:50" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:50" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:50" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:10" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://sicklo.coopcycle.org/en/restaurant/160-nouveau-bagel-corner" ] ] ;
+    ns1:sameAs <https://sicklo.coopcycle.org/en/restaurant/160-nouveau-bagel-corner> ;
+    ns1:url <https://sicklo.coopcycle.org/en/restaurant/160-nouveau-bagel-corner> .
+
+<https://sicklo.coopcycle.org/api/addresses/95981> a ns1:PostalAddress ;
+    ns1:name "NOUVEAU 🔥 BAGEL CORNER 🥯" ;
+    ns1:streetAddress "4 Pl. Grenette, 38000 Grenoble, France" ;
+    ns1:telephone "+33650136641" .
+

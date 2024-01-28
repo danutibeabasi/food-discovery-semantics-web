@@ -1,0 +1,284 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lescoliporteursnz.coopcycle.org/api/restaurants/2> ns1:hasMenu <https://lescoliporteursnz.coopcycle.org/en/restaurant/2-brasserie-bouyer#menu> .
+
+<https://lescoliporteursnz.coopcycle.org/en/restaurant/2-brasserie-bouyer#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bière de type ambrée forte ayant été élevée plusieurs mois en barrique de Nuit St Georges, célèbre vin Rouge 100% Pinot Noir" ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/1c/621c9d8f1b3c6.jpeg> ;
+                    ns1:name "St Georges 75cL" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière Imperial Stout Cacao ayant été élevée plusieurs mois en barrique de bourbon." ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/1c/621c9c96f30dc.jpeg> ;
+                    ns1:name "Ma Reine barrique 75cL" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière blonde fermentation mixte ayant été élevée plusieurs en barrique de Rhum Agricole de Martinique" ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/1c/621c9bc05204c.jpeg> ;
+                    ns1:name "L'indicible 75cL" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière de type ambrée forte  ayant été élevée plusieurs mois en barrique de Nuit St Georges, célèbre vin Rouge 100% Pinot Noir\r
+Fermentation Mixte, bière sauvage.""" ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/1c/621c9e3f968ff.jpeg> ;
+                    ns1:name "Le Dragon 75cL" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière blonde fermentation mixte aynt été élevée plusieurs en barrique de Rhum Agricole de Martinique" ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/1c/621c9b5820496.jpeg> ;
+                    ns1:name "L'indicible 33cL" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière de type ambrée forte  ayant été élevée plusieurs mois en barrique de Nuit St Georges, célèbre vin Rouge 100% Pinot Noir\r
+Fermentation Mixte, bière sauvage.""" ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/1c/621c9decc26ed.jpeg> ;
+                    ns1:name "Le Dragon 33cL" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière de type ambrée forte ayant été élevée plusieurs mois en barrique de Nuit St Georges, célèbre vin Rouge 100% Pinot Noir" ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/1c/621c9d3ce8452.jpeg> ;
+                    ns1:name "St Georges 33cL" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière Imperial Stout Cacao ayant été élevée plusieurs mois en barrique de bourbon." ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/1c/621c9c4338adc.jpeg> ;
+                    ns1:name "Ma Reine barrique 33cL" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ] ;
+            ns1:name "Vieillies en barrique" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bière bio blonde triple au goût fruité, ronde en bouche et à l'amertume fine. La Baignoire Sabot trouve toute sa place aussi bien en apéritif qu'en rafraichissement estival." ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/17/621746a3dab81.jpeg> ;
+                    ns1:name "Baignoire Sabot 75cl" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière blonde au blé noir. Orge, sarrasin et houblons bretons !\r
+Très faible teneur en gluten\r
+Alcool 5%vol""" ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/17/62174715c7674.jpeg> ;
+                    ns1:name "Bigouden 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Brown Ale, ambrée, bio, saveur caramélisée, toastée, boisée et avec des notes de fumé.. Léger vieillissement sur copeaux de chêne en cuve de fermentation. \r
+Alcool 6%vol""" ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/17/6217a6a3e8f96.jpeg> ;
+                    ns1:name "Lueur 33cL" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière bio blonde façon saison, houblonnée, aux saveurs légèrement florales et épicées, fin de bouche sèche persistante.\r
+Alcool 4.5%vol""" ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/17/6217a61f37b10.jpeg> ;
+                    ns1:name "La petite Baignoire dans la Prairie 33cL" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Brown Ale, ambrée, bio, saveur caramélisée, toastée, boisée et avec des notes de fumé.. Léger vieillissement sur copeaux de chêne en cuve de fermentation.\r
+Alcool 6%vol""" ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/17/6217a6e06424d.jpeg> ;
+                    ns1:name "Lueur 75cl" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière bio blonde triple au goût fruité, ronde en bouche et à l'amertume fine. La Baignoire Sabot trouve toute sa place aussi bien en apéritif qu'en rafraichissement estival. \r
+Alcool 7,5%vol""" ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/14/6214ef5a78cec.jpeg> ;
+                    ns1:name "Baignoire Sabot 33cL" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière bio blonde façon saison, houblonnée, aux saveurs légèrement florales et épicées, fin de bouche sèche persistante.\r
+Alcool 4.5%vol""" ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/17/6217a6510ecaf.jpeg> ;
+                    ns1:name "La petite Baignoire dans la Prairie 75cl" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière blanche aux saveurs douces, fruités et touches citronnée.\r
+Alcool 3.5%vol""" ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/17/62175131bf0f9.jpeg> ;
+                    ns1:name "DoreZ 75cL" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière blanche aux saveurs douces, fruités et touches citronnée.\r
+Alcool 3.5%vol""" ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/61/fb/61fbdbe574c4d.jpeg> ;
+                    ns1:name "DoreZ 33cL" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière blonde Pale Ale, bière passe partout, équilibre entre malt et houblon!\r
+Alcool 4,5%vol""" ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/17/6217a969ced6b.jpeg> ;
+                    ns1:name "Tad Kozh 75cl" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière blonde Pale Ale, bière passe partout, équilibre entre malt et houblon!\r
+Alcool 4,5%vol""" ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/17/6217a93d65472.jpeg> ;
+                    ns1:name "Tad Kozh 33cL" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière blonde au blé noir. Orge, sarrasin et houblons bretons !\r
+Très faible teneur en Gluten""" ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/17/621746fd0ac55.jpeg> ;
+                    ns1:name "Bigouden 33cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.70" ] ] ;
+            ns1:name "Les Classiques" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Produit à ajouter pour chaque retour de bouteille 75cL" ;
+                    ns1:name "Retour Consigne 75cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "-€0.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Produit à ajouter pour tout retour de bouteilles 33cL" ;
+                    ns1:name "Retour Consigne 33cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "-€0.10" ] ] ;
+            ns1:name "Retour Consigne" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Bière de style Russian Imperial STOUT au Cacao. Le grué de cacao d'équateur torréfié par L'atelier, Chocolaterie Artisanale de St-Nazaire vient apporter de la gourmandise à cette puissance maltée, torréfiée et fumée.\r
+Alcool 9,7%vol""" ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/17/6217a7446424e.jpeg> ;
+                    ns1:name "Ma Reine 33cL" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière artisanale enrichie en framboises bio et mûres bio pendant la fermentation afin d'apporter une belle saveur fruitée qui s'associe parfaitement à l'acidité de la fermentation lactique sur le moût (sour kettle).\r
+Alcool: 4,5%Vol""" ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/17/6217a84bf28b2.jpeg> ;
+                    ns1:name "Pléiade Framboise Mure 75cl" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière de style STOUT, subtilement enrichie au whisky bio breton !\r
+Alcool 7,8%vol""" ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/17/621751c5c8d6e.jpeg> ;
+                    ns1:name "Eklipso 33cL" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière brune agrémentée de pralin d'amande et de cerises\r
+6%vol""" ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/1c/621c9a4d85b95.jpeg> ;
+                    ns1:name "Tout n'est pas si noir 33cL" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière de style STOUT, subtilement enrichie au whisky bio breton !\r
+Alcool 7,8%vol""" ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/17/6217525796e4c.jpeg> ;
+                    ns1:name "Eklipso 75cl" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Ma Reine 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière blonde type Session IPA. Les houblons bio Citra et mozaïc, nobles variétés américaine, subliment la douceur des flocons d'avoine avec une belle saveur de fruits tropicaux.\r
+Alcool 4,5%vol""" ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/17/6217a8c3f20dc.jpeg> ;
+                    ns1:name "Sammyyyy! 75cl" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière blonde, corps céréalier doux sur l'avoine, notes agrumées, presque sans alcool. \r
+Alcool <1,2%vol""" ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/17/62174a7c28cbc.jpeg> ;
+                    ns1:name "Capsule Jaune 75cl" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière blonde type Session IPA. Les houblons bio Citra et mozaïc, nobles variétés américaine, subliment la douceur des flocons d'avoine avec une belle saveur de fruits tropicaux.\r
+Alcool 4,5%vol""" ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/17/6217a886679f2.jpeg> ;
+                    ns1:name "Sammyyyy! 33cL" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière artisanale, enrichie en framboises bio et mûres bio pendant la fermentation afin d'apporter une belle saveur fruitée qui s'associe parfaitement à l'acidité de la fermentation lactique sur le moût (sour wort).\r
+Alcool: 4,5%Vol""" ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/17/6217a7f8e57c0.jpeg> ;
+                    ns1:name "Pléiade Framboise Mure 33cL" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière brune agrémentée de pralin d'amande et de cerises\r
+6%vol""" ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/1c/621c9ab3cfbf3.jpeg> ;
+                    ns1:name "Tout n'est pas si noir 75cL" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Bière blonde, corps céréalié doux sur l'avoine, notes agrumées, presque sans alcool. \r
+Alcool <1,2%vol""" ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/17/62174a5d842a3.jpeg> ;
+                    ns1:name "Capsule Jaune 33cL" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Les Spéciales" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Nébuleuse 75cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """La Nébuleuse est une boisson à la pétillance naturelle, très peu sucrée aux saveurs mentholées et citronnées. Rafraichissante, désaltérante et goûtue, laissez vous charmer par la nébuleuse...\r
+Façon Limonade artisanale\r
+Alcool <0,5%vol""" ;
+                    ns1:image <https://lescoliporteursnz.coopcycle.org/media/cache/product_thumbnail/62/17/6217a78361def.jpeg> ;
+                    ns1:name "Nébuleuse 33cL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ] ;
+            ns1:name "Limonade Maison" ] .
+

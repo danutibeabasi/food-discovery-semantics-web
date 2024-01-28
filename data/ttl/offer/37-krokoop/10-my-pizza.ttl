@@ -1,0 +1,584 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://krokoop.coopcycle.org/api/restaurants/10> ns1:hasMenu <https://krokoop.coopcycle.org/en/restaurant/10-my-pizza#menu> .
+
+<https://krokoop.coopcycle.org/en/restaurant/10-my-pizza#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Limonade Kiwi Banane" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Limonade Pêche Passion" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Limonade Mojito" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Limonade Violette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Limonade Fraise Litchi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Limonade Citron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Limonade Caramel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Limonade Bleu Occitanie Artisanale" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, jambon cuit, champignons, oeuf & mozzarella." ;
+                    ns1:name "Pizza Calzone Royale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, champignons, oignons rouges, reblochon, oeuf, mozzarella & lardons." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/d1/62d1f364244e1.jpeg> ;
+                    ns1:name "Pizza Calzone Tartiflette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ] ;
+            ns1:name "Pizzas calzones" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Poreitti" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Perroni Bière Italienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Heineken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Desperados" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Birra Moretti" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Bières" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella di buffala, poulet, basilic, tomates & huile d'olive." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/d1/62d1f7c32f8a9.jpeg> ;
+                    ns1:name "Panini Italien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Viande hachée, reblochon, mozzarella." ;
+                    ns1:name "Panini Savoie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/d1/62d1f6b494583.jpeg> ;
+                    ns1:name "Hotdog" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chèvre, miel, mozzarella." ;
+                    ns1:name "Panini Chèvre Miel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mozzarella di buffala, poulet, basilic, tomates & huile d'olive." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/d1/62d1f7e733a43.jpeg> ;
+                    ns1:name "Panini Saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Viande hachée, roquefort, mozzarella." ;
+                    ns1:name "Panini Viande Hachée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Filets de poulet, crème curry, mozzarella." ;
+                    ns1:name "Panini Indien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Hotdog Double" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/d1/62d1f6e50d900.jpeg> ;
+                    ns1:name "Hotdog My Pizza" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jambon cru, chèvre frais, huile d'olive & tomates." ;
+                    ns1:name "Panini Jambon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Roquefort, camembert & chèvre frais." ;
+                    ns1:name "Panini 3 fromages" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Paninis" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Fanta Orange" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola Zéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Orangina Sanguine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Oasis Tropical" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Oasis Pomme Poire" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Perrier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola Cherry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lipton Ice Tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Oasis Pomme Cassis Framboise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Badoit Pamplemousse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ] ;
+            ns1:name "Boissons 33cl" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/d1/62d1fcbc55c07.jpeg> ;
+                    ns1:name "Tarte au daim" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/d1/62d1fdfb51028.jpeg> ;
+                    ns1:name "Tiramisu Maison Spéculos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/d1/62d1fd592d326.jpeg> ;
+                    ns1:name "Tiramisu Maison KitKat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/d1/62d1fd7ec9b3c.jpeg> ;
+                    ns1:name "Tiramisu Maison M&M'S" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/d1/62d1fda943b03.jpeg> ;
+                    ns1:name "Tiramisu Maison Oréo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tiramisu Maison Boudoir Café" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/d1/62d1fd091133a.jpeg> ;
+                    ns1:name "Tiramisu Maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Filet de poulet, crème au curry et persil" ;
+                    ns1:name "India" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "bœuf haché, sauce tomate, oignon, céleri, carotte, huile d'olive, laurier et persil" ;
+                    ns1:name "Bolognaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Jambon cru ,pesto et parmessan" ;
+                    ns1:name "Genovese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lardon fumés,crème ,oignon, fond de veau et persil" ;
+                    ns1:name "Carbonara" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thon albacore, crevettes, sauce tomate, oignon et persil" ;
+                    ns1:name "Neptune" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saumon fumé, crème, citron, ciboulette et basilic" ;
+                    ns1:name "Salmone" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ] ;
+            ns1:name "Pates fraiches" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """-Sauce Caesar maison (vinaigre de Xérès, jaune d'œuf, anchoix,  parmesan, crème)\r
+-Poulet pané maison\r
+-Salade mâche\r
+-Tomates cerises\r
+-Oignons rouges\r
+-Croûtons""" ;
+                    ns1:name "La My Caesar" ;
+                    ns1:nutrition "Eggs",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, saumon fumé, mozzarella, citron, origan & olives." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/ce/62ceb6d0b08f8.jpeg> ;
+                    ns1:name "Pizza Norvégienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, pommes de terre, Reblochon, oignons rouges, mozzarella, lardons, origan & olives." ;
+                    ns1:name "Pizza Savoyarde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, chèvre frais, mozzarella, miel, amandes effilées, origan & olives." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/ce/62ceb71e48a27.jpeg> ;
+                    ns1:name "Pizza Chèvre Miel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, oignons rouges, filets de poulet, poivrons, mozzarella, curry, origan & olives." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/ce/62ceb678b4d9a.jpeg> ;
+                    ns1:name "Pizza Indienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème, oignons rouges, lardons, brandade, mozzarella, origan & olives." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/ce/62ceb5f957ced.jpeg> ;
+                    ns1:name "Pizza Arena" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ] ;
+            ns1:name "Pizzas base crème" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Magret du sud ouest (400g environ)." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/d1/62d1f78b0a27e.jpeg> ;
+                    ns1:name "Magret" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Légumes du jour gratiné Fior Di Latté + 1 Viande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Légumes du jour gratiné Fior Di Latté" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Main de pate à pizza maison." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/d1/62d1f87874a5e.jpeg> ;
+                    ns1:name "Pain Accompagnement" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Demi camembert, jambon cru, miel." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/d1/62d1f83ca01d5.jpeg> ;
+                    ns1:name "Demi Camembert au Four" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "Viande / Extra" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/ce/62cea0a09e0e8.jpeg> ;
+                    ns1:name "Menu Solo Ben&Jerry's" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ] ;
+            ns1:name "Formule Ben&Jerry's" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salade verte, pélardon, lardons fumés, croutons, tomates cerises, oignons rouges confits." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/d1/62d1f487f2078.jpeg> ;
+                    ns1:name "Salade Cévénole" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade verte, artichauts, poivrons, oignons rouges, champignons & tomates cerises." ;
+                    ns1:name "Salade Végétarienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade verte, jambon cuit, champignons & tomates cerises." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/d1/62d1f53301955.jpeg> ;
+                    ns1:name "Salade Parisienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade verte, tomates cerises, saumon & crevettes." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/d1/62d1f502af24d.jpeg> ;
+                    ns1:name "Salade Océane" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade verte, camembert, roquefort, chèvre frais, tomates cerises & olives." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/d1/62d1f4d23237f.jpeg> ;
+                    ns1:name "Salade Fromage" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade verte, magret fumé, tomates cerises, pignons de pin, gorgonzola." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/d1/62d1f58cf340f.jpeg> ;
+                    ns1:name "Salade Sud Ouest" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade verte, jambon cru, billes de mozzarella, tomates cerises, copeaux de parmesan, pesto maison." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/d1/62d1f560e3fe7.jpeg> ;
+                    ns1:name "Salade Roma" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade verte, camembert, roquefort, chèvre frais, tomates cerises & olives." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/d1/62d1f42c6c478.jpeg> ;
+                    ns1:name "Salade Caesar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Salades" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, viande hachée, oignons rouges, roquefort, origan & olives." ;
+                    ns1:name "Pizza Aveyronnaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Doublé pate épaisse, sauce tomate, mozzarella di buffala, huile d'olive, basilic, olives." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/ce/62ceb44817a02.jpeg> ;
+                    ns1:name "Pizza Napolitana" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, oignons rouges, fruits de mer, citron, basilic, origan & olives." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/ce/62cea93e0d12b.jpeg> ;
+                    ns1:name "Pizza Océane" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Double pate épaisse, sauce tomate, mozzarella di buffala AOP, pignon de pin, roquette, Pesto maison, parmesan AOP, tomate semi séchée." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/ce/62cea12d9ecc2.jpeg> ;
+                    ns1:name "Pizza Due" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate maison, brandade de morue, mozzarella, tomate séchée." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/ce/62ceb4c41d09b.jpeg> ;
+                    ns1:name "Pizza Nîmoise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate maison, anchois, mozzarella, câpres, olives & origan." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/ce/62cea324054c5.jpeg> ;
+                    ns1:name "Pizza Sicilienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate maison, thon albacore, câpres, citron, basilic, mozzarella, origan & olives." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/ce/62ceac795fe5c.jpeg> ;
+                    ns1:name "Pizza Neptune" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, Mozzarella di bufala, jambon cru, tomates cerises, basilic, huile d'olive, origan & olives." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/ce/62ceb2a66a412.jpeg> ;
+                    ns1:name "Pizza Italienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, salade craquant italien, magret fumé, moozzarella di buffala, balsamique, miel, olives." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/ce/62ceb404a2e8b.jpeg> ;
+                    ns1:name "Pizza Périgourdine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, Reblochon, chèvre frais, Gorgonzola AOP, Camembert, Mozzarella origan & olives." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/ce/62ceb1c00303f.jpeg> ;
+                    ns1:name "Pizzas 5 Fromages" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate maison, oignons rouges, chorizo, oeuf, poivrons, Mozzarella, filet de poulet, origan & olives." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/ce/62ceb26dcdd1f.jpeg> ;
+                    ns1:name "Pizza Marco Polo" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate maison, jambon cuit, mozzarella, origan & olives." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/ce/62ceb4803c36d.jpeg> ;
+                    ns1:name "Pizza Jambon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, oignons rouges, brandade, chorizo, poivrons, mozzarella, origan & olives." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/ce/62ceb4f88c4c9.jpeg> ;
+                    ns1:name "Pizza Nemausus" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, viande hachée, oignons rouges, sauce barbecue, origan & olives." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/ce/62ceb3bcd182f.jpeg> ;
+                    ns1:name "Pizza Texane" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, oignons rouges, viande hachée, poivrons, mozzarella, poulet, origan & olives." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/ce/62ceb53424d91.jpeg> ;
+                    ns1:name "Pizza Orientale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, viande hachée, filet de poulet, merguez, mozzarella, oignons rouges, olives." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/ce/62ceb373518d7.jpeg> ;
+                    ns1:name "Pizza Carnivore" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Double pate épaisse, sauce tomate, mozzarella di buffala AOP, jambon de parme SD, roquette, parmesan AOP." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/ce/62ceb2fc896e7.jpeg> ;
+                    ns1:name "Pizza Tre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate maison, champignons de Paris, jambon cuit, Mozzarella, origan & olives." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/ce/62ceb22b5689c.jpeg> ;
+                    ns1:name "Pizza Reine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate, champignons, artichaut, oignons rouges, tomates cerises, courgettes, origan & olives." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/ce/62ceaa7c72f75.jpeg> ;
+                    ns1:name "Pizza Végétarienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce tomate maison, mozzarella, olives & origan." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/ce/62ceb33863002.jpeg> ;
+                    ns1:name "Pizza Margarita" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "Pizzas base tomate" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Crème glacée au beurre de cacahuète avec morceaux de pâte au beurre de cacahuète cacaotés." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/d1/62d1fb30b2443.jpeg> ;
+                    ns1:name "Ben&Jerry's Peanut Butter 100ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème glacée vanille avec morceaux de pâte de cookie aux pépites de chocolat et des inclusions cacaotées." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/d1/62d1fa89c902e.jpeg> ;
+                    ns1:name "Ben&Jerry's Cookie Dough 100ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème glacée vanille avec une sauce au caramel salé, des morceaux de pécan caramélisés et des morceaux de gâteau fondant." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/d1/62d1fb74eb090.jpeg> ;
+                    ns1:name "Ben&Jerry's Vanille Pecan Brittle 100ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème glacée au caramel à la sauce caramel avec des morceaux de caramel enrobés de cacao." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/d1/62d1f96ca611f.jpeg> ;
+                    ns1:name "Ben&Jerry's Caramel Chew Chew 100ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème glacée banane, pépites cacaotées & noix." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/d1/62d1fa05d67f4.jpeg> ;
+                    ns1:name "Ben&Jerry's Chunky Monkey 465ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème glacée au caramel, sauce caramel + morceaux de caramel enrobés de cacao." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/d1/62d1fae3ca6df.jpeg> ;
+                    ns1:name "Ben&Jerry's Netflix & Chill 465ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème glacée chocolat avec des morceaux de gâteau fondant au cacao maigre." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/62/d1/62d1f9a67d443.jpeg> ;
+                    ns1:name "Ben&Jerry's Chocolate Fudge Brownie 100ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Crèmes glacées Ben & Jerry's" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Vin rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Vin blanc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Vin rosé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "Vins" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Eau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1,25L" ;
+                    ns1:name "Coca-Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Oasis Tropical 2L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2L" ;
+                    ns1:name "Lipton Ice-Tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Boissons" ] .
+

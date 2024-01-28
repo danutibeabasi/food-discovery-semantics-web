@@ -1,0 +1,265 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://fast-and-curious.coopcycle.org/api/restaurants/8> ns1:hasMenu <https://fast-and-curious.coopcycle.org/en/restaurant/8-asian-kitchen#menu> .
+
+<https://fast-and-curious.coopcycle.org/en/restaurant/8-asian-kitchen#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Barquette de riz nature, plat au choix et bouteille d'eau 50cl." ;
+                    ns1:name "Menu enfant" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Menu enfant" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Sticky rice flan de coco Thai" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fruits frais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 pièces." ;
+                    ns1:name "Nems banane Nutella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ananas frais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Délicieuses brioches vietnamiennes à la vapeur farcies aux haricots rouges sucrés, 4 pièces." ;
+                    ns1:name "Banh bao sucré" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 pièce." ;
+                    ns1:name "Perle de coco maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gâteau de coco et sésame grillé." ;
+                    ns1:name "Fleur de lotus" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Plat du moment, selon l’humeur du chef." ;
+                    ns1:name "Spécial Fast and Curious" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ] ;
+            ns1:name "Spécial Fast and Curious" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Oasis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Canette de 33 cl." ;
+                    ns1:name "Pepsi Max" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Mogu litchy" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bouteille de 33 cl." ;
+                    ns1:name "Eau pétillante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Canette de 33 cl." ;
+                    ns1:name "7 Up mojito" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "May tea menthe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "May Tea peche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "7 Up cherry" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Canette de 33 cl." ;
+                    ns1:name "7 Up" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Mogu Mogu Melon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Canette de 33 cl." ;
+                    ns1:name "Ice tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bouteille de 50 cl." ;
+                    ns1:name "Eau minérale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Canette de 33 cl." ;
+                    ns1:name "Litchi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Canette de 33 cl." ;
+                    ns1:name "Boisson mangue" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Canette de 33cl." ;
+                    ns1:name "Pepsi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2,5" ;
+                    ns1:name "Jus de goyave" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Mogu Mogu cassis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jus aux fruits de la passion" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bière asiatique Tsin Tao ou équivalente, 33 cl." ;
+                    ns1:name "Bière Tsing Tao" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Riz sauté au poulet, basilic Thaï, oignons et oeuf." ;
+                    ns1:name "Khao pad kai" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Riz blanc parfumé aux sésames grillées" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nouilles de riz sauté au poulet, crevettes, carottes, oignons, soja et cacahuètes pilées." ;
+                    ns1:name "Pad Thaï royal" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulets, vermicelles de riz, salades verte, carottes râpées, soja, oignons, menthes, nems de poulet et cacahuètes pilées." ;
+                    ns1:name "Ga bun" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz blanc, bœuf au curry, nems, oignons, bambou, soja et cacahuètes pilées." ;
+                    ns1:name "Boeuf curry vietnamien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nouilles jaunes sautées au poulet, oignons, brocolis, choux chinois et champignons noirs." ;
+                    ns1:name "Mi xao" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz sauté à la sauce tomate, bœuf mariné, oignons et oeuf sur le plat." ;
+                    ns1:name "Boeuf loc lac" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz cuit à la fleure de Pea Butterfly d'où la couleur bleu du riz, accompagné de son poulet grillé façon thaï et sa sauce douce ou pimenté. A préciser lors de la commande." ;
+                    ns1:name "Kay Yang" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poisson blanc pané frit à notre façon et son riz thaï parfum avec sa sauce maison douce ou pimenté." ;
+                    ns1:name "Thai Fried Fish and Rice" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz blanc, trio de brochettes sauce coréenne, oignons, coco, piments, citronnelle et cacahuètes." ;
+                    ns1:name "Brochette de poulet sauce Asian Kitchen" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Riz nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Omelette vietnamienne aux poulets, oignons, vermicelles, champignons noirs" ;
+                    ns1:name "Omelettes Saïgonnaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bœuf mariné au curry, salade verte, vermicelles de riz et carottes râpée, nems, menthe, oignons, soja, cacahuètes pilées et sauce nuoc-man." ;
+                    ns1:name "Bo bun" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Poulet haché aux couteaux, sauté à la citronnelle, basilics thaï et son oeuf poché.\r
+Un délice venu tout droit des restaurants de rue Thaïlandais.""" ;
+                    ns1:name "Pad Ca Phao" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ] ;
+            ns1:name "Plats fait maison" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Ravioles de crevettes frits x3" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Papaye verte et carotte assaisonnement acidulé et légèrement pimenté. Une explosion de saveur..." ;
+                    ns1:name "Salade thaï" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Choux blanc et carottes marinées au sésame." ;
+                    ns1:name "Salade Vietnamienne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, haricot mango, carotte, omelette fine et crevettes." ;
+                    ns1:name "Rouleaux de printemps x2" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignets de poulet mariné, 3 pièces." ;
+                    ns1:name "Tempura poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Trio de brochettes Thai sauce sweet ou sweet épicé." ;
+                    ns1:name "Trio de brochettes de poulet Thai" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade composé d'émincés de salades, crevettes, carottes, germes de soja parsemé de cacahuètes pilés avec une vinaigrette maison." ;
+                    ns1:name "Salade Saigonnaise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 pièces." ;
+                    ns1:name "Nems poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignets de poisson mariné, 3 pièces." ;
+                    ns1:name "Tempura poisson" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brioche traditionnelle vietnamienne vapeur farcie à la viande et demi œuf." ;
+                    ns1:name "Banh bao" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ] ;
+            ns1:name "Entrées" ] .
+

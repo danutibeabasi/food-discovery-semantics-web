@@ -1,0 +1,173 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://niort.coopcycle.org/api/restaurants/23> ns1:hasMenu <https://niort.coopcycle.org/en/restaurant/23-pipermina#menu> .
+
+<https://niort.coopcycle.org/en/restaurant/23-pipermina#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bœuf à la basquaise, base riz (émincé de bœuf cuisiné, tomates, poivrons, oignons, piment d'Espelette)" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/dc/63dcf2b6896c3.jpeg> ;
+                    ns1:name "BŒUF À LA BASQUAISE - Small" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Axoa de veau, base riz (émincé de veau cuisiné, poivrons, oignons, piment d'Espelette)" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/dc/63dcf273d4929.jpeg> ;
+                    ns1:name "AXOA DE VEAU - Small" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poivrons del piquillo, base riz (poivrons del piquillo farcis à la morue, lait entier, oignons, tomates, huile d'olive, ail, sel, vin blanc, persil)" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/e3/63e384da3f982.jpeg> ;
+                    ns1:name "POIVRONS DEL PIQUILLO - Small" ;
+                    ns1:nutrition "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thon à la basquaise, base riz (thon, tomates, oignons, poivrons, piment d'Espelette, ail, huile d'olive, poivre, sel)" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/dc/63dcf3cdedbb4.jpeg> ;
+                    ns1:name "THON À LA BASQUAISE - Medium" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Axoa de bœuf, base riz (émincé de bœuf cuisiné, poivrons, oignons, piment d’Espelette, fromage de brebis)" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/dc/63dcf50e3537f.jpeg> ;
+                    ns1:name "AXOA DE BŒUF - Medium" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chili basque, base riz (émincé de veau, haricots rouges, poivrons verts, oignons, vin blanc, huile d’olive, poivron del piquillo, piment d’Espelette)" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/dc/63dcf31a2b451.jpeg> ;
+                    ns1:name "CHILI BASQUE - Medium" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Piperade veggie, base riz (piperade au piment d'Espelette, tomates, fromage de brebis)" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/dc/63dcf3a2db891.jpeg> ;
+                    ns1:name "PIPERADE VEGGIE - TAILLE UNIQUE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poivrons del piquillo, base riz (poivrons del piquillo farcis à la morue, lait entier, oignons, tomates, huile d'olive, ail, sel, vin blanc, persil)" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/e3/63e384b8530a4.jpeg> ;
+                    ns1:name "POIVRONS DEL PIQUILLO - Medium" ;
+                    ns1:nutrition "Fish",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Moules à la sauce basquaise, base riz (moules, tomates, huile d’olive, oignons, poivrons rouges, épices)" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/dc/63dcf3756824e.jpeg> ;
+                    ns1:name "MOULES SAUCE BASQUAISE - TAILLE UNIQUE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Calamars à la sauce basquaise, base riz (calamars, tomates, huile d’olive, oignons, poivrons rouges, épices)" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/dc/63dcf2e3f31c9.jpeg> ;
+                    ns1:name "CALAMARS SAUCE BASQUAISE - TAILLE UNIQUE" ;
+                    ns1:nutrition "Molluscs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chili basque, base riz (émincé de veau, haricots rouges, poivrons verts, oignons, vin blanc, huile d’olive, poivron del piquillo, piment d’Espelette)" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/dc/63dcf33a7be1d.jpeg> ;
+                    ns1:name "CHILI BASQUE - Small" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thon à la basquaise, base riz (thon, tomates, oignons, poivrons, piment d'Espelette, ail, huile d'olive, poivre, sel)" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/dc/63dcf3f305946.jpeg> ;
+                    ns1:name "THON À LA BASQUAISE - Small" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Axoa de bœuf, base riz (émincé de bœuf cuisiné, poivrons, oignons, piment d’Espelette, fromage de brebis)" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/dc/63dcf5854cb0b.jpeg> ;
+                    ns1:name "AXOA DE BŒUF - Small" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sandwich au jambon de Bayonne et fromage de brebis du Pays Basque" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/1c/641c20c5e2394.jpeg> ;
+                    ns1:name "SANDWICH JAMBON DE BAYONNE & TOMME DE BREBIS" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bœuf à la basquaise, base riz (émincé de bœuf cuisiné, tomates, poivrons, oignons, piment d'Espelette)" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/dc/63dcf2960f327.jpeg> ;
+                    ns1:name "BŒUF À LA BASQUAISE - Medium" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Axoa de veau, base riz (émincé de veau cuisiné, poivrons, oignons, piment d'Espelette)" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/dc/63dcf215588f0.jpeg> ;
+                    ns1:name "AXOA DE VEAU - Medium" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sandwich au pâté de porc au piment d'Espelette et piment doux du Pays Basque" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/64/1c/641c207397334.jpeg> ;
+                    ns1:name "SANDWICH PÂTÉ PIQUANT & PIMENT DOUX" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ] ;
+            ns1:name "Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Boisson fermentée à base de pêche et limonade, 33cl, 3% Vol." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/5b/635bdf72eb3d7.jpeg> ;
+                    ns1:name "KALIPOKO PÊCHE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boisson fermentée à base de pomme et limonade, 33cl, 3% Vol." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/5b/635bdfb50cff1.jpeg> ;
+                    ns1:name "KALIPOKO CITRON" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Coca Cola 33cl" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/5b/635bde2cef3ac.jpeg> ;
+                    ns1:name "COCA COLA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Schweppes agrumes, 33cl" ;
+                    ns1:name "SCHWEPPES AGRUMES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cidre basque de la cidrerie Txopinondo, 33cl, 3% VOL. (frais)" ;
+                    ns1:name "CIDRE BASQUE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Eau gazeuse 50cl" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/5b/635bdeb8955a0.jpeg> ;
+                    ns1:name "EAU GAZEUSE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Eau 50cl" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/5b/635bde7164846.jpeg> ;
+                    ns1:name "EAU" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ice Tea 33cl" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/63/5b/635bdf066a76d.jpeg> ;
+                    ns1:name "ICE TEA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Limonade basque BUR BUILA de la brasserie Akerbeltz, 33cl (fraiche)" ;
+                    ns1:name "LIMONADE BUR BUILA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ] ;
+            ns1:name "Boissons" ] .
+

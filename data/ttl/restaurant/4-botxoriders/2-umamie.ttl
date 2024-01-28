@@ -1,0 +1,39 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://botxoriders.coopcycle.org/api/restaurants/2> a ns1:Restaurant ;
+    ns1:address <https://botxoriders.coopcycle.org/api/addresses/45> ;
+    ns1:description "Comer algo saludable y nutritivo, pero que además sea una experiencia placentera para el paladar es más facil que nunca. El Ramen de Amén que ofrece UMAMIE en el casco viejo de Bilbao, quiere acercar al comensal a uno de los platos más apetecidos de la cocina Japonesa, la mezcla perfecta de un caldo aromatizado con una jugosa porción de proteína (ternera o pollo), acompañada de fideos, zanahoria, brócoli y coliflor al alcance y de todos y para disfrutar en casa. Al final lo que nos importa es que diariamente tengas opciones y sepas cómo comes, además de ofrecerte una escapada gastronómica momentánea." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.325569e+01 ;
+            ns1:longitude -2.923309e+00 ] ;
+    ns1:image <https://botxoriders.coopcycle.org/media/cache/restaurant_thumbnail/63/98/639881cd04765.png> ;
+    ns1:name "UMAMIE" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "16:30" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday" ;
+            ns1:opens "13:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "20.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.95" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "es" ;
+                    ns1:urlTemplate "https://botxoriders.coopcycle.org/en/restaurant/2-umamie" ] ] ;
+    ns1:sameAs <https://botxoriders.coopcycle.org/en/restaurant/2-umamie> ;
+    ns1:url <https://botxoriders.coopcycle.org/en/restaurant/2-umamie> .
+
+<https://botxoriders.coopcycle.org/api/addresses/45> a ns1:PostalAddress ;
+    ns1:name "UMAMIE" ;
+    ns1:streetAddress "Goienkale, 3, Bilbao, España" ;
+    ns1:telephone "+34688751448" .
+

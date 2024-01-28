@@ -1,0 +1,72 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://demo.coopcycle.org/api/restaurants/22> ns1:hasMenu <https://demo.coopcycle.org/en/restaurant/22-l-assiette-qui-rit#menu> .
+
+<https://demo.coopcycle.org/en/restaurant/22-l-assiette-qui-rit#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Crudités en salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.95" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Jambon cru à l'huile d'olive" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.91" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pickles en salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.04" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pickles en salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.57" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pickles en salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.68" ] ] ;
+            ns1:name "Entrées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Crêpe aux fruits confits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.03" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Crêpe aux fruits confits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.22" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Moelleux au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.13" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Moelleux au café" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.05" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Charlotte aux raisons secs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.33" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Lapin aux oignons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.78" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Escargots mi-cuit·e·s au vin rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Courgettes au gros sel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.21" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tomates aux oignons" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.76" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Lapin poêlé·e·s aux carottes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ] ;
+            ns1:name "Plats" ] .
+

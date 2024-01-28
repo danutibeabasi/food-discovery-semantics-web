@@ -1,0 +1,226 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/restaurants/23> ns1:hasMenu <https://lescoursiersbrestois.coopcycle.org/en/restaurant/23-la-cave-de-bacchus#menu> .
+
+<https://lescoursiersbrestois.coopcycle.org/en/restaurant/23-la-cave-de-bacchus#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Vin bio.\r
+La cuvée emblématique de Denois, élaborée depuis plus de 35 ans et toujours une valeur sûre, parmi les plus beaux crémants de France. Une belle intensité vineuse. De très jolies notes briochées au nez, accompagnées de fruits blancs. A l’aveugle, on partirait aisément en champagne. La bulle est très fine.""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/09/6309ecb877566.jpeg> ;
+                    ns1:name "Jean-Louis Denois – Crémant de Limoux “Tradition Extra-Brut Pinot-Noir Chardonnay”" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/09/6309ec762a10d.jpeg> ;
+                    ns1:name "Champagne Francis Boulard & Fille – Murgiers Brut Nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€45.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Vin Bio\r
+Très joli crémant d'Alsace bien brut avec une aromatique florale délicate.""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/09/6309ed21cc7b8.jpeg> ;
+                    ns1:name "Domaine Albert Maurer – Crémant d’Alsace" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "La cuvée classique de chez Massin, celle que nous vendons le plus ! Très équilibré et consensuel, un Champagne à mettre sur toutes les tables." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/09/6309ec28211ac.jpeg> ;
+                    ns1:name "Champagne Thierry Massin – Champagne Arpents" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.20" ] ] ;
+            ns1:name "Vins effervescents et champagnes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Vin bio.\r
+Un superbe Mercurey alliant finesse avec profondeur et charme : un nez envoûtant de fruits rouges et d'épices. Une bouche charnue, généreuse, mais sachant garder beaucoup de finesse.""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/09/6309ebe61be30.jpeg> ;
+                    ns1:name "Les Champs de l’Abbaye – Mercurey rouge “Les Marcoeurs”" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€37.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Vin bio.\r
+Tout l’équilibre et la joie du Languedoc dans le verre ! Un fruité bien mûr (mûres, cassis, fraise compotée), de jolies notes épicées de garrigue, des tanins soyeux, et une belle fraîcheur ! Un vin gourmand et joyeux, facile à accorder, qui fait le bonheur de tout le monde !""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/09/6309e81ec6109.jpeg> ;
+                    ns1:name "Terres d’Armelle – Coteaux de Béziers rouge “ADN”" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Vin Bio\r
+La jutosité, la finesse, la fraîcheur et pourtant la maturité toutes ensemble ! Quel équilibre que ce Lolo, en en boirait comme du…
+\r
+Un Corbière de fraîcheur et de fruit, mettant en avant les fruits noirs et la garrigue dans une belle tension ! Une gourmandise à déboucher à toute occasion !""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/09/6309e8dbd6c41.jpeg> ;
+                    ns1:name "Clos de l’Anhel – Corbières rouge “Le Lolo de l’Anhel”" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Vin bio.\r
+Très belle alliance entre l’élégance et la profondeur, une expression charnue et bien mûre du Merlot, classe et gourmande à la fois. Un très beau Puisseguin-Saint-Emilion, de style classique, mais excellent représentant de ce qui a fait le succès de la région.""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/09/6309e9c96d60b.jpeg> ;
+                    ns1:name "Château Guibeau – Puisseguin-Saint-Emilion rouge “Justine”" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Vin bio.\r
+Le Chinon de bistrot par excellence. Fruité, avec de jolies notes de cerise fraîche et finement épicé, il est très souple et sait s’adapter à une multitude de plats. Une des valeurs sûres de l’appellation !""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/09/6309ea0e6ce05.jpeg> ;
+                    ns1:name "Domaine Bernard Baudry – Chinon rouge “Les Granges”" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Vin bio.\r
+Un Morgon pur fruit, juteux à souhait, mais non dénué de caractère comme vient le rappeler la petite touche épicée en finale. Souple et soyeux, c’est typiquement le Beaujolais extrêmement bien fait qui sait s’adapter à toutes les situations. Du plaisir plein le verre !""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/09/6309e97d48499.jpeg> ;
+                    ns1:name "Domaine de la Bonne-Tonne – Morgon “Grands Cras”" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Vin bio\r
+Bordeaux pur jus, pur fruit, dans la simplicité et le plaisir ! Des arômes de fruits rouges éclatants, une belle fraîcheur, un joli côté séveux, une vraie identité bordelaise toute en souplesse !
+\r
+100 % merlot""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/09/6309e92d3b5fc.jpeg> ;
+                    ns1:name "Château Tire-Pé – Bordeaux rouge “Diem”" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/09/6309ea6d4bad2.jpeg> ;
+                    ns1:name "Domaine la Bouissière – Gigondas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Vin bio.\r
+Tout en rondeur et en fruit, un Bourgueil souple, accessible, le vrai vin de bistrot dans le bon sens du terme, qui accompagne une cuisine simple, canaille et familiale !""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/09/6309e7c23bdc6.jpeg> ;
+                    ns1:name "Domaine des Chesnaies – Bourgueil “Cuvée des Chesnaies”" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Souple, fruité et légèrement épicé. Une valeur sûre, un rapport plaisir/prix incroyable et un vin à sortir à toute occasion. Pas étonnant que la Cuvée des Galets ait tant de succès à la cave !" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/09/6309e75c01f80.jpeg> ;
+                    ns1:name "Les Vignerons d’Estezargues – Côtes-du-Rhône rouge “Les Galets”" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/09/6309eb4f8957f.jpeg> ;
+                    ns1:name "Domaine Darnaud – Crozes Hermitage rouge “Mise en Bouche”" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.10" ] ] ;
+            ns1:name "Vins rouges" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Une entrée de gamme chez Zuria ! Que du plaisir, toujours cette finesse et cette fraîcheur extrême. Et déjà une belle impression terroir, avec, pour cette cuvée, l’orignalité d’un sous-sol granitique. Elancé, salin, aromatique et d’une pureté impressionnante. Zuria, c’est toujours grand !" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/09/6309e7009b47a.jpeg> ;
+                    ns1:name "Domaine Zuria – Corse Bonifacio “Aria” rosé" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Vin bio.\r
+Un rosé frais, élégant et floral qui sait allier pureté, finesse et caractère affirmé. Romain Dol exploite à merveille les terroirs d’altitude du Lubéron pour nous livrer un vin d’un équilibre remarquable. De très belles notes de pêche de vigne et de fleurs très fraîchement cueillies. Un classique !""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/09/6309e6a410763.jpeg> ;
+                    ns1:name "Domaine le Novi – Luberon rosé “Côté Levant”" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.30" ] ] ;
+            ns1:name "Vins rosés" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/09/6309e2848f5eb.jpeg> ;
+                    ns1:name "Isabelle et Denis Pommier – Petit Chablis “Hautérivien”" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/09/6309e63982069.jpeg> ;
+                    ns1:name "Jean-Marie Chaland – Viré Clessé “Vieilles Vignes”" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/09/6309e22a03e32.jpeg> ;
+                    ns1:name "Laurent Barth – Alsace Riesling" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Vin en biodynamie.\r
+Un très joli Sancerre issu de l’assemblage des différents terroirs du Domaine. Comme toujours chez Gaudry, une pureté éclatante qui transfigure le sauvignon. Le fruité est d’une précision remarquable et la bouche est toute en délicatesse et en énergie. Une valeur plus que sûre !""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/09/6309e38070c55.jpeg> ;
+                    ns1:name "Vincent Gaudry – Sancerre blanc “Tournebride”" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Vin bio.\r
+Un très joli blanc alliant caractère du Sud et grande finesse. Les terroirs d’altitude du Luberon apporte beaucoup de fraîcheur et d’élégance à un vin qui revendique toutefois son origine méditerranéenne avec de beaux arômes de pêche, d’agrumes bien mûrs, de jasmin et une légère  pointe de rose.""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/09/6309e08b8dc06.jpeg> ;
+                    ns1:name "Domaine le Novi – Luberon blanc “Terre de Safres”" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Vin bio.\r
+Superbe rapport plaisir prix ! Un Muscadet droit, vif, tout en pureté et en éclat. Un joli fruité sur le citron avec une pointe d’ananas. La finale acidulée et très rafraîchissante laisse une impression très fraîche et désaltérante en bouche. Nous avons reconverti au Muscadet un nombre étonnant de personnes grâce à cette cuvée à prix tout doux et sans concessions !""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/09/6309dfa455011.jpeg> ;
+                    ns1:name "Domaine Julien Braud - Muscadet Sèvres-et-Maine \"Les Vignes du Bourg\"" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Vin en biodynamie\r
+100% Sauvignon. un Touraine blanc qui joue de la finesse et de la gourmandise sans perdre en caractère. le sauvignon y est mûr, très mûr même, et ne vient qu’apporter fruité ! Beaucoup de juteux et une grande buvabilité !""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/09/6309e141d7c18.jpeg> ;
+                    ns1:name "La Grange Tiphaine – Touraine blanc “Trinqu’Âmes”" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Vin en biodynamie\r
+Grand chenin sec sur les terroirs de Montlouis ! Tout en ampleur et en minéralité, une des références de l’appellation !""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/09/6309e57a098bb.jpeg> ;
+                    ns1:name "La Grange Tiphaine – Montlouis-sur-Loire blanc sec “Clef de Sol”" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.40" ] ] ;
+            ns1:name "Vins blancs secs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Vin bio.\r
+Le Château du Breuil fait partie des institutions en Coteaux du Layon. Cette cuvée signature en est la preuve : un parfait équilibre entre sucre et fraîcheur, de très beaux arômes d’agrumes et de fruits exotiques (fruit de la passion) et une grande longueur. Beaucoup de personnalité sans la moindre lourdeur !""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/09/6309e5d7d881a.jpeg> ;
+                    ns1:name "Château du Breuil – Côteaux du Layon" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/63/09/6309e3e910f14.jpeg> ;
+                    ns1:name "Domaine Albert Maurer – Alsace Gewurztraminer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Joli fruité pour ce vin gourmand et légèrement doux. Rond, des arômes de fruits blancs mûrs. Elégant, généreux et frais." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/20/65200f2423c26.jpeg> ;
+                    ns1:name "Domaine des Cassagnoles - Côtes de Gascogne blanc moelleux \"Gros Manseng Medium\"" ;
+                    ns1:nutrition "Sulphur dioxide and sulphites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.70" ] ] ;
+            ns1:name "Vins blancs sucrés" ] .
+

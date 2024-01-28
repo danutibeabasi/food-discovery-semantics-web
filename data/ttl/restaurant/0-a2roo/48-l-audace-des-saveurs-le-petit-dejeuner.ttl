@@ -1,0 +1,53 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://a2roo.coopcycle.org/api/restaurants/48> a ns1:Restaurant ;
+    ns1:address <https://a2roo.coopcycle.org/api/addresses/5872> ;
+    ns1:description """100 % élaborées par nos soins, en version mini ou classique, nos viennoiseries variées vont vous faire commencer la journée avec le sourire.\r
+\r
+Vous avez des amis à la maison ou vous avez une réunion d’entreprise ? Faites-vous livrer votre petit-déjeuner où vous voulez à proximité de Dijon.\r
+\r
+Accompagné d’un café et d’un jus d’orange pressé main, nous allons vous donner envie d’apprécier le reste de votre journée.\r
+\r
+Découvrez nos formules petit-déjeuner en précommande dès le lendemain 7h.\r
+\r
+NOUVELLE FORMULE :\r
+=================\r
+\r
+Lorsque vous commandez en livraison, une partie du coût est supporté par votre restaurateur. Pour supporter cette charge supplémentaire, le restaurant augmente ses tarifs de l'ordre de 20 à 30%. \r
+\r
+>Nous vous proposons de changer la donne ensemble ! \r
+>Lorsque vous commandez à l'Audace des saveurs, vous payez une part plus importante de la livraison (1,5 € de plus) mais en contrepartie, votre traiteur propose ses plats **aux prix de l'emporté**. \r
+\r
+\r
+>Plus vous en prenez, plus vous y gagnez  !\r
+\r
+Une formule plus équitable pour tous.\r
+---------------------------""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.733329e+01 ;
+            ns1:longitude 5.048597e+00 ] ;
+    ns1:image <https://a2roo.coopcycle.org/media/cache/restaurant_thumbnail/62/14/6214b43862e07.png> ;
+    ns1:name "L'audace des Saveurs - Le petit déjeuner" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "11:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "07:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://a2roo.coopcycle.org/en/restaurant/48-l-audace-des-saveurs-le-petit-dejeuner" ] ] ;
+    ns1:sameAs <https://a2roo.coopcycle.org/en/restaurant/48-l-audace-des-saveurs-le-petit-dejeuner> ;
+    ns1:url <https://a2roo.coopcycle.org/en/restaurant/48-l-audace-des-saveurs-le-petit-dejeuner> .
+
+<https://a2roo.coopcycle.org/api/addresses/5872> a ns1:PostalAddress ;
+    ns1:name "L'audace des Saveurs - Le petit déjeuner" ;
+    ns1:streetAddress "36 bis Rue du Vingt-Sixième Dragons, 21000 Dijon, France" ;
+    ns1:telephone "+33380341184" .
+

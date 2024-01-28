@@ -1,0 +1,19 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://eramangasteiz.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "es" ;
+                    ns1:addressLocality "Vitoria-Gasteiz" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude 4.284686e+01 ;
+                    ns1:longitude -2.67159e+00 ] ] ;
+    ns1:description "<p>Es el momento! Nos gusta nuestra ciudad, nos gusta la gente, nos gusta el cooperativismo y nos gustan las bicicletas. ERAMAN nace para juntar todo esto de manera sostenible y ética, con carácter y piñones.</p>"@en,
+        "<p>Iritsi da garaia! Gure hiria maite dugu, gure bizilagunak, kooperatibismoa eta bizikletak ere bai. Hori guztia era jasangarri eta etikoan bateratzeko, nortasun eta piñoiekin, ERAMAN jaio da!</p>"@eu ;
+    ns1:name "Eraman Repartos Gasteiz" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://eramangasteiz.coopcycle.org> .
+

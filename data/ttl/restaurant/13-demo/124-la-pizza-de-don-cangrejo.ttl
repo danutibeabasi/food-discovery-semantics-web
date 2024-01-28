@@ -1,0 +1,43 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://demo.coopcycle.org/api/restaurants/124> a ns1:Restaurant ;
+    ns1:address <https://demo.coopcycle.org/api/addresses/14271> ;
+    ns1:bannerImage "https://demo.coopcycle.org/placeholder/restaurant_banner/placeholders/g6DkdGVnlWwM.jpg" ;
+    ns1:description "es la mejor para tí y para mí" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 2.574513e+01 ;
+            ns1:longitude -1.003597e+02 ] ;
+    ns1:image <https://demo.coopcycle.org/media/cache/restaurant_thumbnail/64/3e/643ec0fa129f2.avif> ;
+    ns1:name "La pizza de don cangrejo" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "23:59" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "00:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "0.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "0.00" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://demo.coopcycle.org/en/restaurant/124-la-pizza-de-don-cangrejo" ] ] ;
+    ns1:sameAs <https://demo.coopcycle.org/en/restaurant/124-la-pizza-de-don-cangrejo> ;
+    ns1:url <https://demo.coopcycle.org/en/restaurant/124-la-pizza-de-don-cangrejo> .
+
+<https://demo.coopcycle.org/api/addresses/14271> a ns1:PostalAddress ;
+    ns1:name "La pizza de don cangrejo" ;
+    ns1:streetAddress "Tolteca 1112, Unidad Modelo, Monterrey, Nuevo Leon, Mexico" ;
+    ns1:telephone "+526461512847" .
+

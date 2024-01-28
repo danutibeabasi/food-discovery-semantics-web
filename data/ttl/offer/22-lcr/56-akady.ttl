@@ -1,0 +1,36 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lcr.coopcycle.org/api/restaurants/56> ns1:hasMenu <https://lcr.coopcycle.org/en/restaurant/56-akady#menu> .
+
+<https://lcr.coopcycle.org/en/restaurant/56-akady#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Riz rouge mariné accompagné de légumes (carottes, chou, pomme de terre)" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/30/6530187050317.jpeg> ;
+                    ns1:name "Thieb - LA VALEUR SURE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.35" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bananes plantains (Alloco) frits accompagnés de son poulet et d’une sauce tomate douce" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/41/65410639857bc.jpeg> ;
+                    ns1:name "Alloco - LE SUCCULENT" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.45" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Semoule de manioc accompagné de ses condiments et de son poisson.\r
+Voyage en Côte d'Ivoire assuré \r
+option poulet possible""" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/40/6540f471badb8.jpeg> ;
+                    ns1:name "Attiéké - L'EXTRAORDINAIRE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.45" ] ] ;
+            ns1:name "Nos Plats à la CARTE" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pâte de manioc fermentée d’origine ivoirienne dégustée avec sauce graine ou Kopê" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/65/31/6531863a08155.jpeg> ;
+                    ns1:name "Placali - LE SPECIAL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.30" ] ] ;
+            ns1:name "Notre Plat du jour" ] .
+

@@ -1,0 +1,251 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiers-stephanois.coopcycle.org/api/restaurants/40> ns1:hasMenu <https://coursiers-stephanois.coopcycle.org/en/restaurant/40-greenbae#menu> .
+
+<https://coursiers-stephanois.coopcycle.org/en/restaurant/40-greenbae#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Petit pain burger, steak de falafel, fromage cheddar, houmous, salade, tomate, cornichon, persil, 1 Kinder surprise. SANDWICH CHAUD." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/61854c6dd1494.jpeg> ;
+                    ns1:name "Menu burger falafel enfants" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette Syrienne, frites, aubergine frit, houmous, salade, tomate, oignon, cornichon, navet, persil, sauce tarator ou végan. SANDWICH CHAUD." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/61854845e0aad.jpeg> ;
+                    ns1:name "Menu légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.35" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette Syrienne, fromage halloumi, concombre, salade, tomate, cornichon, persil, menthe sèche, sauce tarator. SANDWICH CHAUD." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/61854d904d8f6.jpeg> ;
+                    ns1:name "Menu halloumi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.65" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain burger, steak de falafel, fromage cheddar, houmous, salade, tomate, oignon, cornichon, navet, persil, sauce tarator ou végan. SANDWICH CHAUD." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/61854c3c61850.jpeg> ;
+                    ns1:name "Menu burger falafel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Wrap, boules de falafel, houmous, salade, tomate, oignon, cornichon, navet, persil, sauce tarator ou végan. SANDWICH CHAUD." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/61854cb07aab6.jpeg> ;
+                    ns1:name "Menu GreenBae (présenté coupé)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette Syrienne, boules de falafel, houmous, salade, tomate, oignon, cornichon, navet, persil, sauce tarator ou végan. SANDWICH CHAUD." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/61854c94c4b92.jpeg> ;
+                    ns1:name "Menu falafel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.35" ] ] ;
+            ns1:name "Menus" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salade, tomate, concombre, menthe sèche, jus de citron, huile d’olive" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/61854eaf2fac2.jpeg> ;
+                    ns1:name "Salade spéciale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Raisins secs, tranches d’halloumi, mâche, noix concassées" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/61854e8310c5e.jpeg> ;
+                    ns1:name "Salade halloumi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, tomate, concombre, menthe, citron, huile d’olive, pain grillé, sauce grenade" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/61854e660b3cd.jpeg> ;
+                    ns1:name "Salade fattouche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.75" ] ] ;
+            ns1:name "Salades" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Bouteilles d'eau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Canettes 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Jus de fruits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "L'abus d'alcool est dangereux pour la santé, à consommer avec modération." ;
+                    ns1:name "Bières" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bouteille de vin Libanais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Lentilles, légumes, épices GreenBae. PLAT CHAUD." ;
+                    ns1:name "Soupe de lentille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Aubergines, ail, oignons, courgette, carotte, tomate, épices GreenBae, accompagné de pain. PLAT CHAUD." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/61854dde45152.jpeg> ;
+                    ns1:name "Moussaka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.65" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fèves, tomate, persil, jus de citron, ail, cumin, filet d’huile d’olive, accompagné de pain. PLAT FROID." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/61854a2ee00ac.jpeg> ;
+                    ns1:name "Foul" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/61855e23c621c.jpeg> ;
+                    ns1:name "GreenBae" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.70" ] ] ;
+            ns1:name "Plats" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Purée de pois chiches, crème de sésame, jus de citron, ail, filet d’huile d’olive, accompagné de pain. PLAT FROID." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/61854b972c8d1.jpeg> ;
+                    ns1:name "Houmous" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mélange de boulgour, pomme de terre farcies de noix et oignon. PLAT CHAUD." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/61854bbad4aa0.jpeg> ;
+                    ns1:name "Kebbé (boules)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Yaourt, ail, menthe séchée, filet d’huile d’olive, accompagné de pain. PLAT FROID." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/61854bdd48853.jpeg> ;
+                    ns1:name "Labné" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Caviar d’aubergine, crème de sésame, jus de citron, ail, filet d’huile d’olive, accompagné de pain. PLAT FROID." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/6185491486577.jpeg> ;
+                    ns1:name "Baba ghanouch (moutabbal)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cigare de fromage feta, persil. PLAT CHAUD." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/61854e4e39152.jpeg> ;
+                    ns1:name "Rikakat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une barquette de frites" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/618561ba9030e.jpeg> ;
+                    ns1:name "Frites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.15" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Feuilles de vigne farcies au riz et légumes. PLAT FROID." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/61854a0b1bb0b.jpeg> ;
+                    ns1:name "Feuilles de vigne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 portions de galette Syrienne. PAIN FROID." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/61854e343d2b3.jpeg> ;
+                    ns1:name "Pains" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.15" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mélange de pois chiches, fèves, oignon, ail, épices GreenBae. PLAT CHAUD." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/618549c6eae64.jpeg> ;
+                    ns1:name "Falafel (boules)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ] ;
+            ns1:name "Mezzés" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pain burger, steak de falafel, fromage cheddar, houmous, salade, tomate, oignon, cornichon, navet, persil, sauce tarator ou végan. SANDWICH CHAUD." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/61854935c5145.jpeg> ;
+                    ns1:name "Burger falafel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette Syrienne, fromage halloumi, concombre, salade, tomate, cornichon, persil, menthe sèche, sauce tarator. SANDWICH CHAUD." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/61854a9e9ecf0.jpeg> ;
+                    ns1:name "Halloumi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Wrap, boules de falafel, houmous, salade, tomate, oignon, cornichon, navet, persil, sauce tarator ou végan. SANDWICH CHAUD." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/61856192ed3e2.jpeg> ;
+                    ns1:name "GreenBae (présenté coupé)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette Syrienne, frites, aubergine frit, houmous, salade, tomate, oignon, cornichon, navet, persil, sauce tarator ou végan. SANDWICH CHAUD." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/61854bfb6c016.jpeg> ;
+                    ns1:name "Légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Galette Syrienne, boules de falafel, houmous, salade, tomate, oignon, cornichon, navet, persil, sauce tarator ou végan. SANDWICH CHAUD." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/618549aab531e.jpeg> ;
+                    ns1:name "Falafel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petit pain burger, steak de falafel, fromage cheddar, houmous, salade, tomate, cornichon, persil, 1 Kinder surprise. SANDWICH CHAUD." ;
+                    ns1:name "Burger falafel enfants" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ] ;
+            ns1:name "Sandwichs" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Semoule, vanille, levure, yaourt, sirop, pistache. DESSERT FROID." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/61854df8746c6.jpeg> ;
+                    ns1:name "Nabkieé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/6185496d5d819.jpeg> ;
+                    ns1:name "Dessert oriental - 3 pièces" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Semoule, vanille, levure, yaourt, sirop, amande. DESSERT FROID." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/61854e171de45.jpeg> ;
+                    ns1:name "Nammoura" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Dessert oriental - 23 pièces" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.25" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Pâte, épinard, noix, sauce grenade. PAIN CHAUD." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/61854989225f8.jpeg> ;
+                    ns1:name "Épinard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâte, thym, tomate, oignon, sésame. PAIN CHAUD." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/61854c1ba2e22.jpeg> ;
+                    ns1:name "Man’ouché" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pâte, feta, persil, sésame. PAIN CHAUD." ;
+                    ns1:image <https://coursiers-stephanois.coopcycle.org/media/cache/product_thumbnail/61/85/618549eb0ebf7.jpeg> ;
+                    ns1:name "Fatayer" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ] ;
+            ns1:name "Pains spéciaux" ] .
+

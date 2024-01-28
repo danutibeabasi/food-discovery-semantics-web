@@ -1,0 +1,260 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://sicklo.coopcycle.org/api/restaurants/93> ns1:hasMenu <https://sicklo.coopcycle.org/en/restaurant/93-la-casa-de-pitou#menu> .
+
+<https://sicklo.coopcycle.org/en/restaurant/93-la-casa-de-pitou#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33 cl en canette" ;
+                    ns1:name "Schweppes Agrumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50 cl en bouteille" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/2f/622fb04254cc1.jpeg> ;
+                    ns1:name "Cristaline" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50 cl en bouteille" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/2f/622fba0d42c75.jpeg> ;
+                    ns1:name "Volvic citron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50 cl en bouteille" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/2f/622fb9d7bc4da.jpeg> ;
+                    ns1:name "Tropico L'original Orange Ananas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl en canette" ;
+                    ns1:name "Coca cola zero canette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Fuzetea pêche en canette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/2f/622fb5231dda9.jpeg> ;
+                    ns1:name "Pago ace" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/2f/622faf833dcc9.jpeg> ;
+                    ns1:name "Capri sun orange pêche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Perrier en canette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl" ;
+                    ns1:name "Coca cola en canette" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50 cl en bouteille" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/2f/622fb4af5f8e1.jpeg> ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "BOISSONS🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "25 cl en bouteille" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/2f/622fb44db7445.jpeg> ;
+                    ns1:name "Leffe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl en bouteille" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/2f/622fa4b333742.jpeg> ;
+                    ns1:name "Bière artisanale Thetys Blonde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl en bouteille" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/2f/622fa7e284546.jpeg> ;
+                    ns1:name "Bière artisanale Slalom Ambrée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl en bouteille" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/2f/622fa3e05ba03.jpeg> ;
+                    ns1:name "Bière artisanale Habert Blanche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl en bouteille" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/2f/622fa4e4a80b2.jpeg> ;
+                    ns1:name "Bière artisanale Thetys IPA" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "25 cl en bouteille" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/2f/622fb2ece149f.jpeg> ;
+                    ns1:name "Heineken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "BIERES🍺" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tartiflette" ;
+                    ns1:name "Plat du jour viande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Quenelles au butternut et sauce au bleu" ;
+                    ns1:name "Plat du jour végétarien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ] ;
+            ns1:name "A LA CARTE👩‍🍳" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Ail, chêvre, bleu de sassenage, mozzarella" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/2f/622fb99f96a48.jpeg> ;
+                    ns1:name "Trois fromages" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce burger, viande hachée, cornichon, mozzarella" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/2f/622fae39b5db1.jpeg> ;
+                    ns1:name "Burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.20" ] ] ;
+            ns1:name "PANINIS🥖" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "PANINI au choix + DESSERT au choix ou BOISSON au choix" ;
+                    ns1:name "Formule duo snack" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "PANINI au choix + DESSERT au choix + BOISSON au choix" ;
+                    ns1:name "Formule trio snack" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "PLAT CHAUD au choix + DESSERT au choix + BOISSON au choix" ;
+                    ns1:name "Formule trio plat chaud végétarien ou viande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "PLAT CHAUD au choix + DESSERT au choix ou BOISSON au choix" ;
+                    ns1:name "Formule duo plat chaud végétarien ou viande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "SALADE au choix + DESSERT au choix ou BOISSON au choix" ;
+                    ns1:name "Formule duo salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "SALADE au choix + DESSERT au choix + BOISSON au choix" ;
+                    ns1:name "Formule trio salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.30" ] ] ;
+            ns1:name "FORMULES⭐️" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/2f/622fb5eef3462.jpeg> ;
+                    ns1:name "Pain perdu fruits rouges et chocolat blanc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/2f/622fb90a13320.jpeg> ;
+                    ns1:name "Tiramisu Speculos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/2f/622fb93eb8770.jpeg> ;
+                    ns1:name "Tiramisu classique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/2f/622fb658563e2.jpeg> ;
+                    ns1:name "Panna cotta au coulis de fraise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/2f/622fb00a6d290.jpeg> ;
+                    ns1:name "Compote de pommes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/2f/622fb62888186.jpeg> ;
+                    ns1:name "Pain perdu poire et chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/2f/622fb47d789c5.jpeg> ;
+                    ns1:name "Mousse au chocolat" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/2f/622fb07925414.jpeg> ;
+                    ns1:name "Fromage blanc à la crème de marron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.20" ] ] ;
+            ns1:name "DESSERTS🍰" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bouteille de 75 cl" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/2f/622faf2a58c01.jpeg> ;
+                    ns1:name "Blanc Saint Véran Domaine Couturier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€32.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bouteille de 75 cl" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/2f/622fb7acb622d.jpeg> ;
+                    ns1:name "Rouge Nero d'Avola vin bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bouteille de 75 cl" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/2f/622fb779c0c46.jpeg> ;
+                    ns1:name "Rosé bio Coteaux d'Aix en Provence" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bouteille de 75 cl" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/2f/622fb7495f4d2.jpeg> ;
+                    ns1:name "Rosé Bardolino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bouteille de 75 cl" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/2f/622fae924dbfd.jpeg> ;
+                    ns1:name "Blanc Mâcon Domaine Couturier Un Porc Ex Porc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bouteille de 75 cl" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/2f/622faee589413.jpeg> ;
+                    ns1:name "Blanc Mâcon Vinzelles Domaine Couturier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ] ;
+            ns1:name "VINS🍷" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "salade verte, poulet, œuf, parmesan, croutons" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/62/2f/622fa83d7b3bf.jpeg> ;
+                    ns1:name "Caesar" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade verte, riz, tomates, thon, œuf, haricots et olives noires" ;
+                    ns1:name "Niçoise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.20" ] ] ;
+            ns1:name "SALADES🥗" ] .
+

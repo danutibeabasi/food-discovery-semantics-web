@@ -1,0 +1,568 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/restaurants/42> ns1:hasMenu <https://lescoursiersbrestois.coopcycle.org/en/restaurant/42-l-istanbul#menu> .
+
+<https://lescoursiersbrestois.coopcycle.org/en/restaurant/42-l-istanbul#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Petite salade \"salade, tomate et maïs\", sandwich chaud avec \"une viande au choix\", frites, boisson 33 cl au choix et donut’s." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656714a7ae8c2.jpeg> ;
+                    ns1:name "Menu sandwich" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ] ;
+            ns1:name "Menu sandwich" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "15 Pièces" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656716415204e.jpeg> ;
+                    ns1:name "Oignons Rings" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "15 Wings" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656719072761f.jpeg> ;
+                    ns1:name "Wings" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "x4" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656715caa775a.jpeg> ;
+                    ns1:name "Nuggets" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "15 Stick Mozza" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656717afe8816.jpeg> ;
+                    ns1:name "Stick Mozzarella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 bouchées" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/656521fa6211f.jpeg> ;
+                    ns1:name "Bouchées Camembert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 Wings" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656718ff465c2.jpeg> ;
+                    ns1:name "Wings" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 Wings" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656718f7434cb.jpeg> ;
+                    ns1:name "Wings" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "15 Bouchées" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/6565223de76da.jpeg> ;
+                    ns1:name "Bouchées Camembert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 Stick Mozza" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656717a7c566c.jpeg> ;
+                    ns1:name "Stick Mozzarella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 Tenders" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/6567183b3d7a3.jpeg> ;
+                    ns1:name "Tenders" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petite Barquette 250 cc" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/6565227cead55.jpeg> ;
+                    ns1:name "Bulgur maison ( blé concassé)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "15 Tenders" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656718428c5dd.jpeg> ;
+                    ns1:name "Tenders" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Grande barquette 500 cc" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/6565228e9a37a.jpeg> ;
+                    ns1:name "Bulgur maison ( blé concassé)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Moyenne barquette 375cc" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/65652285a4ba8.jpeg> ;
+                    ns1:name "Bulgur maison (blé concassé)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 Pièces" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/6567161e93539.jpeg> ;
+                    ns1:name "Oignons Rings" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 Pièces" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/6567163301fe4.jpeg> ;
+                    ns1:name "Oignons Rings" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 Stick Mozza" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656717b7b2e13.jpeg> ;
+                    ns1:name "Stick Mozzarella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 Tenders" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656718324f8ee.jpeg> ;
+                    ns1:name "Tenders" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 Bouchées" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/65652235aba8e.jpeg> ;
+                    ns1:name "Bouchées Camembert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "Tex Mex" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "2 Sandwichs au choix + 2 frites + 2 boissons + un grand pot de crème Glacée Ben & Jerry's à partager !" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656712297eb43.jpeg> ;
+                    ns1:name "Formule Duo Premium Sandwichs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€32.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tacos simple + boisson + Crème Glacée Ben & Jerry's" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/6567130919a63.jpeg> ;
+                    ns1:name "Formule PREMIUM TACOS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sandwich au choix + frites + boisson + Crème Glacée Ben & Jerry's" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656712cdc6f3f.jpeg> ;
+                    ns1:name "Formule PREMIUM SANDWICH" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 Tacos au choix + 2 boissons + un grand pot de crème glacée Ben & Jerry's à partager !" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/6567128162903.jpeg> ;
+                    ns1:name "Formule Duo Premium Tacos" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€31.99" ] ] ;
+            ns1:name "Formule PREMIUM" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Deux viande au choix, crudités, boulgour et frites." ;
+                    ns1:name "Assiettes deux viande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Trois viandes au choix, crudités, boulgour et frites." ;
+                    ns1:name "Assiettes trois viandes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brochette d’agneau, crudités, boulgour et frites." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/65651c63835f7.jpeg> ;
+                    ns1:name "Assiette brochette d’agneau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Une viande au choix, crudités, boulgour et frites." ;
+                    ns1:name "Assiettes une viande" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pizza turque, viande kebab, frites et crudités." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/65651d0c71334.jpeg> ;
+                    ns1:name "Assiette lahmacun" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "Assiettes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656713d73c8a0.jpeg> ;
+                    ns1:name "Lokum" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/65671803210b5.jpeg> ;
+                    ns1:name "Tarte aux Daims Milka" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Panini Nutella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656716aa3e295.jpeg> ;
+                    ns1:name "Panini nutella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/6565200765e6a.jpeg> ;
+                    ns1:name "Baklava" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/6567187ba5df5.jpeg> ;
+                    ns1:name "Tiramisu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/6567113edb120.jpeg> ;
+                    ns1:name "Donut’s" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656715a16c033.jpeg> ;
+                    ns1:name "Muffin" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Pâtisserie et desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Sandwich chaud+ frites et boisson + place de cinéma Les Studios" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ] ;
+            ns1:name "Menu cinéma" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Petite salade \"salade, tomate et maïs\", tacos double avec \"deux viandes au choix\", boisson 33 cl au choix et donut’s." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656714db9e8b4.jpeg> ;
+                    ns1:name "Menu tacos double" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petite salade \"salade, tomate et maïs\", tacos simple avec \"Une viande au choix\", boisson 33 cl au choix et donut’s." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656714f7148fe.jpeg> ;
+                    ns1:name "Menu tacos simple" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petite salade \"salade, tomate et maïs\", tacos triple avec \"trois viandes au choix\", boisson 33 cl au choix et donut’s." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/65671512770a3.jpeg> ;
+                    ns1:name "Menu tacos triple" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tacos Agneau" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656717dacd205.jpeg> ;
+                    ns1:name "Tacos Agneau" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petite salade \"salade, tomate et maïs\", tacos triple avec \"trois viandes au choix\", boisson 33 cl au choix et donut’s." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/6567152da3e0b.jpeg> ;
+                    ns1:name "Menu tacos XXL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ] ;
+            ns1:name "Menu tacos" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Canette 33 cl." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656711683b05e.jpeg> ;
+                    ns1:name "Effes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bouteille 50 cl." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/65651e92c8b43.jpeg> ;
+                    ns1:name "1664" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656713a945599.jpeg> ;
+                    ns1:name "Kronenbourg" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bouteille 25 cl." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656713634766e.jpeg> ;
+                    ns1:name "Heineken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Canette 33 cl." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/6567110e24a1f.jpeg> ;
+                    ns1:name "Desperados" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bouteille 50 cl." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/656520482794d.jpeg> ;
+                    ns1:name "Bavaria 8/6" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Bières" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Crème glacée vanille avec une sauce caramel salé, des morceaux de pécan caramélisés et des morceaux de gâteau fondant" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/656521aa70756.jpeg> ;
+                    ns1:name "Ben & Jerry’s Vanille Pécan 465ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème glacée vanille avec des morceaux de pâte de cookie aux pépites de chocolat et des inclusions cacaotées" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/6565212f2981e.jpeg> ;
+                    ns1:name "Ben & Jerry’s Cookie Dough 100ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème glacée caramel avec une sauce au caramel salé, des brownies fondants au cacao maigre et des cookies au chocolat." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/65652084874ba.jpeg> ;
+                    ns1:name "Ben & Jerry's Caramel Brownie Party 465ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème glacée chocolat avec des morceaux de gâteau fondant au cacao maigre" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/656520d123443.jpeg> ;
+                    ns1:name "Ben & Jerry's Chocolate Fudge Brownie 100ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème glacée vanille avec une sauce caramel salé, des morceaux de pécan caramélisés et des morceaux de gâteau fondant" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/6565217f6aa1c.jpeg> ;
+                    ns1:name "Ben & Jerry’s Vanille Pécan 100ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème glacée chocolat avec des morceaux de gâteau fondant au cacao maigre" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/6565210131cca.jpeg> ;
+                    ns1:name "Ben & Jerry's Chocolate Fudge Brownie 465ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème glacée vanille avec des morceaux de pâte de cookie aux pépites de chocolat et des inclusions cacaotées" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/65652154f025b.jpeg> ;
+                    ns1:name "Ben & Jerry’s Cookie Dough 465ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "Crèmes Glacées Ben & Jerry’s" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/656523a57d589.jpeg> ;
+                    ns1:name "dada Cerise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boisson rafraîchissante saveur tropicale." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/6567133ced281.jpeg> ;
+                    ns1:name "Hawai 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/65651eca4a232.jpeg> ;
+                    ns1:name "7 Up" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boisson rafraîchissante avec jus de citron. Goût fruité et savoureux." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656711951e05b.jpeg> ;
+                    ns1:name "Fanta Citron Frappé 33 cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/65651f5bdfd02.jpeg> ;
+                    ns1:name "7 up mojito" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656716d8cd3ff.jpeg> ;
+                    ns1:name "Pepsi" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/656523799fc56.jpeg> ;
+                    ns1:name "Coca-Cola zéro sucres 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/65651f2623aa1.jpeg> ;
+                    ns1:name "7 up cerise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656711ebd933b.jpeg> ;
+                    ns1:name "Fanta Orange 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Perrier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656715ffdb369.jpeg> ;
+                    ns1:name "Oasis tropical" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Schweppes agrumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/65651e4747399.jpeg> ;
+                    ns1:name "Ayran" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/656523138a8f8.jpeg> ;
+                    ns1:name "Coca-Cola 1.25L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656716f9a2aba.jpeg> ;
+                    ns1:name "Pepsi max" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boisson rafraîchissante au jus d'orange. Goût fruité et savoureux." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656711bf91d3f.jpeg> ;
+                    ns1:name "Fanta Orange 1.5L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 Cl" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/6567177f75fd7.jpeg> ;
+                    ns1:name "Sprite" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656718a5a47d9.jpeg> ;
+                    ns1:name "Tropico" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/65652340f213d.jpeg> ;
+                    ns1:name "Coca-Cola 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656717205c895.jpeg> ;
+                    ns1:name "Red Bull" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Miranda fraise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656713879f087.jpeg> ;
+                    ns1:name "Ice tea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Oasis fruits rouges" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.20" ] ] ;
+            ns1:name "Nos boissons fraîches" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Petite salade avec \"salade, tomate et maïs\", fish burger \"filet de cabillaud pané, double cheddar, salade, tomate, oignon et 2 sauces au choix\", frites, boisson 33 cl au choix et donut’s." ;
+                    ns1:name "Menu fish burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petite salade avec \"salade, tomate et maïs\", chicken eggy \"poulet pané avec un oeuf, double cheddar, salade, tomate, oignon et 2 sauces au choix\", frites, boisson 33 cl au choix et donut’s." ;
+                    ns1:name "Menu burger chicken eggy" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petite salade avec \"salade, tomate et maïs\", biggy burger\"double steak, double cheddar, salade, tomate, oignon et 2 sauces au choix\", frites, boisson 33 cl au choix et donut’s." ;
+                    ns1:name "Menu biggy burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petite salade avec \"salade, tomate et maïs\", cheese burger \"steak, double cheddar, salade, tomate, oignon et 2 sauces au choix\", frites, boisson 33 cl au choix et donut’s." ;
+                    ns1:name "Menu cheese burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petite salade avec \"salade, tomate et maïs\", chicken beef \"double steak, filet de poulet, double cheddar, salade, tomate, oignon et 2 sauces au choix\", frites, boisson 33 cl au choix et donut’s." ;
+                    ns1:name "Menu burger chicken beef" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petite salade avec \"salade, tomate et maïs\", kofta burger avec \"double kofta, double cheddar, salade, tomate, oignon et 2 sauces au choix\", frites, boisson 33 cl au choix et donut’s." ;
+                    ns1:name "Menu kofta burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petite salade avec \"salade, tomate et maïs\", végé burger \"steak de légumes, double cheddar, salade, tomate, oignon et 2 sauces au choix\", frites, boisson 33 cl au choix et donut’s." ;
+                    ns1:name "Menu végé burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petite salade avec \"salade, tomate et maïs\", eggy burger \"double steak, oeuf, double cheddar, salade, tomate, oignon et 2 sauces au choix\", frites, boisson 33 cl au choix et donut’s." ;
+                    ns1:name "Menu eggy burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petite salade avec \"salade, tomate et maïs\", chicken burger \"poulet pané, double cheddar, salade, tomate, oignon et 2 sauces au choix\", frites, boisson 33 cl au choix et donut’s." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656714112f265.jpeg> ;
+                    ns1:name "Menu chiken burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Petite salade avec \"salade, tomate et maïs\", chicken beef \"double steak, filet de poulet, double cheddar, salade, tomate, oignons. 10" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/656522e1bad21.jpeg> ;
+                    ns1:name "Burger chicken beef" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "Menu burger" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bouteille 70 cl." ;
+                    ns1:name "Vin blanc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bouteille 70 cl." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/67/656718ca70622.jpeg> ;
+                    ns1:name "Vin rosé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bouteille 70 cl." ;
+                    ns1:name "Vin rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ] ;
+            ns1:name "Nos vins" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/656524303c0a7.jpeg> ;
+                    ns1:name "Dada leetchee" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/6565245cc42a0.jpeg> ;
+                    ns1:name "Dada melon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/65652487024ad.jpeg> ;
+                    ns1:name "Dada pêche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/65/65/656523f439685.jpeg> ;
+                    ns1:name "Dada fraise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:name "Dada Goyave" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ] ;
+            ns1:name "Boissons exotiques" ] .
+

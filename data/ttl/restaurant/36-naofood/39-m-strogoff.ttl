@@ -1,0 +1,40 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://naofood.coopcycle.org/api/restaurants/39> a ns1:Restaurant ;
+    ns1:address <https://naofood.coopcycle.org/api/addresses/4890> ;
+    ns1:bannerImage "https://naofood.coopcycle.org/media/cache/restaurant_banner/5f/c9/5fc936ddbab98.PNG" ;
+    ns1:description """Un restaurant qui vous invite à un voyage culinaire et à découvrir ses spécialités venues tout droit de la Russie.\r
+Leur cuisine saura vous séduire par ses saveurs, épices et ingrédients d'une grande variété.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.72176e+01 ;
+            ns1:longitude -1.55535e+00 ] ;
+    ns1:image <https://naofood.coopcycle.org/media/cache/restaurant_thumbnail/5f/c9/5fc936ddbab98.PNG> ;
+    ns1:name "M. Strogoff" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday" ;
+            ns1:opens "12:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:45" ;
+            ns1:dayOfWeek "Friday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "19:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://naofood.coopcycle.org/en/restaurant/39-m-strogoff" ] ] ;
+    ns1:sameAs <https://naofood.coopcycle.org/en/restaurant/39-m-strogoff> ;
+    ns1:url <https://naofood.coopcycle.org/en/restaurant/39-m-strogoff> .
+
+<https://naofood.coopcycle.org/api/addresses/4890> a ns1:PostalAddress ;
+    ns1:name "M. Strogoff" ;
+    ns1:streetAddress "20 Rue Saint-Léonard, Nantes, France" ;
+    ns1:telephone "+33228446386" .
+

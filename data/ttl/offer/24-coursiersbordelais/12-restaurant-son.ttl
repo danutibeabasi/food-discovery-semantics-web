@@ -1,0 +1,6 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiersbordelais.coopcycle.org/api/restaurants/12> ns1:hasMenu <https://coursiersbordelais.coopcycle.org/en/restaurant/12-restaurant-son#menu> .
+
+<https://coursiersbordelais.coopcycle.org/en/restaurant/12-restaurant-son#menu> a ns1:Menu .
+

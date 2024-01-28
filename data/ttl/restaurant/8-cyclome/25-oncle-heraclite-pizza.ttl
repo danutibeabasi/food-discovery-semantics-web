@@ -1,0 +1,44 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cyclome.coopcycle.org/api/restaurants/25> a ns1:Restaurant ;
+    ns1:address <https://cyclome.coopcycle.org/api/addresses/8247> ;
+    ns1:description """Oncle Heraclite c'est des pizzas de tradition française, une carte limitée, 6 pizzas classiques, 3 pizzas originales renouvelées tous les mois; une pâte maison levée pendant 24h et des produits frais travaillés par le tonton. \r
+Chercher les bons produits, trouver les meilleures recettes, et te faire kiffer, c'est le boulot d'Oncle Heraclite.""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.57803e+01 ;
+            ns1:longitude 3.08706e+00 ] ;
+    ns1:image <https://cyclome.coopcycle.org/media/cache/restaurant_thumbnail/62/68/6268381fd9b43.jpg> ;
+    ns1:name "Oncle Heraclite Pizza" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:45" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday" ;
+            ns1:opens "18:15" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:45" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Wednesday" ;
+            ns1:opens "11:45" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:35" ;
+            ns1:dayOfWeek "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:15" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://cyclome.coopcycle.org/en/restaurant/25-oncle-heraclite-pizza" ] ] ;
+    ns1:sameAs <https://cyclome.coopcycle.org/en/restaurant/25-oncle-heraclite-pizza> ;
+    ns1:url <https://cyclome.coopcycle.org/en/restaurant/25-oncle-heraclite-pizza> .
+
+<https://cyclome.coopcycle.org/api/addresses/8247> a ns1:PostalAddress ;
+    ns1:name "Oncle Heraclite Pizza" ;
+    ns1:streetAddress "11 Rue du Port, 63000 Clermont-Ferrand, France" ;
+    ns1:telephone "+33606060606" .
+

@@ -1,0 +1,39 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lcr.coopcycle.org/api/restaurants/51> a ns1:Restaurant ;
+    ns1:address <https://lcr.coopcycle.org/api/addresses/37753> ;
+    ns1:bannerImage "https://lcr.coopcycle.org/media/cache/restaurant_banner/65/6e/656e5152f1bdc.png" ;
+    ns1:description "Séoul to Go est un restaurant Coréen créé en 2019, situé au 39 Rue Vaneau à Rennes. Notre but est de vous offrir une cuisine coréenne saine et délicieuse, à un prix raisonnable." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.811229e+01 ;
+            ns1:longitude -1.693384e+00 ] ;
+    ns1:image <https://lcr.coopcycle.org/media/cache/restaurant_thumbnail/64/be/64be9c40e177e.jpg> ;
+    ns1:name "Séoul to go" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "20:45" ;
+            ns1:dayOfWeek "Friday" ;
+            ns1:opens "18:15" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "13:45" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:45" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://lcr.coopcycle.org/en/restaurant/51-seoul-to-go" ] ] ;
+    ns1:sameAs <https://lcr.coopcycle.org/en/restaurant/51-seoul-to-go> ;
+    ns1:url <https://lcr.coopcycle.org/en/restaurant/51-seoul-to-go> .
+
+<https://lcr.coopcycle.org/api/addresses/37753> a ns1:PostalAddress ;
+    ns1:name "Séoul to go" ;
+    ns1:streetAddress "39 Rue Vaneau, 35000 Rennes, France" ;
+    ns1:telephone "+33223416946" .
+

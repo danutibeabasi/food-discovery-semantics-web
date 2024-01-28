@@ -1,0 +1,552 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://kooglof.coopcycle.org/api/restaurants/88> ns1:hasMenu <https://kooglof.coopcycle.org/en/restaurant/88-promo-one-street#menu> .
+
+<https://kooglof.coopcycle.org/en/restaurant/88-promo-one-street#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Steak haché maison, bleu, crudités et sauce burger." ;
+                    ns1:name "L'Auvergnat 🍔🍔" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Steak haché maison, burrata, coppa ( non halal) crudités, parmesan et sauce italienne." ;
+                    ns1:name "Le Méditerranéen 🍔🌅" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.49" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Le Catalan 🍔🐐🌶️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Steak haché maison, comté, jambon sec (non hallal), crudités et sauce béarnaise." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ad/64ad4359545dc.jpeg> ;
+                    ns1:name "Le Franc Comtois 🍔🍔" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Steak haché maison, chèvre, miel, salade, crudités et sauce fromagère maison." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ad/64ad4345c7023.jpeg> ;
+                    ns1:name "Le Chèvre miel 🍔🐐🍯" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.99" ] ] ;
+            ns1:name "Nos Burgers Terroir 🍔👨‍🍳" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "8 pièces" ;
+                    ns1:name "Bâtonnets de poulet tikka 🍗🐓" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nuggets halal*" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ad/64ad4567f2e13.jpeg> ;
+                    ns1:name "Nuggets" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 pièces" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ad/64ad45b45bdd5.jpeg> ;
+                    ns1:name "Onion Rings" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Frites de patates douces 🥔🍟" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "10 onion rings, 5 cheeseballs et 5 sticks." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ad/64ad44c0af841.jpeg> ;
+                    ns1:name "Box 20 fritures" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Taille et sauce au choix." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ad/64ad429b81416.jpeg> ;
+                    ns1:name "Frites" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "8 pièces" ;
+                    ns1:name "Bouchées de camembert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nuggets végétale ( on dirait vraiment du poulet)" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ad/64ad45718a66e.jpeg> ;
+                    ns1:name "Nuggets végétal x4" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mélange de 40 tapas frits ( onion rings, sticks de fromage, jalapenos, poulet frits, etc... ), idéal pour une grosse faim , en apéro à partager ou en entrée." ;
+                    ns1:name "Giga box tapas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ad/64ad453b7d057.jpeg> ;
+                    ns1:name "Mozarella Sticks" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Filet de poulet mariné aux épices . Fait maison ( halal ). Nombre de pièces au choix." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ad/64ad45d46d1fa.jpeg> ;
+                    ns1:name "Tenders de poulet 🍗🍗🐓" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ailes de poulet marinées avec saveur barbecue, nombre de pièces au choix." ;
+                    ns1:name "Chicken wings 🍗🍗🍗🍗" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Nos Accompagnements 🍟" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Un burger + frites + boisson 🍔🍟🥤
+\r
+*Option VG disponible*""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ac/64ac29d27557a.jpeg> ;
+                    ns1:name "Menu Burger Original" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.49" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Un burger + frites + boisson 🍔🍟🥤" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ac/64ac29205a197.jpeg> ;
+                    ns1:name "Menu Burger Végétarien" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.49" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Un burger + frites + boisson 🍔🍟🥤
+\r
+*Option VG disponible*""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ac/64ac2885b4d16.jpeg> ;
+                    ns1:name "Menu Burger du Terroir" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Un burger + frites + boisson 🍔🍟🥤
+\r
+*Option VG disponible*""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ac/64ac28074a909.jpeg> ;
+                    ns1:name "Menu Burger du Monde" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Un burger + frites + boisson 🍔🍟🥤
+\r
+*Option VG disponible*""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ac/64ac27f28704e.jpeg> ;
+                    ns1:name "Menu Burger Classique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.40" ] ] ;
+            ns1:name "1 Menu acheté = 4 Nuggets offerts ⭐🍔🍟🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Panacotta fruits rouges 🍰" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tiramisu au kinder. Fait maison. Notre best-seller !!!" ;
+                    ns1:name "Tiramisu Kinder maison 🍰🥞" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Panacotta fruits exotiques 🍰" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Churros servi par 4\r
+Fourrés au chocolat 🍫""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ad/64ad42eaaa653.jpeg> ;
+                    ns1:name "Churros fourrés au chocolat 🍫" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ad/64ad44e3c5863.jpeg> ;
+                    ns1:name "Cheesecake maison" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tiramisu Oreo maison 🎂🥞🍰" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tiramisu framboises chocolat blanc 🍰🍰🍰🍫" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Moelleux au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Nos Desserts 🍰" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Poulet pané maison , double bacon ( non halal ) , double cheddar , crudités et sauce burger maison" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ad/64ad43c6aef44.jpeg> ;
+                    ns1:name "Le Chicken Cheezy Bacon 🍗🧀🥓" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pavé de collin d'Alaska façon \"fish and chips\", salade, tomate et sauce fish." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ad/64ad427feaf78.jpeg> ;
+                    ns1:name "Fish Burger 🍔🌅💧" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Steak haché maison, crudités et sauce au choix." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ad/64ad430944aab.jpeg> ;
+                    ns1:name "Hamburger 🍔🥩" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Steak haché maison, cheddar, crudités et sauce au choix." ;
+                    ns1:name "Cheeseburger 🍔🧀" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Filet de poulet pané maison, galette de pomme de terre, crudités et sauce au choix." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ad/64ad45c07a0e5.jpeg> ;
+                    ns1:name "Supreme burger 🐓🥔" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Le Jack Daniel's 🔥🥃" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Steak de soja, crudités , recette végé au choix." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ad/64ad424202fcf.jpeg> ;
+                    ns1:name "Burger végétarien 🥗" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.49" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Steak haché maison, fromage, poivrons grillés, crudités et sauce mexicaine." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ad/64ad45076d11c.jpeg> ;
+                    ns1:name "Burger spicy 🌡️🌶️" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.49" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 steaks hachés maison, cheddar, oignons grillés et sauce au choix." ;
+                    ns1:name "Hulk burger🥩🥩🥩🥩🥩" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€21.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Steak haché maison, cheddar, bacon (non halal), oeuf, crudités et sauce au choix." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ad/64ad41f7a804e.jpeg> ;
+                    ns1:name "Burger egg 🍳🍔🥓" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.49" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 steak, burrata DOP, tomates confites, jambon italien (non halal), sauce à la truffe noire, et crudités." ;
+                    ns1:name "Le Tartuffo Burger 🧑🍳" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Filet de poulet pané maison, crudités et sauce au choix." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ad/64ad4265a630e.jpeg> ;
+                    ns1:name "Chicken burger 🐓" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Steak haché maison, galette de pomme de terre, cheddar, oignons grillés, crudités et sauce au choix." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ad/64ad45ded171a.jpeg> ;
+                    ns1:name "Texas burger" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 steak, cheddar, chèvre, gorgonzola et sauce 3 fromages." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ad/64ad41cca16b3.jpeg> ;
+                    ns1:name "Burger 3 fromages 🧀🧀🧀" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Gourmand ? Le One Street est pour toi....\r
+2 Steaks hachés maison, double cheddar, oignons, crudités et sauce Burger""" ;
+                    ns1:name "One Street🥩🧀🥩🧀" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Filets de poulet marinés à l'origan, grillés à la plancha, comté, jambon sec, salade, sauce tartare." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ad/64ad43df4dfee.jpeg> ;
+                    ns1:name "Le coq 🐓" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Le Pizz'burger 🍕🍔" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "Nos Burgers Classiques 🍔" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Ben & Jerry's Vanille Pécan 465ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cookie, cream, chocolat, topping sundae chocolat" ;
+                    ns1:name "Ben et Jerrys sundae cookie vermont-ster 427ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème glacée vanille avec des morceaux de pâte de cookie aux pépites de chocolat et des inclusions cacaotées." ;
+                    ns1:name "Ben & Jerry's Cookie Dough 100ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème glacée au chocolat et crème glacée vanille avec des morceaux de brownies fondants et des morceaux de pâte à cookie aux pépites de chocolat." ;
+                    ns1:name "Ben & Jerry's Half Baked 465ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "ben & Jerry's Peanut Butter 100ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ben & Jerry's chocolate fudge brownie 465ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ben & Jerry's Cookie Dough 465ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème glacée caramel avec une sauce au caramel salé, des brownies fondants au cacao maigre et des cookies au chocolat." ;
+                    ns1:name "Ben & Jerry's Chocolate Fudge Brownie 100ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème glacée au beurre de cacahuète avec des morceaux de brownies et une sauce bretzel sucrée-salée" ;
+                    ns1:name "Ben & Jerry's Netflix & Chilll'd 465ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crème glacée caramel avec une sauce au caramel salé, des brownies fondants au cacao maigre et des cookies au chocolat." ;
+                    ns1:name "Ben & Jerry's Caramel Brownie Party 465ml" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.40" ] ] ;
+            ns1:name "Ben & Jerry's ❄️🍨🍧🍦" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Vin rouge Côtes du Rhône 75 cl" ;
+                    ns1:name "Vin rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vin rosé de Provence 75 cl" ;
+                    ns1:name "Vin rosé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crémant d'Alsace 75 cl" ;
+                    ns1:name "Crémant" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ] ;
+            ns1:name "Nos Vins 🍇" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Filet de poulet mariné aux épices cajuns, double cheddar, crudités ,et sauce curry mangue." ;
+                    ns1:name "Le Louisianais 🍔" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Steak haché maison, cheddar, pastrami (non halal), oignons grillés, crudités et sauce Savora." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ad/64ad421aa9e2c.jpeg> ;
+                    ns1:name "Burger le New Yorkais 🍔🍔🍔" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Le Mexicain 🍔🇲🇽" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Filet de poulet mariné aux épices indien, crudités et sauce indienne maison." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ad/64ad4450a9d09.jpeg> ;
+                    ns1:name "L'Indien 🍔" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 steak, double cheddar, double bacon (non hallal) oignon caramélisé au sirop d'érable , crudités et sauce barbecue." ;
+                    ns1:name "Canadien burger 🍔🥓🥓" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Le sicilien 🍔🇮🇹" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Steak haché maison, double cheddar, double bacon (non hallal), oeuf, oignons caramélisés à la bière, crudités et sauce moutarde miel." ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ad/64ad422ff1c3e.jpeg> ;
+                    ns1:name "Burger le Welsh 🍔🍳🥓🧅" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 steak , gorgonzola, coppa ( non halal ), crudités et sauce italienne maison" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/ad/64ad445a001cd.jpeg> ;
+                    ns1:name "L'Italien 🍔🇮🇹" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.50" ] ] ;
+            ns1:name "Nos Burgers du Monde 🍔🌍" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """(Placer ce produit dans votre panier pour en bénéficier, offre cumulable avec la livraison gratuite pour 25 euros d'achat)
+\r
+Pour fêter notre parteneriat, One Street vous offre une boite de 4 nuggets pour un menu acheté ! ⬇️""" ;
+                    ns1:image <https://kooglof.coopcycle.org/media/cache/product_thumbnail/64/b8/64b81ca09f1af.jpeg> ;
+                    ns1:name "1 menu acheté = 4 nuggets offerts 🍗" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ] ;
+            ns1:name "Offres de lancement ⭐" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Sprite (50cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:name "Fuze Tea Citron vert menthe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola (50cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Orangina (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Eau Plate (1.5L)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Eau pétillante (1,5L)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fanta orange (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Ice Tea Pêche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Minute Maid Pomme (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola sans sucres (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Redbull" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Schweppes agrum (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola Cherry (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fuze Tea pêche intense (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Tropico original (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Pulco (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fanta mangue fruit du dragon (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Oasis tropical (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Minute Maid Orange (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Dr Pepper (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Monster original (50cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Sprite (33cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola (1,25L)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola Cherry (50cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Fuze Tea Pêche (40cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Coca-Cola sans sucres (50cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.90" ] ] ;
+            ns1:name "Nos Softs 🥤🧋🧃🍺🍷" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "75cl" ;
+                    ns1:name "Bière 1664 en bouteille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Bière 1664 (50cl)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Desperados" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.90" ] ] ;
+            ns1:name "Nos Bières 🍻" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salade 🥗, tomates 🍅, concombres, jambon sec ( non halal ), comté, croûtons et vinaigrette maison 🏠" ;
+                    ns1:name "La Paysanne 🥗🧀🥓" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade , tomate , concombre, croûtons de pain, parmesan et Aiguillette de poulet végétale" ;
+                    ns1:name "Salade chicken vegetale 🥗🥗🥗" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade 🥗, tomates 🍅, Burrata DOP, et vinaigrette au pesto maisons 🏠" ;
+                    ns1:name "Salade Caprese 🍅🥗" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.99" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Salade, tomates, concombre, poulet pané, parmesan, croûtons et vinaigrette maison 🏠" ;
+                    ns1:name "La Poulette 🐓🥗🧀" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ] ;
+            ns1:name "Nos Salades 🥗" ] .
+

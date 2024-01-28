@@ -1,0 +1,249 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lescoursiersbrestois.coopcycle.org/api/restaurants/21> ns1:hasMenu <https://lescoursiersbrestois.coopcycle.org/en/restaurant/21-le-biorek-brestois#menu> .
+
+<https://lescoursiersbrestois.coopcycle.org/en/restaurant/21-le-biorek-brestois#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/2f/622f29de5e5de.jpeg> ;
+                    ns1:name "Limonade Poem" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/2f/622f3bb906607.jpeg> ;
+                    ns1:name "Jus de pomme Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50cl" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/2a/622a14e437cc8.jpeg> ;
+                    ns1:name "Cristaline" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33cl" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/2a/622a1394f32a3.jpeg> ;
+                    ns1:name "Breizh cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "50cl" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/2a/622a1524a3485.jpeg> ;
+                    ns1:name "Cristaline gazéifié" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Thé glacé bio" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/99/62990312f2e1e.jpeg> ;
+                    ns1:name "JOMO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "20cl" ;
+                    ns1:name "Jus de raisin" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.75" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/45/624596de09952.jpeg> ;
+                    ns1:name "Pipi du Dragon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Boissons 🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Caramel au beurre salé maison bio" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/33/62334ff08d0aa.jpeg> ;
+                    ns1:name "Borek caramel au beurre salé" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pate de riz, glace Jampi bio framboise" ;
+                    ns1:name "mocchi ice cream vegan framboise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "chocolat noir, lait" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/33/6233518767279.jpeg> ;
+                    ns1:name "Borek choco" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pate de riz , sorbet jampi bio passion mangue" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/33/6233507aac387.jpeg> ;
+                    ns1:name "mocchi ice cream vegan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "orange sanguine Bio" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/2f/622f38eb0e2de.jpeg> ;
+                    ns1:name "Fruit" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "fraise, vanille, fruit des bois" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/3a/623a1631a6896.jpeg> ;
+                    ns1:name "Yaourt Fermier" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Desserts 🍰" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salade mix, pomme, algues, vinaigre balsamique de Modène, huile d'olive" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/2f/622f351c7dfb6.jpeg> ;
+                    ns1:name "Salade" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Accompagnements 🥗" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/3a/623a175d95777.jpeg> ;
+                    ns1:name "bières Poèm" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/3a/623a1913a2b2f.jpeg> ;
+                    ns1:name "Bouteille Cotes-de-Provence rosé AOC" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/3a/623a1867e9cda.jpeg> ;
+                    ns1:name "Bouteille Bergerac Blanc AOC" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/3a/623a179394cbe.jpeg> ;
+                    ns1:name "cidre 33cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/3a/623a18dfd6ec6.jpeg> ;
+                    ns1:name "Bouteille Chinon rouge AOC" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/3a/623a18346fdd4.jpeg> ;
+                    ns1:name "Bouteille de Cidre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.50" ] ] ;
+            ns1:name "Boissons alcoolisées 🍷" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Les Mystères de Lou West" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Petites Confidences et Grandes Indiscrétions Tome 1" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Fabriqué dans le bocage normand, les Biobecs\r
+sont des lacets de fruits 100% bio, 100% naturels\r
+et 100% vitaminés. Les fruits sont déshydratés à\r
+basse température pour conserver toutes leurs\r
+vitamines et nutriments.
+\r
+Une explosion de saveurs dans cette alternative\r
+aux bonbons chimiques... Les Biobecs\r
+contiennent 93 % de fruits bio et un soupçon de\r
+sucre roux biologique et c’est tout !
+\r
+Friandise naturelle à la banane et\r
+au chocolat.""" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/2f/622f291990ae8.jpeg> ;
+                    ns1:name "Biobec banane choco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/2f/622f2f79e1527.jpeg> ;
+                    ns1:name "Tartare d'algues Bio" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Petites Confidences et Grandes Indiscrétions Tome 2" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "L'ombre de Rodrigue Casanova" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/2f/622f27d0dc387.jpeg> ;
+                    ns1:name "Pipi du Dragon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ] ;
+            ns1:name "CORNER SHOP💈" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Feta algues" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Lards, mozzarella, feta, fondue d'oignons, épices, persil" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/2f/622f355687432.jpeg> ;
+                    ns1:name "Lards" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Viande hachée, mozzarella, feta, fondue d'oignons, épices, persil" ;
+                    ns1:name "Viande haché" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/2a/622a155f36425.jpeg> ;
+                    ns1:name "Feta épinards" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Légumes de saison" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/2f/622f35f444063.jpeg> ;
+                    ns1:name "Vegan" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Fromage de chèvre, Miel, mozzarella, feta, fondue d'oignons, épices, persil" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/2f/622f359c169ba.jpeg> ;
+                    ns1:name "Chèvre Miel" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Champignons, mozzarella, feta, fondue d'oignons, épices, persil" ;
+                    ns1:name "Champignons" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lescoursiersbrestois.coopcycle.org/media/cache/product_thumbnail/62/2a/622a15fe7dde7.jpeg> ;
+                    ns1:name "épinard" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "fondue de poireaux, mozzarella, feta, fondue d'oignons, épices, persil" ;
+                    ns1:name "Poireaux" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.00" ] ] ;
+            ns1:name "BOREK 🌮" ] .
+

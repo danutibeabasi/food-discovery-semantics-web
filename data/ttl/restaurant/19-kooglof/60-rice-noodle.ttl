@@ -1,0 +1,49 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://kooglof.coopcycle.org/api/restaurants/60> a ns1:Restaurant ;
+    ns1:address <https://kooglof.coopcycle.org/api/addresses/31308> ;
+    ns1:bannerImage "https://kooglof.coopcycle.org/media/cache/restaurant_banner/65/6f/656f4cc56b4cb.png" ;
+    ns1:description """➡️ Chez vous ou au bureau ! Livraison gratuite !\r
+\r
+Livraison de repas à Strasbourg et alentours !\r
+\r
+- Livraison gratuite* 🎉\r
+- Précommandes jusqu'à 11h15, livraisons avant 12h15 ⌛\r
+- Zone desservie : Mittelhausbergen, Espace Européen de l'entreprise, Cronenbourg, Quartier Gare, Contades 📍\r
+\r
+Les saveurs de l'Asie livrées au bureau !""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.861066e+01 ;
+            ns1:longitude 7.711675e+00 ] ;
+    ns1:image <https://kooglof.coopcycle.org/media/cache/restaurant_thumbnail/65/6f/656f4dac87780.png> ;
+    ns1:name "Rice Noodle 🥡🏷️" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "12:15" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:15" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "9.90" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "0.00" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://kooglof.coopcycle.org/en/restaurant/60-rice-noodle" ] ] ;
+    ns1:sameAs <https://kooglof.coopcycle.org/en/restaurant/60-rice-noodle> ;
+    ns1:url <https://kooglof.coopcycle.org/en/restaurant/60-rice-noodle> .
+
+<https://kooglof.coopcycle.org/api/addresses/31308> a ns1:PostalAddress ;
+    ns1:name "Rice Noodle 🥡🏷️" ;
+    ns1:streetAddress "2 Place de Paris, 67300 Schiltigheim, France" ;
+    ns1:telephone "+33388958270" .
+

@@ -1,0 +1,36 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://lcr.coopcycle.org/api/restaurants/16> a ns1:Restaurant ;
+    ns1:address <https://lcr.coopcycle.org/api/addresses/1400> ;
+    ns1:bannerImage "https://lcr.coopcycle.org/media/cache/restaurant_banner/65/6e/656e00172ce47.png" ;
+    ns1:description "Black Temple Food, c'est la bonne adresse de Rennes à deux pas de la basilique Notre-Dame-de-Bonne-Nouvelle. Nous vous proposons une cuisine aux saveurs des Caraïbes dans une ambiance chaleureuse et décontractée. Des plats Créoles et Latino, Tapas & Rhums, ainsi que les meilleurs Mojitos de Rennes, Accras de Morue, Empanadas Colombienne, Rougail saucisse et un large choix pour les végétariens, vous trouverez forcément votre bonheur." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.81144e+01 ;
+            ns1:longitude -1.68163e+00 ] ;
+    ns1:image <https://lcr.coopcycle.org/media/cache/restaurant_thumbnail/61/a0/61a0333d5fdb9.jpg> ;
+    ns1:name "Black Temple Food" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "21:50" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:15" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://lcr.coopcycle.org/en/restaurant/16-black-temple-food" ] ] ;
+    ns1:sameAs <https://lcr.coopcycle.org/en/restaurant/16-black-temple-food> ;
+    ns1:url <https://lcr.coopcycle.org/en/restaurant/16-black-temple-food> .
+
+<https://lcr.coopcycle.org/api/addresses/1400> a ns1:PostalAddress ;
+    ns1:name "Black Temple Food" ;
+    ns1:streetAddress "1 Rue Saint-Louis, 35000 Rennes, France" ;
+    ns1:telephone "+33299389465" .
+

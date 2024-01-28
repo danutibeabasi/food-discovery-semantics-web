@@ -1,0 +1,39 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://dinan.coopcycle.org/api/restaurants/4> a ns1:Restaurant ;
+    ns1:address <https://dinan.coopcycle.org/api/addresses/121> ;
+    ns1:description "Le Local est un lieu de découverte pour vos papilles avec une cuisine simple, de saison et avec de bon produits locaux." ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.845668e+01 ;
+            ns1:longitude -2.051957e+00 ] ;
+    ns1:image <https://dinan.coopcycle.org/media/cache/restaurant_thumbnail/63/44/63444e11467b9.png> ;
+    ns1:name "Le Local" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:00" ;
+            ns1:dayOfWeek "Friday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "11:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "0.00" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "4.80" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://dinan.coopcycle.org/en/restaurant/4-le-local" ] ] ;
+    ns1:sameAs <https://dinan.coopcycle.org/en/restaurant/4-le-local> ;
+    ns1:url <https://dinan.coopcycle.org/en/restaurant/4-le-local> .
+
+<https://dinan.coopcycle.org/api/addresses/121> a ns1:PostalAddress ;
+    ns1:name "Le Local" ;
+    ns1:streetAddress "2 Rue Capitaine Hesry, 22100 Dinan, France" ;
+    ns1:telephone "+33296391208" .
+

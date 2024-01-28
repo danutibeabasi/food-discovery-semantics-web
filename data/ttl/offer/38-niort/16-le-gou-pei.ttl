@@ -1,0 +1,186 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://niort.coopcycle.org/api/restaurants/16> ns1:hasMenu <https://niort.coopcycle.org/en/restaurant/16-le-gou-pei#menu> .
+
+<https://niort.coopcycle.org/en/restaurant/16-le-gou-pei#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Coca 33CL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cette limonade est le premier réflexe d'un créole expatrié ou d'un touriste nostalgique." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/da/60da12eaa2e08.jpeg> ;
+                    ns1:name "Cot American" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cette limonade est le premier réflexe d'un créole expatrié ou d'un touriste nostalgique." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/da/60da12400a563.jpeg> ;
+                    ns1:name "Cot citron" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cette limonade est le premier réflexe d'un créole expatrié ou d'un touriste nostalgique." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/da/60da13741dcfc.jpeg> ;
+                    ns1:name "Cot Ananas" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ] ;
+            ns1:name "Les Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/e2/60e2ddc5ce889.jpeg> ;
+                    ns1:name "Confiture Tomate" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Spécialité de la Réunion, cette pâte de piment rouge apportera une touche tropicale à vos plats." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/e2/60e2e9907bf75.jpeg> ;
+                    ns1:name "pâte de piment" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/e2/60e2de89d5b59.jpeg> ;
+                    ns1:name "confiture Papaye" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.00" ] ] ;
+            ns1:name "épiceries" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "ce punch est réalisé à partir de rhum blanc Isautier et de fruits de la passion." ;
+                    ns1:name "Punch Passion Isautier 70cl" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ce punch Isautier Coco est réalisé à partir de noix de coco récoltées sur l’île de la Réunion et de rhum blanc Isautier." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/e2/60e2e1064a8ec.jpeg> ;
+                    ns1:name "Punch coco Isautier 70 cl 18°" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Isautier Arrangé Cahouète est un assemblage onctueux de rhum, de crème et de cacahuètes. ...N'hésitez d'ailleurs pas à le mettre au congélateur pour le servir frappé." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/da/60da176914a4a.jpeg> ;
+                    ns1:name "Rhum arrangé Cahuéte 50 cl" ;
+                    ns1:nutrition "Milk",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ce punch Isautier Vanille est réalisé à partir de vanille récoltée sur l’île de la Réunion et de rhum blanc Isautier." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/e2/60e2e21908a4a.jpeg> ;
+                    ns1:name "Punch Vanille Isautier 70 cl 18°" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Faites-vous même votre rhum arrangé avec le mélange d'épices" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/e2/60e2e5ac0badd.jpeg> ;
+                    ns1:name "Préparations pour Rhums arrangé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Isautier Arrangé Letchi Passion est une création originale de la célèbre maison de Saint-Pierre de La Réunion. Ce rhum arrangé a été réalisé à partir de rhum Isautier. On y ajoute du sucre de canne et des fruits exotiques typiquement réunionnais." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/e2/60e2e471b456f.jpeg> ;
+                    ns1:name "Rhum arrangé Letchi passion 40°" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Ce punch Isautier Mangue est réalisé à partir de mangues récoltée sur l’île de la Réunion et de rhum blanc Isautier." ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/e2/60e2e36754cb5.jpeg> ;
+                    ns1:name "Punch mangue Isautier 70 cl 18°" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.00" ] ] ;
+            ns1:name "Boissons Alcoolisées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/e2/60e2e6a3542f3.jpeg> ;
+                    ns1:name "Gâteau Ananas/Coco" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/e2/60e2db7e525d8.jpeg> ;
+                    ns1:name "Bavarois Passion" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/e2/60e2dfbc967c9.jpeg> ;
+                    ns1:name "Panna Cotta" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/e2/60e2e6eb6c0f6.jpeg> ;
+                    ns1:name "Gateau Patate Douce" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Les Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Nem poulet" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/e2/60e2d8fc206be.jpeg> ;
+                    ns1:name "Nem" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "5 Petites bouchées de viande cuite à la vapeur, parfumée et entourée d'une pâte fondante" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/e2/60e2da887331d.jpeg> ;
+                    ns1:name "Bouchons Poulet Combava" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/da/60da0e3a0cee3.jpeg> ;
+                    ns1:name "Samoussas Poulet 5 pieces" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Les tapas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Plat traditionnel réunionnais, à base de saucisses de porc, curcuma, gingembre et tomate servis avec du riz et légumes secs" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/da/60da0880c2e88.jpeg> ;
+                    ns1:name "Rougail saucisses" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Plat traditionnel réunionnais, à base de poisson et crustacés Gingembre, curcuma et tomates servis avec riz et légumes secs" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/da/60da0b60b4524.jpeg> ;
+                    ns1:name "Carry Poisson" ;
+                    ns1:nutrition "Crustaceans",
+                        "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Plat à base de légumes servis avec du riz et légumes secs" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/da/60da0d403f6ce.jpeg> ;
+                    ns1:name "Carry Végé" ;
+                    ns1:nutrition "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Boudin Noir avec sa sauce créole servis avec riz et légumes secs" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/da/60da0d025f12c.jpeg> ;
+                    ns1:name "Boudin noir" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Plat traditionnel réunionnais, à base de poulet, Gingembre, curcuma et tomates servis avec riz et légumes secs" ;
+                    ns1:image <https://niort.coopcycle.org/media/cache/product_thumbnail/60/da/60da0a5c3e616.jpeg> ;
+                    ns1:name "Carry Poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.00" ] ] ;
+            ns1:name "Plats" ] .
+

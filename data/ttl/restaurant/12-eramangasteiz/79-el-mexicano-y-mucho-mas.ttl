@@ -1,0 +1,39 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://eramangasteiz.coopcycle.org/api/restaurants/79> a ns1:Restaurant ;
+    ns1:address <https://eramangasteiz.coopcycle.org/api/addresses/107912> ;
+    ns1:bannerImage "https://eramangasteiz.coopcycle.org/media/cache/restaurant_banner/65/6d/656dbba32d2d0823582038.jpg" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.284403e+01 ;
+            ns1:longitude -2.681309e+00 ] ;
+    ns1:image <https://eramangasteiz.coopcycle.org/media/cache/restaurant_thumbnail/62/6c/626c248b00e24.jpg> ;
+    ns1:name "El Mexicano y Mucho Más" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "23:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday",
+                "Thursday",
+                "Wednesday" ;
+            ns1:opens "19:50" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "16:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Sunday" ;
+            ns1:opens "12:50" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "es" ;
+                    ns1:urlTemplate "https://eramangasteiz.coopcycle.org/en/restaurant/79-el-mexicano-y-mucho-mas" ] ] ;
+    ns1:sameAs <https://eramangasteiz.coopcycle.org/en/restaurant/79-el-mexicano-y-mucho-mas> ;
+    ns1:url <https://eramangasteiz.coopcycle.org/en/restaurant/79-el-mexicano-y-mucho-mas> .
+
+<https://eramangasteiz.coopcycle.org/api/addresses/107912> a ns1:PostalAddress ;
+    ns1:name "El Mexicano y Mucho Más" ;
+    ns1:streetAddress "Aranzabal Kalea, 9, 01008 Gasteiz, Araba, Spain" ;
+    ns1:telephone "+34945330576" .
+

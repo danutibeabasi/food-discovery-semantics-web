@@ -1,0 +1,21 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://demo.coopcycle.org> a ns1:Service ;
+    ns1:areaServed [ a ns1:Place ;
+            ns1:address [ a ns1:PostalAddress ;
+                    ns1:addressCountry "ar" ;
+                    ns1:addressLocality "Buenos Aires" ] ;
+            ns1:geo [ a ns1:GeoCoordinates ;
+                    ns1:latitude -3.460368e+01 ;
+                    ns1:longitude -5.838156e+01 ] ] ;
+    ns1:description "<p>La Federación Argentina de Cooperativas de Trabajo de Tecnología, Innovación y Conocimiento es un espacio para que las cooperativas de trabajo del sector intercambien y construyan en conjunto. El objetivo principal de la Federación es fortalecer a sus miembros y difundir esta forma de entender el trabajo y las tecnologías.</p>"@es ;
+    ns1:name "FACTTIC" ;
+    ns1:provider [ a ns1:Organization ;
+            ns1:name "CoopCycle" ] ;
+    ns1:sameAs <https://twitter.com/facttic>,
+        <https://www.facebook.com/facttic/>,
+        <https://www.instagram.com/facttic.ar/> ;
+    ns1:serviceType "DeliveryService" ;
+    ns1:url <https://demo.coopcycle.org> .
+

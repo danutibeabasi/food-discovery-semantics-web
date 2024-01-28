@@ -1,0 +1,52 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://beefast.coopcycle.org/api/restaurants/30> a ns1:Restaurant ;
+    ns1:address <https://beefast.coopcycle.org/api/addresses/2920> ;
+    ns1:description """Mealk vous propose une cantine du midi, épicerie & fromagerie avec un maximum de produits bio & locaux avec pour base des produits laitiers sublimés par une cuisine de savoir faire et de tradition. \r
+\r
+La carte est évolutive en fonction des saisons !""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.987554e+01 ;
+            ns1:longitude 2.277711e+00 ] ;
+    ns1:image <https://beefast.coopcycle.org/media/cache/restaurant_thumbnail/62/3c/623c3c947b9c6.jpeg> ;
+    ns1:name "Mealk" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "14:45" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "10:30" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "19:00" ;
+            ns1:dayOfWeek "Friday",
+                "Monday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "18:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "8.90" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.50" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://beefast.coopcycle.org/en/restaurant/30-mealk" ] ] ;
+    ns1:sameAs <https://beefast.coopcycle.org/en/restaurant/30-mealk> ;
+    ns1:url <https://beefast.coopcycle.org/en/restaurant/30-mealk> .
+
+<https://beefast.coopcycle.org/api/addresses/2920> a ns1:PostalAddress ;
+    ns1:name "Mealk" ;
+    ns1:streetAddress "14 Avenue Paul Claudel, 80000 Amiens, France" ;
+    ns1:telephone "+33322724071" .
+

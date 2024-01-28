@@ -1,0 +1,49 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://zampate.coopcycle.org/api/restaurants/1> a ns1:Restaurant ;
+    ns1:address <https://zampate.coopcycle.org/api/addresses/1> ;
+    ns1:description """Un local de 150 m2 situado en el corazón de la ciudad, con una ludoteca que cuenta con más de 100 juegos de mesa. \r
+Disfruta de nuestra gastronomía: Tacos, bocatas, pizzas, raciones y tartas caseras marinadas con 8 grifos de cerveza artesana (Toda nuestra carta es sin gluten)""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.164038e+01 ;
+            ns1:longitude -8.858756e-01 ] ;
+    ns1:image <https://zampate.coopcycle.org/media/cache/restaurant_thumbnail/63/b8/63b885425afe8.jpg> ;
+    ns1:name "MONONOKE" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "22:30" ;
+            ns1:dayOfWeek "Sunday",
+                "Wednesday" ;
+            ns1:opens "20:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "23:00" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday" ;
+            ns1:opens "20:00" ],
+        [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "15:30" ;
+            ns1:dayOfWeek "Saturday",
+                "Sunday" ;
+            ns1:opens "13:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:priceSpecification [ a ns1:DeliveryChargeSpecification ;
+                    ns1:appliesToDeliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+                    ns1:eligibleTransactionVolume [ a ns1:PriceSpecification ;
+                            ns1:price "12.50" ;
+                            ns1:priceCurrency "EUR" ] ;
+                    ns1:price "3.50" ;
+                    ns1:priceCurrency "EUR" ] ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "es" ;
+                    ns1:urlTemplate "https://zampate.coopcycle.org/en/restaurant/1-mononoke" ] ] ;
+    ns1:sameAs <https://zampate.coopcycle.org/en/restaurant/1-mononoke> ;
+    ns1:url <https://zampate.coopcycle.org/en/restaurant/1-mononoke> .
+
+<https://zampate.coopcycle.org/api/addresses/1> a ns1:PostalAddress ;
+    ns1:name "MONONOKE" ;
+    ns1:streetAddress "Camino de las Torres, 116, Zaragoza, España" ;
+    ns1:telephone "+34876443246" .
+

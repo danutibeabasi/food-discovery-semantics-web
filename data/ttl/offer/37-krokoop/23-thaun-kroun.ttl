@@ -1,0 +1,319 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://krokoop.coopcycle.org/api/restaurants/23> ns1:hasMenu <https://krokoop.coopcycle.org/en/restaurant/23-thaun-kroun#menu> .
+
+<https://krokoop.coopcycle.org/en/restaurant/23-thaun-kroun#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Nouilles de blé, poulet halal, légumes, cacahuètes" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/e3/63e3dcf5ccb74.jpeg> ;
+                    ns1:name "Nouilles sautées au poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nouilles de riz, bœuf, légumes, cacahuètes." ;
+                    ns1:name "Pad Thaï au bœuf" ;
+                    ns1:nutrition "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nouilles de blé, bœuf, légumes, cacahuètes" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/e3/63e3d8f6f1735.jpeg> ;
+                    ns1:name "Nouilles sautées au bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nouilles de riz, poulet halal, légumes, cacahuètes" ;
+                    ns1:name "Pad Thai poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nouilles de riz, légumes, cacahuètes" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/e3/63e3d79a8aa76.jpeg> ;
+                    ns1:name "Pad Thaï aux crevettes" ;
+                    ns1:nutrition "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nouilles de blé, crevettes, légumes, cacahuètes." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/e3/63e3dd7f95e43.jpeg> ;
+                    ns1:name "Nouilles sautées aux crevettes" ;
+                    ns1:nutrition "Crustaceans",
+                        "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ] ;
+            ns1:name "Nouilles et pad thaï" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Salade de fruits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Dessert Thaïlandais, riz gluant au lait de coco et mangue. Présence de graines de sésame." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/e3/63e3d9636b700.jpeg> ;
+                    ns1:name "Khao Niew Ma Mouang (Mango Sticky Rice)" ;
+                    ns1:nutrition "Sesame seeds" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 pièces. Riz gluant glacé à la banane et riz gluant glacé au Taro" ;
+                    ns1:name "Gâteau de riz gluant" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "A réchauffer 30 secondes chez soi" ;
+                    ns1:name "Fondant au chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Dessert à base de riz gluant à la noix de coco. A réchauffer 30 secondes chez soi." ;
+                    ns1:name "Perle de coco" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Desserts" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bœuf et légumes. Servi avec accompagnement au choix." ;
+                    ns1:name "Bœuf sauté à la sauce huitre" ;
+                    ns1:nutrition "Molluscs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tartare de poulet avec ses épices et ses herbes. Servi avec accompagnement au choix. Spécialité Thaïlandaise et Laotienne." ;
+                    ns1:name "Lab au poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce thailandaise curry rouge, lait de coco, poulet et légumes." ;
+                    ns1:name "Poulet au curry rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz, bœuf mariné et œuf. Spécialité Vietnamienne." ;
+                    ns1:name "Riz au Bœuf Loc Lac" ;
+                    ns1:nutrition "Eggs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce Thailandaise curry vert relevé, lait de coco, poulet et légumes." ;
+                    ns1:name "Poulet au curry vert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Seiches, légumes, lait de coco et basilic Thaï." ;
+                    ns1:name "Seiches sautées au basilic Thaï" ;
+                    ns1:nutrition "Molluscs" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "poulet halal" ;
+                    ns1:name "Riz sauté au poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce Thaïlandaise curry rouge, lait de coco, crevettes et légumes." ;
+                    ns1:name "Crevettes au curry rouge" ;
+                    ns1:nutrition "Crustaceans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tartare de bœuf avec ses épices et ses herbes. Servi avec accompagnement au choix. Spécialité Thaïlandaise et Laotienne." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/e3/63e3ddfd1a7a8.jpeg> ;
+                    ns1:name "Lab au bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crevettes, basilic Thaïlandais  et légumes. Servi avec accompagnement au choix." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/e3/63e3de91a1312.jpeg> ;
+                    ns1:name "Crevettes sautées au basilic Thaï" ;
+                    ns1:nutrition "Crustaceans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Riz sauté au bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet halal, sauce, noix de cajou et légumes. Servi avec accompagnement au choix" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/e3/63e3d89aa69a5.jpeg> ;
+                    ns1:name "Poulet sauté aux noix de cajou" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Riz sauté aux crevettes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Gambas, basilic Thaï et légumes croquants. Servi avec accompagnement au choix." ;
+                    ns1:name "Gambas sautées au basilic Thaï" ;
+                    ns1:nutrition "Crustaceans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauce Thailandaise curry vert relevé, lait de coco, crevettes et légumes." ;
+                    ns1:name "Crevettes au curry vert" ;
+                    ns1:nutrition "Crustaceans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Bœuf, basilic Thaï et légumes croquants. Servi avec accompagnement au choix." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/e3/63e3ddbee4ec8.jpeg> ;
+                    ns1:name "Boeuf sauté au Basilic Thaï" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ] ;
+            ns1:name "Plats chauds" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "4 pièces. Sans salades, ni menthe." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/e3/63e3db306a6a7.jpeg> ;
+                    ns1:name "Nems au poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "4 pièces. Sans salade, ni menthe." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/e3/63e3dad1e5ac3.jpeg> ;
+                    ns1:name "Nems au porc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "2 pièces. Crudités, crevettes et poulet hallal." ;
+                    ns1:name "Rouleaux de printemps" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "Nems aux légumes" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "3 pièces" ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/e3/63e3dbb9ba947.jpeg> ;
+                    ns1:name "Samoussas au bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ] ;
+            ns1:name "Entrées" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Une portion seule." ;
+                    ns1:name "Riz gluant" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 portion seule. Sans viandes." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/e3/63e3d9e2da699.jpeg> ;
+                    ns1:name "Riz cantonnais" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 portion seule." ;
+                    ns1:name "Riz blanc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.50" ] ] ;
+            ns1:name "Riz" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Soupe de gambas à la citronnelle" ;
+                    ns1:nutrition "Crustaceans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€17.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Soupe aux Crevettes. Spécialité Laotienne." ;
+                    ns1:name "Tom Yum Kung" ;
+                    ns1:nutrition "Crustaceans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Soupe de bœuf. La soupe pho est vendue en deux parties ( le bouillon est dans une boite à part )." ;
+                    ns1:name "Soupe Pho" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€16.00" ] ] ;
+            ns1:name "Les soupes repas" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Bœuf, crudités, sauce maison, tomates, poivrons." ;
+                    ns1:name "Salade Thaï au Bœuf" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Spécialité Vietnamienne à base de vermicelles de riz, bœuf, cacahuètes, herbes fraiches et 2 nems et sauce nems." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/e3/63e3dc4c552d8.jpeg> ;
+                    ns1:name "Salade Bo Bun" ;
+                    ns1:nutrition "Peanuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Poulet Hallal, crudités, sauce maison, tomates, poivrons." ;
+                    ns1:name "Salade Thaï au poulet" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Crevettes, crudités, sauce maison, tomates et poivrons." ;
+                    ns1:name "Salade Thaï aux crevettes" ;
+                    ns1:nutrition "Crustaceans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Carotte râpé, Papaye râpé, sauce. Spécialité Laotienne." ;
+                    ns1:image <https://krokoop.coopcycle.org/media/cache/product_thumbnail/63/e3/63e3dc9ebd3dd.jpeg> ;
+                    ns1:name "Salade de papaye" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ] ;
+            ns1:name "Salades gourmandes" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:name "Coca cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:name "Tropico ( tropical )" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:name "Orangina" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:name "San Pellegrino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:name "Coca cola zéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "33 cl." ;
+                    ns1:name "Perrier" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "25cl." ;
+                    ns1:name "Boisson à base de litchis" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.70" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Heineken" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Alcool 5%, 33 cl." ;
+                    ns1:name "Tsingtao" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Alcool 5%, 33 cl." ;
+                    ns1:name "Singha Thaï" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Alcool 5%, 33 cl." ;
+                    ns1:name "Chang" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "Bières" ] .
+

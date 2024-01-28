@@ -1,0 +1,155 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lescoursiersnanceiens.coopcycle.org/api/restaurants/37> ns1:hasMenu <https://lescoursiersnanceiens.coopcycle.org/en/restaurant/37-seves#menu> .
+
+<https://lescoursiersnanceiens.coopcycle.org/en/restaurant/37-seves#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Pomme, gingembre et yuzu.\r
+(80mL) \r
+Pressé à froid à la presse hydraulique.""" ;
+                    ns1:name "Twister 🚨" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "Shot" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Eau filtrée, hibiscus, verveine, menthe, sirop d’agave, citron et orange.
+\r
+250mL\r
+A boire chaud ou froid.""" ;
+                    ns1:name "Purple Rain 🕺🏽" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ] ;
+            ns1:name "Brew" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Jus vert à base de légumes principalement.\r
+En fonction des fruits et légumes de saison et de l’inspiration du\r
+chef.
+\r
+250mL\r
+Pressé à froid à la presse hydraulique.""" ;
+                    ns1:name "Detox Juice 🥒" ;
+                    ns1:nutrition "Celery" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Jus à base de fruits principalement.\r
+En fonction des fruits et légumes de saison et de l’inspiration du\r
+chef.
+\r
+250mL\r
+Pressé à froid à la presse hydraulique.""" ;
+                    ns1:name "Daily Juice 🍎" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ] ;
+            ns1:name "Juice" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Lait d'amande maison pressé à froid (à la presse hydraulique), accompagné de cannelle, badiane, cardamome, piment de Cayenne. 
+\r
+250mL\r
+Légèrement sucré au sirop d'agave \r
+A boire chaud ou froid""" ;
+                    ns1:name "Chaï Latte" ;
+                    ns1:nutrition "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.40" ] ] ;
+            ns1:name "Mylk" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Fleur de sel fumée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """100g\r
+Clusters de fruits à coque, faits maison.\r
+Avoine, noix, graine de courge, épeautre, sirop d'agave, noisette, amande, noix de coco râpée, cannelle.""" ;
+                    ns1:name "Granola" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Moutarde fumée" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """200g\r
+Fait maison""" ;
+                    ns1:name "Praliné amande" ;
+                    ns1:nutrition "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.40" ] ] ;
+            ns1:name "Epicerie" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Chocolat 64% et noix de pécan" ;
+                    ns1:name "Brownie" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Chocolat, amande et praliné (au choix)" ;
+                    ns1:image <https://lescoursiersnanceiens.coopcycle.org/media/cache/product_thumbnail/61/d8/61d81e541f9cc.jpeg> ;
+                    ns1:name "Cookie 🍪" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "Gaspacho 🥣 300 - 400 mL" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Noix de coco fraîche ouverte qui contient de l’eau de coco fraîche à boire et de la chair de coco fraîche à manger pour se rappeler (ou s’imaginer 😏) les plages d’été 🌴" ;
+                    ns1:name "Coco fraîche 🧉" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "En ce moment : pain d’épices fait maison" ;
+                    ns1:name "La part de cake" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Base açaï, banane et lait d’amande maison\r
+Toppings : banane, granola maison, fruits de saison, baies de goji, graines de chia.""" ;
+                    ns1:name "Superfood bowl" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:name "BAO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Pain à l'ancienne, guacamole aux herbes maison, avocat tranché, moutarde fumée, réduction de kalamensi." ;
+                    ns1:name "Avocado Toast 🥑" ;
+                    ns1:nutrition "Cereals containing gluten" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Granola maison (avoine, noix, graine de courge, épeautre, sirop d’agave, noisette, amande, noix de coco râpée, cannelle) et baies de goji. \r
+Avec ou sans lait, animal ou végétal""" ;
+                    ns1:name "Granola bowl" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.20" ] ] ;
+            ns1:name "Breakfast & lunch" ] .
+

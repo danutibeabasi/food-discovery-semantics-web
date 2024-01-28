@@ -1,0 +1,786 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://coursiersmontpellier.coopcycle.org/api/restaurants/128> ns1:hasMenu <https://coursiersmontpellier.coopcycle.org/en/restaurant/128-rock-n-rolls-mtp#menu> .
+
+<https://coursiersmontpellier.coopcycle.org/en/restaurant/128-rock-n-rolls-mtp#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, algue, saumon.\r
+🚨Allergènes: poisson
+\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d09cfc2843.jpeg> ;
+                    ns1:name "BLACK saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ] ;
+            ns1:name "💥OFFRE 1 ACHETÉ=1 OFFERT💥" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """🔸Riz sushi, tofu selon arrivage, salade fraîche, carottes râpées, chou rouge, concombre et oignons frits, le tout enveloppé dans une feuille d’algue nori.\r
+🚨Allergènes : soja, gluten \r
+💡Tu peux choisir une sauce au choix que l’on dose directement dans ton rouleau, On te recommande la sauce Aigre douce ou les Sauces Soja🍶.""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/49/6549446c9aff8.jpeg> ;
+                    ns1:name "🌿GREENGO SB vegan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """🔹Riz sushi, creamcheese, salade fraîche, guacamole maison, carottes râpées, chou rouge, courgettes grillées marinées, nachos croquants, le tout enveloppé dans une feuille d’algue nori.\r
+🚨Allergènes: lactose, sulfites. \r
+💡Tu peux choisir une sauce au choix que l’on dose directement dans ton rouleau, On te recommande la sauce aigre douce!""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/49/6549439e95d99.jpeg> ;
+                    ns1:name "🌱VEGETA SB" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """🔸Riz sushi, saumon tartare*, salade, carottes râpées, guacamole maison, chou rouge, oignons frits le tout enveloppé dans une feuille d’algue nori.🚨Allergènes: poisson, soja, sésame, gluten. 
+\r
+💡Tu peux choisir une sauce au choix que l’on dose directement dans ton rouleau, on te recommande la sauce soja sucrée maison🍶
+\r
+. ℹ️ *Le saumon tartare est préparé avec une sauce secrète maison à base de sauce soja et de sésame et un peu de coriandre pour la fraîcheur, offrant une combinaison harmonieuse d'umami avec des notes de noisette.😋""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/49/6549427c5c116.jpeg> ;
+                    ns1:name "🔴JAPAN SB" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """✨Crée ton propre sushi-burrito selon tes préférences ! 🧑‍🍳
+\r
+Sur une base d'algue nori et de riz sushi, sélectionne 1 protéine💪,3 crudités🥬 1 Twist🌀 et 1 Topping💫 et 1 sauce au choix
+\r
+Profite d'une expérience sur mesure avec notre Sushi-Burrito Création, adapté à tes goûts et préférences.""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/49/654944d63652d.jpeg> ;
+                    ns1:name "👌SUSHI-BURRITO CRÉATION" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """🔹Riz sushi, poisson façon ceviche*, salade, guacamole, carotte râpées, oignons rouges, coriandre, maïs grillé chulpi, enveloppé dans de l'algue nori.\r
+🚨Allergènes: poisson \r
+💡 Tu peux choisir une sauce au choix que l’on dose directement dans ton rouleau, on te recommande la sauce Spicy Mango pour une touche légère de caliente.❤️‍🔥\r
+. ℹ️* Le Ceviche est à base de saumon cru préparé dans une marinade au citron vert fraîchement pressé, de coriandre finement ciselée apportant une note acidulée et équilibrée au plat, relevée traditionnellement par du piment""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/49/6549430443960.jpeg> ;
+                    ns1:name "🦙PERÙ SB" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€13.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """🔸Riz sushi, poulet pané, salade, guacamole, carottes râpées, oignons rouges, cheddar fondant et nachos, le tout enveloppé dans une feuille d’algue nori. \r
+🚨Allergènes: gluten, lactose. \r
+💡Tu peux choisir une sauce au choix que l’on dose directement dans ton rouleau, On te recommande la sauce Spicy Mango.""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/49/6549434746e27.jpeg> ;
+                    ns1:name "🐔POLLO SB" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """🔹Mousse de thon cuit mayo maison, avocat, creamcheese, tomates cerises, concombre, salade, oignons rouges, croûtons.🚨Allergènes: poisson, lactose, gluten
+\r
+💡Tu peux choisir une sauce au choix que l’on dose directement dans ton rouleau, on te conseille les sauces mayo sriracha ou soja sucrée maison.""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/53/65536a3c6c26e.jpeg> ;
+                    ns1:name "🐟ATÚN" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ] ;
+            ns1:name "🌯SUSHI-BURRITOS🌯" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Profite de notre eau minérale en bouteille de 50cl pour rester hydraté(e) et ressentir une sensation de fraîcheur à chaque gorgée. Parce que comme l'a dit un grand homme: \"L'eau c' est la vie, dans 10 ou 20 ans y'en aura plus\"" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/49/65493677750d6.jpeg> ;
+                    ns1:name "🟦Eau Minérale" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€1.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Découvre le Fuzzetea thé vert saveur citron vert et menthe en canette 33cl, une boisson rafraîchissante et délicieusement parfumée.🥰" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/49/654926f09a069.jpeg> ;
+                    ns1:name "🟢Fuzetea Citron Vert Menthe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Découvre le Fuzzetea thé noir saveur pêche en canette 33cl, une boisson rafraîchissante et délicieusement parfumée.🥰" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/49/65492b14da199.jpeg> ;
+                    ns1:name "🟠Fuzzetea Pêche" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Découvre la San Pellegrino, une eau pétillante italienne de renommée mondiale, dans sa canette de 33cl." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/49/65493761a553a.jpeg> ;
+                    ns1:name "🟢San Pelegrino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Le Coca-Cola Zéro, une boisson rafraîchissante sans sucre en canette de 33cl. 🏃Cette version zéro sucre offre une expérience gustative intense et rafraîchissante, idéale pour les amateurs de Coca-Cola qui cherchent une option sans sucre." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/49/654926255664b.jpeg> ;
+                    ns1:name "⚫Coca-Cola Zéro" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Quilmes est une bière blonde qui nous vient d'Argentine. Elle est brassée dans la ville de Zarate non loin de Buenos Aires. \r
+Cette Lager légère et rafraîchissante vous dévoile une robe jaune pâle avec une fine mousse blanche pour des arômes de malt, de fleurs et de fruits.\r
+C'est une bière que vous allez apprécier aussi bien en apéritif que durant un repas.""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/49/654918261c2b3.jpeg> ;
+                    ns1:name "Quilmes - Bière Argentine - Pils - 4,8°" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Le Club Mate est une boisson rafraîchissante à base de yerba mate, une plante traditionnelle d'Amérique du Sud. Énergisante et stimulante elle est connue pour son goût distinctif, légèrement amer et avec des notes herbacées. 🍃\r
+Le Club Mate est apprécié par de nombreux amateurs de boissons alternatives et offre une alternative unique aux sodas traditionnels.\r
+Bouteille en verre de 33cl.""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/49/654927ef746c2.jpeg> ;
+                    ns1:name "🟨Club Maté" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Découvre le Coca-Cola, l'emblématique boisson rafraîchissante en canette de 33cl. \r
+🌡️Nos boissons sont conservés au réfrigérateur pour garantir leur fraîcheur jusqu'à ta porte.🤩""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/49/6549184c55d21.jpeg> ;
+                    ns1:name "🔴Coca-Cola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ] ;
+            ns1:name "🥤BOISSONS🥤" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, avocat, algue\r
+vendu à l’unité\r
+💥Chaque nigiri est confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1fcd737c7.jpeg> ;
+                    ns1:name "SUSHI avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, algue, avocat, fromage frais, sésame.\r
+vendu à l'unité\r
+🚨Allergènes: lactose, sésame
+\r
+💥Chaque nigiri est confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1f8e6e995.jpeg> ;
+                    ns1:name "SUSHI avocat cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, saumon\r
+🚨allergènes: poisson\r
+Vendu à l’unité\r
+💥Chaque nigiri est confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1efc48b1a.jpeg> ;
+                    ns1:name "SUSHI saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.45" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, saumon, fromage frais, sésame.\r
+vendu à l'unité.\r
+🚨Allergènes: poisson, sésame
+\r
+💥Chaque nigiri est confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1f4d945b7.jpeg> ;
+                    ns1:name "SUSHI saumon cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.60" ] ] ;
+            ns1:name "🍣SUSHIS🍣" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "5 ou 8 belles tranches de notre saumon au choix" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/5a/655a22c77e906.jpeg> ;
+                    ns1:name "SASHIMI saumon" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.20" ] ] ;
+            ns1:name "🐟SASHIMI🐟" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "⬜SERVIETTES EN PAPIER" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:name "🥢BAGUETTES EN BOIS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "fourchette et/ou cuillère en bois selon ce qui est commandé." ;
+                    ns1:name "🍴COUVERTS EN BOIS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€0.00" ] ] ;
+            ns1:name "🌍EN AS-TU BESOIN?🌐" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, feuille de riz, salade, saumon, fromage frais, menthe. \r
+🚨Allergènes: poisson, lactose""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654de7486ff9e.jpeg> ;
+                    ns1:name "GREEN saumon cheese menthe" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.35" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, feuille de riz, salade, avocat, fromage frais\r
+🚨Allergènes: lactose
+\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d0db994144.jpeg> ;
+                    ns1:name "GREEN avocat cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, feuille de riz, salade, saumon, avocat, fromage frais\r
+🚨Allergènes: poisson, lactose
+\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/54/6554f04d75316.jpeg> ;
+                    ns1:name "GREEN saumon avocat cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.45" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, feuille de riz, salade, thon cuit, mayonnaise, avocat\r
+🚨Allergènes: poisson, œuf, moutarde
+\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d210ca1c79.jpeg> ;
+                    ns1:name "GREEN thon cuit avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, feuille de riz, salade, saumon, avocat. \r
+🚨Allergènes: poisson
+\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d2098d634a.jpeg> ;
+                    ns1:name "GREEN saumon avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, feuille de riz, salade, poulet pané, avocat\r
+🚨Allergènes: poisson, gluten
+\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/52/655272c90752a.jpeg> ;
+                    ns1:name "GREEN poulet pané avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ] ;
+            ns1:name "☘️GREEN ROLLS☘️" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, saumon, fromage frais\r
+🚨allergènes: lactose
+\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d1b51140a0.jpeg> ;
+                    ns1:name "WHITE cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, saumon, avocat, fromage frais.\r
+🚨allergènes: poisson, lactose
+\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/54/6554f6fa402f4.jpeg> ;
+                    ns1:name "WHITE saumon avocat cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, saumon, avocat.\r
+🚨allergènes: poisson
+\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/54/6554f6a116b53.jpeg> ;
+                    ns1:name "WHITE saumon avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ] ;
+            ns1:name "❄️WHITE ROLLS❄️" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """6 pièces\r
+Notre Rollito Pollito🐤 est un california préparé avec du poulet pané croustillant, du cheddar fondant, du guacamole onctueux et des nachos croustillants.""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/62/c5/62c598651d241.jpeg> ;
+                    ns1:name "🐤POLLITO" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Notre Rollito🌿 Veganito est un california roll  6 pièces préparé avec du tofu bio à la japonaise, du guacamole onctueux, des tranches de concombre frais et des oignons frits croustillants." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/62/c5/62c57eb6c12a2.jpeg> ;
+                    ns1:name "🌿VEGANITO" ;
+                    ns1:nutrition "Peanuts",
+                        "Sesame seeds",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, algue, sésame, avocat, concombre, carotte\r
+🚨Allergènes: sésame\r
+vendu par 6 pièces""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/49/6549332475ba4.jpeg> ;
+                    ns1:name "CALIFORNIA AVOCAT CONCOMBRE CAROTTE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Notre Rollito Salmoncito🐟 est un california roll, 6 pièces, préparé avec du saumon cru frais, du creamcheese crémeux, des tranches de concombre croquant et des oignons frits croustillants." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/62/c5/62c57f7319344.jpeg> ;
+                    ns1:name "🍥SALMONCITO" ;
+                    ns1:nutrition "Fish",
+                        "Soybeans" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.90" ] ] ;
+            ns1:name "✨CRÉATIONS ORIGINALES" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """🔸Base riz sushi vinaigré, saumon cru, avocat, creamcheese, concombre, edamame, mangue et oignons frits.\r
+🚨Allergènes: poisson, gluten, lactose, soja\r
+💡La sauce au choix est mise à part, on te conseille la sauce soja sucrée.""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/54/6554b55219ff6.jpeg> ;
+                    ns1:name "🐟SAUMON Poké" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Nouvelle recette!\r
+🔸Base riz sushi vinaigré, creamcheese, carottes râpées, salade, concombre, courgettes grillées marinées, nachos, sauce au choix à part. 🚨Allergènes: lactose, sulfites\r
+💡On te conseille la sauce aigre douce.""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/49/65492ee8505a8.jpeg> ;
+                    ns1:name "🌱VEGETA Poké" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """✨Crée ton propre pokébowl selon tes préférences ! 🧑‍🍳
+\r
+Sur une base de riz sushi, sélectionne 1 protéine💪,3 crudités🥬, un twist🌀et 1 ingrédient topping💫.
+\r
+👉profite d'une expérience sur mesure avec notre Pokébowl Création, adapté à tes goûts et préférences😉""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/49/65493e24f1d45.jpeg> ;
+                    ns1:name "🤘POKÉBOWL CRÉATION" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """🔸Base riz sushi vinaigré, gyozas (poulet curry ou légumes), salade, carottes râpées, dès d'avocat, concombre, oignon cébette en topping. \r
+🚨Allergènes: gluten, sésame, + soja si gyozas légumes\r
+ ℹ️ 3 gyozas en petite faim, 4 gyozas en taille classique \r
+💡Sauce au choix à part, on te conseille la sauce teriyaki.""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/49/6549191097650.jpeg> ;
+                    ns1:name "🥟GYOZA  Poké" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """🔹Base de riz vinaigré, saumon tartare* délicatement assaisonné, salade, carottes râpées, guacamole maison, chou rouge, un peu de coriandre fraîche et d'oignons frits croustillants en topping.\r
+🚨Allergènes: poisson, soja, sésame, gluten \r
+💡La sauce est servi à part, on te recommande la sauce soja sucrée maison.\r
+ ℹ️* Le saumon tartare est préparé dans une sauce maison à base de sauce soja et de sésame, offrant une combinaison harmonieuse d'umami et de notes de noisette.😋""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/49/654930fe3cc73.jpeg> ;
+                    ns1:name "🔴JAPAN Poké" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """💥Nouvelle recette \r
+🔹Base riz vinaigré sushi, tofu, carottes râpées, salade, chou rouge, edamame, dès d'avocat, tranches de pommes, oignons frits, sauce au choix, à part. \r
+🚨Allergènes: soja, gluten \r
+💡on te conseille la sauce aigre douce ou soja sucrée maison.""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/49/65493a0361a4d.jpeg> ;
+                    ns1:name "🌿VEGANO Poké" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€11.90" ] ] ;
+            ns1:name "🥗POKÉBOWLS🥗" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """🌟Découvre notre formule gourmande comprenant un Sushi-Burrito au choix ou ton Sushi-Burrito sur mesure.
+\r
+😋Accompagne le de nos nachos croustillants, que tu peux déguster avec du guacamole maison ou du cheddar fondant selon tes préférences.
+\r
+🥤Enfin, rafraîchis toi avec une boisson de ton choix parmi notre sélection.""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/50/6550b68eac39c.jpeg> ;
+                    ns1:name "🌯🥤🌮SUSHI-BURRITO + BOISSON + NACHOS" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """🌟Découvre notre formule gourmande comprenant un pokébowl au choix OU ton pokébowl sur mesure.
+\r
+🥤Rafraîchis toi avec une boisson de ton choix parmi notre sélection.
+\r
+😋 Enfin, terminez sur une note sucrée avec notre dessert gourmand !""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/50/6550b62a0a933.jpeg> ;
+                    ns1:name "🥗🥤🧁POKÉBOWL + BOISSON + DESSERT" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.90" ] ] ;
+            ns1:name "⚡LES FORMULES⚡" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, algue, sésame, saumon, avocat\r
+🚨Allergènes: poisson, sésame
+\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d0b4c51b3b.jpeg> ;
+                    ns1:name "CALI saumon avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, sésame, algue, avocat, fromage frais\r
+🚨Allergène: sésame, lactose
+\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d0a5601600.jpeg> ;
+                    ns1:name "CALI avocat cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, algue, sésame, saumon, avocat, fromage frais\r
+🚨Allergènes: poisson, sésame, lactose
+\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d0b7360bba.jpeg> ;
+                    ns1:name "CALI saumon  avocat cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, algue, thon cuit, mayonnaise, avocat\r
+🚨allergènes: poisson, oeuf, moutarde, lactose
+\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d0bd2789f2.jpeg> ;
+                    ns1:name "CALI thon cuit avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, algue, sésame, avocat, concombre, fromage frais\r
+🚨allergènes: sésame, lactose\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d0a9589d9b.jpeg> ;
+                    ns1:name "CALI avocat concombre cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, algue, sésame, avocat, concombre, pomme\r
+🚨Allergènes: sésame""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d0af37e3fb.jpeg> ;
+                    ns1:name "CALI avocat concombre pomme" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, algue, saumon, fromage frais\r
+🚨Allergènes: poisson, lactose\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d0ba987763.jpeg> ;
+                    ns1:name "CALI saumon cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, algue, oignons frits, saumon, avocat.\r
+🚨allergènes: gluten, poisson
+\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d0bf55551f.jpeg> ;
+                    ns1:name "CALI tofu avocat concombre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.70" ] ] ;
+            ns1:name "🍥CALI ROLLS🍥" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, algue, oignons frits, saumon, fromage frais.\r
+🚨allergènes: gluten, poisson, lactose
+\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d0d492a9f3.jpeg> ;
+                    ns1:name "CRUNCHY saumon cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, algue, oignons frits, thon cuit, mayonnaise maison, avocat.\r
+🚨allergènes: gluten, poisson, œuf, moutarde
+\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d0d6b77448.jpeg> ;
+                    ns1:name "CRUNCHY thon cuit avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.40" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, oignons frits, avocat, concombre, mayonnaise piquante vegan.\r
+🚨allergènes: gluten
+\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d0cdad91cf.jpeg> ;
+                    ns1:name "CRUNCHY avocat concombre mayo piquante" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, algue, oignons frits, saumon, avocat.\r
+🚨allergènes: gluten, poisson
+\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d0d26009fb.jpeg> ;
+                    ns1:name "CRUNCHY saumon avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, algue, oignons frits, poulet pané, avocat.\r
+🚨allergènes: gluten
+\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d0d00088cc.jpeg> ;
+                    ns1:name "CRUNCHY poulet pané avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.30" ] ] ;
+            ns1:name "🤩CRUNCHY ROLLS🤩" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/63/61/63611082055ec.jpeg> ;
+                    ns1:name "🥥Crémeux graines de chia au coulis de fruits" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Découvre notre délicieux cookie aux pépites de chocolat noir et aux morceaux de noisettes, avec un irrésistible cœur fondant au chocolat et à la noisette.
+\r
+😋Un régal à déguster à tout moment de la journée !""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/62/5a/625a6ad9ce5f2.jpeg> ;
+                    ns1:name "COOKIE CHOCOLAT & NOISETTES" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Eggs",
+                        "Milk",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Dégustez notre délicieux dessert à base de yaourt grec , coulis de mangue, morceaux de mangue juteuse et granola croustillant aux noix." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/64/63/64638ef2ad416.jpeg> ;
+                    ns1:name "🍨Yaourt Mango Granola aux noix" ;
+                    ns1:nutrition "Cereals containing gluten",
+                        "Milk",
+                        "Peanuts",
+                        "Tree nuts" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """✌️Vendus tièdes par lot de 2 pièces, ils offrent une texture moelleuse et une saveur exquise.\r
+🚨Allergènes: soja, œuf, lactose, gluten""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/49/6549672be034c.jpeg> ;
+                    ns1:name "🍡PERLES COCO" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.10" ] ] ;
+            ns1:name "🍪DESSERTS🍪" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, algue, thon cuit, mayonnaise\r
+🚨allergènes: poisson, oeuf moutarde, lactose
+\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d0a18ae094.jpeg> ;
+                    ns1:name "BLACK thon cuit" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, concombre, fromage frais\r
+🚨Allergène: lactose\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d09853bd43.jpeg> ;
+                    ns1:name "BLACK concombre cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, algue, avocat
+\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d08c38aacd.jpeg> ;
+                    ns1:name "BLACK avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.10" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, algue, saumon, fromage frais\r
+🚨Allergènes: poisson, lactose\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d09f343a94.jpeg> ;
+                    ns1:name "BLACK saumon cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, algue, concombre
+\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d093bdf8f3.jpeg> ;
+                    ns1:name "BLACK concombre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, algue, avocat, fromage frais\r
+🚨Allergènes: lactose
+\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d09662cff6.jpeg> ;
+                    ns1:name "BLACK avocat cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ] ;
+            ns1:name "😎BLACK ROLLS😎" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Les gyozas aux légumes sont de délicieuses bouchées japonaises remplies d'une garniture végétarienne frits à la poêle. Ils sont vendues en portions de 3 ou 5 pièces nappées de sauce teriyaki, oignons cébettes et de graines de sésame. \r
+🚨Allergènes: gluten, soja, sésame""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/49/65493837d56e5.jpeg> ;
+                    ns1:name "🥟GYOZAS LÉGUMES" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Les gyozas au poulet curry sont des bouchées japonaises farcies de poulet haché mélangé à des épices de curry et cuits à la poêle. Ils sont vendues en portions de 3 ou 5 pièces nappées de sauce teriyaki, oignons cébettes et graines de sésame. \r
+🚨Allergènes: sésame, soja""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/49/6549387435e76.jpeg> ;
+                    ns1:name "🥟GYOZAS POULET CURRY" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Les algues wakamé, légèrement croquantes, sont agrémentées de graines de sésame grillées pour apporter une note de richesse et de texture. \r
+🪸Une salade légère et nutritive, parfaite pour accompagner ton sushi-burrito ou ton poké. Un choix rafraîchissant pour les amateurs de cuisine japonaise et les amateurs de saveurs exotiques.\r
+🚨Allergènes: sésame""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4a/654a3daf662a0.jpeg> ;
+                    ns1:name "🪸SALADE DE WAKAMÉ" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Dégustez notre salade verte accompagnée d'une délicieuse sauce Caesar, d'oignons rouges croquants et de croûtons croustillants. Une combinaison fraîche et savoureuse qui réveillera vos papilles. 🚨Allergènes: lactose, gluten,oeuf" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/49/654940e553b07.jpeg> ;
+                    ns1:name "🥬SALADE VERTE" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Nachos accompagnés d'un guacamole maison." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4a/654a26339697c.jpeg> ;
+                    ns1:name "✨🥑Nachos Guacamole" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Découvre nos chips de maïs sont accompagnés d'une portion de cheddar fondant!" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4a/654a358de4b05.jpeg> ;
+                    ns1:name "✨🧀Nachos Cheddar" ;
+                    ns1:nutrition "Milk" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Savourez notre bol de riz vinaigré, un délice japonais classique." ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/49/6549640b048ca.jpeg> ;
+                    ns1:name "🍚GOHAN 御飯" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Soupe Miso maison avec tofu soyeux. Une délicieuse soupe qui ouvre l'appétit! \r
+🚨allergènes: poisson, gluten, soja""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4a/654a6b20cfbb1.jpeg> ;
+                    ns1:name "SOUPE MISO MAISON" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ] ;
+            ns1:name "🍟ACCOMPANEMENTS🍟" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """6 sushi saumon, 6 cali saumon avocat, 6 green saumon avocat\r
+🚨Allergènes: poisson, sésame
+\r
+💥Chaque sushi est confectionné minute pour garantir toute la fraîcheur des ingrédients.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/54/6554f428dfb45.jpeg> ;
+                    ns1:name "🥷RONIN 浪人 [18 pièces]" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€24.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6 cali avocat concombre pomme, 6 cali tofu avocat concombre, 6 black concombre, 6 green avocat fromage frais\r
+🚨Allergènes: sésame, lactose
+\r
+💥Chaque sushi est confectionné minute pour garantir toute la fraîcheur des ingrédients.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4e/654e3002ed1b7.jpeg> ;
+                    ns1:name "🤖GUNDAM ガンダム [24 pièces]" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "6 crispy saumon fromage frais, 6 cali saumon avocat, 6 green saumon avocat, 6 black avocat 🚨Allergènes: poisson, lactose, gluten, sésame  💥Chaque sushi est confectionné minute pour garantir toute la fraîcheur des ingrédients.💥" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/55/6555ffec2830b.jpeg> ;
+                    ns1:name "🀄SHOGI 将棋 [24 pièces]" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€25.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """3 sashimi saumon, 3 sushi saumon, 6 cali saumon avocat, 6 black saumon\r
+🚨Allergènes: poisson, sésame
+\r
+💥Chaque sushi est confectionné minute pour garantir toute la fraîcheur des ingrédients.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/54/6554f38e44570.jpeg> ;
+                    ns1:name "🌆CITY POP シティ・ポップ [18 pièces]" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """10 sushis saumon\r
+🚨Allergènes: poisson
+\r
+💥Chaque sushi est confectionné minute pour garantir toute la fraîcheur des ingrédients.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4e/654e30d186a7b.jpeg> ;
+                    ns1:name "🌳BONZAI 盆栽  [10 pièces]" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6 cali avocat fromage frais, 6 cali avocat concombre pomme, 6 black avocat\r
+🚨Allergènes: lactose, sésame
+\r
+💥Chaque sushi est confectionné minute pour garantir toute la fraîcheur des ingrédients.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/55/6555ffc633c6a.jpeg> ;
+                    ns1:name "⛩️DARUMA だるま [18 pièces]" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """6 pink saumon fromage frais, 6 cali saumon avocat, 6 black saumon, 6 green saumon avocat\r
+🚨Allergènes: poisson, sésame
+\r
+💥Chaque sushi est confectionné minute pour garantir toute la fraîcheur des ingrédients.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/54/6554f52db6557.jpeg> ;
+                    ns1:name "🪕SHAMISEN 三味線 [24 pièces]" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.90" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """3 sushi saumon, 6 cali saumon avocat, 6 black saumon\r
+🚨Allergènes: poisson, sésame
+\r
+💥Chaque sushi est confectionné minute pour garantir toute la fraîcheur des ingrédients.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/54/6554f363816e7.jpeg> ;
+                    ns1:name "🥹WASABI わさび  [15 pièces]" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€18.90" ] ] ;
+            ns1:name "🍱PLATEAUX🍱" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, avocat enrobé de saumon\r
+🚨Allergènes: poisson
+\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d2337f36f9.jpeg> ;
+                    ns1:name "PINK saumon avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, avocat, fromage frais, enrobé de  saumon\r
+🚨Allergènes: poisson, lactose
+\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d23b0a0524.jpeg> ;
+                    ns1:name "PINK saumon avocat cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, cheese, enrobé de saumon\r
+🚨Allergènes: poisson, lactose
+\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d23eb27167.jpeg> ;
+                    ns1:name "PINK saumon cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.10" ] ] ;
+            ns1:name "🦩PINK ROLLS🦩" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, oignons frits, thon cuit, mayonnaise, avocat.\r
+🚨allergènes: gluten, poisson, moutarde, œuf
+\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d22a846de5.jpeg> ;
+                    ns1:name "CRISPY thon cuit avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.35" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, oignons frits, saumon, fromage frais\r
+🚨allergènes: gluten, poisson, lactose
+\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d22cf8ff8f.jpeg> ;
+                    ns1:name "CRISPY saumon cheese" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description """Riz vinaigré, oignons frits, saumon, avocat.\r
+🚨allergènes: gluten, poisson
+\r
+💥Chaque rouleau est coupé en 6 pièces et confectionné minute pour garantir toute la fraîcheur des sushis.💥""" ;
+                    ns1:image <https://coursiersmontpellier.coopcycle.org/media/cache/product_thumbnail/65/4d/654d0c463a591.jpeg> ;
+                    ns1:name "CRISPY saumon avocat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.20" ] ] ;
+            ns1:name "🤯CRISPY ROLLS🤯" ] .
+

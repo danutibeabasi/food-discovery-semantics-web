@@ -1,0 +1,223 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lcr.coopcycle.org/api/restaurants/39> ns1:hasMenu <https://lcr.coopcycle.org/en/restaurant/39-yamyam-bistro-coreen#menu> .
+
+<https://lcr.coopcycle.org/en/restaurant/39-yamyam-bistro-coreen#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Salade au tofu frit ou au poulet épicé, accompagnée de sauce Yuzu, roquette, choux blancs, concombres, carottes, pommes et noix." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6da7a3c28.jpeg> ;
+                    ns1:name "Naingché" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.30" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Vermicelles de patate douce avec des légumes émincés et du bœuf mariné." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6cb0d0bff.jpeg> ;
+                    ns1:name "Japché" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.65" ] ] ;
+            ns1:name "Han Jeobsi - 한접시" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:name "Evian" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saveur au choix." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6b1801858.jpeg> ;
+                    ns1:name "Charitea" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.45" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Coca Cola 330ml" ;
+                    ns1:name "CocaCola" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6ddcad7f2.jpeg> ;
+                    ns1:name "Récolt 1" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saveur au choix." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6d21ebe7c.jpeg> ;
+                    ns1:name "Lemonaid" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.45" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6e2d983dd.jpeg> ;
+                    ns1:name "St. Pelligrino" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€2.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6dee9f5b6.jpeg> ;
+                    ns1:name "Récolt 2" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6dffd48bf.jpeg> ;
+                    ns1:name "Récolt 4" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.20" ] ] ;
+            ns1:name "Boissons" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6c2b1b627.jpeg> ;
+                    ns1:name "Financier au sesame noir" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.22" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6bbcbf9ca.jpeg> ;
+                    ns1:name "Croffle Fruits rouges" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6ba1c0f3f.jpeg> ;
+                    ns1:name "Croffle Banane Chocolat" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mousse vanille, compotée mangue passion et crumble de sablé breton" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6d774640c.jpeg> ;
+                    ns1:name "Mousse vanille" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Mousse caramel, compotée de pomme verte et crumble speculos" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6d634d02d.jpeg> ;
+                    ns1:name "Mousse caramel" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Saveur au choix." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6aeccc7e6.jpeg> ;
+                    ns1:name "Castella" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6bd097597.jpeg> ;
+                    ns1:name "Croffle nature" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6c3a2d012.jpeg> ;
+                    ns1:name "Financier au Yuzu" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€3.22" ] ] ;
+            ns1:name "Desserts - 디저트" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6b843c6a9.jpeg> ;
+                    ns1:name "CornDog" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.70" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d69feb692d.jpeg> ;
+                    ns1:name "Assortiment de fritures" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€22.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignets de legumes frits." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6cefaa1dc.jpeg> ;
+                    ns1:name "Jeon frits M" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Brochette de gâteaux de riz et de saucisses de Strasbourg frits." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6e14c4402.jpeg> ;
+                    ns1:name "So tok so tok" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.00" ] ] ;
+            ns1:name "Anju - 안주" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Tofu frit nappé de sauce au gingembre épicée, sucrée & salée, avec du riz & de la salade." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6e9758ea0.jpeg> ;
+                    ns1:name "Tofu Gang Jeong (P)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Porc pané accompagné de riz aux céréales, d'une salade de choux blancs à la sauce Yuzu, et de radis marinés." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6c03f0123.jpeg> ;
+                    ns1:name "Donkass" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Sauté de tofu, carottes, oignons & poireaux, avec du riz & de la salade." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6eb02638d.jpeg> ;
+                    ns1:name "Tofu sauté" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6d4cc3d31.jpeg> ;
+                    ns1:name "Maxi Dak Gang Jeong" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Riz accompagné de ses 6 légumes, d'un œuf sur le plat et de bœuf mariné (ou de tofu), avec une sauce pimentée ou de la sauce soja à l’huile de sésame." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6a8cc573f.jpeg> ;
+                    ns1:name "Bibimbap" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.52" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Viande de bœuf mariné, accompagnée de riz, de salade & de choux blancs à la sauce spéciale." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6ad1caf94.jpeg> ;
+                    ns1:name "Bulgogui" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.52" ] ] ;
+            ns1:name "Jeong Sik - 정식" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Vermicelles de patate douce avec des légumes émincés et du bœuf mariné." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6f96ed8fe.jpeg> ;
+                    ns1:name "Japché E" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6dc576d6d.jpeg> ;
+                    ns1:name "Naingché E" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Tofu frit nappé de sauce au gingembre épicée, sucrée et salée." ;
+                    ns1:name "Tofu Gang Jeong E" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.60" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Beignet de légumes (carotte, courgette, oignon, ciboulette asiatique, etc.)." ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6f7826bd2.jpeg> ;
+                    ns1:name "Jeon frit E" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€4.50" ] ] ;
+            ns1:name "Jeon Sik - 전식" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6c87d05ca.jpeg> ;
+                    ns1:name "Formule Dak Gang Jeong L" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€39.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Unavailable" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6c9d223bd.jpeg> ;
+                    ns1:name "Formule Dak Gang Jeong M" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€26.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "1 Corndog + 1 bière 25cl" ;
+                    ns1:image <https://lcr.coopcycle.org/media/cache/product_thumbnail/64/3d/643d6c6d7420a.jpeg> ;
+                    ns1:name "Formule Corndog" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.40" ] ] ;
+            ns1:name "Chimaek (formules) - 치맥" ] .
+

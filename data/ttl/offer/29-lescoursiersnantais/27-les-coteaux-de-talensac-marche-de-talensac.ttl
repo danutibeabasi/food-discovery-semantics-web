@@ -1,0 +1,158 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://lescoursiersnantais.coopcycle.org/api/restaurants/27> ns1:hasMenu <https://lescoursiersnantais.coopcycle.org/en/restaurant/27-les-coteaux-de-talensac-marche-de-talensac#menu> .
+
+<https://lescoursiersnantais.coopcycle.org/en/restaurant/27-les-coteaux-de-talensac-marche-de-talensac#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Agriculture Bio - Appellation Luberon - 2019 - 0,75L" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5e/b4/5eb46b9910a09.jpg> ;
+                    ns1:name "Château Fontvert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Agriculture Bio - Appellation : Coteaux Varois - 2019 - 0,75L" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5e/b4/5eb4726945480.jpg> ;
+                    ns1:name "Cuvée Marie" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.90" ] ] ;
+            ns1:name "Rosés" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Cépages : Merlot/Syrah/Carignan - Appellation : IGP Thongues - 2018 - 0,75L" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5e/b4/5eb4772b35d0a.jpg> ;
+                    ns1:name "La Croix Belle - Caringole" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Agriculture Bio - Cépage : Malbec - Appellation : Cahors - 2018 - 0,75L" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5e/b4/5eb469fedeb5d.jpg> ;
+                    ns1:name "Pur fruit du Causse" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€10.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cépage : Syrah - Appellation : IGP Oc - 2019 - 0,75L" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5e/b4/5eb46a2e57ff1.jpg> ;
+                    ns1:name "Rouge Cerise" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Agriculture Bio, Cépage Cinsault, Appellation : IGP Cevennes - 2019 - 0,75L" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5e/b4/5eb46a7cd5018.jpg> ;
+                    ns1:name "Freesia" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cépages : Cinsault /Syrah - Apellation : Igp Oc - 2019 - 0,75L" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5e/b4/5eb47029a3f3e.jpg> ;
+                    ns1:name "Le Quai A Raisin" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cépage : Grenache - Apellation : Ventoux -2019 - 0,75L" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5e/b4/5eb46ab9a225c.jpg> ;
+                    ns1:name "Château La Tuilière" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cépage : Pinot Noir - Appellation : IGP Loire - 2018 - 0,75L" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5e/b4/5eb46a5e64289.jpg> ;
+                    ns1:name "Chapitre - Rethoré Davy" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€6.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Agriculture Bio - Cépage : Cabernet - Apellation:  Saumur - 2019 - 0,75L" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5e/b4/5eb46b0c325f0.jpg> ;
+                    ns1:name "Clos Mazurique" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.00" ] ] ;
+            ns1:name "Rouges" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Agriculture Bio - Apellation : Coteaux Varois - 2019 - 5 Litres (cubi)" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5e/b4/5eb46bd6d7673.jpg> ;
+                    ns1:name "Château la Goujonne - rosé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€32.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cépage : Sauvignon/Chardonnay - Appellation IGP Loire - 2018 - 5 Litres (cubi)" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5e/b4/5eb46c8336f23.jpg> ;
+                    ns1:name "Chant' Grillon - Rethoré Davy - blanc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€19.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Apellation : St Chinian - 2019 - 5 Litres (cubi)" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5e/b4/5eb46cd9d86bc.jpg> ;
+                    ns1:name "Domaine de la Femme Allongée - rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€30.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Agriculture Bio - Appellation : IGP Bouches du Rhône - 2019 - 3 Litres (cubi)" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5e/b5/5eb56916e491a.jpg> ;
+                    ns1:name "Mas de Valériole - rosé" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Agriculture Bio - Apellation : IGP Bouches du Rhône - 2019 - 3 Litres (cubi)" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5e/b4/5eb46c1316cfa.jpg> ;
+                    ns1:name "Mas de Valériole - rouge" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€20.00" ] ] ;
+            ns1:name "Bag in box" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "Cépage : Chardonnay - Appellation : IGP Loire - 2018 - 0,75L" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5e/b4/5eb4733dc450f.jpg> ;
+                    ns1:name "Parcelles - Rethoré Davy" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cépage : Viognier - Apellation : IGP Oc - 2019 - 0,75L" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5e/b4/5eb46832e0c02.jpg> ;
+                    ns1:name "Désir Blanc" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Agriculture Bio - Cépage : Chenin - Appellation - Saumur - 2019 - 0,75L" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5e/b4/5eb469a01bbd9.jpg> ;
+                    ns1:name "Clos du Midi Arnaud Lambert" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Agriculture Bio - Cépage : Melon - Appellation : Muscadet -  2018 - 0,75L" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5e/b4/5eb4715882833.jpg> ;
+                    ns1:name "Muscadet \"M\"" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€7.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Agriculture Bio - Cépage : Melon - Appellation : Muscadet - 2018 - 0,75L" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5e/b4/5eb468dcba86b.jpg> ;
+                    ns1:name "Les Vignes du Bourg" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€8.20" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cépage : Sauvignon - Appellation : IGP Loire - 2018 - 0,75L" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5e/b4/5eb468081a4b8.jpg> ;
+                    ns1:name "Parcelles - Rethoré Davy" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€5.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Agriculture Bio - Cépage : Chenin, Apellation : Anjou - 2018 - 0,75L" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5e/b4/5eb46942a3848.jpg> ;
+                    ns1:name "Couleurs du Breuil" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Cépage : Chardonnay - Apellation : Orléans - 2018 - 0,75L" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5e/b4/5eb4690859f89.jpg> ;
+                    ns1:name "Clos Saint Fiacre" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€9.80" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Agriculture Bio - Cépage : Sauvignon - Appellation : Quincy - 2018 - 0,75L" ;
+                    ns1:image <https://lescoursiersnantais.coopcycle.org/media/cache/product_thumbnail/5e/b4/5eb4696f23b20.jpg> ;
+                    ns1:name "Domaine du Coudray" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€12.80" ] ] ;
+            ns1:name "Blancs" ] .
+

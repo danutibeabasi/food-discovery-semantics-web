@@ -1,0 +1,50 @@
+@prefix ns1: <http://schema.org/> .
+
+<https://sicklo.coopcycle.org/api/restaurants/36> ns1:hasMenu <https://sicklo.coopcycle.org/en/restaurant/36-l-inattendu#menu> .
+
+<https://sicklo.coopcycle.org/en/restaurant/36-l-inattendu#menu> a ns1:Menu ;
+    ns1:hasMenuSection [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "vin rouge selectionné pour vous  par notre sommelier MAXIME" ;
+                    ns1:name "AOC PERNAND VERGELESSES : Domaine Dubreuil-Fontaine" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€35.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "vin blanc selectionné pour vous  par notre sommelier MAXIME" ;
+                    ns1:name "AOC CHABLIS 1ER CRU : \"Montée de tonnerre\", William Nohan" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€35.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "champagne selectionné pour vous  par notre sommelier MAXIME" ;
+                    ns1:name "GOSSET GRANDE RÉSERVE BRUT champagne" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€45.00" ] ] ;
+            ns1:name "vin choisi par Maxime notre sommelier" ],
+        [ a ns1:MenuSection ;
+            ns1:hasMenuItem [ a ns1:MenuItem ;
+                    ns1:description "foie gras du domaine de la Limagne  au top" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/a9/61a92d3853354.jpeg> ;
+                    ns1:name "FOIE GRAS MI-CUIT À LA COUPE POUR VOS FÊTES (250 grammes)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€27.50" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "Les produits, d’ailleurs, parlons-en : ils sont la matière première qui nous permet de vous proposer un voyage riche en émotions. C’est avec eux que nous créons une alliance de nostalgie et de découverte. Un grand merci à tous nos agriculteurs de la région sans qui je ne pourrai vous régaler." ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/a9/61a92e9cd93b9.jpeg> ;
+                    ns1:name "DÉCOUVERTE RÉGIONALE EN TROIS PLATS  (commander un jour à l'avance merci)" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€35.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "omble élevé en eau de source et préparé par nos soins" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/a9/61a92e4b88659.jpeg> ;
+                    ns1:name "Omble chevalier fumé maison au bois de hêtre et chartreuse (280 grammes)" ;
+                    ns1:nutrition "Fish" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€14.00" ] ],
+                [ a ns1:MenuItem ;
+                    ns1:description "pour offrir ou pour se régaler" ;
+                    ns1:image <https://sicklo.coopcycle.org/media/cache/product_thumbnail/61/a9/61a92ddab6bc7.jpeg> ;
+                    ns1:name "Pâte de fruits de l'inattendu / ballotin de 250 gr" ;
+                    ns1:offers [ a ns1:Offer ;
+                            ns1:price "€15.00" ] ] ;
+            ns1:name "le menu gastronomique" ] .
+

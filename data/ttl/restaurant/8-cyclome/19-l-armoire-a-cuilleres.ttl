@@ -1,0 +1,43 @@
+@prefix ns1: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://cyclome.coopcycle.org/api/restaurants/19> a ns1:CafeOrCoffeeShop ;
+    ns1:address <https://cyclome.coopcycle.org/api/addresses/6693> ;
+    ns1:description """L’Armoire à cuillères se veut le refuge du gourmand, le repère du gourmet, la surprise de l’incrédule.\r
+\r
+Des pâtisseries maison gourmandes et des chocolats chauds aux saveurs intenses !\r
+\r
+# COMMANDES 24h À L'AVANCE  !\r
+\r
+## FRAIS DE LIVRAISON DÉGRESSIFS :\r
+### -2€ pour plus de 30€ d'achat\r
+### - 2€ supplémentaires pour plus de 50€ d'achat (soit -4€ au total)\r
+#### puis\r
+### - 2€ supplémentaires par tranche de 25€ d'achat au-delà de 50€""" ;
+    ns1:geo [ a ns1:GeoCoordinates ;
+            ns1:latitude 4.57783e+01 ;
+            ns1:longitude 3.08411e+00 ] ;
+    ns1:image <https://cyclome.coopcycle.org/media/cache/restaurant_thumbnail/61/54/615419e82cd82.jpg> ;
+    ns1:name "L'Armoire à cuillères" ;
+    ns1:openingHoursSpecification [ a ns1:OpeningHoursSpecification ;
+            ns1:closes "18:30" ;
+            ns1:dayOfWeek "Friday",
+                "Saturday",
+                "Thursday",
+                "Tuesday",
+                "Wednesday" ;
+            ns1:opens "10:00" ] ;
+    ns1:potentialAction [ a ns1:OrderAction ;
+            ns1:deliveryMethod "http://purl.org/goodrelations/v1#DeliveryModeOwnFleet" ;
+            ns1:target [ a ns1:EntryPoint ;
+                    ns1:actionPlatform "http://schema.org/DesktopWebPlatform" ;
+                    ns1:inLanguage "fr" ;
+                    ns1:urlTemplate "https://cyclome.coopcycle.org/en/restaurant/19-l-armoire-a-cuilleres" ] ] ;
+    ns1:sameAs <https://cyclome.coopcycle.org/en/restaurant/19-l-armoire-a-cuilleres> ;
+    ns1:url <https://cyclome.coopcycle.org/en/restaurant/19-l-armoire-a-cuilleres> .
+
+<https://cyclome.coopcycle.org/api/addresses/6693> a ns1:PostalAddress ;
+    ns1:name "L'Armoire à cuillères" ;
+    ns1:streetAddress "11 Rue des Chaussetiers, 63000 Clermont-Ferrand, France" ;
+    ns1:telephone "+33606060606" .
+
